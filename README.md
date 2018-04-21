@@ -1,0 +1,2 @@
+# Autoplugin
+Autoplugin for PSVITA
