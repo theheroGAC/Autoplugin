@@ -54,6 +54,7 @@ end
 
 	if buttons.square then
            if files.exists("ux0:tai/config_backup.txt") then files.rename("ux0:tai/config_backup.txt", "config.txt") end
+	   if files.exists("ur0:tai/config_backup.txt") then files.rename("ur0:tai/config_backup.txt", "config.txt") end
     	os.message("\Your config.txt file has been restored, the console will restart\n\nto apply the changes. The config_backup.txt file\n\nof Autoplugins has been removed!",0)
 		os.delay(2500)
 	buttons.homepopup(1)
