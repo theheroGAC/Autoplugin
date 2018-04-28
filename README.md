@@ -12,6 +12,8 @@ This tool allows you to install the following plugins with one click:
 - Vflux by Applelo
 - Repatch by dots-tb
 - NoAVLS by SilicaAndPina
+- ds3vita by xerpi
+- ds4vita by xerpi
 # Credits:
  Thank you
 - Team OneLua
@@ -23,3 +25,4 @@ This tool allows you to install the following plugins with one click:
 - joel16
 - dots-tb
 - SilicaAndPina
+- chronoss09
