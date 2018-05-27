@@ -21,6 +21,7 @@ This tool allows you to install the following plugins with one click(on ux0 or u
 - TheFloW
 - nowrep
 - frangarcj
+- xyzz
 - Rinnegatamante
 - Applelo
 - joel16
