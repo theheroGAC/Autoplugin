@@ -1,9 +1,10 @@
 # Autoplugin
 Autoplugin for PSVITA
-This tool allows you to install the following plugins with one click:
+This tool allows you to install the following plugins with one click(on ux0 or ur0 or ur0 for SD2VITA):
 - DownloadEnabler
 - NoNpDrm
 - NoPsmDrm
+- gamesd
 - Shellbat
 - Vitabright (only 3.60 and PSVITA)
 - pngshot
