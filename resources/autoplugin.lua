@@ -15,7 +15,7 @@ while true do
 	screen.print(25,420,"Press CROSS to install Plugins on ux0:tai",1,color.white,color.blue)
        screen.print(25,440,"Press CIRCLE to install Plugins on ur0:tai.",1,color.white,color.black)
        screen.print(25,460,"Press TRIANGLE to install Plugins on PSTV ONLY(ux0:tai).",1,color.white,color.green)
-	screen.print(25,480,"Press SQUARE to restore the old config.txt file.",1,color.white,color.blue)
+	screen.print(25,480,"Press SQUARE to enter the extra tool.",1,color.white,color.blue)
 	screen.print(15,500,"Press START to exit.",1,color.white,color.red)
 
 	screen.flip() -- Show Buff
@@ -53,12 +53,7 @@ end
 
 
 	if buttons.square then
-           if files.exists("ux0:tai/config_backup.txt") then files.rename("ux0:tai/config_backup.txt", "config.txt") end
-	   if files.exists("ur0:tai/config_backup.txt") then files.rename("ur0:tai/config_backup.txt", "config.txt") end
-    	os.message("\Your config.txt file has been restored, the console will restart\n\nto apply the changes. The config_backup.txt file\n\nof Autoplugins has been removed!",0)
-		os.delay(2500)
-	buttons.homepopup(1)
-	power.restart()
+dofile("resources/extra.lua")	
 end
 
 	if buttons.released.start then break end -- Exit
