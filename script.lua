@@ -9,12 +9,4 @@
 	
 ]]
 
-dofile("git/shared.lua")
-if __UPDATE == 1 then
-	local wstrength = wlan.strength()
-	if wstrength then
-		if wstrength > 55 then dofile("git/updater.lua") end
-	end
-end
-
 dofile("resources/autoplugin.lua")									
