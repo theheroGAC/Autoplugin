@@ -4,7 +4,7 @@ This tool allows you to install the following plugins with one click(on ux0 or u
 - DownloadEnabler
 - NoNpDrm
 - NoPsmDrm
-- gamesd
+- PSVita-StorageMgr
 - Shellbat
 - Vitabright (only 3.60 and PSVITA)
 - pngshot
@@ -19,6 +19,7 @@ This tool allows you to install the following plugins with one click(on ux0 or u
  Thank you
 - Team OneLua
 - TheFloW
+- CelesteBlue
 - nowrep
 - frangarcj
 - xyzz
