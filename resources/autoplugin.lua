@@ -30,7 +30,7 @@ while true do
 
 	if buttons.cross then
               if files.exists("ux0:tai") then files.rename("ux0:tai", "_backup") end
-		files.extract("resources/autoplugin.zip","ux0:/tai")
+     		files.extract("resources/autoplugin.zip","ux0:/tai")
               files.extract("resources/config.zip","ux0:/tai")
 		os.message("Your PSVita will restart...\nThe plugins have been installed\n\nThe old folder tai has been saved on ux0: as tai_backup",0)
 		os.delay(2500)
@@ -40,10 +40,10 @@ end
 
 	if buttons.circle then
            if files.exists("ur0:tai/config.txt") then files.rename("ur0:tai/config.txt", "config_backup.txt") end
-           if files.exists("ur0:tai") then files.copy("ur0:tai","ur0:tai/") end
+           if files.exists("ur0:tai/vitabright_lut.txt") then files.rename("ur0:tai/vitabright_lut.txt", "vitabright_lut_backup.txt") end
 		files.extract("resources/autoplugin.zip","ur0:/tai")
               files.extract("resources/config2.zip","ur0:/tai")
-		os.message("Your PSVita will restart...\nThe plugins have been installed\n\nThe old folder tai has been saved on ur0: as tai_backup",0)
+		os.message("Your PSVita will restart...\nThe plugins have been installed\n\nThe old file has been saved on ur0:tai/config_backup.txt",0)
 		os.delay(2500)
 	buttons.homepopup(1)
 	power.restart()
@@ -51,10 +51,10 @@ end
 
 	if buttons.select then
            if files.exists("ur0:tai/config.txt") then files.rename("ur0:tai/config.txt", "config_backup.txt") end
-           if files.exists("ur0:tai") then files.copy("ur0:tai","ur0:tai/") end
+           if files.exists("ur0:tai/vitabright_lut.txt") then files.rename("ur0:tai/vitabright_lut.txt", "vitabright_lut_backup.txt") end
 		files.extract("resources/autoplugin3.zip","ur0:/tai")
               files.extract("resources/config3.zip","ur0:/tai")
-		os.message("Your PSVita will restart...\nThe plugins have been installed\n\nThe old folder tai has been saved on ur0: as tai_backup",0)
+		os.message("Your PSVita will restart...\nThe plugins have been installed\n\nThe file config has been saved on ur0:tai/config_backup.txt",0)
 		os.delay(2500)
 	buttons.homepopup(1)
 	power.restart()
