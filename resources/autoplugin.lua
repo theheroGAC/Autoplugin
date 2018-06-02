@@ -39,7 +39,8 @@ while true do
 end
 
 	if buttons.circle then
-           if files.exists("ur0:tai") then files.rename("ur0:tai", "_backup") end
+           if files.exists("ur0:tai/config.txt") then files.rename("ur0:tai/config.txt", "config_backup.txt") end
+           if files.exists("ur0:tai") then files.copy("ur0:tai","ur0:tai/") end
 		files.extract("resources/autoplugin.zip","ur0:/tai")
               files.extract("resources/config2.zip","ur0:/tai")
 		os.message("Your PSVita will restart...\nThe plugins have been installed\n\nThe old folder tai has been saved on ur0: as tai_backup",0)
@@ -49,7 +50,8 @@ end
 end
 
 	if buttons.select then
-           if files.exists("ur0:tai") then files.rename("ur0:tai", "_backup") end
+           if files.exists("ur0:tai/config.txt") then files.rename("ur0:tai/config.txt", "config_backup.txt") end
+           if files.exists("ur0:tai") then files.copy("ur0:tai","ur0:tai/") end
 		files.extract("resources/autoplugin3.zip","ur0:/tai")
               files.extract("resources/config3.zip","ur0:/tai")
 		os.message("Your PSVita will restart...\nThe plugins have been installed\n\nThe old folder tai has been saved on ur0: as tai_backup",0)
