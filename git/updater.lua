@@ -14,10 +14,18 @@ function screen.flip()
 		local version = UPDATE_PORT:pop()
 		local major = (version >> 0x18) & 0xFF;
 		local minor = (version >> 0x10) & 0xFF;
+		update = image.load("git/updater/update.png")
+
+		if update then update:blit(0,0)
+		elseif back then back:blit(0,0) end
+		screen.flip()
 
 		if os.message(string.format("%s v %s", APP_PROJECT, string.format("%X.%02X",major, minor).." is now available.\n".."     Do you want to update the application?"), 1) == 1 then
 			buttons.homepopup(0)
-			if back then back:blit(0,0) end
+
+			if update then update:blit(0,0)
+			elseif back then back:blit(0,0) end
+
 			local url = string.format("https://github.com/%s/%s/releases/download/%s/%s", APP_REPO, APP_PROJECT, string.format("%X.%02X",major, minor), APP_PROJECT..".vpk")
 			local path = "ux0:data/"..APP_PROJECT..".vpk"
 			local onAppInstallOld = onAppInstall
@@ -26,7 +34,10 @@ function screen.flip()
 			end
 			local onNetGetFileOld = onNetGetFile
 			function onNetGetFile(size,written,speed)
-				if back then back:blit(0,0) end
+
+				if update then update:blit(0,0)
+				elseif back then back:blit(0,0) end
+
 				screen.print(10,10,"Downloading Update...")
 				screen.print(10,30,"Size: "..tostring(size).." Written: "..tostring(written).." Speed: "..tostring(speed).."Kb/s")
 				screen.print(10,50,"Percent: "..math.floor((written*100)/size).."%")
@@ -41,6 +52,7 @@ function screen.flip()
 				files.mkdir("ux0:/data/1luapkg")
 				files.copy("eboot.bin","ux0:/data/1luapkg")
 				files.copy("git/updater/script.lua","ux0:/data/1luapkg/")
+				files.copy("git/updater/update.png","ux0:/data/1luapkg/")
 				files.copy("git/updater/param.sfo","ux0:/data/1luapkg/sce_sys/")
 				game.installdir("ux0:/data/1luapkg")
 				files.delete("ux0:/data/1luapkg")
