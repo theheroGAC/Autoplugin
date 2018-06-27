@@ -199,14 +199,22 @@ function tai.put(index, id, path, pos)
 	local idx = tai.find(index, id, path)
 
 	if idx then -- Nothing to do... :O ?
-		--tai[index].gameid[id].prx[idx].path = 
+		--tai[index].gameid[id].prx[idx].path =
+
 	elseif tai[index].gameid[id] then -- Exists the id then have any prx!
+
 		idx = #tai[index].gameid[id].prx
+
 		if pos then
 			table.insert(tai[index].raw, tai[index].gameid[id].line[1]+pos, path)
 		else
-			table.insert(tai[index].raw, tai[index].gameid[id].prx[idx].line+1, path)
+			if idx > 0 then
+				table.insert(tai[index].raw, tai[index].gameid[id].prx[idx].line+1, path)
+			else
+				table.insert(tai[index].raw, tai[index].gameid[id].line[1] + 1, path)
+			end
 		end
+
 		tai.parse(index) -- Refresh all ids lines etc..
 		--tai.debug()
 		return true
@@ -217,7 +225,6 @@ function tai.put(index, id, path, pos)
 		tai.parse(index) -- Refresh all ids lines etc..
 		--tai.debug()
 		return true
-
 	end
 
 	return false

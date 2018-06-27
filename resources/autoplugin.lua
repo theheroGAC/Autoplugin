@@ -27,7 +27,7 @@ if tai[__UR0].exist then loc = 2 end
 plugins = {
 
 	{ name = "Gamesd by xyzz (Only in ur0:tai/config.txt)", path = "gamesd.skprx", section = "KERNEL" },
-	{ name = "NoNpDrm by TheFl0w", path = "nonpdrm.skprx", section = "KERNEL" },
+	{ name = "NoNpDrm by TheFloW", path = "nonpdrm.skprx", section = "KERNEL" },
 
 	{ name = "NoPsmDrm by frangarcj", path = "nopsmdrm.skprx", section = "KERNEL" },
 	{ name = "Vitabright by devnoname120(only for 3.60)", path = "vitabright.skprx", section = "KERNEL", configuration = "vitabright_lut.txt" },
@@ -36,9 +36,9 @@ plugins = {
 	{ name = "ds3vita by xerpi", path = "ds3vita.skprx", section = "KERNEL" },
 	{ name = "ds4vita by xerpi", path = "ds4vita.skprx", section = "KERNEL" },
 	{ name = "Kuio by Rinnegatamante", path = "kuio.skprx", section = "KERNEL" },
-	{ name = "Adrenaline by TheFl0w(fix double touch)", path = "ux0:app/PSPEMUCFW/sce_module/adrenaline_kernel.skprx", section = "KERNEL" },
+	{ name = "Adrenaline by TheFloW(fix double touch)", path = "ux0:app/PSPEMUCFW/sce_module/adrenaline_kernel.skprx", section = "KERNEL" },
 
-	{ name = "DownloadEnabler by TheFl0w", path = "download_enabler.suprx", section = "main" },
+	{ name = "DownloadEnabler by TheFloW", path = "download_enabler.suprx", section = "main" },
 	{ name = "Shellbat by nowrep", path = "shellbat.suprx", section = "main" },
 	{ name = "pngshot by xyzz", path = "pngshot.suprx", section = "main" },
 	{ name = "Vflux by Applelo", path = "vFlux.suprx", section = "main" },
@@ -179,6 +179,12 @@ while true do
 	--------------------------	Controls	--------------------------
 	if buttons.up or buttons.analogly < -60 then scroll:up() end
 	if buttons.down or buttons.analogly > 60 then scroll:down() end
+
+	if buttons.released.l or buttons.released.r then
+		if tai[__UX0].exist and tai[__UR0].exist then
+			if loc == __UX0 then loc = __UR0 else loc = __UX0 end
+		end
+	end
 
 	--if buttons.triangle then update_adrenaline(change) end
 

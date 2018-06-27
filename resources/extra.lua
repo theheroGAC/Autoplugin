@@ -21,14 +21,14 @@ function update_adrenaline(flag)
 			files.extract("resources/plugins/adrenaline.zip","ux0:app/PSPEMUCFW/sce_module")
 			os.message("Your PSVita will restart...\n\n Adrenaline has been update",0)
 			os.delay(2500)
-			--power.restart()
+			power.restart()
 		end
 
 		if buttons.released.start then
 			if flag then
 				os.message("Your PSVita will restart")
 				os.delay(2500)
-				--power.restart()
+				power.restart()
 			end
 			os.exit()
 		end -- Exit
