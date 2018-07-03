@@ -6,7 +6,8 @@ tai.load()
 
 if not files.exists("ux0:tai/config.txt") and not files.exists("ur0:tai/config.txt") then
 	if tostring(os.swversion()) == "3.60" then files.copy("resources/config_360/config.txt", "ur0:tai/")
-	elseif tostring(os.swversion()) == "3.65" then files.copy("resources/config_365/config.txt", "ur0:tai/") end
+	elseif tostring(os.swversion()) == "3.65" then files.copy("resources/config_365/config.txt", "ur0:tai/") 
+       elseif tostring(os.swversion()) == "3.68" then files.copy("resources/config_368/config.txt", "ur0:tai/")end
 	tai.load()
 end
 
@@ -27,6 +28,7 @@ if tai[__UR0].exist then loc = 2 end
 plugins = {
 
 	{ name = "Gamesd by xyzz (Only in ur0:tai/config.txt)", path = "gamesd.skprx", section = "KERNEL" },
+	{ name = "PSVita-StorageMgr by CelesteBlue (Only in ur0:tai/config.txt)", path = "storagemgr.skprx", section = "KERNEL" },
 	{ name = "NoNpDrm by TheFloW", path = "nonpdrm.skprx", section = "KERNEL" },
 
 	{ name = "NoPsmDrm by frangarcj", path = "nopsmdrm.skprx", section = "KERNEL" },
@@ -40,6 +42,7 @@ plugins = {
 
 	{ name = "DownloadEnabler by TheFloW", path = "download_enabler.suprx", section = "main" },
 	{ name = "Shellbat by nowrep", path = "shellbat.suprx", section = "main" },
+       { name = "Shellsecbat by OperationNT414C", path = "shellsecbat.suprx", section = "main" },
 	{ name = "pngshot by xyzz", path = "pngshot.suprx", section = "main" },
 	{ name = "Vflux by Applelo", path = "vFlux.suprx", section = "main" },
 
@@ -53,14 +56,14 @@ function install_plugins(nplugin, partition)
 	local path_tai = locations[partition].."tai/"
 
 	--Copy Extra-plugins or configurations
-	if nplugin == 4 then
+	if nplugin == 5 then
 		files.copy(path_plugins..plugins[nplugin].configuration, path_tai)
-	elseif nplugin == 15 then
-		files.copy(path_plugins..plugins[9].path, path_tai)
+	elseif nplugin == 17 then
+		files.copy(path_plugins..plugins[10].path, path_tai)
 	end
 
 	--Install plugin to TAI folder
-	if nplugin == 12 then
+	if nplugin == 13 then
 		files.copy(path_plugins..plugins[nplugin].path, "ux0:tai/")								--Shellbat.suprx work in ux0
 	else
 		files.copy(path_plugins..plugins[nplugin].path, path_tai)
@@ -69,13 +72,13 @@ function install_plugins(nplugin, partition)
 	--Insert plugin to Config
 	if nplugin == 1 then
 		tai.put(partition, plugins[nplugin].section, path_tai..plugins[nplugin].path, 1)		--Gamesd.skprx first
-	elseif nplugin == 10 then																	--Adrenaline ux0:app
+	elseif nplugin == 11 then																	--Adrenaline ux0:app
 		tai.put(partition, plugins[nplugin].section, plugins[nplugin].path )
-	elseif nplugin == 12 then
+	elseif nplugin == 13 then
 		tai.put(partition, plugins[nplugin].section, "ux0:tai/"..plugins[nplugin].path )
-	elseif nplugin == 15 then																	--VSH menu need kuio.skprx
+	elseif nplugin == 17 then																	--VSH menu need kuio.skprx
 		tai.put(partition, plugins[nplugin].section, path_tai..plugins[nplugin].path)
-		tai.put(partition, plugins[9].section, path_tai..plugins[9].path)
+		tai.put(partition, plugins[10].section, path_tai..plugins[10].path)
 	else
 		tai.put(partition, plugins[nplugin].section, path_tai..plugins[nplugin].path)
 	end
@@ -94,7 +97,8 @@ function Reload_ur0_config()
 		if tai[__UX0].exist then files.copy(tai[__UX0].path, "ur0:tai/")
 		else
 			if tostring(os.swversion()) == "3.60" then files.copy("resources/config_360/config.txt", "ur0:tai/")
-			elseif tostring(os.swversion()) == "3.65" then files.copy("resources/config_365/config.txt", "ur0:tai/") end
+			elseif tostring(os.swversion()) == "3.65" then files.copy("resources/config_365/config.txt", "ur0:tai/") 
+                    elseif tostring(os.swversion()) == "3.68" then files.copy("resources/config_368/config.txt", "ur0:tai/")end
 		end
 	end
 
@@ -110,7 +114,7 @@ function plugins_installation(sel)
 		Reload_ur0_config()
 	end
 
-	if sel == 4 and tostring(os.swversion()) != "3.60" then os.message("Vitabright only for 3.60")
+	if sel == 5 and tostring(os.swversion()) != "3.60" then os.message("Vitabright only for 3.60")
 	else
 		if files.exists(tai[loc].path) then
 			install_plugins(sel, loc)
