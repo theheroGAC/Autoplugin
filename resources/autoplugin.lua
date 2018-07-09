@@ -35,8 +35,8 @@ plugins = {
 	{ name = "Vitabright by devnoname120(only for 3.60)", path = "vitabright.skprx", section = "KERNEL", configuration = "vitabright_lut.txt" },
 	{ name = "NoAVLS by SilicaAndPina", path = "noavls.skprx", section = "KERNEL" },
 	{ name = "Repatch by dots", path = "repatch.skprx", section = "KERNEL" },
-	{ name = "ds3vita by xerpi", path = "ds3vita.skprx", section = "KERNEL" },
-	{ name = "ds4vita by xerpi", path = "ds4vita.skprx", section = "KERNEL" },
+	{ name = "ds3vita by xerpi (only for 3.60)", path = "ds3vita.skprx", section = "KERNEL" },
+	{ name = "ds4vita by xerpi (only for 3.60)", path = "ds4vita.skprx", section = "KERNEL" },
 	{ name = "Kuio by Rinnegatamante", path = "kuio.skprx", section = "KERNEL" },
 	{ name = "Adrenaline by TheFloW(fix double touch)", path = "ux0:app/PSPEMUCFW/sce_module/adrenaline_kernel.skprx", section = "KERNEL" },
 
@@ -44,7 +44,7 @@ plugins = {
 	{ name = "Shellbat by nowrep", path = "shellbat.suprx", section = "main" },
        { name = "Shellsecbat by OperationNT414C", path = "shellsecbat.suprx", section = "main" },
 	{ name = "pngshot by xyzz", path = "pngshot.suprx", section = "main" },
-	{ name = "Vflux by Applelo", path = "vFlux.suprx", section = "main" },
+	{ name = "Vflux by Applelo (only for 3.60)", path = "vFlux.suprx", section = "main" },
 
 	{ name = "PSV-VSH MENU by joel16", path = "vsh.suprx", section = "ALL" },-- Need kuio.skprx
 
