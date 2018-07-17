@@ -8,6 +8,9 @@
 	Collaborators: BaltazaR4 & Wzjk.
 ]]
 
+--Show splash ...
+splash.zoom("resources/splash.png")
+
 color.loadpalette()
 
 local wstrength = wlan.strength()

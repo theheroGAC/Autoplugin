@@ -4,10 +4,12 @@
 __UX0, __UR0 = 1,2
 tai.load()
 
-if not files.exists("ux0:tai/config.txt") and not files.exists("ur0:tai/config.txt") then
-	if tostring(os.swversion()) == "3.60" then files.copy("resources/config_360/config.txt", "ur0:tai/")
-	elseif tostring(os.swversion()) == "3.65" then files.copy("resources/config_365/config.txt", "ur0:tai/") 
-       elseif tostring(os.swversion()) == "3.68" then files.copy("resources/config_368/config.txt", "ur0:tai/")end
+_oncopy = true
+version = tostring(os.swversion())
+if not files.exists(tai_ux0_path) and not files.exists(tai_ur0_path) then
+	if version == "3.60" then files.copy("resources/config_360/config.txt", "ur0:tai/")
+		elseif version == "3.65" then files.copy("resources/config_365/config.txt", "ur0:tai/") 
+			elseif version == "3.68" then files.copy("resources/config_368/config.txt", "ur0:tai/")	end
 	tai.load()
 end
 
@@ -19,7 +21,7 @@ if back then back:blit(0,0) end
 	message_wait("Creating Config_backups.txt")
 os.delay(1500)
 
-local change, multi, path_plugins = false,false, "resources/plugins/"
+local change, path_plugins = false, "resources/plugins/"
 local locations = { "ux0:", "ur0:", }
 
 local loc, toinstall = 1,0
@@ -27,104 +29,109 @@ if tai[__UR0].exist then loc = 2 end
 
 plugins = {
 
-	{ name = "Gamesd by xyzz (Only in ur0:tai/config.txt)", path = "gamesd.skprx", section = "KERNEL" },
-	{ name = "PSVita-StorageMgr by CelesteBlue (Only in ur0:tai/config.txt)", path = "storagemgr.skprx", section = "KERNEL" },
-	{ name = "NoNpDrm by TheFloW", path = "nonpdrm.skprx", section = "KERNEL" },
+--Descripcion, Name_plugin, secction, Posicin in config.txt, Plugin Extra, Configuracion Extra
 
-	{ name = "NoPsmDrm by frangarcj", path = "nopsmdrm.skprx", section = "KERNEL" },
-	{ name = "Vitabright by devnoname120(only for 3.60)", path = "vitabright.skprx", section = "KERNEL", configuration = "vitabright_lut.txt" },
-	{ name = "NoAVLS by SilicaAndPina", path = "noavls.skprx", section = "KERNEL" },
-	{ name = "Repatch by dots", path = "repatch.skprx", section = "KERNEL" },
-	{ name = "ds3vita by xerpi (only for 3.60)", path = "ds3vita.skprx", section = "KERNEL" },
-	{ name = "ds4vita by xerpi (only for 3.60)", path = "ds4vita.skprx", section = "KERNEL" },
-	{ name = "Kuio by Rinnegatamante", path = "kuio.skprx", section = "KERNEL" },
-	{ name = "Adrenaline by TheFloW(fix double touch)", path = "ux0:app/PSPEMUCFW/sce_module/adrenaline_kernel.skprx", section = "KERNEL" },
+--Kernel
+--{ name = "Gamesd by xyzz					 (Only in ur0:tai/config.txt)", path = "gamesd.skprx",   section = "KERNEL", pos = 1,  path2 = false, section2 = false, config = false },
+{ name = "PSVita-StorageMgr by CelesteBlue v2.1 (Only in ur0:tai/config.txt)", path = "storagemgr.skprx", section = "KERNEL", pos = 1,  path2 = false, section2 = false, config = "storage_config.txt" },
 
-	{ name = "DownloadEnabler by TheFloW", path = "download_enabler.suprx", section = "main" },
-	{ name = "Shellbat by nowrep", path = "shellbat.suprx", section = "main" },
-       { name = "Shellsecbat by OperationNT414C", path = "shellsecbat.suprx", section = "main" },
-	{ name = "pngshot by xyzz", path = "pngshot.suprx", section = "main" },
-	{ name = "Vflux by Applelo (only for 3.60)", path = "vFlux.suprx", section = "main" },
+{ name = "NoNpDrm by TheFloW", path = "nonpdrm.skprx", section = "KERNEL", pos = false,  path2 = false, section2 = false, config = false },
+{ name = "NoPsmDrm by frangarcj", path = "nopsmdrm.skprx", section = "KERNEL", pos = false,  path2 = false, section2 = false, config = false },
+{ name = "Vitabright by devnoname120(only for 3.60)", path = "vitabright.skprx", section = "KERNEL", pos = false,  path2 = false, section2 = false, config = "vitabright_lut.txt" },
+{ name = "NoAVLS by SilicaAndPina", path = "noavls.skprx", section = "KERNEL", pos = false,  path2 = false, section2 = false, config = false },
+{ name = "Repatch by dots v2.70", path = "repatch.skprx", section = "KERNEL", pos = false,  path2 = false, section2 = false, config = false },
+{ name = "ds3vita by xerpi Beta3", path = "ds3vita.skprx", section = "KERNEL", pos = false,  path2 = false, section2 = false, config = false },
+{ name = "ds4vita by xerpi v1.2", path = "ds4vita.skprx", section = "KERNEL", pos = false,  path2 = false, section2 = false, config = false },
+{ name = "Kuio by Rinnegatamante", path = "kuio.skprx", section = "KERNEL", pos = false,  path2 = false, section2 = false, config = false },
+{ name = "Adrenaline by TheFloW (Fix double touch)", path = "adrenaline_kernel.skprx", section = "KERNEL", pos = false,  path2 = false, section2 = false, config = false },
 
-	{ name = "PSV-VSH MENU by joel16", path = "vsh.suprx", section = "ALL" },-- Need kuio.skprx
+--Main
+{ name = "DownloadEnabler by TheFloW v5.0", path = "download_enabler.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
+{ name = "Shellbat by nowrep v0.9", path = "shellbat.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
+{ name = "Shellsecbat by OperationNT414C v0.8", path = "shellsecbat.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
+{ name = "pngshot by xyzz v1.2", path = "pngshot.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
+{ name = "Vflux by Applelo v0.5", path = "vFlux.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
+
+--All
+{ name = "PSV-VSH MENU by joel16 v3.2", path = "vsh.suprx", section = "ALL", pos = false,  path2 = "kuio.skprx", section2 = "KERNEL", config = false },-- Need kuio.skprx
 
 }
 
-function install_plugins(nplugin, partition)
-
-	local path_config = locations[partition].."tai/config.txt"
-	local path_tai = locations[partition].."tai/"
-
-	--Copy Extra-plugins or configurations
-	if nplugin == 5 then
-		files.copy(path_plugins..plugins[nplugin].configuration, path_tai)
-	elseif nplugin == 17 then
-		files.copy(path_plugins..plugins[10].path, path_tai)
-	end
-
-	--Install plugin to TAI folder
-	if nplugin == 13 then
-		files.copy(path_plugins..plugins[nplugin].path, "ux0:tai/")								--Shellbat.suprx work in ux0
-	else
-		files.copy(path_plugins..plugins[nplugin].path, path_tai)
-	end
-
-	--Insert plugin to Config
-	if nplugin == 1 then
-		tai.put(partition, plugins[nplugin].section, path_tai..plugins[nplugin].path, 1)		--Gamesd.skprx first
-	elseif nplugin == 11 then																	--Adrenaline ux0:app
-		tai.put(partition, plugins[nplugin].section, plugins[nplugin].path )
-	elseif nplugin == 13 then
-		tai.put(partition, plugins[nplugin].section, "ux0:tai/"..plugins[nplugin].path )
-	elseif nplugin == 17 then																	--VSH menu need kuio.skprx
-		tai.put(partition, plugins[nplugin].section, path_tai..plugins[nplugin].path)
-		tai.put(partition, plugins[10].section, path_tai..plugins[10].path)
-	else
-		tai.put(partition, plugins[nplugin].section, path_tai..plugins[nplugin].path)
-	end
-
-	tai.sync(partition)
-	change = true
-	buttons.homepopup(0)
-	if not multi then os.message(plugins[nplugin].name.."\n\nhave been installed") end
-
-end
-
-function Reload_ur0_config()
-	loc = __UR0
-
-	if not tai[__UR0].exist then
-		if tai[__UX0].exist then files.copy(tai[__UX0].path, "ur0:tai/")
-		else
-			if tostring(os.swversion()) == "3.60" then files.copy("resources/config_360/config.txt", "ur0:tai/")
-			elseif tostring(os.swversion()) == "3.65" then files.copy("resources/config_365/config.txt", "ur0:tai/") 
-                    elseif tostring(os.swversion()) == "3.68" then files.copy("resources/config_368/config.txt", "ur0:tai/")end
-		end
-	end
-
-	--Update configs
-	tai.load()
-
-	if tai[__UX0].exist then files.delete(tai[__UX0].path) end
-
-end
-
 function plugins_installation(sel)
-	if sel == 1 then						--gamesd only in ur0:tai/config.txt and not ux0:tai/config.txt
-		Reload_ur0_config()
-	end
 
-	if sel == 5 and tostring(os.swversion()) != "3.60" then os.message("Vitabright only for 3.60")
+	if plugins[sel].path == "vitabright.skprx" and version != "3.60" then os.message("Vitabright only for 3.60")
 	else
+
+		--Pos = 1 Plugins SD2Vita
+		if plugins[sel].pos == 1 then			--Plugins for SD2VITA in ur0:tai/config.txt and not ux0:tai/config.txt
+			loc = __UR0
+
+			--No ur0:tai/config.txt
+			if not tai[__UR0].exist then
+
+				if tai[__UX0].exist then files.copy(tai[__UX0].path, "ur0:tai/") --If exist ux0:tai/config.txt copy to ur0:tai
+				else
+					if version == "3.60" then files.copy("resources/config_360/config.txt", "ur0:tai/")	--Copy defect for config.txt
+					else files.copy("resources/config_365/config.txt", "ur0:tai/") end					--3.65/3.67/3.68 same config.txt
+				end
+
+			end
+
+			--Update configs
+			tai.load()
+
+			-- Delete ux0:tai/config.txt
+			if tai[__UX0].exist then files.delete(tai[__UX0].path) end
+
+		end
+
 		if files.exists(tai[loc].path) then
-			install_plugins(sel, loc)
+
+			local path_tai = locations[loc].."tai/"
+			--if plugins[sel].path == "shellbat.suprx" then path_tai = "ux0:tai/" end--ShelbatR8 its work in ux0/ur0
+
+			--Install plugin to tai folder
+			files.copy(path_plugins..plugins[sel].path, path_tai)
+
+			--Install Extra Plugin
+			if plugins[sel].path2 then files.copy(path_plugins..plugins[sel].path2, path_tai) end
+
+			--Install Especial Config for the plugin
+			if plugins[sel].config then files.copy(path_plugins..plugins[sel].config, path_tai) end
+
+			--Insert plugin to Config
+			local path_in_config = path_tai..plugins[sel].path
+			if plugins[sel].path == "adrenaline_kernel.skprx" then path_in_config = "ux0:app/PSPEMUCFW/sce_module/adrenaline_kernel.skprx" end
+
+			if plugins[sel].pos then
+				tai.put(loc, plugins[sel].section, path_in_config, 1)				--Sd2VITA first
+			else
+				if plugins[sel].section2 then
+					tai.put(loc, plugins[sel].section2, path_tai..plugins[sel].path2)
+					tai.put(loc, plugins[sel].section,  path_in_config)
+				else
+					tai.put(loc, plugins[sel].section, path_in_config)
+				end
+			end
+
+			--Write
+			tai.sync(loc)
+
+			change = true
+			buttons.homepopup(0)
+
+			if back then back:blit(0,0) end
+			message_wait(plugins[sel].name.."\n\nhave been installed")
+			os.delay(600)
+
 		else
 			os.message("Missing config")
 		end
 	end
+
 end
 
-local limit = 14
+local limit = 13
 local scroll = newScroll(plugins,limit)
 
 buttons.interval(10,10)
@@ -136,7 +143,7 @@ while true do
 	screen.print(10,50,"List of plugins ready to install:",1,color.white)
 
 	screen.print(10,440,"Press X to Install the plugin(s)",1,color.white,color.black)
-       screen.print(10,460,"Press Square to select the plugin (s) to install",1,color.white,color.black)
+       screen.print(10,460,"Press Square to select the plugin(s) to install",1,color.white,color.black)
 	screen.print(10,480,"Press Triangle to Install ALL the plugins",1,color.white,color.black)
        screen.print(10,500,"Press Select to clean selected plugins",1,color.white,color.black)
 	screen.print(10,522,"Press START to exit",1,color.white,color.red)
@@ -158,10 +165,10 @@ while true do
 
 		if i == scroll.sel then	draw.fillrect(0,y-2,945,23,color.green:a(90)) end
 
-		screen.print(30,y, plugins[i].name,1.0,color.white,color.blue,__ALEFT)
+		screen.print(35,y, plugins[i].name, 1.0,color.white,color.blue,__ALEFT)
 
 		if plugins[i].inst then
-			screen.print(5,y,"->",1,color.white,color.green)
+			screen.print(3,y,"-->",1,color.white,color.green)
 		end
 
 		y+=26
@@ -170,7 +177,7 @@ while true do
 	---- Draw Scroll Bar
 	local ybar,hbar = 80, (limit*26)-2
 	draw.fillrect(950,ybar-2,8,hbar,color.shine)
-	if scroll.maxim >= limit then -- Draw Scroll Bar
+	if scroll.maxim >= limit then
 		local pos_height = math.max(hbar/scroll.maxim, limit)
 		--Bar Scroll
 		draw.fillrect(950, ybar-2 + ((hbar-pos_height)/(scroll.maxim-1))*(scroll.sel-1), 8, pos_height, color.new(0,255,0))
@@ -190,15 +197,15 @@ while true do
 		end
 	end
 
-	--if buttons.triangle then update_adrenaline(change) end
-
 	--Install selected plugins
 	if buttons.cross then
 		if toinstall <= 1 then
 			plugins_installation(scroll.sel)
 		else
 			for i=1, scroll.maxim do
-				if plugins[i].inst then	plugins_installation(i)	end
+				if plugins[i].inst then
+					plugins_installation(i)
+				end
 			end
 			os.delay(50)
 		end
@@ -220,7 +227,6 @@ while true do
 
 	--Install ALL plugins
 	if buttons.triangle then
-		multi=true
 		for i=1,scroll.maxim do
 			plugins_installation(i)
 		end
@@ -229,7 +235,7 @@ while true do
 	--Exit
 	if buttons.released.start then
 		if change then
-			os.message("Your PSVita will restart.\n\nThe config.txt backup has been saved to\n\n"..locations[loc].."tai/tai_backup/config.txt",0)
+			os.message("Your PSVita will restart.\n\nThe config.txt backup has been saved to\n\n"..locations[loc].."tai/config_backup.txt",0)
 			os.delay(250)
 			power.restart()
 		end

@@ -40,6 +40,7 @@ function onExtractFiles(size,written,file,totalsize,totalwritten)
 end
 
 -- CallBack CopyFiles
+--[[
 function onCopyFiles(size,written,file)
 
 	if back then back:blit(0,0) end
@@ -51,6 +52,7 @@ function onCopyFiles(size,written,file)
 
 	screen.flip()
 end
+]]
 
 -- CallBack DeleteFiles
 function onDeleteFiles(file)
