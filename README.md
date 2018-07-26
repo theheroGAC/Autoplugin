@@ -1,11 +1,15 @@
 # Autoplugin
 Autoplugin for PSVITA
-This tool allows you to install the following plugins with one click(on ux0 or ur0 or ur0 for SD2VITA):
+This tool allows you to install/uninstall the following plugins with one click(on ux0 or ur0 or ur0 for SD2VITA):
 - DownloadEnabler
 - NoNpDrm
 - NoPsmDrm
 - PSVita-StorageMgr
 - Shellbat
+- Shellsecbat
+- Oclockvita
+- NoTrophyMsg
+- NoLockScreen
 - Vitabright (only 3.60 and PSVITA)
 - pngshot
 - Kuio by Rinnegatamante
@@ -28,4 +32,5 @@ This tool allows you to install the following plugins with one click(on ux0 or u
 - joel16
 - dots-tb
 - SilicaAndPina
+- OperationNT414C
 - chronoss09
