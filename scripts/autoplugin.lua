@@ -7,7 +7,7 @@ plugins = {
 --{ name = "Gamesd by xyzz					 (Only in ur0:tai/config.txt)", path = "gamesd.skprx",   section = "KERNEL", pos = 1,  path2 = false, section2 = false, config = false },
 { name = "PSVita-StorageMgr by CelesteBlue v2.1", path = "storagemgr.skprx", section = "KERNEL", pos = 1,  path2 = false, section2 = false, config = "storage_config.txt" },
 
-{ name = "NoNpDrm by TheFloW", path = "nonpdrm.skprx", section = "KERNEL", pos = false,  path2 = false, section2 = false, config = false },
+{ name = "NoNpDrm by TheOfficialFloW", path = "nonpdrm.skprx", section = "KERNEL", pos = false,  path2 = false, section2 = false, config = false },
 { name = "NoPsmDrm by frangarcj", path = "nopsmdrm.skprx", section = "KERNEL", pos = false,  path2 = false, section2 = false, config = false },
 { name = "Vitabright by devnoname120(only for 3.60)", path = "vitabright.skprx", section = "KERNEL", pos = false,  path2 = false, section2 = false, config = "vitabright_lut.txt" },
 { name = "NoAVLS by SilicaAndPina", path = "noavls.skprx", section = "KERNEL", pos = false,  path2 = false, section2 = false, config = false },
@@ -15,10 +15,12 @@ plugins = {
 { name = "ds3vita by xerpi Beta3", path = "ds3vita.skprx", section = "KERNEL", pos = false,  path2 = false, section2 = false, config = false },
 { name = "ds4vita by xerpi v1.2", path = "ds4vita.skprx", section = "KERNEL", pos = false,  path2 = false, section2 = false, config = false },
 { name = "Kuio by Rinnegatamante", path = "kuio.skprx", section = "KERNEL", pos = false,  path2 = false, section2 = false, config = false },
-{ name = "Adrenaline by TheFloW (Fix double touch)", path = "adrenaline_kernel.skprx", section = "KERNEL", pos = false,  path2 = false, section2 = false, config = false },
+{ name = "Adrenaline by TheOfficialFloW (Fix double touch)", path = "adrenaline_kernel.skprx", section = "KERNEL", pos = false,  path2 = false, section2 = false, config = false },
 
 --Main
-{ name = "DownloadEnabler by TheFloW v5.0", path = "download_enabler.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
+{ name = "Download Enabler by TheOfficialFloW (VitaTweaks)", path = "download_enabler.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
+{ name = "NoLockScreen by TheOfficialFloW (VitaTweaks)", path = "nolockscreen.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
+{ name = "NoTrophyMsg by TheOfficialFloW (VitaTweaks)", path = "notrophymsg.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
 { name = "Shellbat by nowrep v0.9", path = "shellbat.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
 { name = "Shellsecbat by OperationNT414C v0.8", path = "shellsecbat.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
 { name = "pngshot by xyzz v1.2", path = "pngshot.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },

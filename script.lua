@@ -33,7 +33,7 @@ dofile("scripts/autoplugin.lua")
 dofile("scripts/pmanager.lua")
 dofile("scripts/npdrm.lua")
 
-local menu = { "Install Plugins", "Uninstall Plugins", "Install plugin npdrm free from Qwik", "Install config.txt for pkgj", "Exit" }
+local menu = { "Install Plugins", "Uninstall Plugins", "Install plugin npdrm free from Qwik", "Install config.txt for PKGJ v0.31", "Exit" }
 local scrollm,sel = newScroll(menu,#menu),1
 
 change = false
