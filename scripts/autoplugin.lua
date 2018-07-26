@@ -22,7 +22,7 @@ plugins = {
 { name = "NoLockScreen by TheOfficialFloW (VitaTweaks)", path = "nolockscreen.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
 { name = "NoTrophyMsg by TheOfficialFloW (VitaTweaks)", path = "notrophymsg.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
 { name = "Shellbat by nowrep v0.9", path = "shellbat.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
-{ name = "Shellsecbat by OperationNT414C v0.8", path = "shellsecbat.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
+{ name = "Shellsecbat by OperationNT414C v0.9", path = "shellsecbat.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
 { name = "pngshot by xyzz v1.2", path = "pngshot.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
 { name = "Vflux by Applelo v0.5", path = "vFlux.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
 
