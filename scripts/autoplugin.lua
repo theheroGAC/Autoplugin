@@ -5,7 +5,7 @@ plugins = {
 
 --Kernel
 --{ name = "Gamesd by xyzz					 (Only in ur0:tai/config.txt)", path = "gamesd.skprx",   section = "KERNEL", pos = 1,  path2 = false, section2 = false, config = false },
-{ name = "PSVita-StorageMgr by CelesteBlue v2.1", path = "storagemgr.skprx", section = "KERNEL", pos = 1,  path2 = false, section2 = false, config = "storage_config.txt" },
+{ name = "PSVita-StorageMgr by CelesteBlue v3.0", path = "storagemgr.skprx", section = "KERNEL", pos = 1,  path2 = false, section2 = false, config = "storage_config.txt" },
 
 { name = "NoNpDrm by TheOfficialFloW", path = "nonpdrm.skprx", section = "KERNEL", pos = false,  path2 = false, section2 = false, config = false },
 { name = "NoPsmDrm by frangarcj", path = "nopsmdrm.skprx", section = "KERNEL", pos = false,  path2 = false, section2 = false, config = false },
@@ -19,8 +19,9 @@ plugins = {
 
 --Main
 { name = "Download Enabler by TheOfficialFloW (VitaTweaks)", path = "download_enabler.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
-{ name = "NoLockScreen by TheOfficialFloW (VitaTweaks)", path = "nolockscreen.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
+{ name = "NoLockScreen v2 by TheOfficialFloW (VitaTweaks)", path = "nolockscreen.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
 { name = "NoTrophyMsg by TheOfficialFloW (VitaTweaks)", path = "notrophymsg.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
+{ name = "Custom Warning v2 by TheOfficialFloW (VitaTweaks)", path = "custom_warning.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
 { name = "Shellbat by nowrep v0.9", path = "shellbat.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
 { name = "Shellsecbat by OperationNT414C v0.9", path = "shellsecbat.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
 { name = "pngshot by xyzz v1.2", path = "pngshot.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
