@@ -23,7 +23,7 @@ function pluginsmanager()
 
 		screen.print(480,20,"Plugins Manager",1,color.red, 0x0, __ACENTER)
 
-		if not tai[partition].exist then screen.print(480,260,"No config.txt found at: "..locations[partition],1,color.red, 0x0, __ACENTER)
+		if not tai[partition].exist then screen.print(480,270,"No config.txt found at: "..locations[partition],1.3,color.red, 0x0, __ACENTER)
 		else
 
 			screen.print(10,460,"Press X to uninstall plugin",1,color.white,color.black)
@@ -44,10 +44,16 @@ function pluginsmanager()
 			screen.print(15,40, "*"..section[sel_section],1,color.yellow, 0x0)
 
 			if tai[partition].gameid[ section[sel_section] ] then
-				local y = 75
+
+				local y,ccolor = 75,color.white
+
 				for i=scrollp.ini, scrollp.lim do
-					if i == scrollp.sel then draw.fillrect(15,y-4,945,24,color.green:a(90)) end
-					screen.print(20,y, tai[partition].gameid[ section[sel_section] ].prx[i].path:lower())
+					if i == scrollp.sel then
+						draw.fillrect(15,y-4,945,24,color.green:a(90))
+					end
+
+					if not files.exists(tai[partition].gameid[ section[sel_section] ].prx[i].path) then ccolor = color.orange end
+					screen.print(20,y, tai[partition].gameid[ section[sel_section] ].prx[i].path,1,ccolor,0x0)
 					y+=27
 				end
 			end
@@ -61,7 +67,7 @@ function pluginsmanager()
 				draw.fillrect(5, ybar-2 + ((hbar-pos_height)/(scrollp.maxim-1))*(scrollp.sel-1), 8, pos_height, color.new(0,255,0))
 			end
 
-			screen.print(480,370,locations[partition].."tai/config.txt",1,color.green, 0x0, __ACENTER)
+			screen.print(480,410,locations[partition].."tai/config.txt",1.3,color.green, 0x0, __ACENTER)
 		end
 
 		screen.print(10,522,"Press O to go back to menu",1,color.white,color.black)

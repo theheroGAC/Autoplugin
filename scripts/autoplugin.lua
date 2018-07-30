@@ -19,9 +19,10 @@ plugins = {
 
 --Main
 { name = "Download Enabler by TheOfficialFloW (VitaTweaks)", path = "download_enabler.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
-{ name = "NoLockScreen v2 by TheOfficialFloW (VitaTweaks)", path = "nolockscreen.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
+{ name = "NoLockScreen by TheOfficialFloW (VitaTweaks)", path = "nolockscreen.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
 { name = "NoTrophyMsg by TheOfficialFloW (VitaTweaks)", path = "notrophymsg.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
-{ name = "Custom Warning v2 by TheOfficialFloW (VitaTweaks)", path = "custom_warning.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
+{ name = "Custom Warning by TheOfficialFloW (VitaTweaks)", path = "custom_warning.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = "custom_warning.txt" },
+
 { name = "Shellbat by nowrep v0.9", path = "shellbat.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
 { name = "Shellsecbat by OperationNT414C v0.9", path = "shellsecbat.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
 { name = "pngshot by xyzz v1.2", path = "pngshot.suprx", section = "main", pos = false,  path2 = false, section2 = false, config = false },
@@ -40,9 +41,8 @@ loc, toinstall = 1,0
 tai.load()
 
 if not files.exists(tai_ux0_path) and not files.exists(tai_ur0_path) then
-	if version == "3.60" then files.copy("resources/config_360/config.txt", "ur0:tai/")
-		elseif version == "3.65" then files.copy("resources/config_365/config.txt", "ur0:tai/") 
-			elseif version == "3.68" then files.copy("resources/config_368/config.txt", "ur0:tai/")	end
+	if version == "3.60" then files.copy("resources/config_360/config.txt", "ur0:tai/")	--Copy defect for config.txt
+	else files.copy("resources/config_365/config.txt", "ur0:tai/") end					--3.65/3.67/3.68 same config.txt
 	tai.load()
 end
 if tai[__UR0].exist then loc = 2 end
@@ -92,43 +92,86 @@ function plugins_installation(sel)
 
 		if files.exists(tai[loc].path) then
 
-			local path_tai = locations[loc].."tai/"
+			local install = true
 
-			--Install plugin to tai folder
-			files.copy(path_plugins..plugins[sel].path, path_tai)
-
-			--Install Extra Plugin
-			if plugins[sel].path2 then files.copy(path_plugins..plugins[sel].path2, path_tai) end
-
-			--Install Especial Config for the plugin
-			if plugins[sel].config then files.copy(path_plugins..plugins[sel].config, path_tai) end
-
-			--Insert plugin to Config
-			local path_in_config = path_tai..plugins[sel].path
-			if plugins[sel].path == "adrenaline_kernel.skprx" then path_in_config = "ux0:app/PSPEMUCFW/sce_module/adrenaline_kernel.skprx" end
-
-			if plugins[sel].pos then
-				tai.put(loc, plugins[sel].section, path_in_config, 1)				--Sd2VITA first
-			else
-				if plugins[sel].section2 then
-					tai.put(loc, plugins[sel].section2, path_tai..plugins[sel].path2)
-					tai.put(loc, plugins[sel].section,  path_in_config)
-				else
-					tai.put(loc, plugins[sel].section, path_in_config)
+			--Checking plugin Batt (only 1 of them)
+			if plugins[sel].path == "shellbat.suprx" then
+				local idx = tai.find(loc, "main", "shellsecbat.suprx")
+				if idx then
+					if os.message("Plugin shellsecbat detected !!!\n\nInstall shellbat instead and uninstall shellsecbat ?",1) == 1 then
+						tai.del(loc, "main", "shellsecbat.suprx")
+					else
+						install = false
+					end
+				end
+			elseif plugins[sel].path == "shellsecbat.suprx" then
+				local idx = tai.find(loc, "main", "shellbat.suprx")
+				if idx then
+					if os.message("Plugin shellbat detected !!!\n\nInstall shellsecbat instead and uninstall shellbat ?",1) == 1 then
+						tai.del(loc, "main", "shellbat.suprx")
+					else
+						install = false
+					end
 				end
 			end
 
-			if plugins[sel].path == "vsh.suprx" then files.delete("ur0:/data:/vsh/") end
-			
-			--Write
-			tai.sync(loc)
+			if install then
+				local path_tai = locations[loc].."tai/"
 
-			change = true
-			buttons.homepopup(0)
+				--Install plugin to tai folder
+				files.copy(path_plugins..plugins[sel].path, path_tai)
 
-			if back then back:blit(0,0) end
-			message_wait(plugins[sel].name.."\n\nhave been installed")
-			os.delay(1000)
+				--Install Extra Plugin
+				if plugins[sel].path2 then files.copy(path_plugins..plugins[sel].path2, path_tai) end
+
+				--Install Especial Config for the plugin
+				if plugins[sel].config then
+					if plugins[sel].config == "custom_warning.txt" then
+						local text = osk.init("Text for Custom Warning", "Put text here")
+						if not text or (string.len(text)<=0) then text = os.nick() end
+
+						files.copy(path_plugins..plugins[sel].config, path_tai)
+
+						local fp = io.open(path_tai..plugins[sel].config, "wb")
+						if fp then
+							fp:write(string.char(0xFF)..string.char(0xFE))
+							fp:write(os.toucs2(text))
+							fp:close()
+						end
+					else
+						files.copy(path_plugins..plugins[sel].config, path_tai)
+					end
+				end
+
+				--Insert plugin to Config
+				local pathline_in_config = path_tai..plugins[sel].path
+				if plugins[sel].path == "adrenaline_kernel.skprx" then pathline_in_config = "ux0:app/PSPEMUCFW/sce_module/adrenaline_kernel.skprx" end
+
+				if plugins[sel].pos then
+					tai.put(loc, plugins[sel].section, pathline_in_config, 1)				--Sd2VITA first
+				else
+					if plugins[sel].section2 then
+						tai.put(loc, plugins[sel].section2, path_tai..plugins[sel].path2)
+						tai.put(loc, plugins[sel].section,  pathline_in_config)
+					else
+						tai.put(loc, plugins[sel].section, pathline_in_config)
+					end
+				end
+
+				--Extra
+				if plugins[sel].path == "vsh.suprx" then files.delete("ur0:/data:/vsh/") end
+
+				--Write
+				tai.sync(loc)
+
+				change = true
+				buttons.homepopup(0)
+
+				if back then back:blit(0,0) end
+				message_wait(plugins[sel].name.."\n\nhave been installed")
+				os.delay(1500)
+
+			end
 
 		else
 			os.message("Missing config.txt")
@@ -234,6 +277,10 @@ function autoplugin()
 					end
 				end
 				os.delay(50)
+			end
+			for i=1,scroll.maxim do
+				plugins[i].inst = false
+				if toinstall >= 1 then toinstall-=1 end
 			end
 		end
 

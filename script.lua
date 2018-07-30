@@ -33,7 +33,13 @@ dofile("scripts/autoplugin.lua")
 dofile("scripts/pmanager.lua")
 dofile("scripts/npdrm.lua")
 
-local menu = { "Install Plugins", "Uninstall Plugins", "Install plugin npdrm free from Qwik", "Install config.txt for PKGJ v0.31", "Exit" }
+local menu = {
+	"Install Plugins",
+	"Uninstall Plugins",
+	"Install plugin npdrm free from Qwik (Adrenaline)",
+	"Install ux0:pkgi/config.txt for PKGJ v0.31+",
+	"Exit"
+}
 local scrollm,sel = newScroll(menu,#menu),1
 
 change = false
@@ -47,7 +53,7 @@ while true do
 
 	local y = 190
 	for i=scrollm.ini, scrollm.lim do
-		if i == scrollm.sel then draw.fillrect(0,y-5,960,27,color.green:a(90)) end
+		if i == scrollm.sel then draw.fillrect(0,y-6,960,28,color.green:a(90)) end
 		screen.print(480,y,menu[i],1.2,color.white, 0x0, __ACENTER)
 		y+=35
 	end
@@ -64,12 +70,8 @@ while true do
 		elseif scrollm.sel == 3 then npdrm_free()
 		elseif scrollm.sel == 4 then
 			if back then back:blit(0,0) end
-			if not files.exists("ux0:pkgi/config.txt") then
-				files.copy("resources/pkgj/config.txt", "ux0:pkgi")
-				message_wait("config.txt for pkgj have been installed in ux0:pkgi")
-			else
-				message_wait("config.txt file already exists")
-			end
+			files.copy("resources/pkgj/config.txt", "ux0:pkgi")
+			message_wait("ux0:pkgi/config.txt for pkgj have been installed !!!")
 			os.delay(2000)
 		elseif scrollm.sel == 5 then
 			if change then
