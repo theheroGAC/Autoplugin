@@ -9,12 +9,13 @@
 	Collaborators: BaltazaR4 & Wzjk.
 ]]
 
+path_plugins = "resources/plugins/"
 __UX0, __UR0 = 1,2
 locations = { "ux0:", "ur0:" }
 version = tostring(os.swversion())
 
 function message_wait(message)
-	local mge = (message or "Please wait...")
+	local mge = (message or STRING_PLEASE_WAIT)
 	local titlew = string.format(mge)
 	local w,h = screen.textwidth(titlew,1) + 30,70
 	local x,y = 480 - (w/2), 272 - (h/2)
@@ -23,52 +24,6 @@ function message_wait(message)
 	draw.rect(x,y,w,h,color.white)
 		screen.print(480,y+13, titlew,1,color.white,color.black,__ACENTER)
 	screen.flip()
-end
-
--- CallBack Extraction
-function onExtractFiles(size,written,file,totalsize,totalwritten)
-
-	if back then back:blit(0,0) end
-	draw.fillrect(0,0,__DISPLAYW,30, color.shine)
-
-	screen.print(10,10,"Extraction...")
-
-	screen.print(925,10,"Percent Total: "..math.floor((totalwritten*100)/totalsize).." %",1.0,color.white, color.black, __ARIGHT)
-	screen.print(10,70,"File: "..tostring(file),1.0,color.white, color.black)
-	screen.print(10,90,"Percent: "..math.floor((written*100)/size).." %",1.0,color.white, color.black)
-
-	screen.flip()
-	
-	buttons.read()
-	return 1
-end
-
--- CallBack CopyFiles
---[[
-function onCopyFiles(size,written,file)
-
-	if back then back:blit(0,0) end
-	draw.fillrect(0,0,__DISPLAYW,30, color.shine)
-
-	screen.print(10,10,"Copying: ")
-	screen.print(945,10,math.floor((written*100)/size).." %",1.0,color.white, color.black, __ARIGHT)
-	screen.print(10,70,"File: "..tostring(file),1.0,color.white, color.black)
-
-	screen.flip()
-end
-]]
-
--- CallBack DeleteFiles
-function onDeleteFiles(file)
-
-	if back then back:blit(0,0) end
-	draw.fillrect(0,0,__DISPLAYW,30, color.shine)
-
-	screen.print(10,10,"Deleting: ",1.0,color.white, color.black)
-	screen.print(10,70,"File: "..tostring(file),1.0,color.white, color.black)
-
-	screen.flip()
-
 end
 
 --[[

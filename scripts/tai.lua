@@ -5,11 +5,14 @@
 	Licensed by Creative Commons Attribution-ShareAlike 4.0
 	http://creativecommons.org/licenses/by-sa/4.0/
 	
-	Designed By DevDavisNunez (https://twitter.com/DevDavisNunez),
+	Designed By DevDavisNunez (https://twitter.com/DevDavisNunez).
 	Date: 12/07/2017 at 06:40 pm
+	
+	Modificada por gdljjrod
 ]]
 
-function files.write(path, data, mode) -- Write a file.
+-- Write a file.
+function files.write(path, data, mode)
 	local fp = io.open(path, mode or "w+")
 	if fp == nil then return end
 	fp:write(data)
@@ -17,7 +20,8 @@ function files.write(path, data, mode) -- Write a file.
 	fp:close()
 end
 
-function files.read(path, mode) -- Read a file.
+-- Read a file.
+function files.read(path, mode)
 	local fp = io.open(path, mode or "r")
 	if not fp then return nil end
 	local data = fp:read("*a")
@@ -33,11 +37,7 @@ tai = {
 tai_ux0_path = "ux0:tai/config.txt"
 tai_ur0_path = "ur0:tai/config.txt"
 
---[[
-	NIL tai.load()
-	When executing this function, the txt is loaded completely to ram, 
-	thus allowing the native parse, quickly and easily and work in a virtual way its contents.
-]]
+
 
 --Internal
 function load_config(path, index)
@@ -57,6 +57,11 @@ function load_config(path, index)
 
 end
 
+--[[
+	NIL tai.load()
+	When executing this function, the txt is loaded completely to ram, 
+	thus allowing the native parse, quickly and easily and work in a virtual way its contents.
+]]
 function tai.load()
 
 	tai[1].exist,tai[2].exist = false,false

@@ -21,14 +21,14 @@ function pluginsmanager()
 		buttons.read()
 		if back then back:blit(0,0) end
 
-		screen.print(480,20,"Plugins Manager",1,color.red, 0x0, __ACENTER)
+		screen.print(480,20,UNINSTALLP_TITLE,1,color.red, 0x0, __ACENTER)
 
-		if not tai[partition].exist then screen.print(480,270,"No config.txt found at: "..locations[partition],1.3,color.red, 0x0, __ACENTER)
+		if not tai[partition].exist then screen.print(480,270,UNINSTALLP_NOCONFIG_FOUND..locations[partition],1.3,color.red, 0x0, __ACENTER)
 		else
 
-			screen.print(10,460,"Press X to uninstall plugin",1,color.white,color.black)
-			screen.print(10,480,"Press L/R to swap ux0<->ur0",1,color.white,color.black)
-			screen.print(10,500,"Press Left/Right to switch section",1,color.white,color.black)
+			screen.print(10,460,UNINSTALLP_CROSS_INSTALL,1,color.white,color.black)
+			screen.print(10,480,UNINSTALLP_LR_SWAP,1,color.white,color.black)
+			screen.print(10,500,UNINSTALLP_LEFTRIGHT_SECTION,1,color.white,color.black)
 
 			--Partitions
 			local xRoot = 750
@@ -70,8 +70,8 @@ function pluginsmanager()
 			screen.print(480,410,locations[partition].."tai/config.txt",1.3,color.green, 0x0, __ACENTER)
 		end
 
-		screen.print(10,522,"Press O to go back to menu",1,color.white,color.black)
-		screen.print(955,522,"Press START to close",1,color.white,color.red, __ARIGHT)
+		screen.print(10,522,STRING_CIRCLE_BACK,1,color.white,color.black)
+		screen.print(955,522,STRING_START_CLOSE,1,color.white,color.red, __ARIGHT)
 
 		screen.flip()
 
@@ -82,7 +82,7 @@ function pluginsmanager()
 		--Exit
 		if buttons.start then
 			if change then
-				os.message("Your PSVita will restart")
+				os.message(STRING_PSVITA_RESTART)
 				os.delay(250)
 				buttons.homepopup(1)
 				power.restart()
