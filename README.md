@@ -34,3 +34,8 @@ This tool allows you to install/uninstall the following plugins with one click(o
 - SilicaAndPina
 - OperationNT414C
 - chronoss09
+# Tester:
+NanospeedGamer(thank you big friend)
+# Translator:
+NanospeedGamer for translation in Spanish
+
