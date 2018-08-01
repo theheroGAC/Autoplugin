@@ -9,7 +9,8 @@ plugins = {
 { name = "Repatch by dots v2.71", path = "repatch.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_REPATCH, },
 { name = "ds3vita by xerpi Beta3", path = "ds3vita.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_DS3VITA, },
 { name = "ds4vita by xerpi v1.2", path = "ds4vita.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_DS4VITA, },
-{ name = "Kuio by Rinnegatamante", path = "kuio.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_KUIO, },
+{ name = "udcd_uvc by xerpi [PoC v3]", path = "udcd_uvc.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_UDCDUVC, },
+--{ name = "Kuio by Rinnegatamante", path = "kuio.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_KUIO, },
 { name = "Adrenaline by TheOfficialFloW (Fix double touch)", path = "adrenaline_kernel.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_ADRENALINE, },
 
 --Main
@@ -200,11 +201,11 @@ function autoplugin()
 		end
 
 		screen.print(10,450,INSTALLP_CROSS_INSTALL,1,color.white,color.black,__ALEFT)
-		screen.print(10,475,INSTALLP_TRIANGLE_ALL,1,color.white,color.black,__ALEFT)
-		screen.print(10,500,INSTALLP_LR_SWAP,1,color.white,color.black,__ALEFT)
+		--screen.print(10,475,INSTALLP_TRIANGLE_ALL,1,color.white,color.black,__ALEFT)
+		screen.print(10,475,INSTALLP_LR_SWAP,1,color.white,color.black,__ALEFT)
 
-		screen.print(955,475,INSTALLP_SQUARE_MARK,1,color.white,color.black, __ARIGHT)
-		screen.print(955,500,INSTALLP_SELECT_CLEAN,1,color.white,color.black, __ARIGHT)
+		screen.print(955,450,INSTALLP_SQUARE_MARK,1,color.white,color.black, __ARIGHT)
+		screen.print(955,475,INSTALLP_SELECT_CLEAN,1,color.white,color.black, __ARIGHT)
 
 		screen.print(10,522,STRING_CIRCLE_BACK,1,color.white,color.black, __ALEFT)
 		screen.print(955,522,STRING_START_CLOSE,1,color.white,color.red, __ARIGHT)
@@ -266,12 +267,15 @@ function autoplugin()
 			end
 		end
 
+		--[[
 		--Install ALL plugins
 		if buttons.triangle then
 			for i=1,scroll.maxim do
 				plugins_installation(i)
 			end
 		end
+		]]
+
 	end
 
 end

@@ -97,6 +97,22 @@ function pluginsmanager()
 			if buttons.cross then
 				if tai[partition].gameid[ section[sel_section] ] then
 					table.remove(tai[partition].raw, tai[partition].gameid[section[sel_section]].prx[scrollp.sel].line)
+
+					if section[sel_section] == "KERNEL" then
+						if files.nopath(tai[partition].gameid[ section[sel_section] ].prx[scrollp.sel].path) == "kuio.skprx" then
+							if tai[partition].gameid[ "ALL" ] then
+								tai.del(partition, "ALL", "vsh.suprx")
+							end
+						end
+					end
+					if section[sel_section] == "ALL" then
+						if files.nopath(tai[partition].gameid[ section[sel_section] ].prx[scrollp.sel].path) == "vsh.suprx" then
+							if tai[partition].gameid[ "KERNEL" ] then
+								tai.del(partition, "KERNEL", "kuio.skprx")
+							end
+						end
+					end
+
 					tai.sync(partition)
 					tai.load()
 					if tai[partition].gameid[ section[sel_section] ] then
