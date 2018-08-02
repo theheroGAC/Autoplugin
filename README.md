@@ -12,13 +12,13 @@ This tool allows you to install/uninstall the following plugins with one click(o
 - NoLockScreen
 - Vitabright (only 3.60 and PSVITA)
 - pngshot
-- Kuio by Rinnegatamante
 - PSV-VSH MENU by joel16
 - Vflux by Applelo
 - Repatch by dots-tb
 - NoAVLS by SilicaAndPina
 - ds3vita by xerpi
 - ds4vita by xerpi
+- PSVita USB streaming! (UVC USB Video Class) by xerpi
 # Credits:
  Thank you
 - Team OneLua
