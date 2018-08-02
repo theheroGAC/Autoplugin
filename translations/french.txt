@@ -1,0 +1,89 @@
+--Translates
+
+STRING_UNSAFE_MODE =						"UNSAFE MODE est nécessaire pour cet Homebrew!!!"
+STRING_PSVITA_RESTART =						"Votre PSVITA va redémarrer"
+STRING_BACKUP_CONFIGS =						"Créer Config_backups.txt"
+STRING_MISSING_CONFIG =						"config.txt absent"
+STRING_CIRCLE_BACK =						"Appuyer sur O pour retourner au menu"
+STRING_START_CLOSE =						"Appuyer sur START pour fermer"
+STRING_INSTALLED =							"a été installé"
+STRING_PLEASE_WAIT =						"Patienter"
+
+--menu.lua
+MENU_INSTALL_SD2VITA =						"Installation du plugin SD2VITA"
+MENU_INSTALL_PLUGINS =						"Installation des Plugins"
+MENU_UNINSTALL_PLUGINS =					"Désinstallation des Plugins"
+MENU_INSTALL_NPDRMFREE =					"Installer le plugin npdrm de Qwik (Adrenaline)"
+MENU_INSTALL_CONFIG =						"Installer config.txt pour PKGJ v0.31+"
+MENU_EXIT =									"Quitter"
+MENU_INSTALLED_CONFIG =						"ux0:pkgi/config.txt pour pkgj a été installé"
+
+--install sd2vita
+SD2VITA_1_WARNING =							"Pour installer le plugin Storage Manager votre SD2VITA doit être prête"
+SD2VITA_2_WARNING =							"Si un jeu est inséré, il doit être retiré avant le redémarrage"
+SD2VITA_3_WARNING =							"TRES IMPORTANT: votre SD2VITA doit avoir des quelques applications prêtes dessus, vous pouvez copier/coller"
+SD2VITA_4_WARNING =							"Copier uniquement les application réellement importante sur votre carte microSD"
+SD2VITA_5_WARNING =							"Par exemple: H-encore, Vitashell/ONEMenu, pkgj, Adrenaline, etc... "
+SD2VITA_GAMECARD_DETECTED =					"Carte de jeu détecté !!!"
+SD2VITA_GAMECARD_REMOVED =					"Retiré avant l'installation"
+SD2VITA_TRIANGLE_INSTALL =					"Pour commencer l'installation appuyer sur TRIANGLE"
+SD2VITA_CIRCLE_CANCEL =						"Pour annuler l'installation appuyer sur O"
+
+--install plugins
+INSTALLP_LIST_PLUGINS =						"Liste des plugins prêt à être installé:"
+
+INSTALLP_CROSS_INSTALL =					"X pour installer le(s) plugin(s)"
+INSTALLP_SQUARE_MARK =						"CARRE pour sélectionner le(s) plugin(s) à installer"
+INSTALLP_TRIANGLE_ALL =						"TRIANGLE pour installer tout les plugins"
+INSTALLP_SELECT_CLEAN =						"SELECT pour nettoyer les plugins installer"
+INSTALLP_LR_SWAP =							"L/R pour swap entre ux0/ur0"
+
+INSTALLP_VITABRIGHT_360 =					"Vitabright uniquement pour 3.60"
+INSTALLP_CWARNING_360_365 =					"Custom Warning ne marche pas pour 3.67/3.68"
+INSTALLP_QUESTION_SHELLSECBAT = 			"Le plugin shellsecbat a été détecté !!! Installer shellbat à la place et dés installer shellsecbat ?"
+INSTALLP_QUESTION_SHELLBAT =				"Le plugin shellbat a été detecté !!! Installer shellsecbat à la place et dés installer shellbat"
+
+INSTALLP_OSK_TITLE =						"Texte pour Custom Warning"
+INSTALLP_OSK_TEXT =							"Insérer le texte ici"
+
+--Uninstall plugins
+UNINSTALLP_TITLE =							"Plugins Manager"
+UNINSTALLP_NOCONFIG_FOUND =					"Pas de config.txt trouvé dans: "
+UNINSTALLP_CROSS_INSTALL =					"X pour installer le plugin"
+UNINSTALLP_LR_SWAP =						"L/R pour swap entre ux0/ur0"
+UNINSTALLP_LEFTRIGHT_SECTION =				"Gauche/Droite pour switch de section"
+
+--npdrm free
+NPDRMFREE_TITLE =							"Installer npdrm free de Qwik"
+NPDRMFREE__CROSS_INSTALL =					"X pour installer le plugin"
+NPDRMFREE_INSTALLED =						"npdrm free est installé"
+NPDRMFREE_VSH_UPDATED =						"vsh.txt mis à jour"
+NPDRMFREE_GAME_UPDATED =					"game.txt mis à jour"
+NPDRMFREE_NO_PARTITION =					"Partition introuvable!"
+
+--descriptions plugins
+--KERNEL
+INSTALLP_DESC_NONPDRM =						"Vous autorise à bypasser les licenses (DRM) sur tout le contenu PSVITA"
+INSTALLP_DESC_NOPSMDRM =					"Vous autoriser à bypasser les licenses (DRM) sur tout le contenu PSM"
+INSTALLP_DESC_VITABRIGHT =					"Ce plugin vous permet d'utiliser une plus large table de gamma, vous permettant de régler la luminosité plus/moins fort qu'initialement prévu"
+INSTALLP_DESC_NOAVLS =						"Plugin qui va supprimer de manière permanente l'AVLS"
+INSTALLP_DESC_REPATCH =						"Permet le mod des jeux et permet la lecture des jeux 3.67+ sur 3.60/3.65HEN"
+INSTALLP_DESC_DS3VITA =						"Contrôler votre PSVITA avec un DualShock 3"
+INSTALLP_DESC_DS4VITA =						"Contrôler votre PSVITA avec un DualShock 4"
+INSTALLP_DESC_UDCDUVC =						"Permet de stream son appareil directement vers l'ordinateur par USB"
+INSTALLP_DESC_KUIO =						"Permet aux modules utilisateur d'accéder à ux0:data pour des opérations binaires basique. Peut être nécessaire pour certains plugins"
+INSTALLP_DESC_ADRENALINE =					"Permet de lancer Adrenaline d'une simple action"
+
+--MAIN
+INSTALLP_DESC_DENABLER =					"Permet de télécharger des fichiers depuis le navigateur"
+INSTALLP_DESC_NOLOCKSCREEN =				"Désactive l'écran de verrouillage"
+INSTALLP_DESC_NOTROPHYMSG =					"Désactive le message alertant sur l'impossibilité de remporter les trophées (lorsque la sauvegarde est liée à un autre compte PSN)"
+INSTALLP_DESC_CUSTOMWARNING =				"Permet de remplacer le message sur l'épilepsie par un message personnalisé"
+INSTALLP_DESC_SHELLBAT =					"Pourcentage de la batterie dans la barre de statut"
+INSTALLP_DESC_SHELLSECBAT =					"Pourcentage de la batterie dans la barre de statut: fusion de ShellBat et LastSeconds"
+INSTALLP_DESC_PNGSHOT =						"pngshot rend les screenshots de meilleur qualité (.PNG)"
+INSTALLP_DESC_VFLUX =						"Filtre d'écran pour la PSVITA (lux)"
+
+--ALL
+INSTALLP_DESC_VSHMENU =						"Un menu VSH pour les jeux PSVITA et Homebrews"
+INSTALLP_DESC_OVERCLOCK =					"Plugin d'overclock pour taiHEN"
