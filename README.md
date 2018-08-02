@@ -27,6 +27,7 @@ This tool allows you to install/uninstall the following plugins with one click(o
 - nowrep
 - frangarcj
 - xyzz
+- xerpi
 - Rinnegatamante
 - Applelo
 - joel16
