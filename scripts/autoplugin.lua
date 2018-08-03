@@ -9,7 +9,7 @@ plugins = {
 { name = "Repatch by dots v2.71", path = "repatch.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_REPATCH, },
 { name = "ds3vita by xerpi Beta3", path = "ds3vita.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_DS3VITA, },
 { name = "ds4vita by xerpi v1.2", path = "ds4vita.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_DS4VITA, },
-{ name = "udcd_uvc by xerpi [PoC v4]", path = "udcd_uvc.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_UDCDUVC, },
+{ name = "udcd_uvc by xerpi [PoC v5]", path = "udcd_uvc.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_UDCDUVC, },
 --{ name = "Kuio by Rinnegatamante", path = "kuio.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_KUIO, },
 { name = "Adrenaline by TheOfficialFloW (Fix double touch)", path = "adrenaline_kernel.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_ADRENALINE, },
 
