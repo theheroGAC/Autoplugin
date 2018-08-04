@@ -34,6 +34,8 @@ end
 
 function npdrm_free()
 
+	splash.zoom("resources/Adrenaline.png")
+
 	local options = { "ux0:", "ur0:", "uma0:", "imc0:", "xmc0:" }
 	local scroll_np = newScroll( options, #options)
 
