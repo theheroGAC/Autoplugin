@@ -1,5 +1,7 @@
 function pluginsmanager()
 
+	splash.zoom("resources/plugins.png")
+
 	local section, sel_section = { "KERNEL", "main", "ALL" },1
 
 	--Init load configs
