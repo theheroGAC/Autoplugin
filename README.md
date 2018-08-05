@@ -39,5 +39,5 @@ This tool allows you to install/uninstall the following plugins with one click(o
 NanospeedGamer(thank you big friend)
 # Translator:
 - NanospeedGamer/RY0M43CH1Z3N for translation in Spanish
-- SridentPSV for translation in French
+- SridentPSV/chronoss09 for translation in French
 
