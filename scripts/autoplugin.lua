@@ -3,7 +3,7 @@ plugins = {
 
 --Kernel
 { name = "NoNpDrm by TheOfficialFloW", path = "nonpdrm.skprx", section = "KERNEL", path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_NONPDRM, },
-{ name = "MiniVitaTV by TheOfficialFloW vbeta0.2", path = "minivitatv.skprx", section = "KERNEL",  path2 = "ds3.skprx", section2 = "KERNEL", config = false, desc = INSTALLP_DESC_MINIVITATV, },
+--{ name = "MiniVitaTV by TheOfficialFloW vbeta0.2", path = "minivitatv.skprx", section = "KERNEL",  path2 = "ds3.skprx", section2 = "KERNEL", config = false, desc = INSTALLP_DESC_MINIVITATV, },
 { name = "NoPsmDrm by frangarcj", path = "nopsmdrm.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_NOPSMDRM, },
 { name = "Vitabright by devnoname120(only for 3.60)", path = "vitabright.skprx", section = "KERNEL",  path2 = false, section2 = false, config = "vitabright_lut.txt", desc = INSTALLP_DESC_VITABRIGHT, },
 { name = "NoAVLS by SilicaAndPina", path = "noavls.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_NOAVLS, },
