@@ -3,6 +3,7 @@ Autoplugin for PSVITA
 This tool allows you to install/uninstall the following plugins with one click(on ux0 or ur0 or ur0 for SD2VITA):
 - DownloadEnabler
 - NoNpDrm
+- MiniVitaTV
 - NoPsmDrm
 - PSVita-StorageMgr
 - Shellbat
@@ -19,6 +20,7 @@ This tool allows you to install/uninstall the following plugins with one click(o
 - ds3vita by xerpi
 - ds4vita by xerpi
 - PSVita USB streaming! (UVC USB Video Class) by xerpi
+- DSmotion
 # Credits:
  Thank you
 - Team OneLua
