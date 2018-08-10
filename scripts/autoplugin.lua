@@ -3,6 +3,7 @@ plugins = {
 
 --Kernel
 { name = "NoNpDrm by TheOfficialFloW", path = "nonpdrm.skprx", section = "KERNEL", path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_NONPDRM, },
+{ name = "MiniVitaTV by TheOfficialFloW vbeta0.2", path = "minivitatv.skprx", section = "KERNEL",  path2 = "ds3.skprx", section2 = "KERNEL", config = false, desc = INSTALLP_DESC_MINIVITATV, },
 { name = "NoPsmDrm by frangarcj", path = "nopsmdrm.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_NOPSMDRM, },
 { name = "Vitabright by devnoname120(only for 3.60)", path = "vitabright.skprx", section = "KERNEL",  path2 = false, section2 = false, config = "vitabright_lut.txt", desc = INSTALLP_DESC_VITABRIGHT, },
 { name = "NoAVLS by SilicaAndPina", path = "noavls.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_NOAVLS, },
@@ -12,6 +13,7 @@ plugins = {
 { name = "udcd_uvc by xerpi [PoC v6]", path = "udcd_uvc.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_UDCDUVC, },
 --{ name = "Kuio by Rinnegatamante", path = "kuio.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_KUIO, },
 { name = "Adrenaline by TheOfficialFloW (Fix double touch)", path = "adrenaline_kernel.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_ADRENALINE, },
+{ name = "DSMotion by OperationNT414C v1.2", path = "dsmotion.skprx", section = "KERNEL",  path2 = "dsmotion.suprx", section2 = "ALL", config = false, desc = INSTALLP_DESC_DSMOTION, },
 
 --Main
 { name = "Download Enabler by TheOfficialFloW (VitaTweaks)", path = "download_enabler.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_DENABLER, },
