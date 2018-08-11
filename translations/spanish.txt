@@ -63,8 +63,9 @@ NPDRMFREE_NO_PARTITION =					 "¡Partición no encontrada!"
 
 --descriptions plugins
 --KERNEL
-INSTALLP_DESC_NONPDRM =						"Le permite evitar la protección DRM en cualquier contenido de PS Vita"
-INSTALLP_DESC_NOPSMDRM =					"Le permite evitar la protección DRM en el contenido del juego PSM"
+INSTALLP_DESC_NONPDRM =						"Permite evitar la protección DRM en cualquier contenido de PS Vita"
+INSTALLP_DESC_MINIVITATV =        "Permite jugar en multijugador local en tu PS Vita con hasta 4 amigos" 
+INSTALLP_DESC_NOPSMDRM =					"Permite evitar la protección DRM en el contenido del juego PSM"
 INSTALLP_DESC_VITABRIGHT =			  "Permite usar una tabla de gamma personalizada, y así disminuir el brillo por debajo del mínimo, y aumentarlo por encima del máximo"
 INSTALLP_DESC_NOAVLS =						"Plugin que desactivará permanentemente AVLS en PS Vita forzada por AVLS"
 INSTALLP_DESC_REPATCH =						"Permite el modding de juegos encriptados similar a ux0:patch y permite el uso de juegos 3.67+ en 3.60/65 HEN"
@@ -73,6 +74,7 @@ INSTALLP_DESC_DS4VITA =						"Controla tu psvita usando un DualShock 4"
 INSTALLP_DESC_UDCDUVC =						"Permite que la PS Vita funcione como un dispositivo UVC para transmitir su pantalla a través de USB a su computadora"
 INSTALLP_DESC_KUIO =						  "Permite a los módulos de usuario acceder a ux0:data para operaciones de E/S básicas. Puede ser necesario para ciertos plugins específicos"
 INSTALLP_DESC_ADRENALINE =				"Permite ejecutar adrenaline con un solo toque"
+INSTALLP_DESC_DSMOTION =					"Permite el uso del mando Dualshock en PS TV"
 
 --MAIN
 INSTALLP_DESC_DENABLER =					  "Permite descargar archivos a través de su navegador"
