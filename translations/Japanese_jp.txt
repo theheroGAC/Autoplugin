@@ -1,0 +1,91 @@
+--Translates
+
+STRING_UNSAFE_MODE =						"UNSAFE MODEはこのHomebrewに必須です！"
+STRING_PSVITA_RESTART =						"PSVitaを再起動します"
+STRING_BACKUP_CONFIGS =						"Config_backups.txtの作成"
+STRING_MISSING_CONFIG =						"config.txtがありません"
+STRING_CIRCLE_BACK =						"Oボタンでメニューに戻る"
+STRING_START_CLOSE =						"STARTボタンで終了"
+STRING_INSTALLED =							"プラグインがインストールされました"
+STRING_PLEASE_WAIT =						"お待ちください..."
+
+--menu.lua
+MENU_INSTALL_SD2VITA =						"SD2VITAプラグインインストール"
+MENU_INSTALL_PLUGINS =						"プラグインインストール"
+MENU_UNINSTALL_PLUGINS =					"プラグインアンインストール"
+MENU_INSTALL_NPDRMFREE =					"Adrenaline用npdrm_freeプラグイン(by qwikrazor87)インストール"
+MENU_INSTALL_CONFIG =						"PKGJ v0.31+のconfig.txtインストール"
+MENU_EXIT =									"アプリを終了"
+MENU_INSTALLED_CONFIG =						"pkgj用のconfig.txtはux0：pkgi/config.txtへインストールされます！"
+
+--install sd2vita
+SD2VITA_1_WARNING =							"Storage ManagerプラグインをインストールするにはSD2VITAを準備しておく必要があります"
+SD2VITA_2_WARNING =							"ゲームカードが挿入されている場合、再起動する前にゲームカードを抜いてください！"
+SD2VITA_3_WARNING =							"非常に重要：あなたのSD2VITAにいくつかのアプリが入っていなければなりません。\n\nあなたはコピー＆ペーストすることができます"
+SD2VITA_4_WARNING =							"純正メモリーカードから本当に必要なアプリをmicroSDカードにコピーするだけです"
+SD2VITA_5_WARNING =							"例：h-encore、Vitashell/ONEMenu、pkgj、Adrenalineなど・・・"
+SD2VITA_GAMECARD_DETECTED =					"ゲームカードが検出されました！"
+SD2VITA_GAMECARD_REMOVED =					"ゲームカードがインストール前に取り外されされました"
+SD2VITA_TRIANGLE_INSTALL =					"インストールに進むには△ボタンを押します"
+SD2VITA_CIRCLE_CANCEL =						"インストールをキャンセルするにはOボタンを押します"
+
+--install plugins
+INSTALLP_LIST_PLUGINS =						"インストール可能なプラグインリスト："
+
+INSTALLP_CROSS_INSTALL =					"Xボタンでプラグインをインストール"
+INSTALLP_SQUARE_MARK =						"□ボタンでインストールするプラグインを選択"
+INSTALLP_TRIANGLE_ALL =						"△ボタンですべてのプラグインをインストール"
+INSTALLP_SELECT_CLEAN =						"Selectボタンで選択したプラグインを解除"
+INSTALLP_LR_SWAP =							"L/Rトリガーでux0:/ur0:を切り替え"
+
+INSTALLP_VITABRIGHT_360 =					"Vitabrightは3.60のみ適用"
+INSTALLP_CWARNING_360_365 =					"「ご注意」表示のカスタマイズは3.67/3.68では機能しません(Ensoのみ動作可)"
+INSTALLP_QUESTION_SHELLSECBAT = 			"shellsecbatプラグインがインストールされています！\n\nshellbatをインストールし、shellsecbatをアンインストールしますか？"
+INSTALLP_QUESTION_SHELLBAT =				"shellbatプラグインがインストールされています！\n\nshellsecbatをインストールし、shellbatをアンインストールしますか？"
+
+INSTALLP_OSK_TITLE =						"「ご注意」代わりに表示するテキスト"
+INSTALLP_OSK_TEXT =							"ここにテキストを入力"
+
+--Uninstall plugins
+UNINSTALLP_TITLE =							"プラグインマネージャー"
+UNINSTALLP_NOCONFIG_FOUND =					"config.txtが見つかりませんでした"
+UNINSTALLP_CROSS_INSTALL =					"Xボタンでプラグインをアンインストール"
+UNINSTALLP_LR_SWAP =						"L/Rトリガーでux0:/ur0:を切り替え"
+UNINSTALLP_LEFTRIGHT_SECTION =				"左/右でセクションを切り替え"
+
+--npdrm free
+NPDRMFREE_TITLE =							"Adrenaline用のnpdrm_freeプラグインをインストール"
+NPDRMFREE__CROSS_INSTALL =					"Xボタンでプラグインをインストール"
+NPDRMFREE_INSTALLED =						"npdrm_freeがインストールされています"
+NPDRMFREE_VSH_UPDATED =						"vsh.txtが更新されました"
+NPDRMFREE_GAME_UPDATED =					"game.txtが更新されました"
+NPDRMFREE_NO_PARTITION =					"パーティションが見つかりません！"
+
+--descriptions plugins
+--KERNEL
+INSTALLP_DESC_NONPDRM =						"どのようなPSVitaコンテンツでもDRM保護をバイパスできます"
+INSTALLP_DESC_MINIVITATV =					"PSVitaで最大4人の友人とローカルマルチプレイゲームを遊ぶことができます。"
+INSTALLP_DESC_NOPSMDRM =					"どのようなPSMのゲームコンテンツでもDRM保護をバイパスできます"
+INSTALLP_DESC_VITABRIGHT =					"このプラグインを使用すると輝度設定がカスタムガンマテーブルを使用するため、最小値と最大値の幅が広がります"
+INSTALLP_DESC_NOAVLS =						"AVLS-ForcedプラグインはVitaのAVLS機能を永久に無効にします。"
+INSTALLP_DESC_REPATCH =						"ux0：patchのような暗号化されたゲームの改造を可能にし、3.60/3.65HENで3.67以上のゲームの使用を可能にします"
+INSTALLP_DESC_DS3VITA =						"DualShock3を使ってVitaをコントロールする"
+INSTALLP_DESC_DS4VITA =						"DualShock4を使ってVitaをコントロールする"
+INSTALLP_DESC_UDCDUVC =						"UVCデバイスを使用して、USB経由でディスプレイをコンピュータにストリーミングします"
+INSTALLP_DESC_KUIO =						"基本的なI/O操作の場合ユーザーモジュールux0：dataにアクセスできるようにします。特定のプラグインが必要な場合があります"
+INSTALLP_DESC_ADRENALINE =					"ワンタッチでアドレナリンを走らせることができます"
+INSTALLP_DESC_DSMOTION =					"PlayStation TVのDualShockモーションコントロールのサポート"
+
+--MAIN
+INSTALLP_DESC_DENABLER =					"ブラウザでファイルをダウンロードできます"
+INSTALLP_DESC_NOLOCKSCREEN =				"PSVitaのロック画面を無効にします"
+INSTALLP_DESC_NOTROPHYMSG =					"セーブデータが別のアカウントにリンクされているアプリケーションを起動すると、トロフィーヒントメッセージが無効になります。アカウントを常に切り替える場合に便利です"
+INSTALLP_DESC_CUSTOMWARNING =				"ENSOで起動するときに「ご注意」表示の代わりにカスタムメッセージを設定することができます"
+INSTALLP_DESC_SHELLBAT =					"ステータスバーのバッテリーのパーセントを表示します"
+INSTALLP_DESC_SHELLSECBAT =					"ステータスバーのバッテリーのパーセントと時・分・秒を表示します"
+INSTALLP_DESC_PNGSHOT =						"pngshotはスクリーンショットをすばらしいものにするためのプラグインです（.PNG）"
+INSTALLP_DESC_VFLUX =						"PSVitaのスクリーンフィルタープラグイン"
+
+--ALL
+INSTALLP_DESC_VSHMENU =						"PSVITAゲームとHomebrewsのVSHメニューを表示するtaiHENプラグイン"
+INSTALLP_DESC_OVERCLOCK =					"taiHenのための単純なOverclockプラグイン"
