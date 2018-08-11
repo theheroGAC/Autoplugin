@@ -42,4 +42,5 @@ NanospeedGamer(thank you big friend)
 # Translator:
 - NanospeedGamer/RY0M43CH1Z3N for translation in Spanish
 - SridentPSV/chronoss09 for translation in French
+- MrGhidini for translation in portugueseBR
 
