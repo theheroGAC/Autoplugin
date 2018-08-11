@@ -44,3 +44,4 @@ NanospeedGamer(thank you big friend)
 - SridentPSV/chronoss09 for translation in French
 - MrGhidini for translation in portugueseBR
 - Kouchan for translation in Japanese
+- theheroGAC for translation in Italian
