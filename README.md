@@ -43,5 +43,5 @@ NanospeedGamer(thank you big friend)
 - NanospeedGamer/RY0M43CH1Z3N for translation in Spanish
 - SridentPSV/chronoss09 for translation in French
 - MrGhidini for translation in portugueseBR
-- Kouchan for translation in Japanese
+- Kouchan/kood_infothief for translation in Japanese
 - theheroGAC for translation in Italian
