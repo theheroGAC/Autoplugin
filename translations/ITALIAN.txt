@@ -55,7 +55,7 @@ UNINSTALLP_LEFTRIGHT_SECTION =				"Destra/Sinistra per cambiare sezione"
 
 --npdrm free
 NPDRMFREE_TITLE =							"Installa npdrm free plugin di qwikrazor87"
-NPDRMFREE__CROSS_INSTALL =					"X per installare il plugin"
+NPDRMFREE_CROSS_INSTALL =					"X per installare il plugin"
 NPDRMFREE_INSTALLED =						"npdrm free installato"
 NPDRMFREE_VSH_UPDATED =						"vsh.txt aggiornato"
 NPDRMFREE_GAME_UPDATED =					"game.txt aggiornato"
