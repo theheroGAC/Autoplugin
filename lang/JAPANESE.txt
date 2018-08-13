@@ -15,7 +15,7 @@ MENU_INSTALL_PLUGINS =						"プラグインインストール"
 MENU_UNINSTALL_PLUGINS =					"プラグインアンインストール"
 MENU_INSTALL_NPDRMFREE =					"Adrenaline用npdrm_freeプラグイン(by qwikrazor87)インストール"
 MENU_INSTALL_CONFIG =						"PKGJ v0.31+のconfig.txtインストール"
-MENU_INSTALL_REMASTERED_CTRLS =				"Install RemasteredControls plugins from Theflow (Adrenaline)"
+MENU_INSTALL_REMASTERED_CTRLS =				"Adrenaline用RemasteredControlsプラグイン(by TheFloW)インストール"
 MENU_EXIT =									"アプリを終了"
 MENU_INSTALLED_CONFIG =						"pkgj用のconfig.txtはux0：pkgi/config.txtへインストールされます！"
 
@@ -63,11 +63,11 @@ NPDRMFREE_GAME_UPDATED =					"game.txtが更新されました"
 NPDRMFREE_NO_PARTITION =					"パーティションが見つかりません！"
 
 --pspctrls
-PSPCTRLS_TITLE =							"Remastered Controls plugins from Theflow (Adrenaline)"
-PSPCTRLS_CROSS_INSTALL =					"X : to install plugin"
-PSPCTRLS_LR_SWAP =							"L/R: to swap partitions"
-PSPCTRLS_GAME_UPDATED =						"game.txt updated"
-PSPCTRLS_DESCP =							"A collection of dual analog patches for PSP games on Adrenaline"
+PSPCTRLS_TITLE =							"Adrenaline用のRemasteredControlsプラグインをインストール"
+PSPCTRLS_CROSS_INSTALL =					"Xボタンでプラグインをインストール"
+PSPCTRLS_LR_SWAP =							"L/Rトリガーでux0:/ur0:を切り替え"
+PSPCTRLS_GAME_UPDATED =						"game.txtが更新されました"
+PSPCTRLS_DESCP =							"Adrenalineで動作する特定のタイトルのアナログスティックの操作を拡張します"
 
 --descriptions plugins
 --KERNEL
