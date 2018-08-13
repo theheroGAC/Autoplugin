@@ -1,0 +1,91 @@
+--Translates
+
+STRING_UNSAFE_MODE =						"Le mode UNSAFE MODE doit être activé pour utiliser cet Homebrew !!!"
+STRING_PSVITA_RESTART =						"\nVotre PS Vita va redémarré pour valider les changements"
+STRING_BACKUP_CONFIGS =						"Backup de votre fichier Config.txt en cours"
+STRING_MISSING_CONFIG =						"Fichier config.txt introuvable"
+STRING_CIRCLE_BACK =						"O : Retour au menu"
+STRING_START_CLOSE =						"START : Quitter ou Valider"
+STRING_INSTALLED =							"a été installé"
+STRING_PLEASE_WAIT =						"Veuillez patienter svp..."
+
+--menu.lua
+MENU_INSTALL_SD2VITA =						"Mise en place de la SD2VITA"
+MENU_INSTALL_PLUGINS =						"Menu des plugins"
+MENU_UNINSTALL_PLUGINS =					"Désinstaller un Plugin"
+MENU_INSTALL_NPDRMFREE =					"Mise en place du plugin NpDrm free de Qwik pour Adrenaline"
+MENU_INSTALL_CONFIG =						"Installation du fichier config.txt pour PKGJ v0.31+"
+MENU_EXIT =									"Quitter"
+MENU_INSTALLED_CONFIG =						"Fichier config.txt pour pkgj a été installé dans ux0:pkgi/"
+
+--install sd2vita
+SD2VITA_1_WARNING =							"RECOMMANDATION A SUIVRE POUR INSTALLER UNE SD2VITA"
+SD2VITA_2_WARNING =							"-> Pour les cartes microSD de plus de 32Go, veuillez les formatés au format exFAT."
+SD2VITA_3_WARNING =							"-> Veuillez à retirer la carte de jeu si elle est insérée dans votre console."
+SD2VITA_4_WARNING =							"!!! TRES IMPORTANT !!! "
+SD2VITA_5_WARNING =							"Votre microSD à utilisée doit déjà contenir les fichiers de votre carte mémoire de la PS Vita."
+SD2VITA_GAMECARD_DETECTED =					"!!! CARTE DE JEU DETECTE !!!"
+SD2VITA_GAMECARD_REMOVED =					"Veuillez la retirée avant de procédé à l'installation de votre SD2VITA"
+SD2VITA_TRIANGLE_INSTALL =					"Appuyez sur TRIANGLE pour procéder à la mise en place de votre SD2VITA"
+SD2VITA_CIRCLE_CANCEL =						"Appuyez sur O pour annuler et quitter ce menu"
+
+--install plugins
+INSTALLP_LIST_PLUGINS =						"Liste de plugin(s) prêt a être installé :"
+
+INSTALLP_CROSS_INSTALL =					"X : Lancer l'installation du plugin"
+INSTALLP_SQUARE_MARK =						"[] : Sélectionner le(s) plugin(s) à installer"
+INSTALLP_TRIANGLE_ALL =						"/\ : Installer tous les plugins"
+INSTALLP_SELECT_CLEAN =						"SELECT : Annuler les plugins sélectionner "
+INSTALLP_LR_SWAP =							"L/R : Switcher entre ux0: et ur0:"
+
+INSTALLP_VITABRIGHT_360 =					"\n!!! Ce plugin n'est pas compatible avec votre système !!! \n\n Fonctionne uniquement sur PSVita en firmware 3.60"
+INSTALLP_CWARNING_360_365 =					"\n!!! Ce plugin n'est pas compatible avec votre système !!! \n\n Fonctionne uniquement sur PSVita en firmware 3.60 et 3.65"
+INSTALLP_QUESTION_SHELLSECBAT = 			"\n               Plugin shellsecbat détecté !!!\n\nInstaller shellbat et désinstaller shellsecbat ?"
+INSTALLP_QUESTION_SHELLBAT =				"\n               Plugin shellbat détecté !!!\n\nInstaller shellsecbat et désinstaller shellbat ?"
+
+INSTALLP_OSK_TITLE =						"Configuration du Custom Warning"
+INSTALLP_OSK_TEXT =							"Écrivez votre message ici"
+
+--Uninstall plugins
+UNINSTALLP_TITLE =							"Désinstallation des plugins"
+UNINSTALLP_NOCONFIG_FOUND =					"Pas de fichier config.txt trouvé dans : "
+UNINSTALLP_CROSS_INSTALL =					"X : Désinstaller le plugin"
+UNINSTALLP_LR_SWAP =						"L/R : Switcher entre ux0: et ur0:"
+UNINSTALLP_LEFTRIGHT_SECTION =				"Pad Gauche ou Droite : Changer de section de plugins"
+
+--npdrm free
+NPDRMFREE_TITLE =							"Plugin NpDrm free pour Adrenaline"
+NPDRMFREE__CROSS_INSTALL =					"X : Installer le plugin"
+NPDRMFREE_INSTALLED =						"\nPlugin installé avec succès"
+NPDRMFREE_VSH_UPDATED =						"\nvsh.txt mise à jour"
+NPDRMFREE_GAME_UPDATED =					"\ngame.txt mise à jour"
+NPDRMFREE_NO_PARTITION =					"\nPartition pas trouvé !!!"
+
+--descriptions plugins
+--KERNEL
+INSTALLP_DESC_NONPDRM =						"Désactive la protection DRM sur tous les contenus PS Vita (Jeux, DLC et mise à jour)"
+INSTALLP_DESC_MINIVITATV = 					"Allows you to play local multiplayer games on your PS Vita with up to 4 friends"
+INSTALLP_DESC_NOPSMDRM =					"Désactive la protection DRM sur les jeux PSM"
+INSTALLP_DESC_VITABRIGHT =					"Plugin vous permettant d'activer la luminosité à son maximum"
+INSTALLP_DESC_NOAVLS =						"Ce Plugin va désactiver en permanence le mode AVLS qui s'auto active au redémarrage de votre PS Vita"
+INSTALLP_DESC_REPATCH =						"Active l'installation des jeux encrypté (3.67) et moddé et utilisable sous les firmware 3.60 et 3.65"
+INSTALLP_DESC_DS3VITA =						"Contrôler votre PS Vita avec une manette DualShock 3"
+INSTALLP_DESC_DS4VITA =						"Contrôler votre PS Vita avec une manette DualShock 4"
+INSTALLP_DESC_UDCDUVC =						"Plugin de streaming : diffusé votre écran de PS Vita sur votre PC via un câble USB"
+INSTALLP_DESC_KUIO =						"Permet aux modules utilisateur d'accéder à ux0:data pour des opérations binaires basique. Peut être nécessaire pour certains plugins"
+INSTALLP_DESC_ADRENALINE =					"Désactive le double lancement d'Adrenaline"
+INSTALLP_DESC_DSMOTION = 					"DualShock motion control support for PlayStation TV"
+
+--MAIN
+INSTALLP_DESC_DENABLER =					"Active le téléchargement des contenus depuis le navigateur internet de la PS Vita"
+INSTALLP_DESC_NOLOCKSCREEN =				"Désactive le verrouillage de l'écran de démarrage de votre PS Vita"
+INSTALLP_DESC_NOTROPHYMSG =					"Désactive le message d'erreur sur l'obtention des trophées au lancement d'une application issue d'un autre compte. Utile pour ceux qui utilisent plusieurs compte"
+INSTALLP_DESC_CUSTOMWARNING =				"Permet de remplacer le message d'épilepsie au lancement de la console par votre propre message. Requiert une PS Vita muni de ENSO"
+INSTALLP_DESC_SHELLBAT =					"Affiche le pourcentage de la batterie dans la barre de statut de la PS Vita"
+INSTALLP_DESC_SHELLSECBAT =					"Affiche le pourcentage de la batterie et l'heure dans la barre de statut de la PS Vita"
+INSTALLP_DESC_PNGSHOT =						"Permet le capture d'écran de vos jeux au format .PNG"
+INSTALLP_DESC_VFLUX =						"Plugin qui va filtré l'écran de votre PS Vita"
+
+--ALL
+INSTALLP_DESC_VSHMENU =						"Le plugin permet d'affiché un menu VSH du taiHEN sur les jeux et homebrews PS VITA"
+INSTALLP_DESC_OVERCLOCK =					"Ce plugin va Overclocker votre PS Vita (épuise vite la batterie)"
