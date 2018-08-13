@@ -13,8 +13,9 @@ STRING_PLEASE_WAIT =						"Please wait..."
 MENU_INSTALL_SD2VITA =						"Install Plugin SD2VITA"
 MENU_INSTALL_PLUGINS =						"Install Plugins"
 MENU_UNINSTALL_PLUGINS =					"Uninstall Plugins"
-MENU_INSTALL_NPDRMFREE =					"Install plugin npdrm free from qwikrazor87 (Adrenaline)"
+MENU_INSTALL_NPDRMFREE =					"Install plugin npdrm free from Qwik (Adrenaline)"
 MENU_INSTALL_CONFIG =						"Install config.txt for PKGJ v0.31+"
+MENU_INSTALL_REMASTERED_CTRLS =				"Install RemasteredControls plugins from Theflow (Adrenaline)"
 MENU_EXIT =									"Exit"
 MENU_INSTALLED_CONFIG =						"ux0:pkgi/config.txt for pkgj have been installed !!!"
 
@@ -26,22 +27,22 @@ SD2VITA_4_WARNING =							"them from your official MC only copy really needed ap
 SD2VITA_5_WARNING =							"For example: H-encore, Vitashell/ONEMenu, pkgj, adrenaline, etc... "
 SD2VITA_GAMECARD_DETECTED =					"GAMECARD DETECTED !!!"
 SD2VITA_GAMECARD_REMOVED =					"removed before install"
-SD2VITA_TRIANGLE_INSTALL =					"To proceed to installation press Triangle"
+SD2VITA_TRIANGLE_INSTALL =					"To proceed to installation press △"
 SD2VITA_CIRCLE_CANCEL =						"To cancel the installation press O"
 
 --install plugins
 INSTALLP_LIST_PLUGINS =						"List of plugins ready to install:"
 
-INSTALLP_CROSS_INSTALL =					"X to Install the plugin(s)"
-INSTALLP_SQUARE_MARK =						"Square to select the plugin(s) to install"
-INSTALLP_TRIANGLE_ALL =						"Triangle to Install ALL the plugins"
-INSTALLP_SELECT_CLEAN =						"Select to clean selected plugins"
-INSTALLP_LR_SWAP =							"L/R to swap ux0/ur0"
+INSTALLP_CROSS_INSTALL =					"X : to Install the plugin(s)"
+INSTALLP_SQUARE_MARK =						"[] : to select the plugin(s) to install"
+INSTALLP_TRIANGLE_ALL =						"△ : to Install ALL the plugins"
+INSTALLP_SELECT_CLEAN =						"SELECT : to clean selected plugins"
+INSTALLP_LR_SWAP =							"L/R : to swap ux0/ur0"
 
 INSTALLP_VITABRIGHT_360 =					"Vitabright only for 3.60"
 INSTALLP_CWARNING_360_365 =					"Custom Warning not work for 3.67/3.68"
-INSTALLP_QUESTION_SHELLSECBAT = 			"Plugin shellsecbat detected !!!\n\nInstall shellbat instead and uninstall shellsecbat ?"
-INSTALLP_QUESTION_SHELLBAT =				"Plugin shellbat detected !!!\n\nInstall shellsecbat instead and uninstall shellbat ?"
+INSTALLP_QUESTION_SHELLSECBAT = 			"\n               Plugin shellsecbat detected !!!\n\nInstall shellbat instead and uninstall shellsecbat ?"
+INSTALLP_QUESTION_SHELLBAT =				"\n               Plugin shellbat detected !!!\n\nInstall shellsecbat instead and uninstall shellbat ?"
 
 INSTALLP_OSK_TITLE =						"Text for Custom Warning"
 INSTALLP_OSK_TEXT =							"Put text here"
@@ -49,17 +50,24 @@ INSTALLP_OSK_TEXT =							"Put text here"
 --Uninstall plugins
 UNINSTALLP_TITLE =							"Plugins Manager"
 UNINSTALLP_NOCONFIG_FOUND =					"No config.txt found at: "
-UNINSTALLP_CROSS_INSTALL =					"X to uninstall plugin"
-UNINSTALLP_LR_SWAP =						"L/R to swap ux0/ur0"
-UNINSTALLP_LEFTRIGHT_SECTION =				"Left/Right to switch section"
+UNINSTALLP_CROSS_INSTALL =					"X : to uninstall plugin"
+UNINSTALLP_LR_SWAP =						"L/R : to swap ux0/ur0"
+UNINSTALLP_LEFTRIGHT_SECTION =				"Left/Right : to switch section"
 
 --npdrm free
-NPDRMFREE_TITLE =							"Install npdrm free plugin from qwikrazor87"
+NPDRMFREE_TITLE =							"Install npdrm free plugin from Qwik"
 NPDRMFREE_CROSS_INSTALL =					"X to install plugin"
 NPDRMFREE_INSTALLED =						"npdrm free installed"
 NPDRMFREE_VSH_UPDATED =						"vsh.txt updated"
 NPDRMFREE_GAME_UPDATED =					"game.txt updated"
 NPDRMFREE_NO_PARTITION =					"Partition not found!"
+
+--pspctrls
+PSPCTRLS_TITLE =							"Remastered Controls plugins from Theflow (Adrenaline)"
+PSPCTRLS_CROSS_INSTALL =					"X : to install plugin"
+PSPCTRLS_LR_SWAP =							"L/R: to swap partitions"
+PSPCTRLS_GAME_UPDATED =						"game.txt updated"
+PSPCTRLS_DESCP =							"A collection of dual analog patches for PSP games on Adrenaline"
 
 --descriptions plugins
 --KERNEL

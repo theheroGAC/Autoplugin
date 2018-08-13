@@ -52,6 +52,7 @@ dofile("scripts/commons.lua")
 dofile("scripts/autoplugin.lua")
 dofile("scripts/pmanager.lua")
 dofile("scripts/npdrm.lua")
+dofile("scripts/pspctrls.lua")
 dofile("scripts/sd2vita.lua")
 
-dofile("scripts/menu.lua")--Main Cycle
+dofile("menu.lua")--Main Cycle

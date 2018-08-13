@@ -15,6 +15,7 @@ MENU_INSTALL_PLUGINS =						"Installa Plugins"
 MENU_UNINSTALL_PLUGINS =					"Disinstalla Plugins"
 MENU_INSTALL_NPDRMFREE =					"Installa il plugin npdrm free di qwikrazor87 (Adrenaline)"
 MENU_INSTALL_CONFIG =						"Installa il file config.txt per PKGJ v0.31+"
+MENU_INSTALL_REMASTERED_CTRLS =				"Installa RemasteredControls plugins di Theflow (Adrenaline)"
 MENU_EXIT =									"Esci"
 MENU_INSTALLED_CONFIG =						"ux0:pkgi/config.txt per pkgj è stato installato!!!"
 
@@ -26,7 +27,7 @@ SD2VITA_4_WARNING =							"Copia solo le app veramente necessarie per la tua sd 
 SD2VITA_5_WARNING =							"Per esempio: H-encore, Vitashell/ONEMenu, pkgj, adrenaline, etc... "
 SD2VITA_GAMECARD_DETECTED =					"GAMECARD RILEVATA !!!"
 SD2VITA_GAMECARD_REMOVED =					"rimuovi prima di installare"
-SD2VITA_TRIANGLE_INSTALL =					"Per procedere con l'installazione premere Triangolo"
+SD2VITA_TRIANGLE_INSTALL =					"Per procedere con l'installazione premere △"
 SD2VITA_CIRCLE_CANCEL =						"Per annullare l'installazione premere O "
 
 --install plugins
@@ -60,6 +61,13 @@ NPDRMFREE_INSTALLED =						"npdrm free installato"
 NPDRMFREE_VSH_UPDATED =						"vsh.txt aggiornato"
 NPDRMFREE_GAME_UPDATED =					"game.txt aggiornato"
 NPDRMFREE_NO_PARTITION =					"Partizione non trovata!"
+
+--pspctrls
+PSPCTRLS_TITLE =							"Remastered Controls plugins di Theflow (Adrenaline)"
+PSPCTRLS_CROSS_INSTALL =					"X : per installare il plugin"
+PSPCTRLS_LR_SWAP =							"L/R: per cambiare la partizione"
+PSPCTRLS_GAME_UPDATED =						"game.txt aggiornato"
+PSPCTRLS_DESCP =							"Una collezione di patch per far funzionare gli analogici sui giochi PSP avviati da Adrenaline"
 
 --descriptions plugins
 --KERNEL
