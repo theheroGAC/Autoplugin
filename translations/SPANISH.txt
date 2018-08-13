@@ -15,8 +15,9 @@ MENU_INSTALL_PLUGINS =						"Instalar Plugins"
 MENU_UNINSTALL_PLUGINS =					"Desinstalar Plugins"
 MENU_INSTALL_NPDRMFREE =					"Instalar plugin npdrm free de Qwik (Adrenaline)"
 MENU_INSTALL_CONFIG =						"Instalar config.txt para PKGJ v0.31+"
+MENU_INSTALL_REMASTERED_CTRLS =				"Install RemasteredControls plugins from Theflow (Adrenaline)"
 MENU_EXIT =									"Salir"
-MENU_INSTALLED_CONFIG =						"¡¡¡ux0:pkgi/config.txt para pkgj ha sido instalado!!!"
+MENU_INSTALLED_CONFIG =						"¡¡¡ ux0:pkgi/config.txt para pkgj ha sido instalado !!!"
 
 --install sd2vita
 SD2VITA_1_WARNING =							"Para instalar el plugin de Storage Manager, su sd2vita debe estar lista"
@@ -26,22 +27,22 @@ SD2VITA_4_WARNING =							"a tu MicroSD antes de continuar, para no perder tus a
 SD2VITA_5_WARNING =							"Por ejemplo: H-encore, Vitashell/ONEMenu, pkgj, adrenaline, etc... "
 SD2VITA_GAMECARD_DETECTED =					"¡¡¡CARTUCHO DE JUEGO DETECTADO!!!"
 SD2VITA_GAMECARD_REMOVED =					"Retíralo para continuar"
-SD2VITA_TRIANGLE_INSTALL =					"Para proceder a la instalación, presione Triángulo"
+SD2VITA_TRIANGLE_INSTALL =					"Para proceder a la instalación, presione △"
 SD2VITA_CIRCLE_CANCEL =						"Para cancelar la instalación, presione O"
 
 --install plugins
 INSTALLP_LIST_PLUGINS =						"Lista de Plugins listos para instalar:"
 
-INSTALLP_CROSS_INSTALL =					"Presione X para instalar plugin(s)"
-INSTALLP_SQUARE_MARK =						"Presione Cuadrado para seleccionar plugins individuales"
-INSTALLP_TRIANGLE_ALL =						"Presione Triángulo para instalar TODOS los Plugins"
-INSTALLP_SELECT_CLEAN =						"Presione SELECT para limpiar los plugins seleccionados"
-INSTALLP_LR_SWAP =							 "Presione L/R para cambiar entre ux0/ur0"
+INSTALLP_CROSS_INSTALL =					"X : Para instalar plugin(s)"
+INSTALLP_SQUARE_MARK =						"[] : Para seleccionar plugins individuales"
+INSTALLP_TRIANGLE_ALL =						"△ : Para instalar TODOS los Plugins"
+INSTALLP_SELECT_CLEAN =						"SELECT : Para limpiar los plugins seleccionados"
+INSTALLP_LR_SWAP =							"L/R : Para cambiar entre ux0/ur0"
 
 INSTALLP_VITABRIGHT_360 =					"Vitabright SOLO para 3.60"
 INSTALLP_CWARNING_360_365 =					"Custom Warning no funciona en 3.67/3.68"
-INSTALLP_QUESTION_SHELLSECBAT = 			"¡Se detectó el plugin shellsecbat!\n\n¿Instalar shellbat en su lugar y desinstalar shellsecbat?"
-INSTALLP_QUESTION_SHELLBAT =				"¡Se detectó el plugin Shellbat!\n\n¿Instalar shellsecbat en su lugar y desinstalar shellbat?"
+INSTALLP_QUESTION_SHELLSECBAT = 			"\n               ¡Se detectó el plugin shellsecbat!\n\n¿Instalar shellbat en su lugar y desinstalar shellsecbat?"
+INSTALLP_QUESTION_SHELLBAT =				"\n               ¡Se detectó el plugin Shellbat!\n\n¿Instalar shellsecbat en su lugar y desinstalar shellbat?"
 
 INSTALLP_OSK_TITLE =						"Texto para Custom Warning"
 INSTALLP_OSK_TEXT =							"Escribe tu TEXTO aquí"
@@ -49,17 +50,24 @@ INSTALLP_OSK_TEXT =							"Escribe tu TEXTO aquí"
 --Uninstall plugins
 UNINSTALLP_TITLE =							"Administrador de Plugins"
 UNINSTALLP_NOCONFIG_FOUND =					"No se encontró config.txt en: "
-UNINSTALLP_CROSS_INSTALL =					"Presione X para desinstalar plugin"
-UNINSTALLP_LR_SWAP =						"Presione L/R para cambiar entre ux0/ur0"
-UNINSTALLP_LEFTRIGHT_SECTION =				"Presione Izquierda/Derecha para cambiar de sección"
+UNINSTALLP_CROSS_INSTALL =					"X : Para desinstalar plugin"
+UNINSTALLP_LR_SWAP =						"L/R : Para cambiar entre ux0/ur0"
+UNINSTALLP_LEFTRIGHT_SECTION =				"Izquierda/Derecha : Para cambiar de sección"
 
 --npdrm free
 NPDRMFREE_TITLE =							"Instalar plugin npdrm free de Qwik"
-NPDRMFREE__CROSS_INSTALL =					"Presione X para instalar plugin"
+NPDRMFREE_CROSS_INSTALL =					"X : Para instalar plugin"
 NPDRMFREE_INSTALLED =						"npdrm free instalado"
 NPDRMFREE_VSH_UPDATED =						"vsh.txt actualizdo"
 NPDRMFREE_GAME_UPDATED =					"game.txt actualizado"
 NPDRMFREE_NO_PARTITION =					"¡Partición no encontrada!"
+
+--pspctrls
+PSPCTRLS_TITLE =							"Remastered Controls plugins from Theflow (Adrenaline)"
+PSPCTRLS_CROSS_INSTALL =					"X : Instalar plugin(s)"
+PSPCTRLS_LR_SWAP =							"L/R : Cambiar de Partición"
+PSPCTRLS_GAME_UPDATED =						"game.txt actualizado"
+PSPCTRLS_DESCP =							"Colección de parches analógicos duales para juegos de PSP en Adrenaline"
 
 --descriptions plugins
 --KERNEL

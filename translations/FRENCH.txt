@@ -15,6 +15,7 @@ MENU_INSTALL_PLUGINS =						"Menu des plugins"
 MENU_UNINSTALL_PLUGINS =					"Désinstaller un Plugin"
 MENU_INSTALL_NPDRMFREE =					"Mise en place du plugin NpDrm free de Qwik pour Adrenaline"
 MENU_INSTALL_CONFIG =						"Installation du fichier config.txt pour PKGJ v0.31+"
+MENU_INSTALL_REMASTERED_CTRLS =				"Install RemasteredControls plugins from Theflow (Adrenaline)"
 MENU_EXIT =									"Quitter"
 MENU_INSTALLED_CONFIG =						"Fichier config.txt pour pkgj a été installé dans ux0:pkgi/"
 
@@ -34,7 +35,7 @@ INSTALLP_LIST_PLUGINS =						"Liste de plugin(s) prêt a être installé :"
 
 INSTALLP_CROSS_INSTALL =					"X : Lancer l'installation du plugin"
 INSTALLP_SQUARE_MARK =						"[] : Sélectionner le(s) plugin(s) à installer"
-INSTALLP_TRIANGLE_ALL =						"/\ : Installer tous les plugins"
+INSTALLP_TRIANGLE_ALL =						"△ : Installer tous les plugins"
 INSTALLP_SELECT_CLEAN =						"SELECT : Annuler les plugins sélectionner "
 INSTALLP_LR_SWAP =							"L/R : Switcher entre ux0: et ur0:"
 
@@ -55,11 +56,18 @@ UNINSTALLP_LEFTRIGHT_SECTION =				"Pad Gauche ou Droite : Changer de section de 
 
 --npdrm free
 NPDRMFREE_TITLE =							"Plugin NpDrm free pour Adrenaline"
-NPDRMFREE__CROSS_INSTALL =					"X : Installer le plugin"
+NPDRMFREE_CROSS_INSTALL =					"X : Installer le plugin"
 NPDRMFREE_INSTALLED =						"\nPlugin installé avec succès"
 NPDRMFREE_VSH_UPDATED =						"\nvsh.txt mise à jour"
 NPDRMFREE_GAME_UPDATED =					"\ngame.txt mise à jour"
 NPDRMFREE_NO_PARTITION =					"\nPartition pas trouvé !!!"
+
+--pspctrls
+PSPCTRLS_TITLE =							"Remastered Controls plugins from Theflow (Adrenaline)"
+PSPCTRLS_CROSS_INSTALL =					"X to install plugin"
+PSPCTRLS_LR_SWAP =							"L/R to swap partitions"
+PSPCTRLS_GAME_UPDATED =						"game.txt updated"
+PSPCTRLS_DESCP =							"A collection of dual analog patches for PSP games on Adrenaline"
 
 --descriptions plugins
 --KERNEL
