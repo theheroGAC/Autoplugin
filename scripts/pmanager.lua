@@ -1,5 +1,9 @@
 function pluginsmanager()
 
+	local tb_cop = {}
+	tb_cop = plugins
+	table.insert(tb_cop, { name = "Kuio by Rinnegatamante", path = "kuio.skprx", section = "KERNEL",  path2 = false, section2 = false })
+	table.insert(tb_cop, { name = "MiniVitaTV by TheOfficialFloW vbeta0.2", path = "minivitatv.skprx", section = "KERNEL",  path2 = "ds3.skprx", section2 = "KERNEL" })
 	local section, sel_section = { "KERNEL", "main", "ALL" },1
 
 	--Init load configs
@@ -96,25 +100,29 @@ function pluginsmanager()
 
 			if buttons.cross then
 				if tai[partition].gameid[ section[sel_section] ] then
+
 					table.remove(tai[partition].raw, tai[partition].gameid[section[sel_section]].prx[scrollp.sel].line)
 
-					if section[sel_section] == "KERNEL" then
-						if files.nopath(tai[partition].gameid[ section[sel_section] ].prx[scrollp.sel].path) == "kuio.skprx" then
-							if tai[partition].gameid[ "ALL" ] then
-								tai.del(partition, "ALL", "vsh.suprx")
+					local name = files.nopath(tai[partition].gameid[ section[sel_section] ].prx[scrollp.sel].path:lower())
+
+					for i=1,#tb_cop do
+						if name == tb_cop[i].path then
+							if tb_cop[i].section2 and tai[partition].gameid[ tb_cop[i].section2 ] then
+								tai.del(partition, tb_cop[i].section2, tb_cop[i].path2)
+								break
 							end
-						end
-					end
-					if section[sel_section] == "ALL" then
-						if files.nopath(tai[partition].gameid[ section[sel_section] ].prx[scrollp.sel].path) == "vsh.suprx" then
-							if tai[partition].gameid[ "KERNEL" ] then
-								tai.del(partition, "KERNEL", "kuio.skprx")
+						elseif name == tb_cop[i].path2 then
+							if tb_cop[i].section and tai[partition].gameid[ tb_cop[i].section ] then
+								tai.del(partition, tb_cop[i].section, tb_cop[i].path)
+								break
 							end
 						end
 					end
 
 					tai.sync(partition)
 					tai.load()
+
+					--update
 					if tai[partition].gameid[ section[sel_section] ] then
 						scrollp = newScroll( tai[partition].gameid[ section[sel_section] ].prx, limit)
 					else

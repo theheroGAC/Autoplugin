@@ -16,13 +16,24 @@ color.loadpalette()
 
 -- Loading language file
 files.mkdir("ux0:data/AUTOPLUGIN/lang/")
-__LANG = os.language()
-__STRINGS		= 44
-if files.exists("ux0:data/AUTOPLUGIN/lang/"..__LANG..".txt") then
-	dofile("ux0:data/AUTOPLUGIN/lang/"..__LANG..".txt")
+dofile("lang/english_us.txt")
+
+if files.exists("ux0:data/AUTOPLUGIN/lang/"..os.language()..".txt") then
+	dofile("ux0:data/AUTOPLUGIN/lang/"..os.language()..".txt")
 else
-	dofile("lang/english_us.txt")
+	if files.exists("lang/"..os.language()..".txt") then
+		dofile("lang/"..os.language()..".txt")
+	end
 end
+
+if files.exists("ux0:data/AUTOPLUGIN/font/font.ttf") then
+	fnt = font.load("ux0:data/AUTOPLUGIN/font/font.ttf")
+elseif files.exists("ux0:data/AUTOPLUGIN/font/font.pgf") then
+	fnt = font.load("ux0:data/AUTOPLUGIN/font/font.pgf")
+elseif files.exists("ux0:data/AUTOPLUGIN/font/font.pvf") then
+	fnt = font.load("ux0:data/AUTOPLUGIN/font/font.pvf")
+end
+if fnt then	font.setdefault(fnt) end
 
 if os.access() == 0 then
 	if back then back:blit(0,0) end
