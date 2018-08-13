@@ -44,7 +44,7 @@ function npdrm_free()
 
 		screen.print(480,20,NPDRMFREE_TITLE,1,color.red, 0x0, __ACENTER)
 
-		screen.print(10,500,NPDRMFREE__CROSS_INSTALL,1,color.white,color.black)
+		screen.print(10,500,NPDRMFREE_CROSS_INSTALL,1,color.white,color.black)
 
 		local y = 75
 		for i=scroll_np.ini, scroll_np.lim do
