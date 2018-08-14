@@ -102,25 +102,30 @@ function pluginsmanager()
 				if tai[partition].gameid[ section[sel_section] ] then
 
 					table.remove(tai[partition].raw, tai[partition].gameid[section[sel_section]].prx[scrollp.sel].line)
-
+					
 					local name = files.nopath(tai[partition].gameid[ section[sel_section] ].prx[scrollp.sel].path:lower())
 
-					for i=1,#tb_cop do
+					tai.sync(partition)
+					tai.load()
+
+					--for i=1,#tb_cop do
+					for i=#tb_cop,1,-1 do
 						if name == tb_cop[i].path then
 							if tb_cop[i].section2 and tai[partition].gameid[ tb_cop[i].section2 ] then
 								tai.del(partition, tb_cop[i].section2, tb_cop[i].path2)
-								break
+								--break
+								tai.sync(partition)
+								tai.load()
 							end
 						elseif name == tb_cop[i].path2 then
 							if tb_cop[i].section and tai[partition].gameid[ tb_cop[i].section ] then
 								tai.del(partition, tb_cop[i].section, tb_cop[i].path)
-								break
+								--break
+								tai.sync(partition)
+								tai.load()
 							end
 						end
 					end
-
-					tai.sync(partition)
-					tai.load()
 
 					--update
 					if tai[partition].gameid[ section[sel_section] ] then

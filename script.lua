@@ -10,22 +10,27 @@
 
 --Show splash ...
 splash.zoom("resources/splash.png")
-
 back = image.load("resources/back.png")
 color.loadpalette()
+
+local wstrength = wlan.strength()
+if wstrength then
+	if wstrength > 55 then dofile("git/updater.lua") end
+end
 
 -- Loading language file
 files.mkdir("ux0:data/AUTOPLUGIN/lang/")
 dofile("lang/english_us.txt")
 
 if files.exists("ux0:data/AUTOPLUGIN/lang/"..os.language()..".txt") then
-	dofile("ux0:data/AUTOPLUGIN/lang/"..os.language()..".txt")
-else
-	if files.exists("lang/"..os.language()..".txt") then
-		dofile("lang/"..os.language()..".txt")
-	end
+	dofile("ux0:data/AUTOPLUGIN/lang/"..os.language()..".txt")	
+end
+if files.exists("lang/"..os.language()..".txt") then
+	dofile("lang/"..os.language()..".txt")
 end
 
+-- Loading font
+files.mkdir("ux0:data/AUTOPLUGIN/font/")
 if files.exists("ux0:data/AUTOPLUGIN/font/font.ttf") then
 	fnt = font.load("ux0:data/AUTOPLUGIN/font/font.ttf")
 elseif files.exists("ux0:data/AUTOPLUGIN/font/font.pgf") then
@@ -40,11 +45,6 @@ if os.access() == 0 then
 	screen.flip()
 	os.message(STRING_UNSAFE_MODE)
 	os.exit()
-end
-
-local wstrength = wlan.strength()
-if wstrength then
-	if wstrength > 55 then dofile("git/updater.lua") end
 end
 
 dofile("scripts/tai.lua")
