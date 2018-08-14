@@ -22,6 +22,7 @@ This tool allows you to install/uninstall the following plugins with one click(o
 - ds4vita by xerpi
 - PSVita USB streaming! (UVC USB Video Class) by xerpi
 - DSmotion
+- VitaGrafix
 # Credits:
  Thank you
 - Team OneLua
@@ -38,6 +39,7 @@ This tool allows you to install/uninstall the following plugins with one click(o
 - dots-tb
 - SilicaAndPina
 - OperationNT414C
+- Electry
 - chronoss09
 # Tester:
 NanospeedGamer(thank you big friend)
