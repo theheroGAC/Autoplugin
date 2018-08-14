@@ -96,4 +96,5 @@ INSTALLP_DESC_VFLUX =						"PSVita屏幕过滤插件"
 
 --ALL
 INSTALLP_DESC_VSHMENU =					"用于PSVITA游戏和自制软件的VSH菜单插件"
+INSTALLP_DESC_VITAGRAFIX =					"Plugin that allows you to change resolution and FPS cap of PS Vita games"
 INSTALLP_DESC_OVERCLOCK =					"简易超频插件"
