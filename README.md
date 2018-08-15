@@ -49,4 +49,5 @@ NanospeedGamer(thank you big friend)
 - MrGhidini for translation in portugueseBR
 - Kouchan/kood_infothief for translation in Japanese
 - Omoinemie for translation in Chinese
+- taiwan-no1 for translation in Traditional Chinese
 - theheroGAC for translation in Italian
