@@ -24,10 +24,11 @@ plugins = {
 { name = "Shellbat by nowrep v0.9", path = "shellbat.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_SHELLBAT, },
 { name = "Shellsecbat by OperationNT414C v0.9", path = "shellsecbat.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_SHELLSECBAT, },
 { name = "pngshot by xyzz v1.2", path = "pngshot.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_PNGSHOT, },
-{ name = "Vflux by Applelo v0.5", path = "vFlux.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_VFLUX, },
+{ name = "Vflux by Applelo v0.5", path = "vflux.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_VFLUX, },
 
 --All
 { name = "PSV-VSH MENU by joel16 v3.4", path = "vsh.suprx", section = "ALL",  path2 = "kuio.skprx", section2 = "KERNEL", config = false, desc = INSTALLP_DESC_VSHMENU, },-- Need kuio.skprx
+{ name = "VitaGrafix by Electry v2.0 Pre-release", path = "vitagrafix.suprx", section = "ALL",  path2 = "kuio.skprx", section2 = "KERNEL", config = "config.txt", configpath = "ux0:data/VitaGrafix/", desc = INSTALLP_DESC_VITAGRAFIX, },-- Need kuio.skprx
 { name = "Oclock Vita by frangarcj v1.2.1", path = "oclockvita.suprx", section = "ALL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_OVERCLOCK, },
 
 }
@@ -107,7 +108,11 @@ function plugins_installation(sel)
 							fp:close()
 						end
 					else
-						files.copy(path_plugins..plugins[sel].config, path_tai)
+						if plugins[sel].configpath then
+							files.copy(path_plugins..plugins[sel].config, plugins[sel].configpath)
+						else
+							files.copy(path_plugins..plugins[sel].config, path_tai)
+						end
 					end
 				end
 

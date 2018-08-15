@@ -96,4 +96,5 @@ INSTALLP_DESC_VFLUX =						"Screen filter plugin for PS Vita"
 
 --ALL
 INSTALLP_DESC_VSHMENU =						"A VSH menu taiHEN plugin for the PS VITA games and homebrews"
+INSTALLP_DESC_VITAGRAFIX =					"Plugin that allows you to change resolution and FPS cap of PS Vita games"
 INSTALLP_DESC_OVERCLOCK =					"Simple Overclock Plugin for Taihen"
