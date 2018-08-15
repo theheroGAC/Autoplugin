@@ -1,10 +1,10 @@
-﻿--Translates
+--Translates
 
 STRING_UNSAFE_MODE =						"需要在Henkaku设置中打开不安全模式 !!!"
 STRING_PSVITA_RESTART =					"即将重启你的PSV"
 STRING_BACKUP_CONFIGS =					"创建设置备份文件"
 STRING_MISSING_CONFIG =					"丢失config.txt文件"
-STRING_CIRCLE_BACK =						"按 ⚪ 返回主菜单"
+STRING_CIRCLE_BACK =						"按 O 返回主菜单"
 STRING_START_CLOSE =						"按 START 关闭"
 STRING_INSTALLED =							"已完成安装"
 STRING_PLEASE_WAIT =						"请稍后..."
@@ -28,12 +28,12 @@ SD2VITA_5_WARNING =						"将PSV上UX0分区的所有文件（包括隐藏文件
 SD2VITA_GAMECARD_DETECTED =				"检测到游戏卡带 !!!"
 SD2VITA_GAMECARD_REMOVED =				"安装之前需要移除"
 SD2VITA_TRIANGLE_INSTALL =					"继续安装请按 △"
-SD2VITA_CIRCLE_CANCEL =					"取消安装请按 ⚪"
+SD2VITA_CIRCLE_CANCEL =					"取消安装请按 O"
 
 --install plugins
 INSTALLP_LIST_PLUGINS =						"【可用插件列表】："
 
-INSTALLP_CROSS_INSTALL =					"× : 安装插件"
+INSTALLP_CROSS_INSTALL =					"X : 安装插件"
 INSTALLP_SQUARE_MARK =					"□ : 勾选插件"
 INSTALLP_TRIANGLE_ALL =					"△ : 安装所有插件"
 INSTALLP_SELECT_CLEAN =					"SELECT : 取消所有勾选"
@@ -50,13 +50,13 @@ INSTALLP_OSK_TEXT =						"将文本放在这里"
 --Uninstall plugins
 UNINSTALLP_TITLE =							"插件管理"
 UNINSTALLP_NOCONFIG_FOUND =				"未找到 config.txt 文件： "
-UNINSTALLP_CROSS_INSTALL =					"×: 卸载插件"
+UNINSTALLP_CROSS_INSTALL =					"X: 卸载插件"
 UNINSTALLP_LR_SWAP =						"L / R: 切换 ux0/ur0 分区"
 UNINSTALLP_LEFTRIGHT_SECTION =				"Left/Right: 切换分区"
 
 --npdrm free
 NPDRMFREE_TITLE =							"安装npdrm free插件"
-NPDRMFREE_CROSS_INSTALL =					"按×安装插件"
+NPDRMFREE_CROSS_INSTALL =					"按X安装插件"
 NPDRMFREE_INSTALLED =						"npdrm free插件已安装"
 NPDRMFREE_VSH_UPDATED =					"vsh.txt文件已更新"
 NPDRMFREE_GAME_UPDATED =				"game.txt文件已更新"
@@ -64,23 +64,23 @@ NPDRMFREE_NO_PARTITION =					"未发现此分区!"
 
 --pspctrls
 PSPCTRLS_TITLE =							"Remastered Controls插件"
-PSPCTRLS_CROSS_INSTALL =					"×: 安装插件"
+PSPCTRLS_CROSS_INSTALL =					"X: 安装插件"
 PSPCTRLS_LR_SWAP =						"L / R: 切换分区"
 PSPCTRLS_GAME_UPDATED =					"game.txt文件已更新"
 PSPCTRLS_DESCP =							"Adrenaline上适用于PSP游戏的双模拟补丁合集"
 
 --descriptions plugins
 --KERNEL
-INSTALLP_DESC_NONPDRM =					"允许你绕过PSVita游戏的DRM保护机制"
-INSTALLP_DESC_MINIVITATV = 					"允许你和最多4位朋友在PSVita上玩本地多人游戏"
-INSTALLP_DESC_NOPSMDRM =					"允许你绕过PSM游戏的DRM保护机制"
+INSTALLP_DESC_NONPDRM =					"此插件允许你绕过PSVita游戏的DRM保护机制"
+INSTALLP_DESC_MINIVITATV = 					"此插件允许你和最多4位朋友在PSVita上玩本地多人游戏"
+INSTALLP_DESC_NOPSMDRM =					"此插件允许你绕过PSM游戏的DRM保护机制"
 INSTALLP_DESC_VITABRIGHT =					"此插件可以让PSV使用自定义伽玛值，从而将亮度降低到最小值以下，或者将其增加到最大值以上"
 INSTALLP_DESC_NOAVLS =					"此插件将永久禁用AVLS"
 INSTALLP_DESC_REPATCH =					"允许运行加密游戏位于 ux0:patch 的MOD，并可让3.67以上固件的游戏在3.60/3.65破解固件上运行"
 INSTALLP_DESC_DS3VITA =					"使用PS3手柄控制PSV"
 INSTALLP_DESC_DS4VITA =					"使用PS4手柄控制PSV"
 INSTALLP_DESC_UDCDUVC =					"使用USB线连接将画面串流到PC上"
-INSTALLP_DESC_KUIO =						"允许用户访问ux0模块：对数据I / O进行基本的操作，某些特定插件可能是必需的"
+INSTALLP_DESC_KUIO =						"允许用户访问ux0模块：对数据I/O进行基本的操作，可能需要某些特定插件才能生效"
 INSTALLP_DESC_ADRENALINE =					"允许你在Adrenaline可使用触摸操作"
 INSTALLP_DESC_DSMOTION = 					"在PS TV上可使用DualShock运动控制器"
 
