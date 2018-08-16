@@ -1,7 +1,7 @@
 --Translates
 
 STRING_UNSAFE_MODE =						"Le mode UNSAFE MODE doit être activé pour utiliser cet Homebrew !!!"
-STRING_PSVITA_RESTART =						"\nVotre PS Vita va redémarré pour valider les changements"
+STRING_PSVITA_RESTART =						"\nVotre PS Vita va redémarrer"
 STRING_BACKUP_CONFIGS =						"Backup de votre fichier Config.txt en cours"
 STRING_MISSING_CONFIG =						"Fichier config.txt introuvable"
 STRING_CIRCLE_BACK =						"O : Retour au menu"
@@ -21,17 +21,16 @@ MENU_INSTALLED_CONFIG =						"Fichier config.txt pour pkgj a été installé dan
 
 --install sd2vita
 SD2VITA_1_WARNING =							"RECOMMANDATION A SUIVRE POUR INSTALLER UNE SD2VITA"
-SD2VITA_2_WARNING =							"-> Pour les cartes microSD de plus de 32Go, veuillez les formatés au format exFAT."
-SD2VITA_3_WARNING =							"-> Veuillez à retirer la carte de jeu si elle est insérée dans votre console."
-SD2VITA_4_WARNING =							"!!! TRES IMPORTANT !!! "
-SD2VITA_5_WARNING =							"Votre microSD à utilisée doit déjà contenir les fichiers de votre carte mémoire de la PS Vita."
-SD2VITA_GAMECARD_DETECTED =					"!!! CARTE DE JEU DETECTE !!!"
-SD2VITA_GAMECARD_REMOVED =					"Veuillez la retirée avant de procédé à l'installation de votre SD2VITA"
+SD2VITA_2_WARNING =							"-> Pour les cartes microSD de plus de 32Go, veuillez les formater au format exFAT." 
+SD2VITA_3_WARNING =							"-> Veillez à retirer la carte de jeu si elle est insérée dans votre console." 
+SD2VITA_4_WARNING =							"!!! TRES IMPORTANT !!! Récupérer le contenu de ux0 sur votre PC"
+SD2VITA_5_WARNING =							"Copier le contenu de ux0 sur votre micro SD"SD2VITA_GAMECARD_DETECTED =					"!!! CARTE DE JEU DETECTE !!!"
+SD2VITA_GAMECARD_REMOVED =					"Veuillez la retirée avant de procéder à l'installation de votre SD2VITA" 
 SD2VITA_TRIANGLE_INSTALL =					"Appuyez sur TRIANGLE pour procéder à la mise en place de votre SD2VITA"
 SD2VITA_CIRCLE_CANCEL =						"Appuyez sur O pour annuler et quitter ce menu"
 
 --install plugins
-INSTALLP_LIST_PLUGINS =						"Liste de plugin(s) prêt a être installé :"
+INSTALLP_LIST_PLUGINS =						"Liste de plugin(s) prêt á être installé :" 
 
 INSTALLP_CROSS_INSTALL =					"X : Lancer l'installation du plugin"
 INSTALLP_SQUARE_MARK =						"[] : Sélectionner le(s) plugin(s) à installer"
