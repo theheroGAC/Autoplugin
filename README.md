@@ -24,7 +24,7 @@ This tool allows you to install/uninstall the following plugins with one click(o
 - DSmotion
 - VitaGrafix
 # Small note for the translation of the language for Chinese friends
-Download the font.pgf file(here https://github.com/theheroGAC/Autoplugin/blob/master/translations/font/font.pgf ) from the translation folder and insert it in the path ux0:data/autoplugin/font for fix translation in Chinese
+Download the **font.pgf** file(here https://github.com/theheroGAC/Autoplugin/blob/master/translations/font/font.pgf ) from the translation folder and insert it in the path **ux0:data/autoplugin/font** for fix translation in Chinese
 # Credits:
  Thank you
 - Team OneLua
