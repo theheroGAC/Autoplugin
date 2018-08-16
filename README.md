@@ -45,7 +45,7 @@ This tool allows you to install/uninstall the following plugins with one click(o
 NanospeedGamer(thank you big friend)
 # Translator:
 - NanospeedGamer/RY0M43CH1Z3N for translation in Spanish
-- SridentPSV/chronoss09 for translation in French
+- SridentPSV/chronoss09/dragtaz for translation in French
 - MrGhidini for translation in portugueseBR
 - Kouchan/kood_infothief for translation in Japanese
 - Omoinemie for translation in Chinese
