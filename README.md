@@ -29,6 +29,7 @@ Download the **font.pgf** file(here https://github.com/theheroGAC/Autoplugin/blo
  Thank you
 - Team OneLua
 - TheFloW
+- yifanlu
 - qwikrazor87
 - CelesteBlue
 - nowrep
