@@ -88,7 +88,7 @@ INSTALLP_DESC_USBMC = 					    "USB storage as Vita memory card"
 --MAIN
 INSTALLP_DESC_DENABLER =					"Dateien über Ihren Browser herunterladen"
 INSTALLP_DESC_NOLOCKSCREEN =				"Deaktiviere den PS Vita Sperrbildschirm"
-INSTALLP_DESC_NOTROPHYMSG =					"Deaktiviert die Nachricht, die verhindert, dass Sie Trophäen gewinnen, wenn Sie eine Anwendung starten, die mit einem anderen Konto verknüpft ist." Nützlich, wenn Sie Ihr Konto ständig ändern"
+INSTALLP_DESC_NOTROPHYMSG =					"Deaktiviert die Nachricht, die verhindert, dass Sie Trophäen gewinnen, wenn Sie eine Anwendung starten, die mit einem anderen Konto verknüpft ist.Nützlich, wenn Sie Ihr Konto ständig ändern"
 INSTALLP_DESC_CUSTOMWARNING =				"Erlaubt Ihnen, eine personalisierte Warnmeldung anstelle der epileptischen Warnung zu setzen, wenn Sie mit ENSO beginnen"
 INSTALLP_DESC_SHELLBAT =					"Prozentsatz der Batterie in der Statusleiste"
 INSTALLP_DESC_SHELLSECBAT =					"Prozentsatz der Batterie in der Statusleiste: Fusion von ShellBat und LastSeconds"
