@@ -1,4 +1,4 @@
-﻿--Translates
+--Translates
 
 STRING_UNSAFE_MODE =						"¡¡¡UNSICHERE MODUS muss aktiviert für die Homebrew!!!"
 STRING_PSVITA_RESTART =						"PSVita wird neu Gestartet"
@@ -83,6 +83,7 @@ INSTALLP_DESC_UDCDUVC =						"Ermöglicht dem PS Vita, als UVC-Gerät zu fungier
 INSTALLP_DESC_KUIO =						"Ermöglicht Benutzermodulen den Zugriff auf ux0: data für grundlegende E / A-Vorgänge. Es kann für bestimmte Plugins erforderlich sein"
 INSTALLP_DESC_ADRENALINE =					"Ermöglicht Adrenalin mit einer einzigen Berührung"
 INSTALLP_DESC_DSMOTION = 					"DualShock Motion Control-Unterstützung für PlayStation TV"
+INSTALLP_DESC_USBMC = 					    "USB storage as Vita memory card"
 
 --MAIN
 INSTALLP_DESC_DENABLER =					"Dateien über Ihren Browser herunterladen"

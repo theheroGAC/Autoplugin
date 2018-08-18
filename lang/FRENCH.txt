@@ -82,6 +82,7 @@ INSTALLP_DESC_UDCDUVC =						"Plugin de streaming : diffusé votre écran de PS 
 INSTALLP_DESC_KUIO =						"Permet aux modules utilisateur d'accéder à ux0:data pour des opérations binaires basique. Peut être nécessaire pour certains plugins"
 INSTALLP_DESC_ADRENALINE =					"Désactive le double lancement d'Adrenaline"
 INSTALLP_DESC_DSMOTION = 					"DualShock motion control support for PlayStation TV"
+INSTALLP_DESC_USBMC = 					    "USB storage as Vita memory card"
 
 --MAIN
 INSTALLP_DESC_DENABLER =					"Active le téléchargement des contenus depuis le navigateur internet de la PS Vita"

@@ -83,6 +83,8 @@ INSTALLP_DESC_UDCDUVC =						"UVC device to stream its display over USB to your 
 INSTALLP_DESC_KUIO =						"Allows user modules to access ux0:data for basic I/O operations. May be necessary for certain specific plugins"
 INSTALLP_DESC_ADRENALINE =					"Allows you to run adrenaline with a single touch"
 INSTALLP_DESC_DSMOTION = 					"DualShock motion control support for PlayStation TV"
+INSTALLP_DESC_USBMC = 					    "USB storage as Vita memory card"
+
 
 --MAIN
 INSTALLP_DESC_DENABLER =					"Download files through your browser"

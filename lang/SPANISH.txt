@@ -83,6 +83,7 @@ INSTALLP_DESC_UDCDUVC =						"Permite que la PS Vita funcione como un dispositiv
 INSTALLP_DESC_KUIO =						"Permite a los módulos de usuario acceder a ux0:data para operaciones de E/S básicas. Puede ser necesario para ciertos plugins específicos"
 INSTALLP_DESC_ADRENALINE =					"Permite ejecutar adrenaline con un solo toque"
 INSTALLP_DESC_DSMOTION = 					"Soporte de control de movimiento DualShock para PlayStation TV"
+INSTALLP_DESC_USBMC = 					    "USB storage as Vita memory card"
 
 --MAIN
 INSTALLP_DESC_DENABLER =					"Permite descargar archivos a través de su navegador"

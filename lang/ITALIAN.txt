@@ -83,6 +83,7 @@ INSTALLP_DESC_UDCDUVC =						"Dispositivo UVC per trasmettere la schermata PSVIT
 INSTALLP_DESC_KUIO =						"Consente ai moduli utente di accedere a ux0:datA per operazioni di I/O di base. Potrebbe essere necessario per determinati plugin specifici"
 INSTALLP_DESC_ADRENALINE =					"Ti permette di eseguire Adrenaline con un solo tocco"
 INSTALLP_DESC_DSMOTION =					"Supporto DualShock motion control per PlayStation TV"
+INSTALLP_DESC_USBMC = 					    "Plugin che trasforma la memoria USB come scheda di memoria PSVita"
 
 --MAIN
 INSTALLP_DESC_DENABLER =					"Scarica i file dal tuo browser"
