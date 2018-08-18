@@ -23,6 +23,7 @@ This tool allows you to install/uninstall the following plugins with one click(o
 - PSVita USB streaming! (UVC USB Video Class) by xerpi
 - DSmotion
 - VitaGrafix
+- usbmc
 # Small note for the translation of the language for Chinese friends
 Download the **font.pgf** file(here https://github.com/theheroGAC/Autoplugin/blob/master/translations/font/font.pgf ) and insert it in the path **ux0:data/autoplugin/font** (Remember if the font folder does not exist you have to create it) for fix translation in Chinese
 # Credits:
