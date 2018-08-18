@@ -1,0 +1,100 @@
+﻿--Translates
+
+STRING_UNSAFE_MODE =						"¡¡¡UNSICHERE MODUS muss aktiviert für die Homebrew!!!"
+STRING_PSVITA_RESTART =						"PSVita wird neu Gestartet"
+STRING_BACKUP_CONFIGS =						"Baut Config_backups.txt an"
+STRING_MISSING_CONFIG =						"Fehlt config.txt"
+STRING_CIRCLE_BACK =						"Drücken O um die menü zu kehren"
+STRING_START_CLOSE =						"Drücken START um zu schliesen"
+STRING_INSTALLED =							"wurde installiert"
+STRING_PLEASE_WAIT =						"Bitte warten..."
+
+--menu.lua
+MENU_INSTALL_SD2VITA =						"Installieren Plugin SD2VITA"
+MENU_INSTALL_PLUGINS =						"Installieren Plugins"
+MENU_UNINSTALL_PLUGINS =					"Deinstallieren Plugins"
+MENU_INSTALL_NPDRMFREE =					"Installieren plugin npdrm free de Qwik (Adrenaline)"
+MENU_INSTALL_CONFIG =						"Installieren config.txt para PKGJ v0.31+"
+MENU_INSTALL_REMASTERED_CTRLS =				"Installieren Remastered Controls plugins von Theflow (Adrenaline)"
+MENU_EXIT =									"Kehre zurück"
+MENU_INSTALLED_CONFIG =						"¡¡¡ ux0:pkgi/config.txt para pkgj wurde installiert !!!"
+
+--install sd2vita
+SD2VITA_1_WARNING =							"Um der plugin Storage Manager zu installieren, muss sd2vita in der liste sein"
+SD2VITA_2_WARNING =							"¡¡¡Ist die Original Spielkassette montiert, bitte rausziehen vor Neu Starten!!!"
+SD2VITA_3_WARNING =							"WICHTIGE: daten von deine original speicher sichern"
+SD2VITA_4_WARNING =							"von MicroSD vor, um alles apps nicht zu verlieren"
+SD2VITA_5_WARNING =							"zum Beispiel: H-encore, Vitashell/ONEMenu, pkgj, adrenaline, etc... "
+SD2VITA_GAMECARD_DETECTED =					"¡¡¡SPIELKASSETTE GEFUNDEN!!!"
+SD2VITA_GAMECARD_REMOVED =					"Entfernen, um fortzufahren"
+SD2VITA_TRIANGLE_INSTALL =					"Um mit der Installation fortzufahren, drücken Sie △"
+SD2VITA_CIRCLE_CANCEL =						"Um die Installation abzubrechen, drücken Sie O"
+
+--install plugins
+INSTALLP_LIST_PLUGINS =						"Liste des Plugins für die installation:"
+
+INSTALLP_CROSS_INSTALL =					"X : Um plugin(s) zu installieren"
+INSTALLP_SQUARE_MARK =						"[] : Plugins selber auswählen"
+INSTALLP_TRIANGLE_ALL =						"△ : Um alles Plugins zu installieren"
+INSTALLP_SELECT_CLEAN =						"SELECT : augewählte plugins reinigen"
+INSTALLP_LR_SWAP =							"L/R : Wechseln zu ux0/ur0"
+
+INSTALLP_VITABRIGHT_360 =					"Vitabright nur für 3.60"
+INSTALLP_CWARNING_360_365 =					"Custom Warning funktioniert nicht in 3.67/3.68"
+INSTALLP_QUESTION_SHELLSECBAT = 			"\n               ¡Plugins gefunden shellsecbat!\n\n¿Installieren shellbat und deinstallieren shellsecbat?"
+INSTALLP_QUESTION_SHELLBAT =				"\n               ¡Plugins gefunden Shellbat!\n\n¿Installieren shellsecbat und deinstallieren shellbat?"
+
+INSTALLP_OSK_TITLE =						"Deine Worte für Custom Warning"
+INSTALLP_OSK_TEXT =							"Hier schreiben"
+
+--Uninstall plugins
+UNINSTALLP_TITLE =							"Admin des Plugins"
+UNINSTALLP_NOCONFIG_FOUND =					"Nicht gefunden config.txt unter: "
+UNINSTALLP_CROSS_INSTALL =					"X : Plugins deinstallieren"
+UNINSTALLP_LR_SWAP =						"L/R : Wechseln zu ux0/ur0"
+UNINSTALLP_LEFTRIGHT_SECTION =				"Link/Recht : Sektion wechseln"
+
+--npdrm free
+NPDRMFREE_TITLE =							"Plugin npdrm installieren free von Qwik"
+NPDRMFREE_CROSS_INSTALL =					"X : Plugin installieren"
+NPDRMFREE_INSTALLED =						"npdrm free installiert"
+NPDRMFREE_VSH_UPDATED =						"vsh.txt aktualiziert"
+NPDRMFREE_GAME_UPDATED =					"game.txt aktualiziert"
+NPDRMFREE_NO_PARTITION =					"¡Partition nicht gefunden!"
+
+--pspctrls
+PSPCTRLS_TITLE =							"Remastered Controls plugins from Theflow (Adrenaline)"
+PSPCTRLS_CROSS_INSTALL =					"X : Installieren plugin(s)"
+PSPCTRLS_LR_SWAP =							"L/R : Partition wechseln"
+PSPCTRLS_GAME_UPDATED =						"game.txt aktualiziert"
+PSPCTRLS_DESCP =							"Sammlung von zwei analogen Patches für PSP-Spiele in Adrenaline"
+
+--descriptions plugins
+--KERNEL
+INSTALLP_DESC_NONPDRM =						"Ermöglicht Ihnen, den DRM-Schutz bei PS Vita-Inhalten zu vermeiden"
+INSTALLP_DESC_MINIVITATV = 					"Ermöglicht Ihnen, lokale Multiplayer-Spiele auf Ihrer PS Vita mit bis zu 4 Freunden zu spielen"
+INSTALLP_DESC_NOPSMDRM =					"Ermöglicht Ihnen, den DRM-Schutz im PSM-Spielinhalt zu vermeiden"
+INSTALLP_DESC_VITABRIGHT =			  		"Ermöglicht Ihnen, eine benutzerdefinierte Gamma-Tabelle zu verwenden und somit die Helligkeit unter das Minimum zu verringern und über das Maximum zu erhöhen"
+INSTALLP_DESC_NOAVLS =						"Plugin, das AVLS in PS Vita, das von AVLS erzwungen wird, dauerhaft deaktiviert"
+INSTALLP_DESC_REPATCH =						"Perlaubt das Modifizieren von verschlüsselten Spielen ähnlich wie ux0: patch und erlaubt den Einsatz von 3.67+ Spielen in 3.60 / 65 HEN"
+INSTALLP_DESC_DS3VITA =						"Steuern Sie Ihre psvita mit einem DualShock 3"
+INSTALLP_DESC_DS4VITA =						"Steuern Sie Ihre psvita mit einem DualShock 4"
+INSTALLP_DESC_UDCDUVC =						"Ermöglicht dem PS Vita, als UVC-Gerät zu fungieren, um seinen Bildschirm über USB an Ihren Computer zu übertragen"
+INSTALLP_DESC_KUIO =						"Ermöglicht Benutzermodulen den Zugriff auf ux0: data für grundlegende E / A-Vorgänge. Es kann für bestimmte Plugins erforderlich sein"
+INSTALLP_DESC_ADRENALINE =					"Ermöglicht Adrenalin mit einer einzigen Berührung"
+INSTALLP_DESC_DSMOTION = 					"DualShock Motion Control-Unterstützung für PlayStation TV"
+
+--MAIN
+INSTALLP_DESC_DENABLER =					"Dateien über Ihren Browser herunterladen"
+INSTALLP_DESC_NOLOCKSCREEN =				"Deaktiviere den PS Vita Sperrbildschirm"
+INSTALLP_DESC_NOTROPHYMSG =					"Deaktiviert die Nachricht, die verhindert, dass Sie Trophäen gewinnen, wenn Sie eine Anwendung starten, die mit einem anderen Konto verknüpft ist." Nützlich, wenn Sie Ihr Konto ständig ändern"
+INSTALLP_DESC_CUSTOMWARNING =				"Erlaubt Ihnen, eine personalisierte Warnmeldung anstelle der epileptischen Warnung zu setzen, wenn Sie mit ENSO beginnen"
+INSTALLP_DESC_SHELLBAT =					"Prozentsatz der Batterie in der Statusleiste"
+INSTALLP_DESC_SHELLSECBAT =					"Prozentsatz der Batterie in der Statusleiste: Fusion von ShellBat und LastSeconds"
+INSTALLP_DESC_PNGSHOT =						"pngshot ist ein Plugin um Screenshots (.PNG) zu machen"
+INSTALLP_DESC_VFLUX =						"Bildschirmfilter Plugin für PS Vita"
+
+--ALL
+INSTALLP_DESC_VSHMENU =						"Use VSH menu (taiHEN) para los juegos PS VITA y homebrews"
+INSTALLP_DESC_VITAGRAFIX =					"Plugin que permite cambiar la resolución y el límite de FPS de ciertos juegos de PS Vita"
+INSTALLP_DESC_OVERCLOCK =					"Plugin Simple Overclock para Taihen"
