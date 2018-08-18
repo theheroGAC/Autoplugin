@@ -52,4 +52,5 @@ NanospeedGamer(thank you big friend)
 - Kouchan/kood_infothief for translation in Japanese
 - Omoinemie for translation in Chinese
 - taiwan-no1 for translation in Traditional Chinese
+- AlbertonRD for translation in German
 - theheroGAC for translation in Italian
