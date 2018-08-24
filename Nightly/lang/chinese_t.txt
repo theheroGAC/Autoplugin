@@ -1,0 +1,101 @@
+--Translates
+
+STRING_UNSAFE_MODE =						"需要在Henkaku設置中打開不安全模式 !!!"
+STRING_PSVITA_RESTART =					"即將重起你的psv"
+STRING_BACKUP_CONFIGS =					"創建設置備份文件" 
+STRING_MISSING_CONFIG =					"丟失config.txt文件"
+STRING_CIRCLE_BACK =						"按圈返回主菜單" 
+STRING_START_CLOSE =						"按 START 關閉"
+STRING_INSTALLED =							"已完成安裝"
+STRING_PLEASE_WAIT =						"請稍後..."
+
+--menu.lua
+MENU_INSTALL_SD2VITA =					"安裝 SD2VITA 外掛程式"
+MENU_INSTALL_PLUGINS =					"安裝外掛程式"
+MENU_UNINSTALL_PLUGINS =					"卸載外掛程式"
+MENU_INSTALL_NPDRMFREE =					"安裝 npdrm free 外掛程式"
+MENU_INSTALL_CONFIG =						"為PKGJ v0.31以上版本安裝config.txt設定檔"
+MENU_INSTALL_REMASTERED_CTRLS =			"安裝 RemasteredControls 外掛程式"
+MENU_EXIT =								"退出\n中文翻譯(台灣神豬）" 
+MENU_INSTALLED_CONFIG =					"pkgj的設定檔已安裝在ux0:pkgi/config.txt"
+
+--install sd2vita
+SD2VITA_1_WARNING =						"準備好sd2vita卡套後才能安裝卡套外掛程式!!!"
+SD2VITA_2_WARNING =						"在重啟之前必須取出已插入的遊戲卡帶!!!"
+SD2VITA_3_WARNING =						"警告：你的卡套SD卡中必須安裝了一些軟體，你可以複製PSV檔到SD卡裡面"
+SD2VITA_4_WARNING =						"將SD卡插入電腦，PSV用vitashell用USB模式連接電腦"
+SD2VITA_5_WARNING =						"將PSV上UX0分區的所有檔（包括隱藏檔）複製到SD卡中"
+SD2VITA_GAMECARD_DETECTED =				"檢測到遊戲卡帶 !!!"
+SD2VITA_GAMECARD_REMOVED =				"安裝之前需要移除"
+SD2VITA_TRIANGLE_INSTALL =					"繼續安裝請按 △"
+SD2VITA_CIRCLE_CANCEL =					"取消安裝請按 ?"
+
+--install plugins
+INSTALLP_LIST_PLUGINS =						"【可用外掛程式列表】："
+
+INSTALLP_CROSS_INSTALL =					"× : 安裝外掛程式"
+INSTALLP_SQUARE_MARK =					"□ : 勾選外掛程式"
+INSTALLP_TRIANGLE_ALL =					"△ : 安裝所有外掛程式"
+INSTALLP_SELECT_CLEAN =					"SELECT : 取消所有勾選"
+INSTALLP_LR_SWAP =						"L / R : 切換 ux0/ur0 分區"
+
+INSTALLP_VITABRIGHT_360 =					"Vitabright僅可用於3.60固件"
+INSTALLP_CWARNING_360_365 =				"自訂警告無法用於3.67/3.68"
+INSTALLP_QUESTION_SHELLSECBAT = 			"\n               檢測到 shellsecbat 外掛程式!!!\n\n安裝 shellbat 外掛程式替換並卸載 shellsecbat 外掛程式?"
+INSTALLP_QUESTION_SHELLBAT =				"\n               檢測到 shellbat 外掛程式!!!\n\n安裝 shellsecbat 外掛程式替換並卸載 shellbat 外掛程式?"
+
+INSTALLP_OSK_TITLE =						"自訂警告文本"
+INSTALLP_OSK_TEXT =						"將文本放在這裡"
+
+--Uninstall plugins
+UNINSTALLP_TITLE =							"外掛程式管理"
+UNINSTALLP_NOCONFIG_FOUND =				"未找到 config.txt 文件： "
+UNINSTALLP_CROSS_INSTALL =					"×: 卸載外掛程式"
+UNINSTALLP_LR_SWAP =						"L / R: 切換 ux0/ur0 分區"
+UNINSTALLP_LEFTRIGHT_SECTION =				"Left/Right: 切換分區"
+
+--npdrm free
+NPDRMFREE_TITLE =							"安裝npdrm free外掛程式"
+NPDRMFREE_CROSS_INSTALL =					"按×安裝外掛程式"
+NPDRMFREE_INSTALLED =						"npdrm free外掛程式已安裝"
+NPDRMFREE_VSH_UPDATED =					"vsh.txt檔已更新"
+NPDRMFREE_GAME_UPDATED =				"game.txt檔已更新"
+NPDRMFREE_NO_PARTITION =					"未發現此分區!"
+
+--pspctrls
+PSPCTRLS_TITLE =							"Remastered Controls外掛程式"
+PSPCTRLS_CROSS_INSTALL =					"×: 安裝外掛程式"
+PSPCTRLS_LR_SWAP =						"L / R: 切換分區"
+PSPCTRLS_GAME_UPDATED =					"game.txt檔已更新"
+PSPCTRLS_DESCP =							"Adrenaline上適用於PSP遊戲的雙模擬補丁合集"
+
+--descriptions plugins
+--KERNEL
+INSTALLP_DESC_NONPDRM =					"允許你繞過PSVita遊戲的DRM保護機制"
+INSTALLP_DESC_MINIVITATV = 					"允許你和最多4位朋友在PSVita上玩本地多人遊戲"
+INSTALLP_DESC_NOPSMDRM =					"允許你繞過PSM遊戲的DRM保護機制"
+INSTALLP_DESC_VITABRIGHT =					"此外掛程式可以讓PSV使用自訂伽瑪值，從而將亮度降低到最小值以下，或者將其增加到最大值以上"
+INSTALLP_DESC_NOAVLS =					"此外掛程式將永久禁用AVLS"
+INSTALLP_DESC_REPATCH =					"允許運行加密遊戲位於 ux0:patch 的MOD，並可讓3.67以上固件的遊戲在3.60/3.65破解固件上運行"
+INSTALLP_DESC_LOLICON =						"Small vita shell ran from kernel that allows for actual overclocking"
+INSTALLP_DESC_DS3VITA =					"使用PS3手柄控制PSV"
+INSTALLP_DESC_DS4VITA =					"使用PS4手柄控制PSV"
+INSTALLP_DESC_UDCDUVC =					"使用USB線連接將畫面串流到PC上"
+INSTALLP_DESC_KUIO =						"允許使用者訪問ux0模組：對資料I / O進行基本的操作，某些特定外掛程式可能是必需的"
+INSTALLP_DESC_ADRENALINE =					"允許你在Adrenaline可使用觸摸操作"
+INSTALLP_DESC_DSMOTION = 					"在PS TV上可使用DualShock運動控制器"
+
+--MAIN
+INSTALLP_DESC_DENABLER =					"通過流覽器下載任何檔"
+INSTALLP_DESC_NOLOCKSCREEN =				"在PSVita上禁用鎖屏機制"
+INSTALLP_DESC_NOTROPHYMSG =				"當你使用存檔中包含其他帳戶的程式時，會提示禁用獎盃消息， 如果你切換帳戶，可使用該功能"
+INSTALLP_DESC_CUSTOMWARNING =			"當使用固化啟動時，你可以設置自訂警告消息替代Epilepsy警告"
+INSTALLP_DESC_SHELLBAT =					"在狀態列顯示電量百分比"
+INSTALLP_DESC_SHELLSECBAT =				"在狀態列顯示電量百分比: ShellBat和LastSeconds混合"
+INSTALLP_DESC_PNGSHOT =					"pngshot是一個高品質截圖外掛程式 (.PNG格式)"
+INSTALLP_DESC_VFLUX =						"PSVita螢幕過濾外掛程式"
+
+--ALL
+INSTALLP_DESC_VSHMENU =					"用於PSVITA遊戲和自製軟體的VSH功能表外掛程式"
+INSTALLP_DESC_VITAGRAFIX =					"Plugin that allows you to change resolution and FPS cap of PS Vita games"
+INSTALLP_DESC_OVERCLOCK =					"簡易超頻外掛程式"
