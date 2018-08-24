@@ -1,1 +1,11 @@
-
+url_games http://nopaystation.com/tsv/PSV_GAMES.tsv
+url_updates http://nopaystation.com/tsv/PSV_UPDATES.tsv
+url_dlcs http://nopaystation.com/tsv/PSV_DLCS.tsv
+url_psx_games http://nopaystation.com/tsv/PSX_GAMES.tsv
+url_psp_games http://nopaystation.com/tsv/PSP_GAMES.tsv
+url_psm_games http://nopaystation.com/tsv/PSM_GAMES.tsv
+url_comppack https://gitlab.com/nopaystation_repos/nps_compati_packs/raw/master/
+install_psp_psx_location ux0:
+sort name
+order asc
+filter ASA,EUR,JPN,USA
