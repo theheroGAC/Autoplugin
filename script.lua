@@ -37,6 +37,8 @@ elseif files.exists("ux0:data/AUTOPLUGIN/font/font.pgf") then
 	fnt = font.load("ux0:data/AUTOPLUGIN/font/font.pgf")
 elseif files.exists("ux0:data/AUTOPLUGIN/font/font.pvf") then
 	fnt = font.load("ux0:data/AUTOPLUGIN/font/font.pvf")
+elseif files.exists("font/font.pgf") then
+	fnt = font.load("font/font.pgf")
 end
 if fnt then	font.setdefault(fnt) end
 
