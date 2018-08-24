@@ -27,7 +27,7 @@ This tool allows you to install/uninstall the following plugins with one click(o
 # Small note for the translation of the language for Chinese friends
 Download the **font.pgf** file(here https://github.com/theheroGAC/Autoplugin/blob/master/translations/font/font.pgf ) and insert it in the path **ux0:data/autoplugin/font** (Remember if the font folder does not exist you have to create it) for fix translation in Chinese
 # Nightly version
-During the week there will be Nightly versions with changes to the source code. On the weekend a stable release of all these changes
+During the week there will be Nightly versions for the testers with the changes to the source code. On the weekend a stable release
 # Credits:
  Thank you
 - Team OneLua
