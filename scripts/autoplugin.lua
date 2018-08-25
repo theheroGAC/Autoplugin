@@ -8,7 +8,7 @@ plugins = {
 { name = "Vitabright by devnoname120(only for 3.60)", path = "vitabright.skprx", section = "KERNEL",  path2 = false, section2 = false, config = "vitabright_lut.txt", desc = INSTALLP_DESC_VITABRIGHT, },
 { name = "NoAVLS by SilicaAndPina", path = "noavls.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_NOAVLS, },
 { name = "Repatch by dots-tb v2.71", path = "repatch.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_REPATCH, },
-{ name = "LOLIcon by dots-tb v1.0.1", path = "LOLIcon.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_LOLICON, },
+{ name = "LOLIcon by dots-tb v1.0.1", path = "lolicon.skprx", section = "KERNEL",  path2 = "ioplus.skprx", section2 = "KERNEL", config = false, desc = INSTALLP_DESC_LOLICON, },
 { name = "ds3vita by xerpi Beta3", path = "ds3vita.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_DS3VITA, },
 { name = "ds4vita by xerpi v1.2", path = "ds4vita.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_DS4VITA, },
 { name = "udcd_uvc by xerpi [PoC v6]", path = "udcd_uvc.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_UDCDUVC, },
@@ -20,9 +20,9 @@ plugins = {
 
 --Main
 { name = "Download Enabler by TheOfficialFloW (VitaTweaks)", path = "download_enabler.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_DENABLER, },
-{ name = "NoLockScreen by TheOfficialFloW (VitaTweaks)", path = "nolockscreen.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_NOLOCKSCREEN, },
+{ name = "NoLockScreen v2 by TheOfficialFloW (VitaTweaks)", path = "nolockscreen.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_NOLOCKSCREEN, },
 { name = "NoTrophyMsg by TheOfficialFloW (VitaTweaks)", path = "notrophymsg.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_NOTROPHYMSG, },
-{ name = "Custom Warning by TheOfficialFloW (VitaTweaks)", path = "custom_warning.suprx", section = "main",  path2 = false, section2 = false, config = "custom_warning.txt", desc = INSTALLP_DESC_CUSTOMWARNING, },
+{ name = "Custom Warning v2 by TheOfficialFloW (VitaTweaks)", path = "custom_warning.suprx", section = "main",  path2 = false, section2 = false, config = "custom_warning.txt", desc = INSTALLP_DESC_CUSTOMWARNING, },
 
 { name = "Shellbat by nowrep v0.9", path = "shellbat.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_SHELLBAT, },
 { name = "Shellsecbat by OperationNT414C v0.9", path = "shellsecbat.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_SHELLSECBAT, },
