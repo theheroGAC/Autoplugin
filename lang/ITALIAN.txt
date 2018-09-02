@@ -22,7 +22,7 @@ MENU_INSTALLED_CONFIG =						"ux0:pkgi/config.txt per pkgj è stato installato!!
 --install sd2vita
 SD2VITA_1_WARNING =							"Per installare il plugin Storage Manager la tua sd2vita DEVE essere pronta"
 SD2VITA_2_WARNING =							"Se è stata inserita una cartuccia di gioco, DEVE essere rimossa prima di riavviare !!!"
-SD2VITA_3_WARNING =							"MOLTO IMPORTANTE: LA tua sd2vita DEVE avere già alcune app, puoi copiare/incollarle dalla tua Memory Card ufficiale"
+SD2VITA_3_WARNING =							"MOLTO IMPORTANTE: LA tua sd2vita DEVE avere già alcune app copiate dalla Memory Card ufficiale"
 SD2VITA_4_WARNING =							"Copia solo le app veramente necessarie per la tua sd !!!."
 SD2VITA_5_WARNING =							"Per esempio: H-encore, Vitashell/ONEMenu, pkgj, adrenaline, etc... "
 SD2VITA_GAMECARD_DETECTED =					"GAMECARD RILEVATA !!!"
@@ -77,7 +77,7 @@ INSTALLP_DESC_NOPSMDRM =					"Permette di bypassare la protezione DRM sui conten
 INSTALLP_DESC_VITABRIGHT =					"Plugin che consente di utilizzare una tabella gamma personalizzata e quindi ridurre la luminosità al di sotto del minimo e aumentarla al di sopra del massimo"
 INSTALLP_DESC_NOAVLS =						"Plugin che disabiliterà permanentemente AVLS su PSVITA"
 INSTALLP_DESC_REPATCH =						"Permette il ​​modding di giochi crittografati simile a ux0:patch e abilita l'uso di giochi 3.67+ su 3.60/65 HEN"
-INSTALLP_DESC_LOLICON =						"Un piccolo shell lanciato dal kernel che consente l'overclocking effettivo"
+INSTALLP_DESC_LOLICON =						"Un piccolo shell lanciato dal kernel che consente l'overclock della PSVITA a 500 MHz"
 INSTALLP_DESC_DS3VITA =						"Controlla la tua PSVita utilizzando un DualShock 3"
 INSTALLP_DESC_DS4VITA =						"Controlla la tua PSVita utilizzando un DualShock 4"
 INSTALLP_DESC_UDCDUVC =						"Dispositivo UVC per trasmettere la schermata PSVITA tramite USB al computer"
