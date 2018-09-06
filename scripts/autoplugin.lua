@@ -8,7 +8,7 @@ plugins = {
 { name = "Vitabright by devnoname120(only for 3.60)", path = "vitabright.skprx", section = "KERNEL",  path2 = false, section2 = false, config = "vitabright_lut.txt", desc = INSTALLP_DESC_VITABRIGHT, },
 { name = "NoAVLS by SilicaAndPina", path = "noavls.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_NOAVLS, },
 { name = "Repatch by dots-tb v2.71", path = "repatch.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_REPATCH, },
-{ name = "LOLIcon by dots-tb v1.0.1.1 HOTFIX A", path = "lolicon.skprx", section = "KERNEL",  path2 = "ioplus.skprx", section2 = "KERNEL", config = false, desc = INSTALLP_DESC_LOLICON, },
+{ name = "LOLIcon by dots-tb v1.0.1.1 HOTFIX A", path = "lolicon.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_LOLICON, },
 { name = "ds3vita by xerpi Beta3", path = "ds3vita.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_DS3VITA, },
 { name = "ds4vita by xerpi v1.2", path = "ds4vita.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_DS4VITA, },
 { name = "udcd_uvc by xerpi v1.1", path = "udcd_uvc.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_UDCDUVC, },
@@ -16,7 +16,7 @@ plugins = {
 { name = "Adrenaline by TheOfficialFloW (Fix double touch)", path = "adrenaline_kernel.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_ADRENALINE, },
 { name = "DSMotion by OperationNT414C v1.2", path = "dsmotion.skprx", section = "KERNEL",  path2 = "dsmotion.suprx", section2 = "ALL", config = false, desc = INSTALLP_DESC_DSMOTION, },
 { name = "usbmc by yifanlu v6 (only for PSTV)", path = "usbmc.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_USBMC, },
-
+{ name = "AnalogsEnhancer by Rinnegatamante v1.0", path = "AnalogsEnhancer.skprx", section = "KERNEL",  path2 = false, section2 = false, config = "config.txt", configpath = "ux0:data/AnalogsEnhancer/", desc = INSTALLP_DESC_ANALOGSENHANCER, },
 
 --Main
 { name = "Download Enabler by TheOfficialFloW (VitaTweaks)", path = "download_enabler.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_DENABLER, },

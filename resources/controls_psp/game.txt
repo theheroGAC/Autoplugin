@@ -5,3 +5,4 @@ ms0:/seplugins/tombraider_remastered.prx 1
 ms0:/seplugins/pop_remastered.prx 1
 ms0:/seplugins/khbbs_remastered.prx 1
 ms0:/seplugins/mgs_remastered.prx 1
+ms0:/seplugins/warriors_remastered.prx 1

@@ -14,7 +14,7 @@ MENU_INSTALL_SD2VITA =						"SD2VITA Plugin installieren"
 MENU_INSTALL_PLUGINS =						"Plugins installieren"
 MENU_UNINSTALL_PLUGINS =					"Plugins deinstallieren"
 MENU_INSTALL_NPDRMFREE =					"npdrm free Plugin von qwikrazor87 instalieren (Adrenaline)"
-MENU_INSTALL_CONFIG =						"Installiere config.txt für PKGJ v0.33+"
+MENU_INSTALL_CONFIG =						"Installiere config.txt für PKGJ v0.34+"
 MENU_INSTALL_REMASTERED_CTRLS =				"RemasteredControls Plugins von Theflow installieren (Adrenaline)"
 MENU_EXIT =									"Beenden"
 MENU_INSTALLED_CONFIG =						"ux0:pkgi/config.txt für pkgj wurde installiert!"
@@ -85,6 +85,7 @@ INSTALLP_DESC_KUIO =						"Ermöglicht Benutzermodulen den Zugriff auf ux0:data 
 INSTALLP_DESC_ADRENALINE =					"Ermöglicht es Adrenaline beim ersten öffnen zu starten."
 INSTALLP_DESC_DSMOTION = 					"Unterstützung von DualShock Motion Control für PlayStation TV"
 INSTALLP_DESC_USBMC = 						"USB Speicher als PS Vita Speicherkarte nutzen"
+INSTALLP_DESC_ANALOGSENHANCER =             "This little kernel plugin allows users to improve their experience with PSVITA analogs"
 
 --MAIN
 INSTALLP_DESC_DENABLER =					"Dateien durch den Browser runterladen"

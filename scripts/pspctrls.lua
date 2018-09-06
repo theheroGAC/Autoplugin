@@ -8,6 +8,7 @@ psp_plugins = {
 { name = "Resistance Remastered", path = "resistance_remastered.prx" },
 { name = "SplinterCell Remastered", path = "splintercell_remastered.prx" },
 { name = "Tomb Raider Remastered", path = "tombraider_remastered.prx" },
+{ name = "Warriors Remastered", path = "warriors_remastered.prx" },
 
 }
 
