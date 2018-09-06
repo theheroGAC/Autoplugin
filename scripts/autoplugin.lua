@@ -17,6 +17,7 @@ plugins = {
 { name = "DSMotion by OperationNT414C v1.2", path = "dsmotion.skprx", section = "KERNEL",  path2 = "dsmotion.suprx", section2 = "ALL", config = false, desc = INSTALLP_DESC_DSMOTION, },
 { name = "usbmc by yifanlu v6 (only for PSTV)", path = "usbmc.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_USBMC, },
 { name = "AnalogsEnhancer by Rinnegatamante v1.0", path = "AnalogsEnhancer.skprx", section = "KERNEL",  path2 = false, section2 = false, config = "config.txt", configpath = "ux0:data/AnalogsEnhancer/", desc = INSTALLP_DESC_ANALOGSENHANCER, },
+{ name = "ioplus by dots-tb v0.1", path = "ioplus.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_IOPLUS, },
 
 --Main
 { name = "Download Enabler by TheOfficialFloW (VitaTweaks)", path = "download_enabler.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_DENABLER, },

@@ -86,6 +86,7 @@ INSTALLP_DESC_ADRENALINE =					"Permite ejecutar adrenaline con un solo toque"
 INSTALLP_DESC_DSMOTION = 					"Soporte de control de movimiento DualShock para PlayStation TV"
 INSTALLP_DESC_USBMC = 					    "USB storage as Vita memory card"
 INSTALLP_DESC_ANALOGSENHANCER =             "This little kernel plugin allows users to improve their experience with PSVITA analogs"
+INSTALLP_DESC_IOPLUS = 					    "A PSVita kernel plugin that allows more IO operations in userland"
 
 --MAIN
 INSTALLP_DESC_DENABLER =					"Permite descargar archivos a través de su navegador"
