@@ -88,6 +88,11 @@ INSTALLP_DESC_USBMC = 					    "USB storage as Vita memory card"
 INSTALLP_DESC_ANALOGSENHANCER =             "This little kernel plugin allows users to improve their experience with PSVITA analogs"
 INSTALLP_DESC_IOPLUS = 					    "A PSVita kernel plugin that allows more IO operations in userland"
 
+--Boot_config.txt
+INSTALLP_DESC_CUSTOMBOOTSPLASH =			"This plugin can display Boot Splash on PS Vita/PSTV at boot. Require ENSO"
+INSTALLP_DESC_CONVERTBOOTSPLASH =			"Set your splash image as custom boot splash ?"
+INSTALLP_DESC_NOFINDSPLASH =				"Place the image of your choice at ux0:CustomBootsplash/\n(renamed to splash.png and resized to 960x544)"
+INSTALLP_DESC_BOOTSPLASHDONE =				"boot_splash.bin done!!!"
 
 --MAIN
 INSTALLP_DESC_DENABLER =					"Download files through your browser"

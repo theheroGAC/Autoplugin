@@ -6,7 +6,6 @@ url_psp_games http://nopaystation.com/tsv/PSP_GAMES.tsv
 url_psm_games http://nopaystation.com/tsv/PSM_GAMES.tsv
 url_comppack https://gitlab.com/nopaystation_repos/nps_compati_packs/raw/master/
 install_psp_psx_location ux0:
-install_psp_as_pbp 1
 psm_disclaimer_yes_i_read_the_readme NoPsmDrm
 sort name
 order asc

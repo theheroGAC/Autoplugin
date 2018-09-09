@@ -19,6 +19,9 @@ plugins = {
 { name = "AnalogsEnhancer by Rinnegatamante v1.0", path = "AnalogsEnhancer.skprx", section = "KERNEL",  path2 = false, section2 = false, config = "config.txt", configpath = "ux0:data/AnalogsEnhancer/", desc = INSTALLP_DESC_ANALOGSENHANCER, },
 { name = "ioplus by dots-tb v0.1", path = "ioplus.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_IOPLUS, },
 
+--Boot_config.txt
+{ name = "Custom Boot Splash by Princess of Sleeping", path = "custom_boot_splash.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_CUSTOMBOOTSPLASH, },
+
 --Main
 { name = "Download Enabler by TheOfficialFloW (VitaTweaks)", path = "download_enabler.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_DENABLER, },
 { name = "NoLockScreen v2 by TheOfficialFloW (VitaTweaks)", path = "nolockscreen.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_NOLOCKSCREEN, },
@@ -56,6 +59,28 @@ tai.sync(__UR0, "ur0:tai/config_backup.txt")
 if back then back:blit(0,0) end
 	message_wait(STRING_BACKUP_CONFIGS)
 os.delay(1500)
+
+files.mkdir("ux0:CustomBootsplash/")
+
+function img2splashbin(path2img)
+
+	local img = image.load(path2img)
+	if img then
+		if img:getw() == 960 and img:geth() == 544 then
+			local data_img = image.data(img)
+			if data_img then
+				local fp = io.open("ur0:tai/boot_splash.bin","w+")
+				if fp then
+					fp:write(data_img)
+					fp:close()
+					os.message(INSTALLP_DESC_BOOTSPLASHDONE)
+				end
+			end
+		else
+			os.message(INSTALLP_DESC_NOFINDSPLASH)
+		end
+	end
+end
 
 function plugins_installation(sel)
 
@@ -136,12 +161,25 @@ function plugins_installation(sel)
 				--Write
 				tai.sync(loc)
 
-				change = true
-				buttons.homepopup(0)
-
 				if back then back:blit(0,0) end
 				message_wait(plugins[sel].name.."\n\n"..STRING_INSTALLED)
 				os.delay(1500)
+
+				--Custom Boot Splash
+				if plugins[sel].path == "custom_boot_splash.skprx" then
+
+					if files.exists("ux0:CustomBootsplash/splash.png") then
+						if os.message(INSTALLP_DESC_CONVERTBOOTSPLASH,1) == 1 then
+							img2splashbin("ux0:CustomBootsplash/splash.png")
+						end
+					else
+						img2splashbin("resources/boot_splash.png")
+					end
+
+				end
+
+				change = true
+				buttons.homepopup(0)
 
 			end
 

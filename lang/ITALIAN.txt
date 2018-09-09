@@ -88,6 +88,12 @@ INSTALLP_DESC_USBMC = 					    "Plugin che trasforma la memoria USB come scheda 
 INSTALLP_DESC_ANALOGSENHANCER =             "Questo piccolo plugin del kernel consente agli utenti di migliorare la propria esperienza con gli analogici PSVITA"
 INSTALLP_DESC_IOPLUS = 					    "Un KERNEL plugin per PSVita che consente operazioni IO in userland (UTILE PER SVILUPPATORI)"
 
+--Boot_config.txt
+INSTALLP_DESC_CUSTOMBOOTSPLASH =			"Questo plugin può modificare il Boot Splash iniziale su PS Vita/PSTV all'avvio. Richiede ENSO"
+INSTALLP_DESC_CONVERTBOOTSPLASH =			"Impostare la tua immagine splash personalizzata come splash di avvio?"
+INSTALLP_DESC_NOFINDSPLASH =				"Posiziona l'immagine di tua scelta su ux0:CustomBootsplash/\n(rinominato in splash.png e ridimensionato a 960x544)"
+INSTALLP_DESC_BOOTSPLASHDONE =				"boot_splash.bin creato con successo!!!"
+
 --MAIN
 INSTALLP_DESC_DENABLER =					"Scarica i file dal tuo browser"
 INSTALLP_DESC_NOLOCKSCREEN =				"Disattiva la schermata di blocco su PSVita"
