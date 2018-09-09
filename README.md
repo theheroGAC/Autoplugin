@@ -25,6 +25,9 @@ This tool allows you to install/uninstall the following plugins with one click(o
 - DSmotion
 - VitaGrafix
 - usbmc
+# Small note for Splash image
+To insert a personalized image at startup it must be inserted in png format with the format 960X544 with the name splash.png in the path ux0:CustomBootsplash/splash.png
+You no longer need to add "- load ur0: tai / custom_boot_splash.skprx"
 # Small note for the translation of the language for Chinese friends
 Download the **font.pgf** file(here https://github.com/theheroGAC/Autoplugin/blob/master/translations/font/font.pgf ) and insert it in the path **ux0:data/autoplugin/font** (Remember if the font folder does not exist you have to create it) for fix translation in Chinese
 # Nightly version
