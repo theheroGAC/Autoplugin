@@ -74,12 +74,14 @@ function img2splashbin(path2img)
 					fp:write(data_img)
 					fp:close()
 					os.message(INSTALLP_DESC_BOOTSPLASHDONE)
+					return 1
 				end
 			end
 		else
 			os.message(INSTALLP_DESC_NOFINDSPLASH)
 		end
 	end
+	return 0
 end
 
 function plugins_installation(sel)

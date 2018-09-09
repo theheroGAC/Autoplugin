@@ -10,6 +10,18 @@ local uinstallp_callback = function ()
     pluginsmanager()
 end
 
+local convertimgsplash_callback = function ()
+
+    if files.exists("ux0:CustomBootsplash/splash.png") then
+		if img2splashbin("ux0:CustomBootsplash/splash.png") == 1 then
+			os.message(MENU_MESSAGEBOOTSPLASH)
+		end
+	else
+		os.message(INSTALLP_DESC_NOFINDSPLASH)
+	end
+
+end
+
 local npdrm_callback = function ()
     npdrm_free()
 end
@@ -23,6 +35,12 @@ end
 
 local psp_ctrls_callback = function ()
     psp_ctrls()
+end
+
+local reboot_callback = function ()
+	os.delay(250)
+	buttons.homepopup(1)
+	power.restart()
 end
 
 local exit_callback = function ()
@@ -39,9 +57,11 @@ local menu = {
 	{ text = MENU_INSTALL_SD2VITA,			funct = sd2vita_callback },
 	{ text = MENU_INSTALL_PLUGINS,			funct = installp_callback },
 	{ text = MENU_UNINSTALL_PLUGINS,		funct = uinstallp_callback },
+	{ text = MENU_CONVERTBOOTSPLASH,		funct = convertimgsplash_callback },
 	{ text = MENU_INSTALL_CONFIG,			funct = config_callback },
 	{ text = MENU_INSTALL_NPDRMFREE,		funct = npdrm_callback },
 	{ text = MENU_INSTALL_REMASTERED_CTRLS,	funct = psp_ctrls_callback },
+	{ text = MENU_REBOOT,					funct = reboot_callback },
 	{ text = MENU_EXIT,						funct = exit_callback }
 }
 local scrollm,sel = newScroll(menu,#menu),1
@@ -55,11 +75,11 @@ while true do
 
 	screen.print(480,25,"Autoplugin",1.3,color.green, 0x0, __ACENTER)
 
-	local y = 145
+	local y = 135
 	for i=scrollm.ini, scrollm.lim do
 		if i == scrollm.sel then draw.fillrect(0,y-7,960,29,color.green:a(90)) end
 		screen.print(480,y,menu[i].text,1.2,color.white, 0x0, __ACENTER)
-		y+=37
+		y+=35
 	end
 
 	screen.flip()
