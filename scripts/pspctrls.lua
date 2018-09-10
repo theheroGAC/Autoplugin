@@ -117,20 +117,20 @@ function psp_ctrls()
 			screen.print(480, 400, PSPCTRLS_DESCP,1,color.white,color.orange,__ACENTER)
 		end
 
-		screen.print(10,440,PSPCTRLS_CROSS_INSTALL,1,color.white,color.black)
+		screen.print(10,440,STRING_CONFIRM_PLUGIN,1,color.white,color.black)
 		screen.print(10,460,INSTALLP_TRIANGLE_ALL,1,color.white,color.black)
 		screen.print(10,480,PSPCTRLS_LR_SWAP,1,color.white,color.black)
 		screen.print(10,500,INSTALLP_SQUARE_MARK,1,color.white,color.black)
 		screen.print(955,500,INSTALLP_SELECT_CLEAN,1,color.white,color.black, __ARIGHT)
 
-		screen.print(10,522,STRING_CIRCLE_BACK,1,color.white,color.black)
+		screen.print(10,522,STRING_BACK,1,color.white,color.black)
 		screen.print(955,522,STRING_START_CLOSE,1,color.white,color.red, __ARIGHT)
 
 		screen.flip()
 
 		--------------------------	Controls	--------------------------
 
-		if buttons.circle then break end
+		if buttons[cancel] then break end
 
 		--L/R
 		if buttons.released.l or buttons.released.r then
@@ -154,7 +154,7 @@ function psp_ctrls()
 			if buttons.up or buttons.analogly < -60 then scroll_psp:up() x_scr = 5 end
 			if buttons.down or buttons.analogly > 60 then scroll_psp:down() x_scr = 5 end		
 
-			if buttons.cross then
+			if buttons[accept] then
 
 				if not files.exists(options[selector].."pspemu/seplugins/game.txt") then
 					files.copy("resources/controls_psp/game.txt", options[selector].."pspemu/seplugins/")

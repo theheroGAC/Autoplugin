@@ -28,11 +28,11 @@ function sd2vita()
 		if not flag then
 			screen.print(480,450,SD2VITA_TRIANGLE_INSTALL,1.1,color.white, color.blue, __ACENTER)
 		end
-		screen.print(480,490,SD2VITA_CIRCLE_CANCEL,1.1,color.white, color.blue, __ACENTER)
+		screen.print(480,490,STRING_SD2VITA_CANCEL,1.1,color.white, color.blue, __ACENTER)
 
 		screen.flip()
 
-		if buttons.circle then return
+		if buttons[cancel] then return
 		elseif buttons.triangle then
 			if not flag then break else os.message(SD2VITA_GAMECARD_DETECTED) end
 		end

@@ -63,7 +63,6 @@ os.delay(1500)
 files.mkdir("ux0:CustomBootsplash/")
 
 function img2splashbin(path2img)
-
 	local img = image.load(path2img)
 	if img then
 		if img:getw() == 960 and img:geth() == 544 then
@@ -78,7 +77,7 @@ function img2splashbin(path2img)
 				end
 			end
 		else
-			os.message(INSTALLP_DESC_NOFINDSPLASH)
+			os.message(INSTALLP_DESC_SPLASHGH)
 		end
 	end
 	return 0
@@ -128,7 +127,7 @@ function plugins_installation(sel)
 				if plugins[sel].config then
 					if plugins[sel].config == "custom_warning.txt" then
 						local text = osk.init(INSTALLP_OSK_TITLE, INSTALLP_OSK_TEXT)
-						if not text or (string.len(text)<=0) then text = os.nick() end
+						if not text or (string.len(text)<=0) then text = "" end--os.nick() end
 
 						files.copy(path_plugins..plugins[sel].config, path_tai)
 
@@ -168,16 +167,8 @@ function plugins_installation(sel)
 				os.delay(1500)
 
 				--Custom Boot Splash
-				if plugins[sel].path == "custom_boot_splash.skprx" then
-
-					if files.exists("ux0:CustomBootsplash/splash.png") then
-						if os.message(INSTALLP_DESC_CONVERTBOOTSPLASH,1) == 1 then
-							img2splashbin("ux0:CustomBootsplash/splash.png")
-						end
-					else
-						img2splashbin("resources/boot_splash.png")
-					end
-
+				if plugins[sel].path == "custom_boot_splash.skprx" and not files.exists("ur0:tai/boot_splash.bin") then
+					img2splashbin("resources/boot_splash.png")
 				end
 
 				change = true
@@ -251,14 +242,14 @@ function autoplugin()
 			screen.print(480, 405, plugins[scroll.sel].desc,1,color.white,color.orange,__ACENTER)
 		end
 
-		screen.print(10,450,INSTALLP_CROSS_INSTALL,1,color.white,color.black,__ALEFT)
+		screen.print(10,450,STRING_CONFIRM_PLUGIN,1,color.white,color.black,__ALEFT)
 		--screen.print(10,475,INSTALLP_TRIANGLE_ALL,1,color.white,color.black,__ALEFT)
 		screen.print(10,475,INSTALLP_LR_SWAP,1,color.white,color.black,__ALEFT)
 
 		screen.print(955,450,INSTALLP_SQUARE_MARK,1,color.white,color.black, __ARIGHT)
 		screen.print(955,475,INSTALLP_SELECT_CLEAN,1,color.white,color.black, __ARIGHT)
 
-		screen.print(10,522,STRING_CIRCLE_BACK,1,color.white,color.black, __ALEFT)
+		screen.print(10,522,STRING_BACK,1,color.white,color.black, __ALEFT)
 		screen.print(955,522,STRING_START_CLOSE,1,color.white,color.red, __ARIGHT)
 
 		screen.flip()
@@ -267,7 +258,7 @@ function autoplugin()
 		if buttons.up or buttons.analogly < -60 then scroll:up() xscr1 = 5 end
 		if buttons.down or buttons.analogly > 60 then scroll:down() xscr1 = 5 end
 
-		if buttons.circle then break end
+		if buttons[cancel] then break end
 
 		--Exit
 		if buttons.start then
@@ -287,7 +278,7 @@ function autoplugin()
 		end
 
 		--Install selected plugins
-		if buttons.cross then
+		if buttons[accept] then
 			if toinstall <= 1 then
 				plugins_installation(scroll.sel)
 			else

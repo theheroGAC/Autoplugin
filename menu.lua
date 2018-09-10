@@ -11,15 +11,7 @@ local uinstallp_callback = function ()
 end
 
 local convertimgsplash_callback = function ()
-
-    if files.exists("ux0:CustomBootsplash/splash.png") then
-		if img2splashbin("ux0:CustomBootsplash/splash.png") == 1 then
-			os.message(MENU_MESSAGEBOOTSPLASH)
-		end
-	else
-		os.message(INSTALLP_DESC_NOFINDSPLASH)
-	end
-
+	customimgsplash()
 end
 
 local npdrm_callback = function ()
@@ -35,12 +27,6 @@ end
 
 local psp_ctrls_callback = function ()
     psp_ctrls()
-end
-
-local reboot_callback = function ()
-	os.delay(250)
-	buttons.homepopup(1)
-	power.restart()
 end
 
 local exit_callback = function ()
@@ -61,7 +47,6 @@ local menu = {
 	{ text = MENU_INSTALL_CONFIG,			funct = config_callback },
 	{ text = MENU_INSTALL_NPDRMFREE,		funct = npdrm_callback },
 	{ text = MENU_INSTALL_REMASTERED_CTRLS,	funct = psp_ctrls_callback },
-	{ text = MENU_REBOOT,					funct = reboot_callback },
 	{ text = MENU_EXIT,						funct = exit_callback }
 }
 local scrollm,sel = newScroll(menu,#menu),1
@@ -88,6 +73,6 @@ while true do
 	if buttons.up or buttons.analogly < -60 then scrollm:up() end
 	if buttons.down or buttons.analogly > 60 then scrollm:down() end
 
-	if buttons.cross then menu[scrollm.sel].funct()	end
+	if buttons[accept] then menu[scrollm.sel].funct() end
 
 end

@@ -14,6 +14,27 @@ __UX0, __UR0 = 1,2
 locations = { "ux0:", "ur0:" }
 version = tostring(os.swversion())
 
+--Buttons Assign
+accept,cancel = "cross","circle"
+STRING_BACK = STRING_CIRCLE_BACK
+STRING_SD2VITA_CANCEL = SD2VITA_CIRCLE_CANCEL
+
+STRING_CONFIRM_PLUGIN = STRING_CROSS_INSTALL
+STRING_CONFIRM_SPLASH = CUSTOMBOOTSPLASH_CROSS_CONVERT
+STRING_CONFIRM_UNINSTALLP = UNINSTALLP_CROSS_INSTALL
+
+if buttons.assign()==0 then
+	accept,cancel = "circle","cross"
+	STRING_BACK = STRING_CROSS_BACK
+	STRING_SD2VITA_CANCEL = SD2VITA_CROSS_CANCEL
+
+	STRING_CONFIRM_PLUGIN = STRING_CIRCLE_INSTALL
+	STRING_CONFIRM_SPLASH = CUSTOMBOOTSPLASH_CIRCLE_CONVERT
+	STRING_CONFIRM_UNINSTALLP = UNINSTALLP_CIRCLE_INSTALL
+
+end
+
+--functions--
 function message_wait(message)
 	local mge = (message or STRING_PLEASE_WAIT)
 	local titlew = string.format(mge)

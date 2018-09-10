@@ -54,5 +54,6 @@ dofile("scripts/pmanager.lua")
 dofile("scripts/npdrm.lua")
 dofile("scripts/pspctrls.lua")
 dofile("scripts/sd2vita.lua")
+dofile("scripts/customsplash.lua")
 
 dofile("menu.lua")--Main Cycle

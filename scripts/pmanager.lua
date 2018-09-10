@@ -30,7 +30,7 @@ function pluginsmanager()
 		if not tai[partition].exist then screen.print(480,270,UNINSTALLP_NOCONFIG_FOUND..locations[partition],1.3,color.red, 0x0, __ACENTER)
 		else
 
-			screen.print(10,460,UNINSTALLP_CROSS_INSTALL,1,color.white,color.black)
+			screen.print(10,460,STRING_CONFIRM_UNINSTALLP,1,color.white,color.black)
 			screen.print(10,480,UNINSTALLP_LR_SWAP,1,color.white,color.black)
 			screen.print(10,500,UNINSTALLP_LEFTRIGHT_SECTION,1,color.white,color.black)
 
@@ -74,14 +74,14 @@ function pluginsmanager()
 			screen.print(480,410,locations[partition].."tai/config.txt",1.3,color.green, 0x0, __ACENTER)
 		end
 
-		screen.print(10,522,STRING_CIRCLE_BACK,1,color.white,color.black)
+		screen.print(10,522,STRING_BACK,1,color.white,color.black)
 		screen.print(955,522,STRING_START_CLOSE,1,color.white,color.red, __ARIGHT)
 
 		screen.flip()
 
 		--------------------------	Controls	--------------------------
 		
-		if buttons.circle then break end
+		if buttons[cancel] then break end
 
 		--Exit
 		if buttons.start then
@@ -98,7 +98,7 @@ function pluginsmanager()
 			if buttons.up or buttons.analogly < -60 then scrollp:up() end
 			if buttons.down or buttons.analogly > 60 then scrollp:down() end		
 
-			if buttons.cross then
+			if buttons[cancel] then
 				if tai[partition].gameid[ section[sel_section] ] then
 
 					table.remove(tai[partition].raw, tai[partition].gameid[section[sel_section]].prx[scrollp.sel].line)

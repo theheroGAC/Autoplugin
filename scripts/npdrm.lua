@@ -44,7 +44,7 @@ function npdrm_free()
 
 		screen.print(480,20,NPDRMFREE_TITLE,1,color.red, 0x0, __ACENTER)
 
-		screen.print(10,500,NPDRMFREE_CROSS_INSTALL,1,color.white,color.black)
+		screen.print(10,500,STRING_CONFIRM_PLUGIN,1,color.white,color.black)
 
 		local y = 75
 		for i=scroll_np.ini, scroll_np.lim do
@@ -53,14 +53,14 @@ function npdrm_free()
 			y+=32
 		end
 
-		screen.print(10,522,STRING_CIRCLE_BACK,1,color.white,color.black)
+		screen.print(10,522,STRING_BACK,1,color.white,color.black)
 		screen.print(955,522,STRING_START_CLOSE,1,color.white,color.red, __ARIGHT)
 
 		screen.flip()
 
 		--------------------------	Controls	--------------------------
-		
-		if buttons.circle then break end
+
+		if buttons[cancel] then break end
 
 		--Exit
 		if buttons.start then
@@ -77,7 +77,7 @@ function npdrm_free()
 			if buttons.up or buttons.analogly < -60 then scroll_np:up() end
 			if buttons.down or buttons.analogly > 60 then scroll_np:down() end		
 
-			if buttons.cross then
+			if buttons[accept] then
 				--install plugin
 				if files.exists(options[scroll_np.sel]) then
 					local info = os.devinfo(options[scroll_np.sel])
