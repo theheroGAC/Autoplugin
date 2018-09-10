@@ -98,7 +98,7 @@ function pluginsmanager()
 			if buttons.up or buttons.analogly < -60 then scrollp:up() end
 			if buttons.down or buttons.analogly > 60 then scrollp:down() end		
 
-			if buttons[cancel] then
+			if buttons[accept] then
 				if tai[partition].gameid[ section[sel_section] ] then
 
 					table.remove(tai[partition].raw, tai[partition].gameid[section[sel_section]].prx[scrollp.sel].line)
