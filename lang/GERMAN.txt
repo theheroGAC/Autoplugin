@@ -1,24 +1,25 @@
 --Translates
 
-STRING_UNSAFE_MODE =						  "Der Modus UNSAFE MODE ist erforderlich für diese Homebrew!"
+STRING_UNSAFE_MODE =					  	"Der Modus UNSAFE MODE ist erforderlich für diese Homebrew!"
 STRING_PSVITA_RESTART =						"Die PS Vita wird neu gestartet"
 STRING_BACKUP_CONFIGS =						"Erstelle Config_backups.txt"
 STRING_MISSING_CONFIG =						"config.txt wurde nicht gefunden"
-STRING_CIRCLE_BACK =		  				"O :  Zurück ins Menü"
-STRING_START_CLOSE =			 	  		"START : Beenden"
-STRING_INSTALLED =				  			"wurde installiert"
-STRING_PLEASE_WAIT =			 	  		"Bitte warten..."
+STRING_CIRCLE_BACK =						  "O :  Zurück ins Menü"
+STRING_CROSS_BACK =						  	"X :  Zurück ins Menü"
+STRING_START_CLOSE =					  	"START : Beenden"
+STRING_INSTALLED =						  	"wurde installiert"
+STRING_PLEASE_WAIT =					  	"Bitte warten..."
+STRING_CROSS_INSTALL =						"X : Plugin(s) installieren"
+STRING_CIRCLE_INSTALL =           "O : Plugin(s) installieren"
 
 --menu.lua
 MENU_INSTALL_SD2VITA =						"SD2VITA Plugin installieren"
 MENU_INSTALL_PLUGINS =						"Plugins installieren"
 MENU_UNINSTALL_PLUGINS =					"Plugins deinstallieren"
 MENU_CONVERTBOOTSPLASH =					"Eigenes 'Boot-Splash' Bild festlegen"
-MENU_MESSAGEBOOTSPLASH =          "Denke daran, das Custom Boot Splash Plugin zu aktivieren"
 MENU_INSTALL_NPDRMFREE =					"npdrm free Plugin von qwikrazor87 instalieren (Adrenaline)"
 MENU_INSTALL_CONFIG =						  "Installiere config.txt für PKGJ v0.34+"
 MENU_INSTALL_REMASTERED_CTRLS =		"RemasteredControls Plugins von Theflow installieren (Adrenaline)"
-MENU_REBOOT =                     "PSVita Neustarten"
 MENU_EXIT =									      "Beenden"
 MENU_INSTALLED_CONFIG =						"ux0:pkgi/config.txt für pkgj wurde installiert!"
 
@@ -32,14 +33,13 @@ SD2VITA_GAMECARD_DETECTED =				"SPIELKARTE ERKANNT!"
 SD2VITA_GAMECARD_REMOVED =				"Entferne sie vor der Installation!"
 SD2VITA_TRIANGLE_INSTALL =				"Drücke △ um die Installation fortzufahren."
 SD2VITA_CIRCLE_CANCEL =						"Drücke O um die Installation abzubrechen"
+SD2VITA_CROSS_CANCEL =            "Drücke X um die Installation abzubrechen"
 
 --install plugins
 INSTALLP_LIST_PLUGINS =						"Liste der Plugins, die zur Installation bereit sind:"
-
-INSTALLP_CROSS_INSTALL =					"X : Plugin(s) installieren"
-INSTALLP_SQUARE_MARK =						"[ ] : Plugin(s) auswählen"
+INSTALLP_SQUARE_MARK =						"[ ] : Plugin(s) markieren"
 INSTALLP_TRIANGLE_ALL =						"△ : Alle Plugins installieren"
-INSTALLP_SELECT_CLEAN =						"SELECT : Auswahl der Plugins löschen"
+INSTALLP_SELECT_CLEAN =						"SELECT : Markierung der Plugins entfernen"
 INSTALLP_LR_SWAP =					  		"L/R : wechsel zwischen ux0/ur0"
 
 INSTALLP_VITABRIGHT_360 =					"Vitabright ist nur für PSVita OLED und 3.60"
@@ -54,20 +54,27 @@ INSTALLP_OSK_TEXT =						  	"Schreibe deinen Text hier rein"
 UNINSTALLP_TITLE =						  	"Plugin Manager"
 UNINSTALLP_NOCONFIG_FOUND =				"Keine config.txt gefunden in: "
 UNINSTALLP_CROSS_INSTALL =				"X : Plugin deinstallieren"
+UNINSTALLP_CIRCLE_INSTALL =       "O : Plugin deinstallieren"
 UNINSTALLP_LR_SWAP =					  	"L/R : Wechsel zwischen ux0/ur0"
 UNINSTALLP_LEFTRIGHT_SECTION =		"Links/Rechts : Abschnitt wechseln"
 
 --npdrm free
 NPDRMFREE_TITLE =							    "npdrm free Plugin von Qwik installieren"
-NPDRMFREE_CROSS_INSTALL =					"X : Plugin installieren"
 NPDRMFREE_INSTALLED =					  	"npdrm free wurde installiert"
 NPDRMFREE_VSH_UPDATED =						"vsh.txt wurde aktualisiert"
 NPDRMFREE_GAME_UPDATED =					"game.txt wurde aktualisiert"
 NPDRMFREE_NO_PARTITION =					"Partition wurde nicht gefunden!"
 
+--customsplash
+CUSTOMBOOTSPLASH__TITLE =					"Custom Boot Splash"
+CUSTOMBOOTSPLASH_CROSS_CONVERT =	"X : Konvertiere das Bild"
+CUSTOMBOOTSPLASH_CIRCLE_CONVERT =	"O : Konvertiere das Bild"
+CUSTOMBOOTSPLASH__MESSAGE =				"Denke daran, das Custom Boot Splash plugin zu aktivieren"
+CUSTOMBOOTSPLASH_RESTART =				"Möchtest du jetzt Neustarten?"
+CUSTOMBOOTSPLASH_NOPNG_FOUND =    "In ux0:CustomBootsplash ist Kein Bild vorhanden!"
+
 --pspctrls
 PSPCTRLS_TITLE =						    	"Remastered Controls Plugins von Theflow (Adrenaline)"
-PSPCTRLS_CROSS_INSTALL =					"X : Plugin installieren"
 PSPCTRLS_LR_SWAP =						  	"L/R: Partition wechseln"
 PSPCTRLS_GAME_UPDATED =						"game.txt wurde aktualisiert"
 PSPCTRLS_DESCP =						    	"Eine Sammlung von Dual Analogstick Patches für PSP-Spiele (Adrenaline)"
@@ -95,6 +102,7 @@ INSTALLP_DESC_IOPLUS = 					  "Ein PSVita Kernel-Plugin, das erweiterte I/O Vorg
 INSTALLP_DESC_CUSTOMBOOTSPLASH =	"Dieses Plugin kann das Bootlogo auf der PSVita / PSTV beim Booten durch ein Bild ersetzen. ENSO erforderlich"
 INSTALLP_DESC_CONVERTBOOTSPLASH =	"Dein 'Splash-Bild' als benutzerdefiniertes 'Boot-Splash' nutzen?"
 INSTALLP_DESC_NOFINDSPLASH =			"Platziere das Bild deiner Wahl in ux0:CustomBootsplash/\n(In splash.png umbenennen und auf 960x544 skalieren)"
+INSTALLP_DESC_SPLASHGH =          "Die Größe des Bildes sollte sein: 960 * 544"
 INSTALLP_DESC_BOOTSPLASHDONE =		"boot_splash.bin fertig!"
 
 
