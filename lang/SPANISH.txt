@@ -13,11 +13,14 @@ STRING_PLEASE_WAIT =						"Por favor espera..."
 MENU_INSTALL_SD2VITA =						"Instalar Plugin SD2VITA"
 MENU_INSTALL_PLUGINS =						"Instalar Plugins"
 MENU_UNINSTALL_PLUGINS =					"Desinstalar Plugins"
+MENU_CONVERTBOOTSPLASH =					"Poner Imagen Personalizada al Iniciar"
+MENU_MESSAGEBOOTSPLASH =					"Recuerda habilitar el plugin Custom Boot Splash"
 MENU_INSTALL_NPDRMFREE =					"Instalar plugin npdrm free de qwikrazor87 (Adrenaline)"
 MENU_INSTALL_CONFIG =						"Instalar config.txt para PKGJ v0.34+"
 MENU_INSTALL_REMASTERED_CTRLS =				"Instalar Remastered Controls plugins de Theflow (Adrenaline)"
+MENU_REBOOT =								"Reiniciar PS Vita"
 MENU_EXIT =									"Salir"
-MENU_INSTALLED_CONFIG =						"¡¡¡ ux0:pkgi/config.txt para pkgj ha sido instalado !!!"
+MENU_INSTALLED_CONFIG =						"¡¡¡ux0:pkgi/config.txt para pkgj ha sido instalado!!!"
 
 --install sd2vita
 SD2VITA_1_WARNING =							"Para instalar el plugin de Storage Manager, su sd2vita debe estar lista"
@@ -44,7 +47,7 @@ INSTALLP_CWARNING_360_365 =					"Custom Warning no funciona en 3.67/3.68"
 INSTALLP_QUESTION_SHELLSECBAT = 			"\n               ¡Se detectó el plugin shellsecbat!\n\n¿Instalar shellbat en su lugar y desinstalar shellsecbat?"
 INSTALLP_QUESTION_SHELLBAT =				"\n               ¡Se detectó el plugin Shellbat!\n\n¿Instalar shellsecbat en su lugar y desinstalar shellbat?"
 
-INSTALLP_OSK_TITLE =						"Texto para Custom Warning"
+INSTALLP_OSK_TITLE =						"Texto para Advertencia Personalizada"
 INSTALLP_OSK_TEXT =							"Escribe tu TEXTO aquí"
 
 --Uninstall plugins
@@ -84,9 +87,15 @@ INSTALLP_DESC_UDCDUVC =						"Permite que la PS Vita funcione como un dispositiv
 INSTALLP_DESC_KUIO =						"Permite a los módulos de usuario acceder a ux0:data para operaciones de E/S básicas. Puede ser necesario para ciertos plugins específicos"
 INSTALLP_DESC_ADRENALINE =					"Permite ejecutar adrenaline con un solo toque"
 INSTALLP_DESC_DSMOTION = 					"Soporte de control de movimiento DualShock para PlayStation TV"
-INSTALLP_DESC_USBMC = 					    "USB storage as Vita memory card"
-INSTALLP_DESC_ANALOGSENHANCER =             "This little kernel plugin allows users to improve their experience with PSVITA analogs"
-INSTALLP_DESC_IOPLUS = 					    "A PSVita kernel plugin that allows more IO operations in userland"
+INSTALLP_DESC_USBMC = 					    "Almacenamiento USB como almacenamiento de la PS Vita"
+INSTALLP_DESC_ANALOGSENHANCER =             "Este plugin de kernel permite a los usuarios mejorar su experiencia con los analógicos de la PS VITA"
+INSTALLP_DESC_IOPLUS = 					    "Un plugin de kernel de PS Vita que permite más operaciones de IO en el modo de usuario"
+
+--Boot_config.txt
+INSTALLP_DESC_CUSTOMBOOTSPLASH =			"Este plugin muestra una Imagen de Inicio Personalizada en PS Vita/PSTV. Requiere ENSO"
+INSTALLP_DESC_CONVERTBOOTSPLASH =			"¿Poner tu imagen como imagen personalizada de inicio?"
+INSTALLP_DESC_NOFINDSPLASH =				"Pon la imagen que quieras en ux0:CustomBootsplash/\n(renombrada a splash.png y cambiada de tamaño a 960x544)"
+INSTALLP_DESC_BOOTSPLASHDONE =				"¡¡¡boot_splash.bin creado!!!"
 
 --MAIN
 INSTALLP_DESC_DENABLER =					"Permite descargar archivos a través de su navegador"
