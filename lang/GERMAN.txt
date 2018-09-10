@@ -93,7 +93,7 @@ INSTALLP_DESC_IOPLUS = 					  "Ein PSVita Kernel-Plugin, das erweiterte I/O Vorg
 
 --Boot_config.txt
 INSTALLP_DESC_CUSTOMBOOTSPLASH =	"Dieses Plugin kann das Bootlogo auf der PSVita / PSTV beim Booten durch ein Bild ersetzen. ENSO erforderlich"
-INSTALLP_DESC_CONVERTBOOTSPLASH =	"Dein 'Splash-Bild' als eigenes 'Boot-Splash' setzen?"
+INSTALLP_DESC_CONVERTBOOTSPLASH =	"Dein 'Splash-Bild' als benutzerdefiniertes 'Boot-Splash' nutzen?"
 INSTALLP_DESC_NOFINDSPLASH =			"Platziere das Bild deiner Wahl in ux0:CustomBootsplash/\n(In splash.png umbenennen und auf 960x544 skalieren)"
 INSTALLP_DESC_BOOTSPLASHDONE =		"boot_splash.bin fertig!"
 
