@@ -35,6 +35,25 @@ if buttons.assign()==0 then
 end
 
 --functions--
+function img_fixed(img)
+    local w,h = img:getw(), img:geth()
+
+    if w > 960 or h > 544 then
+    	return img:copyscale(960, 544)
+	end
+
+	local px,py = (960/2)-(w/2), (544/2)-(h/2)
+	local sheet = image.new(960, 544, 0x0)
+	for y=0,h-1 do
+		for x=0,w-1 do
+			local c = img:pixel(x,y)
+			if c:a() == 0 then c = 0x0 end 
+			sheet:pixel(px+x, py+y, c)
+		end
+	end
+	return sheet
+end
+
 function message_wait(message)
 	local mge = (message or STRING_PLEASE_WAIT)
 	local titlew = string.format(mge)

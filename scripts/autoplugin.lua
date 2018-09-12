@@ -65,7 +65,7 @@ files.mkdir("ux0:CustomBootsplash/")
 function img2splashbin(path2img)
 	local img = image.load(path2img)
 	if img then
-		if img:getw() == 960 and img:geth() == 544 then
+		if img:getw() != 960 and img:geth() != 544 then img = img_fixed(img) end
 			local data_img = image.data(img)
 			if data_img then
 				local fp = io.open("ur0:tai/boot_splash.bin","w+")
@@ -76,9 +76,9 @@ function img2splashbin(path2img)
 					return 1
 				end
 			end
-		else
-			os.message(INSTALLP_DESC_SPLASHGH)
-		end
+		--else
+		--	os.message(INSTALLP_DESC_SPLASHGH)
+		--end
 	end
 	return 0
 end

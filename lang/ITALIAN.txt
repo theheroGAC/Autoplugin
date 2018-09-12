@@ -26,7 +26,7 @@ MENU_INSTALLED_CONFIG =						"ux0:pkgi/config.txt per pkgj è stato installato!!
 --install sd2vita
 SD2VITA_1_WARNING =							"Per installare il plugin Storage Manager la tua sd2vita DEVE essere pronta"
 SD2VITA_2_WARNING =							"Se è stata inserita una cartuccia di gioco, DEVE essere rimossa prima di riavviare !!!"
-SD2VITA_3_WARNING =							"MOLTO IMPORTANTE: LA tua sd2vita DEVE avere già alcune app, puoi copiare/incollarle dalla tua Memory Card ufficiale"
+SD2VITA_3_WARNING =							"IMPORTANTE: LA tua sd2vita DEVE avere già alcune app, puoi copiare/incollarle dalla tua Memory Card"
 SD2VITA_4_WARNING =							"Copia solo le app veramente necessarie per la tua sd !!!."
 SD2VITA_5_WARNING =							"Per esempio: H-encore, Vitashell/ONEMenu, pkgj, adrenaline, etc... "
 SD2VITA_GAMECARD_DETECTED =					"GAMECARD RILEVATA !!!"
