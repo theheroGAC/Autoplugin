@@ -1,4 +1,4 @@
-﻿--Translates
+--Translates
 
 STRING_UNSAFE_MODE =					"需要在Henkaku设置中打开不安全模式 !!!"
 STRING_PSVITA_RESTART =					"即将重启你的PSV"
@@ -18,7 +18,7 @@ MENU_INSTALL_PLUGINS =					"安装插件"
 MENU_UNINSTALL_PLUGINS =				"卸载插件"
 MENU_CONVERTBOOTSPLASH =					"Set Custom Boot Splash"
 MENU_INSTALL_NPDRMFREE =				"安装 npdrm free 插件"
-MENU_INSTALL_CONFIG =					"为PKGJ v0.31以上版本安装config.txt配置文件"
+MENU_INSTALL_CONFIG =					"为PKGJ v0.34以上版本安装config.txt配置文件"
 MENU_INSTALL_REMASTERED_CTRLS =			"安装 RemasteredControls 插件"
 MENU_EXIT =								"退出\n中文翻译：OmoineMie"
 MENU_INSTALLED_CONFIG =					"pkgj的配置文件已安装在ux0:pkgi/config.txt"
