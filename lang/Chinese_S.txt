@@ -42,7 +42,7 @@ INSTALLP_TRIANGLE_ALL =						"△ : 安装所有插件"
 INSTALLP_SELECT_CLEAN =						"SELECT : 清除所有勾选"
 INSTALLP_LR_SWAP =							"L/R : 切换 ux0/ur0 分区"
 
-INSTALLP_VITABRIGHT_360 =					"Vitabright 仅适用于 3.60 固件"
+INSTALLP_VITABRIGHT_360 =					"Vitabright 仅适用于 3.60/H-encore 3.68 固件"
 INSTALLP_CWARNING_360_365 =					"Custom Warning 无法用于 3.67/3.68 固件"
 INSTALLP_QUESTION_SHELLSECBAT = 			"\n               检测到 shellsecbat 插件 !!!\n\n安装 shellbat 插件替换并卸载 shellsecbat 插件?"
 INSTALLP_QUESTION_SHELLBAT =				"\n               检测到 shellbat 插件 !!!\n\n安装 shellsecbat 插件替换并卸载 shellbat 插件?"
