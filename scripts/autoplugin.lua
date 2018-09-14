@@ -85,8 +85,7 @@ end
 
 function plugins_installation(sel)
 
-	if plugins[sel].path == "vitabright.skprx" and version != "3.60" then os.message(INSTALLP_VITABRIGHT_360)
-	elseif plugins[sel].path == "custom_warning.suprx" and ( version == "3.67" or version == "3.68") then os.message(INSTALLP_CWARNING_360_365)
+         if plugins[sel].path == "custom_warning.suprx" and ( version == "3.67" or version == "3.68") then os.message(INSTALLP_CWARNING_360_365)
 	else
 
 		if files.exists(tai[loc].path) then
