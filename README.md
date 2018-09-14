@@ -60,7 +60,7 @@ NanospeedGamer(thank you big friend)
 - SridentPSV/chronoss09/dragtaz for translation in French
 - MrGhidini for translation in portugueseBR
 - Kouchan/kood_infothief for translation in Japanese
-- Omoinemie for translation in Chinese
+- Omoinemie/yexun1995 for translation in Chinese
 - taiwan-no1 for translation in Traditional Chinese
 - AlbertonRD/Schn1ek3 for translation in German
 - theheroGAC for translation in Italian
