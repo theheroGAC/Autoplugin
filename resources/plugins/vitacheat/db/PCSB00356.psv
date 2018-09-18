@@ -1,0 +1,18 @@
+# ID: PCSB00356
+# Title: Injustice - Ultimate Edition
+# Region: EUR
+# Version: 1.00
+# Type: Unknown
+# Code Author: vergil
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSB00356.psv
+# Original Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/page-5#post-7619367
+
+_V1 P1 Inf Super
+$0200 87B582F0 3F800000
+
+_V1 CPU No Super
+$0200 87B58730 00000000
+
+_V1 P1 Inf health
+$0200 8899DBD0 3F800000
+$0200 8899DBD4 3F800000

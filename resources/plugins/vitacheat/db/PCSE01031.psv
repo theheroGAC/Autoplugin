@@ -1,0 +1,50 @@
+# ID: PCSE01031
+# Title: Chasm
+# Region: USA
+# Version: 1.02
+# Type: Compatibility Pack
+# Code Author: r0ah
+# Wiki: https://github.com/r0ah/vitacheat/wiki/PCSE01031
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSE01031.psv
+
+_V0 All Slots: Infinite HP
+$3101 849993D8 00000FF8
+$3300 00000000 000003E7
+
+_V0 All Slots: Infinite MP
+$3101 849993D8 00000FFC
+$3300 00000000 000003E7
+
+_V0 Slot One Character [Note 1]
+$0000 00000000 00000000
+
+_V0 * Infinite Gold
+$3201 8496AEC0 00000024
+$3300 00000000 0098967F
+
+_V0 * Max HP
+$3101 8496AEC0 00000010
+$3300 00000000 000003E7
+
+_V0 * Max MP
+$3101 8496AEC0 00000014
+$3300 00000000 000003E7
+
+_V0 * Max Level
+$3001 8496AEC0 00000008
+$3300 00000000 000000FF
+
+_V0 * Max Stats
+$7001 8496AEC0 00000018
+$7701 00000000 000000FF
+$0004 00000001 00000000
+
+_V0 * High Kill Count
+$3201 8496AEC0 00000020
+$3300 00000000 000F423F
+
+_V0 Notes:
+$0000 00000000 00000000
+
+_V0 #1: See wiki for details
+$0000 00000000 00000000 # Don't activate any cheats yet. Reach the first save point and save then quit and relaunch the game. You can now activate any cheat you want. Code tested on a slot one character. See wiki for details.

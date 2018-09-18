@@ -1,0 +1,23 @@
+# ID: PCSE00266
+# Title: Fieldrunners 2
+# Region: USA
+# Version: 1.00
+# Type: Unknown
+# Code Author: Unknown
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSE00266.psv
+# Original Source: Unknown
+
+_V0 99999 Money
+$0200 819C24D8 0001869F
+
+_V0 99999 Coin
+$0200 819C07F4 0001869F
+
+_V0 Item 1
+$0200 81908F8C 00000005
+
+_V0 Item 2
+$0200 81908F90 00000005
+
+_V0 Item 3
+$0200 81908F94 00000005

@@ -1,0 +1,51 @@
+# ID: PCSD00087
+# Title: Freedom Wars
+# Region: KOR
+# Version: 1.22
+# Type: MaiDump
+# Code Author: Fullcodes（树的原理）
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSD00087.psv
+# Original Source: http://www.speedfly.cn/20093.html
+# Note: 3.60 变革0 enso with MaiDump Tool_V233.2zEx
+
+_V0 Never Increase Sentence
+$A100 8323F03C 0000BF00
+
+_V0 Entitlement Points 9,999,999
+$A100 8323F0C4 0000BF00
+$A100 8323F0E4 0000BF00
+
+_V0 Limit Time Always Max in Battle
+$A200 83001B76 BF00BF00
+
+_V0 Infinite Sustainbility but Enermy Nope
+$A100 83001BEE 0000D013
+$A100 83001C02 00002000
+
+_V0 Saved Max Civilians but Enermy Nope
+$A100 8302170A 00003063
+$A200 8302151A 0F00F1B9
+$A200 8302151E 811AF040
+
+_V0 Player Invincible
+$A200 831A2F16 0F01F1BE
+$A100 831A2F1A 0000D011
+
+_V0 Infinite Thorn
+$A100 8318CB08 0000BF00
+$A200 8318CB34 BF00BF00
+
+_V0 Infinite Weapon Ammo Usage
+$A200 83738440 13BCF8D0
+
+_V0 Player High Speed Move
+$3203 84701060 000000D0
+$3200 00000000 00000000
+$3200 00000000 00000108
+$3300 00000000 40800000
+
+_V0 Player Normal Speed Move
+$3203 84701060 000000D0
+$3200 00000000 00000000
+$3200 00000000 00000108
+$3300 00000000 3F800000

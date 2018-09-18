@@ -1,0 +1,25 @@
+# ID: PCSA00156
+# Title: Fat Princess-Piece of Cake
+# Region: USA
+# Version: 1.00
+# Type: NoNpDrm(?)
+# Code Author: Mapachillo
+# Wiki: https://github.com/r0ah/vitacheat/wiki/PCSA00156
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSA00156.psv
+# Original Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/page-11#post-7657536
+# Note: You can change the last two numbers to place the amount you want. when you activate the code, you need to change to a different screen and it will show the change. I just found these ones so I haven't found more details to them.
+
+_V0 Money (99) [Note 1]
+$0200 8420FD14 00000063
+
+_V0 Revive [Note 1]
+$0200 842BC9B0 0000001B
+
+_V0 Princess Assistance [Note 1]
+$0200 842BC8A8 00000019
+
+_V0 Notes:
+$0000 00000000 00000000
+
+_V0 You need to change to a different screen for cheat to work
+$0000 00000000 00000000 # When you activate the code, you need to change to a different screen and it will show the change.

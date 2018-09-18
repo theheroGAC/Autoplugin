@@ -1,0 +1,19 @@
+# ID: PCSE00791
+# Title: LEGO Star Wars - The Force Awakens
+# Region: USA
+# Version: 1.00
+# Type: NoNpDrm/Compatibility Pack
+# Code Author: Smoker1
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSE00791.psv
+# Original Source: https://github.com/ShumnoT/VitaCheatDatabase/blob/master/PCSE00791.psv
+
+_V0 99999999 LEGO Studs
+$3201 816D0608 00000688
+$3300 00000000 00989676
+
+_V0 Inf Health P1-1
+$3201 836F868C 0000007C
+$3300 00000000 0000007D
+
+_V0 Inf Health P1-2- Please Check
+$0200 836FA7FC 0000007D

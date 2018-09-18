@@ -1,0 +1,20 @@
+# ID: PCSA00012
+# Title: Reality Fighters
+# Region: USA
+# Version: 1.03
+# Type: Vitamin
+# Code Author: AICHItaka (jia19)
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSA00012.psv
+# Note: Delete/remove the gohanmem.suprx on tai/plugin folder for the codes working.
+
+_V0 >>>>Created By Me AICHItaka<<<<
+$0000 00000000 00000000
+
+_V0 MONEY
+$0200 813F7260 000186A0
+
+_V0 HP
+$0200 81B5F914 447A0000
+
+_V0 Time
+$0200 81B60E74 42800000

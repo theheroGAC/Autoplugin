@@ -1,0 +1,15 @@
+# ID: PCSE00245
+# Title: Ys: Memories of Celceta
+# Region: USA
+# Version: 1.0
+# Type: NoNpDrm
+# Code Author: r0ah
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSE00245.psv
+
+_V0 Infinite Gold
+$3201 814C0D48 0000000C
+$3300 00000000 0098967F
+
+_V0 Infinite Gauge
+$3201 814C0D48 00000010
+$3300 00000000 00002710

@@ -1,0 +1,73 @@
+# ID: PCSB00177
+# Title: Metal Gear Solid 2
+# Region: EUR
+# Version: 1.00
+# Type: Unknown
+# Code Author: speedfly
+# Wiki: https://github.com/r0ah/vitacheat/wiki/PCSB00177
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSB00177.psv
+# Original Source: http://www.speedfly.cn/19432.html
+# Note: 支持日版1.00 (Support Japanese version 1.00)
+
+_V0 Inf HP//HP保持最大
+$D506 818032B4 00000000
+$8102 8180CC00 00000DA8
+$8100 00000000 000004E2
+$8800 00000000 00000000
+$8502 8180CC00 00000DA8
+$8500 00000000 0000001A
+$8900 00000000 00000000
+
+_V0 No Reload//无需装弹
+$D504 818032B4 00000000
+$8201 8180CC00 00001640
+$8800 00000000 00000000
+$8601 8180CC00 0000163C
+$8900 00000000 00000000
+
+_V0 Inf Oxygen//无限氧气
+$D504 818032B4 00000000
+$8101 81828DBC 000000FE
+$8800 00000000 00000000
+$8501 81828DBC 00000100
+$8900 00000000 00000000
+
+_V0 Inf GRIP//无限臂力
+$D506 818032B4 00000000
+$8102 8180CC00 00000DA8
+$8100 00000000 00000088
+$8800 00000000 00000000
+$8502 8180CC00 00000DA8
+$8500 00000000 0000008A
+$8900 00000000 00000000
+
+_V0 Inf Use Weapon//开启武器并弹药最大 [Note 1]
+$D504 818032B4 00000000
+$8101 8181654C 00000000 #<---SET VALUE HERE
+$8800 00000000 00000000
+$8501 81816550 00000000 #<---SET VALUE HERE
+$8900 00000000 00000000
+
+_V0 Inf Use Item//开启道具并数量保持最大 [Note 2]
+$D504 818032B4 00000000
+$8101 81816554 00000000 #<---SET VALUE HERE
+$8800 00000000 00000000
+$8501 81816558 00000000 #<---SET VALUE HERE
+$8900 00000000 00000000
+
+_V0 Notes:
+$0000 00000000 00000000
+
+_V0 #1a: This is a modifier. See wiki for details.
+$0000 00000000 00000000
+
+_V0 #1b: Some weapons will lead to crash/BUG if you get it too early
+$0000 00000000 00000000 # XX为对应武器代码 两处填入相同代码 请查看下面对应的武器列表 注意有些武器如果过早获得会导致死机或游戏BUG 下面武器对应列表中标注*号的需谨慎开启 一般建议锁已获得的武器弹药即可
+$0000 00000000 00000000 # XX is the same code for the corresponding weapon code. Please check the corresponding weapon list below. Note that if some weapons are obtained too early, it will lead to crash or game BUG. The following weapon should be marked with the * in the corresponding list.
+
+_V0 #2a: This is a modifier. See wiki for details.
+$0000 00000000 00000000
+
+_V0 #2b: Some props will lead to crash/BUG if you get it too early
+$0000 00000000 00000000 # XX为对应道具代码 两处填入相同代码 请查看下面对应的道具列表 注意有些道具如果过早获得会导致死机或游戏BUG 下面道具对应列表中标注*号的需谨慎开启 一般建议锁已获得的道具即可
+$0000 00000000 00000000 # XX is the same code for the corresponding prop code. Please check the corresponding props list below. Note that some props will lead to crash or game BUG if you get it too early. The following items should be marked with * in the corresponding list.

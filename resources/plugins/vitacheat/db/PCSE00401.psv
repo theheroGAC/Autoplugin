@@ -1,0 +1,52 @@
+# ID: PCSE00401
+# Title: Deception IV - Blood Ties
+# Region: USA
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: r0ah
+# Wiki: https://github.com/r0ah/vitacheat/wiki/PCSE00401
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSE00401.psv
+
+_V0 Max Ark
+$0200 83DD209C 0098967F
+
+_V0 Max Warl
+$0200 83DD1AC0 0098967F
+
+_V0 Enemy One/Two/Three Have 1 HP [Note 1]
+$0200 8825C6A4 00000000
+$0200 882665A4 00000000
+$0200 882704A4 00000000
+
+_V0 Elaborate/Sadistic/Humiliating
+$0200 83DD1AC4 0098967F
+$0003 00000004 00000000
+
+_V0 Player Info
+$0000 00000000 00000000
+
+_V0 * Max Sacrifices/Kills
+$0100 83DD2098 0000270F
+
+_V0 * Max Combo
+$0100 83DD20B0 000003E7
+
+_V0 * Max Single Combo Ark
+$0200 83DD20B4 0001869F
+
+_V0 * Max Elaborate, Sadistic, Humiliation
+$A200 83DD20B8 0001869F
+$0003 00000004 00000000
+
+_V0 * Max Trap Mobile Kills
+$A200 83DD2324 0001869F
+$0010 00000004 00000000
+
+_V0 * Max Single Combo Ark
+$0100 83DD20B4 0000270F
+
+_V0 Notes:
+$0000 00000000 00000000
+
+_V0 #1: If cheat doesn't work, restart mission
+$0000 00000000 00000000

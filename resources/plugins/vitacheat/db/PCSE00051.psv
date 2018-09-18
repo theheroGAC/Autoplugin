@@ -1,0 +1,31 @@
+# ID: PCSE00051
+# Title: Urban Trial Freestyle
+# Region: USA
+# Version: #.##
+# Type: NoNpDrm
+# Code Author: Smoker1
+# Wiki: https://github.com/r0ah/vitacheat/wiki/PCSE00051
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSE00051.psv
+# Original Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/page-19#post-7804822
+
+_V0 $999,999
+$0200 813B4DD4 497423F0
+
+_V0 0 Crashes (Enable at Main)
+$0200 89B36AC0 00000000
+
+_V0 Inf Time
+$0200 89B36ABC 30000000
+
+_V0 99,999 Points
+$0200 89B36AD4 47C34F80
+
+_V0 Challenge - Inf Fuel
+$3201 8131C57C 00000010
+$3300 00000000 442F0000
+
+_V0 Notes:
+$0000 00000000 00000000
+
+_V0 Must skip opening intro or codes will not work
+$0000 00000000 00000000

@@ -1,0 +1,242 @@
+# ID: PCSE00293
+# Title: Final Fantasy X HD
+# Region: USA
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: r0ah, Udaius (for all codes tagged below)
+# Credits: fuzzymillipede for the "Damage Formula" ID table and the Damage Formula names
+# Wiki: https://github.com/r0ah/vitacheat/wiki/PCSE00293
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSE00293.psv
+# Note: Use the FFX save editor as a complement
+
+_V0 Infinite Gil
+$0200 8262A5E8 05F5E0FF
+
+_V0 Infinite HP/MP/OD (In-Battle) [Note 1]
+$7201 81E1A83C 000005D0
+$7701 00000000 0001869F
+$0007 00000F90 00000000
+$7201 81E1A83C 000005D4
+$7701 00000000 000003E7
+$0007 00000F90 00000000
+$7001 81E1A83C 000005BC #https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/page-62#post-8217272
+$7701 00000000 00000064
+$0007 00000F90 00000000
+
+_V0 Have 99x of All Items
+$4001 8262A96C 00000063
+$0070 00000001 00000000
+
+_V0 Have All Keys
+$4001 8262AD2C 000000FF
+$0004 00000001 00000000
+$0000 8262AD30 000000FB
+$0000 8262AD31 000000FF
+$0000 8262AD32 0000000F
+
+_V0 Have All Al-Bhed Primers Translated
+$0000 826274EC 0000001A
+$0200 8262A5B0 03FFFFFF
+$0200 8262AD2C 3FFFFFF3
+
+_V0 Sphere Grid [L+X = Standard / L+O = Expert]
+$C001 00000000 00004100
+$0000 8262A5AD 00000067
+$C001 00000000 00002100
+$0000 8262A5AD 000000A7
+
+_V0 Sphere Grid Clear All Nodes [Note 2]
+$4001 82628A8C 00000001
+$06B8 00000001 00000000 #1720
+
+_V0 Max HP/MP
+$4201 8262BE88 0001869F #HP
+$0007 00000094 00000000
+$4201 8262BE90 0001869F
+$0007 00000094 00000000
+$4101 8262BE8C 0000270F #MP
+$0007 00000094 00000000
+$4101 8262BE94 0000270F
+$0007 00000094 00000000
+
+_V0 Max S.Lv
+$4001 8262BEA7 00000063 #CORRECTION: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/page-54#post-8192881
+$0007 00000094 00000000
+
+_V0 Max S.Lv After Battle [Note 3]
+$4201 8262BE84 1F000000 #https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/page-56#post-8198195
+$0007 00000094 00000000
+
+_V0 Max Stats
+$4201 8262BE78 FFFFFFFF #https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/page-57#post-8209512
+$0007 00000094 00000000
+$4201 8262BE7C FFFFFFFF
+$0007 00000094 00000000
+
+_V0 Have All Abilities
+$4201 8262BEAA FFFFFFFB
+$0007 00000094 00000000
+$4201 8262BEAE FFFFFFFD
+$0007 00000094 00000000
+$4201 8262BEB2 FF0FFFFF
+$0007 00000094 00000000
+
+_V0 Have All Overdrives
+$4001 8262A60C 000000FF
+$000E 00000001 00000000
+
+_V0 Have All Overdrive Modes
+$4001 8262BECC 00000000 #ZERO XP FOR CONSISTENCY
+$0007 00000094 00000000
+$4001 8262BECE 00000000
+$0007 00000094 00000000
+$4001 8262BED0 00000000
+$0007 00000094 00000000
+$4001 8262BED2 00000000
+$0007 00000094 00000000
+$4001 8262BED4 00000000
+$0007 00000094 00000000
+$4001 8262BED6 00000000
+$0007 00000094 00000000
+$4001 8262BED8 00000000
+$0007 00000094 00000000
+$4001 8262BEDA 00000000
+$0007 00000094 00000000
+$4001 8262BEDC 00000000
+$0007 00000094 00000000
+$4001 8262BEDE 00000000
+$0007 00000094 00000000
+$4001 8262BEE0 00000000
+$0007 00000094 00000000
+$4201 8262BEF4 0001FFFF
+$0007 00000094 00000000
+
+_V0 Unlock All Aeons
+$4001 8262C338 00000011 #https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/page-54#post-8193127
+$000A 00000094 00000000
+
+_V0 Max HP Aeons (Permanent)
+$4201 8262C310 0001869F #https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/page-64#post-8223175
+$000A 00000094 00000000
+$4201 8262C328 0001869F
+$000A 00000094 00000000
+$4201 8262C330 0001869F
+$000A 00000094 00000000
+
+_V0 Max MP Aeons (Permanent)
+$4101 8262C314 0000270F #https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/page-64#post-8223175
+$000A 00000094 00000000
+$4101 8262C32C 0000270F
+$000A 00000094 00000000
+$4101 8262C334 0000270F
+$000A 00000094 00000000
+
+_V0 Max Stats Aeons (Permanent)
+$4201 8262C318 FFFFFFFF #https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/page-64#post-8223175
+$000A 00000094 00000000
+$4201 8262C33B FFFFFFFF
+$000A 00000094 00000000
+$4201 8262C31C FFFFFFFF
+$000A 00000094 00000000
+$4201 8262C33F FFFFFFFF
+$000A 00000094 00000000
+
+_V0 Equipment Slot #1 [Note 4]
+$0000 00000000 00000000
+
+_V0 * Max Attack
+$C001 00000000 00008000
+$0000 8262AD45 000000FF
+
+_V0 * Max Critical
+$C001 00000000 00008000
+$0000 8262AD46 000000FF
+
+_V0 * Have 4 Ability Slots
+$C001 00000000 00008000
+$0000 8262AD47 00000004
+
+_V0 * Clear All Abilities
+$C001 00000000 00008000
+$4101 8262AD4A 00000000
+$0004 00000002 00000000
+
+_V0 * Damage Formula: Ignore Defense
+$C001 00000000 00008000
+$0000 8262AD44 00000002
+
+_V0 * Damage Formula: Celestial High HP
+$C001 00000000 00008000
+$0000 8262AD44 00000011
+
+_V0 * Damage Formula: Celestial High MP
+$C001 00000000 00008000
+$0000 8262AD44 00000012
+
+_V0 * Damage Formula: Celestial Low HP
+$C001 00000000 00008000
+$0000 8262AD44 00000013
+
+_V0 * Damage Formula: Magic Formula
+$C001 00000000 00008000
+$0000 8262AD44 00000003
+
+_V0 * Damage Formula: Ignore Magic Defense
+$C001 00000000 00008000
+$0000 8262AD44 00000004
+
+_V0 Blitzball Tidus Max Level
+$0000 82627E5A 00000063
+
+_V0 Blitzball Tidus All Techniques / Max Tech Slot
+$0200 82627A8C 7FFFFFFF
+$0200 82627B7C 3FFFFFFE
+
+_V0 Blitzball Jecht Shot Challenge Complete
+$0000 82626C90 0000005E
+$0000 826274C8 00000001
+
+_V0 Blitzball Won Story Tournament
+$0000 826274BC 00000001
+
+_V0 Blitzball World Champion
+$0000 826274D5 00000001
+
+_V0 Unlock All Airship Locations
+$0000 82627521 000000FF
+
+_V0 Unlock Wantz in Macalania Forest
+$0000 826274F1 00000001
+
+_V0 Wet Suit Rikku [Select = On / Start = Off]
+$C001 00000000 00000001
+$0000 82626971 00000001
+$C001 00000000 00000008
+$0000 82626971 00000000
+
+_V0 200 Steals With Rikku
+$0000 8262A650 000000C8 #https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/page-58#post-8211273
+
+_V0 200 Lightning Evades [Note 5]
+$0000 82626CA0 000000C8 #https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/page-58#post-8211273
+
+_V0 Notes:
+$0000 00000000 00000000
+
+_V0 #1: Activate before battle. Death can still kill a character.
+$0000 00000000 00000000 # Ex: Megaton Punch
+
+_V0 #2: Use only once you've activated all ability nodes
+$0000 00000000 00000000 # Or you'll lose the opportunity to acquire them
+
+_V0 #3: For all characters who have participated in battle
+$0000 00000000 00000000 # Unique in that it will still give max S.lv even after you disable code. I should also note that not everyone gets ap unless they take part still, however they don't have to do any actions as just bringing them in and out acts like they took an action.
+
+_V0 #4a: Sort weapon/armor first (Items > Equipment > Manual)
+$0000 00000000 00000000
+
+_V0 #4b: Then press the "Square" button to activate the cheat
+$0000 00000000 00000000 # We can do all equipments too but vitacheat can't do more than 100 codes at once
+
+_V0 #5: Activate cheat, dodge 1 bolt & go to store & open chest
+$0000 00000000 00000000 # Activate the cheat and dodge 1 lightning bolt then go back to the front of the store and open the chest

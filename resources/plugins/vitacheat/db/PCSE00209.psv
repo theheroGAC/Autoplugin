@@ -1,0 +1,40 @@
+# ID: PCSE00209
+# Title: Earth Defense Force 2017
+# Region: USA
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: dask, jialeyne19
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSE00209.psv
+# Original Source: http://www.codemasters-project.net/forum/forum/playstation-hacking/playstation-vita-hacking/code-vault-ps3-aa/3175-pcse00209-earth-defense-force-2017#post3175
+# Note: This codes originaly from JAP VER/VPK VER from DASK. my friend convert it to USA VER working on nonpdrm maybe on mai too
+
+_V0 Inf Ammo
+$A100 810E1058 00003800
+$A100 810E10CA 00003800
+
+_V0 All weapons
+$4001 823872C0 00000001
+$01DD 00000001 00000000
+$4001 8238754C 00000001
+$0153 00000001 00000000
+
+_V0 All Mission
+$4001 823877D4 00000001
+$01DD 00000001 00000000
+$4001 823879C8 00000001
+$0153 00000001 00000001
+
+_V0 Inf Life
+$3201 8239F6CC 00000240
+$3300 8239F6CC 461C3C00
+$3201 8239F6CC 00000244
+$3300 00000000 461C3C00
+
+_V0 Inf Flying Booster Power
+$A100 810E0A86 0000BF00
+
+_V0 0 Game Play Time
+$0200 82387FB0 00000000
+
+_V0 Unlock Secret Chracter [Wing]
+$0100 82387FCA 00000101 

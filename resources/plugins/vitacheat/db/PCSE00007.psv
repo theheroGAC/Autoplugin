@@ -1,0 +1,18 @@
+# ID: PCSE00007
+# Title: Asphalt - Injection
+# Region: USA
+# Version: 1.00
+# Type: Vitamin/NoNpDrm
+# Code Author: dask, Smoker1
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSE00007.psv
+# Original Source: http://www.speedfly.cn/20647.html
+
+_V0 money//金钱最大 (NND)
+$0200 81C0A124 3B9AC9FF
+ 
+_V0 Inf Adrenaline//无限加速 (NND)
+$A200 810DC0F8 1A00ED80
+$A200 810DC368 BF00BF00
+
+_V1 Money Cheat (VPK-Vitamin)
+$0200 81C0A254 05F5E0FF #https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/page-7#post-7622822

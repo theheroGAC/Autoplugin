@@ -1,0 +1,17 @@
+# ID: PCSB00296
+# Title: Dead or Alive 5+
+# Region: EUR
+# Version: 1.01
+# Type: NoNpDrm
+# Code Author: unknown
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSB00296.psv
+
+_V1 Health
+$0200 81B2A53C 010E010E
+
+_V1 1 Hit Kill CPU
+$0200 81B2ABCC 010E0000
+
+_V1 Freeze Timer in Time Attack
+$0000 81B28C84 00000000
+$0000 81B28C94 00000000

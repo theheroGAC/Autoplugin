@@ -1,0 +1,73 @@
+# ID: PCSB00975
+# Title: Adventures of Mana
+# Region: EUR
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: Borderlinez
+# Wiki: https://github.com/r0ah/vitacheat/wiki/PCSE00905#PCSB00975
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSB00975.psv
+# Original Source: http://www.codemasters-project.net/forum/forum/playstation-hacking/playstation-vita-hacking/code-vault-ps3-aa/3279-pcse00905-pscb00975-adventures-of-mana#post3279
+# Note: Tested on two different consoles and they worked
+
+_V1 Health stabilized 999/999 [Note 1]
+$0100 815738F4 000003E7
+$0100 815738FC 000003E7
+$0000 8157392C 00000071
+
+_V1 Magic Points stabilized 98/98 [Note 1]
+$0000 815738F8 00000062
+$0000 81573900 00000062
+$0000 81573930 0000007B
+$0000 81573934 0000008F
+
+_V1 Level 99 Player
+$0000 815738F0 00000063
+
+_V1 Attack 999/999
+$0100 81573904 000003E7
+
+_V1 Defense 999/999
+$0100 81573908 000003E7
+
+_V1 Red Gauge
+$0200 81573938 467A0000
+
+_V1 Vitality 98/98
+$0000 81573918 00000062
+
+_V1 Strength 98/98
+$0000 8157391C 00000062
+
+_V1 Mnd 98/98
+$0000 81573924 00000062
+
+_V1 Intellingence 98/98
+$0000 81573920 00000062
+
+_V1 Experience 999999/999999
+$0200 8157390C 000F423F
+$0200 81573910 000F423F
+
+_V1 Gp 99999 records as 65535
+$0200 81573914 0001869F
+
+_V1 Poison has minimum effect [Note 2]
+$0100 81573BAC 00000000
+
+_V1 Blindness has minimum effect [Note 2]
+$0100 81573BB4 00000000
+
+_V1 Petrified has minimum effect [Note 2]
+$0100 81573BB0 00000000
+
+_V0 Notes:
+$0000 00000000 00000000
+
+_V0 Codes are activated from start (_V1)
+$0000 00000000 00000000
+
+_V0 #1: They kept twitching and glitching
+$0000 00000000 00000000
+
+_V0 #2: You will still be affected but it will not show on the screen
+$0000 00000000 00000000

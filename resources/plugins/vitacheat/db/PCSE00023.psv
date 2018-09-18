@@ -1,0 +1,41 @@
+# ID: PCSE00023
+# Title: Mortal Kombat
+# Region: USA
+# Version: 1.00
+# Type: Vitamin/NoNpDrm
+# Code Author: Smoker1
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSE00023.psv
+# Original Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/page-7#post-7622609
+
+_V0 Time at 99
+$0200 81F965BC 00000063
+
+_V0 1P Inf Health (VPK-Vitamin)
+$0200 8A835934 3F800000
+
+_V0 1P Inf Health-NoNpDRM
+$0200 8A735934 3F800000
+
+_V0 Inf Life Bar Blood-NoNpDRM
+$0200 8A735938 3F800000
+
+_V0 2on2 1P 2nd Inf Health-NND
+$0200 8A798B94 3F800000
+
+_V0 X-Ray
+$0200 81F8CD4C 3F800000
+
+_V0 CPU No X-Ray
+$0200 81F8DB68 00000000
+
+_V0 CPU Takes 2x Damage
+$0200 81F8DAFC 40000000
+
+_V0 CPU Takes 3x Damage
+$0200 81F8DAFC 40400000
+
+_V0 Auto Fatality
+$0200 81F8BA54 0000000A
+
+_V0 9999999 Koins
+$0200 81FBBDF8 0098967F

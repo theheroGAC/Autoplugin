@@ -1,0 +1,16 @@
+# ID: PCSB00161
+# Title: Sine Mora
+# Region: EUR
+# Version: 1.00
+# Type: Vitamin
+# Code Author: speedfly
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSB00161.psv
+# Original Source: http://www.speedfly.cn/21364.html
+# Note: 不再犹豫 Vitamin 1.00
+ 
+_V0 得分后最大//Get Score Max
+$A200 8103CDFC 4100F06F
+$A100 8103CE00 00001C00
+ 
+_V0 生命不减//Inf Credits
+$A100 8103AB3A 00001C00

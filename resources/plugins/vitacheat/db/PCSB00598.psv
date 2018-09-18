@@ -1,0 +1,30 @@
+# ID: PCSB00598
+# Title: Child of Light
+# Region: EUR
+# Version: 1.0
+# Type: NoNpDrm
+# Code Author: r0ah
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSB00598.psv
+# Note: Will add more cheats as I advance in the game
+
+_V0 Aurora Infinite HP
+$3101 82428264 00000010
+$3300 00000000 000003E7
+
+_V0 Aurora Infinite MP
+$3101 82428264 00000014
+$3300 00000000 000003E7
+
+_V0 Rubella Infinite HP
+$3101 82226838 00000630
+$3300 00000000 000003E7
+
+_V0 Rubella Infinite MP
+$3101 82226838 00000634
+$3300 00000000 000003E7
+
+_V0 Infinite Skill Points
+$3101 82428264 00000294
+$3300 00000000 000003E7
+$3101 82226838 000008B4
+$3300 00000000 000003E7

@@ -1,0 +1,36 @@
+# ID: PCSE00033
+# Title: Guacamalee!
+# Region: USA
+# Version: 1.04
+# Type: MAI0
+# Code Author: dask
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSE00033.psv
+# Original Source: http://www.speedfly.cn/20316.html
+
+_V0 HP not diminished
+$A200 810FD856 B505F3E8 #不减
+$A200 818E6264 9A6BED93
+$A200 818E6268 9A6CED83
+$A200 818E626C B2F5F417
+ 
+_V0 money 99999
+$0200 81D9E0E4 0001869F #钱
+ 
+_V0 energy is not reduced
+$A200 811F54C0 BF00BF00 #能量不减
+ 
+_V0 SUPER MOON JUMP
+$A200 81555A3A BC1BF390
+$A200 818E6274 0A00EE30
+$A200 818E6278 0A00EE30
+$A200 818E627C 0A00EE30
+$A200 818E6280 1A00EE73
+$A200 818E6284 BBDBF46F
+ 
+_V0 ignore spikes
+$A200 8125D730 BF00BF00 #无视尖刺障碍
+$A200 8125CEF0 BF00BF00
+$A200 8125D99C BF00BF00
+ 
+_V0 ignore the monster's throwing material
+$A200 81184286 BF00BF00 #无视怪物的抛出物

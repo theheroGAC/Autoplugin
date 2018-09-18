@@ -1,0 +1,46 @@
+# ID: PCSE00792
+# Title: DARIUSBURST CS
+# Region: USA
+# Version: 1.00/1.11
+# Type: MAI5/NoNpDrm
+# Code Author: dask
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSE00792.psv
+# Original Source: http://www.speedfly.cn/19478.html
+
+_V0 God Mode//上帝模式 (V1.11)
+$A100 8199A79E 0000BF00
+ 
+_V0 Inf Power//无限能量 (V1.11)
+$A200 81550CA0 0A61EDD0
+$A200 81550CB0 0A62EDC0
+ 
+_V0 Inf Life//无限生命 (V1.11)
+$A100 81959040 00003800
+ 
+_V0 More Score//更多得分 (V1.11)
+$A100 81952FB8 0000BF00
+ 
+_V0 Inf Shield//无限护罩 (V1.11)
+$A100 8199A1B2 00001E1A
+ 
+_V0 More Pts After buy//买卖后更多Pts (V1.11)
+$A200 81EA9438 72D8F8C0
+
+_V0 God Mode//上帝模式 (V1.00)
+$A100 816A4134 0000BF00
+ 
+_V0 Inf Power//无限能量 (V1.00)
+$A200 8126A8EA 0A5FEDD0
+$A200 8126A8FA 0A60EDC0
+ 
+_V0 Inf Life//无限生命 (V1.00)
+$A100 81666D1C 00003800
+ 
+_V0 More Score//更多得分 (V1.00)
+$A100 81660D16 0000BF00
+ 
+_V0 Inf Shield//无限护罩 (V1.00)
+$A100 816A3B4A 00001E1A
+ 
+_V0 More Pts After buy//买卖后更多Pts (V1.00)
+$A200 81B96B1A 72D8F8C0
