@@ -18,6 +18,7 @@ plugins = {
 { name = "usbmc by yifanlu v6 (only for PSTV)", path = "usbmc.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_USBMC, },
 { name = "AnalogsEnhancer by Rinnegatamante v1.0", path = "AnalogsEnhancer.skprx", section = "KERNEL",  path2 = false, section2 = false, config = "config.txt", configpath = "ux0:data/AnalogsEnhancer/", desc = INSTALLP_DESC_ANALOGSENHANCER, },
 { name = "ioplus by dots-tb v0.1", path = "ioplus.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_IOPLUS, },
+{ name = "Vitacheat Z05 BETA by r0ah", path = "vitacheat.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_VITACHEAT, },
 
 --Boot_config.txt
 { name = "Custom Boot Splash by Princess of Sleeping", path = "custom_boot_splash.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = INSTALLP_DESC_CUSTOMBOOTSPLASH, },
@@ -161,14 +162,18 @@ function plugins_installation(sel)
 				--Write
 				tai.sync(loc)
 
-				if back then back:blit(0,0) end
-				message_wait(plugins[sel].name.."\n\n"..STRING_INSTALLED)
-				os.delay(1500)
-
 				--Custom Boot Splash
 				if plugins[sel].path == "custom_boot_splash.skprx" and not files.exists("ur0:tai/boot_splash.bin") then
 					img2splashbin("resources/boot_splash.png")
 				end
+				--Vitacheat
+				if plugins[sel].path == "vitacheat.skprx" then
+					files.copy("resources/plugins/vitacheat","ux0:")
+				end
+
+				if back then back:blit(0,0) end
+				message_wait(plugins[sel].name.."\n\n"..STRING_INSTALLED)
+				os.delay(1500)
 
 				change = true
 				buttons.homepopup(0)
