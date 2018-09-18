@@ -18,7 +18,7 @@ MENU_INSTALL_PLUGINS =						"Instalar Plugins"
 MENU_UNINSTALL_PLUGINS =					"Desinstalar Plugins"
 MENU_CONVERTBOOTSPLASH =					"Activar imagen para el Custom Boot Splash"
 MENU_INSTALL_NPDRMFREE =					"Instalar plugin npdrm free de Qwik (Adrenaline)"
-MENU_INSTALL_CONFIG =						"Instalar config.txt para PKGJ v0.36+"
+MENU_INSTALL_CONFIG =						"Instalar config.txt para PKGJ v0.37+"
 MENU_INSTALL_REMASTERED_CTRLS =				"Instalar Remastered Controls plugins de Theflow (Adrenaline)"
 MENU_EXIT =									"Salir"
 MENU_INSTALLED_CONFIG =						"¡¡¡ ux0:pkgi/config.txt para pkgj ha sido instalado !!!"
@@ -97,13 +97,14 @@ INSTALLP_DESC_DSMOTION = 					"Soporte de control de movimiento DualShock para P
 INSTALLP_DESC_USBMC = 					    "Almacenamiento USB como tarjeta de memoria en la PS Vita"
 INSTALLP_DESC_ANALOGSENHANCER =             "Este plugin de kernel permite a los usuario mejorar su experiencia con los controles analógicos de la PS Vita"
 INSTALLP_DESC_IOPLUS = 					    "Este plugin de kernel de la PS Vita permite más operaciones de E/S en modo usuario"
+INSTALLP_DESC_VITACHEAT =					"Use Cheats On PSVita Games"
 
 --Boot_config.txt
 INSTALLP_DESC_CUSTOMBOOTSPLASH =			"Este plugin puede mostrar una  Imagen Personalizada en el arranque de PS Vita/PSTV. Requiere ENSO"
 INSTALLP_DESC_CONVERTBOOTSPLASH =			"¿Poner tu Imagen Personalizada en el arranque de la PS Vita?"
 INSTALLP_DESC_NOFINDSPLASH =				"Coloca la imagen elegida en ux0:CustomBootsplash/\n(será renombrada como splash.png and y con tamaño 960x544)"
 INSTALLP_DESC_SPLASHGH =					"El tamaño de la imagen debe de ser: 960 * 544"
-INSTALLP_DESC_BOOTSPLASHDONE =				"¡¡¡boot_splash.bin ACABADA!!!"
+INSTALLP_DESC_BOOTSPLASHDONE =				"¡¡¡ boot_splash.bin CREADO !!!"
 
 --MAIN
 INSTALLP_DESC_DENABLER =					"Permite descargar archivos a través de su navegador"
