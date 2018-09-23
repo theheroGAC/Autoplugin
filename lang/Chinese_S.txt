@@ -97,6 +97,7 @@ INSTALLP_DESC_DSMOTION = 					"为 PlayStation TV 提供 DualShock 控制器支�
 INSTALLP_DESC_USBMC = 					    "将 USB 存储设备设置为 Vita 记忆棒"
 INSTALLP_DESC_ANALOGSENHANCER =             "这个小巧的内核插件允许用户提升  PSVITA 摇杆体验"
 INSTALLP_DESC_IOPLUS = 					    "此PSVita内核插件允许在 userland 中进行更多的IO操作"
+INSTALLP_DESC_VITACHEAT =					"在PSVita游戏上使用金手指"
 
 --Boot_config.txt
 INSTALLP_DESC_CUSTOMBOOTSPLASH =			"此插件将在 PS Vita/PSTV 启动时显示自定义启动画面. 需要 ENSO 固化"
