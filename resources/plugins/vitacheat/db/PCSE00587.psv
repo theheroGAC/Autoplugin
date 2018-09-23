@@ -1,0 +1,16 @@
+# ID: PCSE00587
+# Title: LEGO Jurassic World
+# Region: USA
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: Smoker1
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSE00587.psv
+# Original Source: https://github.com/ShumnoT/VitaCheatDatabase/blob/master/PCSE00587.psv
+
+_V0 9999990 LEGO Studs
+$3201 83537D08 00000230
+$3300 00000000 00989676
+
+_V0 Inf Health
+$3201 00000000 00000000
+$3300 00000000 00000000

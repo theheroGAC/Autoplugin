@@ -1,0 +1,15 @@
+# ID: PCSB00416
+# Title: Table Top Racing
+# Region: EUR
+# Version: 1.00
+# Type: Unknown
+# Code Author: Smoker1
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSB00416.psv
+# Original Source: http://www.speedfly.cn/21361.html
+# Original Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/page-20#post-7824654
+
+_V0 99,999 Coins
+$0200 81208BC8 0001869F
+
+_V0 Low Time
+$0200 81575760 30000000

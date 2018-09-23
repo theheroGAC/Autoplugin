@@ -1,0 +1,84 @@
+# ID: PCSE00518
+# Title: Damascus Gear - Operation Tokyo
+# Region: USA
+# Version: 1.01
+# Type: NoNpDrm
+# Code Author: r0ah
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSE00518.psv
+
+_V0 Infinite Eyn
+$0200 82FFC10C 000F423F #MAX VALUE CAN CAUSE BULK SELL CRASH
+
+_V0 Infinite Repair Kit
+$0000 82FFC140 00000063
+
+_V0 Infinite Durability
+$4201 83B94D8C 0001869F
+$0002 00000004 00000000
+
+_V0 Infinite Boost
+$4101 83B94D96 000042C8
+$0002 00000004 00000000
+
+_V0 Gear (In-Battle)
+$0000 00000000 00000000
+
+_V0 * Max Armor
+$0200 83B9504C 000F423F
+
+_V0 * Max Accuracy
+$0100 83B95054 000003E7
+
+_V0 * Max Defense
+$0200 83B9505C 000F423F
+
+_V0 * Max Evade
+$0100 83B95060 000003E7
+
+_V0 * Max CritGuard
+$0100 83B95064 000003E7
+
+_V0 R-Weapon (In-Battle)
+$0000 00000000 00000000
+
+_V0 * Max Attack PWR
+$0200 83B950D0 000F423F
+
+_V0 * Max Accuracy
+$0100 83B950D4 000003E7
+
+_V0 * Max Crit
+$0100 83B950D8 000003E7
+
+_V0 * Zero ENG Cons.
+$0000 83B950ED 00000000
+
+_V0 L-Weapon (In-Battle)
+$0000 00000000 00000000
+
+_V0 * Max Attack PWR
+$0200 83B95150 000F423F
+
+_V0 * Max Accuracy
+$0100 83B95154 000003E7
+
+_V0 * Max Crit
+$0100 83B95158 000003E7
+
+_V0 * Zero ENG Cons.
+$0000 83B9516D 00000000
+
+_V0 Back (In-Battle)
+$0000 00000000 00000000
+
+_V0 * Max Attack PWR
+$0200 83B951D0 000F423F
+
+_V0 * Max Accuracy
+$0100 83B951D4 000003E7
+
+_V0 * Max Crit
+$0100 83B951D8 000003E7
+
+_V0 * Zero ENG Cons.
+$0000 83B951ED 00000000

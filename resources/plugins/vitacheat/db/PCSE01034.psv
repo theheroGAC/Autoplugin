@@ -1,0 +1,24 @@
+# ID: PCSE01034
+# Title: BERSERK and the Band of the Hawk
+# Region: USA
+# Version: 1.01
+# Type: NoNpDrm
+# Code Author: Larry Dungo, jialeyne19
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSE01034.psv
+# Original Source: http://www.codemasters-project.net/forum/forum/playstation-hacking/playstation-vita-hacking/code-vault-ps3-aa/3539-pcse01034-berserk-and-the-band-of-the-hawk-us#post3539
+# Note: 3.65 Vita. Use vitacheat v3.
+
+_V0 >>>>Created By Larry Dungo<<<<
+$0000 00000000 00000000
+
+_V0 MONEY
+$0200 83C42F4C 0F950DFF
+
+_V0 FRENZY INF
+$0200 8747CFC0 448A0000
+
+_V0 HP INF
+$0200 8747CFA0 00001604
+
+_V0 SPECIAL INF
+$0200 8747CFA4 03E803E8

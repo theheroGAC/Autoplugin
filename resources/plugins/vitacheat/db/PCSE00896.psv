@@ -1,0 +1,20 @@
+# ID: PCSE00896
+# Title: The Legend of Heroes - Trails of Cold Steel II
+# Region: USA
+# Version: 1.01
+# Type: NoNpDrm
+# Code Author: r0ah
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSE00896.psv
+
+_V0 Infinite Mira
+$3201 821A7094 0007D044
+$3300 00000000 3B9AC9FF
+
+_V0 Infinite Sepith Mass
+$3201 821A7094 0007D020
+$3300 00000000 3B9AC9FF
+
+_V0 Infinite Sepith
+$7201 821A7094 0007D004
+$7701 00000000 000F423F
+$0007 00000004 00000000

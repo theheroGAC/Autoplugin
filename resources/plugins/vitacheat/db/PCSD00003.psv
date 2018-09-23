@@ -1,0 +1,35 @@
+# ID: PCSD00003
+# Title: Gravity Rush
+# Region: KOR
+# Version: 1.02
+# Type: MAI5
+# Code Author: dask
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSD00003.psv
+# Original Source: http://www.speedfly.cn/20194.html
+
+_V1 unlimited HP
+$A100 811967EA 0000BF00
+
+_V1 infinite gravity energy
+$A200 810533D8 BF00BF00
+
+_V1 nirvana unlimited use
+$3201 81527518 000016E8
+$3300 00000000 00000000
+
+_V0 Challenge time is not reduced
+$A100 813CC820 00003900
+
+_V0 Challenge time is rapidly decreasing
+$A100 813CC820 000039FF
+
+_V0 Challenge time does not increase
+$A100 813CC810 00003100
+
+_V0 gem 65535 - 
+$A200 810ADB2C 70FFF64F #CAN ONLY BE OPENED AFTER THE FIRST COLLECTION OF GEMSTONES
+$A100 810ADB30 00002A00
+$A100 810ADB38 00006820
+
+_V0 alarm does not increase
+$A100 813AE39A 00003000

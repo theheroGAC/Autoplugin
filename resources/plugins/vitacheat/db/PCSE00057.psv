@@ -1,0 +1,10 @@
+# ID: PCSE00057
+# Title: LEGO Harry Potter-Years 5-7
+# Region: USA
+# Version: 1.00
+# Type: Vitamin
+# Code Author: Smoker1
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSE00057.psv
+
+_V0 1,000,000,000 Studs
+$0200 8117C450 05F5E0FF

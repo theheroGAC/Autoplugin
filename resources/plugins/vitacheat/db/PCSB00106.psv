@@ -1,0 +1,14 @@
+# ID: PCSB00106
+# Title: Mortal Kombat
+# Region: EUR
+# Version: 1.00
+# Type: Unknown
+# Code Author: vergil
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSB00106.psv
+# Original Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/page-5#post-7619367
+
+_V0 Inf HP P1
+$0200 8A835936 00003F80
+
+_V0 Inf X-Ray P1
+$0200 81F8CD3E 00003F80

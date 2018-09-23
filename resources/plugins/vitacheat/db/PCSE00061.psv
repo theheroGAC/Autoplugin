@@ -1,0 +1,16 @@
+# ID: PCSE00061
+# Title: LEGO Batman 2
+# Region: USA
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: Smoker1
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSE00061.psv
+# Original Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/page-9#post-7635881
+# Note: Odd thing though: It shows 99,999,999 Coins, but when you finish the Level.......it shows much less. Disable the Code, it shows what the Final Result is. Maybe someone can figure this out.
+
+_V0 1,000,000,000 LEGO Studs
+$0200 811B1B30 05F5E0FF
+
+_V0 Inf Health
+$3201 8117FC24 00000114
+$3300 00000000 3C0000C8

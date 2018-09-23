@@ -1,0 +1,20 @@
+# ID: PCSE00865
+# Title: Sky Force Anniversary
+# Region: USA
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: Smoker1
+# Source: https://github.com/r0ah/vitacheat/blob/master/PCSE00865.psv
+# Original Source: http://www.codemasters-project.net/forum/forum/playstation-hacking/playstation-vita-hacking/code-vault-ps3-aa/3726-pcse00865-sky-force-anniversary-us-nnd#post3726
+
+_V0 99999 Stars
+$0200 852B3864 0001869F
+
+_V0 Always 3 Mega Bombs
+$0000 852B388C 00000003
+
+_V0 Always 5 Lasers*
+$0000 852B3888 00000005
+
+_V0 Always 5 Shields*
+$0000 852B3890 00000005
