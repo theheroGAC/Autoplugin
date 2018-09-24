@@ -41,6 +41,7 @@ INSTALLP_SQUARE_MARK =						"[] : to select the plugin(s) to install"
 INSTALLP_TRIANGLE_ALL =						"△ : to Install ALL the plugins"
 INSTALLP_SELECT_CLEAN =						"SELECT : to clean selected plugins"
 INSTALLP_LR_SWAP =							"L/R : to swap ux0/ur0"
+INSTALLP_CUSTOM_PATH =						"△ : Install in the custom path"
 
 INSTALLP_VITABRIGHT_360 =					"Vitabright only for 3.60/H-encore 3.68"
 INSTALLP_CWARNING_360_365 =					"Custom Warning not work for 3.67/3.68"

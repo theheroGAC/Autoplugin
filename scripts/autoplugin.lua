@@ -41,17 +41,13 @@ plugins = {
 
 }
 
-loc, toinstall = 1,0
-
 --Init load configs
 tai.load()
 
-if not files.exists(tai_ux0_path) and not files.exists(tai_ur0_path) then
-	if version == "3.60" then files.copy("resources/config_360/config.txt", "ur0:tai/")	--Copy defect for config.txt
-	else files.copy("resources/config_365/config.txt", "ur0:tai/") end					--3.65/3.67/3.68 same config.txt
+if not files.exists(tai_ux0_path) and not files.exists(tai_ur0_path) then--Copy defect for config.txt
+	files.copy("resources/config/config.txt", "ur0:tai/")
 	tai.load()
 end
-if tai[__UR0].exist then loc = 2 end
 
 --Backups
 tai.sync(__UX0, "ux0:tai/config_backup.txt")
@@ -115,7 +111,6 @@ function plugins_installation(sel)
 			end
 
 			if install then
-				local path_tai = locations[loc].."tai/"
 
 				--Install plugin to tai folder
 				files.copy(path_plugins..plugins[sel].path, path_tai)
@@ -129,9 +124,9 @@ function plugins_installation(sel)
 						local text = osk.init(INSTALLP_OSK_TITLE, INSTALLP_OSK_TEXT)
 						if not text or (string.len(text)<=0) then text = "" end--os.nick() end
 
-						files.copy(path_plugins..plugins[sel].config, path_tai)
+						files.copy(path_plugins..plugins[sel].config, locations[loc].."tai/")
 
-						local fp = io.open(path_tai..plugins[sel].config, "wb")
+						local fp = io.open(locations[loc].."tai/"..plugins[sel].config, "wb")
 						if fp then
 							fp:write(string.char(0xFF)..string.char(0xFE))
 							fp:write(os.toucs2(text))
@@ -141,7 +136,7 @@ function plugins_installation(sel)
 						if plugins[sel].configpath then
 							files.copy(path_plugins..plugins[sel].config, plugins[sel].configpath)
 						else
-							files.copy(path_plugins..plugins[sel].config, path_tai)
+							files.copy(path_plugins..plugins[sel].config, locations[loc].."tai/")
 						end
 					end
 				end
@@ -151,24 +146,28 @@ function plugins_installation(sel)
 
 				if plugins[sel].path == "adrenaline_kernel.skprx" then pathline_in_config = "ux0:app/PSPEMUCFW/sce_module/adrenaline_kernel.skprx" end
 
+				local idx = nil
+
 				if plugins[sel].section2 then
+					idx = tai.find(loc, plugins[sel].section2, path_tai..plugins[sel].path2)
+					if idx then tai.del(loc, plugins[sel].section2, path_tai..plugins[sel].path2) end
 					tai.put(loc, plugins[sel].section2, path_tai..plugins[sel].path2)
 				end
-				tai.put(loc, plugins[sel].section,  pathline_in_config)
 
-				--Extra
-				if plugins[sel].path == "vsh.suprx" then files.delete("ur0:/data:/vsh/") end
+				idx = tai.find(loc, plugins[sel].section, pathline_in_config)
+				if idx then tai.del(loc, plugins[sel].section,  pathline_in_config) end
+
+				tai.put(loc, plugins[sel].section,  pathline_in_config)
 
 				--Write
 				tai.sync(loc)
 
-				--Custom Boot Splash
-				if plugins[sel].path == "custom_boot_splash.skprx" and not files.exists("ur0:tai/boot_splash.bin") then
+				--Extra
+				if plugins[sel].path == "vsh.suprx" then files.delete("ur0:/data:/vsh/")
+				elseif plugins[sel].path == "custom_boot_splash.skprx" and not files.exists("ur0:tai/boot_splash.bin") then--Custom Boot Splash
 					img2splashbin("resources/boot_splash.png")
-				end
-				--Vitacheat
-				if plugins[sel].path == "vitacheat.skprx" then
-					files.copy("resources/plugins/vitacheat","ux0:")
+				elseif plugins[sel].path == "vitacheat.skprx" and not files.exists("ux0:vitacheat/db/") then--Vitacheat
+					files.extract("resources/plugins/vitacheat.zip","ux0:")
 				end
 
 				if back then back:blit(0,0) end
@@ -187,7 +186,7 @@ function plugins_installation(sel)
 
 end
 
-limit,xscr1 = 13,5
+limit,xscr1,toinstall = 13,5,0
 scroll = newScroll(plugins,limit)
 function autoplugin()
 
@@ -195,6 +194,7 @@ function autoplugin()
 	loc = 1
 	tai.load()
 	if tai[__UR0].exist then loc = 2 end
+	path_tai = locations[loc].."tai/"
 
 	buttons.interval(10,10)
 	while true do
@@ -246,12 +246,12 @@ function autoplugin()
 			screen.print(480, 405, plugins[scroll.sel].desc,1,color.white,color.orange,__ACENTER)
 		end
 
-		screen.print(10,450,STRING_CONFIRM_PLUGIN,1,color.white,color.black,__ALEFT)
-		--screen.print(10,475,INSTALLP_TRIANGLE_ALL,1,color.white,color.black,__ALEFT)
-		screen.print(10,475,INSTALLP_LR_SWAP,1,color.white,color.black,__ALEFT)
+		screen.print(10,445,STRING_CONFIRM_PLUGIN,1,color.white,color.black,__ALEFT)
+		screen.print(10,470,INSTALLP_LR_SWAP,1,color.white,color.black,__ALEFT)
+		screen.print(10,495,INSTALLP_CUSTOM_PATH..": "..path_tai,1,color.white,color.black,__ALEFT)
 
-		screen.print(955,450,INSTALLP_SQUARE_MARK,1,color.white,color.black, __ARIGHT)
-		screen.print(955,475,INSTALLP_SELECT_CLEAN,1,color.white,color.black, __ARIGHT)
+		screen.print(955,445,INSTALLP_SQUARE_MARK,1,color.white,color.black, __ARIGHT)
+		screen.print(955,470,INSTALLP_SELECT_CLEAN,1,color.white,color.black, __ARIGHT)
 
 		screen.print(10,522,STRING_BACK,1,color.white,color.black, __ALEFT)
 		screen.print(955,522,STRING_START_CLOSE,1,color.white,color.red, __ARIGHT)
@@ -283,6 +283,11 @@ function autoplugin()
 
 		--Install selected plugins
 		if buttons[accept] then
+
+			if back then back:blit(0,0) end
+				message_wait(STRING_PLEASE_WAIT)
+			os.delay(1000)
+
 			if toinstall <= 1 then
 				plugins_installation(scroll.sel)
 			else
@@ -293,10 +298,12 @@ function autoplugin()
 				end
 				os.delay(50)
 			end
+
 			for i=1,scroll.maxim do
 				plugins[i].inst = false
 				if toinstall >= 1 then toinstall-=1 end
 			end
+
 		end
 
 		--Mark/Unmark
@@ -313,14 +320,16 @@ function autoplugin()
 			end
 		end
 
-		--[[
-		--Install ALL plugins
+		--Customize install path for plugins
 		if buttons.triangle then
-			for i=1,scroll.maxim do
-				plugins_installation(i)
+			if folder_tai then
+				folder_tai = false
+				path_tai = locations[loc].."tai/"
+			else
+				folder_tai = true
+				path_tai = locations[loc].."tai/plugins/"
 			end
 		end
-		]]
 
 	end
 

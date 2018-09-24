@@ -10,8 +10,9 @@
 ]]
 
 path_plugins = "resources/plugins/"
-__UX0, __UR0 = 1,2
+__UX0, __UR0, loc = 1,2,1
 locations = { "ux0:", "ur0:" }
+folder_tai, path_tai = false, locations[loc].."tai/"
 version = tostring(os.swversion())
 
 --Buttons Assign
