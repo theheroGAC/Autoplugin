@@ -29,6 +29,10 @@ local psp_ctrls_callback = function ()
     psp_ctrls()
 end
 
+local onlineplugins_callback = function ()
+    plugins_online()
+end
+
 local exit_callback = function ()
     if change then
 		os.message(STRING_PSVITA_RESTART)
@@ -45,8 +49,13 @@ local menu = {
 	{ text = MENU_UNINSTALL_PLUGINS,		funct = uinstallp_callback },
 	{ text = MENU_CONVERTBOOTSPLASH,		funct = convertimgsplash_callback },
 	{ text = MENU_INSTALL_CONFIG,			funct = config_callback },
+
 	{ text = MENU_INSTALL_NPDRMFREE,		funct = npdrm_callback },
 	{ text = MENU_INSTALL_REMASTERED_CTRLS,	funct = psp_ctrls_callback },
+
+--Online plugins	
+	{ text = MENU_CHECK_ONLINEP,			funct = onlineplugins_callback },
+
 	{ text = MENU_EXIT,						funct = exit_callback }
 }
 local scrollm,sel = newScroll(menu,#menu),1
