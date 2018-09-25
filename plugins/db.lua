@@ -36,7 +36,7 @@ db = {
 --All
 { path = "vsh.suprx",					version = "0001", stringversion = "3.4" },
 { path = "vitagrafix.suprx",			version = "0001", stringversion = "2.4" },
-{ path = "oclockvita.suprx",			version = "0002", stringversion = "1.2.2" },
+{ path = "oclockvita.suprx",			version = "0003", stringversion = "1.3.0" },
 
 
 
