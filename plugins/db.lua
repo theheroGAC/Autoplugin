@@ -13,7 +13,6 @@ db = {
 { name = "ds4vita by xerpi v1.2", path = "ds4vita.skprx", version = "0001", stringversion = "1.2" },
 { name = "udcd_uvc by xerpi v1.1", path = "udcd_uvc.skprx", version = "0001", stringversion = "1.1" },
 --{ name = "Kuio by Rinnegatamante", path = "kuio.skprx", version = "0001", stringversion = "1.2" },
-{ name = "Adrenaline by TheOfficialFloW (Fix double touch)", path = "adrenaline_kernel.skprx", version = "0001", stringversion = "1.2" },
 { name = "DSMotion by OperationNT414C v1.2", path = "dsmotion.skprx", version = "0001", stringversion = "1.2" },
 { name = "usbmc by yifanlu v6 (only for PSTV)", path = "usbmc.skprx", version = "0001", stringversion = "0.6" },
 { name = "AnalogsEnhancer by Rinnegatamante v1.0", path = "AnalogsEnhancer.skprx", version = "0001", stringversion = "1.0" },
