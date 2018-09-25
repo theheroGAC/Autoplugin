@@ -37,6 +37,6 @@ plugins = {
 --All
 { name = "PSV-VSH MENU by joel16 v3.4", path = "vsh.suprx", section = "ALL",  path2 = "kuio.skprx", section2 = "KERNEL", config = false, version = "0001", desc = INSTALLP_DESC_VSHMENU, },-- Need kuio.skprx
 { name = "VitaGrafix by Electry v2.4", path = "vitagrafix.suprx", section = "ALL",  path2 = "kuio.skprx", section2 = "KERNEL", config = "config.txt", configpath = "ux0:data/VitaGrafix/", version = "0001", desc = INSTALLP_DESC_VITAGRAFIX, },-- Need kuio.skprx
-{ name = "Oclock Vita by frangarcj v1.2.2", path = "oclockvita.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0002", desc = INSTALLP_DESC_OVERCLOCK, },
+{ name = "Oclock Vita by frangarcj v1.3.0", path = "oclockvita.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0003", desc = INSTALLP_DESC_OVERCLOCK, },
 
 }
