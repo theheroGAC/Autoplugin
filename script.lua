@@ -49,11 +49,13 @@ end
 
 dofile("scripts/tai.lua")
 dofile("scripts/commons.lua")
+dofile("scripts/plugins.lua")
 dofile("scripts/autoplugin.lua")
 dofile("scripts/pmanager.lua")
 dofile("scripts/npdrm.lua")
 dofile("scripts/pspctrls.lua")
 dofile("scripts/sd2vita.lua")
 dofile("scripts/customsplash.lua")
+dofile("scripts/onlinep.lua")
 
 dofile("menu.lua")--Main Cycle

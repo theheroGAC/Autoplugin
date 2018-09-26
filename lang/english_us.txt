@@ -20,6 +20,7 @@ MENU_CONVERTBOOTSPLASH =					"Set Custom Boot Splash"
 MENU_INSTALL_NPDRMFREE =					"Install plugin npdrm free from qwikrazor87 (Adrenaline)"
 MENU_INSTALL_CONFIG =						"Install config.txt for PKGJ v0.37+"
 MENU_INSTALL_REMASTERED_CTRLS =				"Install RemasteredControls plugins from Theflow (Adrenaline)"
+MENU_CHECK_ONLINEP =						"Check for Plugins Updates"
 MENU_EXIT =									"Exit"
 MENU_INSTALLED_CONFIG =						"ux0:pkgi/config.txt for pkgj have been installed !!!"
 
@@ -41,6 +42,7 @@ INSTALLP_SQUARE_MARK =						"[] : to select the plugin(s) to install"
 INSTALLP_TRIANGLE_ALL =						"△ : to Install ALL the plugins"
 INSTALLP_SELECT_CLEAN =						"SELECT : to clean selected plugins"
 INSTALLP_LR_SWAP =							"L/R : to swap ux0/ur0"
+INSTALLP_CUSTOM_PATH =						"△ : Install in the custom path"
 
 INSTALLP_VITABRIGHT_360 =					"Vitabright only for 3.60/H-encore 3.68"
 INSTALLP_CWARNING_360_365 =					"Custom Warning not work for 3.67/3.68"
@@ -78,6 +80,14 @@ PSPCTRLS_TITLE =							"Remastered Controls plugins from Theflow (Adrenaline)"
 PSPCTRLS_LR_SWAP =							"L/R: to swap partitions"
 PSPCTRLS_GAME_UPDATED =						"game.txt updated"
 PSPCTRLS_DESCP =							"A collection of dual analog patches for PSP games on Adrenaline"
+
+--plugins online
+UPDATE_WIFI_LOW =							"Wifi Low Signal"
+UPDATE_WIFI_IS_ON =							"Wifi is required"
+UPDATE_CHECK_DB =							"Checking Database"
+UPDATE_PLUGIN =								"Updated Plugin"
+UPDATE_ERROR_DB =							"Error downloading db.lua"
+UPDATE_NO_NEWS =							"All the plugins are up to date"
 
 --descriptions plugins
 --KERNEL

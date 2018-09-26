@@ -176,15 +176,15 @@ function tai.delete_sect(index, v) -- Internal use...
 end
 
 --[[
-	NUMBER tai.find(id, path, index)
+	NUMBER tai.find(index, id, path)
 	Search a filename in the list of plugin of the id.
 	return nil in case of error, index in success.
 ]]
-function tai.find(index, id, name)
+function tai.find(index, id, path)
 
 	if not tai[index].gameid[id] then return nil end
 
-	local fname = name or ""		--files.nopath(path)
+	local fname = files.nopath(path)--name or ""
 	fname = fname:lower()
 
 	for i=1, #tai[index].gameid[id].prx do

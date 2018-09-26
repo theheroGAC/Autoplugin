@@ -108,7 +108,6 @@ function pluginsmanager()
 					tai.sync(partition)
 					tai.load()
 
-					--for i=1,#tb_cop do
 					for i=#tb_cop,1,-1 do
 						if name == tb_cop[i].path then
 							if tb_cop[i].section2 and tai[partition].gameid[ tb_cop[i].section2 ] then

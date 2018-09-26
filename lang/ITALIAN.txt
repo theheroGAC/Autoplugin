@@ -20,6 +20,7 @@ MENU_CONVERTBOOTSPLASH =					"Imposta Custom Boot Splash"
 MENU_INSTALL_NPDRMFREE =					"Installa il plugin npdrm free di qwikrazor87 (Adrenaline)"
 MENU_INSTALL_CONFIG =						"Installa il file config.txt per PKGJ v0.37+"
 MENU_INSTALL_REMASTERED_CTRLS =				"Installa RemasteredControls plugins di Theflow (Adrenaline)"
+MENU_CHECK_ONLINEP =						"Controlla gli aggiornamenti dei plugin"
 MENU_EXIT =									"Esci"
 MENU_INSTALLED_CONFIG =						"ux0:pkgi/config.txt per pkgj è stato installato!!!"
 
@@ -41,6 +42,7 @@ INSTALLP_SQUARE_MARK =						"Quadrato per selezionare il/i plugin da installare"
 INSTALLP_TRIANGLE_ALL =						"Triangolo per Installare tutti i plugin"
 INSTALLP_SELECT_CLEAN =						"Select per cancellare tutti i plugin selezionati"
 INSTALLP_LR_SWAP =							"L/R per cambiare la partizione ux0/ur0"
+INSTALLP_CUSTOM_PATH =						"△ : Installa nel percorso"
 
 INSTALLP_VITABRIGHT_360 =					"Vitabright solo per 3.60 e H-Encore 3.68"
 INSTALLP_CWARNING_360_365 =					"Custom Warning non funziona su 3.67/3.68"
@@ -67,8 +69,8 @@ NPDRMFREE_NO_PARTITION =					"Partizione non trovata!"
 
 --customsplash
 CUSTOMBOOTSPLASH__TITLE =					"Custom Boot Splash"
-CUSTOMBOOTSPLASH_CROSS_CONVERT =			"Press X per convertire img"
-CUSTOMBOOTSPLASH_CIRCLE_CONVERT =			"Press O per convertire img"
+CUSTOMBOOTSPLASH_CROSS_CONVERT =			"Premere X per convertire img"
+CUSTOMBOOTSPLASH_CIRCLE_CONVERT =			"Premere O per convertire img"
 CUSTOMBOOTSPLASH__MESSAGE =					"Ricorda di abilitare il plugin Custom Boot Splash"
 CUSTOMBOOTSPLASH_RESTART =					"Vuoi riavviare adesso?"
 CUSTOMBOOTSPLASH_NOPNG_FOUND =				"ux0:CustomBootsplash VUOTO!!!! "
@@ -78,6 +80,14 @@ PSPCTRLS_TITLE =							"Remastered Controls plugins di Theflow (Adrenaline)"
 PSPCTRLS_LR_SWAP =							"L/R: per cambiare la partizione"
 PSPCTRLS_GAME_UPDATED =						"game.txt aggiornato"
 PSPCTRLS_DESCP =							"Una collezione di patch per far funzionare gli analogici sui giochi PSP avviati da Adrenaline"
+
+--plugins online
+UPDATE_WIFI_LOW =							"Segnale debole della Wifi"
+UPDATE_WIFI_IS_ON =							"Connessione Wifi richiesta!!"
+UPDATE_CHECK_DB =							"Controllo Database"
+UPDATE_PLUGIN =								"Aggiornamento Plugin"
+UPDATE_ERROR_DB =							"Errore nello scaricamento del file db.lua"
+UPDATE_NO_NEWS =							"Tutti i plugin sono aggiornati"
 
 --descriptions plugins
 --KERNEL
