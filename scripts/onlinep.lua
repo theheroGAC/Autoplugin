@@ -4,7 +4,7 @@ function plugins_online()
 	local wstrength = wlan.strength()
 	if wstrength then
 		if wstrength < 55 then os.message(UPDATE_WIFI_LOW) return end
-	else
+	elseif not wlan.isconnected() then -- Fix ethernet mode
 		os.message(UPDATE_WIFI_IS_ON) return
 	end
 
