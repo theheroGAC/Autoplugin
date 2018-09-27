@@ -144,9 +144,8 @@ function plugins_installation(sel)
 end
 
 limit,xscr1,toinstall = 13,5,0
+scroll = newScroll(plugins,limit)
 function autoplugin()
-
-	scroll = newScroll(plugins,limit)
 
 	--Init load configs
 	loc = 1

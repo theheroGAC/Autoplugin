@@ -20,6 +20,7 @@ MENU_CONVERTBOOTSPLASH =					"カスタムブートスプラッシュを設定"
 MENU_INSTALL_NPDRMFREE =					"Adrenaline用npdrm_freeプラグインインストール(by qwikrazor87)"
 MENU_INSTALL_CONFIG =						"PKGJ v0.34+のconfig.txtインストール"
 MENU_INSTALL_REMASTERED_CTRLS =				"Adrenaline用RemasteredControlsプラグインインストール（by Theflow）"
+MENU_CHECK_ONLINEP =						"プラグインのアップデートを確認する"
 MENU_EXIT =									"アプリを終了"
 MENU_INSTALLED_CONFIG =						"pkgj用のconfig.txtはux0：pkgi/config.txtへインストールされます！"
 
@@ -41,6 +42,7 @@ INSTALLP_SQUARE_MARK =						"□ボタンでインストールするプラグイ
 INSTALLP_TRIANGLE_ALL =						"△ボタンですべてのプラグインをインストール"
 INSTALLP_SELECT_CLEAN =						"SELECTボタンで選択したプラグインを解除"
 INSTALLP_LR_SWAP =							"L/Rトリガーでux0:/ur0:を切り替え"
+INSTALLP_CUSTOM_PATH =						"△ボタンでカスタムパスにインストール"
 
 INSTALLP_VITABRIGHT_360 =					"Vitabrightは3.60のみ適用"
 INSTALLP_CWARNING_360_365 =					"「ご注意」表示のカスタマイズは3.67/3.68では機能しません(Ensoのみ動作可)"
@@ -78,6 +80,14 @@ PSPCTRLS_TITLE =							"Adrenaline用のRemasteredControlsプラグインをイ�
 PSPCTRLS_LR_SWAP =							"L/Rトリガーでパーティションを切り替え"
 PSPCTRLS_GAME_UPDATED =						"game.txtの更新"
 PSPCTRLS_DESCP =							"Adrenaline上のPSPゲームをPSVitaのデュアルアナログスティックで操作可能にする"
+
+--plugins online
+UPDATE_WIFI_LOW =							"Wi-Fiの信号レベルが低いです"
+UPDATE_WIFI_IS_ON =							"Wi-Fiが必要です"
+UPDATE_CHECK_DB =							"データベースの確認"
+UPDATE_PLUGIN =								"プラグインの更新"
+UPDATE_ERROR_DB =							"db.luaのダウンロード中にエラーが発生しました"
+UPDATE_NO_NEWS =							"すべてのプラグインが最新です"
 
 --descriptions plugins
 --KERNEL

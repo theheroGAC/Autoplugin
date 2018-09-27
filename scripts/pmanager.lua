@@ -102,8 +102,9 @@ function pluginsmanager()
 				if tai[partition].gameid[ section[sel_section] ] then
 
 					table.remove(tai[partition].raw, tai[partition].gameid[section[sel_section]].prx[scrollp.sel].line)
-					
 					local name = files.nopath(tai[partition].gameid[ section[sel_section] ].prx[scrollp.sel].path:lower())
+
+					if name != "adrenaline_kernel.skprx" then files.delete(tai[partition].gameid[ section[sel_section] ].prx[scrollp.sel].path) end
 
 					tai.sync(partition)
 					tai.load()
@@ -111,17 +112,32 @@ function pluginsmanager()
 					for i=#tb_cop,1,-1 do
 						if name == tb_cop[i].path then
 							if tb_cop[i].section2 and tai[partition].gameid[ tb_cop[i].section2 ] then
+
+								--delete plugin physical
+								local idx = tai.find(partition, tb_cop[i].section2, tb_cop[i].path2)
+								if idx then
+									if name != "adrenaline_kernel.skprx" then files.delete(tai[partition].gameid[ tb_cop[i].section2 ].prx[idx].path) end
+								end
+		
 								tai.del(partition, tb_cop[i].section2, tb_cop[i].path2)
 								--break
 								tai.sync(partition)
 								tai.load()
+
 							end
 						elseif name == tb_cop[i].path2 then
 							if tb_cop[i].section and tai[partition].gameid[ tb_cop[i].section ] then
+							
+								local idx = tai.find(partition, tb_cop[i].section, tb_cop[i].path)
+								if idx then
+									if name != "adrenaline_kernel.skprx" then files.delete(tai[partition].gameid[ tb_cop[i].section ].prx[idx].path) end
+								end
+
 								tai.del(partition, tb_cop[i].section, tb_cop[i].path)
 								--break
 								tai.sync(partition)
 								tai.load()
+								
 							end
 						end
 					end
