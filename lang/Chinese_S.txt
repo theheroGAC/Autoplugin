@@ -20,13 +20,14 @@ MENU_CONVERTBOOTSPLASH =					"设置自定义启动画面"
 MENU_INSTALL_NPDRMFREE =					"安装 npdrm free 插件 | 作者 qwikrazor87 (Adrenaline)"
 MENU_INSTALL_CONFIG =						"为 PKGJ v0.37 以上版本安装 config.txt 配置文件"
 MENU_INSTALL_REMASTERED_CTRLS =				"安装 RemasteredControls 插件 | 作者 Theflow (Adrenaline)"
+MENU_CHECK_ONLINEP =						"检查插件更新"
 MENU_EXIT =									"退出"
-MENU_INSTALLED_CONFIG =						"pkgj的配置文件已安装在ux0:pkgi/config.txt"
+MENU_INSTALLED_CONFIG =						"pkgj的配置文件已安装在ux0:pkgi/config.txt !!!"
 
 --install sd2vita
 SD2VITA_1_WARNING =							"您必须准备好sd2vita卡套后才能安装Storage Manager插件"
 SD2VITA_2_WARNING =							"在重启之前必须取出已插入的游戏卡带 !!!"
-SD2VITA_3_WARNING =							"非常重要: 您的 sd2vita 设备必须已存入一些软件, 您可以从原装记忆棒"
+SD2VITA_3_WARNING =							"非常重要: 您的 sd2vita 设备必须已存入一些软件, 您可以从原装储存卡"
 SD2VITA_4_WARNING =							"复制您确实需要的软件到sd2vita储存卡."
 SD2VITA_5_WARNING =							"举例: H-encore, Vitashell/ONEMenu, pkgj, adrenaline, 等等... "
 SD2VITA_GAMECARD_DETECTED =					"检测到游戏卡带 !!!"
@@ -41,11 +42,12 @@ INSTALLP_SQUARE_MARK =						"[] : 选中待安装插件"
 INSTALLP_TRIANGLE_ALL =						"△ : 安装所有插件"
 INSTALLP_SELECT_CLEAN =						"SELECT : 清除所有勾选"
 INSTALLP_LR_SWAP =							"L/R : 切换 ux0/ur0 分区"
+INSTALLP_CUSTOM_PATH =						"△ : 安装到自定义目录"
 
 INSTALLP_VITABRIGHT_360 =					"Vitabright 仅适用于 3.60/H-encore 3.68 固件"
 INSTALLP_CWARNING_360_365 =					"Custom Warning 无法用于 3.67/3.68 固件"
-INSTALLP_QUESTION_SHELLSECBAT = 			"\n               检测到 shellsecbat 插件 !!!\n\n安装 shellbat 插件替换并卸载 shellsecbat 插件?"
-INSTALLP_QUESTION_SHELLBAT =				"\n               检测到 shellbat 插件 !!!\n\n安装 shellsecbat 插件替换并卸载 shellbat 插件?"
+INSTALLP_QUESTION_SHELLSECBAT = 			"\n               检测到 shellsecbat 插件 !!!\n\n安装 shellbat 插件并卸载 shellsecbat 插件 ?"
+INSTALLP_QUESTION_SHELLBAT =				"\n               检测到 shellbat 插件 !!!\n\n安装 shellsecbat 插件并卸载 shellbat 插件 ?"
 
 INSTALLP_OSK_TITLE =						"自定义警告文本"
 INSTALLP_OSK_TEXT =							"将文本放在这里"
@@ -78,6 +80,14 @@ PSPCTRLS_TITLE =							"Remastered Controls插件 | 作者 Theflow (Adrenaline)"
 PSPCTRLS_LR_SWAP =							"L/R: 切换分区"
 PSPCTRLS_GAME_UPDATED =						"game.txt 文件已更新"
 PSPCTRLS_DESCP =							"Adrenaline 模拟器上适用于PSP游戏的双摇杆补丁合集"
+
+--plugins online
+UPDATE_WIFI_LOW =							"Wifi 信号较差"
+UPDATE_WIFI_IS_ON =							"需要 Wifi 连接"
+UPDATE_CHECK_DB =							"检查数据库"
+UPDATE_PLUGIN =								"已更新插件"
+UPDATE_ERROR_DB =							"下载 db.lua 过程出错"
+UPDATE_NO_NEWS =							"所有插件均已更新到最新版"
 
 --descriptions plugins
 --KERNEL
