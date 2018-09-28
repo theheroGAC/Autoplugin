@@ -59,7 +59,7 @@ function message_wait(message)
 	local mge = (message or STRING_PLEASE_WAIT)
 	local titlew = string.format(mge)
 	local w,h = screen.textwidth(titlew,1) + 30,70
-	local x,y = 480 - (w/2), 272 - (h/2)
+	local x,y = 480 - (w/2), 242 - (h/2)
 
 	draw.fillrect(x,y,w,h, color.shine)
 	draw.rect(x,y,w,h,color.white)

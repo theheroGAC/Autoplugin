@@ -88,6 +88,9 @@ UPDATE_CHECK_DB =							"Checking Database"
 UPDATE_PLUGIN =								"Updated Plugin"
 UPDATE_ERROR_DB =							"Error downloading db.lua"
 UPDATE_NO_NEWS =							"All the plugins are up to date"
+UPDATE_VITACHEAT_DB =						"Update Cheats db for Vitacheat ?"
+UPDATE_VITACHEAT_DB_WRITE =					"The files will be overwritten !!!"
+UPDATE_CHECK_VITACHEAT_DB =					"Checking Vitacheat Database"
 
 --descriptions plugins
 --KERNEL
