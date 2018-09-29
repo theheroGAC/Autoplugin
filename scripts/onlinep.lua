@@ -52,6 +52,49 @@ function plugins_online()
 	else
 		if back then back:blit(0,0) end
 		message_wait(UPDATE_NO_NEWS)
+		os.delay(1500)
 	end
+
+	--Check db for vitacheat
+	tai.load()
+	local find_vitacheat = false
+	if tai[__UX0].exist then
+		local idx = tai.find(__UX0, "KERNEL", "vitacheat.skprx")
+		if idx then find_vitacheat = true end
+	elseif tai[__UR0].exist then
+		local idx = tai.find(__UR0, "KERNEL", "vitacheat.skprx")
+		if idx then find_vitacheat = true end
+	end
+
+	if find_vitacheat then
+		if os.message(UPDATE_VITACHEAT_DB.."\n\n        "..UPDATE_VITACHEAT_DB_WRITE, 1) == 1 then
+			if back then back:blit(0,0) end
+			message_wait(UPDATE_CHECK_VITACHEAT_DB)
+			os.delay(1500)
+
+			if http.getfile("https://raw.githubusercontent.com/r0ah/vitacheat/master/LIST.md", "ux0:data/AUTOPLUGIN/tmp/LIST.md") then
+
+				--Parse list.md
+				for line in io.lines("ux0:data/AUTOPLUGIN/tmp/LIST.md") do
+
+					local url = line:match("(http.+psv)")
+					if url then
+						url = string.gsub(url, "github.com", "raw.githubusercontent.com"):gsub("blob/", "")
+					end
+
+					local gameid = line:match("%[(%w+)%]")
+					if gameid then
+						if http.getfile(url, "ux0:vitacheat/db/"..gameid..".psv") then
+							local title = line:match("> (.+)")
+							if back then back:blit(0,0) end
+							message_wait(tostring(gameid).."\n\n"..tostring(title))
+						end
+					end
+
+				end
+			end
+		end
+	end
+
 	os.delay(1500)
 end

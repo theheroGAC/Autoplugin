@@ -20,6 +20,7 @@ MENU_CONVERTBOOTSPLASH =					"Activar imagen para el Custom Boot Splash"
 MENU_INSTALL_NPDRMFREE =					"Instalar plugin npdrm free de Qwik (Adrenaline)"
 MENU_INSTALL_CONFIG =						"Instalar config.txt para PKGJ v0.37+"
 MENU_INSTALL_REMASTERED_CTRLS =				"Instalar Remastered Controls plugins de Theflow (Adrenaline)"
+MENU_CHECK_ONLINEP =						"Buscar Actualizaciones de Plugins"
 MENU_EXIT =									"Salir"
 MENU_INSTALLED_CONFIG =						"¡¡¡ ux0:pkgi/config.txt para pkgj ha sido instalado !!!"
 
@@ -41,6 +42,7 @@ INSTALLP_SQUARE_MARK =						"[] : Para seleccionar plugins individuales"
 INSTALLP_TRIANGLE_ALL =						"△ : Para instalar TODOS los Plugins"
 INSTALLP_SELECT_CLEAN =						"SELECT : Para limpiar los plugins seleccionados"
 INSTALLP_LR_SWAP =							"L/R : Para cambiar entre ux0/ur0"
+INSTALLP_CUSTOM_PATH =						"△ : Instalación de plugins"
 
 INSTALLP_VITABRIGHT_360 =					"Vitabright SOLO funciona en 3.60/H-Encore 3.68"
 INSTALLP_CWARNING_360_365 =					"Custom Warning no funciona en 3.67/3.68"
@@ -78,6 +80,17 @@ PSPCTRLS_TITLE =							"Plugin de Controles Remasterizados de Theflow (Adrenalin
 PSPCTRLS_LR_SWAP =							"L/R : Cambiar de Partición"
 PSPCTRLS_GAME_UPDATED =						"game.txt actualizado"
 PSPCTRLS_DESCP =							"Colección de parches analógicos duales para juegos de PSP en Adrenaline"
+
+--plugins online
+UPDATE_WIFI_LOW =							"Wifi SEñal Baja"
+UPDATE_WIFI_IS_ON =							"Wifi es requerido"
+UPDATE_CHECK_DB =							"Revisando Base de Datos"
+UPDATE_PLUGIN =								"Plugin Actualizado"
+UPDATE_ERROR_DB =							"Error al descargar db.lua"
+UPDATE_NO_NEWS =							"Todos los plugins están actualizados"
+UPDATE_VITACHEAT_DB =						"Actualizar Base de Cheats para Vitacheat ?"
+UPDATE_VITACHEAT_DB_WRITE =					"Los archivos serán sobre-escritos !!!"
+UPDATE_CHECK_VITACHEAT_DB =					"Revisando Base de Datos Vitacheat"
 
 --descriptions plugins
 --KERNEL

@@ -7,12 +7,13 @@ function sd2vita()
 		buttons.read()
 		if back then back:blit(0,0) end
 
-		screen.print(10,10,"1) "..SD2VITA_1_WARNING,1,color.white)
-		screen.print(10,40,"2) "..SD2VITA_2_WARNING,1,color.white)
+		screen.print(480,30,SD2VITA_1_WARNING,1.1,color.green, color.black, __ACENTER)
 
-		screen.print(10,80,"3) "..SD2VITA_3_WARNING,1,color.white)
-		screen.print(10,100,"4) "..SD2VITA_4_WARNING,1,color.white)
-		screen.print(10,120,"5) "..SD2VITA_5_WARNING,1,color.white)
+		screen.print(480,60,SD2VITA_2_WARNING,1,color.white, color.black, __ACENTER)
+
+		screen.print(480,100,SD2VITA_3_WARNING,1,color.red, color.black, __ACENTER)
+		screen.print(480,125,SD2VITA_4_WARNING,1,color.red, color.black, __ACENTER)
+		screen.print(480,150,SD2VITA_5_WARNING,1,color.white, color.black, __ACENTER)
 
 		if files.exists("gro0:") then
 			local device_info = os.devinfo("gro0:")
