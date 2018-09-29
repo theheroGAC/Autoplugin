@@ -88,6 +88,9 @@ UPDATE_CHECK_DB =							"检查数据库"
 UPDATE_PLUGIN =								"已更新插件"
 UPDATE_ERROR_DB =							"下载 db.lua 过程出错"
 UPDATE_NO_NEWS =							"所有插件均已更新到最新版"
+UPDATE_VITACHEAT_DB =						"为 Vitacheat 更新金手指数据库?"
+UPDATE_VITACHEAT_DB_WRITE =					"原有文件将被覆盖 !!!"
+UPDATE_CHECK_VITACHEAT_DB =					"检查 Vitacheat 数据库"
 
 --descriptions plugins
 --KERNEL
