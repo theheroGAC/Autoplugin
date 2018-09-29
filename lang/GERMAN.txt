@@ -20,6 +20,7 @@ MENU_CONVERTBOOTSPLASH =					"Eigenes 'Boot-Splash' Bild festlegen"
 MENU_INSTALL_NPDRMFREE =					"npdrm free Plugin von qwikrazor87 instalieren (Adrenaline)"
 MENU_INSTALL_CONFIG =						"Installiere config.txt für PKGJ v0.37+"
 MENU_INSTALL_REMASTERED_CTRLS =				"RemasteredControls Plugins von Theflow installieren (Adrenaline)"
+MENU_CHECK_ONLINEP =              "Nach Plugin Updates suchen"
 MENU_EXIT =									"Beenden"
 MENU_INSTALLED_CONFIG =						"ux0:pkgi/config.txt für pkgj wurde installiert!"
 
@@ -41,6 +42,7 @@ INSTALLP_SQUARE_MARK =						"[ ] : Plugin(s) markieren"
 INSTALLP_TRIANGLE_ALL =						"△ : Alle Plugins installieren"
 INSTALLP_SELECT_CLEAN =						"SELECT : Markierung der Plugins entfernen"
 INSTALLP_LR_SWAP =					  		"L/R : wechsel zwischen ux0/ur0"
+INSTALLP_CUSTOM_PATH =            "△ : Installationspfad"
 
 INSTALLP_VITABRIGHT_360 =					"Vitabright ist nur für PSVita OLED und 3.60/H-Encore 3.68"
 INSTALLP_CWARNING_360_365 =					"Custom Warning funktioniert nicht für 3.67/3.68"
@@ -79,6 +81,17 @@ PSPCTRLS_LR_SWAP =						  	"L/R: Partition wechseln"
 PSPCTRLS_GAME_UPDATED =						"game.txt wurde aktualisiert"
 PSPCTRLS_DESCP =						    "Eine Sammlung von Dual Analogstick Patches für PSP-Spiele (Adrenaline)"
 
+--plugins online
+UPDATE_WIFI_LOW =							"Schlechtes W-Lan Signal"
+UPDATE_WIFI_IS_ON =							"W-Lan ist erforderlich"
+UPDATE_CHECK_DB =							"Datenbank überprüfen"
+UPDATE_PLUGIN =								"Plugins aktualisiert"
+UPDATE_ERROR_DB =							"Fehler beim Herunterladen von db.lua"
+UPDATE_NO_NEWS =							"Alle Plugins sind auf dem neuesten Stand"
+UPDATE_VITACHEAT_DB =						"Cheats DB für Vitacheat aktualisieren?"
+UPDATE_VITACHEAT_DB_WRITE =					"Die Dateien werden überschrieben!"
+UPDATE_CHECK_VITACHEAT_DB =     "Überprüfung der Vitacheat Datenbank"
+
 --descriptions plugins
 --KERNEL
 INSTALLP_DESC_NONPDRM =						"Ermöglicht es, den DRM-Schutz bei allen PS Vita Inhalten zu umgehen"
@@ -97,7 +110,7 @@ INSTALLP_DESC_DSMOTION = 					"Unterstützung von DualShock Motion Control für 
 INSTALLP_DESC_USBMC = 						"USB Speicher als PS Vita Speicherkarte nutzen"
 INSTALLP_DESC_ANALOGSENHANCER =   			"Mit diesem kleinen Kernel-Plugin kann die Erfahrung mit den PSVita Analogsticks verbessert werden."
 INSTALLP_DESC_IOPLUS = 					  	"Ein PSVita Kernel-Plugin, das erweiterte I/O Vorgänge für Benutzermodule erlaubt"
-INSTALLP_DESC_VITACHEAT =					"Use Cheats On PSVita Games"
+INSTALLP_DESC_VITACHEAT =					"Benutze Cheats in PSVita Spielen"
 
 --Boot_config.txt
 INSTALLP_DESC_CUSTOMBOOTSPLASH =			"Dieses Plugin kann das Bootlogo auf der PSVita / PSTV beim Booten durch ein Bild ersetzen. ENSO erforderlich"
