@@ -125,6 +125,8 @@ function plugins_installation(sel)
 					img2splashbin("resources/boot_splash.png")
 				elseif plugins[sel].path == "vitacheat.skprx" and not files.exists("ux0:vitacheat/db/") then--Vitacheat
 					files.extract("resources/plugins/vitacheat.zip","ux0:")
+                           elseif plugins[sel].path == "AutoBoot.suprx" and not files.exists("ux0:data/AutoBoot/") then--AutoBoot
+					files.extract("resources/plugins/AutoBoot.zip","ux0:")
 				end
 
 				if back then back:blit(0,0) end

@@ -32,11 +32,14 @@ db = {
 { path = "shellsecbat.suprx",			version = "0001", stringversion = "0.9" },
 { path = "pngshot.suprx",				version = "0001", stringversion = "1.2" },
 { path = "vflux.suprx",					version = "0001", stringversion = "0.5" },
+{ path = "AutoBoot.suprx",					version = "0001", stringversion = "1.2" },
+  
 
 --All
 { path = "vsh.suprx",					version = "0001", stringversion = "3.4" },
 { path = "vitagrafix.suprx",			version = "0001", stringversion = "2.4" },
 { path = "oclockvita.suprx",			version = "0001", stringversion = "1.2.1" },
+{ path = "Framecounter.suprx",			version = "0001", stringversion = "1.2" },
 
 
 
