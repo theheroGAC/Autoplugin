@@ -122,14 +122,16 @@ INSTALLP_DESC_BOOTSPLASHDONE =				"boot_splash.bin 修改完成 !!!"
 --MAIN
 INSTALLP_DESC_DENABLER =					"通过浏览器下载文件"
 INSTALLP_DESC_NOLOCKSCREEN =				"在 PSVita 上禁用锁屏机制"
-INSTALLP_DESC_NOTROPHYMSG =					"当您启动包含其他账户存档的程序时,禁用无法获取奖杯的提示框. 对经常切换账户的用户来说很实用."
+INSTALLP_DESC_NOTROPHYMSG =					"当您启动包含其他账户存档的程序时,禁用无法获取奖杯的提示框. 对经常切换账户的用户来说很实用"
 INSTALLP_DESC_CUSTOMWARNING =				"当使用ENSO固化启动时，你可以设置自定义警告消息替代癫痫警告"
 INSTALLP_DESC_SHELLBAT =					"在状态栏显示电量百分比"
 INSTALLP_DESC_SHELLSECBAT =					"在状态栏显示电量百分比: 融合了ShellBat和LastSeconds的功能"
 INSTALLP_DESC_PNGSHOT =						"pngshot是一个高质量截图插件 (.PNG格式)"
 INSTALLP_DESC_VFLUX =						"PSVita 屏幕过滤插件"
+INSTALLP_DESC_AUTOBOOT =					"此插件在 enso 固化启动后自动运行应用程序.就像 AutoStart 在 PSP 上做的那样"
 
 --ALL
 INSTALLP_DESC_VSHMENU =						"用于 PSVITA 游戏和自制软件的 VSH 菜单插件"
 INSTALLP_DESC_VITAGRAFIX =					"此插件允许你修改 PS Vita 游戏运行的画面解析度和FPS"
 INSTALLP_DESC_OVERCLOCK =					"适用于 Taihen 的简易超频插件"
+INSTALLP_DESC_FRAMECOUNTER =				"这是一个用作 FPS 计数器的小插件.它将在屏幕的左上方显示一个 FPS 计数器"
