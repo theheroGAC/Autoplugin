@@ -1,4 +1,4 @@
---Japanese Translates for version 3.52
+--Japanese Translates for version 3.53
 
 STRING_UNSAFE_MODE =				"このアプリケーションはUNSAFE MODEを有効にする必要があります"
 STRING_PSVITA_RESTART =			"PSVitaを再起動します"
@@ -113,7 +113,7 @@ INSTALLP_DESC_IOPLUS = 			"ユーザランドでより多くのIO操作を可能
 INSTALLP_DESC_VITACHEAT =			"PSVitaゲームでチートを使用する"
 
 --Boot_config.txt
-INSTALLP_DESC_CUSTOMBOOTSPLASH =		"このプラグインは、起動時にPSVita / PSTVにBoot Splashを表示させる事が出来ます/nENSO必須です"
+INSTALLP_DESC_CUSTOMBOOTSPLASH =		"このプラグインは、起動時にPSVita・PSTVにBoot Splashを表示させる事が出来ます。ENSO必須です"
 INSTALLP_DESC_CONVERTBOOTSPLASH =		"スプラッシュイメージをカスタムブートスプラッシュとして設定しますか?"
 INSTALLP_DESC_NOFINDSPLASH =			"選択した画像をux0:CustomBootsplash/に配置します\n(splash.pngにリネームし、960×544にリサイズ)"
 INSTALLP_DESC_SPLASHGH =			"画像サイズは｢960×544｣です"
@@ -122,14 +122,16 @@ INSTALLP_DESC_BOOTSPLASHDONE =			"boot_splash.binが完了しました"
 --MAIN
 INSTALLP_DESC_DENABLER =			"ブラウザでファイルをダウンロード出来ます"
 INSTALLP_DESC_NOLOCKSCREEN =			"PSVitaのロック画面を無効にします"
-INSTALLP_DESC_NOTROPHYMSG =			"セーブデータが別のアカウントにリンクされているアプリケーションを起動すると、トロフィーヒントメッセージが無効になります/nアカウントを常に切り替える場合に便利です"
+INSTALLP_DESC_NOTROPHYMSG =			"セーブデータが別のアカウントにリンクされているアプリケーションを起動すると、トロフィーヒントメッセージが無効になります。アカウントを常に切り替える場合に便利です"
 INSTALLP_DESC_CUSTOMWARNING =			"ENSOで起動する時に｢ご注意｣表示の代わりにカスタムメッセージを設定する事が出来ます"
 INSTALLP_DESC_SHELLBAT =			"ステータスバーのバッテリーのパーセントを表示します"
 INSTALLP_DESC_SHELLSECBAT =			"ステータスバーのバッテリーのパーセントと時・分・秒を表示します"
 INSTALLP_DESC_PNGSHOT =			"pngshotはスクリーンショットをす素晴らしい物にする為のプラグインです(.PNG)"
 INSTALLP_DESC_VFLUX =				"PSVitaのスクリーンフィルタープラグイン"
+INSTALLP_DESC_AUTOBOOT =			"PSPのAutoStartのように、Enso起動直後にアプリケーションを自動起動するプラグイン"
 
 --ALL
 INSTALLP_DESC_VSHMENU =			"PSVitaゲームとHomebrewsのVSHメニューを表示するtaiHENプラグイン"
 INSTALLP_DESC_VITAGRAFIX =			"PSVitaゲームの解像度とFPS上限を変更出来るプラグイン"
 INSTALLP_DESC_OVERCLOCK =			"taiHenの為の単純なOverclockプラグイン"
+INSTALLP_DESC_FRAMECOUNTER =			"FPSカウンタとして動作する小さなプラグインです。画面の左上にFPSカウンターが表示されます"
