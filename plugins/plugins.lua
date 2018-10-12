@@ -12,6 +12,7 @@ plugins = {
 { name = "ds3vita by xerpi Beta3", path = "ds3vita.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_DS3VITA, },
 { name = "ds4vita by xerpi v1.2", path = "ds4vita.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_DS4VITA, },
 { name = "udcd_uvc by xerpi v1.1", path = "udcd_uvc.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_UDCDUVC, },
+{ name = "viimote by xerpi v1.2", path = "viimote.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_VIIMOTE, },
 --{ name = "Kuio by Rinnegatamante", path = "kuio.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_KUIO, },
 { name = "Adrenaline by TheOfficialFloW (Fix double touch)", path = "adrenaline_kernel.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_ADRENALINE, },
 { name = "DSMotion by OperationNT414C v1.2", path = "dsmotion.skprx", section = "KERNEL",  path2 = "dsmotion.suprx", section2 = "ALL", config = false, version = "0001", desc = INSTALLP_DESC_DSMOTION, },
@@ -40,6 +41,7 @@ plugins = {
 { name = "VitaGrafix by Electry v2.4", path = "vitagrafix.suprx", section = "ALL",  path2 = "kuio.skprx", section2 = "KERNEL", config = "config.txt", configpath = "ux0:data/VitaGrafix/", version = "0001", desc = INSTALLP_DESC_VITAGRAFIX, },-- Need kuio.skprx
 { name = "Oclock Vita by frangarcj v1.2.1", path = "oclockvita.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_OVERCLOCK, },
 { name = "Framecounter by Rinnegatamante v1.2", path = "Framecounter.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_FRAMECOUNTER, },
+{ name = "VGi by Electry v0.3", path = "VGi.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_VGI, },
 
 
 }
