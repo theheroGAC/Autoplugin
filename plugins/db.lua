@@ -12,6 +12,7 @@ db = {
 { path = "ds3vita.skprx",				version = "0001", stringversion = "0.3" },
 { path = "ds4vita.skprx",				version = "0001", stringversion = "1.2" },
 { path = "udcd_uvc.skprx",				version = "0001", stringversion = "1.1" },
+{ path = "viimote.skprx",				version = "0001", stringversion = "1.2" },
 --{ path = "kuio.skprx",				version = "0001", stringversion = "1.2" },
 { path = "dsmotion.skprx",				version = "0001", stringversion = "1.2" },
 { path = "usbmc.skprx",					version = "0001", stringversion = "0.6" },
@@ -40,6 +41,7 @@ db = {
 { path = "vitagrafix.suprx",			version = "0001", stringversion = "2.4" },
 { path = "oclockvita.suprx",			version = "0001", stringversion = "1.2.1" },
 { path = "Framecounter.suprx",			version = "0001", stringversion = "1.2" },
+{ path = "VGi.suprx",			version = "0001", stringversion = "0.3" },
 
 
 
