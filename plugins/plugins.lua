@@ -38,7 +38,7 @@ plugins = {
 
 --All
 { name = "PSV-VSH MENU by joel16 v3.4", path = "vsh.suprx", section = "ALL",  path2 = "kuio.skprx", section2 = "KERNEL", config = false, version = "0001", desc = INSTALLP_DESC_VSHMENU, },-- Need kuio.skprx
-{ name = "VitaGrafix by Electry v3.1 alpha", path = "vitagrafix.suprx", section = "ALL",  path2 = "ioplus.skprx", section2 = "KERNEL", config = "config.txt", configpath = "ux0:data/VitaGrafix/", version = "0003", desc = INSTALLP_DESC_VITAGRAFIX, },-- Need kuio.skprx
+{ name = "VitaGrafix by Electry v3.1", path = "vitagrafix.suprx", section = "ALL",  path2 = "ioplus.skprx", section2 = "KERNEL", config = "config.txt", configpath = "ux0:data/VitaGrafix/", version = "0004", desc = INSTALLP_DESC_VITAGRAFIX, },-- Need kuio.skprx
 { name = "Oclock Vita by frangarcj v1.2.1", path = "oclockvita.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_OVERCLOCK, },
 { name = "Framecounter by Rinnegatamante v1.2", path = "Framecounter.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_FRAMECOUNTER, },
 { name = "VGi by Electry v0.3", path = "VGi.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_VGI, },
