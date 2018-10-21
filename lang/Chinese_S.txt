@@ -136,4 +136,7 @@ INSTALLP_DESC_VSHMENU =						"用于 PSVITA 游戏和自制软件的 VSH 菜单�
 INSTALLP_DESC_VITAGRAFIX =					"此插件允许你修改 PS Vita 游戏运行的画面解析度和FPS"
 INSTALLP_DESC_OVERCLOCK =					"适用于 Taihen 的简易超频插件"
 INSTALLP_DESC_FRAMECOUNTER =				"这是一个用作 FPS 计数器的小插件.它将在屏幕的左上方显示一个 FPS 计数器"
-INSTALLP_DESC_VGI =				            "这是一个简单的 taihen 插件.用于显示PSV游戏的实用信息."
+INSTALLP_DESC_VGI =				            "这是一个简单的 taihen 插件.用于显示PSV游戏的实用信息"
+INSTALLP_DESC_FUCKPSSE =				            "一个用于解密 PSM 游戏的插件"
+INSTALLP_DESC_PSMPATCH =				            "允许您修改 PSM 游戏,也可用于加载 PSM 自制程序"
+
