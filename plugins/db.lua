@@ -38,10 +38,12 @@ db = {
 
 --All
 { path = "vsh.suprx",					version = "0001", stringversion = "3.4" },
-{ path = "vitagrafix.suprx",			version = "0005", stringversion = "3.1.1" },
+{ path = "vitagrafix.suprx",			version = "0001", stringversion = "3.1.1" },
 { path = "oclockvita.suprx",			version = "0001", stringversion = "1.2.1" },
 { path = "Framecounter.suprx",			version = "0001", stringversion = "1.2" },
-{ path = "VGi.suprx",			version = "0002", stringversion = "0.4" },
+{ path = "VGi.suprx",			version = "0001", stringversion = "0.4" },
+{ path = "FuckPSSE.suprx",			version = "0001", stringversion = "1.1" },
+{ path = "PSMPatch.suprx",			version = "0001", stringversion = "1.0" },
 
 
 
