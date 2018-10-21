@@ -1,4 +1,4 @@
---Japanese Translates for version 3.54
+--Japanese Translates for version 3.55
 
 STRING_UNSAFE_MODE =				"このアプリケーションはUNSAFE MODEを有効にする必要があります"
 STRING_PSVITA_RESTART =			"PSVitaを再起動します"
@@ -137,3 +137,5 @@ INSTALLP_DESC_VITAGRAFIX =			"PSVitaゲームの解像度とFPS上限を変更�
 INSTALLP_DESC_OVERCLOCK =			"taiHenの為の単純なOverclockプラグイン"
 INSTALLP_DESC_FRAMECOUNTER =			"FPSカウンタとして動作する小さなプラグインです。画面の左上にFPSカウンターが表示されます"
 INSTALLP_DESC_VGI =				"PS Vitaゲームに関する有益な情報を表示するシンプルなtaiHENのプラグイン"
+INSTALLP_DESC_FUCKPSSE =			"PSMゲームを複合化するプラグイン"
+INSTALLP_DESC_PSMPATCH =			"PSMゲームを編集する事が出来ます。又、PSM向け自作アプリを読み込みをする為に使用する事も出来ます"
