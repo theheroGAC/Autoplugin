@@ -137,3 +137,6 @@ INSTALLP_DESC_VITAGRAFIX =					"Plugin that allows you to change resolution and 
 INSTALLP_DESC_OVERCLOCK =					"Simple Overclock Plugin for Taihen"
 INSTALLP_DESC_FRAMECOUNTER =				"This is a little plugin that works as an FPS counter. It will show an FPS counter on the top left side of your screen."
 INSTALLP_DESC_VGI =				            "A simple taihen plugin that prints useful information about PS Vita games."
+INSTALLP_DESC_FUCKPSSE =				            "A plugin to decrypt PSM games"
+INSTALLP_DESC_PSMPATCH =				            "Allows you to modify PSM Games, and also can be used to load PSM Homebrew."
+
