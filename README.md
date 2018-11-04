@@ -56,7 +56,7 @@ During the week there will be Nightly versions (here https://github.com/theheroG
 # Tester:
 NanospeedGamer(thank you big friend)
 # Translator:
-- NanospeedGamer/RY0M43CH1Z3N for translation in Spanish
+- NanospeedGamer/RY0M43CH1Z3N/gvaldebenit for translation in Spanish
 - SridentPSV/chronoss09/dragtaz for translation in French
 - MrGhidini for translation in portugueseBR
 - Kouchan/kood_infothief/Umineko1993 for translation in Japanese
