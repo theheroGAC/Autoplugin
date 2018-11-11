@@ -1,4 +1,4 @@
---Translates
+﻿--Translates
 
 STRING_UNSAFE_MODE =						"UNSAFE MODE is required for this Homebrew !!!"
 STRING_PSVITA_RESTART =						"Your PSVita will restart"
@@ -18,7 +18,7 @@ MENU_INSTALL_PLUGINS =						"Install Plugins"
 MENU_UNINSTALL_PLUGINS =					"Uninstall Plugins"
 MENU_CONVERTBOOTSPLASH =					"Set Custom Boot Splash"
 MENU_INSTALL_NPDRMFREE =					"Install plugin npdrm free from qwikrazor87 (Adrenaline)"
-MENU_INSTALL_CONFIG =						"Install config.txt for PKGJ v0.37+"
+MENU_INSTALL_CONFIG =						"Install config.txt for PKGJ v0.39+"
 MENU_INSTALL_REMASTERED_CTRLS =				"Install RemasteredControls plugins from Theflow (Adrenaline)"
 MENU_CHECK_ONLINEP =						"Check for Plugins Updates"
 MENU_EXIT =									"Exit"
