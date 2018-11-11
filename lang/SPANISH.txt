@@ -83,7 +83,7 @@ PSPCTRLS_DESCP =							"Colección de parches para usar los dos análogos en jue
 
 --plugins online
 UPDATE_WIFI_LOW =							"Señal Wifi débil"
-UPDATE_WIFI_IS_ON =							"Wifi es requerido"
+UPDATE_WIFI_IS_ON =							"Es necesaria una conexión Wifi"
 UPDATE_CHECK_DB =							"Revisando Base de Datos"
 UPDATE_PLUGIN =								"Plugin Actualizado"
 UPDATE_ERROR_DB =							"Error al descargar db.lua"
@@ -129,7 +129,7 @@ INSTALLP_DESC_SHELLBAT =					"Porcentaje de batería en la barra de estado"
 INSTALLP_DESC_SHELLSECBAT =					"Porcentaje de batería y segundos en la barra de estado: Fusión de ShellBat y LastSeconds"
 INSTALLP_DESC_PNGSHOT =						"pngshot es un plugin para hacer capturas de pantalla (.PNG). Además permite realizar capturas en juegos que no lo permiten nativamente"
 INSTALLP_DESC_VFLUX =						"Plugin de filtro de pantalla para PS Vita"
-INSTALLP_DESC_AUTOBOOT =					"Este plugin permite que una aplicación se inicie automaticamente luego del inicio de enso, similar a lo que solía hacer AutoStart en la PSP"
+INSTALLP_DESC_AUTOBOOT =					"Este plugin permite que una aplicación se inicie automaticamente luego del inicio de ENSO, similar a lo que solía hacer AutoStart en la PSP"
 
 --ALL
 INSTALLP_DESC_VSHMENU =						"Un plugin con un menú estilo VHS de taiHen para los juegos PS VITA y homebrews"
@@ -139,3 +139,4 @@ INSTALLP_DESC_FRAMECOUNTER =				"Pequeño plugin que sirve como un contador de F
 INSTALLP_DESC_VGI =				            "Plugin simple para taiHen que muestra información útil acerca del juego de PS Vita en ejecución"
 INSTALLP_DESC_FUCKPSSE =				            "Un plugin para desencriptar contenido de PSM"
 INSTALLP_DESC_PSMPATCH =				            "Permite la modificación (modding) de juegos de PSM, y además puede ser usado para cargar Homebrew de PSM."
+INSTALLP_DESC_ITLSENSO =				            "Añade protocolo TLS v1.2 a los dispositivos con Enso(requiere instalar el vpk de la aplicación, y requiere además ioplus para dispositivos sin Enso)."
