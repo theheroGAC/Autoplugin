@@ -4,7 +4,7 @@ plugins = {
 --Kernel
 { name = "NoNpDrm by TheOfficialFloW", path = "nonpdrm.skprx", section = "KERNEL", path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_NONPDRM, },
 --{ name = "MiniVitaTV by TheOfficialFloW vbeta0.2", path = "minivitatv.skprx", section = "KERNEL",  path2 = "ds3.skprx", section2 = "KERNEL", config = false, desc = INSTALLP_DESC_MINIVITATV, },
-{ name = "NoPsmDrm by frangarcj v1.3", path = "nopsmdrm.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_NOPSMDRM, },
+{ name = "NoPsmDrm by frangarcj/SilicaAndPina v1.3 mod", path = "nopsmdrm.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0002", desc = INSTALLP_DESC_NOPSMDRM, },
 { name = "Vitabright by devnoname120(only for 3.60/H-Encore 3.68)", path = "vitabright.skprx", section = "KERNEL",  path2 = false, section2 = false, config = "vitabright_lut.txt", version = "0001", desc = INSTALLP_DESC_VITABRIGHT, },
 { name = "NoAVLS by SilicaAndPina", path = "noavls.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_NOAVLS, },
 { name = "Repatch by dots-tb v2.71", path = "repatch.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_REPATCH, },
