@@ -7,7 +7,7 @@ db = {
 { path = "nopsmdrm.skprx",				version = "0003", stringversion = "1.4" },
 { path = "vitabright.skprx",			version = "0001", stringversion = "0.9" },
 { path = "noavls.skprx",				version = "0001", stringversion = "0.1" },
-{ path = "repatch.skprx",				version = "0001", stringversion = "2.71" },
+{ path = "repatch.skprx",				version = "0002", stringversion = "3.0" },
 { path = "lolicon.skprx",				version = "0001", stringversion = "1.0.1.1" },
 { path = "ds3vita.skprx",				version = "0001", stringversion = "0.3" },
 { path = "ds4vita.skprx",				version = "0001", stringversion = "1.2" },
