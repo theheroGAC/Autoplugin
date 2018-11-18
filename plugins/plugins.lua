@@ -7,7 +7,7 @@ plugins = {
 { name = "NoPsmDrm by frangarcj v1.4", path = "nopsmdrm.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0003", desc = INSTALLP_DESC_NOPSMDRM, },
 { name = "Vitabright by devnoname120(only for 3.60/H-Encore 3.68)", path = "vitabright.skprx", section = "KERNEL",  path2 = false, section2 = false, config = "vitabright_lut.txt", version = "0001", desc = INSTALLP_DESC_VITABRIGHT, },
 { name = "NoAVLS by SilicaAndPina", path = "noavls.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_NOAVLS, },
-{ name = "Repatch by dots-tb v2.71", path = "repatch.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_REPATCH, },
+{ name = "Repatch by dots-tb v3.0", path = "repatch.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0002", desc = INSTALLP_DESC_REPATCH, },
 { name = "LOLIcon by dots-tb v1.0.1.1 HOTFIX A", path = "lolicon.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_LOLICON, },
 { name = "ds3vita by xerpi Beta3", path = "ds3vita.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_DS3VITA, },
 { name = "ds4vita by xerpi v1.2", path = "ds4vita.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_DS4VITA, },
