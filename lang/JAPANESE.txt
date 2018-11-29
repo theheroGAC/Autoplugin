@@ -1,4 +1,4 @@
---Japanese Translates for version 3.55
+--Japanese Translates for version 3.58
 
 STRING_UNSAFE_MODE =				"このアプリケーションはUNSAFE MODEを有効にする必要があります"
 STRING_PSVITA_RESTART =			"PSVitaを再起動します"
@@ -18,7 +18,7 @@ MENU_INSTALL_PLUGINS =				"プラグインインストール"
 MENU_UNINSTALL_PLUGINS =			"プラグインアンインストール"
 MENU_CONVERTBOOTSPLASH =			"カスタムブートスプラッシュを設定"
 MENU_INSTALL_NPDRMFREE =			"Adrenaline用npdrm_freeプラグインインストール(by qwikrazor87)"
-MENU_INSTALL_CONFIG =				"PKGJ v0.39+向けのconfig.txtをインストール"
+MENU_INSTALL_CONFIG =				"PKGJ v0.42+向けのconfig.txtをインストール"
 MENU_INSTALL_REMASTERED_CTRLS =		"Adrenaline用RemasteredControlsプラグインインストール（by Theflow）"
 MENU_CHECK_ONLINEP =				"プラグインのアップデートを確認"
 MENU_EXIT =					"アプリを終了"
