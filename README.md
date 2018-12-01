@@ -29,6 +29,7 @@ This tool allows you to install/uninstall the following plugins with one click(o
 - FuckPSSE
 - PSMPatch
 - ITLS-Enso
+- TropHAX
 # Small note for Splash image
 To insert a personalized image at startup it must be inserted in png format with the format 960X544 with the name splash.png in the path ux0:CustomBootsplash/splash.png
 You no longer need to add "- load ur0: tai / custom_boot_splash.skprx"
