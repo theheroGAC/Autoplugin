@@ -140,3 +140,4 @@ INSTALLP_DESC_VGI =				            "Plugin simple para taiHen que muestra inform
 INSTALLP_DESC_FUCKPSSE =				            "Un plugin para desencriptar contenido de PSM"
 INSTALLP_DESC_PSMPATCH =				            "Permite la modificación (modding) de juegos de PSM, y además puede ser usado para cargar Homebrew de PSM."
 INSTALLP_DESC_ITLSENSO =				            "Añade protocolo TLS v1.2 a los dispositivos con Enso(requiere instalar el vpk de la aplicación, y requiere además ioplus para dispositivos sin Enso)."
+INSTALLP_DESC_TROPHAX =				            "Desbloqueador universal de trofeos de PS Vita"
