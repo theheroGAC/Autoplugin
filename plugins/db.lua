@@ -19,7 +19,7 @@ db = {
 { path = "AnalogsEnhancer.skprx",		version = "0001", stringversion = "1.0" },
 { path = "ioplus.skprx",				version = "0001", stringversion = "0.1" },
 { path = "vitacheat.skprx",				version = "0001", stringversion = "1.0" },
-{ path = "nopsmwhitelist.skprx",				version = "0001", stringversion = "1.0" },
+{ path = "noPsmWhitelist.skprx",				version = "0001", stringversion = "1.0" },
 
 --Boot_config.txt
 { path = "custom_boot_splash.skprx",	version = "0001", stringversion = "1.0" },
