@@ -1,4 +1,4 @@
-﻿--Translates
+--Translates
 
 STRING_UNSAFE_MODE =						"MODALITA' NON SICURA è richiesto per questo Homebrew !!!"
 STRING_PSVITA_RESTART =						"La tua PSVita sarà riavviata"
