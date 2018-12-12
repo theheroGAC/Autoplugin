@@ -44,7 +44,7 @@ db = {
 { path = "Framecounter.suprx",			version = "0001", stringversion = "1.2" },
 { path = "VGi.suprx",			version = "0001", stringversion = "0.4" },
 { path = "FuckPSSE.suprx",			version = "0001", stringversion = "1.1" },
-{ path = "PSMPatch.suprx",			version = "0001", stringversion = "1.0" },
+{ path = "PSMPatch.suprx",			version = "0002", stringversion = "1.1" },
 { path = "itls.suprx",			version = "0001", stringversion = "2.0" },
 { path = "trophax2.0.suprx",			version = "0001", stringversion = "2.0" },
 
