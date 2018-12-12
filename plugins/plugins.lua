@@ -44,7 +44,7 @@ plugins = {
 { name = "Framecounter by Rinnegatamante v1.2", path = "Framecounter.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_FRAMECOUNTER, },
 { name = "VGi by Electry v0.4", path = "VGi.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_VGI, },
 { name = "FuckPSSE by SilicaAndPina v1.1", path = "FuckPSSE.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_FUCKPSSE, },
-{ name = "PSMPatch by SilicaAndPina v1.0", path = "PSMPatch.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_PSMPATCH, },
+{ name = "PSMPatch by SilicaAndPina v1.1", path = "PSMPatch.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0002", desc = INSTALLP_DESC_PSMPATCH, },
 { name = "ITLS-Enso by SKGleba v2.0", path = "itls.suprx", section = "ALL",  path2 = "ioplus.skprx", section2 = "KERNEL", config = false, version = "0001", desc = INSTALLP_DESC_ITLSENSO, },
 { name = "TropHAX by SilicaAndPina v2.0", path = "trophax2.0.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_TROPHAX, },
 
