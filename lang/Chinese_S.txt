@@ -113,6 +113,7 @@ INSTALLP_DESC_ANALOGSENHANCER =             "这个小巧的内核插件允许�
 INSTALLP_DESC_IOPLUS = 					    "此PSVita内核插件允许在用户空间中进行更多的IO操作"
 INSTALLP_DESC_VITACHEAT =					"在PSVita游戏里使用金手指"
 INSTALLP_DESC_NOPSMWHITE =					"为PSM游戏禁用PSTV白名单"
+INSTALLP_DESC_ANALOGSTICK =					"此插件用于彻底禁用PSVita的摇杆"
 
 --Boot_config.txt
 INSTALLP_DESC_CUSTOMBOOTSPLASH =			"此插件将在 PS Vita/PSTV 启动时显示自定义启动画面. 需要固化"
