@@ -112,6 +112,8 @@ INSTALLP_DESC_USBMC = 					    "Permite usar un almacenamiento USB como tarjeta 
 INSTALLP_DESC_ANALOGSENHANCER =             "Este plugin de kernel permite a los usuario mejorar su experiencia con los controles analógicos de la PS Vita"
 INSTALLP_DESC_IOPLUS = 					    "Este plugin de kernel de la PS Vita permite más operaciones de I/O en modo usuario"
 INSTALLP_DESC_VITACHEAT =					"Usa Cheats (trucos) en juegos de PS Vita"
+INSTALLP_DESC_NOPSMWHITE =					"Desactiva el bloqueo de juegos de PSM en PlayStation TV"
+INSTALLP_DESC_ANALOGSTICK =					"Plugin para desactivar completamente los análogos de la PS Vita"
 
 --Boot_config.txt
 INSTALLP_DESC_CUSTOMBOOTSPLASH =			"Este plugin puede mostrar una Imagen Personalizada en el arranque de PS Vita/PSTV. Requiere ENSO"
