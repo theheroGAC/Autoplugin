@@ -114,6 +114,7 @@ INSTALLP_DESC_IOPLUS = 					    "A PSVita kernel plugin that allows more IO oper
 INSTALLP_DESC_VITACHEAT =					"Use Cheats On PSVita Games"
 INSTALLP_DESC_NOPSMWHITE =					"Disables PSTV Whitelist for PSM Games"
 INSTALLP_DESC_ANALOGSTICK =					"Plugin to completely disable PSVita's analog stick"
+INSTALLP_DESC_CIDSPOOF =					"Spoof CID (ConsoleID) on PSVITA(Could possibly be used to unban your console from PSN)"
 
 --Boot_config.txt
 INSTALLP_DESC_CUSTOMBOOTSPLASH =			"This plugin can display Boot Splash on PS Vita/PSTV at boot. Require ENSO"
