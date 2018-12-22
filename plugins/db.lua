@@ -21,6 +21,7 @@ db = {
 { path = "vitacheat.skprx",				version = "0001", stringversion = "1.0" },
 { path = "noPsmWhitelist.skprx",				version = "0001", stringversion = "1.0" },
 { path = "AnalogStickDisable.skprx",				version = "0001", stringversion = "1.0" },
+{ path = "cidSpoof.skprx",				version = "0001", stringversion = "1.0" },
 
 --Boot_config.txt
 { path = "custom_boot_splash.skprx",	version = "0001", stringversion = "1.0" },
