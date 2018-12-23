@@ -114,6 +114,7 @@ INSTALLP_DESC_IOPLUS = 					    "Este plugin de kernel de la PS Vita permite má
 INSTALLP_DESC_VITACHEAT =					"Usa Cheats (trucos) en juegos de PS Vita"
 INSTALLP_DESC_NOPSMWHITE =					"Desactiva el bloqueo de juegos de PSM en PlayStation TV"
 INSTALLP_DESC_ANALOGSTICK =					"Plugin para desactivar completamente los análogos de la PS Vita"
+INSTALLP_DESC_CIDSPOOF =					"Falsifica el CID(ConsoleID) en PS Vita (Puede ser usado posiblemente para desbanear la consola de PSN)"
 
 --Boot_config.txt
 INSTALLP_DESC_CUSTOMBOOTSPLASH =			"Este plugin puede mostrar una Imagen Personalizada en el arranque de PS Vita/PSTV. Requiere ENSO"
