@@ -1,12 +1,12 @@
 --Tradução
 
 STRING_UNSAFE_MODE =						"!!! Necessario estar em MODO INSEGURO para este Homebrew !!!"
-STRING_PSVITA_RESTART =						"Seu PS Vita vai reiniciar."
+STRING_PSVITA_RESTART =						"Seu PS Vita ira reiniciar."
 STRING_BACKUP_CONFIGS =						"Criando o Config_backups.txt"
 STRING_MISSING_CONFIG =						"Faltando o config.txt"
-STRING_CIRCLE_BACK =						"Pressionar O para voltar ao menu"
-STRING_CROSS_BACK =							"Pressionar X para voltar ao menu"
-STRING_START_CLOSE =						"Pressionar START para fechar"
+STRING_CIRCLE_BACK =						"Pressione O para voltar ao menu"
+STRING_CROSS_BACK =							"Pressione X para voltar ao menu"
+STRING_START_CLOSE =						"Pressione START para fechar"
 STRING_INSTALLED =							"Foi instalado com sucesso"
 STRING_PLEASE_WAIT =						"Por favor espere..."
 STRING_CROSS_INSTALL =						"X : para instalar o(s) plugin(s)"
@@ -67,21 +67,21 @@ NPDRMFREE_NO_PARTITION =					"! Partição não foi encontrada !"
 
 --customsplash
 CUSTOMBOOTSPLASH__TITLE =					"Custom Boot Splash"
-CUSTOMBOOTSPLASH_CROSS_CONVERT =			"Press X to convert img"
-CUSTOMBOOTSPLASH_CIRCLE_CONVERT =			"Press O to convert img"
+CUSTOMBOOTSPLASH_CROSS_CONVERT =			"Aperte X para converter img"
+CUSTOMBOOTSPLASH_CIRCLE_CONVERT =			"Aperte O para converter img"
 CUSTOMBOOTSPLASH__MESSAGE =					"Remember to enable the Custom Boot Splash plugin"
-CUSTOMBOOTSPLASH_RESTART =					"Do you want to restart now ?"
-CUSTOMBOOTSPLASH_NOPNG_FOUND =				"ux0:CustomBootsplash EMPTY!!!! "
+CUSTOMBOOTSPLASH_RESTART =					"Deseja reiniciar agora ?"
+CUSTOMBOOTSPLASH_NOPNG_FOUND =				"ux0:CustomBootsplash VAZIO!!!! "
 
 --pspctrls
 PSPCTRLS_TITLE =							"Remastered Controls plugins from Theflow (Adrenaline)"
 PSPCTRLS_LR_SWAP =							"L/R: to swap partitions"
 PSPCTRLS_GAME_UPDATED =						"game.txt updated"
-PSPCTRLS_DESCP =							"A collection of dual analog patches for PSP games on Adrenaline"
+PSPCTRLS_DESCP =							"Uma coleção de patches para usar os dois analogicos do PSVITA em jogos de PSP no Adrenaline"
 
 --descriptions plugins
 --KERNEL
-INSTALLP_DESC_NONPDRM =						"Permite que voçê evite assinatura DRM em qualquer conteuto do PS Vita"
+INSTALLP_DESC_NONPDRM =						"Permite que voçê evite assinatura DRM em qualquer conteudo do PS Vita"
 INSTALLP_DESC_MINIVITATV = 					"Allows you to play local multiplayer games on your PS Vita with up to 4 friends"
 INSTALLP_DESC_NOPSMDRM =					"Permite que voçê evite assinatura DRM em qualquer jogo PSM do PS Vita"
 INSTALLP_DESC_VITABRIGHT =			  		"Permite usar uma tabela de gama personalizada e, assim, diminuir o brilho abaixo do mínimo e aumentá-lo acima do máximo"
