@@ -67,7 +67,8 @@ NanospeedGamer(thank you big friend)
 # Translator:
 - NanospeedGamer/RY0M43CH1Z3N/gvaldebenit for translation in Spanish
 - SridentPSV/chronoss09/dragtaz for translation in French
-- MrGhidini for translation in portugueseBR
+- MrGhidini/d1l4y for translation in portugueseBr
+- GreekMans for translation in Greek
 - Kouchan/kood_infothief/Umineko1993 for translation in Japanese
 - Omoinemie/yexun1995 for translation in Chinese
 - taiwan-no1 for translation in Traditional Chinese
