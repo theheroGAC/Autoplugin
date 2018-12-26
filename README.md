@@ -68,6 +68,7 @@ During the week there will be Nightly versions (here https://github.com/theheroG
 - Electry
 - SKGleba
 - chronoss09
+- Yoti
 # Tester:
 NanospeedGamer(thank you big friend)
 # Translator:
