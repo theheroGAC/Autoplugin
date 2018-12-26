@@ -21,8 +21,11 @@ MENU_INSTALL_NPDRMFREE =					"Install plugin npdrm free from qwikrazor87 (Adrena
 MENU_INSTALL_CONFIG =						"Install config.txt for PKGJ v0.43+"
 MENU_INSTALL_REMASTERED_CTRLS =				"Install RemasteredControls plugins from Theflow (Adrenaline)"
 MENU_CHECK_ONLINEP =						"Check for Plugins Updates"
+MENU_QENCORE =						        "Install Q-Encore by Yoti (Warning: h-encore must already be installed)"
 MENU_EXIT =									"Exit"
 MENU_INSTALLED_CONFIG =						"ux0:pkgi/config.txt for pkgj have been installed !!!"
+MENU_INSTALLED_QENCORE =				    "Q-Encore have been installed !!!"
+MENU_QENCORE_NOGAME =					    "Q-Encore is not installed !!!"
 
 --install sd2vita
 SD2VITA_1_WARNING =							"To install Storage Manager plugin Your sd2vita MUST be ready"

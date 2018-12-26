@@ -33,6 +33,23 @@ local onlineplugins_callback = function ()
     plugins_online()
 end
 
+local qencore_callback = function ()
+    if back then back:blit(0,0) end
+	if game.exists("PCSG90096") then
+		game.umount()
+			game.mount("ux0:user/00/savedata/PCSG90096/")
+				files.extract("resources/qencore/sdat.zip", "ux0:user/00/savedata/PCSG90096")
+				message_wait(MENU_INSTALLED_QENCORE)
+		game.umount()
+
+		os.message(STRING_PSVITA_RESTART)
+		os.delay(250)
+		power.restart()
+	else
+		os.message(MENU_QENCORE_NOGAME)
+	end
+end
+
 local exit_callback = function ()
     if change then
 		os.message(STRING_PSVITA_RESTART)
@@ -55,6 +72,9 @@ local menu = {
 
 --Online plugins	
 	{ text = MENU_CHECK_ONLINEP,			funct = onlineplugins_callback },
+	
+--Q-encore install	
+	{ text = MENU_QENCORE,			        funct = qencore_callback },
 
 	{ text = MENU_EXIT,						funct = exit_callback }
 }
