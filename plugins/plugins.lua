@@ -19,7 +19,7 @@ plugins = {
 { name = "usbmc by yifanlu v6 (only for PSTV)", path = "usbmc.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_USBMC, },
 { name = "AnalogsEnhancer by Rinnegatamante v1.0", path = "AnalogsEnhancer.skprx", section = "KERNEL",  path2 = false, section2 = false, config = "config.txt", configpath = "ux0:data/AnalogsEnhancer/", version = "0001", desc = INSTALLP_DESC_ANALOGSENHANCER, },
 { name = "ioplus by dots-tb v0.1", path = "ioplus.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_IOPLUS, },
-{ name = "Vitacheat Z05 BETA by r0ah", path = "vitacheat.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_VITACHEAT, },
+{ name = "Vitacheat Z06 BETA by r0ah", path = "vitacheat.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0002", desc = INSTALLP_DESC_VITACHEAT, },
 { name = "NoPSMWhitelist by SilicaAndPina v1.0 (only for PSTV)", path = "noPsmWhitelist.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_NOPSMWHITE, },
 { name = "AnalogStickDisable by Hack-Usagi v1.0", path = "AnalogStickDisable.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_ANALOGSTICK, },
 { name = "cidSpoofer by SilicaAndPina v1.0", path = "cidSpoof.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_CIDSPOOF, },
