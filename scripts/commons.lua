@@ -67,6 +67,20 @@ function message_wait(message)
 	screen.flip()
 end
 
+
+--For Decryted (from vitashell)
+if files.exists("modules/kernel.skprx") then
+	if os.requirek("modules/kernel.skprx")==1 then __kernel = true end
+else
+	if os.requirek("ux0:VitaShell/module/kernel.skprx")==1 then	__kernel = true end
+end
+
+if files.exists("modules/user.suprx") then
+	if os.requireu("modules/user.suprx")==1 then __user = true end
+else
+	if os.requireu("ux0:VitaShell/module/user.suprx")==1 then __user = true end
+end
+
 --[[
 	## Library Scroll ##
 	Designed By DevDavis (Davis Nuñez) 2011 - 2016.
