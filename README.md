@@ -33,9 +33,10 @@ This tool allows you to install/uninstall the following plugins with one click(o
 - noPsmWhitelist
 - AnalogStickDisable
 # Optional settings
-Inject the txt file of pkgj
-Q-Encore by Yoti
-Update plugins automatically
+- Inject the txt file of pkgj
+- Q-Encore by Yoti
+- Update plugins automatically
+- More....
 
 # Small note for Splash image
 To insert a personalized image at startup it must be inserted in png format with the format 960X544 with the name splash.png in the path ux0:CustomBootsplash/splash.png
