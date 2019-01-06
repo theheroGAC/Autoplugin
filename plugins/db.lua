@@ -18,10 +18,11 @@ db = {
 { path = "usbmc.skprx",					version = "0001", stringversion = "0.6" },
 { path = "AnalogsEnhancer.skprx",		version = "0001", stringversion = "1.0" },
 { path = "ioplus.skprx",				version = "0001", stringversion = "0.1" },
-{ path = "vitacheat.skprx",				version = "0002", stringversion = "1.1" },
+{ path = "vitacheat.skprx",				version = "0001", stringversion = "1.1" },
 { path = "noPsmWhitelist.skprx",				version = "0001", stringversion = "1.0" },
 { path = "AnalogStickDisable.skprx",				version = "0001", stringversion = "1.0" },
 { path = "cidSpoof.skprx",				version = "0001", stringversion = "1.0" },
+{ path = "MakePsmGreatAgain.skprx",				version = "0002", stringversion = "1.2" },
 
 --Boot_config.txt
 { path = "custom_boot_splash.skprx",	version = "0001", stringversion = "1.0" },
@@ -41,7 +42,7 @@ db = {
 
 --All
 { path = "vsh.suprx",					version = "0001", stringversion = "3.4" },
-{ path = "vitagrafix.suprx",			version = "0002", stringversion = "4.0" },
+{ path = "vitagrafix.suprx",			version = "0001", stringversion = "4.0" },
 { path = "oclockvita.suprx",			version = "0001", stringversion = "1.2.1" },
 { path = "Framecounter.suprx",			version = "0001", stringversion = "1.2" },
 { path = "VGi.suprx",			version = "0001", stringversion = "0.4" },
