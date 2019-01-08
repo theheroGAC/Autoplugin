@@ -20,7 +20,7 @@ db = {
 { path = "ioplus.skprx",				version = "0001", stringversion = "0.1" },
 { path = "vitacheat.skprx",				version = "0001", stringversion = "1.1" },
 { path = "noPsmWhitelist.skprx",				version = "0001", stringversion = "1.0" },
-{ path = "AnalogStickDisable.skprx",				version = "0001", stringversion = "1.0" },
+{ path = "AnalogStickDisable.skprx",				version = "0002", stringversion = "1.1" },
 { path = "cidSpoof.skprx",				version = "0001", stringversion = "1.0" },
 { path = "MakePsmGreatAgain.skprx",				version = "0002", stringversion = "1.2" },
 
