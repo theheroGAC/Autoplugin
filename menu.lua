@@ -35,16 +35,56 @@ end
 
 local qencore_callback = function ()
     if back then back:blit(0,0) end
-	if game.exists("PCSG90096") then
-		game.umount()
-			game.mount("ux0:user/00/savedata/PCSG90096/")
-				files.extract("resources/qencore/sdat.zip", "ux0:user/00/savedata/PCSG90096")
-				message_wait(MENU_INSTALLED_QENCORE)
-		game.umount()
 
-		os.message(STRING_PSVITA_RESTART)
-		os.delay(250)
-		power.restart()
+    local hencore_found = false
+	local hencore_patched = false
+
+    if files.exists("uma0:user/00/savedata/PCSG90096") then
+		hencore_found = true
+        if os.message(MENU_QENCORE_ASKUMA0, 1) == 1 then
+        game.umount()
+            game.mount("uma0:user/00/savedata/PCSG90096/")
+                files.extract("resources/qencore/sdat.zip", "uma0:user/00/savedata/PCSG90096")
+				hencore_patched = true
+                os.message(MENU_INSTALLED_QENCORE)
+            game.umount()
+		end
+    end
+
+    if files.exists("ur0:user/00/savedata/PCSG90096") then
+		hencore_found = true
+
+        if os.message(MENU_QENCORE_ASKUR0, 1) == 1 then
+            game.umount()
+                game.mount("ur0:user/00/savedata/PCSG90096/")
+                    files.extract("resources/qencore/sdat.zip", "ur0:user/00/savedata/PCSG90096")
+					hencore_patched = true
+					os.message(MENU_INSTALLED_QENCORE)
+            game.umount()
+        end
+    end
+
+    if files.exists("ux0:user/00/savedata/PCSG90096") then
+		hencore_found = true
+
+        if os.message(MENU_QENCORE_ASKUX0, 1) == 1 then
+            game.umount()
+                game.mount("ur0:user/00/savedata/PCSG90096/")
+                    files.extract("resources/qencore/sdat.zip", "ur0:user/00/savedata/PCSG90096")
+					hencore_patched = true
+					os.message(MENU_INSTALLED_QENCORE)
+            game.umount()
+        end
+	end
+
+	if hencore_found then
+		if hencore_patched then
+			os.message(STRING_PSVITA_RESTART)
+			os.delay(250)
+			power.restart()
+		else
+			os.message(MENU_QENCORE_NOTPATCHED)
+		end
 	else
 		os.message(MENU_QENCORE_NOGAME)
 	end

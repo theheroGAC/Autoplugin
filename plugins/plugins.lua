@@ -21,7 +21,7 @@ plugins = {
 { name = "ioplus by dots-tb v0.1", path = "ioplus.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_IOPLUS, },
 { name = "Vitacheat Z06 BETA by r0ah", path = "vitacheat.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0002", desc = INSTALLP_DESC_VITACHEAT, },
 { name = "NoPSMWhitelist by SilicaAndPina v1.0 (only for PSTV)", path = "noPsmWhitelist.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_NOPSMWHITE, },
-{ name = "AnalogStickDisable by Hack-Usagi v1.0", path = "AnalogStickDisable.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_ANALOGSTICK, },
+{ name = "AnalogStickDisable by Hack-Usagi v1.1", path = "AnalogStickDisable.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0002", desc = INSTALLP_DESC_ANALOGSTICK, },
 { name = "cidSpoofer by SilicaAndPina v1.0", path = "cidSpoof.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_CIDSPOOF, },
 { name = "MakePsmGreatAgain by SilicaAndPina v1.2", path = "MakePsmGreatAgain.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0002", desc = INSTALLP_DESC_MAKEPSM, },
   
