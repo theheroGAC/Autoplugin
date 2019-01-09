@@ -13,6 +13,8 @@ STRING_CROSS_INSTALL =						"X : to Install the plugin(s)"
 STRING_CIRCLE_INSTALL =						"O : to Install the plugin(s)"
 
 --menu.lua
+MENU_TITLE =                                "Autoplugin"
+MENU_EXTRAS =                               "Extras"
 MENU_INSTALL_SD2VITA =						"Install Plugin SD2VITA"
 MENU_INSTALL_PLUGINS =						"Install Plugins"
 MENU_UNINSTALL_PLUGINS =					"Uninstall Plugins"
@@ -23,6 +25,7 @@ MENU_INSTALL_REMASTERED_CTRLS =				"Install RemasteredControls plugins from Thef
 MENU_CHECK_ONLINEP =						"Check for Plugins Updates"
 MENU_QENCORE =						        "Install Q-Encore by Yoti (Warning: h-encore must already be installed)"
 MENU_EXIT =									"Exit"
+MENU_BACK =                                 "Back"
 MENU_INSTALLED_CONFIG =						"ux0:pkgi/config.txt for PKGj has been installed!"
 MENU_INSTALLED_QENCORE =				    "Q-Encore was installed!"
 MENU_QENCORE_NOGAME =					    "H-Encore must be installed to patch with Q-Encore!"

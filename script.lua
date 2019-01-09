@@ -57,5 +57,6 @@ dofile("scripts/pspctrls.lua")
 dofile("scripts/sd2vita.lua")
 dofile("scripts/customsplash.lua")
 dofile("scripts/onlinep.lua")
+dofile("scripts/extras.lua")
 
 dofile("menu.lua")--Main Cycle
