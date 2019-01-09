@@ -53,6 +53,7 @@ During the week there will be Nightly versions (here https://github.com/theheroG
 - qwikrazor87
 - CelesteBlue
 - devnoname120
+- bamhm182
 - nowrep
 - frangarcj
 - xyzz
