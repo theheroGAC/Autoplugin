@@ -1,5 +1,5 @@
-local sd2vita_callback = function ()
-    sd2vita()
+local extras_callback = function ()
+	extras()
 end
 
 local installp_callback = function ()
@@ -10,84 +10,9 @@ local uinstallp_callback = function ()
     pluginsmanager()
 end
 
-local convertimgsplash_callback = function ()
-	customimgsplash()
-end
-
-local npdrm_callback = function ()
-    npdrm_free()
-end
-
-local config_callback = function ()
-    if back then back:blit(0,0) end
-	files.copy("resources/pkgj/config.txt", "ux0:pkgi")
-	message_wait(MENU_INSTALLED_CONFIG)
-	os.delay(2000)
-end
-
-local psp_ctrls_callback = function ()
-    psp_ctrls()
-end
 
 local onlineplugins_callback = function ()
     plugins_online()
-end
-
-local qencore_callback = function ()
-    if back then back:blit(0,0) end
-
-    local hencore_found = false
-	local hencore_patched = false
-
-    if files.exists("uma0:user/00/savedata/PCSG90096") then
-		hencore_found = true
-        if os.message(MENU_QENCORE_ASKUMA0, 1) == 1 then
-        game.umount()
-            game.mount("uma0:user/00/savedata/PCSG90096/")
-                files.extract("resources/qencore/sdat.zip", "uma0:user/00/savedata/PCSG90096")
-				hencore_patched = true
-                os.message(MENU_INSTALLED_QENCORE)
-            game.umount()
-		end
-    end
-
-    if files.exists("ur0:user/00/savedata/PCSG90096") then
-		hencore_found = true
-
-        if os.message(MENU_QENCORE_ASKUR0, 1) == 1 then
-            game.umount()
-                game.mount("ur0:user/00/savedata/PCSG90096/")
-                    files.extract("resources/qencore/sdat.zip", "ur0:user/00/savedata/PCSG90096")
-					hencore_patched = true
-					os.message(MENU_INSTALLED_QENCORE)
-            game.umount()
-        end
-    end
-
-    if files.exists("ux0:user/00/savedata/PCSG90096") then
-		hencore_found = true
-
-        if os.message(MENU_QENCORE_ASKUX0, 1) == 1 then
-            game.umount()
-                game.mount("ur0:user/00/savedata/PCSG90096/")
-                    files.extract("resources/qencore/sdat.zip", "ur0:user/00/savedata/PCSG90096")
-					hencore_patched = true
-					os.message(MENU_INSTALLED_QENCORE)
-            game.umount()
-        end
-	end
-
-	if hencore_found then
-		if hencore_patched then
-			os.message(STRING_PSVITA_RESTART)
-			os.delay(250)
-			power.restart()
-		else
-			os.message(MENU_QENCORE_NOTPATCHED)
-		end
-	else
-		os.message(MENU_QENCORE_NOGAME)
-	end
 end
 
 local exit_callback = function ()
@@ -101,21 +26,10 @@ local exit_callback = function ()
 end
 
 local menu = {
-	{ text = MENU_INSTALL_SD2VITA,			funct = sd2vita_callback },
 	{ text = MENU_INSTALL_PLUGINS,			funct = installp_callback },
 	{ text = MENU_UNINSTALL_PLUGINS,		funct = uinstallp_callback },
-	{ text = MENU_CONVERTBOOTSPLASH,		funct = convertimgsplash_callback },
-	{ text = MENU_INSTALL_CONFIG,			funct = config_callback },
-
-	{ text = MENU_INSTALL_NPDRMFREE,		funct = npdrm_callback },
-	{ text = MENU_INSTALL_REMASTERED_CTRLS,	funct = psp_ctrls_callback },
-
---Online plugins	
 	{ text = MENU_CHECK_ONLINEP,			funct = onlineplugins_callback },
-	
---Q-encore install	
-	{ text = MENU_QENCORE,			        funct = qencore_callback },
-
+	{ text = MENU_EXTRAS,					funct = extras_callback },
 	{ text = MENU_EXIT,						funct = exit_callback }
 }
 local scrollm,sel = newScroll(menu,#menu),1
@@ -127,7 +41,7 @@ while true do
 	buttons.read()
 	if back then back:blit(0,0) end
 
-	screen.print(480,25,"Autoplugin",1.3,color.green, 0x0, __ACENTER)
+	screen.print(480,25,MENU_TITLE,1.3,color.green, 0x0, __ACENTER)
 
 	local y = 135
 	for i=scrollm.ini, scrollm.lim do
