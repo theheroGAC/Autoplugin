@@ -44,7 +44,7 @@ INSTALLP_LR_SWAP =							"Pressione L/R para alternar entre ux0 / ur0"
 
 INSTALLP_VITABRIGHT_360 =					"Vitabright SOLO para 3.60/H-Encore 3.68"
 INSTALLP_CWARNING_360_365 =					"Aviso não funciona em 3.67 / 3.68"
-INSTALLP_QUESTION_SHELLSECBAT = 			"! O plug-in shellsecbat foi detectado!\n\n deseja instalar o shellbat e desinstalar o shellsecbat ?"
+INSTALLP_QUESTION_SHELLSECBAT =				"! O plug-in shellsecbat foi detectado!\n\n deseja instalar o shellbat e desinstalar o shellsecbat ?"
 INSTALLP_QUESTION_SHELLBAT =				"! O plug-in Shellbat foi detectado, deseja instalar o shellsecbat e desinstalar o shellbat"
 
 INSTALLP_OSK_TITLE =						"Texto para customizar os avisos"
@@ -82,9 +82,9 @@ PSPCTRLS_DESCP =							"Uma coleção de patches para usar os dois analogicos do
 --descriptions plugins
 --KERNEL
 INSTALLP_DESC_NONPDRM =						"Permite que voçê evite assinatura DRM em qualquer conteudo do PS Vita"
-INSTALLP_DESC_MINIVITATV = 					"Allows you to play local multiplayer games on your PS Vita with up to 4 friends"
+INSTALLP_DESC_MINIVITATV =					"Allows you to play local multiplayer games on your PS Vita with up to 4 friends"
 INSTALLP_DESC_NOPSMDRM =					"Permite que voçê evite assinatura DRM em qualquer jogo PSM do PS Vita"
-INSTALLP_DESC_VITABRIGHT =			  		"Permite usar uma tabela de gama personalizada e, assim, diminuir o brilho abaixo do mínimo e aumentá-lo acima do máximo"
+INSTALLP_DESC_VITABRIGHT =					"Permite usar uma tabela de gama personalizada e, assim, diminuir o brilho abaixo do mínimo e aumentá-lo acima do máximo"
 INSTALLP_DESC_NOAVLS =						"Plugin que desabilitará permanentemente o AVLS no PS Vita forçado pelo AVLS"
 INSTALLP_DESC_REPATCH =						"Permite o modding de jogos criptografados semelhantes ao ux0: patch e permite o uso de 3.67+ jogos em 3.60 / 65 HEN"
 INSTALLP_DESC_LOLICON =						"Small vita shell ran from kernel that allows for actual overclocking"
@@ -94,9 +94,9 @@ INSTALLP_DESC_UDCDUVC =						"Permite que o PS Vita funcione como um dispositivo
 INSTALLP_DESC_KUIO =						"Permite que os módulos do usuário acessem ux0: dados para operações básicas de E / S. Pode ser necessário para certos plugins específicos"
 INSTALLP_DESC_ADRENALINE =					"Permite que você instale o adrenaline com um único toque"
 INSTALLP_DESC_DSMOTION = 					"DualShock motion control support for PlayStation TV"
-INSTALLP_DESC_USBMC = 					    "USB storage as Vita memory card"
-INSTALLP_DESC_ANALOGSENHANCER =             "This little kernel plugin allows users to improve their experience with PSVITA analogs"
-INSTALLP_DESC_IOPLUS = 					    "A PSVita kernel plugin that allows more IO operations in userland"
+INSTALLP_DESC_USBMC = 						"USB storage as Vita memory card"
+INSTALLP_DESC_ANALOGSENHANCER =				"This little kernel plugin allows users to improve their experience with PSVITA analogs"
+INSTALLP_DESC_IOPLUS = 						"A PSVita kernel plugin that allows more IO operations in userland"
 
 --Boot_config.txt
 INSTALLP_DESC_CUSTOMBOOTSPLASH =			"This plugin can display Boot Splash on PS Vita/PSTV at boot. Require ENSO"

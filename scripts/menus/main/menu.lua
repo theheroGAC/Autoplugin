@@ -1,28 +1,21 @@
-local extras_callback = function ()
-	extras()
-end
-
 local installp_callback = function ()
-    autoplugin()
+	autoplugin()
 end
 
 local uinstallp_callback = function ()
-    pluginsmanager()
+	pluginsmanager()
 end
 
-
 local onlineplugins_callback = function ()
-    plugins_online()
+	plugins_online()
+end
+
+local extras_callback = function ()
+	extras_menu()
 end
 
 local exit_callback = function ()
-    if change then
-		os.message(STRING_PSVITA_RESTART)
-		os.delay(250)
-		buttons.homepopup(1)
-		power.restart()
-	end
-	os.exit()
+	exit_autoplugin()
 end
 
 local menu = {

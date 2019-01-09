@@ -37,10 +37,10 @@ end
 
 --functions--
 function img_fixed(img)
-    local w,h = img:getw(), img:geth()
+	local w,h = img:getw(), img:geth()
 
-    if w > 960 or h > 544 then
-    	return img:copyscale(960, 544)
+	if w > 960 or h > 544 then
+		return img:copyscale(960, 544)
 	end
 
 	local px,py = (960/2)-(w/2), (544/2)-(h/2)
@@ -108,6 +108,7 @@ function newScroll(a,b,c)
 
 	function obj:up()
 		if obj.sel>obj.ini then obj.sel=obj.sel-1 return true
+		elseif obj.sel==obj.ini then obj.sel=obj.lim return true
 		elseif obj.ini-1>=obj.minim then
 			obj.ini,obj.sel,obj.lim=obj.ini-1,obj.sel-1,obj.lim-1
 			return true
@@ -116,6 +117,7 @@ function newScroll(a,b,c)
 
 	function obj:down()
 		if obj.sel<obj.lim then obj.sel=obj.sel+1 return true
+		elseif obj.sel==obj.lim then obj.sel=obj.ini return true
 		elseif obj.lim+1<=obj.maxim then
 			obj.ini,obj.sel,obj.lim=obj.ini+1,obj.sel+1,obj.lim+1
 			return true

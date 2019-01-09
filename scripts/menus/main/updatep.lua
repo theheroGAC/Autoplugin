@@ -47,8 +47,8 @@ function plugins_online()
 	end
 
 	if update then
-		http.getfile(string.format("https://raw.githubusercontent.com/theheroGAC/Autoplugin/master/plugins/plugins.lua"), "scripts/")
-		if files.exists("scripts/plugins.lua") then dofile("scripts/plugins.lua") end
+		http.getfile(string.format("https://raw.githubusercontent.com/theheroGAC/Autoplugin/master/plugins/plugins.lua"), "scripts/utilities/")
+		if files.exists("scripts/utilities/plugins.lua") then dofile("scripts/utilities/plugins.lua") end
 	else
 		if back then back:blit(0,0) end
 		message_wait(UPDATE_NO_NEWS)

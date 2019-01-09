@@ -38,8 +38,7 @@ function img2splashbin(path2img)
 end
 
 function plugins_installation(sel)
-
-         if plugins[sel].path == "custom_warning.suprx" and ( version == "3.67" or version == "3.68") then os.message(INSTALLP_CWARNING_360_365)
+	if plugins[sel].path == "custom_warning.suprx" and ( version == "3.67" or version == "3.68") then os.message(INSTALLP_CWARNING_360_365)
 	else
 
 		if files.exists(tai[loc].path) then
@@ -125,7 +124,7 @@ function plugins_installation(sel)
 					img2splashbin("resources/boot_splash.png")
 				elseif plugins[sel].path == "vitacheat.skprx" and not files.exists("ux0:vitacheat/db/") then--Vitacheat
 					files.extract("resources/plugins/vitacheat.zip","ux0:")
-                           elseif plugins[sel].path == "AutoBoot.suprx" and not files.exists("ux0:data/AutoBoot/") then--AutoBoot
+				elseif plugins[sel].path == "AutoBoot.suprx" and not files.exists("ux0:data/AutoBoot/") then--AutoBoot
 					files.extract("resources/plugins/AutoBoot.zip","ux0:")
 				end
 

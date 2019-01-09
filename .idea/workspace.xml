@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f61f23a3-aa3d-4b96-adb4-9f775e85d116" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/scripts/menus/extras/pkgj.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/menus/extras/qencore.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/menus/main/exit.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nightly/script.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Nightly/script.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git/updater/script.lua" beforeDir="false" afterPath="$PROJECT_DIR$/git/updater/script.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.lua" beforeDir="false" afterPath="$PROJECT_DIR$/script.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/autoplugin.lua" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/menus/main/installp.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/commons.lua" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/utilities/commons.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/extras/customsplash.lua" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/menus/extras/customsplash.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/extras/menu.lua" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/menus/extras/menu.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/extras/npdrm.lua" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/menus/extras/npdrm.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/extras/pspctrls.lua" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/menus/extras/pspctrls.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/extras/sd2vita.lua" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/menus/extras/sd2vita.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/menu.lua" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/menus/main/menu.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/onlinep.lua" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/menus/main/updatep.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/plugins.lua" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/utilities/plugins.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/pmanager.lua" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/menus/main/uninstallp.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/tai.lua" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/utilities/tai.lua" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/menus/extras/customsplash.lua">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>..</find>
+      <find>scrollm</find>
+      <find>scripts/n</find>
+      <find>while</find>
+      <find>return</find>
+      <find>while true</find>
+      <find>press O to go b</find>
+      <find>STRING_BACK</find>
+      <find>newScroll</find>
+      <find>STRING_CI</find>
+      <find>plugins.l</find>
+      <find>MENU_QENCORE</find>
+      <find>exit</find>
+      <find />
+      <find />
+      <find>plugins.lua</find>
+      <find>update_wifi</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/scripts/autoplugin.lua" />
+        <option value="$PROJECT_DIR$/Nightly/menu.lua" />
+        <option value="$PROJECT_DIR$/lang/english_us.txt" />
+        <option value="$PROJECT_DIR$/lang/Chinese_S.txt" />
+        <option value="$PROJECT_DIR$/lang/GERMAN.txt" />
+        <option value="$PROJECT_DIR$/lang/GREEK.txt" />
+        <option value="$PROJECT_DIR$/lang/ITALIAN.txt" />
+        <option value="$PROJECT_DIR$/lang/JAPANESE.txt" />
+        <option value="$PROJECT_DIR$/lang/chinese_t.txt" />
+        <option value="$PROJECT_DIR$/lang/FRENCH.txt" />
+        <option value="$PROJECT_DIR$/lang/PORTUGUESE_BR.txt" />
+        <option value="$PROJECT_DIR$/lang/SPANISH.txt" />
+        <option value="$PROJECT_DIR$/scripts/callbacks.lua" />
+        <option value="$PROJECT_DIR$/menu.lua" />
+        <option value="$PROJECT_DIR$/scripts/extras.lua" />
+        <option value="$PROJECT_DIR$/scripts/commons.lua" />
+        <option value="$PROJECT_DIR$/scripts/extras/menu.lua" />
+        <option value="$PROJECT_DIR$/scripts/extras/qencore.lua" />
+        <option value="$PROJECT_DIR$/scripts/menus/extras/pkgj.lua" />
+        <option value="$PROJECT_DIR$/scripts/menus/main/exit.lua" />
+        <option value="$PROJECT_DIR$/script.lua" />
+        <option value="$PROJECT_DIR$/scripts/menus/extras/menu.lua" />
+        <option value="$PROJECT_DIR$/scripts/menus/main/menu.lua" />
+        <option value="$PROJECT_DIR$/git/updater/script.lua" />
+        <option value="$PROJECT_DIR$/scripts/menus/main/updatep.lua" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="337" />
+    <option name="y" value="27" />
+    <option name="width" value="1431" />
+    <option name="height" value="857" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Autoplugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Autoplugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Autoplugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Autoplugin" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Autoplugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Autoplugin" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Autoplugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Autoplugin" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="menus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Autoplugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Autoplugin" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="menus" type="462c0819:PsiDirectoryNode" />
+              <item name="extras" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Autoplugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Autoplugin" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scripts/utilities" />
+      <recent name="$PROJECT_DIR$/scripts/menus/main" />
+      <recent name="$PROJECT_DIR$/scripts/menus" />
+      <recent name="$PROJECT_DIR$/scripts" />
+      <recent name="$PROJECT_DIR$/scripts/extras" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f61f23a3-aa3d-4b96-adb4-9f775e85d116" name="Default Changelist" comment="" />
+      <created>1547041952360</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547041952360</updated>
+      <workItem from="1547041955509" duration="8757000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8757000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1600" height="875" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24967825" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="LuaJ" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Nightly/menu.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/git/updater.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/chinese_t.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="119" column="44" selection-start-line="119" selection-start-column="44" selection-end-line="119" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/Chinese_S.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/FRENCH.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-810">
+          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/GERMAN.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="133" column="26" lean-forward="true" selection-start-line="133" selection-start-column="26" selection-end-line="133" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/GREEK.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2175">
+          <caret line="145" column="44" selection-start-line="145" selection-start-column="44" selection-end-line="145" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/english_us.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="106" column="36" selection-start-line="106" selection-start-column="36" selection-end-line="106" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/ITALIAN.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="108" column="44" selection-start-line="108" selection-start-column="44" selection-end-line="108" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/JAPANESE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="141" column="44" selection-start-line="141" selection-start-column="44" selection-end-line="141" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/PORTUGUESE_BR.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="96" column="44" selection-start-line="96" selection-start-column="44" selection-end-line="96" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/SPANISH.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2235">
+          <caret line="149" column="44" selection-start-line="149" selection-start-column="44" selection-end-line="149" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/menus/extras/pspctrls.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/callbacks.lua">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/menus/main/uninstallp.lua">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/menus/extras/npdrm.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/menus/extras/qencore.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/utilities/commons.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1109">
+          <caret line="110" column="31" selection-start-line="110" selection-start-column="31" selection-end-line="110" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/utilities/tai.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/menus/main/installp.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="160" selection-start-line="160" selection-end-line="160" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/menus/extras/pkgj.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/menus/main/exit.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="69" column="27" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/menus/extras/menu.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/menus/main/menu.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/git/updater/script.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nightly/scripts/menu.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/db.lua">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/menus/main/updatep.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/utilities/plugins.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/plugins.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/menus/extras/customsplash.lua">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
