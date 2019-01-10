@@ -7,10 +7,6 @@ function extras_menu()
 		customimgsplash()
 	end
 
-	local pkgj_callback = function ()
-		pkgj()
-	end
-
 	local npdrm_callback = function ()
 		npdrm_free()
 	end
@@ -30,7 +26,6 @@ function extras_menu()
 	local menu = {
 			{ text = MENU_INSTALL_SD2VITA,			funct = sd2vita_callback },
 			{ text = MENU_CONVERTBOOTSPLASH,		funct = convertimgsplash_callback },
-			{ text = MENU_INSTALL_CONFIG,			funct = pkgj_callback },
 			{ text = MENU_INSTALL_NPDRMFREE,		funct = npdrm_callback },
 			{ text = MENU_INSTALL_REMASTERED_CTRLS,	funct = psp_ctrls_callback },
 			{ text = MENU_QENCORE,					funct = qencore_callback },
