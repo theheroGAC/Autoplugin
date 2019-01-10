@@ -13,6 +13,8 @@ STRING_CROSS_INSTALL =						"X : 安装插件"
 STRING_CIRCLE_INSTALL =						"O : 安装插件"
 
 --menu.lua
+MENU_TITLE =								"Autoplugin"
+MENU_EXTRAS =								"附加功能"
 MENU_INSTALL_SD2VITA =						"安装 SD2VITA 插件"
 MENU_INSTALL_PLUGINS =						"安装插件"
 MENU_UNINSTALL_PLUGINS =					"卸载插件"
@@ -23,13 +25,13 @@ MENU_INSTALL_REMASTERED_CTRLS =				"安装 RemasteredControls 插件 | 作者 Th
 MENU_CHECK_ONLINEP =						"检查插件更新"
 MENU_QENCORE =								"安装 Q-Encore | 作者 Yoti (警告: 必须已安装 h-encore)"
 MENU_EXIT =									"退出"
+MENU_BACK =									"返回"
 MENU_INSTALLED_CONFIG =						"PKGj的配置文件 ux0:pkgi/config.txt 已安装!"
 MENU_INSTALLED_QENCORE =					"Q-Encore 已安装 !"
 MENU_QENCORE_NOGAME =						"您必须已安装 H-Encore 才能使用 Q-Encore!"
 MENU_QENCORE_NOTPATCHED =					"Q-Encore 未安装!"
-MENU_QENCORE_ASKUMA0 =						"Q-Encore 应被安装到 uma0 分区吗?"
-MENU_QENCORE_ASKUR0 =						"Q-Encore 应被安装到 ur0 分区吗?"
-MENU_QENCORE_ASKUX0 =						"Q-Encore 应被安装到 ux0 分区吗?"
+MENU_QENCORE_ASK1 =							"在这里找到了 H-Encore : "
+MENU_QENCORE_ASK2 =							".\n要在这里安装 Q-encore 吗?"
 
 --install sd2vita
 SD2VITA_1_WARNING =							"您必须准备好 sd2vita 设备后才能安装 Storage Manager 插件"
