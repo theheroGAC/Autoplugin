@@ -23,7 +23,7 @@ files.mkdir("ux0:data/AUTOPLUGIN/lang/")
 dofile("lang/english_us.txt")
 
 if files.exists("ux0:data/AUTOPLUGIN/lang/"..os.language()..".txt") then
-	dofile("ux0:data/AUTOPLUGIN/lang/"..os.language()..".txt")	
+	dofile("ux0:data/AUTOPLUGIN/lang/"..os.language()..".txt")
 end
 if files.exists("lang/"..os.language()..".txt") then
 	dofile("lang/"..os.language()..".txt")
@@ -47,16 +47,24 @@ if os.access() == 0 then
 	os.exit()
 end
 
-dofile("scripts/tai.lua")
-dofile("scripts/commons.lua")
-dofile("scripts/plugins.lua")
-dofile("scripts/autoplugin.lua")
-dofile("scripts/pmanager.lua")
-dofile("scripts/npdrm.lua")
-dofile("scripts/pspctrls.lua")
-dofile("scripts/sd2vita.lua")
-dofile("scripts/customsplash.lua")
-dofile("scripts/onlinep.lua")
-dofile("scripts/extras.lua")
+-- Utilities
+dofile("scripts/utilities/commons.lua")
+dofile("scripts/utilities/plugins.lua")
+dofile("scripts/utilities/tai.lua")
 
-dofile("menu.lua")--Main Cycle
+-- Main Menu
+dofile("scripts/menus/main/exit.lua")
+dofile("scripts/menus/main/installp.lua")
+dofile("scripts/menus/main/uninstallp.lua")
+dofile("scripts/menus/main/updatep.lua")
+
+-- Extras Menu
+dofile("scripts/menus/extras/customsplash.lua")
+dofile("scripts/menus/extras/menu.lua")
+dofile("scripts/menus/extras/npdrm.lua")
+dofile("scripts/menus/extras/pkgj.lua")
+dofile("scripts/menus/extras/pspctrls.lua")
+dofile("scripts/menus/extras/qencore.lua")
+dofile("scripts/menus/extras/sd2vita.lua")
+
+dofile("scripts/menus/main/menu.lua")--Main Cycle
