@@ -33,7 +33,6 @@ This tool allows you to install/uninstall the following plugins with one click(o
 - noPsmWhitelist
 - AnalogStickDisable
 # Optional settings
-- Inject the txt file of pkgj
 - Q-Encore by Yoti
 - Update plugins automatically
 - More....
