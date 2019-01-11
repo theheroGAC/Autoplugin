@@ -123,6 +123,7 @@ INSTALLP_DESC_NOPSMWHITE =					"Disables PSTV Whitelist for PSM Games"
 INSTALLP_DESC_ANALOGSTICK =					"Plugin to completely disable PSVita's analog stick"
 INSTALLP_DESC_CIDSPOOF =					"Spoof CID (ConsoleID) on PSVITA(Could possibly be used to unban your console from PSN)"
 INSTALLP_DESC_MAKEPSM =						"Modifications to the PSM Developer applications"
+INSTALLP_DESC_REFOOD =						"A vita plugin to run programs that do not get decrypted properly."
 
 --Boot_config.txt
 INSTALLP_DESC_CUSTOMBOOTSPLASH =			"This plugin can display Boot Splash on PS Vita/PSTV at boot. Require ENSO"
