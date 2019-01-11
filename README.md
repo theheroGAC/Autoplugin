@@ -32,6 +32,7 @@ This tool allows you to install/uninstall the following plugins with one click(o
 - TropHAX
 - noPsmWhitelist
 - AnalogStickDisable
+- reF00D
 # Optional settings
 - Q-Encore by Yoti
 - Update plugins automatically
@@ -51,6 +52,7 @@ During the week there will be Nightly versions (here https://github.com/theheroG
 - yifanlu
 - qwikrazor87
 - CelesteBlue
+- FAPS Team
 - devnoname120
 - bamhm182
 - nowrep
