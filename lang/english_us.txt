@@ -30,6 +30,7 @@ MENU_QENCORE_NOGAME =						"H-Encore must be installed to patch with Q-Encore!"
 MENU_QENCORE_NOTPATCHED =					"Q-Encore was not installed!"
 MENU_QENCORE_ASK1 =							"H-Encore found on "
 MENU_QENCORE_ASK2 =							".\nInstall Q-Encore here?"
+MENU_QENCORE_SD2VITA =                      ".\nPlease remove your SD2VITA and try installing Q-Encore again."
 
 --install sd2vita
 SD2VITA_1_WARNING =							"To install Storage Manager plugin Your sd2vita MUST be ready"
