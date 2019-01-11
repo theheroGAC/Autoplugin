@@ -37,10 +37,10 @@ end
 
 --functions--
 function img_fixed(img)
-    local w,h = img:getw(), img:geth()
+	local w,h = img:getw(), img:geth()
 
-    if w > 960 or h > 544 then
-    	return img:copyscale(960, 544)
+	if w > 960 or h > 544 then
+		return img:copyscale(960, 544)
 	end
 
 	local px,py = (960/2)-(w/2), (544/2)-(h/2)
@@ -65,6 +65,20 @@ function message_wait(message)
 	draw.rect(x,y,w,h,color.white)
 		screen.print(480,y+13, titlew,1,color.white,color.black,__ACENTER)
 	screen.flip()
+end
+
+
+--For Decryted (from vitashell)
+if files.exists("modules/kernel.skprx") then
+	if os.requirek("modules/kernel.skprx")==1 then __kernel = true end
+else
+	if os.requirek("ux0:VitaShell/module/kernel.skprx")==1 then	__kernel = true end
+end
+
+if files.exists("modules/user.suprx") then
+	if os.requireu("modules/user.suprx")==1 then __user = true end
+else
+	if os.requireu("ux0:VitaShell/module/user.suprx")==1 then __user = true end
 end
 
 --[[
@@ -94,6 +108,7 @@ function newScroll(a,b,c)
 
 	function obj:up()
 		if obj.sel>obj.ini then obj.sel=obj.sel-1 return true
+		elseif obj.sel==obj.ini then obj.sel=obj.lim return true
 		elseif obj.ini-1>=obj.minim then
 			obj.ini,obj.sel,obj.lim=obj.ini-1,obj.sel-1,obj.lim-1
 			return true
@@ -102,6 +117,7 @@ function newScroll(a,b,c)
 
 	function obj:down()
 		if obj.sel<obj.lim then obj.sel=obj.sel+1 return true
+		elseif obj.sel==obj.lim then obj.sel=obj.ini return true
 		elseif obj.lim+1<=obj.maxim then
 			obj.ini,obj.sel,obj.lim=obj.ini+1,obj.sel+1,obj.lim+1
 			return true

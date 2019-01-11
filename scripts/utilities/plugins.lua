@@ -20,12 +20,16 @@ plugins = {
 { name = "AnalogsEnhancer by Rinnegatamante v1.0", path = "AnalogsEnhancer.skprx", section = "KERNEL",  path2 = false, section2 = false, config = "config.txt", configpath = "ux0:data/AnalogsEnhancer/", version = "0001", desc = INSTALLP_DESC_ANALOGSENHANCER, },
 { name = "ioplus by dots-tb v0.1", path = "ioplus.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_IOPLUS, },
 { name = "Vitacheat Z05 BETA by r0ah", path = "vitacheat.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_VITACHEAT, },
+{ name = "NoPSMWhitelist by SilicaAndPina v1.0 (only for PSTV)", path = "noPsmWhitelist.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_NOPSMWHITE, },
+{ name = "AnalogStickDisable by Hack-Usagi v1.0", path = "AnalogStickDisable.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_ANALOGSTICK, },
+{ name = "cidSpoofer by SilicaAndPina v1.0", path = "cidSpoof.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_CIDSPOOF, },
+{ name = "MakePsmGreatAgain by SilicaAndPina v1.0", path = "MakePsmGreatAgain.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_MAKEPSM, },
 
 --Boot_config.txt
 { name = "Custom Boot Splash by Princess of Sleeping", path = "custom_boot_splash.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_CUSTOMBOOTSPLASH, },
 
 --Main
-{ name = "Download Enabler by TheOfficialFloW (VitaTweaks)", path = "download_enabler.suprx", section = "main",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_DENABLER, },
+{ name = "Download Enabler v5 by TheOfficialFloW (VitaTweaks)", path = "download_enabler.suprx", section = "main",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_DENABLER, },
 { name = "NoLockScreen v2 by TheOfficialFloW (VitaTweaks)", path = "nolockscreen.suprx", section = "main",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_NOLOCKSCREEN, },
 { name = "NoTrophyMsg by TheOfficialFloW (VitaTweaks)", path = "notrophymsg.suprx", section = "main",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_NOTROPHYMSG, },
 { name = "Custom Warning v2 by TheOfficialFloW (VitaTweaks)", path = "custom_warning.suprx", section = "main",  path2 = false, section2 = false, config = "custom_warning.txt", version = "0001", desc = INSTALLP_DESC_CUSTOMWARNING, },
@@ -38,12 +42,12 @@ plugins = {
 
 --All
 { name = "PSV-VSH MENU by joel16 v3.4", path = "vsh.suprx", section = "ALL",  path2 = "kuio.skprx", section2 = "KERNEL", config = false, version = "0001", desc = INSTALLP_DESC_VSHMENU, },-- Need kuio.skprx
-{ name = "VitaGrafix by Electry v3.2", path = "vitagrafix.suprx", section = "ALL",  path2 = "ioplus.skprx", section2 = "KERNEL", config = "config.txt", configpath = "ux0:data/VitaGrafix/", version = "0001", desc = INSTALLP_DESC_VITAGRAFIX, },-- Need kuio.skprx
+{ name = "VitaGrafix by Electry v4.0 Alpha 2", path = "vitagrafix.suprx", section = "ALL",  path2 = "ioplus.skprx", section2 = "KERNEL", config = "config.txt", configpath = "ux0:data/VitaGrafix/", version = "0001", desc = INSTALLP_DESC_VITAGRAFIX, },-- Need kuio.skprx
 { name = "Oclock Vita by frangarcj v1.2.1", path = "oclockvita.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_OVERCLOCK, },
 { name = "Framecounter by Rinnegatamante v1.2", path = "Framecounter.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_FRAMECOUNTER, },
 { name = "VGi by Electry v0.4", path = "VGi.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_VGI, },
 { name = "FuckPSSE by SilicaAndPina v1.1", path = "FuckPSSE.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_FUCKPSSE, },
-{ name = "PSMPatch by SilicaAndPina v1.0", path = "PSMPatch.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_PSMPATCH, },
+{ name = "PSMPatch by SilicaAndPina v1.1", path = "PSMPatch.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_PSMPATCH, },
 { name = "ITLS-Enso by SKGleba v2.0", path = "itls.suprx", section = "ALL",  path2 = "ioplus.skprx", section2 = "KERNEL", config = false, version = "0001", desc = INSTALLP_DESC_ITLSENSO, },
 { name = "TropHAX by SilicaAndPina v2.0", path = "trophax2.0.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = INSTALLP_DESC_TROPHAX, },
 

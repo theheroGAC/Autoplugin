@@ -49,8 +49,8 @@ end
 
 dofile("scripts/tai.lua")
 dofile("scripts/commons.lua")
-dofile("scripts/autoplugin.lua")
-dofile("scripts/pmanager.lua")
+dofile("scripts/installp.lua")
+dofile("scripts/uninstallp.lua")
 dofile("scripts/npdrm.lua")
 dofile("scripts/pspctrls.lua")
 dofile("scripts/sd2vita.lua")
