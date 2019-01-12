@@ -30,6 +30,7 @@ MENU_QENCORE_NOGAME =						"您必须已安装 H-Encore 才能使用 Q-Encore!"
 MENU_QENCORE_NOTPATCHED =					"Q-Encore 未安装!"
 MENU_QENCORE_ASK1 =							"在这里找到了 H-Encore : "
 MENU_QENCORE_ASK2 =							".\n要在这里安装 Q-encore 吗?"
+MENU_QENCORE_SD2VITA =                      ".\n请移除 SD2VITA 设备后并再次尝试安装 Q-Encore."
 
 --install sd2vita
 SD2VITA_1_WARNING =							"您必须准备好 sd2vita 设备后才能安装 Storage Manager 插件"
@@ -123,6 +124,7 @@ INSTALLP_DESC_NOPSMWHITE =					"为 PSM 游戏禁用 PSTV 白名单"
 INSTALLP_DESC_ANALOGSTICK =					"此插件用于彻底禁用 PSVita 摇杆"
 INSTALLP_DESC_CIDSPOOF =					"用于 PSV 伪装 CID (设备ID) (也许可以用于解除 PSN 对您设备的封锁)"
 INSTALLP_DESC_MAKEPSM =						"修改 PSM Dev 程序"
+INSTALLP_DESC_REFOOD =						"用于运行无法正确解密的程序的 vita 插件"
 
 --Boot_config.txt
 INSTALLP_DESC_CUSTOMBOOTSPLASH =			"此插件将在 PS Vita/PSTV 启动时显示自定义启动画面. 需要 ENSO"
