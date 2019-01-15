@@ -86,12 +86,12 @@ UNINSTALLP_PLUGIN =							"卸载插件"
 UNINSTALLP_LEFTRIGHT_SECTION =				"<--/--> 切换选项"
 
 --npdrm free
-NPDRMFREE_TITLE =							"安装 NPDRM FREE 插件 | 由 Yoti 开发"
+NPDRMFREE_TITLE =							"安装 NPDRM FREE 插件 | 由 Qwik 开发"
 NPDRMFREE_INSTALLED =						"npdrm free 已安装"
 NPDRMFREE_VSH_UPDATED =						"vsh.txt 已更新"
 NPDRMFREE_GAME_UPDATED =					"game.txt 已更新"
 NPDRMFREE_INSTALL =							"安装 npdrm free 插件"
-NPDRMFREE_DESC =							"一个 PSP/ePSP 插件,无需有效的 .rif 许可证或 act.dat 即可运行官方 NPDRM PS1 / PSP 内容."
+NPDRMFREE_DESC =							"一个 PSP/ePSP 插件,无需有效的 .rif 许可证或 act.dat 即可运行官方 NPDRM PS1/PSP 内容."
 
 --customWaning
 CUSTOMWARNING_MESSAGE =						"请记住启用 Custom Warning 插件"
