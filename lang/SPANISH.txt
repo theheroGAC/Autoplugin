@@ -4,89 +4,111 @@ STRING_UNSAFE_MODE =						"¡Se necesita el MODO INSEGURO para este Homebrew!"
 STRING_PSVITA_RESTART =						"Tu PSVita se reiniciará"
 STRING_BACKUP_CONFIGS =						"Creando Config_backups.txt"
 STRING_MISSING_CONFIG =						"Falta config.txt"
-STRING_CIRCLE_BACK =						"Pulsa O para volver al menu"
-STRING_CROSS_BACK =							"Pulsa X para volver al menu"
-STRING_START_CLOSE =						"Pulsa START para cerrar"
+STRING_BACK =						"Para volver al menu"
+STRING_CLOSE =						"Salir de Autoplugin"
 STRING_INSTALLED =							"Ha sido instalado"
 STRING_PLEASE_WAIT =						"Por favor espera..."
-STRING_CROSS_INSTALL =						"X : Para instalar plugin(s)"
-STRING_CIRCLE_INSTALL =           "O : Para instalar plugin(s)"
+RESTART_QUESTION =						"¿Quieres reiniciar ahora?"
 
---menu.lua
+--Options Menus
 MENU_TITLE =           "Autoplugin"          
+MENU_PSVITA =           "Plugins para PS Vita" 
+MENU_PSP =           "Plugins para PSP (Adrenaline)" 
 MENU_EXTRAS =          "Extras"
+MENU_TITLE = EXIT          "Salir"
+
+--Desc Options PSVITA
+INSTALL_PLUGINS_DESC =           "Instala los Plugins más útiles desarrollados por la Scene de PSVita"  
+UNINSTALL_PLUGINS_DESC =           "Desinstala Plugins de manera fácil y sencilla"  
+INSTALL_SD2VITA_DESC =           "Instala el Plugin SD2VITA (StorageMgr de CelesteBlue)" 
+CHECK_ONLINEP_DESC =           "Verifica si hay alguna actualizacion para los Plugin (Requiere WiFi)"  
+
+MENU_TITLE_PSVITA =           "Opciones para PS Vita"
 MENU_INSTALL_SD2VITA =            "Instalar Plugin SD2VITA"
 MENU_INSTALL_PLUGINS =						"Instalar Plugins"
 MENU_UNINSTALL_PLUGINS =					"Desinstalar Plugins"
-MENU_CONVERTBOOTSPLASH =					"Activar imagen para el Custom Boot Splash"
-MENU_INSTALL_NPDRMFREE =					"Instalar plugin npdrm free de Qwik (Adrenaline)"
-MENU_INSTALL_REMASTERED_CTRLS =				"Instalar plugin de Controles Remasterizados de TheFloW (Adrenaline)"
 MENU_CHECK_ONLINEP =						"Buscar Actualizaciones de Plugins"
-MENU_QENCORE =								"Instala Q-Encore de Yoti (Atención: h-encore debe estar ya instalado)"
-MENU_EXIT =									"Salir"
-MENU_BACK =									"Regresar"
-MENU_INSTALLED_QENCORE =					"Q-Encore fue instalado en "
-MENU_QENCORE_NOGAME =           "¡H-Encore debe estar instalado para  poder ser parchado con Q-Encore!"
-MENU_QENCORE_NOTPATCHED =					"¡Q-Encore no ha sido instalado!"
-MENU_QENCORE_ASK1 =							"H-Encore encontrado en "
-MENU_QENCORE_ASK2 =							".\n¿Instalar Q-Encore aquí?"
+
+MENU_TITLE_PSP =           "Opciones para PSP (Adrenaline)"
+MENU_INSTALL_NPDRMFREE =						"Instalar el Plugin NPDRM FREE de qwikrazor87"
+MENU_INSTALL_REMASTERED_CTRLS =				"Instalar el Plugin RemasteredControls de TheOfficialFloW"
+
+MENU_CONVERTBOOTSPLASH =           "Establece una imagen Custom Boot Splash"
+MENU_CUSTOMWARNING =           "Establece un mensaje para Custom Warning Message"
+MENU_INSTALL_CONFIG =           "Instala config.txt para PKGj v0.44+"
+MENU_INSTALL_CONFIG_DESC =           "Instala config.txt para PKGj (Requiere WiFi)"
+MENU_INSTALLED_CONFIG =           "¡ux0:pkgi/config.txt para PKGj ha sido instalado!"
+MENU_QENCORE =           "Instala Q-Encore de Yoti"
+MENU_QENCORE_DESC =           "Lanzador rápido de H-Encore de Yoti (Atención: H-Encore debe estar ya instalado)"
+
+MENU_QENCORE_ASK =           "¿Debería Q-Encore ser instalado en"
+MENU_INSTALLED_QENCORE =           "Q-Encore ha sido instalado en"
+MENU_NOT_INSTALLED_QENCORE =           "Q-Encore no ha sido instalado en"
+MENU_QENCORE_PATCHED =           "¡Q-Encore ha sido parchado!"
+MENU_QENCORE_NOT_PATCHED =           "¡Q-Encore no ha sido parchado!"
+
+MENU_QENCORE_NOGAME =           "¡H-Encore debe estar instalado para ser parchado con Q-Encore!"
 
 --install sd2vita
-SD2VITA_1_WARNING =							"Para instalar el plugin de Storage Manager, su sd2vita debe estar lista"
-SD2VITA_2_WARNING =							"¡Si tiene un Juego Oficial insertado, debe retirarlo antes de reiniciar la PS Vita!"
+MENU_TITLE_SD2VITA =           "Instala el plugin Storage Manager para usar una SD2VITA"
+SD2VITA_1_WARNING =							"Para instalar el plugin de Storage Manager, su SD2VITA DEBE estar lista"
+SD2VITA_2_WARNING =							"¡Si tiene un Juego Oficial insertado, DEBE retirarlo antes de reiniciar la PS Vita!"
 SD2VITA_3_WARNING =							"MUY IMPORTANTE: Debes copiar el contenido de tu memoria original"
 SD2VITA_4_WARNING =							"a tu MicroSD antes de continuar, para no perder tus aplicaciones"
 SD2VITA_5_WARNING =							"Por ejemplo: H-encore, Vitashell/ONEMenu, PKGj, Adrenaline, etc... "
 SD2VITA_GAMECARD_DETECTED =					"¡CARTUCHO DE JUEGO DETECTADO!"
 SD2VITA_GAMECARD_REMOVED =					"Retíralo para continuar"
-SD2VITA_TRIANGLE_INSTALL =					"Para proceder a la instalación, presione △"
-SD2VITA_CIRCLE_CANCEL =						"Para cancelar la instalación, presione O"
-SD2VITA_CROSS_CANCEL =						"Para cancelar la instalación, presione X"
+SD2VITA_INSTALL =					"para proceder con la instalación"
+SD2VITA_CIRCLE_CANCEL =						"para cancelar la instalación"
 
 --install plugins
 INSTALLP_LIST_PLUGINS =						"Lista de Plugins listos para instalar:"
-INSTALLP_SQUARE_MARK =						"[] : Para seleccionar plugins individualmente"
-INSTALLP_TRIANGLE_ALL =						"△ : Para instalar TODOS los Plugins"
-INSTALLP_SELECT_CLEAN =						"SELECT : Para limpiar los plugins seleccionados"
-INSTALLP_LR_SWAP =							"L/R : Para cambiar entre ux0/ur0"
-INSTALLP_CUSTOM_PATH =						"△ : Instalación en ruta personalizada"
+INSTALLP_MARK =						"Marcar/Desmarcar Plugin(s)"
+INSTALLP_CONFIRM =						"Instalar Plugin(s)"
+INSTALLP_ALL =						"Para instalar TODOS los Plugins"
+INSTALLP_CLEAN =						"Para limpiar los plugins seleccionados"
+INSTALLP_LR_SWAP =							"Para cambiar entre ux0/ur0"
+INSTALLP_CUSTOM_PATH =						"Instalar en ruta personalizada"
 
 INSTALLP_VITABRIGHT_360 =					"Vitabright SOLO funciona en 3.60/H-Encore 3.68"
 INSTALLP_CWARNING_360_365 =					"Custom Warning no funciona en 3.67/3.68"
 INSTALLP_QUESTION_SHELLSECBAT =				"\n               ¡Se detectó el plugin shellsecbat!\n\n¿Instalar shellbat en su lugar y desinstalar shellsecbat?"
 INSTALLP_QUESTION_SHELLBAT =				"\n               ¡Se detectó el plugin Shellbat!\n\n¿Instalar shellsecbat en su lugar y desinstalar shellbat?"
 
+INSTALLP_WARNING_REFOOD =						"Para que el Plugin ReFood funcione, será instalado en ur0:/tai"
 INSTALLP_OSK_TITLE =						"Texto para Custom Warning"
 INSTALLP_OSK_TEXT =							"Escribe tu TEXTO aquí"
 
 --Uninstall plugins
 UNINSTALLP_TITLE =							"Administrador de Plugins"
 UNINSTALLP_NOCONFIG_FOUND =					"No se encontró config.txt en: "
-UNINSTALLP_CROSS_INSTALL =					"X : Para desinstalar plugin"
-UNINSTALLP_CIRCLE_INSTALL =					"O : Para desinstalar plugin"
-UNINSTALLP_LR_SWAP =						"L/R : Para cambiar entre ux0/ur0"
-UNINSTALLP_LEFTRIGHT_SECTION =				"Izquierda/Derecha : Para cambiar de sección"
+UNINSTALLP_PLUGIN =					"Para desinstalar Plugin"
+UNINSTALLP_LEFTRIGHT_SECTION =				"<--/--> para cambiar de sección"
 
 --npdrm free
-NPDRMFREE_TITLE =							"Instalar plugin npdrm free de Qwik"
+NPDRMFREE_TITLE =							"Instalar plugin NPDRM FREE de Qwik"
 NPDRMFREE_INSTALLED =						"npdrm free instalado"
 NPDRMFREE_VSH_UPDATED =						"vsh.txt actualizdo"
 NPDRMFREE_GAME_UPDATED =					"game.txt actualizado"
-NPDRMFREE_NO_PARTITION =					"¡Partición no encontrada!"
+NPDRMFREE_INSTALL =					"Instala el plugin NPDRM FREE"
+NPDRMFREE_DESC =					"Un plugin para PSP/ePSP que permite correr contenido oficial de PS1/PSP con NPDRM, sin la necesidad de licencias .rif o act.dat válidos"
+
+--customsWarning
+CUSTOMWARNING__MESSAGE =					"Recuerda activar el Plugin de Custom Warning"
 
 --customsplash
 CUSTOMBOOTSPLASH__TITLE =					"Custom Boot Splash"
-CUSTOMBOOTSPLASH_CROSS_CONVERT =			"Pulsa X para convertir img"
-CUSTOMBOOTSPLASH_CIRCLE_CONVERT =			"Pulsa O para convertir img"
+CUSTOMBOOTSPLASH_CONVERT =			"Para convertir la imagen"
+CUSTOMBOOTSPLASH_IMPORT =			"Importa una imagen desde tu galería (solo en formato .PNG)"
 CUSTOMBOOTSPLASH__MESSAGE =					"Recuerda habilitar el plugin Custom Boot Splash"
-CUSTOMBOOTSPLASH_RESTART =					"¿Quieres reiniciar el dispositivo?"
 CUSTOMBOOTSPLASH_NOPNG_FOUND =				"¡ux0:CustomBootsplash VACÍO!"
+CUSTOMBOOTSPLASH_NOPNG =					"El formato compatible es PNG"
 
 --pspctrls
-PSPCTRLS_TITLE =							"Plugin de Controles Remasterizados de TheFloW (Adrenaline)"
-PSPCTRLS_LR_SWAP =							"L/R : Cambiar de Partición"
+PSPCTRLS_TITLE =							"Plugin Remastered Controls de TheOfficialFloW (Adrenaline)""
 PSPCTRLS_GAME_UPDATED =						"game.txt actualizado"
-PSPCTRLS_DESCP =							"Colección de parches para Adrenaline que permite usar los dos análogos en determinados juegos de PSP"
+PSPCTRLS_DESC =							"Colección de parches para Adrenaline que permite usar los dos análogos en determinados juegos de PSP"
+PSPCTRLS_LR_SWAP =							"Para cambiar de Partición"
 
 --plugins online
 UPDATE_WIFI_LOW =							"Señal WiFi débil"
@@ -123,6 +145,7 @@ INSTALLP_DESC_NOPSMWHITE =					"Desactiva el bloqueo de juegos de PSM en PlaySta
 INSTALLP_DESC_ANALOGSTICK =					"Plugin para desactivar completamente los análogos de la PS Vita"
 INSTALLP_DESC_CIDSPOOF =					"Falsifica el CID(ConsoleID) en PS Vita (Puede ser usado posiblemente para desbanear la consola de PSN)"
 INSTALLP_DESC_MAKEPSM =						"Modificaciones a las aplicaciones de desarrollo de PSM"
+INSTALLP_DESC_REFOOD =						"Un Plugin de Vita para correr programas que no pueden ser desencriptados adecuadamente"
 
 --Boot_config.txt
 INSTALLP_DESC_CUSTOMBOOTSPLASH =			"Este plugin puede mostrar una Imagen Personalizada en el arranque de PS Vita/PS TV. Requiere Enso"
@@ -140,6 +163,7 @@ INSTALLP_DESC_SHELLBAT =					"Porcentaje de batería en la barra de estado"
 INSTALLP_DESC_SHELLSECBAT =					"Porcentaje de batería y segundos en la barra de estado: Fusión de ShellBat y LastSeconds"
 INSTALLP_DESC_PNGSHOT =						"pngshot es un plugin para hacer capturas de pantalla (.PNG). Además permite realizar capturas en juegos que no lo permiten nativamente"
 INSTALLP_DESC_VFLUX =						"Filtro de pantalla para PS Vita a traves de un plugin"
+INSTALLP_DESC_RESKYPE =						"Un simple plugin que habilita la app de Skype en 3.65+"
 INSTALLP_DESC_AUTOBOOT =					"Este plugin permite que una aplicación se inicie automaticamente luego del inicio de Enso, similar a lo que solía hacer AutoStart en la PSP"
 
 --ALL
