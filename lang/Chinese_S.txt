@@ -55,7 +55,7 @@ SD2VITA_1_WARNING =							"您必须准备好 sd2vita 设备后才能安装 Stor
 SD2VITA_2_WARNING =							"如果插入了游戏卡,则必须在重启之前将其移除!"
 SD2VITA_3_WARNING =							"十分重要: 您的 sd2vita 设备必须已存入一些软件, 您可以从原装储存卡"
 SD2VITA_4_WARNING =							"复制必要的软件到sd2vita储存卡."
-SD2VITA_5_WARNING =							"举例: H-encore, Vitashell/ONEMenu, pkgj, adrenaline, 等等... "
+SD2VITA_5_WARNING =							"举例: H-encore, Vitashell/ONEMenu, PKGJ, adrenaline, 等等... "
 SD2VITA_GAMECARD_DETECTED =					"检测到游戏卡带!"
 SD2VITA_GAMECARD_REMOVED =					"安装之前需要移除"
 SD2VITA_INSTALL =							"继续安装"
@@ -105,9 +105,9 @@ CUSTOMBOOTSPLASH_NOPNG_FOUND =				"ux0:CustomBootsplash 目录为空! "
 CUSTOMBOOTSPLASH_NOPNG =					"格式兼容的 PNG"
 
 --pspctrls
-PSPCTRLS_TITLE =							"Remastered Controls 插件 | 开发者 Theflow (Adrenaline)"
+PSPCTRLS_TITLE =							"Remastered Controls 插件 | 开发者 TheOfficialFloW (Adrenaline)"
 PSPCTRLS_GAME_UPDATED =						"game.txt 已更新"
-PSPCTRLS_DESC =								"Adrenaline 模拟器上适用于 PSP 游戏的双摇杆补丁合集"
+PSPCTRLS_DESC =								"肾上腺素模拟器上适用于 PSP 游戏的双摇杆补丁合集"
 PSPCTRLS_LR_SWAP =							"切换分区"
 
 --plugins online
@@ -126,7 +126,7 @@ UPDATE_CHECK_VITACHEAT_DB =					"正在检查 Vitacheat 数据库"
 INSTALLP_DESC_NONPDRM =						"允许你绕过 PSVita 游戏的 DRM 保护机制"
 INSTALLP_DESC_MINIVITATV = 					"允许你和最多4位朋友在 PSVita 上玩本地多人游戏"
 INSTALLP_DESC_NOPSMDRM =					"允许你绕过 PSM 游戏的 DRM 保护机制"
-INSTALLP_DESC_VITABRIGHT =					"让 PSV 使用自定义伽玛值，从而将亮度降低到最小值以下，或者将其增加到最大值以上"
+INSTALLP_DESC_VITABRIGHT =					"使您可以使用自定义伽玛值，从而将亮度降低到最小值以下，或者将其增加到最大值以上"
 INSTALLP_DESC_NOAVLS =						"为强制开启 AVLS 的机型禁用该特性"
 INSTALLP_DESC_REPATCH =						"允许修改加密游戏(类似于 ux0:patch),并允许对游戏打补丁绕过最低固件要求"
 INSTALLP_DESC_LOLICON =						"通过从内核运行的小型 Vita shell 实现实际超频"
@@ -167,7 +167,7 @@ INSTALLP_DESC_RESKYPE =						"只需一个简单的插件即可在 3.65+ 固件�
 INSTALLP_DESC_AUTOBOOT =					"此插件令 ENSO 设备开机后自动运行应用程序.就像 AutoStart 在 PSP 上做的那样"
 
 --ALL
-INSTALLP_DESC_VSHMENU =						"用于 PSVITA 游戏和自制软件的 VSH 菜单插件"
+INSTALLP_DESC_VSHMENU =						"用于 PS VITA 游戏和自制软件的 VSH 菜单插件"
 INSTALLP_DESC_VITAGRAFIX =					"此插件允许你修改 PS Vita 游戏运行的画面解析度和 FPS"
 INSTALLP_DESC_OVERCLOCK =					"适用于大变革的简易超频插件"
 INSTALLP_DESC_FRAMECOUNTER =				"这是一个用作 FPS 计数器的小插件.它将在屏幕的左上方显示一个 FPS 计数器"
