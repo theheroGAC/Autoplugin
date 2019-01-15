@@ -35,7 +35,7 @@ MENU_INSTALL_REMASTERED_CTRLS =				"Install RemasteredControls plugins from TheO
 
 MENU_CONVERTBOOTSPLASH =					"Set Custom Boot Splash"
 MENU_CUSTOMWARNING =						"Set Custom Warning Message"
-MENU_INSTALL_CONFIG =						"Install config.txt for PKGJ v0.44+"
+MENU_INSTALL_CONFIG =						"Install config.txt for PKGJ v0.45+"
 MENU_INSTALL_CONFIG_DESC =					"Install config.txt for PKGJ (Require Wifi)"
 MENU_INSTALLED_CONFIG =						"ux0:pkgi/config.txt for PKGJ has been installed!"
 MENU_QENCORE =						        "Install Q-Encore by Yoti"
