@@ -23,7 +23,7 @@ end
 
 function onAppInstall(step, size_argv, written, file, totalsize, totalwritten)
 
-	if step == 1 then												-- Only msg of state
+    if step == 1 then												-- Only msg of state
 		if update then update:blit(0,0) end
 			draw.fillrect(0,0,960,30, color.green:a(100))
 			screen.print(10,10,"Search in vpk, Unsafe or Dangerous files!")
