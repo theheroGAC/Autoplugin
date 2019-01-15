@@ -105,7 +105,7 @@ CUSTOMBOOTSPLASH_NOPNG_FOUND =				"¡ux0:CustomBootsplash VACÍO!"
 CUSTOMBOOTSPLASH_NOPNG =					"El formato compatible es PNG"
 
 --pspctrls
-PSPCTRLS_TITLE =							"Plugin Remastered Controls de TheOfficialFloW (Adrenaline)""
+PSPCTRLS_TITLE =							"Plugin Remastered Controls de TheOfficialFloW (Adrenaline)"
 PSPCTRLS_GAME_UPDATED =						"game.txt actualizado"
 PSPCTRLS_DESC =							"Colección de parches para Adrenaline que permite usar los dos análogos en determinados juegos de PSP"
 PSPCTRLS_LR_SWAP =							"Para cambiar de Partición"
