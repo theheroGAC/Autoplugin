@@ -51,9 +51,9 @@ while true do
 
 	local y = 160
 	for i=scrollm.ini, scrollm.lim do
-		if i == scrollm.sel then draw.offsetgradrect(0,y-15,960,40,color.shine:a(55),color.shine:a(105),0x0,0x0,21) end
-		screen.print(480,y,menu[i].text,1.5,color.white, 0x0, __ACENTER)
-		y+=45
+		if i == scrollm.sel then draw.offsetgradrect(0,y-10,960,32,color.shine:a(55),color.shine:a(105),0x0,0x0,21) end
+		screen.print(480,y,menu[i].text,1.2,color.white, 0x0, __ACENTER)
+		y+=38
 	end
 
 	screen.flip()
