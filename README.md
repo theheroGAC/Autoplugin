@@ -48,7 +48,7 @@ You no longer need to add "- load ur0: tai / custom_boot_splash.skprx"
 # Small note for the translation of the language for Chinese friends
 Download the **font.pgf** file(here https://github.com/theheroGAC/Autoplugin/blob/master/translations/font/font.pgf ) and insert it in the path **ux0:data/autoplugin/font** (Remember if the font folder does not exist you have to create it) for fix translation in Chinese
 # Nightly version
-During the week there will be Nightly versions (here https://github.com/theheroGAC/Autoplugin/blob/master/Nightly/RELEASE/Autoplugin%20Nightly.vpk ) for the testers with the changes to the source code. On the weekend a stable release
+During the week there will be Nightly versions (here https://github.com/theheroGAC/Autoplugin/blob/master/Nightly/RELEASE/Autoplugin%20Nightly.vpk) for the testers with the changes to the source code. On the weekend a stable release
 # Credits:
  Thank you
 - Team OneLua
