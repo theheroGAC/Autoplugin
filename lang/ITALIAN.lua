@@ -150,7 +150,7 @@ ITALIAN["INSTALLP_DESC_MINIVITATV"] =					"Ti permette di giocare partite multip
 ITALIAN["INSTALLP_DESC_NOPSMDRM"] =					  "Permette di bypassare la protezione DRM sui contenuti di gioco PSM"
 ITALIAN["INSTALLP_DESC_VITABRIGHT"] =					"Plugin che consente di utilizzare una tabella gamma personalizzata e quindi ridurre la luminosità al di sotto del minimo e aumentarla al di sopra del massimo"
 ITALIAN["INSTALLP_DESC_NOAVLS"] =						  "Plugin che disabiliterà permanentemente AVLS su PSVITA"
-ITALIAN["INSTALLP_DESC_REPATCH"] =						"Allows modding of encrypted games (similar to ux0:patch) and enables game patching to bypass minimum firmware requirement"
+ITALIAN["INSTALLP_DESC_REPATCH"] =						"Consente il modding dei giochi crittografati (simile a ux0:patch) e consente di patchare un gioco per bypassare il requisito minimo del firmware"
 ITALIAN["INSTALLP_DESC_LOLICON"] =						"Plugin che consente l'overclocking della PSVITA a 500 MHz (Prestare molta attenzione)"
 ITALIAN["INSTALLP_DESC_DS3VITA"] =						"Controlla la tua PSVita utilizzando un DualShock 3"
 ITALIAN["INSTALLP_DESC_DS4VITA"] =						"Controlla la tua PSVita utilizzando un DualShock 4"
@@ -167,7 +167,7 @@ ITALIAN["INSTALLP_DESC_NOPSMWHITE"] =					"Disabilita la Whitelist della PSTV pe
 ITALIAN["INSTALLP_DESC_ANALOGSTICK"] =			  "Plugin per disattivare completamente la levetta analogica della PSVita"
 ITALIAN["INSTALLP_DESC_CIDSPOOF"] =					  "Permette lo Spoof del CID (ConsoleID) su PSVITA(Potrebbe essere utilizzato per sbannare la console dal PSN)"
 ITALIAN["INSTALLP_DESC_MAKEPSM"] =					  "Modifica le applicazioni per sviluppatore PSM"
-ITALIAN["INSTALLP_DESC_REFOOD"] =						  "Un plugin per eseguire programmi che non vengono decrittografati correttamente."
+ITALIAN["INSTALLP_DESC_REFOOD"] =						  "Un plugin per eseguire programmi che non vengono decrittografati correttamente(bypassa il requisito minimo del firmware)."
 
 --Boot_config.txt
 ITALIAN["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =		 "Questo plugin può visualizzare/personalizzare il Boot Splash su PS Vita/PSTV all'avvio. Richiede ENSO"
