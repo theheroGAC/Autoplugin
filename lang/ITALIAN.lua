@@ -177,15 +177,15 @@ ITALIAN["INSTALLP_DESC_SPLASHGH"] =					"The size of the image should be: 960 * 
 ITALIAN["INSTALLP_DESC_BOOTSPLASHDONE"] =				"boot_splash.bin DONE !!!"
 
 --MAIN
-ITALIAN["INSTALLP_DESC_DENABLER"] =					"Download files through your browser"
-ITALIAN["INSTALLP_DESC_NOLOCKSCREEN"] =				"Disables the lockscreen found on the PSVita"
-ITALIAN["INSTALLP_DESC_NOTROPHYMSG"] =					"Disables the trophy hint message when you launch application whose savedatas are linked to a different account. Useful if you constantly switch accounts"
-ITALIAN["INSTALLP_DESC_CUSTOMWARNING"] =				"Allows you to set a custom warning message instead of the epilepsy warning when you bootup with ENSO"
+ITALIAN["INSTALLP_DESC_DENABLER"] =					"Permette di scaricare i file dal tuo browser"
+ITALIAN["INSTALLP_DESC_NOLOCKSCREEN"] =				"Disattiva la schermata di blocco su PSVita"
+ITALIAN["INSTALLP_DESC_NOTROPHYMSG"] =					"Disabilita il messaggio dei suggerimenti dei trofei quando lanci un'applicazione collegato a un altro account. Utile se cambi continuamente account"
+ITALIAN["INSTALLP_DESC_CUSTOMWARNING"] =				"Consente di impostare un messaggio di avviso personalizzato anziché l'avviso di epilessia all'avvio con ENSO"
 ITALIAN["INSTALLP_DESC_SHELLBAT"] =					"Battery percent in statusbar"
 ITALIAN["INSTALLP_DESC_SHELLSECBAT"] =					"Battery percent in statusbar: ShellBat and LastSeconds fusion"
 ITALIAN["INSTALLP_DESC_PNGSHOT"] =						"pngshot is a plugin to make screenshots great again (.PNG)"
 ITALIAN["INSTALLP_DESC_VFLUX"] =						"Screen filter plugin for PS Vita"
-ITALIAN["INSTALLP_DESC_RESKYPE"] =						"Just a simple plugin to enable the Skype app on 3.65+"
+ITALIAN["INSTALLP_DESC_RESKYPE"] =						"Un semplice plugin per abilitare l'app di Skype su 3,65 +"
 ITALIAN["INSTALLP_DESC_AUTOBOOT"] =					"This plugin simply auto-launch an application right after enso startup like AutoStart used to do on PSP"
 
 --ALL
