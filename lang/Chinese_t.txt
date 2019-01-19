@@ -1,0 +1,178 @@
+--Translates
+
+STRING_UNSAFE_MODE =					    "需要在Henkaku設定中啟用不安全自製軟件模式！"
+STRING_PSVITA_RESTART =				        "您的PSVita即將重新啟動"
+STRING_BACKUP_CONFIGS =			          	"正在創建Config_backups.txt"
+STRING_MISSING_CONFIG =				        "找不到config.txt"
+STRING_BACK =							    "返回主菜單"
+STRING_CLOSE =						        "退出 Autoplugin"
+STRING_INSTALLED =					        "已完成安裝"
+STRING_PLEASE_WAIT =				        "請稍候"
+RESTART_QUESTION =					        "您想現在重啓嗎?"
+
+--Options Menus
+MENU_TITLE =                                "Autoplugin"
+MENU_PSVITA =                               "PSVITA外掛程式"
+MENU_PSP =                                	"PSP(Adrenaline)外掛程式"
+MENU_EXTRAS =                               "附加功能"
+MENU_EXIT =						            "退出"
+
+--Desc Options PSVITA
+INSTALL_PLUGINS_DESC =						"安裝為SCENE-PSVITA製作的最有用的外掛程式"
+UNINSTALL_PLUGINS_DESC =					"輕鬆簡單地卸載外掛程式"
+INSTALL_SD2VITA_DESC =						"安装SD2VITA外掛程式(StorageMgr,由CelesteBlue開發)"
+CHECK_ONLINEP_DESC =						"外掛程式更新檢查（需要Wifi）"
+
+MENU_TITLE_PSVITA =							"PSVITA選項"
+MENU_INSTALL_SD2VITA =						"安裝SD2VITA外掛程式"
+MENU_INSTALL_PLUGINS =						"安裝外掛程式"
+MENU_UNINSTALL_PLUGINS =					"卸載外掛程式"
+MENU_CHECK_ONLINEP =						"外掛程式更新檢查"
+
+MENU_TITLE_PSP =							"PSP(Adrenaline)選項"
+MENU_INSTALL_NPDRMFREE =					"安裝npdrm free外掛程式(由qwikrazor87開發)"
+MENU_INSTALL_REMASTERED_CTRLS =				"安裝RemasteredControls外掛程式(由TheOfficialFloW開發)"
+
+MENU_CONVERTBOOTSPLASH =					"自訂啟動畫面"
+MENU_CUSTOMWARNING =						"自訂警示訊息"
+MENU_INSTALL_CONFIG =						"為PKGJ v0.44+安裝config.txt"
+MENU_INSTALL_CONFIG_DESC =					"為PKGJ安裝config.txt (需要Wifi)"
+MENU_INSTALLED_CONFIG =						"PKGJ配置文件ux0:pkgi/config.txt已安裝"
+MENU_QENCORE =						        "安裝Q-Encore(由Yoti開發)"
+MENU_QENCORE_DESC =						    "由Yoti開發的快速h-encore啟動器(警告:必須已安裝h-encore)"
+
+MENU_QENCORE_ASK =		                    "Q-Encore應被安裝至"
+MENU_INSTALLED_QENCORE =				    "Q-Encore已被安裝至"
+MENU_NOT_INSTALLED_QENCORE =                "Q-Encore未被安裝至"
+MENU_QENCORE_PATCHED =                   	"Q-Encore已修補!"
+MENU_QENCORE_NOT_PATCHED =             		"Q-Encore未修補!"
+
+MENU_QENCORE_NOGAME =					    "必須安裝H-Encore才能使用Q-Encore進行修補!"
+
+--install sd2vita
+MENU_TITLE_SD2VITA =						"為SD2VITA設備安裝Storage Manager外掛程式"
+SD2VITA_1_WARNING =							"您必須準備好sd2vita設備後才能安裝Storage Manager外掛程式"
+SD2VITA_2_WARNING =							"若插入了遊戲卡,則必須在重啟之前將其移除!"
+SD2VITA_3_WARNING =							"十分重要: 您的sd2vita設備必須已存入一些軟件,您才可以從原裝記憶卡"
+SD2VITA_4_WARNING =							"複製必要的軟件到sd2vita記憶卡."
+SD2VITA_5_WARNING =							"舉例:H-encore,Vitashell/ONEMenu,PKGJ,Adrenaline,等等..."
+SD2VITA_GAMECARD_DETECTED =					"檢測到遊戲卡!"
+SD2VITA_GAMECARD_REMOVED =					"安裝之前需要移除"
+SD2VITA_INSTALL =							"繼續安裝"
+SD2VITA_CANCEL =							"取消安裝"
+
+--install plugins
+INSTALLP_LIST_PLUGINS =						"可供安裝的外掛程式列表:"
+INSTALLP_MARK =								"標記/取消標記外掛程式"
+INSTALLP_CONFIRM =							"安裝外掛程式"
+INSTALLP_ALL =								"安裝所有外掛程式"
+INSTALLP_CLEAN =							"清除選中的外掛程式"
+INSTALLP_LR_SWAP =							"切換ux0/ur0"
+INSTALLP_CUSTOM_PATH =						"安裝到自訂目錄"
+
+INSTALLP_VITABRIGHT_360 =					"Vitabright僅適用於3.60/H-encore 3.68固件"
+INSTALLP_CWARNING_360_365 =					"自訂警示訊息無法用於3.67/3.68固件"
+INSTALLP_QUESTION_SHELLSECBAT =				"\n               檢測到shellsecbat外掛程式!!!\n\n安裝shellbat外掛程式並卸載shellsecbat外掛程式?"
+INSTALLP_QUESTION_SHELLBAT =				"\n               檢測到shellbat外掛程式!!!\n\n安裝shellsecbat外掛程式並卸載shellbat外掛程式?"
+
+INSTALLP_WARNING_REFOOD =					"Ref00d將被安裝到ur0:/tai"
+INSTALLP_OSK_TITLE =						"自訂警示文本"
+INSTALLP_OSK_TEXT =							"在此輸入文本"
+
+--Uninstall plugins
+UNINSTALLP_TITLE =							"外掛程式管理器"
+UNINSTALLP_NOCONFIG_FOUND =					"在這裡找不到config.txt文件: "
+UNINSTALLP_PLUGIN =							"卸載外掛程式"
+UNINSTALLP_LEFTRIGHT_SECTION =				"<--/--> 切換選項"
+
+--npdrm free
+NPDRMFREE_TITLE =							"安裝NPDRM FREE外掛程式(由Qwik開發)"
+NPDRMFREE_INSTALLED =						"npdrm free已安裝"
+NPDRMFREE_VSH_UPDATED =						"vsh.txt已更新"
+NPDRMFREE_GAME_UPDATED =					"game.txt已更新"
+NPDRMFREE_INSTALL =							"安裝npdrm free外掛程式"
+NPDRMFREE_DESC =							"一個PSP/ePSP外掛程式,無需有效的.rif許可證或act.dat即可運行官方NPDRM PS1/PSP內容."
+
+--customWaning
+CUSTOMWARNING_MESSAGE =						"請記得啟用Custom Warning外掛程式"
+
+--customsplash
+CUSTOMBOOTSPLASH__TITLE =					"自訂啟動畫面"
+CUSTOMBOOTSPLASH_CONVERT =					"更換圖片"
+CUSTOMBOOTSPLASH_IMPORT =					"從圖庫導入圖片(僅支援PNG)"
+CUSTOMBOOTSPLASH__MESSAGE =					"請記得啟用Custom Boot Splash外掛程式"
+CUSTOMBOOTSPLASH_NOPNG_FOUND =				"ux0:CustomBootsplash目錄為空! "
+CUSTOMBOOTSPLASH_NOPNG =					"格式兼容的PNG"
+
+--pspctrls
+PSPCTRLS_TITLE =							"Remastered Controls外掛程式{開發者TheOfficialFloW(Adrenaline)}"
+PSPCTRLS_GAME_UPDATED =						"game.txt已更新"
+PSPCTRLS_DESC =								"Adrenaline模擬器上適用於PSP遊戲的雙搖桿補丁合集"
+PSPCTRLS_LR_SWAP =							"切換分區"
+
+--plugins online
+UPDATE_WIFI_LOW =							"Wifi信號較差"
+UPDATE_WIFI_IS_ON =							"需要Wifi連接"
+UPDATE_CHECK_DB =							"正在檢查數據庫"
+UPDATE_PLUGIN =								"已更新外掛程式"
+UPDATE_ERROR_DB =							"下載db.lua過程出錯"
+UPDATE_NO_NEWS =							"所有外掛程式均已更新至最新版"
+UPDATE_VITACHEAT_DB =						"為Vitacheat更新金手指數據庫?"
+UPDATE_VITACHEAT_DB_WRITE =					"原有文件將被覆蓋!"
+UPDATE_CHECK_VITACHEAT_DB =					"正在檢查Vitacheat數據庫"
+
+--descriptions plugins
+--KERNEL
+INSTALLP_DESC_NONPDRM =						"允許你繞過PSVita遊戲的DRM保護機制"
+INSTALLP_DESC_MINIVITATV = 					"允許你和最多4位好友在PSVita上玩本地多人遊戲"
+INSTALLP_DESC_NOPSMDRM =					"允許你繞過PSM遊戲的DRM保護機制"
+INSTALLP_DESC_VITABRIGHT =					"使您可以使用自訂伽瑪值,從而將亮度降低到最小值以下,或者將其增加到最大值以上"
+INSTALLP_DESC_NOAVLS =						"為強制開啟AVLS的機型禁用該特性"
+INSTALLP_DESC_REPATCH =						"允許修改加密遊戲(類似於ux0:patch),並允許對遊戲裝補丁繞過最低固件要求"
+INSTALLP_DESC_LOLICON =						"通過從內核運行的小型Vita shell實現實際超頻"
+INSTALLP_DESC_DS3VITA =						"使用DualShock 3手柄控制PSV"
+INSTALLP_DESC_DS4VITA =						"使用DualShock 4手柄控制PSV"
+INSTALLP_DESC_UDCDUVC =						"使你能將Vita屏幕流式傳輸到PC上"
+INSTALLP_DESC_VIIMOTE =						"使用WiiMote控制器控制你的Vita"
+INSTALLP_DESC_KUIO =						"允許用戶模塊訪問ux0:data目錄進行基本的I/O操作.對某些特定外掛程式可能是必需的"
+INSTALLP_DESC_ADRENALINE =					"讓您只需輕輕一按即可運行Adrenaline"
+INSTALLP_DESC_DSMOTION = 					"為PlayStation TV提供DualShock控制器支持"
+INSTALLP_DESC_USBMC = 						"將USB存儲設備設置為Vita記憶卡"
+INSTALLP_DESC_ANALOGSENHANCER =				"此內核外掛程式允許用戶提升PSVITA搖桿體驗"
+INSTALLP_DESC_IOPLUS =						"此內核外掛程式允許在用戶空間中進行更多的IO操作"
+INSTALLP_DESC_VITACHEAT =					"在PSVita遊戲裡使用金手指"
+INSTALLP_DESC_NOPSMWHITE =					"為PSM遊戲禁用PSTV白名單"
+INSTALLP_DESC_ANALOGSTICK =					"用於徹底禁用PSVita搖桿"
+INSTALLP_DESC_CIDSPOOF =					"用於PSV偽裝CID(設備ID)(也許可以用於解除PSN對您設備的封鎖)"
+INSTALLP_DESC_MAKEPSM =						"修改PSM Dev程式"
+INSTALLP_DESC_REFOOD =						"用於運行無法正確解密的程式"
+
+--Boot_config.txt
+INSTALLP_DESC_CUSTOMBOOTSPLASH =			"此外掛程式將在PS Vita/PSTV啟動時顯示自訂啟動畫面.需要ENSO"
+INSTALLP_DESC_CONVERTBOOTSPLASH =			"將您的啟動圖設置為自訂啟動畫面?"
+INSTALLP_DESC_NOFINDSPLASH =				"請將您選擇的圖片放在ux0:CustomBootsplash/\n(重命名為splash.png並將尺寸修改為960x544)"
+INSTALLP_DESC_SPLASHGH =					"圖片的分辨率應當為: 960 * 544"
+INSTALLP_DESC_BOOTSPLASHDONE =				"boot_splash.bin修改完成!!!"
+
+--MAIN
+INSTALLP_DESC_DENABLER =					"通過瀏覽器下載文件"
+INSTALLP_DESC_NOLOCKSCREEN =				"在PSVita上禁用鎖屏"
+INSTALLP_DESC_NOTROPHYMSG =					"當您啟動包含其他賬戶檔案的程式時,禁用無法獲取獎杯的提示框.對經常切換賬戶的用戶來說很實用"
+INSTALLP_DESC_CUSTOMWARNING =				"當使用ENSO系統開機時,你可以設置自訂警告訊息替代癲癇警告"
+INSTALLP_DESC_SHELLBAT =					"在狀態欄顯示電量百分比"
+INSTALLP_DESC_SHELLSECBAT =					"在狀態欄顯示電量百分比:融合了ShellBat和LastSeconds的功能"
+INSTALLP_DESC_PNGSHOT =						"pngshot讓截圖變得更好(.PNG格式)"
+INSTALLP_DESC_VFLUX =						"PSVita屏幕過濾外掛程式"
+INSTALLP_DESC_RESKYPE =						"只需一個簡單的外掛程式即可在3.65+固件上啟用Skype程式"
+INSTALLP_DESC_AUTOBOOT =					"此外掛程式令ENSO設備開機後自動運行應用程式.就像AutoStart在PSP上做的那樣"
+
+--ALL
+INSTALLP_DESC_VSHMENU =						"用於PS VITA游戲和自製程式的VSH菜單外掛程式"
+INSTALLP_DESC_VITAGRAFIX =					"此外掛程式允許你修改PS Vita遊戲運行的畫面解析度和幀率"
+INSTALLP_DESC_OVERCLOCK =					"適用於大變革的簡易超頻插件"
+INSTALLP_DESC_FRAMECOUNTER =				"這是一個用作FPS計數器的外掛程式.它將在屏幕的左上方顯示一個FPS計數器"
+INSTALLP_DESC_VGI =							"一個簡單的taihen外掛程式.用於顯示PSV遊戲的實用信息"
+INSTALLP_DESC_FUCKPSSE =					"一個用於解密PSM遊戲的外掛程式"
+INSTALLP_DESC_PSMPATCH =					"允許您修改PSM遊戲,也可用於加載PSM自製程式"
+INSTALLP_DESC_ITLSENSO =					"將TLS v1.2添加到啟用ENSO的設備(需要安裝該程式的vpk)"
+INSTALLP_DESC_TROPHAX =						"PSVITA通用獎杯解鎖器"
