@@ -74,7 +74,7 @@ function install()
 		screen.print(35, 525, language["SD2VITA_CANCEL"], 1, color.white, color.blue, __ALEFT)
 
 		if buttonskey2 then buttonskey2:blitsprite(930, 523, 1) end
-		screen.print(925, 525, STRING_CLOSE, 1, color.white, color.red, __ARIGHT)
+		screen.print(925, 525, language["STRING_CLOSE"], 1, color.white, color.red, __ARIGHT)
 
 		screen.flip()
 
