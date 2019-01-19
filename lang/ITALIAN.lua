@@ -71,7 +71,7 @@ ITALIAN["SD2VITA_GAMECARD_REMOVED"] =				 "Rimuovi prima di installare"
 ITALIAN["SD2VITA_INSTALL"] =							   "Per procedere con l'installazione"
 ITALIAN["SD2VITA_CANCEL"] =							     "Per annullare l'installazione"
 ITALIAN["SD2VITA_INVALID_CONFIG"] =          "Configurazione non valida!\n\nControlla che tutti i punti di montaggio sono unici o impostato su none\ne ux0 è impostato."
-ITALIAN["SD2VITA_UPDATED_CONFIG"] =                    "Storage Manager Config Updated!"
+ITALIAN["SD2VITA_UPDATED_CONFIG"] =                    "Storage Manager Config Aggiornato!"
 ITALIAN["MOUNT_NONE_FRIENDLY"] =                       "Unmounted"
 ITALIAN["MOUNT_UX0_FRIENDLY"] =                        "LiveArea Applications"
 ITALIAN["MOUNT_XMC0_FRIENDLY"] =                       "Inutilizzati"
@@ -94,43 +94,43 @@ ITALIAN["INSTALLP_CUSTOM_PATH"] =						           "Installa nel percorso persona
 
 ITALIAN["INSTALLP_VITABRIGHT_360"] =					         "Vitabright funziona solo per 3.60/H-encore 3.68"
 ITALIAN["INSTALLP_CWARNING_360_365"] =					       "Custom Warning non funziona su 3.67/3.68"
-ITALIAN["INSTALLP_QUESTION_SHELLSECBAT"] = 			       "\nPlugin shellsecbat detected!\n\nInstall shellbat instead and uninstall shellsecbat ?"
-ITALIAN["INSTALLP_QUESTION_SHELLBAT"] =				         "\nPlugin shellbat detected!\n\nInstall shellsecbat instead and uninstall shellbat ?"
+ITALIAN["INSTALLP_QUESTION_SHELLSECBAT"] = 			       "\nPlugin shellsecbat RILEVATO !!!\n\nInstallare shellbat e cancellare shellsecbat ?"
+ITALIAN["INSTALLP_QUESTION_SHELLBAT"] =				         "\nPlugin shellbat RILEVATO !!!\n\nInstallare shellsecbat e cancellare shellbat ?"
 
 ITALIAN["INSTALLP_WARNING_REFOOD"] =					         "Il Plugin Refood per funzionare deve essere installato su ur0:/tai"
-ITALIAN["INSTALLP_OSK_TITLE"] =						             "Text for Custom Warning"
+ITALIAN["INSTALLP_OSK_TITLE"] =						             "Testo per Custom Warning"
 ITALIAN["INSTALLP_OSK_TEXT"] =							           "Inserisci il testo qui"
 
 --Uninstall plugins
 ITALIAN["UNINSTALLP_TITLE"] =							             "Plugins Manager"
-ITALIAN["UNINSTALLP_NOCONFIG_FOUND"] =					       "No config.txt found at: "
-ITALIAN["UNINSTALLP_PLUGIN"] =							           "To uninstall plugin"
-ITALIAN["UNINSTALLP_LEFTRIGHT_SECTION"] =				       "<--/--> To switch section"
+ITALIAN["UNINSTALLP_NOCONFIG_FOUND"] =					       "Nessun file config.txt trovato su: "
+ITALIAN["UNINSTALLP_PLUGIN"] =							           "Per disinstallare i plugin"
+ITALIAN["UNINSTALLP_LEFTRIGHT_SECTION"] =				       "<--/--> Per cambiare sezione"
 
 --npdrm free
-ITALIAN["NPDRMFREE_TITLE"] =							"Installa il plugin NPDRM FREE di Qwik"
+ITALIAN["NPDRMFREE_TITLE"] =							"Installa il plugin NPDRM FREE di qwikrazor87"
 ITALIAN["NPDRMFREE_INSTALLED"] =						"npdrm free installato"
 ITALIAN["NPDRMFREE_VSH_UPDATED"] =						"vsh.txt aggiornato"
 ITALIAN["NPDRMFREE_GAME_UPDATED"] =					"game.txt aggiornato"
 ITALIAN["NPDRMFREE_INSTALL"] =							"Installa il plugin npdrm free"
-ITALIAN["NPDRMFREE_DESC"] =							"A PSP/ePSP plugin to run official NPDRM PS1/PSP content without need of a valid .rif license or act.dat."
+ITALIAN["NPDRMFREE_DESC"] =							"Un plugin PSP/ePSP plugin per eseguire contenuti ufficiali NPDRM PS1/PSP senza bisogno di una licenza valida .Rif o Act.dat."
 
 --customWaning
-ITALIAN["CUSTOMWARNING_MESSAGE"] =						"Remember to enable the Custom Warning plugin"
+ITALIAN["CUSTOMWARNING_MESSAGE"] =						"Ricordati di abilitare il plugin Custom Warning"
 
 --customsplash
 ITALIAN["CUSTOMBOOTSPLASH__TITLE"] =					"Custom Boot Splash"
-ITALIAN["CUSTOMBOOTSPLASH_CONVERT"] =					"To convert image"
-ITALIAN["CUSTOMBOOTSPLASH_IMPORT"] =					"Import a image from your Gallery (only PNG)"
-ITALIAN["CUSTOMBOOTSPLASH__MESSAGE"] =					"Remember to enable the Custom Boot Splash plugin"
+ITALIAN["CUSTOMBOOTSPLASH_CONVERT"] =					"Per convertire l'immagine"
+ITALIAN["CUSTOMBOOTSPLASH_IMPORT"] =					"Importa un'immagine dalla Galleria (solo PNG)"
+ITALIAN["CUSTOMBOOTSPLASH__MESSAGE"] =					"Ricordati di abilitare il plugin Custom Boot Splash"
 ITALIAN["CUSTOMBOOTSPLASH_NOPNG_FOUND"] =				"ux0:CustomBootsplash VUOTO! "
-ITALIAN["CUSTOMBOOTSPLASH_NOPNG"] =					"Format Compatible PNG"
+ITALIAN["CUSTOMBOOTSPLASH_NOPNG"] =					"Formato Compatibile PNG"
 
 --pspctrls
-ITALIAN["PSPCTRLS_TITLE"] =							"Remastered Controls plugins from TheOfficialFloW (Adrenaline)"
+ITALIAN["PSPCTRLS_TITLE"] =							"Remastered Controls plugins di TheOfficialFloW (Adrenaline)"
 ITALIAN["PSPCTRLS_GAME_UPDATED"] =						"game.txt aggiornato"
-ITALIAN["PSPCTRLS_DESC"] =								"A collection of dual analog patches for PSP games on Adrenaline"
-ITALIAN["PSPCTRLS_LR_SWAP"] =							"To swap partitions"
+ITALIAN["PSPCTRLS_DESC"] =								"Una raccolta di patch per gli analogici per i giochi PSP su Adrenaline"
+ITALIAN["PSPCTRLS_LR_SWAP"] =							"Per cambiare partizione"
 
 --plugins online
 ITALIAN["UPDATE_WIFI_LOW"] =							"Wifi Low Signal"
