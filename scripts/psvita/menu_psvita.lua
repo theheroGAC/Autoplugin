@@ -33,10 +33,10 @@ function menu_ps()
 	end
 
 	local menu_psvita = {
-		{ text = MENU_INSTALL_PLUGINS,		desc = INSTALL_PLUGINS_DESC,	funct = installp_callback },
-		{ text = MENU_UNINSTALL_PLUGINS,	desc = UNINSTALL_PLUGINS_DESC,	funct = uinstallp_callback },
-		{ text = MENU_INSTALL_SD2VITA,		desc = INSTALL_SD2VITA_DESC,	funct = sd2vita_callback },
-		{ text = MENU_CHECK_ONLINEP,		desc = CHECK_ONLINEP_DESC,		funct = onlineplugins_callback },
+		{ text = language["MENU_INSTALL_PLUGINS"],		desc = language["INSTALL_PLUGINS_DESC"],	funct = installp_callback },
+		{ text = language["MENU_UNINSTALL_PLUGINS"],	desc = language["UNINSTALL_PLUGINS_DESC"],	funct = uinstallp_callback },
+		{ text = language["MENU_INSTALL_SD2VITA"],		desc = language["INSTALL_SD2VITA_DESC"],	funct = sd2vita_callback },
+		{ text = language["MENU_CHECK_ONLINEP"],		desc = language["CHECK_ONLINEP_DESC"],		funct = onlineplugins_callback },
 	}
 	local scrollps = newScroll(menu_psvita,#menu_psvita)
 
@@ -47,7 +47,7 @@ function menu_ps()
 		if back then back:blit(0,0) end
 		if psvita then psvita:blit(0,64,45) end
 
-		screen.print(480,25,MENU_TITLE_PSVITA,1.3,color.green, 0x0, __ACENTER)
+		screen.print(480,25,language["MENU_TITLE_PSVITA"],1.3,color.green, 0x0, __ACENTER)
 
 		local y = 160
 		for i=scrollps.ini, scrollps.lim do

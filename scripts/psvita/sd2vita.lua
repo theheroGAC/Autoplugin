@@ -10,11 +10,11 @@
 ]]
 
 function install()
-	lenw1 = screen.textwidth(SD2VITA_1_WARNING)
-	lenw2 = screen.textwidth(SD2VITA_2_WARNING)
-	lenw3 = screen.textwidth(SD2VITA_3_WARNING)
-	lenw4 = screen.textwidth(SD2VITA_4_WARNING)
-	lenw5 = screen.textwidth(SD2VITA_5_WARNING)
+	lenw1 = screen.textwidth(language["SD2VITA_1_WARNING"])
+	lenw2 = screen.textwidth(language["SD2VITA_2_WARNING"])
+	lenw3 = screen.textwidth(language["SD2VITA_3_WARNING"])
+	lenw4 = screen.textwidth(language["SD2VITA_4_WARNING"])
+	lenw5 = screen.textwidth(language["SD2VITA_5_WARNING"])
 
 	local flag = false
 	local x_lenw1, x_lenw2, x_lenw3, x_lenw4, x_lenw5 = 25, 25, 25, 25, 25
@@ -22,44 +22,44 @@ function install()
 		buttons.read()
 		if back then back:blit(0, 0) end
 
-		screen.print(480, 18, MENU_TITLE_SD2VITA, 1.2, color.white, 0x0, __ACENTER)
+		screen.print(480, 18, language["MENU_TITLE_SD2VITA"], 1.2, color.white, 0x0, __ACENTER)
 
 		if lenw1 > 935 then
-			x_lenw1 = screen.print(x_lenw1, 80, SD2VITA_1_WARNING, 1, color.green, color.black, __SLEFT, 935)
+			x_lenw1 = screen.print(x_lenw1, 80, language["SD2VITA_1_WARNING"], 1, color.green, color.black, __SLEFT, 935)
 		else
-			screen.print(25, 80, SD2VITA_1_WARNING, 1, color.green, color.black, __ALEFT)
+			screen.print(25, 80, language["SD2VITA_1_WARNING"], 1, color.green, color.black, __ALEFT)
 		end
 
 		if lenw2 > 935 then
-			x_lenw2 = screen.print(x_lenw2, 110, SD2VITA_2_WARNING, 1, color.green, color.black, __SLEFT, 935)
+			x_lenw2 = screen.print(x_lenw2, 110, language["SD2VITA_2_WARNING"], 1, color.green, color.black, __SLEFT, 935)
 		else
-			screen.print(25, 110, SD2VITA_2_WARNING, 1, color.white, color.black, __ALEFT)
+			screen.print(25, 110, language["SD2VITA_2_WARNING"], 1, color.white, color.black, __ALEFT)
 		end
 
 		if lenw3 > 935 then
-			x_lenw3 = screen.print(x_lenw3, 150, SD2VITA_3_WARNING, 1, color.green, color.black, __SLEFT, 935)
+			x_lenw3 = screen.print(x_lenw3, 150, language["SD2VITA_3_WARNING"], 1, color.green, color.black, __SLEFT, 935)
 		else
-			screen.print(25, 150, SD2VITA_3_WARNING, 1, color.red, color.black, __ALEFT)
+			screen.print(25, 150, language["SD2VITA_3_WARNING"], 1, color.red, color.black, __ALEFT)
 		end
 
 		if lenw4 > 935 then
-			x_lenw4 = screen.print(x_lenw4, 175, SD2VITA_4_WARNING, 1, color.green, color.black, __SLEFT, 935)
+			x_lenw4 = screen.print(x_lenw4, 175, language["SD2VITA_4_WARNING"], 1, color.green, color.black, __SLEFT, 935)
 		else
-			screen.print(25, 175, SD2VITA_4_WARNING, 1, color.red, color.black, __ALEFT)
+			screen.print(25, 175, language["SD2VITA_4_WARNING"], 1, color.red, color.black, __ALEFT)
 		end
 
 		if lenw5 > 935 then
-			x_lenw5 = screen.print(x_lenw5, 210, SD2VITA_5_WARNING, 1, color.green, color.black, __SLEFT, 935)
+			x_lenw5 = screen.print(x_lenw5, 210, language["SD2VITA_5_WARNING"], 1, color.green, color.black, __SLEFT, 935)
 		else
-			screen.print(25, 210, SD2VITA_5_WARNING, 1, color.white, color.black, __ALEFT)
+			screen.print(25, 210, language["SD2VITA_5_WARNING"], 1, color.white, color.black, __ALEFT)
 		end
 
 		if files.exists("gro0:") then
 			local device_info = os.devinfo("gro0:")
 			if device_info then
 				flag = true
-				screen.print(480, 250, SD2VITA_GAMECARD_DETECTED, 1.5, color.white, color.orange, __ACENTER)
-				screen.print(480, 280, SD2VITA_GAMECARD_REMOVED, 1.3, color.white, color.orange, __ACENTER)
+				screen.print(480, 250, language["SD2VITA_GAMECARD_DETECTED"], 1.5, color.white, color.orange, __ACENTER)
+				screen.print(480, 280, language["SD2VITA_GAMECARD_REMOVED"], 1.3, color.white, color.orange, __ACENTER)
 			else
 				flag = false
 			end
@@ -67,11 +67,11 @@ function install()
 
 		if not flag then
 			if buttonskey then buttonskey:blitsprite(10, 448, saccept) end
-			screen.print(35, 450, SD2VITA_INSTALL, 1, color.white, color.blue, __ALEFT)
+			screen.print(35, 450, language["SD2VITA_INSTALL"], 1, color.white, color.blue, __ALEFT)
 		end
 
 		if buttonskey then buttonskey:blitsprite(10, 523, scancel) end
-		screen.print(35, 525, SD2VITA_CANCEL, 1, color.white, color.blue, __ALEFT)
+		screen.print(35, 525, language["SD2VITA_CANCEL"], 1, color.white, color.blue, __ALEFT)
 
 		if buttonskey2 then buttonskey2:blitsprite(930, 523, 1) end
 		screen.print(925, 525, STRING_CLOSE, 1, color.white, color.red, __ARIGHT)
@@ -81,7 +81,7 @@ function install()
 		--Exit
 		if buttons.start then
 			if change then
-				os.message(STRING_PSVITA_RESTART)
+				os.message(language["STRING_PSVITA_RESTART"])
 				os.delay(250)
 				buttons.homepopup(1)
 				power.restart()
@@ -91,7 +91,7 @@ function install()
 
 		if buttons[cancel] then return
 		elseif buttons[accept] then
-			if not flag then break else os.message(SD2VITA_GAMECARD_DETECTED) end
+			if not flag then break else os.message(language["SD2VITA_GAMECARD_DETECTED"]) end
 		end
 	end
 
@@ -136,34 +136,34 @@ function install()
 		buttons.homepopup(0)
 
 		if back then back:blit(0, 0) end
-		message_wait("PSVita-StorageMgr by CelesteBlue" .. "\n\n" .. STRING_INSTALLED)
+		message_wait("PSVita-StorageMgr by CelesteBlue" .. "\n\n" .. language["STRING_INSTALLED"])
 		os.delay(2000)
 
-		os.message(STRING_PSVITA_RESTART)
+		os.message(language["STRING_PSVITA_RESTART"])
 		os.delay(150)
 		buttons.homepopup(1)
 		power.restart()
 
 	else
-		os.message(STRING_MISSING_CONFIG)
+		os.message(language["STRING_MISSING_CONFIG"])
 	end
 end
 
 function configure()
 	local original = read_storage_config()
 	local mounts = {
-		{ name = "none", friendly = MOUNT_NONE_FRIENDLY, index = 1 },
-		{ name = "ux0", friendly = MOUNT_UX0_FRIENDLY, index = 2 },
-		{ name = "xmc0", friendly = MOUNT_XMC0_FRIENDLY, index = 3},
-		{ name = "imc0", friendly = MOUNT_IMC0_FRIENDLY, index = 4 },
-		{ name = "uma0", friendly = MOUNT_UMA0_FRIENDLY, index = 5 },
-		{ name = "grw0", friendly = MOUNT_GRW0_FRIENDLY, index = 6 },
+		{ name = "none", friendly = language["MOUNT_NONE_FRIENDLY"], index = 1 },
+		{ name = "ux0", friendly = language["MOUNT_UX0_FRIENDLY"], index = 2 },
+		{ name = "xmc0", friendly = language["MOUNT_XMC0_FRIENDLY"], index = 3},
+		{ name = "imc0", friendly = language["MOUNT_IMC0_FRIENDLY"], index = 4 },
+		{ name = "uma0", friendly = language["MOUNT_UMA0_FRIENDLY"], index = 5 },
+		{ name = "grw0", friendly = language["MOUNT_GRW0_FRIENDLY"], index = 6 },
 	}
 	local devices = {
-		{ name = "MCD", friendly = SD2VITA_MCD_FRIENDLY, mount = mounts[1] },
-		{ name = "INT", friendly = SD2VITA_INT_FRIENDLY, mount = mounts[1] },
-		{ name = "GCD", friendly = SD2VITA_GCD_FRIENDLY, mount = mounts[1] },
-		{ name = "UMA", friendly = SD2VITA_UMA_FRIENDLY, mount = mounts[1] }
+		{ name = "MCD", friendly = language["SD2VITA_MCD_FRIENDLY"], mount = mounts[1] },
+		{ name = "INT", friendly = language["SD2VITA_INT_FRIENDLY"], mount = mounts[1] },
+		{ name = "GCD", friendly = language["SD2VITA_GCD_FRIENDLY"], mount = mounts[1] },
+		{ name = "UMA", friendly = language["SD2VITA_UMA_FRIENDLY"], mount = mounts[1] }
 	}
 
 	devices = parse_mounts(devices, mounts, original)
@@ -174,10 +174,10 @@ function configure()
 		buttons.read()
 		if back then back:blit(0, 0) end
 
-		screen.print(480, 18, SD2VITA_CONFIG_TITLE, 1.2, color.white, 0x0, __ACENTER)
+		screen.print(480, 18, language["SD2VITA_CONFIG_TITLE"], 1.2, color.white, 0x0, __ACENTER)
 
-		screen.print(0, 80, SD2VITA_CONFIG_DEVICE, 1, color.white, 0x0, __ALEFT)
-		screen.print(480, 80, SD2VITA_CONFIG_MOUNT, 1, color.white, 0x0, __ALEFT)
+		screen.print(0, 80, language["SD2VITA_CONFIG_DEVICE"], 1, color.white, 0x0, __ALEFT)
+		screen.print(480, 80, language["SD2VITA_CONFIG_MOUNT"], 1, color.white, 0x0, __ALEFT)
 
 		local y = 120
 		for i = scrollm.ini, scrollm.lim do
@@ -189,13 +189,13 @@ function configure()
 
 		if buttonskey2 then buttonskey2:blitsprite(5, 448, 2) end
 		if buttonskey2 then buttonskey2:blitsprite(35, 448, 3) end
-		screen.print(70, 450, SD2VITA_CONFIG_CHANGE, 1, color.white, color.black, __ALEFT)
+		screen.print(70, 450, language["SD2VITA_CONFIG_CHANGE"], 1, color.white, color.black, __ALEFT)
 
 		if buttonskey then buttonskey:blitsprite(5, 473, scancel) end
-		screen.print(30, 475, SD2VITA_CONFIG_CANCEL, 1, color.white, color.black, __ALEFT)
+		screen.print(30, 475, language["SD2VITA_CONFIG_CANCEL"], 1, color.white, color.black, __ALEFT)
 
 		if buttonskey then buttonskey:blitsprite(5, 498, __TRIANGLE) end
-		screen.print(30, 500, SD2VITA_CONFIG_SAVE, 1, color.white, color.black, __ALEFT)
+		screen.print(30, 500, language["SD2VITA_CONFIG_SAVE"], 1, color.white, color.black, __ALEFT)
 
 		screen.flip()
 
@@ -239,7 +239,7 @@ function check_storage_config(devices)
 	if valid then
 		save_storage_config(devices)
 	else
-		os.message(SD2VITA_INVALID_CONFIG)
+		os.message(language["SD2VITA_INVALID_CONFIG"])
 	end
 end
 
@@ -277,10 +277,10 @@ function save_storage_config(devices)
 	files.write("ur0:tai/storage_config.txt", d)
 
 	if back then back:blit(0, 0) end
-	os.message(SD2VITA_UPDATED_CONFIG)
+	os.message(language["SD2VITA_UPDATED_CONFIG"])
 	os.delay(2000)
 
-	os.message(STRING_PSVITA_RESTART)
+	os.message(language["STRING_PSVITA_RESTART"])
 	os.delay(150)
 	buttons.homepopup(1)
 	power.restart()

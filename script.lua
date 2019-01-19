@@ -27,7 +27,7 @@ buttonskey2 = image.load("resources/buttons2.png",30,20)
 if os.access() == 0 then
 	if back then back:blit(0,0) end
 	screen.flip()
-	os.message(STRING_UNSAFE_MODE)
+	os.message(language["STRING_UNSAFE_MODE"])
 	os.exit()
 end
 
@@ -35,14 +35,40 @@ end
 if wlan.strength() > 55 then dofile("git/updater.lua") end
 
 -- Loading language file
-dofile("lang/english_us.txt")
 
-files.mkdir("ux0:data/AUTOPLUGIN/lang/")
-if files.exists("ux0:data/AUTOPLUGIN/lang/"..os.language()..".txt") then
-	dofile("ux0:data/AUTOPLUGIN/lang/"..os.language()..".txt")	
+function update_language(newlang)
+	for k, v in pairs(newlang) do
+		language[k] = v
+	end
 end
-if files.exists("lang/"..os.language()..".txt") then
-	dofile("lang/"..os.language()..".txt")
+
+language = {}
+dofile("lang/ENGLISH_US.lua")
+language = ENGLISH_US
+-- Official Translations
+if files.exists("lang/"..os.language()..".lua") then
+	dofile("lang/"..os.language()..".lua")
+	if os.language() == "CHINESE_S" then
+		update_language(CHINESE_S)
+	elseif os.language() == "CHINESE_T" then
+		update_language(CHINESE_T)
+	elseif os.language() == "FRENCH" then
+		update_language(FRENCH)
+	elseif os.language() == "GERMAN" then
+		update_language(GERMAN)
+	elseif os.language() == "ITALIAN" then
+		update_language(ITALIAN)
+	elseif os.language() == "JAPANESE" then
+		update_language(JAPANESE)
+	elseif os.language() == "SPANISH" then
+		update_language(SPANISH)
+	end
+end
+
+-- User Translations
+files.mkdir("ux0:data/AUTOPLUGIN/lang/")
+if files.exists("ux0:data/AUTOPLUGIN/lang/"..os.language()..".lua") then
+	dofile("ux0:data/AUTOPLUGIN/lang/"..os.language()..".lua")
 end
 
 -- Loading font
