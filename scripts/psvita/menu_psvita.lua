@@ -27,6 +27,11 @@ function menu_ps()
 		plugins_online()
 	end
 
+	if tai.find(__UR0, "KERNEL", "storagemgr.skprx") then
+		MENU_INSTALL_SD2VITA = MENU_CONFIGURE_SD2VITA
+		INSTALL_SD2VITA_DESC = CONFIG_SD2VITA_DESC
+	end
+
 	local menu_psvita = {
 		{ text = MENU_INSTALL_PLUGINS,		desc = INSTALL_PLUGINS_DESC,	funct = installp_callback },
 		{ text = MENU_UNINSTALL_PLUGINS,	desc = UNINSTALL_PLUGINS_DESC,	funct = uinstallp_callback },
