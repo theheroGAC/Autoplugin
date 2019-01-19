@@ -1,0 +1,178 @@
+--Japanese Translates for Version 3.69
+
+STRING_UNSAFE_MODE =				"このアプリケーションはUNSAFE MODEを有効にする必要があります"
+STRING_PSVITA_RESTART =				"PS Vitaを再起動します"
+STRING_BACKUP_CONFIGS =				"config_backups.txtの作成"
+STRING_MISSING_CONFIG =				"config.txtが存在しません"
+STRING_BACK =						"メニューに戻る"
+STRING_CLOSE =						"Autopluginを終了"
+STRING_INSTALLED =					"プラグインがインストールされました"
+STRING_PLEASE_WAIT =				"しばらくお待ちください・・・"
+RESTART_QUESTION =					"今すぐ再起動しますか？"
+
+--Options Menus
+MENU_TITLE =						"Autoplugin"
+MENU_PSVITA =						"PS VITA用プラグイン"
+MENU_PSP =                          "PSP用プラグイン (Adrenaline)"
+MENU_EXTRAS =                       "追加メニュー"
+MENU_EXIT =							"Autopluginを終了"
+
+--Desc Options PSVITA
+INSTALL_PLUGINS_DESC =				"最も有用なプラグインをインストールしてください by SCENE-PSVITA"
+UNINSTALL_PLUGINS_DESC =			"プラグインを簡単かつシンプルにアンインストールします"
+INSTALL_SD2VITA_DESC =				"SD2VITAプラグイン（StorageMgr by CelesteBlue）をインストールします"
+CHECK_ONLINEP_DESC =				"新しく更新されたプラグインの有無を確認します （Wi-Fi必須）"
+
+MENU_TITLE_PSVITA =					"PS Vita オプション"
+MENU_INSTALL_SD2VITA =				"SD2VITAプラグインのインストール"
+MENU_INSTALL_PLUGINS =				"プラグインのインストール"
+MENU_UNINSTALL_PLUGINS =			"プラグインのアンインストール"
+MENU_CHECK_ONLINEP =				"プラグインの更新確認"
+
+MENU_TITLE_PSP =					"PSPオプション (Adrenaline)"
+MENU_INSTALL_NPDRMFREE =			"npdrm freeプラグインのインストール (by qwikrazor87)"
+MENU_INSTALL_REMASTERED_CTRLS =		"RemasteredControlsプラグインのインストール （by Theflow）"
+
+MENU_CONVERTBOOTSPLASH =			"カスタムブートスプラッシュを設定する"
+MENU_CUSTOMWARNING =				"カスタム警告メッセージを設定する"
+MENU_INSTALL_CONFIG =				"PKGJ v0.45以上のconfig.txtをインストールする"
+MENU_INSTALL_CONFIG_DESC =			"PKGJ用のconfig.txtをインストールします（Wi-Fi必須）"
+MENU_INSTALLED_CONFIG =				"ux0：pkgi/config.txtにインストールされました！"
+MENU_QENCORE =						"Q-Encoreのインストール (by Yoti)"
+MENU_QENCORE_DESC =					"Quick h-Encore Launcher （警告：h-Encoreがインストールされている必要があります）"
+
+MENU_QENCORE_ASK =					"Q-Encoreをインストールする必要があります"
+MENU_INSTALLED_QENCORE =			"Q-Encoreはインストールされています"
+MENU_NOT_INSTALLED_QENCORE =        "Q-Encoreがインストールされていません"
+MENU_QENCORE_PATCHED =              "Q-Encoreがパッチされました！"
+MENU_QENCORE_NOTPATCHED =			"Q-Encoreはパッチされていません！"
+
+MENU_QENCORE_NOGAME =				"Q-Encoreパッチを当てるにはh-Encoreをインストールする必要があります！"
+
+--install sd2vita
+MENU_TITLE_SD2VITA =				"SD2VITA用のStorage Managerプラグインをインストール"
+SD2VITA_1_WARNING =					"Storage ManagerプラグインをインストールするにはSD2VITAを挿入しておく必要があります"
+SD2VITA_2_WARNING =					"ゲームカードが挿入されている場合、再起動する前にゲームカードを抜いて下さい"
+SD2VITA_3_WARNING =					"非常に重要:SD2VITAには幾つかのアプリがインストールされている必要があります"
+SD2VITA_4_WARNING =					"純正メモリーカードから必要なアプリをmicroSDカードにコピーして下さい"
+SD2VITA_5_WARNING =					"例:h-encore・Vitashell・ONEMenu・pkgj・Adrenaline等"
+SD2VITA_GAMECARD_DETECTED =			"ゲームカードが検出されました"
+SD2VITA_GAMECARD_REMOVED =			"ゲームカードをインストール前に取り外してください"
+SD2VITA_INSTALL =					"インストールを続行する"
+SD2VITA_CANCEL =					"インストールを中止する"
+
+--install plugins
+INSTALLP_LIST_PLUGINS =				"インストール可能なプラグインリスト:"
+INSTALLP_MARK =						"プラグイン選択/選択解除"
+INSTALLP_CONFIRM =					"プラグインをインストール"
+INSTALLP_ALL =						"すべてのプラグインをインストール"
+INSTALLP_CLEAN =					"選択したプラグインの選択解除"
+INSTALLP_LR_SWAP =					"L/Rトリガーで:ux0:/ur0:を切替"
+INSTALLP_CUSTOM_PATH =				"任意のパスにインストールする"
+
+INSTALLP_VITABRIGHT_360 =			"Vitabrightは3.60/h-encore3.68専用です"
+INSTALLP_CWARNING_360_365 =			"カスタム警告メッセージはFW3.67/FW3.68では機能しません"
+INSTALLP_QUESTION_SHELLSECBAT = 	"\nshellsecbatプラグインが検出されました！\n\nshellsecbatをアンインストールし、shellbatをインストールしますか?"
+INSTALLP_QUESTION_SHELLBAT =		"\nshellbatプラグインがが検出されました！\n\nshellbatをアンインストールし、shellsecbatをインストールしますか? "
+
+INSTALLP_WARNING_REFOOD =			"ur0：/taiにインストールされ、プラグインが正常に動作するようになりました"
+INSTALLP_OSK_TITLE =				"オリジナル警告メッセージの代わりに表示するテキスト"
+INSTALLP_OSK_TEXT =					"ここに任意のテキストを入力"
+
+--Uninstall plugins
+UNINSTALLP_TITLE =					"プラグインマネージャー"
+UNINSTALLP_NOCONFIG_FOUND =			"次の場所にconfig.txtが見つかりませんでした"
+UNINSTALLP_PLUGIN =					"プラグインをアンインストールする"
+UNINSTALLP_LEFTRIGHT_SECTION =		"左<--/-->右ボタン:セクションを切替"
+
+--npdrm free
+NPDRMFREE_TITLE =					"NPDRM FREEプラグインのインストール by Qwik"
+NPDRMFREE_INSTALLED =				"既にNPDRM FREEプラグインがインストールされています"
+NPDRMFREE_VSH_UPDATED =				"vsh.txtを更新しました"
+NPDRMFREE_GAME_UPDATED =			"game.txtを更新しました"
+NPDRMFREE_INSTALL =					"NPDRM FREEプラグインをインストールします"
+NPDRMFREE_DESC =					"NPDRMは有効な.rifライセンスやact.datを必要とせずに、公式のPS1/PSPコンテンツを実行するためのPSP/ePSPプラグイン"
+
+--customWaning
+CUSTOMWARNING_MESSAGE =				"カスタム警告メッセージプラグインを有効にすることを忘れないでください"
+
+--customsplash
+CUSTOMBOOTSPLASH__TITLE =			"カスタムブートスプラッシュ"
+CUSTOMBOOTSPLASH_CONVERT =			"画像を変換する"
+CUSTOMBOOTSPLASH_IMPORT =			"ギャラリーから画像をインポートする（PNGのみ）"
+CUSTOMBOOTSPLASH__MESSAGE =			"カスタムブートスプラッシュプラグインを有効にすることを忘れないでください"
+CUSTOMBOOTSPLASH_NOPNG_FOUND =		"ux0：CustomBootsplashは空です"
+CUSTOMBOOTSPLASH_NOPNG =			"適合フォーマットPNG"
+
+--pspctrls
+PSPCTRLS_TITLE =					"RemasteredControlsプラグインのインストール (Adrenaline)"
+PSPCTRLS_GAME_UPDATED =				"game.txtを更新しました"
+PSPCTRLS_DESC =						"Adrenaline上のPSPゲームをPSVitaのデュアルアナログスティックで操作可能にする"
+PSPCTRLS_LR_SWAP =					"L/Rトリガー:パーティションを切り替え"
+
+--plugins online
+UPDATE_WIFI_LOW =					"Wi-Fiの信号が弱いです"
+UPDATE_WIFI_IS_ON =					"Wi-Fiを有効にして下さい"
+UPDATE_CHECK_DB =					"データベースを確認"
+UPDATE_PLUGINS =					"プラグインを更新"
+UPDATE_ERROR_DB =					"db.luaのダウンロードエラー"
+UPDATE_NO_NEWS =					"全てのプラグインが最新です"
+UPDATE_VITACHEAT_DB =				"VitaCheatのデータベースを更新しますか?"
+UPDATE_VITACHEAT_DB_WRITE =			"ファイルは上書きされます！"
+UPDATE_CHECK_VITACHEAT_DB =			"VitaCheatデータベースの確認"
+
+--descriptions plugins
+--KERNEL
+INSTALLP_DESC_NONPDRM =				"どのようなPS VitaコンテンツでもDRM保護をバイパスできます"
+INSTALLP_DESC_MINIVITATV =			"PS Vitaで最大4人の友人とローカルマルチプレイゲームをプレイするこができます"
+INSTALLP_DESC_NOPSMDRM =			"どのようなPSMのゲームコンテンツでもDRM保護をバイパスできます"
+INSTALLP_DESC_VITABRIGHT =			"このプラグインを使用すると、輝度設定がカスタムガンマテーブルを使用する為、最小値と最大値の幅が広がります"
+INSTALLP_DESC_NOAVLS =				"AVLS-ForcedプラグインはVitaのAVLS機能を永久に無効にします"
+INSTALLP_DESC_REPATCH =				"ux0:patchのような暗号化されたゲームの改造を可能にし、FW3.60・FW3.65・HENでFW3.67以上のゲームの使用を可能にします"
+INSTALLP_DESC_LOLICON =				"VitaのCPUクロックをオーバークロックしたり、画面上にフレームレートを表示させることができます"
+INSTALLP_DESC_DS3VITA =				"DualShock3を使用してVitaを操作できます"
+INSTALLP_DESC_DS4VITA =				"DualShock4を使用してVitaを操作できます"
+INSTALLP_DESC_UDCDUVC =				"UVCデバイスを使用して、USB経由でディスプレイをコンピュータにストリーミングします"
+INSTALLP_DESC_VIIMOTE =				"WiiMoteを使用してVitaを操作する"
+INSTALLP_DESC_KUIO =				"基本的なI/O操作の場合ユーザーモジュールux0:dataにアクセスできるようにします/n特定のプラグインが必要な場合があります"
+INSTALLP_DESC_ADRENALINE =			"ワンタッチでAdrenalineを動作させることができます"
+INSTALLP_DESC_DSMOTION =			"PlayStation TVのDualShockモーションコントロールのサポート"
+INSTALLP_DESC_USBMC =				"USBストレージをVitaのメモリーカード(ux0)としてマウントすることができます"
+INSTALLP_DESC_ANALOGSENHANCER =		"この小さなカーネルプラグインにより、ユーザーは、PS Vitaのアナログスティックの操作精度を向上させることができます"
+INSTALLP_DESC_IOPLUS = 				"ユーザランドでより多くのIO操作を可能にするPS Vitaカーネルプラグインです/n元の機能を使用して、ユーザーアプリケーションとプラグインのIO許可を向上させます"
+INSTALLP_DESC_VITACHEAT =			"PS Vitaゲームでチートを使用する"
+INSTALLP_DESC_NOPSMWHITE =			"PSMゲームのPS TV向けホワイトリストを無効にする"
+INSTALLP_DESC_ANALOGSTICK =			"PS Vitaのアナログスティックを完全に無効化するプラグイン"
+INSTALLP_DESC_CIDSPOOF =			"PS VitaのなりすましCID(PSNからコンソールの禁止を解除する為に使用される可能性があります)"
+INSTALLP_DESC_MAKEPSM =				"PSM Developerアプリケーションへの変更"
+INSTALLP_DESC_REFOOD =				"復号化されていないプログラムを実行するためのPS Vitaプラグイン。"
+
+--Boot_config.txt
+INSTALLP_DESC_CUSTOMBOOTSPLASH =	"このプラグインは、起動時にPS Vita／PS TVにBoot Splashを表示させることができます。ENSO必須"
+INSTALLP_DESC_CONVERTBOOTSPLASH =	"スプラッシュイメージをカスタムブートスプラッシュとして設定しますか?"
+INSTALLP_DESC_NOFINDSPLASH =		"選択した画像をux0:CustomBootsplash/に配置します\n(splash.pngにリネームし、960×544にリサイズ)"
+INSTALLP_DESC_SPLASHGH =			"画像サイズは｢960×544｣です"
+INSTALLP_DESC_BOOTSPLASHDONE =		"boot_splash.binが完了しました！"
+
+--MAIN
+INSTALLP_DESC_DENABLER =			"ブラウザでファイルをダウンロードすることができます"
+INSTALLP_DESC_NOLOCKSCREEN =		"PS Vitaのロック画面を無効にします"
+INSTALLP_DESC_NOTROPHYMSG =			"セーブデータが別のアカウントにリンクされているアプリケーションを起動すると、トロフィーヒントメッセージが無効になります。アカウントを常に切り替える場合に便利です"
+INSTALLP_DESC_CUSTOMWARNING =		"ENSOで起動する時にオリジナル警告メッセージの代わりにカスタムメッセージを設定することができます"
+INSTALLP_DESC_SHELLBAT =			"ステータスバーのバッテリーのパーセントを表示します"
+INSTALLP_DESC_SHELLSECBAT =			"ステータスバーのバッテリーのパーセントと時・分・秒を表示します"
+INSTALLP_DESC_PNGSHOT =				"pngshotはスクリーンショットを撮影する為のプラグインです(フォーマット：PNG)"
+INSTALLP_DESC_VFLUX =				"PS Vitaのスクリーンフィルタープラグイン"
+INSTALLP_DESC_RESKYPE =				"3.65以上でSkypeアプリを有効にするためのシンプルなプラグイン"
+INSTALLP_DESC_AUTOBOOT =			"このプラグインは、単に自動起動のようなensoスタートアップ直後にPSPでアプリケーションを自動的に行うために使用されます"
+
+--ALL
+INSTALLP_DESC_VSHMENU =				"PS VitaゲームとHomebrewsのVSHメニューを表示するtaiHENプラグイン"
+INSTALLP_DESC_VITAGRAFIX =			"PS Vitaゲームの解像度とFPS上限を変更できるプラグイン"
+INSTALLP_DESC_OVERCLOCK =			"taiHenの為のシンプルなOverclockプラグイン"
+INSTALLP_DESC_FRAMECOUNTER =		"FPSカウンタとして動作する小さなプラグインです。画面の左上にFPSカウンターが表示されます"
+INSTALLP_DESC_VGI =					"PS Vitaゲームに関する有益な情報を表示するシンプルなtaiHENのプラグイン"
+INSTALLP_DESC_FUCKPSSE =			"PSMゲームを複合化するプラグイン"
+INSTALLP_DESC_PSMPATCH =			"PSMゲームを修正することを可能にし、またPSM Homebrewをロードするのに使用することができます"
+INSTALLP_DESC_ITLSENSO =			"Enso対応デバイスにTLS v1.2を追加します（アプリケーションのvpkが必要です）"
+INSTALLP_DESC_TROPHAX =				"PS VITA用ユニバーサルトロフィーロックの解除"
