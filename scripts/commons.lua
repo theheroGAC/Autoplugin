@@ -50,7 +50,7 @@ function img_fixed(img)
 end
 
 function message_wait(message)
-	local mge = (message or STRING_PLEASE_WAIT)
+	local mge = (message or language["STRING_PLEASE_WAIT"])
 	local titlew = string.format(mge)
 	local w,h = screen.textwidth(titlew,1) + 30,70
 	local x,y = 480 - (w/2), 272 - (h/2)
@@ -92,5 +92,5 @@ tai.sync(__UX0, "ux0:tai/config_backup.txt")
 tai.sync(__UR0, "ur0:tai/config_backup.txt")
 
 if back then back:blit(0,0) end
-	message_wait(STRING_BACKUP_CONFIGS)
+	message_wait(language["STRING_BACKUP_CONFIGS"])
 os.delay(1500)

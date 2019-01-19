@@ -21,12 +21,12 @@ function img2splashbin(path2img, img)
 				if fp then
 					fp:write(data_img)
 					fp:close()
-					os.message(INSTALLP_DESC_BOOTSPLASHDONE)
+					os.message(language["INSTALLP_DESC_BOOTSPLASHDONE"])
 					return 1
 				end
 			end
 		--else
-		--	os.message(INSTALLP_DESC_SPLASHGH)
+		--	os.message(language["INSTALLP_DESC_SPLASHGH"])
 		--end
 	end
 	return 0
@@ -56,7 +56,7 @@ function customimgsplash()
 
 		if back then back:blit(0,0) end
 
-		screen.print(480,25,CUSTOMBOOTSPLASH__TITLE,1.3,color.green, 0x0, __ACENTER)
+		screen.print(480,25,language["CUSTOMBOOTSPLASH__TITLE"],1.3,color.green, 0x0, __ACENTER)
 
 		if scrollcs.maxim > 0 then
 
@@ -90,20 +90,20 @@ function customimgsplash()
 			end
 
 			if buttonskey then buttonskey:blitsprite(10,448,saccept) end
-			screen.print(40,450, CUSTOMBOOTSPLASH_CONVERT, 1, color.white,color.black, __ALEFT)
+			screen.print(40,450, language["CUSTOMBOOTSPLASH_CONVERT"], 1, color.white,color.black, __ALEFT)
 
 			if buttonskey2 then buttonskey2:blitsprite(5,472,0) end
-			screen.print(40,475, CUSTOMBOOTSPLASH_IMPORT, 1, color.white,color.black, __ALEFT)
+			screen.print(40,475, language["CUSTOMBOOTSPLASH_IMPORT"], 1, color.white,color.black, __ALEFT)
 
 		else
-			screen.print(480,230, CUSTOMBOOTSPLASH_NOPNG_FOUND, 1, color.white, color.red, __ACENTER)
+			screen.print(480,230, language["CUSTOMBOOTSPLASH_NOPNG_FOUND"], 1, color.white, color.red, __ACENTER)
 		end
 
 		if buttonskey then buttonskey:blitsprite(10,523,scancel) end
-		screen.print(35,525,STRING_BACK,1,color.white,color.black, __ALEFT)
+		screen.print(35,525,language["STRING_BACK"],1,color.white,color.black, __ALEFT)
 		
 		if buttonskey2 then buttonskey2:blitsprite(930,523,1) end
-		screen.print(925,525,STRING_CLOSE,1,color.white,color.red, __ARIGHT)
+		screen.print(925,525,language["STRING_CLOSE"],1,color.white,color.red, __ARIGHT)
 
 		screen.flip()
 
@@ -114,7 +114,7 @@ function customimgsplash()
 		--Exit
 		if buttons.start then
 			if change then
-				os.message(STRING_PSVITA_RESTART)
+				os.message(language["STRING_PSVITA_RESTART"])
 				os.delay(250)
 				buttons.homepopup(1)
 				power.restart()
@@ -137,19 +137,19 @@ function customimgsplash()
 				if res == 1 then
 
 					if back then back:blit(0,0) end
-					message_wait(CUSTOMBOOTSPLASH__MESSAGE)
+					message_wait(language["CUSTOMBOOTSPLASH__MESSAGE"])
 					os.delay(1500)
 
-					if os.message(RESTART_QUESTION,1) == 1 then
+					if os.message(language["RESTART_QUESTION"],1) == 1 then
 						if back then back:blit(0,0) end
-						message_wait(STRING_PSVITA_RESTART)
+						message_wait(language["STRING_PSVITA_RESTART"])
 						os.delay(1500)
 						buttons.homepopup(1)
 						power.restart()
 					end
 				end
 				if back then back:blit(0,0) end
-				--message_wait(CUSTOMBOOTSPLASH__MESSAGE)
+				--message_wait(language["CUSTOMBOOTSPLASH__MESSAGE"])
 				os.delay(150)
 			end
 
@@ -160,19 +160,19 @@ function customimgsplash()
 						if img2splashbin("", tmpimg) == 1 then
 
 							if back then back:blit(0,0) end
-							message_wait(CUSTOMBOOTSPLASH__MESSAGE)
+							message_wait(language["CUSTOMBOOTSPLASH__MESSAGE"])
 							os.delay(1500)
 
-							if os.message(RESTART_QUESTION,1) == 1 then
+							if os.message(language["RESTART_QUESTION"],1) == 1 then
 								if back then back:blit(0,0) end
-								message_wait(STRING_PSVITA_RESTART)
+								message_wait(language["STRING_PSVITA_RESTART"])
 								os.delay(1500)
 								buttons.homepopup(1)
 								power.restart()
 							end
 						end
 					else
-						os.message(CUSTOMBOOTSPLASH_NOPNG)
+						os.message(language["CUSTOMBOOTSPLASH_NOPNG"])
 					end
 				end
 			end

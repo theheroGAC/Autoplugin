@@ -62,7 +62,7 @@ function npdrm_free()
 		buttons.read()
 		if back then back:blit(0,0) end
 
-		screen.print(480,18,NPDRMFREE_TITLE,1.2,color.white, 0x0, __ACENTER)
+		screen.print(480,18,language["NPDRMFREE_TITLE"],1.2,color.white, 0x0, __ACENTER)
 
 		draw.fillrect(0,64,960,322,color.shine:a(25))
 
@@ -79,20 +79,20 @@ function npdrm_free()
 			y+=28
 		end
 
-		if screen.textwidth(NPDRMFREE_DESC) > 935 then
-			x_scr = screen.print(x_scr, 400, NPDRMFREE_DESC,1,color.white,color.orange,__SLEFT,935)
+		if screen.textwidth(language["NPDRMFREE_DESC"]) > 935 then
+			x_scr = screen.print(x_scr, 400, language["NPDRMFREE_DESC"],1,color.white,color.orange,__SLEFT,935)
 		else
-			screen.print(480, 400, NPDRMFREE_DESC,1,color.white,color.orange,__ACENTER)
+			screen.print(480, 400, language["NPDRMFREE_DESC"],1,color.white,color.orange,__ACENTER)
 		end
 
 		if buttonskey then buttonskey:blitsprite(10,498,saccept) end
-		screen.print(40,500,NPDRMFREE_INSTALL,1,color.white,color.black, __ALEFT)
+		screen.print(40,500,language["NPDRMFREE_INSTALL"],1,color.white,color.black, __ALEFT)
 
 		if buttonskey then buttonskey:blitsprite(10,523,scancel) end
-		screen.print(40,525,STRING_BACK,1,color.white,color.black, __ALEFT)
+		screen.print(40,525,language["STRING_BACK"],1,color.white,color.black, __ALEFT)
 
 		if buttonskey2 then buttonskey2:blitsprite(930,523,1) end
-		screen.print(925,525,STRING_CLOSE,1,color.white,color.red, __ARIGHT)
+		screen.print(925,525,language["STRING_CLOSE"],1,color.white,color.red, __ARIGHT)
 
 		screen.flip()
 
@@ -103,7 +103,7 @@ function npdrm_free()
 		--Exit
 		if buttons.start then
 			if change then
-				os.message(STRING_PSVITA_RESTART)
+				os.message(language["STRING_PSVITA_RESTART"])
 				os.delay(250)
 				buttons.homepopup(1)
 				power.restart()
@@ -121,7 +121,7 @@ function npdrm_free()
 				files.copy("resources/pkgj/npdrm_free.prx", options[scroll_np.sel].."pspemu/seplugins/")
 				if files.exists(options[scroll_np.sel].."pspemu/seplugins/npdrm_free.prx") then
 					if back then back:blit(0,0) end
-						message_wait(NPDRMFREE_INSTALLED)
+						message_wait(language["NPDRMFREE_INSTALLED"])
 					os.delay(1500)
 				end
 
@@ -132,7 +132,7 @@ function npdrm_free()
 					files.copy("resources/pkgj/vsh.txt", options[scroll_np.sel].."pspemu/seplugins/")
 				end
 				if back then back:blit(0,0) end
-					message_wait(NPDRMFREE_VSH_UPDATED)
+					message_wait(language["NPDRMFREE_VSH_UPDATED"])
 				os.delay(1500)
 
 				--Update game.txt
@@ -143,7 +143,7 @@ function npdrm_free()
 					files.copy("resources/pkgj/game.txt", options[scroll_np.sel].."pspemu/seplugins/")
 				end
 				if back then back:blit(0,0) end
-					message_wait(NPDRMFREE_GAME_UPDATED)
+					message_wait(language["NPDRMFREE_GAME_UPDATED"])
 				os.delay(1500)
 
 			end

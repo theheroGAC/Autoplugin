@@ -20,8 +20,8 @@ function menu_psp()
 	end
 
 	local menup = {
-		{ text = MENU_INSTALL_NPDRMFREE,		desc = NPDRMFREE_DESC,	funct = npdrm_callback },
-		{ text = MENU_INSTALL_REMASTERED_CTRLS,	desc = PSPCTRLS_DESC,	funct = psp_ctrls_callback },
+		{ text = language["MENU_INSTALL_NPDRMFREE"],		desc = language["NPDRMFREE_DESC"],	funct = npdrm_callback },
+		{ text = language["MENU_INSTALL_REMASTERED_CTRLS"],	desc = language["PSPCTRLS_DESC"],	funct = psp_ctrls_callback },
 	}
 	local scrollpsp = newScroll(menup,#menup)
 
@@ -33,7 +33,7 @@ function menu_psp()
 		if back then back:blit(0,0) end
 		if adr then adr:blit(0,64,65) end
 
-		screen.print(480,25,MENU_TITLE_PSP,1.3,color.green, 0x0, __ACENTER)
+		screen.print(480,25,language["MENU_TITLE_PSP"],1.3,color.green, 0x0, __ACENTER)
 
 		local y = 200
 		for i=scrollpsp.ini, scrollpsp.lim do

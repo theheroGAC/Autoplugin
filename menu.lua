@@ -23,7 +23,7 @@ end
 
 local exit_callback = function ()
     if change then
-		os.message(STRING_PSVITA_RESTART)
+		os.message(language["STRING_PSVITA_RESTART"])
 		os.delay(250)
 		buttons.homepopup(1)
 		power.restart()
@@ -32,10 +32,10 @@ local exit_callback = function ()
 end
 
 local menu = {
-	{ text = MENU_PSVITA,	funct = psvita_callback },
-	{ text = MENU_PSP,		funct = psp_callback },
-	{ text = MENU_EXTRAS,	funct = extras_callback },
-	{ text = MENU_EXIT,		funct = exit_callback }
+	{ text = language["MENU_PSVITA"],	funct = psvita_callback },
+	{ text = language["MENU_PSP"],		funct = psp_callback },
+	{ text = language["MENU_EXTRAS"],	funct = extras_callback },
+	{ text = language["MENU_EXIT"],		funct = exit_callback }
 }
 local scrollm = newScroll(menu,#menu)
 
@@ -47,7 +47,7 @@ while true do
 
 	if back then back:blit(0,0) end
 
-	screen.print(480,25,MENU_TITLE,1.3,color.green, 0x0, __ACENTER)
+	screen.print(480,25,language["MENU_TITLE"],1.3,color.green, 0x0, __ACENTER)
 
 	local y = 160
 	for i=scrollm.ini, scrollm.lim do

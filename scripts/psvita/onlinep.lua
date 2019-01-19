@@ -11,14 +11,14 @@
 
 function plugins_online()
 
-	if not wlan.isconnected() then os.message(UPDATE_WIFI_IS_ON) return	end
-	if wlan.strength() < 55 then os.message(UPDATE_WIFI_LOW) return end
+	if not wlan.isconnected() then os.message(language["UPDATE_WIFI_IS_ON"]) return	end
+	if wlan.strength() < 55 then os.message(language["UPDATE_WIFI_LOW"]) return end
 
 	local url_plugins = "https://raw.githubusercontent.com/theheroGAC/Autoplugin/master/plugins/db.lua"
 	local path = "ux0:data/AUTOPLUGIN/tmp/db.lua"
 
 	if back then back:blit(0,0) end
-	message_wait(UPDATE_CHECK_DB)
+	message_wait(language["UPDATE_CHECK_DB"])
 	os.delay(1500)
 
 	local update = false
@@ -35,7 +35,7 @@ function plugins_online()
 						if tonumber(db[i].version) > tonumber(plugins[j].version) then
 							if (http.getfile(string.format("https://raw.githubusercontent.com/theheroGAC/Autoplugin/master/plugins/%s", db[i].path), path_plugins)) then
 								if back then back:blit(0,0) end
-								message_wait(db[i].path.."\n\n"..UPDATE_PLUGIN.." : "..db[i].stringversion)
+								message_wait(db[i].path.."\n\n"..language["UPDATE_PLUGIN"].." : "..db[i].stringversion)
 								os.delay(1500)
 								update = true
 							end
@@ -48,7 +48,7 @@ function plugins_online()
 
 	else
 		if back then back:blit(0,0) end
-		message_wait(UPDATE_ERROR_DB)
+		message_wait(language["UPDATE_ERROR_DB"])
 		os.delay(1500)
 	end
 
@@ -58,7 +58,7 @@ function plugins_online()
 		if #plugins > 0 then table.sort(plugins, function (a,b) return string.lower(a.name)<string.lower(b.name) end) end
 	else
 		if back then back:blit(0,0) end
-		message_wait(UPDATE_NO_NEWS)
+		message_wait(language["UPDATE_NO_NEWS"])
 		os.delay(1500)
 	end
 

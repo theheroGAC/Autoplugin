@@ -11,8 +11,8 @@
 
 function plugins_installation(sel)
 
-	if plugins[sel].path == "reF00D.skprx" and loc == __UX0 then os.message(INSTALLP_WARNING_REFOOD)
-	elseif plugins[sel].path == "custom_warning.suprx" and ( version == "3.67" or version == "3.68") then os.message(INSTALLP_CWARNING_360_365)
+	if plugins[sel].path == "reF00D.skprx" and loc == __UX0 then os.message(language["INSTALLP_WARNING_REFOOD"])
+	elseif plugins[sel].path == "custom_warning.suprx" and ( version == "3.67" or version == "3.68") then os.message(language["INSTALLP_CWARNING_360_365"])
 	else
 
 		if files.exists(tai[loc].path) then
@@ -23,7 +23,7 @@ function plugins_installation(sel)
 			if plugins[sel].path == "shellbat.suprx" then
 				local idx = tai.find(loc, "main", "shellsecbat.suprx")
 				if idx then
-					if os.message(INSTALLP_QUESTION_SHELLSECBAT,1) == 1 then
+					if os.message(language["INSTALLP_QUESTION_SHELLSECBAT"],1) == 1 then
 						tai.del(loc, "main", "shellsecbat.suprx")
 					else
 						install = false
@@ -32,7 +32,7 @@ function plugins_installation(sel)
 			elseif plugins[sel].path == "shellsecbat.suprx" then
 				local idx = tai.find(loc, "main", "shellbat.suprx")
 				if idx then
-					if os.message(INSTALLP_QUESTION_SHELLBAT,1) == 1 then
+					if os.message(language["INSTALLP_QUESTION_SHELLBAT"],1) == 1 then
 						tai.del(loc, "main", "shellbat.suprx")
 					else
 						install = false
@@ -53,7 +53,7 @@ function plugins_installation(sel)
 					if plugins[sel].config == "custom_warning.txt" then
 					
 						if not files.exists(locations[loc].."tai/"..plugins[sel].config) then
-							local text = osk.init(INSTALLP_OSK_TITLE, INSTALLP_OSK_TEXT)
+							local text = osk.init(language["INSTALLP_OSK_TITLE"], language["INSTALLP_OSK_TEXT"])
 							if not text or (string.len(text)<=0) then text = "" end--os.nick() end
 
 							local fp = io.open(locations[loc].."tai/"..plugins[sel].config, "wb")
@@ -104,7 +104,7 @@ function plugins_installation(sel)
 				end
 
 				if back then back:blit(0,0) end
-				message_wait(plugins[sel].name.."\n\n"..STRING_INSTALLED)
+				message_wait(plugins[sel].name.."\n\n"..language["STRING_INSTALLED"])
 				os.delay(1500)
 
 				change = true
@@ -113,7 +113,7 @@ function plugins_installation(sel)
 			end
 
 		else
-			os.message(STRING_MISSING_CONFIG)
+			os.message(language["STRING_MISSING_CONFIG"])
 		end
 	end
 
@@ -136,7 +136,7 @@ function autoplugin()
 		buttons.read()
 		if back then back:blit(0,0) end
 
-		screen.print(10,15,INSTALLP_LIST_PLUGINS.."  "..toinstall.."/"..#plugins,1,color.white)
+		screen.print(10,15,language["INSTALLP_LIST_PLUGINS"].."  "..toinstall.."/"..#plugins,1,color.white)
 
 		--Partitions
 		local xRoot = 750
@@ -186,23 +186,23 @@ function autoplugin()
 		if tai[__UX0].exist and tai[__UR0].exist then
 			if buttonskey2 then buttonskey2:blitsprite(900,448,2) end
 			if buttonskey2 then buttonskey2:blitsprite(930,448,3) end
-			screen.print(895,450,INSTALLP_LR_SWAP,1,color.white,color.black,__ARIGHT)
+			screen.print(895,450,language["INSTALLP_LR_SWAP"],1,color.white,color.black,__ARIGHT)
 		end
 
 		if buttonskey then buttonskey:blitsprite(10,448,__SQUARE) end
-		screen.print(40,450,INSTALLP_MARK,1,color.white,color.black, __ALEFT)
+		screen.print(40,450,language["INSTALLP_MARK"],1,color.white,color.black, __ALEFT)
 
 		if buttonskey2 then buttonskey2:blitsprite(5,472,0) end
-		screen.print(40,475,INSTALLP_CLEAN,1,color.white,color.black, __ALEFT)
+		screen.print(40,475,language["INSTALLP_CLEAN"],1,color.white,color.black, __ALEFT)
 
 		if buttonskey then buttonskey:blitsprite(10,498,__TRIANGLE) end
-		screen.print(40,500,INSTALLP_CUSTOM_PATH..": "..path_tai,1,color.white,color.black, __ALEFT)
+		screen.print(40,500,language["INSTALLP_CUSTOM_PATH"]..": "..path_tai,1,color.white,color.black, __ALEFT)
 
 		if buttonskey then buttonskey:blitsprite(10,523,scancel) end
-		screen.print(40,525,STRING_BACK,1,color.white,color.black, __ALEFT)
+		screen.print(40,525,language["STRING_BACK"],1,color.white,color.black, __ALEFT)
 
 		if buttonskey2 then buttonskey2:blitsprite(930,523,1) end
-		screen.print(925,525,STRING_CLOSE,1,color.white,color.red, __ARIGHT)
+		screen.print(925,525,language["STRING_CLOSE"],1,color.white,color.red, __ARIGHT)
 
 		screen.flip()
 
@@ -221,7 +221,7 @@ function autoplugin()
 		--Exit
 		if buttons.start then
 			if change then
-				os.message(STRING_PSVITA_RESTART)
+				os.message(language["STRING_PSVITA_RESTART"])
 				os.delay(250)
 				buttons.homepopup(1)
 				power.restart()
@@ -248,7 +248,7 @@ function autoplugin()
 			if buttons[accept] then
 
 				if back then back:blit(0,0) end
-				message_wait(STRING_PLEASE_WAIT)
+				message_wait(language["STRING_PLEASE_WAIT"])
 				os.delay(1000)
 
 				if toinstall <= 1 then

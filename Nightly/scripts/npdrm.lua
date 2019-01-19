@@ -42,7 +42,7 @@ function npdrm_free()
 		buttons.read()
 		if back then back:blit(0,0) end
 
-		screen.print(480,20,NPDRMFREE_TITLE,1,color.red, 0x0, __ACENTER)
+		screen.print(480,20,language["NPDRMFREE_TITLE"],1,color.red, 0x0, __ACENTER)
 
 		screen.print(10,500,NPDRMFREE_CROSS_INSTALL,1,color.white,color.black)
 
@@ -65,7 +65,7 @@ function npdrm_free()
 		--Exit
 		if buttons.start then
 			if change then
-				os.message(STRING_PSVITA_RESTART)
+				os.message(language["STRING_PSVITA_RESTART"])
 				os.delay(250)
 				buttons.homepopup(1)
 				power.restart()
@@ -86,7 +86,7 @@ function npdrm_free()
 						--install plugin
 						files.copy("resources/pkgj/npdrm_free.prx", options[scroll_np.sel].."pspemu/seplugins/")
 						if files.exists(options[scroll_np.sel].."pspemu/seplugins/npdrm_free.prx") then
-							os.message(NPDRMFREE_INSTALLED)
+							os.message(language["NPDRMFREE_INSTALLED"])
 						end
 
 						--Update vsh.txt
@@ -95,7 +95,7 @@ function npdrm_free()
 						else
 							files.copy("resources/pkgj/vsh.txt", options[scroll_np.sel].."pspemu/seplugins/")
 						end
-						os.message(NPDRMFREE_VSH_UPDATED)
+						os.message(language["NPDRMFREE_VSH_UPDATED"])
 
 						--Update game.txt
 						if files.exists(options[scroll_np.sel].."pspemu/seplugins/game.txt") then
@@ -104,11 +104,11 @@ function npdrm_free()
 						else
 							files.copy("resources/pkgj/game.txt", options[scroll_np.sel].."pspemu/seplugins/")
 						end
-						os.message(NPDRMFREE_GAME_UPDATED)
+						os.message(language["NPDRMFREE_GAME_UPDATED"])
 
 					end
 				else
-					os.message(NPDRMFREE_NO_PARTITION)
+					os.message(language["NPDRMFREE_NO_PARTITION"])
 				end
 			end
 
