@@ -198,3 +198,4 @@ CHINESE_S["INSTALLP_DESC_FUCKPSSE"] =					"一个用于解密 PSM 游戏的插�
 CHINESE_S["INSTALLP_DESC_PSMPATCH"] =					"允许您修改 PSM 游戏,也可用于加载 PSM 自制程序"
 CHINESE_S["INSTALLP_DESC_ITLSENSO"] =					"将 TLS v1.2 添加到启用 ENSO 的设备(需要安装该程序的 vpk)"
 CHINESE_S["INSTALLP_DESC_TROPHAX"] =						"PSVITA 通用奖杯解锁器"
+CHINESE_S["INSTALLP_DESC_TURBOPAD"] =						"这个插件允许您为任何按钮启用连发."
