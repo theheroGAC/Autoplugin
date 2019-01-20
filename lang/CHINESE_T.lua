@@ -21,7 +21,7 @@ CHINESE_T["MENU_EXIT"] =						            "退出"
 
 --Desc Options PSVITA
 CHINESE_T["INSTALL_PLUGINS_DESC"] =						"安裝為SCENE-PSVITA製作的最有用的外掛程式"
-CHINESE_T["UNINSTALL_PLUGINS_DESC"] =					"輕鬆簡易地卸載外掛程式"
+CHINESE_T["UNINSTALL_PLUGINS_DESC"] =					"輕鬆簡易地刪除外掛程式"
 CHINESE_T["INSTALL_SD2VITA_DESC"] =						"安装SD2VITA外掛程式(StorageMgr,由CelesteBlue開發)"
 CHINESE_S["CONFIG_SD2VITA_DESC"] =                      "配置SD2VITA外挂程式(StorageMgr,由CelesteBlue開發)"
 CHINESE_T["CHECK_ONLINEP_DESC"] =						"外掛程式更新檢查（需要Wi-Fi）"
@@ -65,7 +65,7 @@ CHINESE_T["SD2VITA_1_WARNING"] =							"您必須準備好sd2vita設備後才能
 CHINESE_T["SD2VITA_2_WARNING"] =							"若插入了遊戲卡,則必須在重啟之前將其移除!"
 CHINESE_T["SD2VITA_3_WARNING"] =							"十分重要: 您的sd2vita設備必須已存入一些應用程式,您才可以從原裝記憶卡"
 CHINESE_T["SD2VITA_4_WARNING"] =							"複製必要的應用程式到sd2vita記憶卡."
-CHINESE_T["SD2VITA_5_WARNING"] =							"舉例:H-encore,Vitashell/ONEMenu,PKGJ,Adrenaline,等等..."
+CHINESE_T["SD2VITA_5_WARNING"] =							"例如:H-encore,Vitashell/ONEMenu,PKGJ,Adrenaline,等等..."
 CHINESE_T["SD2VITA_GAMECARD_DETECTED"] =					"檢測到遊戲卡!"
 CHINESE_T["SD2VITA_GAMECARD_REMOVED"] =					"安裝之前需要移除"
 CHINESE_T["SD2VITA_INSTALL"] =							"繼續安裝"
@@ -103,7 +103,7 @@ CHINESE_T["INSTALLP_OSK_TEXT"] =							"在此輸入文本"
 
 --Uninstall plugins
 CHINESE_T["UNINSTALLP_TITLE"] =							"外掛程式管理器"
-CHINESE_T["UNINSTALLP_NOCONFIG_FOUND"] =					"在這裡找不到config.txt文件: "
+CHINESE_T["UNINSTALLP_NOCONFIG_FOUND"] =					"在這裡找不到config.txt檔案: "
 CHINESE_T["UNINSTALLP_PLUGIN"] =							"刪除外掛程式"
 CHINESE_T["UNINSTALLP_LEFTRIGHT_SECTION"] =				"<--/--> 切換選項"
 
@@ -140,7 +140,7 @@ CHINESE_T["UPDATE_PLUGIN"] =								"已更新外掛程式"
 CHINESE_T["UPDATE_ERROR_DB"] =							"下載db.lua過程出錯"
 CHINESE_T["UPDATE_NO_NEWS"] =							"所有外掛程式均已更新至最新版"
 CHINESE_T["UPDATE_VITACHEAT_DB"] =						"為Vitacheat更新金手指數據庫?"
-CHINESE_T["UPDATE_VITACHEAT_DB_WRITE"] =					"原有文件將被覆蓋!"
+CHINESE_T["UPDATE_VITACHEAT_DB_WRITE"] =					"原有檔案將被覆蓋!"
 CHINESE_T["UPDATE_CHECK_VITACHEAT_DB"] =					"正在檢查Vitacheat數據庫"
 
 --descriptions plugins
@@ -177,7 +177,7 @@ CHINESE_T["INSTALLP_DESC_SPLASHGH"] =					"圖片的分辨率應當為: 960 * 54
 CHINESE_T["INSTALLP_DESC_BOOTSPLASHDONE"] =				"boot_splash.bin修改完成!!!"
 
 --MAIN
-CHINESE_T["INSTALLP_DESC_DENABLER"] =					"通過瀏覽器下載文件"
+CHINESE_T["INSTALLP_DESC_DENABLER"] =					"通過瀏覽器下載檔案"
 CHINESE_T["INSTALLP_DESC_NOLOCKSCREEN"] =				"在PSVita上禁用熒幕鎖定"
 CHINESE_T["INSTALLP_DESC_NOTROPHYMSG"] =					"當您啟動包含其他賬戶檔案的程式時,禁用無法獲取獎杯的提示框.對經常切換賬戶的用戶來說很實用"
 CHINESE_T["INSTALLP_DESC_CUSTOMWARNING"] =				"當使用ENSO系統開機時,你可以設置自訂警告訊息替代癲癇警告"
