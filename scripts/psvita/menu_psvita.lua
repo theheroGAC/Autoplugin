@@ -28,15 +28,15 @@ function menu_ps()
 	end
 
 	if tai.find(__UR0, "KERNEL", "storagemgr.skprx") then
-		MENU_INSTALL_SD2VITA = MENU_CONFIGURE_SD2VITA
-		INSTALL_SD2VITA_DESC = CONFIG_SD2VITA_DESC
+		LANGUAGE["MENU_INSTALL_SD2VITA"] = LANGUAGE["MENU_CONFIGURE_SD2VITA"]
+		LANGUAGE["INSTALL_SD2VITA_DESC"] = LANGUAGE["CONFIG_SD2VITA_DESC"]
 	end
 
 	local menu_psvita = {
-		{ text = language["MENU_INSTALL_PLUGINS"],		desc = language["INSTALL_PLUGINS_DESC"],	funct = installp_callback },
-		{ text = language["MENU_UNINSTALL_PLUGINS"],	desc = language["UNINSTALL_PLUGINS_DESC"],	funct = uinstallp_callback },
-		{ text = language["MENU_INSTALL_SD2VITA"],		desc = language["INSTALL_SD2VITA_DESC"],	funct = sd2vita_callback },
-		{ text = language["MENU_CHECK_ONLINEP"],		desc = language["CHECK_ONLINEP_DESC"],		funct = onlineplugins_callback },
+		{ text = LANGUAGE["MENU_INSTALL_PLUGINS"],		desc = LANGUAGE["INSTALL_PLUGINS_DESC"],	funct = installp_callback },
+		{ text = LANGUAGE["MENU_UNINSTALL_PLUGINS"],	desc = LANGUAGE["UNINSTALL_PLUGINS_DESC"],	funct = uinstallp_callback },
+		{ text = LANGUAGE["MENU_INSTALL_SD2VITA"],		desc = LANGUAGE["INSTALL_SD2VITA_DESC"],	funct = sd2vita_callback },
+		{ text = LANGUAGE["MENU_CHECK_ONLINEP"],		desc = LANGUAGE["CHECK_ONLINEP_DESC"],		funct = onlineplugins_callback },
 	}
 	local scrollps = newScroll(menu_psvita,#menu_psvita)
 
@@ -47,7 +47,7 @@ function menu_ps()
 		if back then back:blit(0,0) end
 		if psvita then psvita:blit(0,64,45) end
 
-		screen.print(480,25,language["MENU_TITLE_PSVITA"],1.3,color.green, 0x0, __ACENTER)
+		screen.print(480,25,LANGUAGE["MENU_TITLE_PSVITA"],1.3,color.green, 0x0, __ACENTER)
 
 		local y = 160
 		for i=scrollps.ini, scrollps.lim do

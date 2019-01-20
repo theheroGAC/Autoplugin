@@ -35,9 +35,9 @@ function pluginsmanager()
 		buttons.read()
 		if back then back:blit(0,0) end
 
-		screen.print(480,18,language["UNINSTALLP_TITLE"],1.2,color.white, 0x0, __ACENTER)
+		screen.print(480,18,LANGUAGE["UNINSTALLP_TITLE"],1.2,color.white, 0x0, __ACENTER)
 
-		if not tai[partition].exist then screen.print(480,270,language["UNINSTALLP_NOCONFIG_FOUND"]..locations[partition],1.3,color.red, 0x0, __ACENTER)
+		if not tai[partition].exist then screen.print(480,270,LANGUAGE["UNINSTALLP_NOCONFIG_FOUND"]..locations[partition],1.3,color.red, 0x0, __ACENTER)
 		else
 
 			--Partitions
@@ -84,21 +84,21 @@ function pluginsmanager()
 			screen.print(480,405,locations[partition].."tai/config.txt",1.3,color.green, 0x0, __ACENTER)
 			
 			if buttonskey then buttonskey:blitsprite(5,448,saccept) end
-			screen.print(30,450,language["UNINSTALLP_PLUGIN"],1,color.white,color.black,__ALEFT)
+			screen.print(30,450,LANGUAGE["UNINSTALLP_PLUGIN"],1,color.white,color.black,__ALEFT)
 
-			screen.print(10,475,language["UNINSTALLP_LEFTRIGHT_SECTION"],1,color.white,color.black,__ALEFT)
+			screen.print(10,475,LANGUAGE["UNINSTALLP_LEFTRIGHT_SECTION"],1,color.white,color.black,__ALEFT)
 
 			if buttonskey2 then buttonskey2:blitsprite(5,498,2) end
 			if buttonskey2 then buttonskey2:blitsprite(35,498,3) end
-			screen.print(70,500,language["INSTALLP_LR_SWAP"],1,color.white,color.black,__ALEFT)
+			screen.print(70,500,LANGUAGE["INSTALLP_LR_SWAP"],1,color.white,color.black,__ALEFT)
 
 		end
 
 		if buttonskey then buttonskey:blitsprite(10,523,scancel) end
-		screen.print(35,525,language["STRING_BACK"],1,color.white,color.black, __ALEFT)
+		screen.print(35,525,LANGUAGE["STRING_BACK"],1,color.white,color.black, __ALEFT)
 		
 		if buttonskey2 then buttonskey2:blitsprite(930,523,1) end
-		screen.print(925,525,language["STRING_CLOSE"],1,color.white,color.red, __ARIGHT)
+		screen.print(925,525,LANGUAGE["STRING_CLOSE"],1,color.white,color.red, __ARIGHT)
 
 		screen.flip()
 
@@ -109,7 +109,7 @@ function pluginsmanager()
 		--Exit
 		if buttons.start then
 			if change then
-				os.message(language["STRING_PSVITA_RESTART"])
+				os.message(LANGUAGE["STRING_PSVITA_RESTART"])
 				os.delay(250)
 				buttons.homepopup(1)
 				power.restart()

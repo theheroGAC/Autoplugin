@@ -7,19 +7,19 @@ function sd2vita()
 		buttons.read()
 		if back then back:blit(0,0) end
 
-		screen.print(10,10,"1) "..language["SD2VITA_1_WARNING"],1,color.white)
-		screen.print(10,40,"2) "..language["SD2VITA_2_WARNING"],1,color.white)
+		screen.print(10,10,"1) "..LANGUAGE["SD2VITA_1_WARNING"],1,color.white)
+		screen.print(10,40,"2) "..LANGUAGE["SD2VITA_2_WARNING"],1,color.white)
 
-		screen.print(10,80,"3) "..language["SD2VITA_3_WARNING"],1,color.white)
-		screen.print(10,100,"4) "..language["SD2VITA_4_WARNING"],1,color.white)
-		screen.print(10,120,"5) "..language["SD2VITA_5_WARNING"],1,color.white)
+		screen.print(10,80,"3) "..LANGUAGE["SD2VITA_3_WARNING"],1,color.white)
+		screen.print(10,100,"4) "..LANGUAGE["SD2VITA_4_WARNING"],1,color.white)
+		screen.print(10,120,"5) "..LANGUAGE["SD2VITA_5_WARNING"],1,color.white)
 
 		if files.exists("gro0:") then
 			local device_info = os.devinfo("gro0:")
 			if device_info then
 				flag = true
-				screen.print(480,230,language["SD2VITA_GAMECARD_DETECTED"],1.5,color.white, color.orange, __ACENTER)
-				screen.print(480,270,language["SD2VITA_GAMECARD_REMOVED"],1.3,color.white, color.orange, __ACENTER)
+				screen.print(480,230,LANGUAGE["SD2VITA_GAMECARD_DETECTED"],1.5,color.white, color.orange, __ACENTER)
+				screen.print(480,270,LANGUAGE["SD2VITA_GAMECARD_REMOVED"],1.3,color.white, color.orange, __ACENTER)
 			else
 				flag = false
 			end
@@ -34,7 +34,7 @@ function sd2vita()
 
 		if buttons.circle then return
 		elseif buttons.triangle then
-			if not flag then break else os.message(language["SD2VITA_GAMECARD_DETECTED"]) end
+			if not flag then break else os.message(LANGUAGE["SD2VITA_GAMECARD_DETECTED"]) end
 		end
 
 	end
@@ -81,16 +81,16 @@ function sd2vita()
 		buttons.homepopup(0)
 
 		if back then back:blit(0,0) end
-		message_wait("PSVita-StorageMgr by CelesteBlue".."\n\n"..language["STRING_INSTALLED"])
+		message_wait("PSVita-StorageMgr by CelesteBlue".."\n\n"..LANGUAGE["STRING_INSTALLED"])
 		os.delay(2000)
 
-		os.message(language["STRING_PSVITA_RESTART"])
+		os.message(LANGUAGE["STRING_PSVITA_RESTART"])
 		os.delay(150)
 		buttons.homepopup(1)
 		power.restart()
 
 	else
-		os.message(language["STRING_MISSING_CONFIG"])
+		os.message(LANGUAGE["STRING_MISSING_CONFIG"])
 	end
 
 end

@@ -15,7 +15,7 @@ locations = { "ux0:", "ur0:" }
 version = tostring(os.swversion())
 
 function message_wait(message)
-	local mge = (message or language["STRING_PLEASE_WAIT"])
+	local mge = (message or LANGUAGE["STRING_PLEASE_WAIT"])
 	local titlew = string.format(mge)
 	local w,h = screen.textwidth(titlew,1) + 30,70
 	local x,y = 480 - (w/2), 272 - (h/2)

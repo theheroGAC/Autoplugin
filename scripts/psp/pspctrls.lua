@@ -29,7 +29,7 @@ function insert_psp_plugin(device,obj)
 	files.copy("resources/controls_psp/"..obj.path, device.."pspemu/seplugins/")
 	if files.exists(device.."pspemu/seplugins/"..obj.path) then
 		if back then back:blit(0,0) end
-			message_wait(obj.name.."\n\n"..language["STRING_INSTALLED"])
+			message_wait(obj.name.."\n\n"..LANGUAGE["STRING_INSTALLED"])
 		os.delay(1500)
 	end
 
@@ -89,7 +89,7 @@ function psp_ctrls()
 		buttons.read()
 		if back then back:blit(0,0) end
 
-		screen.print(480,18,language["PSPCTRLS_TITLE"],1.2,color.white, 0x0, __ACENTER)
+		screen.print(480,18,LANGUAGE["PSPCTRLS_TITLE"],1.2,color.white, 0x0, __ACENTER)
 
 		--Partitions
 		local xRoot = 700
@@ -131,30 +131,30 @@ function psp_ctrls()
 			draw.fillrect(950, ybar-2 + ((hbar-pos_height)/(scroll_psp.maxim-1))*(scroll_psp.sel-1), 8, pos_height, color.new(0,255,0))
 		end
 
-		if screen.textwidth(language["PSPCTRLS_DESC"]) > 935 then
-			x_scr = screen.print(x_scr, 400, language["PSPCTRLS_DESC"],1,color.white,color.orange,__SLEFT,935)
+		if screen.textwidth(LANGUAGE["PSPCTRLS_DESC"]) > 935 then
+			x_scr = screen.print(x_scr, 400, LANGUAGE["PSPCTRLS_DESC"],1,color.white,color.orange,__SLEFT,935)
 		else
-			screen.print(480, 400, language["PSPCTRLS_DESC"],1,color.white,color.orange,__ACENTER)
+			screen.print(480, 400, LANGUAGE["PSPCTRLS_DESC"],1,color.white,color.orange,__ACENTER)
 		end
 
 		if buttonskey2 then buttonskey2:blitsprite(900,448,2) end
 		if buttonskey2 then buttonskey2:blitsprite(930,448,3) end
-		screen.print(895,450,language["PSPCTRLS_LR_SWAP"],1,color.white,color.black,__ARIGHT)
+		screen.print(895,450,LANGUAGE["PSPCTRLS_LR_SWAP"],1,color.white,color.black,__ARIGHT)
 
 		if buttonskey then buttonskey:blitsprite(10,448,__TRIANGLE) end
-		screen.print(40,450,language["INSTALLP_ALL"],1,color.white,color.black, __ALEFT)
+		screen.print(40,450,LANGUAGE["INSTALLP_ALL"],1,color.white,color.black, __ALEFT)
 
 		if buttonskey then buttonskey:blitsprite(10,472,__SQUARE) end
-		screen.print(40,475,language["INSTALLP_MARK"],1,color.white,color.black, __ALEFT)
+		screen.print(40,475,LANGUAGE["INSTALLP_MARK"],1,color.white,color.black, __ALEFT)
 
 		if buttonskey2 then buttonskey2:blitsprite(5,498,0) end
-		screen.print(40,500,language["INSTALLP_CLEAN"],1,color.white,color.black, __ALEFT)
+		screen.print(40,500,LANGUAGE["INSTALLP_CLEAN"],1,color.white,color.black, __ALEFT)
 
 		if buttonskey then buttonskey:blitsprite(10,523,scancel) end
-		screen.print(40,525,language["STRING_BACK"],1,color.white,color.black, __ALEFT)
+		screen.print(40,525,LANGUAGE["STRING_BACK"],1,color.white,color.black, __ALEFT)
 
 		if buttonskey2 then buttonskey2:blitsprite(930,523,1) end
-		screen.print(925,525,language["STRING_CLOSE"],1,color.white,color.red, __ARIGHT)
+		screen.print(925,525,LANGUAGE["STRING_CLOSE"],1,color.white,color.red, __ARIGHT)
 
 		screen.flip()
 
@@ -172,7 +172,7 @@ function psp_ctrls()
 		--Exit
 		if buttons.start then
 			if change then
-				os.message(language["STRING_PSVITA_RESTART"])
+				os.message(LANGUAGE["STRING_PSVITA_RESTART"])
 				os.delay(250)
 				buttons.homepopup(1)
 				power.restart()
@@ -216,7 +216,7 @@ function psp_ctrls()
 				end
 
 				if back then back:blit(0,0) end
-					message_wait(language["PSPCTRLS_GAME_UPDATED"])
+					message_wait(LANGUAGE["PSPCTRLS_GAME_UPDATED"])
 				os.delay(1500)
 
 			end--cross
@@ -246,7 +246,7 @@ function psp_ctrls()
 				end
 
 				if back then back:blit(0,0) end
-					message_wait(language["PSPCTRLS_GAME_UPDATED"])
+					message_wait(LANGUAGE["PSPCTRLS_GAME_UPDATED"])
 				os.delay(1500)
 			end
 
