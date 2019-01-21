@@ -17,7 +17,7 @@ end
 local config_callback = function ()
     if back then back:blit(0,0) end
 	files.copy("resources/pkgj/config.txt", "ux0:pkgi")
-	message_wait(MENU_INSTALLED_CONFIG)
+	message_wait(language["MENU_INSTALLED_CONFIG"])
 	os.delay(2000)
 end
 
@@ -27,7 +27,7 @@ end
 
 local exit_callback = function ()
     if change then
-		os.message(STRING_PSVITA_RESTART)
+		os.message(language["STRING_PSVITA_RESTART"])
 		os.delay(250)
 		buttons.homepopup(1)
 		power.restart()
@@ -36,13 +36,13 @@ local exit_callback = function ()
 end
 
 local menu = {
-	{ text = MENU_INSTALL_SD2VITA,			funct = sd2vita_callback },
-	{ text = MENU_INSTALL_PLUGINS,			funct = installp_callback },
-	{ text = MENU_UNINSTALL_PLUGINS,		funct = uinstallp_callback },
-	{ text = MENU_INSTALL_CONFIG,			funct = config_callback },
-	{ text = MENU_INSTALL_NPDRMFREE,		funct = npdrm_callback },
-	{ text = MENU_INSTALL_REMASTERED_CTRLS,	funct = psp_ctrls_callback },
-	{ text = MENU_EXIT,						funct = exit_callback }
+	{ text = language["MENU_INSTALL_SD2VITA"],			funct = sd2vita_callback },
+	{ text = language["MENU_INSTALL_PLUGINS"],			funct = installp_callback },
+	{ text = language["MENU_UNINSTALL_PLUGINS"],		funct = uinstallp_callback },
+	{ text = language["MENU_INSTALL_CONFIG"],			funct = config_callback },
+	{ text = language["MENU_INSTALL_NPDRMFREE"],		funct = npdrm_callback },
+	{ text = language["MENU_INSTALL_REMASTERED_CTRLS"],	funct = psp_ctrls_callback },
+	{ text = language["MENU_EXIT"],						funct = exit_callback }
 }
 local scrollm,sel = newScroll(menu,#menu),1
 
