@@ -39,7 +39,7 @@ CHINESE_T["MENU_INSTALL_REMASTERED_CTRLS"] =				"安裝RemasteredControls外掛�
 
 CHINESE_T["MENU_CONVERTBOOTSPLASH"] =					"自訂啟動畫面"
 CHINESE_T["MENU_CUSTOMWARNING"] =						"自訂警示訊息"
-CHINESE_T["MENU_INSTALL_CONFIG"] =						"為PKGJ v0.44+安裝config.txt"
+CHINESE_T["MENU_INSTALL_CONFIG"] =						"為PKGJ v0.45+安裝config.txt"
 CHINESE_T["MENU_INSTALL_CONFIG_DESC"] =					"為PKGJ安裝config.txt (需要Wifi)"
 CHINESE_T["MENU_INSTALLED_CONFIG"] =						"PKGJ設定檔ux0:pkgi/config.txt已安裝"
 CHINESE_T["MENU_QENCORE"] =						        "安裝Q-Encore(由Yoti開發)"
@@ -198,4 +198,4 @@ CHINESE_T["INSTALLP_DESC_FUCKPSSE"] =					"一個用於解密PSM遊戲的外掛�
 CHINESE_T["INSTALLP_DESC_PSMPATCH"] =					"允許您修改PSM遊戲,也可用於加載PSM自製程式"
 CHINESE_T["INSTALLP_DESC_ITLSENSO"] =					"將TLS v1.2添加到啟用ENSO的設備(需要安裝該程式的vpk)"
 CHINESE_T["INSTALLP_DESC_TROPHAX"] =						"PSVITA通用獎杯解鎖器"
-CHINESE_S["INSTALLP_DESC_TURBOPAD"] =						"此外挂程式允許您為任何按鍵設定連發."																							  
+CHINESE_T["INSTALLP_DESC_TURBOPAD"] =						"此外挂程式允許您為任何按鍵設定連發."																							  

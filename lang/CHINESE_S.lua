@@ -34,15 +34,15 @@ CHINESE_S["MENU_UNINSTALL_PLUGINS"] =					"卸载插件"
 CHINESE_S["MENU_CHECK_ONLINEP"] =						"检查插件更新"
 
 CHINESE_S["MENU_TITLE_PSP"] =							"PSP (Adrenaline) 选项"
-CHINESE_S["MENU_INSTALL_NPDRMFREE"] =					"安装 npdrm free 插件 | 由 qwikrazor87 开发"
-CHINESE_S["MENU_INSTALL_REMASTERED_CTRLS"] =				"安装 RemasteredControls 插件 | 由 TheOfficialFloW 开发"
+CHINESE_S["MENU_INSTALL_NPDRMFREE"] =					"安装 npdrm free 插件 (由 qwikrazor87 开发)"
+CHINESE_S["MENU_INSTALL_REMASTERED_CTRLS"] =				"安装 RemasteredControls 插件 (由 TheOfficialFloW 开发)"
 
 CHINESE_S["MENU_CONVERTBOOTSPLASH"] =					"设置自定义启动画面"
 CHINESE_S["MENU_CUSTOMWARNING"] =						"设置自定义警告消息"
 CHINESE_S["MENU_INSTALL_CONFIG"] =						"为 PKGJ v0.45+ 安装 config.txt"
 CHINESE_S["MENU_INSTALL_CONFIG_DESC"] =					"为 PKGJ 安装 config.txt (需要 Wifi)"
 CHINESE_S["MENU_INSTALLED_CONFIG"] =						"PKGJ 配置文件 ux0:pkgi/config.txt 已安装!"
-CHINESE_S["MENU_QENCORE"] =						        "安装 Q-Encore | 由 Yoti 开发"
+CHINESE_S["MENU_QENCORE"] =						        "安装 Q-Encore (由 Yoti 开发)"
 CHINESE_S["MENU_QENCORE_DESC"] =						    "由 Yoti 开发的快速 h-encore 启动器 (警告: 必须已安装 h-encore)"
 
 CHINESE_S["MENU_QENCORE_ASK"] =		                    "Q-Encore 是否应被安装到"
@@ -58,7 +58,7 @@ CHINESE_S["MENU_TITLE_SD2VITA"] =						"为 SD2VITA 设备安装 Storage Manager
 CHINESE_S["SD2VITA_CONFIG_TITLE"] =                      "为 SD2VITA 设备配置 Storage Manager 插件"
 CHINESE_S["SD2VITA_CONFIG_DEVICE"] =                     "设备"
 CHINESE_S["SD2VITA_CONFIG_MOUNT"] =                      "挂载点"
-CHINESE_S["SD2VITA_CONFIG_CHANGE"] =                     "改变挂载点"
+CHINESE_S["SD2VITA_CONFIG_CHANGE"] =                     "更改挂载点"
 CHINESE_S["SD2VITA_CONFIG_CANCEL"] =                     "取消"
 CHINESE_S["SD2VITA_CONFIG_SAVE"] =                       "保存当前配置"
 CHINESE_S["SD2VITA_1_WARNING"] =							"您必须准备好 sd2vita 设备后才能安装 Storage Manager 插件"
@@ -127,7 +127,7 @@ CHINESE_S["CUSTOMBOOTSPLASH_NOPNG_FOUND"] =				"ux0:CustomBootsplash 目录为�
 CHINESE_S["CUSTOMBOOTSPLASH_NOPNG"] =					"格式兼容的 PNG"
 
 --pspctrls
-CHINESE_S["PSPCTRLS_TITLE"] =							"Remastered Controls 插件 | 开发者 TheOfficialFloW (Adrenaline)"
+CHINESE_S["PSPCTRLS_TITLE"] =							"Remastered Controls 插件 [开发者 TheOfficialFloW (Adrenaline)]"
 CHINESE_S["PSPCTRLS_GAME_UPDATED"] =						"game.txt 已更新"
 CHINESE_S["PSPCTRLS_DESC"] =								"Adrenaline 上适用于 PSP 游戏的双摇杆补丁合集"
 CHINESE_S["PSPCTRLS_LR_SWAP"] =							"切换分区"
@@ -167,7 +167,7 @@ CHINESE_S["INSTALLP_DESC_NOPSMWHITE"] =					"为 PSM 游戏禁用 PSTV 白名单
 CHINESE_S["INSTALLP_DESC_ANALOGSTICK"] =					"此插件用于彻底禁用 PSVita 摇杆"
 CHINESE_S["INSTALLP_DESC_CIDSPOOF"] =					"用于 PSV 伪装 CID (设备ID) (也许可以用于解除 PSN 对您设备的封锁)"
 CHINESE_S["INSTALLP_DESC_MAKEPSM"] =						"修改 PSM 开发者程序"
-CHINESE_S["INSTALLP_DESC_REFOOD"] =						"用于运行无法正确解密的程序的 vita 插件"
+CHINESE_S["INSTALLP_DESC_REFOOD"] =						"此插件用于运行无法正确解密的程序"
 
 --Boot_config.txt
 CHINESE_S["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =			"此插件将在 PS Vita/PSTV 启动时显示自定义启动画面. 需要 ENSO"
@@ -198,4 +198,4 @@ CHINESE_S["INSTALLP_DESC_FUCKPSSE"] =					"一个用于解密 PSM 游戏的插�
 CHINESE_S["INSTALLP_DESC_PSMPATCH"] =					"允许您修改 PSM 游戏,也可用于加载 PSM 自制程序"
 CHINESE_S["INSTALLP_DESC_ITLSENSO"] =					"将 TLS v1.2 添加到启用 ENSO 的设备(需要安装该程序的 vpk)"
 CHINESE_S["INSTALLP_DESC_TROPHAX"] =						"PSVITA 通用奖杯解锁器"
-CHINESE_S["INSTALLP_DESC_TURBOPAD"] =						"这个插件允许您为任何按钮启用连发."
+CHINESE_S["INSTALLP_DESC_TURBOPAD"] =						"这个插件允许您为任何按钮启用连发"
