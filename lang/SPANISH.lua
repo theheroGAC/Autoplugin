@@ -1,5 +1,4 @@
 SPANISH = {}
-
 --Translates
 
 SPANISH["STRING_UNSAFE_MODE"] =						"¡Se necesita el MODO INSEGURO para este Homebrew!"
@@ -23,10 +22,12 @@ SPANISH["MENU_EXIT"] =									"Salir"
 SPANISH["INSTALL_PLUGINS_DESC"] =           			"Instala los Plugins más útiles desarrollados por la Scene de PSVita"
 SPANISH["UNINSTALL_PLUGINS_DESC"] =           			"Desinstala Plugins de manera fácil y sencilla"
 SPANISH["INSTALL_SD2VITA_DESC"] =           			"Instala el Plugin SD2VITA (StorageMgr de CelesteBlue)"
+SPANISH["CONFIG_SD2VITA_DESC"] =                "Configura el Plugin SD2VITA (StorageMgr de CelesteBlue)"
 SPANISH["CHECK_ONLINEP_DESC"] =           				"Verifica si hay alguna actualizacion para los Plugin (Requiere WiFi)"
 
 SPANISH["MENU_TITLE_PSVITA"] =           				"Opciones para PS Vita"
 SPANISH["MENU_INSTALL_SD2VITA"] =            			"Instalar Plugin SD2VITA"
+SPANISH["MENU_CONFIGURE_SD2VITA"] =                 "Configura el Plugin para SD2VITA"
 SPANISH["MENU_INSTALL_PLUGINS"] =						"Instalar Plugins"
 SPANISH["MENU_UNINSTALL_PLUGINS"] =					"Desinstalar Plugins"
 SPANISH["MENU_CHECK_ONLINEP"] =						"Buscar Actualizaciones de Plugins"
@@ -37,7 +38,7 @@ SPANISH["MENU_INSTALL_REMASTERED_CTRLS"] =				"Instalar el Plugin RemasteredCont
 
 SPANISH["MENU_CONVERTBOOTSPLASH"] =           			"Establece una imagen Custom Boot Splash"
 SPANISH["MENU_CUSTOMWARNING"] =           				"Establece un mensaje para Custom Warning Message"
-SPANISH["MENU_INSTALL_CONFIG"] =           			"Instala config.txt para PKGj v0.44+"
+SPANISH["MENU_INSTALL_CONFIG"] =           			"Instala config.txt para PKGj v0.45+"
 SPANISH["MENU_INSTALL_CONFIG_DESC"] =           		"Instala config.txt para PKGj (Requiere WiFi)"
 SPANISH["MENU_INSTALLED_CONFIG"] =           			"¡ux0:pkgi/config.txt para PKGj ha sido instalado!"
 SPANISH["MENU_QENCORE"] =           					"Instala Q-Encore de Yoti"
@@ -53,6 +54,12 @@ SPANISH["MENU_QENCORE_NOGAME"] =           			"¡H-Encore debe estar instalado p
 
 --install sd2vita
 SPANISH["MENU_TITLE_SD2VITA"] =           				"Instala el plugin Storage Manager para usar una SD2VITA"
+SPANISH["SD2VITA_CONFIG_TITLE"] =                   "Configura el Plugin Storage Manager para la SD2VITA"
+SPANISH["SD2VITA_CONFIG_DEVICE"] =                     "Dispositivo"
+SPANISH["SD2VITA_CONFIG_MOUNT"] =                      "Punto de Montaje"
+SPANISH["SD2VITA_CONFIG_CHANGE"] =                     "Cambiar Punto de Montaje"
+SPANISH["SD2VITA_CONFIG_CANCEL"] =                     "Cancelar"
+SPANISH["SD2VITA_CONFIG_SAVE"] =                       "Guardar la actual configuración"
 SPANISH["SD2VITA_1_WARNING"] =							"Para instalar el plugin de Storage Manager, su SD2VITA DEBE estar lista"
 SPANISH["SD2VITA_2_WARNING"] =							"¡Si tiene un Juego Oficial insertado, DEBE retirarlo antes de reiniciar la PS Vita!"
 SPANISH["SD2VITA_3_WARNING"] =							"MUY IMPORTANTE: Debes copiar el contenido de tu memoria original"
@@ -62,6 +69,18 @@ SPANISH["SD2VITA_GAMECARD_DETECTED"] =					"¡CARTUCHO DE JUEGO DETECTADO!"
 SPANISH["SD2VITA_GAMECARD_REMOVED"] =					"Retíralo para continuar"
 SPANISH["SD2VITA_INSTALL"] =							"para proceder con la instalación"
 SPANISH["SD2VITA_CANCEL"] =							"para cancelar la instalación"
+SPANISH["SD2VITA_INVALID_CONFIG"] =                    "                                 ¡Configuración invalida!\n\nAsegurate que todos los Puntos de Montajes son unicos o estan puestos en ninguno\n                                y ux0 esta ajustado."
+SPANISH["SD2VITA_UPDATED_CONFIG"] =                    "¡Configuración de Storage Manager actualizada!"
+SPANISH["MOUNT_NONE_FRIENDLY"] =                       "Desmontanda"
+SPANISH["MOUNT_UX0_FRIENDLY"] =                        "Aplicaciones del LiveArea"
+SPANISH["MOUNT_XMC0_FRIENDLY"] =                       "Sin uso"
+SPANISH["MOUNT_IMC0_FRIENDLY"] =                       "Memoria Interna en Vita 2K (Slim)/PSTV"
+SPANISH["MOUNT_UMA0_FRIENDLY"] =                       "Puerto USB"
+SPANISH["MOUNT_GRW0_FRIENDLY"] =                       "Ranura de Cartucho de Juegos"
+SPANISH["SD2VITA_MCD_FRIENDLY"] =                      "Tarjeta de Memoria Oficial"
+SPANISH["SD2VITA_INT_FRIENDLY"] =                      "Memoria Interna en Vita 2K(Slim)/PSTV"
+SPANISH["SD2VITA_GCD_FRIENDLY"] =                      "SD2VITA"
+SPANISH["SD2VITA_UMA_FRIENDLY"] =                      "USB o PSVSD en Vita con ranura 3G"
 
 --install plugins
 SPANISH["INSTALLP_LIST_PLUGINS"] =						"Lista de Plugins listos para instalar:"
@@ -119,7 +138,7 @@ SPANISH["UPDATE_CHECK_DB"] =							"Revisando Base de Datos"
 SPANISH["UPDATE_PLUGIN"] =								"Plugin Actualizado"
 SPANISH["UPDATE_ERROR_DB"] =							"Error al descargar db.lua"
 SPANISH["UPDATE_NO_NEWS"] =							"Todos los plugins están actualizados"
-SPANISH["UPDATE_VITACHEAT_DB"] =						"¿Actualizar Base de Cheats para Vitacheat?"
+SPANISH["UPDATE_VITACHEAT_DB"] =						"¿Actualizar Base de Datos de Cheats para Vitacheat?"
 SPANISH["UPDATE_VITACHEAT_DB_WRITE"] =					"¡Se sobreescribiran los archivos!"
 SPANISH["UPDATE_CHECK_VITACHEAT_DB"] =					"Revisando Base de Datos de Vitacheat"
 
@@ -178,3 +197,4 @@ SPANISH["INSTALLP_DESC_FUCKPSSE"] =					"Un plugin para desencriptar contenido d
 SPANISH["INSTALLP_DESC_PSMPATCH"] =					"Permite la modificación (modding) de juegos de PSM, y además puede ser usado para cargar Homebrew de PSM."
 SPANISH["INSTALLP_DESC_ITLSENSO"] =					"Añade protocolo TLS v1.2 a los dispositivos con Enso(requiere instalar el vpk de la aplicación, y requiere además ioplus para dispositivos sin Enso)."
 SPANISH["INSTALLP_DESC_TROPHAX"] =						"Desbloqueador universal de trofeos de PS Vita"
+SPANISH["INSTALLP_DESC_TURBOPAD"] =						"Este plugin te permite activar RapidFire (Pulsación Rápida) en cualquier botón."
