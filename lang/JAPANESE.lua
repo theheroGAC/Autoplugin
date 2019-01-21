@@ -1,6 +1,5 @@
 JAPANESE = {}
-
---Japanese Translates for Version 3.69
+--Translates
 
 JAPANESE["STRING_UNSAFE_MODE"] =				"このアプリケーションはUNSAFE MODEを有効にする必要があります"
 JAPANESE["STRING_PSVITA_RESTART"] =				"PS Vitaを再起動します"
@@ -23,10 +22,12 @@ JAPANESE["MENU_EXIT"] =							"Autopluginを終了"
 JAPANESE["INSTALL_PLUGINS_DESC"] =				"最も有用なプラグインをインストールしてください by SCENE-PSVITA"
 JAPANESE["UNINSTALL_PLUGINS_DESC"] =			"プラグインを簡単かつシンプルにアンインストールします"
 JAPANESE["INSTALL_SD2VITA_DESC"] =				"SD2VITAプラグイン（StorageMgr by CelesteBlue）をインストールします"
+JAPANESE["CONFIG_SD2VITA_DESC"] =               "SD2VITAプラグインの設定 （StorageMgr by CelesteBlue）"
 JAPANESE["CHECK_ONLINEP_DESC"] =				"新しく更新されたプラグインの有無を確認します （Wi-Fi必須）"
 
 JAPANESE["MENU_TITLE_PSVITA"] =					"PS Vita オプション"
 JAPANESE["MENU_INSTALL_SD2VITA"] =				"SD2VITAプラグインのインストール"
+JAPANESE["MENU_CONFIGURE_SD2VITA"] =            "SD2VITA用のプラグインを設定"
 JAPANESE["MENU_INSTALL_PLUGINS"] =				"プラグインのインストール"
 JAPANESE["MENU_UNINSTALL_PLUGINS"] =			"プラグインのアンインストール"
 JAPANESE["MENU_CHECK_ONLINEP"] =				"プラグインの更新確認"
@@ -53,6 +54,12 @@ JAPANESE["MENU_QENCORE_NOGAME"] =				"Q-Encoreパッチを当てるにはh-Encor
 
 --install sd2vita
 JAPANESE["MENU_TITLE_SD2VITA"] =				"SD2VITA用のStorage Managerプラグインをインストール"
+JAPANESE["SD2VITA_CONFIG_TITLE"] =              "SD2VITA用にStorage Managerプラグインを設定"
+JAPANESE["SD2VITA_CONFIG_DEVICE"] =             "デバイス"
+JAPANESE["SD2VITA_CONFIG_MOUNT"] =              "マウントポイント"
+JAPANESE["SD2VITA_CONFIG_CHANGE"] =             "マウントポイントを変更"
+JAPANESE["SD2VITA_CONFIG_CANCEL"] =             "キャンセル"
+JAPANESE["SD2VITA_CONFIG_SAVE"] =               "現在の設定を保存"
 JAPANESE["SD2VITA_1_WARNING"] =					"Storage ManagerプラグインをインストールするにはSD2VITAを挿入しておく必要があります"
 JAPANESE["SD2VITA_2_WARNING"] =					"ゲームカードが挿入されている場合、再起動する前にゲームカードを抜いて下さい"
 JAPANESE["SD2VITA_3_WARNING"] =					"非常に重要:SD2VITAには幾つかのアプリがインストールされている必要があります"
@@ -62,6 +69,18 @@ JAPANESE["SD2VITA_GAMECARD_DETECTED"] =			"ゲームカードが検出されま�
 JAPANESE["SD2VITA_GAMECARD_REMOVED"] =			"ゲームカードをインストール前に取り外してください"
 JAPANESE["SD2VITA_INSTALL"] =					"インストールを続行する"
 JAPANESE["SD2VITA_CANCEL"] =					"インストールを中止する"
+JAPANESE["SD2VITA_INVALID_CONFIG"] =            "設定が無効です。\n\nすべてのマウントポイントが唯一であること、または無しに設定されていることを確認してください。\nそしてux0が設定されます。"
+JAPANESE["SD2VITA_UPDATED_CONFIG"] =            "ストレージマネージャの設定が更新されました！"
+JAPANESE["MOUNT_NONE_FRIENDLY"] =               "マウント解除"
+JAPANESE["MOUNT_UX0_FRIENDLY"] =                "LiveAreaアプリケーション"
+JAPANESE["MOUNT_XMC0_FRIENDLY"] =               "未使用"
+JAPANESE["MOUNT_IMC0_FRIENDLY"] =               "Vita2000/PSTVの内部メモリ"
+JAPANESE["MOUNT_UMA0_FRIENDLY"] =               "USBポート"
+JAPANESE["MOUNT_GRW0_FRIENDLY"] =               "ゲームカードスロット"
+JAPANESE["SD2VITA_MCD_FRIENDLY"] =              "オフィシャルメモリーカード"
+JAPANESE["SD2VITA_INT_FRIENDLY"] =              "Vita2000/PSTVの内部メモリ"
+JAPANESE["SD2VITA_GCD_FRIENDLY"] =              "SD2VITA"
+JAPANESE["SD2VITA_UMA_FRIENDLY"] =              "Vita1000のUSBまたはPSVSD"
 
 --install plugins
 JAPANESE["INSTALLP_LIST_PLUGINS"] =				"インストール可能なプラグインリスト:"
@@ -116,7 +135,7 @@ JAPANESE["PSPCTRLS_LR_SWAP"] =					"L/Rトリガー:パーティションを切�
 JAPANESE["UPDATE_WIFI_LOW"] =					"Wi-Fiの信号が弱いです"
 JAPANESE["UPDATE_WIFI_IS_ON"] =					"Wi-Fiを有効にして下さい"
 JAPANESE["UPDATE_CHECK_DB"] =					"データベースを確認"
-JAPANESE["UPDATE_PLUGINS" =					"プラグインを更新"
+JAPANESE["UPDATE_PLUGINS"] =					"プラグインを更新"
 JAPANESE["UPDATE_ERROR_DB"] =					"db.luaのダウンロードエラー"
 JAPANESE["UPDATE_NO_NEWS"] =					"全てのプラグインが最新です"
 JAPANESE["UPDATE_VITACHEAT_DB"] =				"VitaCheatのデータベースを更新しますか?"
@@ -174,7 +193,8 @@ JAPANESE["INSTALLP_DESC_VITAGRAFIX"] =			"PS Vitaゲームの解像度とFPS上�
 JAPANESE["INSTALLP_DESC_OVERCLOCK"] =			"taiHenの為のシンプルなOverclockプラグイン"
 JAPANESE["INSTALLP_DESC_FRAMECOUNTER"] =		"FPSカウンタとして動作する小さなプラグインです。画面の左上にFPSカウンターが表示されます"
 JAPANESE["INSTALLP_DESC_VGI"] =					"PS Vitaゲームに関する有益な情報を表示するシンプルなtaiHENのプラグイン"
-JAPANESE["INSTALLP_DESC_FUCKPSSE"] =			"PSMゲームを複合化するプラグイン"
+JAPANESE["INSTALLP_DESC_FUCKPSSE"] =			"PSMゲームを複号化するプラグイン"
 JAPANESE["INSTALLP_DESC_PSMPATCH"] =			"PSMゲームを修正することを可能にし、またPSM Homebrewをロードするのに使用することができます"
 JAPANESE["INSTALLP_DESC_ITLSENSO"] =			"Enso対応デバイスにTLS v1.2を追加します（アプリケーションのvpkが必要です）"
 JAPANESE["INSTALLP_DESC_TROPHAX"] =				"PS VITA用ユニバーサルトロフィーロックの解除"
+JAPANESE["INSTALLP_DESC_TURBOPAD"] =			"このプラグインを使うと、どのボタンでも連射(速射)を有効にすることができます。"
