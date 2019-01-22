@@ -49,7 +49,7 @@ CHINESE_S["MENU_INSTALL_REMASTERED_CTRLS"] =			"安装 RemasteredControls 插件
 CHINESE_S["MENU_CONVERTBOOTSPLASH"] =					"设置自定义启动画面"
 CHINESE_S["MENU_CUSTOMWARNING"] =						"设置自定义警告消息"
 CHINESE_S["MENU_INSTALL_CONFIG"] =						"为 PKGJ v0.45+ 安装 config.txt"
-CHINESE_S["MENU_INSTALL_CONFIG_DESC"] =					"为 PKGJ 安装 config.txt (需要 Wifi)"
+CHINESE_S["MENU_INSTALL_CONFIG_DESC"] =				"为 PKGJ 安装 config.txt (需要 Wifi)"
 CHINESE_S["MENU_INSTALLED_CONFIG"] =					"PKGJ 配置文件 ux0:pkgi/config.txt 已安装!"
 CHINESE_S["MENU_QENCORE"] =							"安装 Q-Encore (由 Yoti 开发)"
 CHINESE_S["MENU_QENCORE_DESC"] =						"由 Yoti 开发的快速 h-encore 启动器 (警告: 必须已安装 h-encore)"
@@ -139,7 +139,7 @@ CHINESE_S["CUSTOMBOOTSPLASH_NOPNG"] =					"格式兼容的 PNG"
 CHINESE_S["PSPCTRLS_TITLE"] =							"Remastered Controls 插件 | 开发者 TheOfficialFloW (Adrenaline)"
 CHINESE_S["PSPCTRLS_GAME_UPDATED"] =					"game.txt 已更新"
 CHINESE_S["PSPCTRLS_DESC"] =							"Adrenaline 上适用于 PSP 游戏的双摇杆补丁合集"
-CHINESE_S["PSPCTRLS_LR_SWAP"] =							"切换分区"
+CHINESE_S["PSPCTRLS_LR_SWAP"] =						"切换分区"
 
 --plugins online
 CHINESE_S["UPDATE_WIFI_LOW"] =							"Wifi 信号较差"
@@ -172,7 +172,7 @@ CHINESE_S["INSTALLP_DESC_USBMC"] = 					"将 USB 存储设备设置为 Vita 储�
 CHINESE_S["INSTALLP_DESC_ANALOGSENHANCER"] =			"这个小巧的内核插件允许用户提升 PSVITA 摇杆体验"
 CHINESE_S["INSTALLP_DESC_IOPLUS"] =					"此 PSVita 内核插件允许在用户空间中进行更多的IO操作"
 CHINESE_S["INSTALLP_DESC_VITACHEAT"] =					"在 PSVita 游戏里使用金手指"
-CHINESE_S["INSTALLP_DESC_NOPSMWHITE"] =					"为 PSM 游戏禁用 PSTV 白名单"
+CHINESE_S["INSTALLP_DESC_NOPSMWHITE"] =				"为 PSM 游戏禁用 PSTV 白名单"
 CHINESE_S["INSTALLP_DESC_ANALOGSTICK"] =				"此插件用于彻底禁用 PSVita 摇杆"
 CHINESE_S["INSTALLP_DESC_CIDSPOOF"] =					"用于 PSV 伪装 CID (设备ID) (也许可以用于解除 PSN 对您设备的封锁)"
 CHINESE_S["INSTALLP_DESC_MAKEPSM"] =					"修改 PSM 开发者程序"
@@ -199,7 +199,7 @@ CHINESE_S["INSTALLP_DESC_AUTOBOOT"] =					"此插件令 ENSO 设备开机后自�
 
 --ALL
 CHINESE_S["INSTALLP_DESC_VSHMENU"] =					"用于 PS VITA 游戏和自制软件的 VSH 菜单插件"
-CHINESE_S["INSTALLP_DESC_VITAGRAFIX"] =					"此插件允许你修改 PS Vita 游戏运行的画面解析度和 FPS"
+CHINESE_S["INSTALLP_DESC_VITAGRAFIX"] =				"此插件允许你修改 PS Vita 游戏运行的画面解析度和 FPS"
 CHINESE_S["INSTALLP_DESC_OVERCLOCK"] =					"适用于大变革的简易超频插件"
 CHINESE_S["INSTALLP_DESC_FRAMECOUNTER"] =				"这是一个用作 FPS 计数器的小插件.它将在屏幕的左上方显示一个 FPS 计数器"
 CHINESE_S["INSTALLP_DESC_VGI"] =						"一个简单的 taihen 插件.用于显示 PS Vita 游戏的实用信息"
