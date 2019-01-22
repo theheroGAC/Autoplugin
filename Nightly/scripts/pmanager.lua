@@ -25,14 +25,14 @@ function pluginsmanager()
 		buttons.read()
 		if back then back:blit(0,0) end
 
-		screen.print(480,20,language["UNINSTALLP_TITLE"],1,color.red, 0x0, __ACENTER)
+		screen.print(480,20,LANGUAGE["UNINSTALLP_TITLE"],1,color.red, 0x0, __ACENTER)
 
-		if not tai[partition].exist then screen.print(480,270,language["UNINSTALLP_NOCONFIG_FOUND"]..locations[partition],1.3,color.red, 0x0, __ACENTER)
+		if not tai[partition].exist then screen.print(480,270,LANGUAGE["UNINSTALLP_NOCONFIG_FOUND"]..locations[partition],1.3,color.red, 0x0, __ACENTER)
 		else
 
 			screen.print(10,460,UNINSTALLP_CROSS_INSTALL,1,color.white,color.black)
 			screen.print(10,480,UNINSTALLP_LR_SWAP,1,color.white,color.black)
-			screen.print(10,500,language["UNINSTALLP_LEFTRIGHT_SECTION"],1,color.white,color.black)
+			screen.print(10,500,LANGUAGE["UNINSTALLP_LEFTRIGHT_SECTION"],1,color.white,color.black)
 
 			--Partitions
 			local xRoot = 750
@@ -86,7 +86,7 @@ function pluginsmanager()
 		--Exit
 		if buttons.start then
 			if change then
-				os.message(language["STRING_PSVITA_RESTART"])
+				os.message(LANGUAGE["STRING_PSVITA_RESTART"])
 				os.delay(250)
 				buttons.homepopup(1)
 				power.restart()

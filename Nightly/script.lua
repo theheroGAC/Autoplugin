@@ -43,7 +43,7 @@ if fnt then	font.setdefault(fnt) end
 if os.access() == 0 then
 	if back then back:blit(0,0) end
 	screen.flip()
-	os.message(language["STRING_UNSAFE_MODE"])
+	os.message(LANGUAGE["STRING_UNSAFE_MODE"])
 	os.exit()
 end
 

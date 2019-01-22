@@ -17,7 +17,7 @@ function insert_psp_plugin(device,obj)
 	files.copy("resources/controls_psp/"..obj.path, device.."pspemu/seplugins/")
 	if files.exists(device.."pspemu/seplugins/"..obj.path) then
 		if back then back:blit(0,0) end
-		message_wait(obj.name.."\n\n"..language["STRING_INSTALLED"])
+		message_wait(obj.name.."\n\n"..LANGUAGE["STRING_INSTALLED"])
 		os.delay(1500)
 	end
 
@@ -74,7 +74,7 @@ function psp_ctrls()
 		buttons.read()
 		if back then back:blit(0,0) end
 
-		screen.print(480,10,language["PSPCTRLS_TITLE"],1,color.red, 0x0, __ACENTER)
+		screen.print(480,10,LANGUAGE["PSPCTRLS_TITLE"],1,color.red, 0x0, __ACENTER)
 
 		--Partitions
 		local xRoot = 500
@@ -118,7 +118,7 @@ function psp_ctrls()
 
 		screen.print(10,440,PSPCTRLS_CROSS_INSTALL,1,color.white,color.black)
 		screen.print(10,460,INSTALLP_TRIANGLE_ALL,1,color.white,color.black)
-		screen.print(10,480,language["PSPCTRLS_LR_SWAP"],1,color.white,color.black)
+		screen.print(10,480,LANGUAGE["PSPCTRLS_LR_SWAP"],1,color.white,color.black)
 		screen.print(10,500,INSTALLP_SQUARE_MARK,1,color.white,color.black)
 		screen.print(955,500,INSTALLP_SELECT_CLEAN,1,color.white,color.black, __ARIGHT)
 
@@ -141,7 +141,7 @@ function psp_ctrls()
 		--Exit
 		if buttons.start then
 			if change then
-				os.message(language["STRING_PSVITA_RESTART"])
+				os.message(LANGUAGE["STRING_PSVITA_RESTART"])
 				os.delay(250)
 				buttons.homepopup(1)
 				power.restart()
@@ -179,7 +179,7 @@ function psp_ctrls()
 					if toinstall >= 1 then toinstall-=1 end
 				end
 
-				os.message(language["PSPCTRLS_GAME_UPDATED"])
+				os.message(LANGUAGE["PSPCTRLS_GAME_UPDATED"])
 
 			end--cross
 			
@@ -207,7 +207,7 @@ function psp_ctrls()
 					insert_psp_plugin(options[selector], psp_plugins[i])
 				end
 
-				os.message(language["PSPCTRLS_GAME_UPDATED"])
+				os.message(LANGUAGE["PSPCTRLS_GAME_UPDATED"])
 			end
 
 		end
