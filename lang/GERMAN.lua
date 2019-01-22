@@ -20,28 +20,28 @@ GERMAN["MENU_EXTRAS"] =									"Extras"
 GERMAN["MENU_EXIT"] =									"Exit"
 
 --Desc Options PSVITA
-GERMAN["INSTALL_PLUGINS_DESC"] =						"Installiere die meisten sinnvollen Plugins von der PS-VITA Scene"
-GERMAN["UNINSTALL_PLUGINS_DESC"] =						"Plugins einfach und simpel deinstallieren"
-GERMAN["INSTALL_SD2VITA_DESC"] =						"Plugin SD2VITA installieren (StorageMgr by CelesteBlue)"
-GERMAN["CHECK_ONLINEP_DESC"] =							"Auf neue Plugin Updates prüfen (Wifi erforderlich)"
+GERMAN["INSTALL_PLUGINS_DESC"] =						"Die meisten sinnvollen Plugins der PS-VITA Scene installieren"
+GERMAN["UNINSTALL_PLUGINS_DESC"] =						"Einfach und simpel die Plugins wieder deinstallieren"
+GERMAN["INSTALL_SD2VITA_DESC"] =						"Das Plugin 'StorageMgr' (von CelesteBlue) installieren"
+GERMAN["CHECK_ONLINEP_DESC"] =							"Plugins auf neue Updates prüfen (Wifi erforderlich)"
 
 GERMAN["MENU_TITLE_PSVITA"] =							"PSVITA OPTIONEN"
-GERMAN["MENU_INSTALL_SD2VITA"] =						"Plugin SD2VITA installieren"
+GERMAN["MENU_INSTALL_SD2VITA"] =						"Plugin für SD2VITA installieren"
 GERMAN["MENU_INSTALL_PLUGINS"] =						"Plugins installieren"
 GERMAN["MENU_UNINSTALL_PLUGINS"] =						"Plugins deinstallieren"
-GERMAN["MENU_CHECK_ONLINEP"] =							"Nach Updates für Plugins suchen"
+GERMAN["MENU_CHECK_ONLINEP"] =							"Plugins aktualisieren"
 
 GERMAN["MENU_TITLE_PSP"] =								"PSP (Adrenaline) OPTIONEN"
-GERMAN["MENU_INSTALL_NPDRMFREE"] =						"npdrm free Plugin von qwikrazor87 installieren"
-GERMAN["MENU_INSTALL_REMASTERED_CTRLS"] =				"RemasteredControls Plugins von TheOfficialFloW installieren"
+GERMAN["MENU_INSTALL_NPDRMFREE"] =						"Das Plugin 'npdrm free' (von qwikrazor87) installieren"
+GERMAN["MENU_INSTALL_REMASTERED_CTRLS"] =				"'RemasteredControl' Plugins (von TheOfficialFloW) installieren"
 
 GERMAN["MENU_CONVERTBOOTSPLASH"] =						"Eigenes 'Boot-Splash' Bild festlegen"
-GERMAN["MENU_CUSTOMWARNING"] =							"Custom Warning Nachricht festlegen"
+GERMAN["MENU_CUSTOMWARNING"] =							"Custom Warning Nachricht erstellen"
 GERMAN["MENU_INSTALL_CONFIG"] =							"Installiere config.txt für PKGJ v0.44+"
 GERMAN["MENU_INSTALL_CONFIG_DESC"] =					"Installiere config.txt für PKGJ (Wifi erforderlich)"
 GERMAN["MENU_INSTALLED_CONFIG"] =						"ux0:pkgi/config.txt für PKGJ wurde installiert!"
-GERMAN["MENU_QENCORE"] =								"Q-Encore von Yoti installieren"
-GERMAN["MENU_QENCORE_DESC"] =							"Schnellstart für H-Encore von Yoti (Warnung: H-Encore muss installiert sein)"
+GERMAN["MENU_QENCORE"] =								"Q-Encore (von Yoti) installieren"
+GERMAN["MENU_QENCORE_DESC"] =							"Schnellstart für H-Encore (Warnung: H-Encore muss installiert sein)"
 
 GERMAN["MENU_QENCORE_ASK"] =							"Soll Q-Encore installiert werden auf"
 GERMAN["MENU_INSTALLED_QENCORE"] =						"Q-Encore wurde installiert auf"
@@ -49,27 +49,27 @@ GERMAN["MENU_NOT_INSTALLED_QENCORE"] =					"Q-Encore wurde nicht installiert auf
 GERMAN["MENU_QENCORE_PATCHED"] =						"Q-Encore wurde gepatched!"
 GERMAN["MENU_QENCORE_NOT_PATCHED"] =					"Q-Encore wurde nicht gepatched!"
 
-GERMAN["MENU_QENCORE_NOGAME"] =							"H-Encore muss installiert sein um mit Q-Encore gepatched zu werden!"
+GERMAN["MENU_QENCORE_NOGAME"] =							"\n         H-Encore muss installiert sein,\n um mit Q-Encore gepatched zu werden!"
 
 --install sd2vita
-GERMAN["MENU_TITLE_SD2VITA"] =							"Installiere Storage Manager Plugin für SD2VITA"
-GERMAN["SD2VITA_1_WARNING"] =							"Um das Plugin StorageMGR zu installieren muss die SD2VITA bereit sein"
+GERMAN["MENU_TITLE_SD2VITA"] =							"Installiere 'StorageMGR' Plugin für SD2VITA"
+GERMAN["SD2VITA_1_WARNING"] =							"Um das Plugin StorageMGR zu installieren muss die SD2VITA Karte bereit sein"
 GERMAN["SD2VITA_2_WARNING"] =							"Falls eine Spielkarte eingesteckt ist, MUSS diese VOR dem Neustart entfernt werden!"
 GERMAN["SD2VITA_3_WARNING"] =							"SEHR WICHTIG: Die SD2Vita MUSS einige Apps beinhalten, diese kannst du"
 GERMAN["SD2VITA_4_WARNING"] =							"von der offiziellen MC zur SD kopieren. Kopiere nur wirklich benötigte Apps."
 GERMAN["SD2VITA_5_WARNING"] =							"Zum Beispiel: H-encore, Vitashell/ONEMenu, PKGj, Adrenaline, etc... "
 GERMAN["SD2VITA_GAMECARD_DETECTED"] =					"SPIELKARTE ERKANNT!"
 GERMAN["SD2VITA_GAMECARD_REMOVED"] =					"Entferne sie vor der Installation!"
-GERMAN["SD2VITA_INSTALL"] =								"um die Installation fortzufahren"
-GERMAN["SD2VITA_CANCEL"] =								"um die Installation abzubrechen"
+GERMAN["SD2VITA_INSTALL"] =								"Installation fortfahren"
+GERMAN["SD2VITA_CANCEL"] =								"Installation abbrechen"
 
 --install plugins
 GERMAN["INSTALLP_LIST_PLUGINS"] =						"Liste der Plugins, die zur Installation bereit sind:"
-GERMAN["INSTALLP_MARK"] =								"Plugin(s) markieren / Markierung aufheben"
+GERMAN["INSTALLP_MARK"] =								"Plugin(s) markieren / demarkieren"
 GERMAN["INSTALLP_CONFIRM"] =							"Plugin(s) installieren"
-GERMAN["INSTALLP_ALL"] =								"um alle Plugins zu installieren"
-GERMAN["INSTALLP_CLEAN"] =								"um die Markierung der Plugins zu entfernen"
-GERMAN["INSTALLP_LR_SWAP"] =							"um zwischen ux0/ur0 zu wechseln"
+GERMAN["INSTALLP_ALL"] =								"Alle Plugins installieren"
+GERMAN["INSTALLP_CLEAN"] =								"Alle Markierungen entfernen"
+GERMAN["INSTALLP_LR_SWAP"] =							"Zwischen ux0/ur0 wechseln"
 GERMAN["INSTALLP_CUSTOM_PATH"] =						"Installationspfad"
 
 GERMAN["INSTALLP_VITABRIGHT_360"] =						"Vitabright ist nur für PSVita OLED und 3.60/H-Encore 3.68"
@@ -84,15 +84,15 @@ GERMAN["INSTALLP_OSK_TEXT"] =							"Schreibe deinen Text hier rein"
 --Uninstall plugins
 GERMAN["UNINSTALLP_TITLE"] =							"Plugin Manager"
 GERMAN["UNINSTALLP_NOCONFIG_FOUND"] =					"Keine config.txt gefunden in: "
-GERMAN["UNINSTALLP_PLUGIN"] =							"um Plugin zu deinstallieren"
-GERMAN["UNINSTALLP_LEFTRIGHT_SECTION"] =				"<--/--> um Abschnitt zu wechseln"
+GERMAN["UNINSTALLP_PLUGIN"] =							"Plugin deinstallieren"
+GERMAN["UNINSTALLP_LEFTRIGHT_SECTION"] =				"<--/--> Abschnitt wechseln"
 
 --npdrm free
-GERMAN["NPDRMFREE_TITLE"] =								"npdrm free Plugin von Qwik installieren"
-GERMAN["NPDRMFREE_INSTALLED"] =							"npdrm free wurde installiert"
+GERMAN["NPDRMFREE_TITLE"] =								"Das Plugin 'npdrm free' (von qwikrazor87) installieren"
+GERMAN["NPDRMFREE_INSTALLED"] =							"'npdrm free' wurde installiert"
 GERMAN["NPDRMFREE_VSH_UPDATED"] =						"vsh.txt wurde aktualisiert"
 GERMAN["NPDRMFREE_GAME_UPDATED"] =						"game.txt wurde aktualisiert"
-GERMAN["NPDRMFREE_INSTALL"] =							"Installiere npdrm free Plugin"
+GERMAN["NPDRMFREE_INSTALL"] =							"Installiere 'npdrm free'"
 GERMAN["NPDRMFREE_DESC"] =								"Ein PSP / ePSP-Plugin zum Ausführen offizieller NPDRM PS1 / PSP-Inhalte ohne gültige .rif-Lizenz oder act.dat."
 
 --customWaning
@@ -107,14 +107,14 @@ GERMAN["CUSTOMBOOTSPLASH_NOPNG_FOUND"] =				"In ux0:CustomBootsplash ist Kein Bi
 GERMAN["CUSTOMBOOTSPLASH_NOPNG"] =						"Formatiere in das kompatible format PNG"
 
 --pspctrls
-GERMAN["PSPCTRLS_TITLE"] =								"Remastered Controls Plugins von TheOfficialFloW (Adrenaline)"
+GERMAN["PSPCTRLS_TITLE"] =								"'RemasteredControl' Plugins (von TheOfficialFloW)"
 GERMAN["PSPCTRLS_GAME_UPDATED"] =						"game.txt wurde aktualisiert"
 GERMAN["PSPCTRLS_DESC"] =								"Eine Sammlung von Dual Analogstick Patches für PSP-Spiele (Adrenaline)"
-GERMAN["PSPCTRLS_LR_SWAP"] =							"um partitionen zu wechseln"
+GERMAN["PSPCTRLS_LR_SWAP"] =							"Partitionen wechseln"
 
 --plugins online
-GERMAN["UPDATE_WIFI_LOW"] =								"Schlechtes W-Lan Signal"
-GERMAN["UPDATE_WIFI_IS_ON"] =							"W-Lan ist erforderlich"
+GERMAN["UPDATE_WIFI_LOW"] =								"Schlechtes Wifi Signal"
+GERMAN["UPDATE_WIFI_IS_ON"] =							"Wifi erforderlich"
 GERMAN["UPDATE_CHECK_DB"] =								"Datenbank überprüfen"
 GERMAN["UPDATE_PLUGIN"] =								"Plugins aktualisiert"
 GERMAN["UPDATE_ERROR_DB"] =								"Fehler beim Herunterladen von db.lua"
