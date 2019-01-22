@@ -73,6 +73,13 @@ end
 
 -- Loading font
 files.mkdir("ux0:data/AUTOPLUGIN/font/")
+
+if os.language() == "CHINESE_T" then
+	if not files.exists("ux0:data/AUTOPLUGIN/font/font.pgf") then
+		http.getfile("https://raw.githubusercontent.com/theheroGAC/Autoplugin/master/translations/font/font.pgf", "ux0:data/AUTOPLUGIN/font/font.pgf")
+	end
+end
+
 fnt = font.load("ux0:data/AUTOPLUGIN/font/font.pgf") or font.load("ux0:data/AUTOPLUGIN/font/font.pvf") or font.load("ux0:data/AUTOPLUGIN/font/font.ttf")
 if fnt then	font.setdefault(fnt) end
 
