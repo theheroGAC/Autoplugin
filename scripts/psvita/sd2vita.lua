@@ -139,6 +139,8 @@ function install()
 		message_wait("PSVita-StorageMgr by CelesteBlue" .. "\n\n" .. language["STRING_INSTALLED"])
 		os.delay(2000)
 
+		configure()
+
 		os.message(language["STRING_PSVITA_RESTART"])
 		os.delay(150)
 		buttons.homepopup(1)
