@@ -2,6 +2,15 @@ CHINESE_T = {}
 
 --Translates
 
+CHINESE_T["MENU_TRANSLATE"] =							"翻譯Autoplugin"
+CHINESE_T["TRANSLATE_ENGLISH_TITLE"] =					"英語語言翻譯: "
+CHINESE_T["TRANSLATE_CURRENT_TITLE"] =					"當前語言翻译: "
+CHINESE_T["TRANSLATE_YOUR_TITLE"] =					"您的語言翻譯: "
+CHINESE_T["MENU_TRANSLATE_DESC"] =						"請您參與翻譯您的語言來幫助改進Autoplugin!"
+CHINESE_T["SAVE_TRANSLATIONS"] =						"保存您的語言翻譯"
+CHINESE_T["TRANSLATION_SAVED_1"] =						"您的語言翻譯已存檔至:"
+CHINESE_T["TRANSLATION_SAVED_2"] =						"將此翻譯檔案上載至Autoplugin GitHub以便開發者收錄您的翻譯."
+CHINESE_T["NOTHING_TO_TRANSLATE"] =					"謝謝您的關注，但是現在沒有須要翻譯的内容了!"
 CHINESE_T["STRING_UNSAFE_MODE"] =						"需要在Henkaku設定中啟用不安全自製程式模式！"
 CHINESE_T["STRING_PSVITA_RESTART"] =					"您的PSVita即將重新啟動"
 CHINESE_T["STRING_BACKUP_CONFIGS"] =					"正在創建Config_backups.txt"
