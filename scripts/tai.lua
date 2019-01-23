@@ -67,13 +67,13 @@ function tai.load()
 	tai[1].exist,tai[2].exist = false,false
 	tai[1].path,tai[2].path = tai_ux0_path,tai_ur0_path
 
-	if files.exists(tai_ux0_path) then
+	if files.exists(tai_ux0_path) and not files.info(tai_ux0_path).directory then
 		load_config(tai_ux0_path,1)
 		tai[1].exist = true
 	end
 
 	
-	if files.exists(tai_ur0_path) then
+	if files.exists(tai_ur0_path) and not files.info(tai_ur0_path).directory then
 		load_config(tai_ur0_path,2)
 		tai[2].exist = true
 	end
@@ -118,7 +118,7 @@ end
 
 --[[
 	NIL tai.repair()
-	When executing this function, a massive scan is done in the txt, of scattered GAMEID´s,
+	When executing this function, a massive scan is done in the txt, of scattered GAMEIDï¿½s,
 	concentrating these into a single one, and preserving the first id found in the txt, or if section is void, delete.
 	Useful to repair previous errors in the use of the same.
 ]]
