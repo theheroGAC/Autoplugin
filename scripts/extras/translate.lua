@@ -112,10 +112,11 @@ function translate()
                 current = CUSTOM_TRANSLATION[t_need[scroll.sel]]
             elseif CURRENT_TRANSLATION[t_need[scroll.sel]] ~= "" then
                 current = CURRENT_TRANSLATION[t_need[scroll.sel]]
-            else
             end
 
-            local new = osk.init(ENGLISH_US[t_need[scroll.sel]], current)
+            current = string.gsub(current, "\n", "\\n")
+
+            local new = osk.init(string.gsub(ENGLISH_US[t_need[scroll.sel]], "\n", "\\n"), current)
             CUSTOM_TRANSLATION[t_need[scroll.sel]] = new
 
             if new ~= "" then
