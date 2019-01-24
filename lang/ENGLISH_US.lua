@@ -2,6 +2,7 @@ ENGLISH_US = {}
 
 --Translates
 
+ENGLISH_US["CHINESE_FONT_DOWNLOAD"] =					"Downloading Chinese Font"
 ENGLISH_US["MENU_TRANSLATE"] =							"Translate Autoplugin"
 ENGLISH_US["TRANSLATE_ENGLISH_TITLE"] =					"English: "
 ENGLISH_US["TRANSLATE_CURRENT_TITLE"] =					"Current: "
@@ -35,7 +36,7 @@ ENGLISH_US["INSTALL_SD2VITA_DESC"] =					"Install Plugin SD2VITA (StorageMgr by 
 ENGLISH_US["CONFIG_SD2VITA_DESC"] =						"Configure Plugin SD2VITA (StorageMgr by CelesteBlue)"
 ENGLISH_US["CHECK_ONLINEP_DESC"] =						"Check if there are new updated plugins (Require Wifi)"
 
-ENGLISH_US["MENU_TITLE_PSVITA"] =						"Vita PLugins"
+ENGLISH_US["MENU_TITLE_PSVITA"] =						"Vita Plugins"
 ENGLISH_US["MENU_INSTALL_SD2VITA"] =					"Install Plugin for SD2VITA"
 ENGLISH_US["MENU_CONFIGURE_SD2VITA"] =					"Configure Plugin for SD2VITA"
 ENGLISH_US["MENU_INSTALL_PLUGINS"] =					"Install Plugins"
