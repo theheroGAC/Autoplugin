@@ -45,7 +45,6 @@ function update_language(newlang)
 	end
 end
 
-
 dofile("lang/ENGLISH_US.lua")
 update_language(ENGLISH_US)
 -- Official Translations
@@ -108,24 +107,24 @@ if files.exists("ux0:data/AUTOPLUGIN/lang/"..os.language()..".lua") then
 		update_language(CUSTOM_SPANISH)
 		CUSTOM_TRANSLATION=CUSTOM_SPANISH
 	end
-
 end
+
+dofile("scripts/scroll.lua")
+dofile("scripts/tai.lua")
+dofile("scripts/commons.lua")
 
 -- Loading font
 files.mkdir("ux0:data/AUTOPLUGIN/font/")
 
-if os.language() == "CHINESE_T" then
+if os.language() == "CHINESE_T" or os.language() == "CHINESE_S" then
 	if not files.exists("ux0:data/AUTOPLUGIN/font/font.pgf") then
+		message_wait(CHINESE_FONT_DOWNLOAD)
 		http.getfile("https://raw.githubusercontent.com/theheroGAC/Autoplugin/master/translations/font/font.pgf", "ux0:data/AUTOPLUGIN/font/font.pgf")
 	end
 end
 
 fnt = font.load("ux0:data/AUTOPLUGIN/font/font.pgf") or font.load("ux0:data/AUTOPLUGIN/font/font.pvf") or font.load("ux0:data/AUTOPLUGIN/font/font.ttf")
 if fnt then	font.setdefault(fnt) end
-
-dofile("scripts/scroll.lua")
-dofile("scripts/tai.lua")
-dofile("scripts/commons.lua")
 
 --Funciones PSVITA
 dofile("scripts/psvita/sd2vita.lua")
