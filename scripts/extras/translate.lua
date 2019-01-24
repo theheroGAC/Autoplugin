@@ -8,7 +8,7 @@ function save_translation()
         end
     end
     files.write("ux0:data/AUTOPLUGIN/lang/"..os.language()..".lua", t)
-    os.message(LANGUAGE["TRANSLATION_SAVED_1"].."\n\nux0:data/AUTOPLUGIN/lang/"..os.language()..".lua\n\n"..LANGUAGE["TRANSLATION_SAVED_2"])
+    os.message("\n"..LANGUAGE["TRANSLATION_SAVED_1"].."\n\nux0:data/AUTOPLUGIN/lang/"..os.language()..".lua\n\n"..LANGUAGE["TRANSLATION_SAVED_2"])
 end
 
 function translate()
@@ -126,7 +126,7 @@ function translate()
 
         if buttons[cancel] then
             if unsaved_translation then
-                if os.message((LANGUAGE["EXIT_SAVE_TRANSLATIONS"]), 1) == 1 then
+                if os.message("\n"..LANGUAGE["EXIT_SAVE_TRANSLATIONS"], 1) == 1 then
                     save_translation()
                 end
             end
