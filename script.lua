@@ -24,16 +24,6 @@ psvita = image.load("resources/psvita.png")
 buttonskey = image.load("resources/buttons.png",20,20)
 buttonskey2 = image.load("resources/buttons2.png",30,20)
 
-if os.access() == 0 then
-	if back then back:blit(0,0) end
-	screen.flip()
-	os.message(LANGUAGE["STRING_UNSAFE_MODE"])
-	os.exit()
-end
-
---Updater
-if check_online() then dofile("git/updater.lua") end
-
 __LANG = os.language()
 
 -- Loading font
@@ -48,11 +38,21 @@ end
 fnt = font.load("ux0:data/AUTOPLUGIN/font/font.pgf") or font.load("ux0:data/AUTOPLUGIN/font/font.pvf") or font.load("ux0:data/AUTOPLUGIN/font/font.ttf")
 if fnt then	font.setdefault(fnt) end
 
-dofile("scripts/scroll.lua")
-dofile("scripts/tai.lua")
 dofile("scripts/language.lua")
 dofile("scripts/commons.lua")
 
+if os.access() == 0 then
+	if back then back:blit(0,0) end
+	screen.flip()
+	os.message(LANGUAGE["STRING_UNSAFE_MODE"])
+	os.exit()
+end
+
+--Updater
+if check_online() then dofile("git/updater.lua") end
+
+dofile("scripts/scroll.lua")
+dofile("scripts/tai.lua")
 
 --Funciones PSVITA
 dofile("scripts/psvita/sd2vita.lua")
