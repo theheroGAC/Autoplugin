@@ -61,6 +61,12 @@ function message_wait(message)
 	screen.flip()
 end
 
+function check_online()
+	local file = http.get("https://raw.githubusercontent.com/theheroGAC/Autoplugin/master/version")
+
+	if file then return true else return false end
+end
+
 --Variables Universales
 files.mkdir("ux0:CustomBootsplash/")
 

@@ -32,7 +32,7 @@ if os.access() == 0 then
 end
 
 --Updater
-if wlan.strength() > 55 then dofile("git/updater.lua") end
+if check_online() then dofile("git/updater.lua") end
 
 __LANG = os.language()
 
