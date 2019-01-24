@@ -2,8 +2,8 @@ ENGLISH_US = {}
 
 --Translates
 
-ENGLISH_US["UPDATER_AVAILABLE"] =           "is now available."
-ENGLISH_US["UPDATER_UPDATE"] =               "Do you want to update the application?"
+ENGLISH_US["UPDATER_AVAILABLE"] =           			"is now available."
+ENGLISH_US["UPDATER_UPDATE"] =               			"Do you want to update the application?"
 ENGLISH_US["CHINESE_FONT_DOWNLOAD"] =					"Downloading Chinese Font"
 ENGLISH_US["MENU_TRANSLATE"] =							"Translate Autoplugin"
 ENGLISH_US["TRANSLATE_ENGLISH_TITLE"] =					"English: "
@@ -11,7 +11,7 @@ ENGLISH_US["TRANSLATE_CURRENT_TITLE"] =					"Current: "
 ENGLISH_US["TRANSLATE_YOUR_TITLE"] =					"Yours: "
 ENGLISH_US["MENU_TRANSLATE_DESC"] =						"Help improve Autoplugin by translating to your language!"
 ENGLISH_US["SAVE_TRANSLATIONS"] =						"Save Translations"
-ENGLISH_US["EXIT_SAVE_TRANSLATIONS"] =      "Translation not saved. Save before exiting?"
+ENGLISH_US["EXIT_SAVE_TRANSLATIONS"] =      			"Translation not saved. Save before exiting?"
 ENGLISH_US["TRANSLATION_SAVED_1"] =						"Your translations were saved to:"
 ENGLISH_US["TRANSLATION_SAVED_2"] =						"Upload this file on the Autoplugin GitHub to have it accepted."
 ENGLISH_US["NOTHING_TO_TRANSLATE"] =					"Thank you for you interest, but there is nothing to translate right now!"

@@ -178,13 +178,13 @@ function configure()
 
 		screen.print(480, 18, LANGUAGE["SD2VITA_CONFIG_TITLE"], 1.2, color.white, 0x0, __ACENTER)
 
-		screen.print(0, 80, LANGUAGE["SD2VITA_CONFIG_DEVICE"], 1, color.white, 0x0, __ALEFT)
+		screen.print(5, 80, LANGUAGE["SD2VITA_CONFIG_DEVICE"], 1, color.white, 0x0, __ALEFT)
 		screen.print(480, 80, LANGUAGE["SD2VITA_CONFIG_MOUNT"], 1, color.white, 0x0, __ALEFT)
 
 		local y = 120
 		for i = scrollm.ini, scrollm.lim do
 			if i == scrollm.sel then draw.fillrect(0, y - 7, 960, 29, color.green:a(90)) end
-			screen.print(0, y, devices[i].name .. " (" .. devices[i].friendly .. ")", 1, color.white, 0x0, __ALEFT)
+			screen.print(5, y, devices[i].name .. " (" .. devices[i].friendly .. ")", 1, color.white, 0x0, __ALEFT)
 			screen.print(480, y, devices[i].mount.name .. " (" .. devices[i].mount.friendly .. ")", 1, color.white, 0x0, __ALEFT)
 			y += 30
 		end
@@ -292,7 +292,8 @@ function read_storage_config()
 	if files.exists("ur0:tai/storage_config.txt") then
 		data = {}
 		for line in io.lines("ur0:tai/storage_config.txt") do
-			data[#data+1]=line
+			--data[#data+1]=line
+			table.insert(data,line)
 		end
 	end
 	return data
