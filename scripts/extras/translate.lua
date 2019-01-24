@@ -1,14 +1,14 @@
 function save_translation()
-    local t = "CUSTOM_"..os.language().."={}\n\n"
+    local t = "CUSTOM_"..__LANG.."={}\n\n"
     for k,v in pairs(CUSTOM_TRANSLATION) do
-        local table = "CUSTOM_"..os.language().."[\""..k.."\"] ="
+        local table = "CUSTOM_"..__LANG.."[\""..k.."\"] ="
         if v ~= "" then
             local tabs = 14 - math.floor((string.len(table) / 4))
             t = t..table..string.rep("\t", tabs).."\""..v.."\"\n"
         end
     end
-    files.write("ux0:data/AUTOPLUGIN/lang/"..os.language()..".lua", t)
-    os.message(LANGUAGE["TRANSLATION_SAVED_1"].."\n\nux0:data/AUTOPLUGIN/lang/"..os.language()..".lua\n\n"..LANGUAGE["TRANSLATION_SAVED_2"])
+    files.write("ux0:data/AUTOPLUGIN/lang/"..__LANG..".lua", t)
+    os.message("\n"..LANGUAGE["TRANSLATION_SAVED_1"].."\n\nux0:data/AUTOPLUGIN/lang/"..os.language()..".lua\n\n"..LANGUAGE["TRANSLATION_SAVED_2"])
 end
 
 function translate()
@@ -45,27 +45,35 @@ function translate()
 
         local y = 75
         for i=scroll.ini,scroll.lim do
-            if i == scroll.sel then draw.fillrect(0,y-7,960,89,color.green:a(90)) end
-            if screen.textwidth(LANGUAGE["TRANSLATE_ENGLISH_TITLE"]..string.gsub(ENGLISH_US[t_need[i]],"\n","\\n")) > 935 then
-                if xscr1[i] == nil then xscr1[i] = 5 end
-                xscr1[i] = screen.print(xscr1[i], y,LANGUAGE["TRANSLATE_ENGLISH_TITLE"]..string.gsub(ENGLISH_US[t_need[i]],"\n","\\n"),1,color.white,0x0,__SLEFT,935)
-            else
-                screen.print(5, y,LANGUAGE["TRANSLATE_ENGLISH_TITLE"]..string.gsub(ENGLISH_US[t_need[i]],"\n","\\n"),1,color.white,0x0,__ALEFT)
-            end
-            if CURRENT_TRANSLATION[t_need[i]] == nil then CURRENT_TRANSLATION[t_need[i]] = "" end
-            if screen.textwidth(LANGUAGE["TRANSLATE_CURRENT_TITLE"]..string.gsub(CURRENT_TRANSLATION[t_need[i]],"\n","\\n")) > 935 then
-                if xscr2[i] == nil then xscr2[i] = 5 end
-                xscr2[i] = screen.print(xscr2[i], y+30,LANGUAGE["TRANSLATE_CURRENT_TITLE"]..string.gsub(CURRENT_TRANSLATION[t_need[i]],"\n","\\n"),1,color.white,0x0,__SLEFT,935)
-            else
-                screen.print(5, y+30,LANGUAGE["TRANSLATE_CURRENT_TITLE"]..string.gsub(CURRENT_TRANSLATION[t_need[i]],"\n","\\n"),1,color.white,0x0,__ALEFT)
-            end
-            if CUSTOM_TRANSLATION[t_need[i]] == nil then CUSTOM_TRANSLATION[t_need[i]] = "" end
-            if screen.textwidth(LANGUAGE["TRANSLATE_YOUR_TITLE"]..string.gsub(CUSTOM_TRANSLATION[t_need[i]],"\n","\\n")) > 935 then
-                if xscr3[i] == nil then xscr3[i] = 5 end
-                xscr3[i] = screen.print(xscr3[i], y+60,LANGUAGE["TRANSLATE_YOUR_TITLE"]..string.gsub(CUSTOM_TRANSLATION[t_need[i]],"\n","\\n"),1,color.white,0x0,__SLEFT,935)
-            else
-                screen.print(5, y+60,LANGUAGE["TRANSLATE_YOUR_TITLE"]..string.gsub(CUSTOM_TRANSLATION[t_need[i]],"\n","\\n"),1,color.white,0x0,__ALEFT)
-            end
+
+            if i == scroll.sel then draw.offsetgradrect(0,y-7,946,90,color.green:a(120),color.green:a(90),0x0,0x0,15) end
+
+			screen.clip(0,0,945,544)
+
+				if i==scroll.sel and (screen.textwidth(LANGUAGE["TRANSLATE_ENGLISH_TITLE"]..string.gsub(ENGLISH_US[t_need[i]],"\n","\\n")) > 935) then
+					if xscr1[i] == nil then xscr1[i] = 5 end
+					xscr1[i] = screen.print(xscr1[i], y,LANGUAGE["TRANSLATE_ENGLISH_TITLE"]..string.gsub(ENGLISH_US[t_need[i]],"\n","\\n"),1,color.white,0x0,__SLEFT,935)
+				else
+					screen.print(5, y,LANGUAGE["TRANSLATE_ENGLISH_TITLE"]..string.gsub(ENGLISH_US[t_need[i]],"\n","\\n"),1,color.white,0x0,__ALEFT)
+				end
+
+				if CURRENT_TRANSLATION[t_need[i]] == nil then CURRENT_TRANSLATION[t_need[i]] = "" end
+				if i==scroll.sel and (screen.textwidth(LANGUAGE["TRANSLATE_CURRENT_TITLE"]..string.gsub(CURRENT_TRANSLATION[t_need[i]],"\n","\\n")) > 935) then
+					if xscr2[i] == nil then xscr2[i] = 5 end
+					xscr2[i] = screen.print(xscr2[i], y+30,LANGUAGE["TRANSLATE_CURRENT_TITLE"]..string.gsub(CURRENT_TRANSLATION[t_need[i]],"\n","\\n"),1,color.white,0x0,__SLEFT,935)
+				else
+					screen.print(5, y+30,LANGUAGE["TRANSLATE_CURRENT_TITLE"]..string.gsub(CURRENT_TRANSLATION[t_need[i]],"\n","\\n"),1,color.white,0x0,__ALEFT)
+				end
+
+				if CUSTOM_TRANSLATION[t_need[i]] == nil then CUSTOM_TRANSLATION[t_need[i]] = "" end
+				if i==scroll.sel and (screen.textwidth(LANGUAGE["TRANSLATE_YOUR_TITLE"]..string.gsub(CUSTOM_TRANSLATION[t_need[i]],"\n","\\n")) > 935) then
+					if xscr3[i] == nil then xscr3[i] = 5 end
+					xscr3[i] = screen.print(xscr3[i], y+60,LANGUAGE["TRANSLATE_YOUR_TITLE"]..string.gsub(CUSTOM_TRANSLATION[t_need[i]],"\n","\\n"),1,color.white,0x0,__SLEFT,935)
+				else
+					screen.print(5, y+60,LANGUAGE["TRANSLATE_YOUR_TITLE"]..string.gsub(CUSTOM_TRANSLATION[t_need[i]],"\n","\\n"),1,color.white,0x0,__ALEFT)
+				end
+
+			screen.clip()
 
             y += 90
         end
@@ -92,11 +100,11 @@ function translate()
 
         --Controls
         if buttons.up or buttons.analogly < -60 then
-            scroll:up()
+            if scroll:up() then xscr1,xscr2,xscr3 = {},{},{} end
         end
 
         if buttons.down or buttons.analogly > 60 then
-            scroll:down()
+            if scroll:down() then xscr1,xscr2,xscr3 = {},{},{} end
         end
 
         if buttons.triangle then
@@ -105,7 +113,6 @@ function translate()
         end
 
         if buttons[accept] then
-            unsaved_translation = true
 
             local current = ENGLISH_US[t_need[scroll.sel]]
             if CUSTOM_TRANSLATION[t_need[scroll.sel]] ~= "" then
@@ -117,20 +124,29 @@ function translate()
             current = string.gsub(current, "\n", "\\n")
 
             local new = osk.init(string.gsub(ENGLISH_US[t_need[scroll.sel]], "\n", "\\n"), current)
-            CUSTOM_TRANSLATION[t_need[scroll.sel]] = new
+			if new then
+				if string.len(new)>0 or new != "" then
+					new = string.gsub(new,"\n","\\n")
+					new = string.gsub(new,'"',"")
+					new = string.gsub(new,"'","")
+					CUSTOM_TRANSLATION[t_need[scroll.sel]] = new
+					LANGUAGE[t_need[scroll.sel]] = new
+					unsaved_translation = true
+				end
+			end
 
-            if new ~= "" then
-                LANGUAGE[t_need[scroll.sel]] = new
-            end
         end
 
         if buttons[cancel] then
             if unsaved_translation then
-                if os.message("Tranlation not saved. Save before exiting?", 1) == 1 then
+                if os.message("\n"..LANGUAGE["EXIT_SAVE_TRANSLATIONS"], 1) == 1 then
                     save_translation()
                 end
+			else
+				--Here Undo changes
             end
-            return
+			return
         end
+
     end
 end
