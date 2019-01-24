@@ -33,7 +33,7 @@ ITALIAN["INSTALL_PLUGINS_DESC"] =						"Installa i plugin più utili della scena
 ITALIAN["UNINSTALL_PLUGINS_DESC"] =						"Disinstalla i plugin facilmente e semplicemente"
 ITALIAN["INSTALL_SD2VITA_DESC"] =						"Installa il Plugin per SD2VITA (StorageMgr di CelesteBlue)"
 ITALIAN["CONFIG_SD2VITA_DESC"] =						"Configura il Plugin per SD2VITA (StorageMgr di CelesteBlue)"
-ITALIAN["CHECK_ONLINEP_DESC"] =							"Controlla se ci sono nuovi plugin aggiornati (Richiede il Wifi)"
+ITALIAN["CHECK_ONLINEP_DESC"] =							"Controlla se ci sono nuovi plugin aggiornati"
 
 ITALIAN["MENU_TITLE_PSVITA"] =							"Opzioni PSVita"
 ITALIAN["MENU_INSTALL_SD2VITA"] =						"Installa il Plugin SD2VITA"

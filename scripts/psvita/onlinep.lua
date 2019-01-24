@@ -11,8 +11,7 @@
 
 function plugins_online()
 
-	if not wlan.isconnected() then os.message(LANGUAGE["UPDATE_WIFI_IS_ON"]) return	end
-	if wlan.strength() < 55 then os.message(LANGUAGE["UPDATE_WIFI_LOW"]) return end
+	if not check_online() then os.message(LANGUAGE["UPDATE_WIFI_IS_ON"]) return	end
 
 	local url_plugins = "https://raw.githubusercontent.com/theheroGAC/Autoplugin/master/plugins/db.lua"
 	local path = "ux0:data/AUTOPLUGIN/tmp/db.lua"

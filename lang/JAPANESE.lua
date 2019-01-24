@@ -23,7 +23,7 @@ JAPANESE["INSTALL_PLUGINS_DESC"] =						"最も有用なプラグインをイン
 JAPANESE["UNINSTALL_PLUGINS_DESC"] =					"プラグインを簡単かつシンプルにアンインストールします"
 JAPANESE["INSTALL_SD2VITA_DESC"] =						"SD2VITAプラグイン（StorageMgr by CelesteBlue）をインストールします"
 JAPANESE["CONFIG_SD2VITA_DESC"] =						"SD2VITAプラグインの設定 （StorageMgr by CelesteBlue）"
-JAPANESE["CHECK_ONLINEP_DESC"] =						"新しく更新されたプラグインの有無を確認します （Wi-Fi必須）"
+JAPANESE["CHECK_ONLINEP_DESC"] =						"新しく更新されたプラグインの有無を確認します"
 
 JAPANESE["MENU_TITLE_PSVITA"] =							"PS Vita オプション"
 JAPANESE["MENU_INSTALL_SD2VITA"] =						"SD2VITAプラグインのインストール"

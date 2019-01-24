@@ -34,7 +34,7 @@ ENGLISH_US["INSTALL_PLUGINS_DESC"] =					"Install the most useful Plugins made b
 ENGLISH_US["UNINSTALL_PLUGINS_DESC"] =					"Uninstall plugins easily and simply"
 ENGLISH_US["INSTALL_SD2VITA_DESC"] =					"Install Plugin SD2VITA (StorageMgr by CelesteBlue)"
 ENGLISH_US["CONFIG_SD2VITA_DESC"] =						"Configure Plugin SD2VITA (StorageMgr by CelesteBlue)"
-ENGLISH_US["CHECK_ONLINEP_DESC"] =						"Check if there are new updated plugins (Require Wifi)"
+ENGLISH_US["CHECK_ONLINEP_DESC"] =						"Check if there are new updated plugins"
 
 ENGLISH_US["MENU_TITLE_PSVITA"] =						"Vita Plugins"
 ENGLISH_US["MENU_INSTALL_SD2VITA"] =					"Install Plugin for SD2VITA"
@@ -144,7 +144,7 @@ ENGLISH_US["PSPCTRLS_LR_SWAP"] =						"To swap partitions"
 
 --plugins online
 ENGLISH_US["UPDATE_WIFI_LOW"] =							"Wifi Low Signal"
-ENGLISH_US["UPDATE_WIFI_IS_ON"] =						"Wifi is required"
+ENGLISH_US["UPDATE_WIFI_IS_ON"] =						"Internet is required"
 ENGLISH_US["UPDATE_CHECK_DB"] =							"Checking Database"
 ENGLISH_US["UPDATE_PLUGIN"] =							"Updated Plugin"
 ENGLISH_US["UPDATE_ERROR_DB"] =							"Error downloading db.lua"
