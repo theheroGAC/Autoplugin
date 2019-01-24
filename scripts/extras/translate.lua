@@ -126,7 +126,7 @@ function translate()
 
         if buttons[cancel] then
             if unsaved_translation then
-                if os.message("Tranlation not saved. Save before exiting?", 1) == 1 then
+                if os.message((LANGUAGE["EXIT_SAVE_TRANSLATIONS"]), 1) == 1 then
                     save_translation()
                 end
             end
