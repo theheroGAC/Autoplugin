@@ -20,7 +20,7 @@ function screen.flip()
 		elseif back then back:blit(0,0) end
 		screen.flip()
 
-		if os.message("\n"..string.format("    %s v %s", APP_PROJECT, string.format("%X.%02X ",major, minor)..(language["UPDATER_AVAILABLE"]).."\n\n"..(language["UPDATER_UPDATE"])), 1) == 1 then
+		if os.message(string.format("%s v %s", APP_PROJECT, string.format("%X.%02X",major, minor).." is now available.\n".."     Do you want to update the application?"), 1) == 1 then
 			buttons.homepopup(0)
 
 			if update then update:blit(0,0)
