@@ -38,6 +38,8 @@ end
 fnt = font.load("ux0:data/AUTOPLUGIN/font/font.pgf") or font.load("ux0:data/AUTOPLUGIN/font/font.pvf") or font.load("ux0:data/AUTOPLUGIN/font/font.ttf")
 if fnt then	font.setdefault(fnt) end
 
+dofile("scripts/scroll.lua")
+dofile("scripts/tai.lua")
 dofile("scripts/language.lua")
 dofile("scripts/commons.lua")
 
@@ -50,9 +52,6 @@ end
 
 --Updater
 if check_online() then dofile("git/updater.lua") end
-
-dofile("scripts/scroll.lua")
-dofile("scripts/tai.lua")
 
 --Funciones PSVITA
 dofile("scripts/psvita/sd2vita.lua")
