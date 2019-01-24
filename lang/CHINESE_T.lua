@@ -33,7 +33,7 @@ CHINESE_T["INSTALL_PLUGINS_DESC"] =						"安裝為SCENE-PSVITA開發的實用�
 CHINESE_T["UNINSTALL_PLUGINS_DESC"] =					"輕鬆刪除外掛程式"
 CHINESE_T["INSTALL_SD2VITA_DESC"] =						"安装SD2VITA外掛程式(StorageMgr,由CelesteBlue開發)"
 CHINESE_T["CONFIG_SD2VITA_DESC"] =						"配置SD2VITA外挂程式(StorageMgr,由CelesteBlue開發)"
-CHINESE_T["CHECK_ONLINEP_DESC"] =						"外掛程式更新檢查（需要Wi-Fi）"
+CHINESE_T["CHECK_ONLINEP_DESC"] =						"外掛程式更新檢查"
 
 CHINESE_T["MENU_TITLE_PSVITA"] =						"PSVITA選單"
 CHINESE_T["MENU_INSTALL_SD2VITA"] =						"安裝SD2VITA外掛程式"

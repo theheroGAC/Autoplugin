@@ -23,7 +23,7 @@ SPANISH["INSTALL_PLUGINS_DESC"] =						"Instala los Plugins más útiles desarro
 SPANISH["UNINSTALL_PLUGINS_DESC"] =						"Desinstala Plugins de manera fácil y sencilla"
 SPANISH["INSTALL_SD2VITA_DESC"] =						"Instala el Plugin SD2VITA (StorageMgr de CelesteBlue)"
 SPANISH["CONFIG_SD2VITA_DESC"] =						"Configura el Plugin SD2VITA (StorageMgr de CelesteBlue)"
-SPANISH["CHECK_ONLINEP_DESC"] =							"Verifica si hay alguna actualizacion para los Plugin (Requiere WiFi)"
+SPANISH["CHECK_ONLINEP_DESC"] =							"Verifica si hay alguna actualizacion para los Plugin"
 
 SPANISH["MENU_TITLE_PSVITA"] =							"Opciones para PS Vita"
 SPANISH["MENU_INSTALL_SD2VITA"] =						"Instalar Plugin SD2VITA"

@@ -31,9 +31,6 @@ if os.access() == 0 then
 	os.exit()
 end
 
---Updater
-if wlan.strength() > 55 then dofile("git/updater.lua") end
-
 -- Loading language file
 LANGUAGE = {}
 CURRENT_TRANSLATION = {}
@@ -112,6 +109,9 @@ end
 dofile("scripts/scroll.lua")
 dofile("scripts/tai.lua")
 dofile("scripts/commons.lua")
+
+--Updater
+if check_online() then dofile("git/updater.lua") end
 
 -- Loading font
 files.mkdir("ux0:data/AUTOPLUGIN/font/")

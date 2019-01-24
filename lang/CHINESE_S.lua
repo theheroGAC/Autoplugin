@@ -33,7 +33,7 @@ CHINESE_S["INSTALL_PLUGINS_DESC"] =					"安装为 PSVITA 环境开发的实用�
 CHINESE_S["UNINSTALL_PLUGINS_DESC"] =					"轻松简单地卸载插件"
 CHINESE_S["INSTALL_SD2VITA_DESC"] =					"安装 SD2VITA 插件 (StorageMgr,由 CelesteBlue 开发)"
 CHINESE_S["CONFIG_SD2VITA_DESC"] =						"配置 SD2VITA 插件 (StorageMgr,由 CelesteBlue 开发)"
-CHINESE_S["CHECK_ONLINEP_DESC"] =						"检查是否有插件更新（需要 Wifi）"
+CHINESE_S["CHECK_ONLINEP_DESC"] =						"检查是否有插件更新"
 
 CHINESE_S["MENU_TITLE_PSVITA"] =						"Vita 插件"
 CHINESE_S["MENU_INSTALL_SD2VITA"] =					"安装 SD2VITA 插件"
