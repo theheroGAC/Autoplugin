@@ -50,7 +50,7 @@ function img_fixed(img)
 end
 
 function message_wait(message)
-	local mge = (message or language["STRING_PLEASE_WAIT"])
+	local mge = (message or LANGUAGE["STRING_PLEASE_WAIT"])
 	local titlew = string.format(mge)
 	local w,h = screen.textwidth(titlew,1) + 30,70
 	local x,y = 480 - (w/2), 272 - (h/2)
@@ -59,6 +59,12 @@ function message_wait(message)
 	draw.rect(x,y,w,h,color.white)
 		screen.print(480,y+15, titlew,1,color.white,color.black,__ACENTER)
 	screen.flip()
+end
+
+function check_online()
+	local file = http.get("https://raw.githubusercontent.com/theheroGAC/Autoplugin/master/version")
+
+	if file then return true else return false end
 end
 
 --Variables Universales
@@ -92,5 +98,5 @@ tai.sync(__UX0, "ux0:tai/config_backup.txt")
 tai.sync(__UR0, "ur0:tai/config_backup.txt")
 
 if back then back:blit(0,0) end
-	message_wait(language["STRING_BACKUP_CONFIGS"])
+	message_wait(LANGUAGE["STRING_BACKUP_CONFIGS"])
 os.delay(1500)

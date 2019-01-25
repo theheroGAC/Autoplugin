@@ -20,23 +20,23 @@ end
 local config_callback = function ()
 	if back then back:blit(0,0) end
 	files.copy("resources/pkgj/config.txt", "ux0:pkgi")
-	message_wait(language["MENU_INSTALLED_CONFIG"])
+	message_wait(LANGUAGE["MENU_INSTALLED_CONFIG"])
 	os.delay(2000)
 end
 ]]
 
 function qencore(path, mount)
-	if os.message(language["MENU_QENCORE_ASK"].." "..mount.." ?", 1) == 1 then
+	if os.message(LANGUAGE["MENU_QENCORE_ASK"].." "..mount.." ?", 1) == 1 then
 		game.umount()
 			game.mount(path)
 			if files.extract("resources/qencore/sdat.zip", path) == 1 then
 				hencore_patched, change = true,true
 				if back then back:blit(0,0) end
-					message_wait(language["MENU_INSTALLED_QENCORE"].." "..mount)
+					message_wait(LANGUAGE["MENU_INSTALLED_QENCORE"].." "..mount)
 				os.delay(1500)
 			else
 				if back then back:blit(0,0) end
-					message_wait(language["MENU_NOT_INSTALLED_QENCORE"].." "..mount)
+					message_wait(LANGUAGE["MENU_NOT_INSTALLED_QENCORE"].." "..mount)
 				os.delay(1500)
 			end
 		game.umount()
@@ -82,15 +82,15 @@ local qencore_callback = function ()
 	if hencore_found then
 		if hencore_patched then
 			if back then back:blit(0,0) end
-			message_wait(language["MENU_QENCORE_PATCHED"].."\n\n"..language["STRING_PSVITA_RESTART"])
+			message_wait(LANGUAGE["MENU_QENCORE_PATCHED"].."\n\n"..LANGUAGE["STRING_PSVITA_RESTART"])
 			os.delay(2500)
 			buttons.homepopup(1)
 			power.restart()
 		else
-			os.message(language["MENU_QENCORE_NOT_PATCHED"])
+			os.message(LANGUAGE["MENU_QENCORE_NOT_PATCHED"])
 		end
 	else
-		os.message(language["MENU_QENCORE_NOGAME"])
+		os.message(LANGUAGE["MENU_QENCORE_NOGAME"])
 	end
 end
 
@@ -99,7 +99,7 @@ local customwarning_callback = function ()
 	local pathCW = "ur0:tai/"
 	if files.exists("ux0:tai/custom_warning.txt") then pathCW = "ux0:tai/" end
 
-	local text = osk.init(language["INSTALLP_OSK_TITLE"], language["INSTALLP_OSK_TEXT"])
+	local text = osk.init(LANGUAGE["INSTALLP_OSK_TITLE"], LANGUAGE["INSTALLP_OSK_TEXT"])
 	if not text then return end
 
 	local fp = io.open(pathCW.."custom_warning.txt", "wb")
@@ -109,12 +109,12 @@ local customwarning_callback = function ()
 		fp:close()
 			
 		if back then back:blit(0,0) end
-			message_wait(language["CUSTOMWARNING_MESSAGE"])
+			message_wait(LANGUAGE["CUSTOMWARNING_MESSAGE"])
 		os.delay(1500)
 
-		if os.message(language["RESTART_QUESTION"],1) == 1 then
+		if os.message(LANGUAGE["RESTART_QUESTION"],1) == 1 then
 			if back then back:blit(0,0) end
-			message_wait(language["STRING_PSVITA_RESTART"])
+			message_wait(LANGUAGE["STRING_PSVITA_RESTART"])
 			os.delay(1500)
 			buttons.homepopup(1)
 			power.restart()
@@ -123,13 +123,18 @@ local customwarning_callback = function ()
 	end
 end
 
+local translate_callback = function ()
+	translate()
+end
+
 function extras()
 
 	local menuext = {
-		{ text = language["MENU_QENCORE"],			 desc = language["MENU_QENCORE_DESC"],				funct = qencore_callback },
-		--{ text = language["MENU_INSTALL_CONFIG"],	 desc = language["MENU_INSTALL_CONFIG_DESC"],		funct = config_callback },
-		{ text = language["MENU_CONVERTBOOTSPLASH"], desc = language["INSTALLP_DESC_CUSTOMBOOTSPLASH"],	funct = convertimgsplash_callback },
-		{ text = language["MENU_CUSTOMWARNING"],	 desc = language["INSTALLP_DESC_CUSTOMWARNING"],	funct = customwarning_callback },
+		{ text = LANGUAGE["MENU_QENCORE"],			 desc = LANGUAGE["MENU_QENCORE_DESC"],				funct = qencore_callback },
+		--{ text = LANGUAGE["MENU_INSTALL_CONFIG"],	 desc = LANGUAGE["MENU_INSTALL_CONFIG_DESC"],		funct = config_callback },
+		{ text = LANGUAGE["MENU_CONVERTBOOTSPLASH"], desc = LANGUAGE["INSTALLP_DESC_CUSTOMBOOTSPLASH"],	funct = convertimgsplash_callback },
+		{ text = LANGUAGE["MENU_CUSTOMWARNING"],	 desc = LANGUAGE["INSTALLP_DESC_CUSTOMWARNING"],	funct = customwarning_callback },
+		{ text = LANGUAGE["MENU_TRANSLATE"],         desc = LANGUAGE["MENU_TRANSLATE_DESC"],            funct = translate_callback}
 	}
 	local scrollex = newScroll(menuext,#menuext)
 
@@ -140,7 +145,7 @@ function extras()
 
 		if back then back:blit(0,0) end
 
-        screen.print(480,20,language["MENU_EXTRAS"],1.3,color.green, 0x0, __ACENTER)
+        screen.print(480,20,LANGUAGE["MENU_EXTRAS"],1.3,color.green, 0x0, __ACENTER)
 
         local y = 160
         for i=scrollex.ini, scrollex.lim do

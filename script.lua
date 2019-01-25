@@ -24,61 +24,34 @@ psvita = image.load("resources/psvita.png")
 buttonskey = image.load("resources/buttons.png",20,20)
 buttonskey2 = image.load("resources/buttons2.png",30,20)
 
-if os.access() == 0 then
-	if back then back:blit(0,0) end
-	screen.flip()
-	os.message(language["STRING_UNSAFE_MODE"])
-	os.exit()
-end
-
---Updater
-if wlan.strength() > 55 then dofile("git/updater.lua") end
-
--- Loading language file
-
-function update_language(newlang)
-	for k, v in pairs(newlang) do
-		language[k] = v
-	end
-end
-
-language = {}
-dofile("lang/ENGLISH_US.lua")
-language = ENGLISH_US
--- Official Translations
-if files.exists("lang/"..os.language()..".lua") then
-	dofile("lang/"..os.language()..".lua")
-	if os.language() == "CHINESE_S" then
-		update_language(CHINESE_S)
-	elseif os.language() == "CHINESE_T" then
-		update_language(CHINESE_T)
-	elseif os.language() == "FRENCH" then
-		update_language(FRENCH)
-	elseif os.language() == "GERMAN" then
-		update_language(GERMAN)
-	elseif os.language() == "ITALIAN" then
-		update_language(ITALIAN)
-	elseif os.language() == "JAPANESE" then
-		update_language(JAPANESE)
-	elseif os.language() == "SPANISH" then
-		update_language(SPANISH)
-	end
-end
-
--- User Translations
-files.mkdir("ux0:data/AUTOPLUGIN/lang/")
-if files.exists("ux0:data/AUTOPLUGIN/lang/"..os.language()..".lua") then
-	dofile("ux0:data/AUTOPLUGIN/lang/"..os.language()..".lua")
-end
+__LANG = os.language()
 
 -- Loading font
 files.mkdir("ux0:data/AUTOPLUGIN/font/")
+if __LANG == "CHINESE_T" or __LANG == "CHINESE_S" then
+	if not files.exists("ux0:data/AUTOPLUGIN/font/font.pgf") then
+		message_wait(CHINESE_FONT_DOWNLOAD)
+		http.getfile("https://raw.githubusercontent.com/theheroGAC/Autoplugin/master/translations/font/font.pgf", "ux0:data/AUTOPLUGIN/font/font.pgf")
+	end
+end
+
 fnt = font.load("ux0:data/AUTOPLUGIN/font/font.pgf") or font.load("ux0:data/AUTOPLUGIN/font/font.pvf") or font.load("ux0:data/AUTOPLUGIN/font/font.ttf")
 if fnt then	font.setdefault(fnt) end
 
 dofile("scripts/scroll.lua")
 dofile("scripts/tai.lua")
+dofile("scripts/language.lua")
 dofile("scripts/commons.lua")
+
+if os.access() == 0 then
+	if back then back:blit(0,0) end
+	screen.flip()
+	os.message(LANGUAGE["STRING_UNSAFE_MODE"])
+	os.exit()
+end
+
+--Updater
+if check_online() then dofile("git/updater.lua") end
 
 --Funciones PSVITA
 dofile("scripts/psvita/sd2vita.lua")
@@ -96,6 +69,7 @@ dofile("scripts/psp/menu_psp.lua")
 --Funciones EXTRAS
 dofile("scripts/extras/customsplash.lua")
 dofile("scripts/extras/menu_extras.lua")
+dofile("scripts/extras/translate.lua")
 
 --Main Cycle
 dofile("menu.lua")

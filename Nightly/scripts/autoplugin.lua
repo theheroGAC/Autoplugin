@@ -2,37 +2,37 @@
 plugins = {
 
 --Kernel
-{ name = "NoNpDrm by TheOfficialFloW", path = "nonpdrm.skprx", section = "KERNEL", path2 = false, section2 = false, config = false, desc = language["INSTALLP_DESC_NONPDRM"], },
---{ name = "MiniVitaTV by TheOfficialFloW vbeta0.2", path = "minivitatv.skprx", section = "KERNEL",  path2 = "ds3.skprx", section2 = "KERNEL", config = false, desc = language["INSTALLP_DESC_MINIVITATV"], },
-{ name = "NoPsmDrm by frangarcj", path = "nopsmdrm.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = language["INSTALLP_DESC_NOPSMDRM"], },
-{ name = "Vitabright by devnoname120(only for 3.60)", path = "vitabright.skprx", section = "KERNEL",  path2 = false, section2 = false, config = "vitabright_lut.txt", desc = language["INSTALLP_DESC_VITABRIGHT"], },
-{ name = "NoAVLS by SilicaAndPina", path = "noavls.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = language["INSTALLP_DESC_NOAVLS"], },
-{ name = "Repatch by dots-tb v2.71", path = "repatch.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = language["INSTALLP_DESC_REPATCH"], },
-{ name = "LOLIcon by dots-tb v1.0.1", path = "LOLIcon.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = language["INSTALLP_DESC_LOLICON"], },
-{ name = "ds3vita by xerpi Beta3", path = "ds3vita.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = language["INSTALLP_DESC_DS3VITA"], },
-{ name = "ds4vita by xerpi v1.2", path = "ds4vita.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = language["INSTALLP_DESC_DS4VITA"], },
-{ name = "udcd_uvc by xerpi [PoC v6]", path = "udcd_uvc.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = language["INSTALLP_DESC_UDCDUVC"], },
---{ name = "Kuio by Rinnegatamante", path = "kuio.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = language["INSTALLP_DESC_KUIO"], },
-{ name = "Adrenaline by TheOfficialFloW (Fix double touch)", path = "adrenaline_kernel.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = language["INSTALLP_DESC_ADRENALINE"], },
-{ name = "DSMotion by OperationNT414C v1.2", path = "dsmotion.skprx", section = "KERNEL",  path2 = "dsmotion.suprx", section2 = "ALL", config = false, desc = language["INSTALLP_DESC_DSMOTION"], },
-{ name = "usbmc by yifanlu v6 (only for PSTV)", path = "usbmc.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = language["INSTALLP_DESC_USBMC"], },
+{ name = "NoNpDrm by TheOfficialFloW", path = "nonpdrm.skprx", section = "KERNEL", path2 = false, section2 = false, config = false, desc = LANGUAGE["INSTALLP_DESC_NONPDRM"], },
+--{ name = "MiniVitaTV by TheOfficialFloW vbeta0.2", path = "minivitatv.skprx", section = "KERNEL",  path2 = "ds3.skprx", section2 = "KERNEL", config = false, desc = LANGUAGE["INSTALLP_DESC_MINIVITATV"], },
+{ name = "NoPsmDrm by frangarcj", path = "nopsmdrm.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = LANGUAGE["INSTALLP_DESC_NOPSMDRM"], },
+{ name = "Vitabright by devnoname120(only for 3.60)", path = "vitabright.skprx", section = "KERNEL",  path2 = false, section2 = false, config = "vitabright_lut.txt", desc = LANGUAGE["INSTALLP_DESC_VITABRIGHT"], },
+{ name = "NoAVLS by SilicaAndPina", path = "noavls.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = LANGUAGE["INSTALLP_DESC_NOAVLS"], },
+{ name = "Repatch by dots-tb v2.71", path = "repatch.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = LANGUAGE["INSTALLP_DESC_REPATCH"], },
+{ name = "LOLIcon by dots-tb v1.0.1", path = "LOLIcon.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = LANGUAGE["INSTALLP_DESC_LOLICON"], },
+{ name = "ds3vita by xerpi Beta3", path = "ds3vita.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = LANGUAGE["INSTALLP_DESC_DS3VITA"], },
+{ name = "ds4vita by xerpi v1.2", path = "ds4vita.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = LANGUAGE["INSTALLP_DESC_DS4VITA"], },
+{ name = "udcd_uvc by xerpi [PoC v6]", path = "udcd_uvc.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = LANGUAGE["INSTALLP_DESC_UDCDUVC"], },
+--{ name = "Kuio by Rinnegatamante", path = "kuio.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = LANGUAGE["INSTALLP_DESC_KUIO"], },
+{ name = "Adrenaline by TheOfficialFloW (Fix double touch)", path = "adrenaline_kernel.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = LANGUAGE["INSTALLP_DESC_ADRENALINE"], },
+{ name = "DSMotion by OperationNT414C v1.2", path = "dsmotion.skprx", section = "KERNEL",  path2 = "dsmotion.suprx", section2 = "ALL", config = false, desc = LANGUAGE["INSTALLP_DESC_DSMOTION"], },
+{ name = "usbmc by yifanlu v6 (only for PSTV)", path = "usbmc.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, desc = LANGUAGE["INSTALLP_DESC_USBMC"], },
 
 
 --Main
-{ name = "Download Enabler by TheOfficialFloW (VitaTweaks)", path = "download_enabler.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = language["INSTALLP_DESC_DENABLER"], },
-{ name = "NoLockScreen by TheOfficialFloW (VitaTweaks)", path = "nolockscreen.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = language["INSTALLP_DESC_NOLOCKSCREEN"], },
-{ name = "NoTrophyMsg by TheOfficialFloW (VitaTweaks)", path = "notrophymsg.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = language["INSTALLP_DESC_NOTROPHYMSG"], },
-{ name = "Custom Warning by TheOfficialFloW (VitaTweaks)", path = "custom_warning.suprx", section = "main",  path2 = false, section2 = false, config = "custom_warning.txt", desc = language["INSTALLP_DESC_CUSTOMWARNING"], },
+{ name = "Download Enabler by TheOfficialFloW (VitaTweaks)", path = "download_enabler.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = LANGUAGE["INSTALLP_DESC_DENABLER"], },
+{ name = "NoLockScreen by TheOfficialFloW (VitaTweaks)", path = "nolockscreen.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = LANGUAGE["INSTALLP_DESC_NOLOCKSCREEN"], },
+{ name = "NoTrophyMsg by TheOfficialFloW (VitaTweaks)", path = "notrophymsg.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = LANGUAGE["INSTALLP_DESC_NOTROPHYMSG"], },
+{ name = "Custom Warning by TheOfficialFloW (VitaTweaks)", path = "custom_warning.suprx", section = "main",  path2 = false, section2 = false, config = "custom_warning.txt", desc = LANGUAGE["INSTALLP_DESC_CUSTOMWARNING"], },
 
-{ name = "Shellbat by nowrep v0.9", path = "shellbat.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = language["INSTALLP_DESC_SHELLBAT"], },
-{ name = "Shellsecbat by OperationNT414C v0.9", path = "shellsecbat.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = language["INSTALLP_DESC_SHELLSECBAT"], },
-{ name = "pngshot by xyzz v1.2", path = "pngshot.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = language["INSTALLP_DESC_PNGSHOT"], },
-{ name = "Vflux by Applelo v0.5", path = "vflux.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = language["INSTALLP_DESC_VFLUX"], },
+{ name = "Shellbat by nowrep v0.9", path = "shellbat.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = LANGUAGE["INSTALLP_DESC_SHELLBAT"], },
+{ name = "Shellsecbat by OperationNT414C v0.9", path = "shellsecbat.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = LANGUAGE["INSTALLP_DESC_SHELLSECBAT"], },
+{ name = "pngshot by xyzz v1.2", path = "pngshot.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = LANGUAGE["INSTALLP_DESC_PNGSHOT"], },
+{ name = "Vflux by Applelo v0.5", path = "vflux.suprx", section = "main",  path2 = false, section2 = false, config = false, desc = LANGUAGE["INSTALLP_DESC_VFLUX"], },
 
 --All
-{ name = "PSV-VSH MENU by joel16 v3.4", path = "vsh.suprx", section = "ALL",  path2 = "kuio.skprx", section2 = "KERNEL", config = false, desc = language["INSTALLP_DESC_VSHMENU"], },-- Need kuio.skprx
-{ name = "VitaGrafix by Electry v2.2 ", path = "vitagrafix.suprx", section = "ALL",  path2 = "kuio.skprx", section2 = "KERNEL", config = "config.txt", configpath = "ux0:data/VitaGrafix/", desc = language["INSTALLP_DESC_VITAGRAFIX"], },-- Need kuio.skprx
-{ name = "Oclock Vita by frangarcj v1.2.1", path = "oclockvita.suprx", section = "ALL",  path2 = false, section2 = false, config = false, desc = language["INSTALLP_DESC_OVERCLOCK"], },
+{ name = "PSV-VSH MENU by joel16 v3.4", path = "vsh.suprx", section = "ALL",  path2 = "kuio.skprx", section2 = "KERNEL", config = false, desc = LANGUAGE["INSTALLP_DESC_VSHMENU"], },-- Need kuio.skprx
+{ name = "VitaGrafix by Electry v2.2 ", path = "vitagrafix.suprx", section = "ALL",  path2 = "kuio.skprx", section2 = "KERNEL", config = "config.txt", configpath = "ux0:data/VitaGrafix/", desc = LANGUAGE["INSTALLP_DESC_VITAGRAFIX"], },-- Need kuio.skprx
+{ name = "Oclock Vita by frangarcj v1.2.1", path = "oclockvita.suprx", section = "ALL",  path2 = false, section2 = false, config = false, desc = LANGUAGE["INSTALLP_DESC_OVERCLOCK"], },
 
 }
 
@@ -53,13 +53,13 @@ tai.sync(__UX0, "ux0:tai/config_backup.txt")
 tai.sync(__UR0, "ur0:tai/config_backup.txt")
 
 if back then back:blit(0,0) end
-	message_wait(language["STRING_BACKUP_CONFIGS"])
+	message_wait(LANGUAGE["STRING_BACKUP_CONFIGS"])
 os.delay(1500)
 
 function plugins_installation(sel)
 
-	if plugins[sel].path == "vitabright.skprx" and version != "3.60" then os.message(language["INSTALLP_VITABRIGHT_360"])
-	elseif plugins[sel].path == "custom_warning.suprx" and ( version == "3.67" or version == "3.68") then os.message(language["INSTALLP_CWARNING_360_365"])
+	if plugins[sel].path == "vitabright.skprx" and version != "3.60" then os.message(LANGUAGE["INSTALLP_VITABRIGHT_360"])
+	elseif plugins[sel].path == "custom_warning.suprx" and ( version == "3.67" or version == "3.68") then os.message(LANGUAGE["INSTALLP_CWARNING_360_365"])
 	else
 
 		if files.exists(tai[loc].path) then
@@ -70,7 +70,7 @@ function plugins_installation(sel)
 			if plugins[sel].path == "shellbat.suprx" then
 				local idx = tai.find(loc, "main", "shellsecbat.suprx")
 				if idx then
-					if os.message(language["INSTALLP_QUESTION_SHELLSECBAT"],1) == 1 then
+					if os.message(LANGUAGE["INSTALLP_QUESTION_SHELLSECBAT"],1) == 1 then
 						tai.del(loc, "main", "shellsecbat.suprx")
 					else
 						install = false
@@ -79,7 +79,7 @@ function plugins_installation(sel)
 			elseif plugins[sel].path == "shellsecbat.suprx" then
 				local idx = tai.find(loc, "main", "shellbat.suprx")
 				if idx then
-					if os.message(language["INSTALLP_QUESTION_SHELLBAT"],1) == 1 then
+					if os.message(LANGUAGE["INSTALLP_QUESTION_SHELLBAT"],1) == 1 then
 						tai.del(loc, "main", "shellbat.suprx")
 					else
 						install = false
@@ -99,7 +99,7 @@ function plugins_installation(sel)
 				--Install Especial Config for the plugin
 				if plugins[sel].config then
 					if plugins[sel].config == "custom_warning.txt" then
-						local text = osk.init(language["INSTALLP_OSK_TITLE"], language["INSTALLP_OSK_TEXT"])
+						local text = osk.init(LANGUAGE["INSTALLP_OSK_TITLE"], LANGUAGE["INSTALLP_OSK_TEXT"])
 						if not text or (string.len(text)<=0) then text = os.nick() end
 
 						files.copy(path_plugins..plugins[sel].config, path_tai)
@@ -139,13 +139,13 @@ function plugins_installation(sel)
 				buttons.homepopup(0)
 
 				if back then back:blit(0,0) end
-				message_wait(plugins[sel].name.."\n\n"..language["STRING_INSTALLED"])
+				message_wait(plugins[sel].name.."\n\n"..LANGUAGE["STRING_INSTALLED"])
 				os.delay(1500)
 
 			end
 
 		else
-			os.message(language["STRING_MISSING_CONFIG"])
+			os.message(LANGUAGE["STRING_MISSING_CONFIG"])
 		end
 	end
 
@@ -165,7 +165,7 @@ function autoplugin()
 		buttons.read()
 		if back then back:blit(0,0) end
 
-		screen.print(10,10,language["INSTALLP_LIST_PLUGINS"].."  "..toinstall.."/"..#plugins,1,color.white)
+		screen.print(10,10,LANGUAGE["INSTALLP_LIST_PLUGINS"].."  "..toinstall.."/"..#plugins,1,color.white)
 
 		--Partitions
 		local xRoot = 750
@@ -212,7 +212,7 @@ function autoplugin()
 
 		screen.print(10,450,INSTALLP_CROSS_INSTALL,1,color.white,color.black,__ALEFT)
 		--screen.print(10,475,INSTALLP_TRIANGLE_ALL,1,color.white,color.black,__ALEFT)
-		screen.print(10,475,language["INSTALLP_LR_SWAP"],1,color.white,color.black,__ALEFT)
+		screen.print(10,475,LANGUAGE["INSTALLP_LR_SWAP"],1,color.white,color.black,__ALEFT)
 
 		screen.print(955,450,INSTALLP_SQUARE_MARK,1,color.white,color.black, __ARIGHT)
 		screen.print(955,475,INSTALLP_SELECT_CLEAN,1,color.white,color.black, __ARIGHT)
@@ -231,7 +231,7 @@ function autoplugin()
 		--Exit
 		if buttons.start then
 			if change then
-				os.message(language["STRING_PSVITA_RESTART"])
+				os.message(LANGUAGE["STRING_PSVITA_RESTART"])
 				os.delay(250)
 				buttons.homepopup(1)
 				power.restart()
