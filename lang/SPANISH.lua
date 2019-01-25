@@ -1,6 +1,20 @@
 SPANISH = {}
+
 --Translates
 
+SPANISH["UPDATER_AVAILABLE"] =           			"está disponible."
+SPANISH["UPDATER_UPDATE"] =               			"¿Quieres actualizar la aplicación?"
+SPANISH["CHINESE_FONT_DOWNLOAD"] =					"Descargando Letras para idioma Chino"
+SPANISH["MENU_TRANSLATE"] =							"Traduce Autoplugin"
+SPANISH["TRANSLATE_ENGLISH_TITLE"] =					"Inglés: "
+SPANISH["TRANSLATE_CURRENT_TITLE"] =					"Actual: "
+SPANISH["TRANSLATE_YOUR_TITLE"] =					"Tuyo: "
+SPANISH["MENU_TRANSLATE_DESC"] =						"¡Ayuda a mejorar Autoplugin traduciendo a tu lenguaje!"
+SPANISH["SAVE_TRANSLATIONS"] =						"Guardar traducción"
+SPANISH["EXIT_SAVE_TRANSLATIONS"] =      			"Traducción no guardada. ¿Guardar antes de salir?"
+SPANISH["TRANSLATION_SAVED_1"] =						"Tu traducción fue guardada en:"
+SPANISH["TRANSLATION_SAVED_2"] =						"Sube este archivo a el HitHub de Autoplugin para ser aceptado."
+SPANISH["NOTHING_TO_TRANSLATE"] =					"¡Gracias por tu interés, pero actualmente no hay nada que traducir!"
 SPANISH["STRING_UNSAFE_MODE"] =						"¡Se necesita el MODO INSEGURO para este Homebrew!"
 SPANISH["STRING_PSVITA_RESTART"] =						"Tu PSVita se reiniciará"
 SPANISH["STRING_BACKUP_CONFIGS"] =						"Creando Config_backups.txt"
@@ -23,9 +37,9 @@ SPANISH["INSTALL_PLUGINS_DESC"] =           			"Instala los Plugins más útiles
 SPANISH["UNINSTALL_PLUGINS_DESC"] =           			"Desinstala Plugins de manera fácil y sencilla"
 SPANISH["INSTALL_SD2VITA_DESC"] =           			"Instala el Plugin SD2VITA (StorageMgr de CelesteBlue)"
 SPANISH["CONFIG_SD2VITA_DESC"] =                "Configura el Plugin SD2VITA (StorageMgr de CelesteBlue)"
-SPANISH["CHECK_ONLINEP_DESC"] =           				"Verifica si hay alguna actualizacion para los Plugin (Requiere WiFi)"
+SPANISH["CHECK_ONLINEP_DESC"] =           				"Verifica si hay alguna actualizacion para los Plugins"
 
-SPANISH["MENU_TITLE_PSVITA"] =           				"Opciones para PS Vita"
+SPANISH["MENU_TITLE_PSVITA"] =           				"Plugins de PS Vita"
 SPANISH["MENU_INSTALL_SD2VITA"] =            			"Instalar Plugin SD2VITA"
 SPANISH["MENU_CONFIGURE_SD2VITA"] =                 "Configura el Plugin para SD2VITA"
 SPANISH["MENU_INSTALL_PLUGINS"] =						"Instalar Plugins"
@@ -38,7 +52,7 @@ SPANISH["MENU_INSTALL_REMASTERED_CTRLS"] =				"Instalar el Plugin RemasteredCont
 
 SPANISH["MENU_CONVERTBOOTSPLASH"] =           			"Establece una imagen Custom Boot Splash"
 SPANISH["MENU_CUSTOMWARNING"] =           				"Establece un mensaje para Custom Warning Message"
-SPANISH["MENU_INSTALL_CONFIG"] =           			"Instala config.txt para PKGj v0.45+"
+SPANISH["MENU_INSTALL_CONFIG"] =           			"Instala config.txt para PKGj v0.46+"
 SPANISH["MENU_INSTALL_CONFIG_DESC"] =           		"Instala config.txt para PKGj (Requiere WiFi)"
 SPANISH["MENU_INSTALLED_CONFIG"] =           			"¡ux0:pkgi/config.txt para PKGj ha sido instalado!"
 SPANISH["MENU_QENCORE"] =           					"Instala Q-Encore de Yoti"
