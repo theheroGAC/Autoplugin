@@ -2,9 +2,9 @@ CHINESE_T = {}
 
 --Translates
 
-ENGLISH_US["UPDATER_AVAILABLE"] =           			"現在可更新"
-ENGLISH_US["UPDATER_UPDATE"] =               			"是否要更新應用程式?"
-ENGLISH_US["CHINESE_FONT_DOWNLOAD"] =					"正在下載中文字體"
+CHINESE_T["UPDATER_AVAILABLE"] =           			"現在可更新"
+CHINESE_T["UPDATER_UPDATE"] =               			"是否要更新應用程式?"
+CHINESE_T["CHINESE_FONT_DOWNLOAD"] =					"正在下載中文字體"
 CHINESE_T["MENU_TRANSLATE"] =							"翻譯Autoplugin"
 CHINESE_T["TRANSLATE_ENGLISH_TITLE"] =					"英語語言翻譯: "
 CHINESE_T["TRANSLATE_CURRENT_TITLE"] =					"當前語言翻譯: "
