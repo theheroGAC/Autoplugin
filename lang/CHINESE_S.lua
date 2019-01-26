@@ -83,7 +83,7 @@ CHINESE_S["SD2VITA_GAMECARD_DETECTED"] =				"检测到游戏卡!"
 CHINESE_S["SD2VITA_GAMECARD_REMOVED"] =				"安装之前需要移除"
 CHINESE_S["SD2VITA_INSTALL"] =							"继续安装"
 CHINESE_S["SD2VITA_CANCEL"] =							"取消安装"
-CHINESE_S["SD2VITA_INVALID_CONFIG"] =					"                                 配置文件无效!\n\n请确保所有挂载点都是唯一的或留空\n                                并且 ux0 已正确设置."
+CHINESE_S["SD2VITA_INVALID_CONFIG"] =					"                    配置文件无效!\n\n请确保所有挂载点都是唯一的或留空\n              并且 ux0 已正确设置."
 CHINESE_S["SD2VITA_UPDATED_CONFIG"] =					"Storage Manager 配置文件已更新!"
 CHINESE_S["MOUNT_NONE_FRIENDLY"] =						"已卸载"
 CHINESE_S["MOUNT_UX0_FRIENDLY"] =						"LiveArea 程序"
@@ -140,7 +140,7 @@ CHINESE_S["CUSTOMBOOTSPLASH_NOPNG_FOUND"] =			"ux0:CustomBootsplash 目录为空
 CHINESE_S["CUSTOMBOOTSPLASH_NOPNG"] =					"格式兼容的 PNG"
 
 --pspctrls
-CHINESE_S["PSPCTRLS_TITLE"] =							"Remastered Controls 插件 | 由 TheOfficialFloW (Adrenaline) 开发"
+CHINESE_S["PSPCTRLS_TITLE"] =							"Remastered Controls 插件 [由 TheOfficialFloW(Adrenaline) 开发]"
 CHINESE_S["PSPCTRLS_GAME_UPDATED"] =					"game.txt 已更新"
 CHINESE_S["PSPCTRLS_DESC"] =							"Adrenaline 上适用于 PSP 游戏的双摇杆补丁合集"
 CHINESE_S["PSPCTRLS_LR_SWAP"] =						"切换分区"
