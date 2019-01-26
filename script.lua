@@ -25,6 +25,17 @@ buttonskey = image.load("resources/buttons.png",20,20)
 buttonskey2 = image.load("resources/buttons2.png",30,20)
 
 __LANG = os.language()
+dofile("scripts/language.lua")
+dofile("scripts/tai.lua")
+dofile("scripts/commons.lua")
+dofile("scripts/scroll.lua")
+
+if os.access() == 0 then
+	if back then back:blit(0,0) end
+	screen.flip()
+	os.message(LANGUAGE["STRING_UNSAFE_MODE"])
+	os.exit()
+end
 
 -- Loading font
 files.mkdir("ux0:data/AUTOPLUGIN/font/")
@@ -38,20 +49,24 @@ end
 fnt = font.load("ux0:data/AUTOPLUGIN/font/font.pgf") or font.load("ux0:data/AUTOPLUGIN/font/font.pvf") or font.load("ux0:data/AUTOPLUGIN/font/font.ttf")
 if fnt then	font.setdefault(fnt) end
 
-dofile("scripts/scroll.lua")
-dofile("scripts/tai.lua")
-dofile("scripts/language.lua")
-dofile("scripts/commons.lua")
-
-if os.access() == 0 then
-	if back then back:blit(0,0) end
-	screen.flip()
-	os.message(LANGUAGE["STRING_UNSAFE_MODE"])
-	os.exit()
-end
-
 --Updater
 if check_online() then dofile("git/updater.lua") end
+
+--Init load configs
+tai.load()
+
+if not files.exists(tai_ux0_path) and not files.exists(tai_ur0_path) then--Copy defect for config.txt
+	files.copy("resources/config/config.txt", "ur0:tai/")
+	tai.load()
+end
+
+--Backups
+tai.sync(__UX0, "ux0:tai/config_backup.txt")
+tai.sync(__UR0, "ur0:tai/config_backup.txt")
+
+if back then back:blit(0,0) end
+	message_wait(LANGUAGE["STRING_BACKUP_CONFIGS"])
+os.delay(1500)
 
 --Funciones PSVITA
 dofile("scripts/psvita/sd2vita.lua")
