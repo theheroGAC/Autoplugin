@@ -46,7 +46,7 @@ function translate()
         local y = 75
         for i=scroll.ini,scroll.lim do
 
-            if i == scroll.sel then draw.offsetgradrect(0,y-7,946,90,color.green:a(120),color.green:a(90),0x0,0x0,15) end
+            if i == scroll.sel then draw.offsetgradrect(0,y-7,946,90,color.shine:a(120),color.shine:a(90),0x0,0x0,15) end
 
 			screen.clip(0,0,945,544)
 

@@ -37,8 +37,6 @@ tai = {
 tai_ux0_path = "ux0:tai/config.txt"
 tai_ur0_path = "ur0:tai/config.txt"
 
-
-
 --Internal
 function load_config(path, index)
 	print("Loading taiCfg from %s\n",path)

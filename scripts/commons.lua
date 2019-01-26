@@ -84,19 +84,3 @@ if buttons.assign()==0 then
 	accept,cancel = "circle","cross"
 	saccept,scancel = 0,1
 end
-
---Init load configs
-tai.load()
-
-if not files.exists(tai_ux0_path) and not files.exists(tai_ur0_path) then--Copy defect for config.txt
-	files.copy("resources/config/config.txt", "ur0:tai/")
-	tai.load()
-end
-
---Backups
-tai.sync(__UX0, "ux0:tai/config_backup.txt")
-tai.sync(__UR0, "ur0:tai/config_backup.txt")
-
-if back then back:blit(0,0) end
-	message_wait(LANGUAGE["STRING_BACKUP_CONFIGS"])
-os.delay(1500)
