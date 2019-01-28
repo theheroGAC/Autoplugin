@@ -2,12 +2,16 @@ CHINESE_S = {}
 
 --Translates
 
+CHINESE_S["UPDATER_AVAILABLE"] =           			"当前可用."
+CHINESE_S["UPDATER_UPDATE"] =               			"您是否要更新本程序?"
+CHINESE_S["CHINESE_FONT_DOWNLOAD"] =					"正在下载中文字体"
 CHINESE_S["MENU_TRANSLATE"] =							"翻译 Autoplugin"
 CHINESE_S["TRANSLATE_ENGLISH_TITLE"] =					"英文方案: "
 CHINESE_S["TRANSLATE_CURRENT_TITLE"] =					"当前方案: "
 CHINESE_S["TRANSLATE_YOUR_TITLE"] =					"您的方案: "
 CHINESE_S["MENU_TRANSLATE_DESC"] =						"通过翻译为您的语言来帮助改进 Autoplugin!"
 CHINESE_S["SAVE_TRANSLATIONS"] =						"保存翻译"
+CHINESE_S["EXIT_SAVE_TRANSLATIONS"] =      			"翻译尚未保存. 是否在退出前保存?"
 CHINESE_S["TRANSLATION_SAVED_1"] =						"您的翻译已保存到:"
 CHINESE_S["TRANSLATION_SAVED_2"] =						"在 Autoplugin GitHub 上传此文件以使其被收录."
 CHINESE_S["NOTHING_TO_TRANSLATE"] =					"感谢您的关注, 但现在没有需要翻译的内容!"
@@ -79,7 +83,7 @@ CHINESE_S["SD2VITA_GAMECARD_DETECTED"] =				"检测到游戏卡!"
 CHINESE_S["SD2VITA_GAMECARD_REMOVED"] =				"安装之前需要移除"
 CHINESE_S["SD2VITA_INSTALL"] =							"继续安装"
 CHINESE_S["SD2VITA_CANCEL"] =							"取消安装"
-CHINESE_S["SD2VITA_INVALID_CONFIG"] =					"                                 配置文件无效!\n\n请确保所有挂载点都是唯一的或留空\n                                并且 ux0 已正确设置."
+CHINESE_S["SD2VITA_INVALID_CONFIG"] =					"                    配置文件无效!\n\n请确保所有挂载点都是唯一的或留空\n              并且 ux0 已正确设置."
 CHINESE_S["SD2VITA_UPDATED_CONFIG"] =					"Storage Manager 配置文件已更新!"
 CHINESE_S["MOUNT_NONE_FRIENDLY"] =						"已卸载"
 CHINESE_S["MOUNT_UX0_FRIENDLY"] =						"LiveArea 程序"
@@ -136,14 +140,14 @@ CHINESE_S["CUSTOMBOOTSPLASH_NOPNG_FOUND"] =			"ux0:CustomBootsplash 目录为空
 CHINESE_S["CUSTOMBOOTSPLASH_NOPNG"] =					"格式兼容的 PNG"
 
 --pspctrls
-CHINESE_S["PSPCTRLS_TITLE"] =							"Remastered Controls 插件 | 由 TheOfficialFloW (Adrenaline) 开发"
+CHINESE_S["PSPCTRLS_TITLE"] =							"Remastered Controls 插件 [由 TheOfficialFloW(Adrenaline) 开发]"
 CHINESE_S["PSPCTRLS_GAME_UPDATED"] =					"game.txt 已更新"
 CHINESE_S["PSPCTRLS_DESC"] =							"Adrenaline 上适用于 PSP 游戏的双摇杆补丁合集"
 CHINESE_S["PSPCTRLS_LR_SWAP"] =						"切换分区"
 
 --plugins online
 CHINESE_S["UPDATE_WIFI_LOW"] =							"Wifi 信号较差"
-CHINESE_S["UPDATE_WIFI_IS_ON"] =						"需要 Wifi 连接"
+CHINESE_S["UPDATE_WIFI_IS_ON"] =						"需要网络连接"
 CHINESE_S["UPDATE_CHECK_DB"] =							"正在检查数据库"
 CHINESE_S["UPDATE_PLUGIN"] =							"已更新插件"
 CHINESE_S["UPDATE_ERROR_DB"] =							"下载 db.lua 过程出错"

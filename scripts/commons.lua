@@ -84,3 +84,20 @@ if buttons.assign()==0 then
 	accept,cancel = "circle","cross"
 	saccept,scancel = 0,1
 end
+
+PMounts = {}
+function check_mounts ()
+	local partitions = { "ux0:", "ur0:", "uma0:", "imc0:", "xmc0:" }
+
+	for i=1,#partitions do
+		if files.exists(partitions[i]) then
+			local device_info = os.devinfo(partitions[i])
+			if device_info then
+				table.insert(PMounts,partitions[i])
+			end
+		end
+	end
+end
+check_mounts ()
+
+	
