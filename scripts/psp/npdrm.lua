@@ -44,19 +44,7 @@ end
 
 function npdrm_free()
 
-	local partitions = { "ux0:", "ur0:", "uma0:", "imc0:", "xmc0:" }
-	local options = {}
-
-	for i=1,#partitions do
-		if files.exists(partitions[i]) then
-			local device_info = os.devinfo(partitions[i])
-			if device_info then
-				table.insert(options,partitions[i])
-			end
-		end
-	end
-
-	local scroll_np,x_scr = newScroll( options, #options),5
+	local scroll_np,x_scr = newScroll( PMounts, #PMounts),5
 
 	while true do
 		buttons.read()
@@ -70,9 +58,9 @@ function npdrm_free()
 		for i=scroll_np.ini, scroll_np.lim do
 
 			if i == scroll_np.sel then draw.fillrect(3,y-4,952,26,color.green:a(105)) end
-			screen.print(25,y, options[i].."pspemu/seplugins/")
+			screen.print(25,y, PMounts[i].."pspemu/seplugins/")
 
-			if options[i].inst then
+			if PMounts[i].inst then
 				screen.print(3,y,"-->",1,color.white,color.green)
 			end
 
@@ -118,29 +106,29 @@ function npdrm_free()
 			--install plugin
 			if buttons[accept] then
 				
-				files.copy("resources/pkgj/npdrm_free.prx", options[scroll_np.sel].."pspemu/seplugins/")
-				if files.exists(options[scroll_np.sel].."pspemu/seplugins/npdrm_free.prx") then
+				files.copy("resources/pkgj/npdrm_free.prx", PMounts[scroll_np.sel].."pspemu/seplugins/")
+				if files.exists(PMounts[scroll_np.sel].."pspemu/seplugins/npdrm_free.prx") then
 					if back then back:blit(0,0) end
 						message_wait(LANGUAGE["NPDRMFREE_INSTALLED"])
 					os.delay(1500)
 				end
 
 				--Update vsh.txt
-				if files.exists(options[scroll_np.sel].."pspemu/seplugins/vsh.txt") then
-					insert_plugin(options[scroll_np.sel].."pspemu/seplugins/vsh.txt")
+				if files.exists(PMounts[scroll_np.sel].."pspemu/seplugins/vsh.txt") then
+					insert_plugin(PMounts[scroll_np.sel].."pspemu/seplugins/vsh.txt")
 				else
-					files.copy("resources/pkgj/vsh.txt", options[scroll_np.sel].."pspemu/seplugins/")
+					files.copy("resources/pkgj/vsh.txt", PMounts[scroll_np.sel].."pspemu/seplugins/")
 				end
 				if back then back:blit(0,0) end
 					message_wait(LANGUAGE["NPDRMFREE_VSH_UPDATED"])
 				os.delay(1500)
 
 				--Update game.txt
-				if files.exists(options[scroll_np.sel].."pspemu/seplugins/game.txt") then
-					insert_plugin(options[scroll_np.sel].."pspemu/seplugins/game.txt")
+				if files.exists(PMounts[scroll_np.sel].."pspemu/seplugins/game.txt") then
+					insert_plugin(PMounts[scroll_np.sel].."pspemu/seplugins/game.txt")
 							
 				else
-					files.copy("resources/pkgj/game.txt", options[scroll_np.sel].."pspemu/seplugins/")
+					files.copy("resources/pkgj/game.txt", PMounts[scroll_np.sel].."pspemu/seplugins/")
 				end
 				if back then back:blit(0,0) end
 					message_wait(LANGUAGE["NPDRMFREE_GAME_UPDATED"])

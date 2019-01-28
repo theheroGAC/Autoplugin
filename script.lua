@@ -82,9 +82,10 @@ dofile("scripts/psp/pspctrls.lua")
 dofile("scripts/psp/menu_psp.lua")
 
 --Funciones EXTRAS
+dofile("scripts/extras/pkgj.lua")
 dofile("scripts/extras/customsplash.lua")
-dofile("scripts/extras/menu_extras.lua")
 dofile("scripts/extras/translate.lua")
+dofile("scripts/extras/menu_extras.lua")
 
 --Main Cycle
 dofile("menu.lua")

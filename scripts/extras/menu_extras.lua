@@ -16,14 +16,9 @@ local convertimgsplash_callback = function ()
 	customimgsplash()
 end
 
---[[
 local config_callback = function ()
-	if back then back:blit(0,0) end
-	files.copy("resources/pkgj/config.txt", "ux0:pkgi")
-	message_wait(LANGUAGE["MENU_INSTALLED_CONFIG"])
-	os.delay(2000)
+	config_pkgj()
 end
-]]
 
 function qencore(path, mount)
 	if os.message(LANGUAGE["MENU_QENCORE_ASK"].." "..mount.." ?", 1) == 1 then
@@ -48,33 +43,27 @@ local qencore_callback = function ()
 	hencore_found = false
 	hencore_patched = false
 
-	local partitions = { "ux0:", "ur0:", "uma0:", "imc0:", "xmc0:" }
 	local QEpath = "user/00/savedata/PCSG90096"
 
 	if back then back:blit(0,0) end
 	message_wait()
 	os.delay(1000)
 
-	for i=1,#partitions do
-		if files.exists(partitions[i]) then
-			local device_info = os.devinfo(partitions[i])
-			if device_info then
-				if files.exists(partitions[i]..QEpath) then
-					hencore_found = true
-					if partitions[i] == "ux0:" then qencore("ux0:user/00/savedata/PCSG90096", partitions[i])
-					else
-						--Move to ux0:
-						files.rename(partitions[i].."user/00/savedata/PCSG90096", "PCSG90096G")
-						files.copy(partitions[i].."user/00/savedata/PCSG90096G", "ux0:user/00/savedata/")
-						files.delete(partitions[i].."user/00/savedata/PCSG90096G")
-							--Patched!!!
-							qencore("ux0:user/00/savedata/PCSG90096G", partitions[i])
-						--Restore
-						files.copy("ux0:user/00/savedata/PCSG90096G", partitions[i].."user/00/savedata")
-						files.delete("ux0:user/00/savedata/PCSG90096G")
-						files.rename(partitions[i].."user/00/savedata/PCSG90096G", "PCSG90096")
-					end
-				end
+	for i=1,#PMounts do
+		if files.exists(PMounts[i]..QEpath) then
+			hencore_found = true
+			if PMounts[i] == "ux0:" then qencore("ux0:user/00/savedata/PCSG90096", PMounts[i])
+			else
+				--Move to ux0:
+				files.rename(PMounts[i].."user/00/savedata/PCSG90096", "PCSG90096G")
+				files.copy(PMounts[i].."user/00/savedata/PCSG90096G", "ux0:user/00/savedata/")
+				files.delete(PMounts[i].."user/00/savedata/PCSG90096G")
+				--Patched!!!
+				qencore("ux0:user/00/savedata/PCSG90096G", PMounts[i])
+				--Restore
+				files.copy("ux0:user/00/savedata/PCSG90096G", PMounts[i].."user/00/savedata")
+				files.delete("ux0:user/00/savedata/PCSG90096G")
+				files.rename(PMounts[i].."user/00/savedata/PCSG90096G", "PCSG90096")
 			end
 		end
 	end
@@ -131,7 +120,7 @@ function extras()
 
 	local menuext = {
 		{ text = LANGUAGE["MENU_QENCORE"],			 desc = LANGUAGE["MENU_QENCORE_DESC"],				funct = qencore_callback },
-		--{ text = LANGUAGE["MENU_INSTALL_CONFIG"],	 desc = LANGUAGE["MENU_INSTALL_CONFIG_DESC"],		funct = config_callback },
+		{ text = LANGUAGE["PKGJ_TITLE"],	 		 desc = LANGUAGE["MENU_CUSTOM_CONFIG_DESC"],		funct = config_callback },
 		{ text = LANGUAGE["MENU_CONVERTBOOTSPLASH"], desc = LANGUAGE["INSTALLP_DESC_CUSTOMBOOTSPLASH"],	funct = convertimgsplash_callback },
 		{ text = LANGUAGE["MENU_CUSTOMWARNING"],	 desc = LANGUAGE["INSTALLP_DESC_CUSTOMWARNING"],	funct = customwarning_callback },
 		{ text = LANGUAGE["MENU_TRANSLATE"],         desc = LANGUAGE["MENU_TRANSLATE_DESC"],            funct = translate_callback}

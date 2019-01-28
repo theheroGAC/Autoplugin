@@ -66,18 +66,6 @@ end
 
 function psp_ctrls()
 
-	local partitions = { "ux0:", "ur0:", "uma0:", "imc0:", "xmc0:" }
-	local options = {}
-
-	for i=1,#partitions do
-		if files.exists(partitions[i]) then
-			local device_info = os.devinfo(partitions[i])
-			if device_info then
-				table.insert(options,partitions[i])
-			end
-		end
-	end
-
 	local selector,lim,toinstall,x_scr = 1,12,0,5
 	local scroll_psp = newScroll(psp_plugins, #psp_plugins)
 
@@ -93,12 +81,12 @@ function psp_ctrls()
 
 		--Partitions
 		local xRoot = 700
-		local w = (955-xRoot)/#options
-		for i=1, #options do
+		local w = (955-xRoot)/#PMounts
+		for i=1, #PMounts do
 			if selector == i then
 				draw.fillrect(xRoot,58,w,40, color.shine:a(105))
 			end
-			screen.print(xRoot+(w/2), 70, options[i], 1, color.white, color.blue, __ACENTER)
+			screen.print(xRoot+(w/2), 70, PMounts[i], 1, color.white, color.blue, __ACENTER)
 			xRoot += w
 		end
 
@@ -165,8 +153,8 @@ function psp_ctrls()
 		--L/R
 		if buttons.released.l or buttons.released.r then
 			if buttons.released.l then selector -= 1 else selector += 1 end
-			if selector > #options then selector = 1
-			elseif selector < 1 then selector = #options end
+			if selector > #PMounts then selector = 1
+			elseif selector < 1 then selector = #PMounts end
 		end
 
 		--Exit
@@ -191,20 +179,20 @@ function psp_ctrls()
 
 			if buttons[accept] then
 
-				if not files.exists(options[selector].."pspemu/seplugins/game.txt") then
-					files.copy("resources/controls_psp/game.txt", options[selector].."pspemu/seplugins/")
+				if not files.exists(PMounts[selector].."pspemu/seplugins/game.txt") then
+					files.copy("resources/controls_psp/game.txt", PMounts[selector].."pspemu/seplugins/")
 				end
 
 				if toinstall <= 1 then
 					--Update game.txt
-					if files.exists(options[selector].."pspemu/seplugins/game.txt") then
-						insert_psp_plugin(options[selector], psp_plugins[scroll_psp.sel])
+					if files.exists(PMounts[selector].."pspemu/seplugins/game.txt") then
+						insert_psp_plugin(PMounts[selector], psp_plugins[scroll_psp.sel])
 					end
 
 				else
 					for i=1, scroll_psp.maxim do
 						if psp_plugins[i].inst then
-							insert_psp_plugin(options[selector], psp_plugins[i])
+							insert_psp_plugin(PMounts[selector], psp_plugins[i])
 						end
 					end
 					os.delay(50)
@@ -237,12 +225,12 @@ function psp_ctrls()
 
 			--Install ALL plugins
 			if buttons.triangle then
-				if not files.exists(options[selector].."pspemu/seplugins/game.txt") then
-					files.copy("resources/controls_psp/game.txt", options[selector].."pspemu/seplugins/")
+				if not files.exists(PMounts[selector].."pspemu/seplugins/game.txt") then
+					files.copy("resources/controls_psp/game.txt", PMounts[selector].."pspemu/seplugins/")
 				end
 
 				for i=1,scroll_psp.maxim do
-					insert_psp_plugin(options[selector], psp_plugins[i])
+					insert_psp_plugin(PMounts[selector], psp_plugins[i])
 				end
 
 				if back then back:blit(0,0) end
