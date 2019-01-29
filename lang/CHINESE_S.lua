@@ -120,6 +120,21 @@ CHINESE_S["UNINSTALLP_NOCONFIG_FOUND"] =				"在这里找不到 config.txt 文�
 CHINESE_S["UNINSTALLP_PLUGIN"] =						"卸载插件"
 CHINESE_S["UNINSTALLP_LEFTRIGHT_SECTION"] =			"<--/--> 切换选项"
 
+--config pkgj
+CHINESE_S["PKGJ_TITLE"] =								"PKGJ 配置选项"
+CHINESE_S["NO_CONFIG_PKGJ"] =							"尚未安装 config.txt"
+CHINESE_S["YES"] =										"是"
+CHINESE_S["NO"] =										"否"
+CHINESE_S["PKGJ_UPDATE_CONFIG"] =						"更新 PKGj 配置"
+CHINESE_S["PKGJ_UPDATING"] =							"正在更新 PKGj 配置!\n\n请稍候..."
+
+CHINESE_S["PKGJ_TITLE_INSTALL_PBP"] =					"将 PSP 游戏安装为 EBOOT 文件"
+CHINESE_S["PKGJ_DESC_INSTALL_PBP"] =					"允许快速安装游戏 (EBOOT.PBP). 你需要安装 Quikrazor 开发的 Npdrm_free 插件"
+CHINESE_S["PKGJ_TITLE_CHANGE_LOC"] =					"为 PSP/PSX 切换分区"
+CHINESE_S["PKGJ_DESC_CHANGE_LOC"] =					"将 PSP 和 PSX 游戏安装到其他分区"
+CHINESE_S["PKGJ_TITLE_ADD_PSM"] =						"添加 PSM 游戏"
+CHINESE_S["PKGJ_DESC_ADD_PSM"] =						"你需要安装 NoPsmDrm 插件"
+
 --npdrm free
 CHINESE_S["NPDRMFREE_TITLE"] =							"安装 NPDRM FREE 插件 (由 Qwik 开发)"
 CHINESE_S["NPDRMFREE_INSTALLED"] =						"npdrm free 已安装"
