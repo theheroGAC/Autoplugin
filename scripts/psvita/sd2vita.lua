@@ -141,7 +141,7 @@ function install()
 
 		configure()
 
-		os.message(language["STRING_PSVITA_RESTART"])
+		os.message(LANGUAGE["STRING_PSVITA_RESTART"])
 		os.delay(150)
 		buttons.homepopup(1)
 		power.restart()
