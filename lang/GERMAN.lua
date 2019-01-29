@@ -55,6 +55,9 @@ GERMAN["MENU_CUSTOMWARNING"] =							"Custom Warning Nachricht erstellen"
 GERMAN["MENU_INSTALL_CONFIG"] =							"Installiere config.txt für PKGJ v0.44+"
 GERMAN["MENU_INSTALL_CONFIG_DESC"] =					"Installiere config.txt für PKGJ (Wifi erforderlich)"
 GERMAN["MENU_INSTALLED_CONFIG"] =						"ux0:pkgi/config.txt für PKGJ wurde installiert!"
+
+GERMAN["MENU_CUSTOM_CONFIG_DESC"] =	  "Ermöglicht Optionen in der config.txt für PKGj anzupassen"
+
 GERMAN["MENU_QENCORE"] =								"Q-Encore (von Yoti) installieren"
 GERMAN["MENU_QENCORE_DESC"] =							"Schnellstart für H-Encore (Warnung: H-Encore muss installiert sein)"
 
@@ -119,6 +122,21 @@ GERMAN["UNINSTALLP_TITLE"] =							"Plugin Manager"
 GERMAN["UNINSTALLP_NOCONFIG_FOUND"] =					"Keine config.txt gefunden in: "
 GERMAN["UNINSTALLP_PLUGIN"] =							"Plugin deinstallieren"
 GERMAN["UNINSTALLP_LEFTRIGHT_SECTION"] =				"<--/--> Abschnitt wechseln"
+
+--config pkgj
+ENGLISH_US["PKGJ_TITLE"] =								"Optionen für PKGJ Config"
+ENGLISH_US["NO_CONFIG_PKGJ"] =							"Keine config.txt installiert"
+ENGLISH_US["YES"] =										"Ja"
+ENGLISH_US["NO"] =										"Nein"
+ENGLISH_US["PKGJ_UPDATE_CONFIG"] =						"Aktualisiere Config für PKGj"
+ENGLISH_US["PKGJ_UPDATING"] =							"Aktualisiere Config (PKGj)!\n\nBitte Warten..."
+
+ENGLISH_US["PKGJ_TITLE_INSTALL_PBP"] =					"PSP Spiele als 'EBOOT' dateien installieren"
+ENGLISH_US["PKGJ_DESC_INSTALL_PBP"] =					"Ermöglicht es spiele schneller zu installieren (EBOOT.PBP). Du musst Quikrazor's plugin 'Npdrm_free' installieren"
+ENGLISH_US["PKGJ_TITLE_CHANGE_LOC"] =					"Wechsel die Partition für PSP/PSX"
+ENGLISH_US["PKGJ_DESC_CHANGE_LOC"] =					"Installiere PSP und PSX Spiele auf einer anderen Partition"
+ENGLISH_US["PKGJ_TITLE_ADD_PSM"] =						"Fügt PSM Spiele hinzu"
+ENGLISH_US["PKGJ_DESC_ADD_PSM"] =						"Du musst NoPsmDrm Plugin installieren"
 
 --npdrm free
 GERMAN["NPDRMFREE_TITLE"] =								"Das Plugin 'npdrm free' (von qwikrazor87) installieren"
