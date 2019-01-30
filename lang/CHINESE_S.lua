@@ -52,9 +52,12 @@ CHINESE_S["MENU_INSTALL_REMASTERED_CTRLS"] =			"安装 RemasteredControls 插件
 
 CHINESE_S["MENU_CONVERTBOOTSPLASH"] =					"设置自定义启动画面"
 CHINESE_S["MENU_CUSTOMWARNING"] =						"设置自定义警告消息"
-CHINESE_S["MENU_INSTALL_CONFIG"] =						"为 PKGJ v0.45+ 安装 config.txt"
-CHINESE_S["MENU_INSTALL_CONFIG_DESC"] =				"为 PKGJ 安装 config.txt (需要 Wifi)"
-CHINESE_S["MENU_INSTALLED_CONFIG"] =					"PKGJ 配置文件 ux0:pkgi/config.txt 已安装!"
+CHINESE_S["MENU_INSTALL_CONFIG"] =						"为 PKGj v0.47+ 安装 config.txt"
+CHINESE_S["MENU_INSTALL_CONFIG_DESC"] =				"为 PKGj 安装 config.txt (需要 Wifi)"
+CHINESE_S["MENU_INSTALLED_CONFIG"] =					"PKGj 配置文件 ux0:pkgi/config.txt 已安装!"
+
+CHINESE_S["MENU_CUSTOM_CONFIG_DESC"] =					"允许为 PKGj 的 config.txt 进行选项自定义"
+
 CHINESE_S["MENU_QENCORE"] =							"安装 Q-Encore (由 Yoti 开发)"
 CHINESE_S["MENU_QENCORE_DESC"] =						"由 Yoti 开发的快速 h-encore 启动器 (警告: 必须已安装 h-encore)"
 
@@ -78,7 +81,7 @@ CHINESE_S["SD2VITA_1_WARNING"] =						"您必须准备好 sd2vita 设备后才�
 CHINESE_S["SD2VITA_2_WARNING"] =						"如果插入了游戏卡,则必须在重启之前将其移除!"
 CHINESE_S["SD2VITA_3_WARNING"] =						"十分重要: 您的 sd2vita 设备必须已存入一些软件, 您可以从原装记忆卡"
 CHINESE_S["SD2VITA_4_WARNING"] =						"复制/粘贴必要的软件到储存卡里."
-CHINESE_S["SD2VITA_5_WARNING"] =						"举例: H-encore, Vitashell/ONEMenu, PKGJ, adrenaline, 等等... "
+CHINESE_S["SD2VITA_5_WARNING"] =						"举例: H-encore, Vitashell/ONEMenu, PKGj, adrenaline, 等等... "
 CHINESE_S["SD2VITA_GAMECARD_DETECTED"] =				"检测到游戏卡!"
 CHINESE_S["SD2VITA_GAMECARD_REMOVED"] =				"安装之前需要移除"
 CHINESE_S["SD2VITA_INSTALL"] =							"继续安装"
@@ -121,7 +124,7 @@ CHINESE_S["UNINSTALLP_PLUGIN"] =						"卸载插件"
 CHINESE_S["UNINSTALLP_LEFTRIGHT_SECTION"] =			"<--/--> 切换选项"
 
 --config pkgj
-CHINESE_S["PKGJ_TITLE"] =								"PKGJ 配置选项"
+CHINESE_S["PKGJ_TITLE"] =								"PKGj 配置选项"
 CHINESE_S["NO_CONFIG_PKGJ"] =							"尚未安装 config.txt"
 CHINESE_S["YES"] =										"是"
 CHINESE_S["NO"] =										"否"
@@ -143,7 +146,7 @@ CHINESE_S["NPDRMFREE_GAME_UPDATED"] =					"game.txt 已更新"
 CHINESE_S["NPDRMFREE_INSTALL"] =						"安装 npdrm free 插件"
 CHINESE_S["NPDRMFREE_DESC"] =							"一个 PSP/ePSP 插件,无需有效的 .rif 许可证或 act.dat 即可运行官方 NPDRM PS1/PSP 内容."
 
---customWaning
+--customWarning
 CHINESE_S["CUSTOMWARNING_MESSAGE"] =					"请记住启用 Custom Warning 插件"
 
 --customsplash
@@ -196,6 +199,7 @@ CHINESE_S["INSTALLP_DESC_ANALOGSTICK"] =				"此插件用于彻底禁用 PSVita 
 CHINESE_S["INSTALLP_DESC_CIDSPOOF"] =					"用于 PSV 伪装 CID (设备ID) (也许可以用于解除 PSN 对您设备的封锁)"
 CHINESE_S["INSTALLP_DESC_MAKEPSM"] =					"修改 PSM 开发者程序,使其正常运行"
 CHINESE_S["INSTALLP_DESC_REFOOD"] =					"此插件用于运行无法正确解密的程序."
+CHINESE_S["INSTALLP_DESC_NOLED"] =					    "noled 是一个简单的 Vita 插件,用于关闭 PS 按钮二极管灯光."
 
 --Boot_config.txt
 CHINESE_S["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =			"此插件将在 PS Vita/PSTV 启动时显示自定义启动画面. 需要 ENSO."
@@ -227,3 +231,4 @@ CHINESE_S["INSTALLP_DESC_PSMPATCH"] =					"允许您修改 PSM 游戏,也可用�
 CHINESE_S["INSTALLP_DESC_ITLSENSO"] =					"将 TLS v1.2 添加到启用 ENSO 的设备(需要安装该程序的 vpk)."
 CHINESE_S["INSTALLP_DESC_TROPHAX"] =					"PSVITA 通用奖杯解锁器."
 CHINESE_S["INSTALLP_DESC_TURBOPAD"] =					"这个插件允许您为任何按钮启用连发."
+CHINESE_S["INSTALLP_DESC_RESCALER"] =					"这个插件取代了 PSVITA 的原始缩放器,允许以非原生分辨率运行的游戏通过使用着色器过滤来获得图形改进."
