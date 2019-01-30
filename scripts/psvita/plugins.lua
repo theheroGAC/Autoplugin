@@ -36,6 +36,7 @@ plugins = {
 { name = "cidSpoofer by SilicaAndPina v1.0", path = "cidSpoof.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_CIDSPOOF"], },
 { name = "MakePsmGreatAgain by SilicaAndPina v1.3", path = "MakePsmGreatAgain-v1.3.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_MAKEPSM"], },
 { name = "reF00D by FAPS Team v1.0", path = "reF00D.skprx", section = "KERNEL",  path2 = false, section2 = false, config = "keys.bin", version = "0001", desc = LANGUAGE["INSTALLP_DESC_REFOOD"], },
+{ name = "noled by reprep v1.1", path = "noled.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_NOLED"], },
 
 --Boot_config.txt
 { name = "Custom Boot Splash by Princess of Sleeping", path = "custom_boot_splash.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_CUSTOMBOOTSPLASH"], },
@@ -64,6 +65,7 @@ plugins = {
 { name = "ITLS-Enso by SKGleba v2.0", path = "itls.suprx", section = "ALL",  path2 = "ioplus.skprx", section2 = "KERNEL", config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_ITLSENSO"], },
 { name = "TropHAX by SilicaAndPina v2.0", path = "trophax2.0.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_TROPHAX"], },
 { name = "TurboPad by Rinnegatamante v0.3", path = "TurboPad.suprx", section = "ALL",  path2 = "kuio.skprx", section2 = "KERNEL", config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_TURBOPAD"], },
+{ name = "reRescaler by Rinnegatamante v1.0", path = "reRescaler.suprx", section = "ALL",  path2 = "ioplus.skprx", section2 = "KERNEL", config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_RESCALER"], },
 
 
 }
