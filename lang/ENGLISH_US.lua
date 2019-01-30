@@ -199,6 +199,7 @@ ENGLISH_US["INSTALLP_DESC_ANALOGSTICK"] =				"Plugin to completely disable PSVit
 ENGLISH_US["INSTALLP_DESC_CIDSPOOF"] =					"Spoof CID (ConsoleID) on PSVITA(Could possibly be used to unban your console from PSN)"
 ENGLISH_US["INSTALLP_DESC_MAKEPSM"] =					"Modifications to the PSM Developer applications"
 ENGLISH_US["INSTALLP_DESC_REFOOD"] =					"A vita plugin to run programs that do not get decrypted properly."
+ENGLISH_US["INSTALLP_DESC_NOLED"] =					    "noled is a simple plugin to turn off the home button led of PS Vita."
 
 --Boot_config.txt
 ENGLISH_US["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =			"This plugin can display Boot Splash on PS Vita/PSTV at boot. Requires ENSO."
@@ -230,3 +231,4 @@ ENGLISH_US["INSTALLP_DESC_PSMPATCH"] =					"Allows you to modify PSM Games, and 
 ENGLISH_US["INSTALLP_DESC_ITLSENSO"] =					"Adds TLS v1.2 to Enso enabled devices(requires vpk of the application)."
 ENGLISH_US["INSTALLP_DESC_TROPHAX"] =					"Universal trophy unlocker for PSVITA."
 ENGLISH_US["INSTALLP_DESC_TURBOPAD"] =					"This plugin allows you to enable RapidFire on whatever button."
+ENGLISH_US["INSTALLP_DESC_RESCALER"] =					"This plugin replaces the original rescaler for PSVITA with a new one allowing games running at non-native resolution to get graphics improvements thanks to filtering with shaders."
