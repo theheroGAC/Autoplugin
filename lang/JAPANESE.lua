@@ -55,6 +55,9 @@ JAPANESE["MENU_CUSTOMWARNING"] =				"カスタム警告メッセージを設定�
 JAPANESE["MENU_INSTALL_CONFIG"] =				"PKGJ v0.45以上のconfig.txtをインストールする"
 JAPANESE["MENU_INSTALL_CONFIG_DESC"] =			"PKGJ用のconfig.txtをインストールします（Wi-Fi必須）"
 JAPANESE["MENU_INSTALLED_CONFIG"] =				"ux0：pkgi/config.txtにインストールされました！"
+
+JAPANESE["MENU_CUSTOM_CONFIG_DESC"] =			"PKGjのconfig.txtでオプションのカスタマイズを許可します"
+
 JAPANESE["MENU_QENCORE"] =						"Q-Encoreのインストール (by Yoti)"
 JAPANESE["MENU_QENCORE_DESC"] =					"Quick h-Encore Launcher （警告：h-Encoreがインストールされている必要があります）"
 
@@ -120,6 +123,21 @@ JAPANESE["UNINSTALLP_NOCONFIG_FOUND"] =			"次の場所にconfig.txtが見つか
 JAPANESE["UNINSTALLP_PLUGIN"] =					"プラグインをアンインストールする"
 JAPANESE["UNINSTALLP_LEFTRIGHT_SECTION"] =		"左<--/-->右ボタン:セクションを切替"
 
+--config pkgj
+JAPANESE["PKGJ_TITLE"] =						"Config PKGJのオプション"
+JAPANESE["NO_CONFIG_PKGJ"] =					"config.txtがインストールされていません"
+JAPANESE["YES"] =								"はい"
+JAPANESE["NO"] =								"いいえ"
+JAPANESE["PKGJ_UPDATE_CONFIG"] =				"PKGjの設定を更新"
+JAPANESE["PKGJ_UPDATING"] =						"Config PKGjを更新しています！\n\nお待ちください..."
+
+JAPANESE["PKGJ_TITLE_INSTALL_PBP"] =			"PSPゲームをEBOOTファイルとしてインストールする"
+JAPANESE["PKGJ_DESC_INSTALL_PBP"] =				"より早くEBOOT.PBPのゲームをインストールすることを可能にします。QuikrazorのプラグインNpdrm_freeをインストールする必要があります"
+JAPANESE["PKGJ_TITLE_CHANGE_LOC"] =				"PSP/PSX用スイッチパーティション"
+JAPANESE["PKGJ_DESC_CHANGE_LOC"] =				"PSPとPSXのゲームを別のパーティションにインストールする"
+JAPANESE["PKGJ_TITLE_ADD_PSM"] =				"PSMゲームを追加する"
+JAPANESE["PKGJ_DESC_ADD_PSM"] =					"NoPsmDrmプラグインをインストールする必要があります"
+
 --npdrm free
 JAPANESE["NPDRMFREE_TITLE"] =					"NPDRM FREEプラグインのインストール by Qwik"
 JAPANESE["NPDRMFREE_INSTALLED"] =				"既にNPDRM FREEプラグインがインストールされています"
@@ -181,6 +199,7 @@ JAPANESE["INSTALLP_DESC_ANALOGSTICK"] =			"PS Vitaのアナログスティック
 JAPANESE["INSTALLP_DESC_CIDSPOOF"] =			"PS VitaのなりすましCID(PSNからコンソールの禁止を解除する為に使用される可能性があります)"
 JAPANESE["INSTALLP_DESC_MAKEPSM"] =				"PSM Developerアプリケーションへの変更"
 JAPANESE["INSTALLP_DESC_REFOOD"] =				"復号化されていないプログラムを実行するためのPS Vitaプラグイン。"
+ENGLISH_US["INSTALLP_DESC_NOLED"] =				"NOLEDはPS Vitaのホームボタンをオフにするためのシンプルなプラグインです"
 
 --Boot_config.txt
 JAPANESE["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =	"このプラグインは、起動時にPS Vita／PS TVにBoot Splashを表示させることができます。ENSO必須"
@@ -212,3 +231,4 @@ JAPANESE["INSTALLP_DESC_PSMPATCH"] =			"PSMゲームを修正することを可�
 JAPANESE["INSTALLP_DESC_ITLSENSO"] =			"Enso対応デバイスにTLS v1.2を追加します（アプリケーションのvpkが必要です）"
 JAPANESE["INSTALLP_DESC_TROPHAX"] =				"PS VITA用ユニバーサルトロフィーロックの解除"
 JAPANESE["INSTALLP_DESC_TURBOPAD"] =			"このプラグインを使うと、どのボタンでも連射(速射)を有効にすることができます。"
+JAPANESE["INSTALLP_DESC_RESCALER"] =			"このプラグインはPS VITA用のオリジナルのスケーラを新しいものに置き換え、シェーダを使ったフィルタリングにより、ネイティブではない解像度で実行されているゲームでもグラフィックの向上を実現できます"

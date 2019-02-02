@@ -132,14 +132,14 @@ ENGLISH_US["PKGJ_UPDATE_CONFIG"] =						"Update Config for PKGj"
 ENGLISH_US["PKGJ_UPDATING"] =							"Updating Config PKGj!\n\nPlease Wait..."
 
 ENGLISH_US["PKGJ_TITLE_INSTALL_PBP"] =					"Install PSP games as EBOOT files"
-ENGLISH_US["PKGJ_DESC_INSTALL_PBP"] =					"Allows to install games faster (EBOOT.PBP). You will need to install Quikrazor's plugin Npdrm_free"
+ENGLISH_US["PKGJ_DESC_INSTALL_PBP"] =					"Allows to install games faster (EBOOT.PBP). You will need to install qwikrazor87's plugin Npdrm_free"
 ENGLISH_US["PKGJ_TITLE_CHANGE_LOC"] =					"Switch partition for PSP/PSX"
 ENGLISH_US["PKGJ_DESC_CHANGE_LOC"] =					"Install PSP and PSX games on another partition"
 ENGLISH_US["PKGJ_TITLE_ADD_PSM"] =						"Add PSM Games"
 ENGLISH_US["PKGJ_DESC_ADD_PSM"] =						"You need to install the NoPsmDrm plugin"
 
 --npdrm free
-ENGLISH_US["NPDRMFREE_TITLE"] =							"Install NPDRM FREE plugin from Qwik"
+ENGLISH_US["NPDRMFREE_TITLE"] =							"Install NPDRM FREE plugin from qwikrazor87"
 ENGLISH_US["NPDRMFREE_INSTALLED"] =						"npdrm free installed"
 ENGLISH_US["NPDRMFREE_VSH_UPDATED"] =					"vsh.txt updated"
 ENGLISH_US["NPDRMFREE_GAME_UPDATED"] =					"game.txt updated"

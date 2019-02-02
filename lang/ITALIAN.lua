@@ -2,6 +2,9 @@ ITALIAN = {}
 
 --Translates
 
+ITALIAN["UPDATER_AVAILABLE"] =           			"è adesso disponibile."
+ITALIAN["UPDATER_UPDATE"] =               			"Vuoi aggiornare l'applicazione?"
+ITALIAN["CHINESE_FONT_DOWNLOAD"] =					"Scaricamento del Font Cinese"
 ITALIAN["MENU_TRANSLATE"] =								"Tradurre Autoplugin"
 ITALIAN["TRANSLATE_ENGLISH_TITLE"] =			"Inglese: "
 ITALIAN["TRANSLATE_CURRENT_TITLE"] =			"Attuale: "
@@ -48,9 +51,12 @@ ITALIAN["MENU_INSTALL_REMASTERED_CTRLS"] =				"Installa i plugin RemasteredContr
 
 ITALIAN["MENU_CONVERTBOOTSPLASH"] =						"Imposta Custom Boot Splash"
 ITALIAN["MENU_CUSTOMWARNING"] =							"Imposta Custom Warning Message"
-ITALIAN["MENU_INSTALL_CONFIG"] =						"Installa il file config.txt per PKGJ v0.46+"
+ITALIAN["MENU_INSTALL_CONFIG"] =						"Installa il file config.txt per PKGJ v0.47+"
 ITALIAN["MENU_INSTALL_CONFIG_DESC"] =					"Installa il config.txt per PKGJ (Richiede il Wifi)"
 ITALIAN["MENU_INSTALLED_CONFIG"] =						"ux0:pkgi/config.txt per PKGJ è stato installato!"
+
+
+ITALIAN["MENU_CUSTOM_CONFIG_DESC"] =					"Consente la personalizzazione del file config.txt per PKGj"
 ITALIAN["MENU_QENCORE"] =								"Installa Q-Encore di Yoti"
 ITALIAN["MENU_QENCORE_DESC"] =							"Quick h-encore launcher di Yoti (Attenzione: h-encore deve essere gia' installato)"
 
@@ -116,6 +122,21 @@ ITALIAN["UNINSTALLP_NOCONFIG_FOUND"] =					"Nessun file config.txt trovato su: "
 ITALIAN["UNINSTALLP_PLUGIN"] =							"Per disinstallare i plugin"
 ITALIAN["UNINSTALLP_LEFTRIGHT_SECTION"] =				"<--/--> Per cambiare sezione"
 
+--config pkgj
+ITALIAN["PKGJ_TITLE"] =								    "Opzioni per il file Config di PKGJ"
+ITALIAN["NO_CONFIG_PKGJ"] =							    "Non c'è nessun file config.txt installato"
+ITALIAN["YES"] =										"SI"
+ITALIAN["NO"] =										    "NO"
+ITALIAN["PKGJ_UPDATE_CONFIG"] =						    "Aggiorna il file Config per PKGj"
+ITALIAN["PKGJ_UPDATING"] =							    "Aggiornamento del file Config per PKGj!\n\nAttendere prego..."
+
+ITALIAN["PKGJ_TITLE_INSTALL_PBP"] =					   "Installare giochi per PSP come file EBOOT"
+ITALIAN["PKGJ_DESC_INSTALL_PBP"] =					   "Consente di installare i giochi più veloci(EBOOT. PBP). Sarà necessario installare il plugin di qwikrazor87 Npdrm_free"
+ITALIAN["PKGJ_TITLE_CHANGE_LOC"] =					   "Switch partition for PSP/PSX"
+ITALIAN["PKGJ_DESC_CHANGE_LOC"] =					   "Installare i giochi PSP e PSX su un'altra partizione"
+ITALIAN["PKGJ_TITLE_ADD_PSM"] =						   "Aggiungere i giochi PSM"
+ITALIAN["PKGJ_DESC_ADD_PSM"] =						   "È necessario installare il plugin NoPsmDrm"
+
 --npdrm free
 ITALIAN["NPDRMFREE_TITLE"] =							"Installa il plugin NPDRM FREE di qwikrazor87"
 ITALIAN["NPDRMFREE_INSTALLED"] =						"npdrm free installato"
@@ -177,6 +198,7 @@ ITALIAN["INSTALLP_DESC_ANALOGSTICK"] =					"Plugin per disattivare completamente
 ITALIAN["INSTALLP_DESC_CIDSPOOF"] =						"Permette lo Spoof del CID (ConsoleID) su PSVITA(Potrebbe essere utilizzato per sbannare la console dal PSN)"
 ITALIAN["INSTALLP_DESC_MAKEPSM"] =						"Modifica le applicazioni per sviluppatore PSM"
 ITALIAN["INSTALLP_DESC_REFOOD"] =						"Un plugin per eseguire programmi che non vengono decrittografati correttamente(bypassa il requisito minimo del firmware)."
+ITALIAN["INSTALLP_DESC_NOLED"] =					    "noled è un semplice plugin per disattivare il LED del tasto home della PS Vita."
 
 --Boot_config.txt
 ITALIAN["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =				"Questo plugin può visualizzare/personalizzare il Boot Splash su PS Vita/PSTV all'avvio. Richiede ENSO"
@@ -208,3 +230,4 @@ ITALIAN["INSTALLP_DESC_PSMPATCH"] =						"Consente di modificare i giochi del PS
 ITALIAN["INSTALLP_DESC_ITLSENSO"] =						"Aggiunge il TLS v1.2 ai dispositivi con Enso abilitati (richiede il vpk dell'applicazione)."
 ITALIAN["INSTALLP_DESC_TROPHAX"] =						"Sbloccatore universale dei trofei per PSVITA."
 ITALIAN["INSTALLP_DESC_TURBOPAD"] =						"Questo plugin ti permette di abilitare il RapidFire su qualunque pulsante tu desideri"
+ITALIAN["INSTALLP_DESC_RESCALER"] =					    "Questo plugin sostituisce l'originale rescaler per PSVITA con uno nuovo, permettendo ai giochi in esecuzione una risoluzione non nativa per ottenere miglioramenti grafici grazie al filtraggio degli shader."
