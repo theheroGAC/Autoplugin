@@ -46,7 +46,9 @@ function read_config(file, tb_config)
 		if files.exists("ux0:pkgi/config.txt") then
 			file = "ux0:pkgi/config.txt"
 		else
-			return nil
+			files.new("ux0:pkgj/config.txt")
+			file = "ux0:pkgj/config.txt"
+			--return nil
 		end
 	end
 
@@ -101,6 +103,7 @@ function config_pkgj()
 
 	local check_config = read_config("ux0:pkgj/config.txt", tb_config)
 	if not check_config then
+		if vbuff then vbuff:blit(0,0) elseif back then back:blit(0,0) end
 		message_wait(LANGUAGE["NO_CONFIG_PKGJ"])
 		os.delay(1500)
 		return
