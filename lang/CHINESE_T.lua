@@ -132,14 +132,14 @@ CHINESE_T["PKGJ_UPDATE_CONFIG"] =						"更新PKGJ配置"
 CHINESE_T["PKGJ_UPDATING"] =							"正在更新PKGJ配置!\n\n請稍候..."
 
 CHINESE_T["PKGJ_TITLE_INSTALL_PBP"] =					"將PSP遊戲安裝為EBOOT檔案"
-CHINESE_T["PKGJ_DESC_INSTALL_PBP"] =					"允許更快地安裝遊戲(EBOOT.PBP).你需要安裝由Quikrazor開發的外掛程式(Npdrm_free)"
+CHINESE_T["PKGJ_DESC_INSTALL_PBP"] =					"允許更快地安裝遊戲(EBOOT.PBP).你需要安裝由qwikrazor87開發的外掛程式(Npdrm_free)"
 CHINESE_T["PKGJ_TITLE_CHANGE_LOC"] =					"交換PSP/PSX分區"
 CHINESE_T["PKGJ_DESC_CHANGE_LOC"] =				    	"在另一個分區上安裝PSP和PSX遊戲"
 CHINESE_T["PKGJ_TITLE_ADD_PSM"] =						"添加PSM遊戲"
 CHINESE_T["PKGJ_DESC_ADD_PSM"] =						"您需要安裝NoPsmDrm外掛程式"			 
 
 --npdrm free
-CHINESE_T["NPDRMFREE_TITLE"] =							"安裝NPDRM FREE外掛程式(由Qwik開發)"
+CHINESE_T["NPDRMFREE_TITLE"] =							"安裝NPDRM FREE外掛程式(由qwikrazor87開發)"
 CHINESE_T["NPDRMFREE_INSTALLED"] =						"npdrm free已安裝"
 CHINESE_T["NPDRMFREE_VSH_UPDATED"] =					"vsh.txt已更新"
 CHINESE_T["NPDRMFREE_GAME_UPDATED"] =					"game.txt已更新"
