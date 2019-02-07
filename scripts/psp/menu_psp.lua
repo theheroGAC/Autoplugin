@@ -19,9 +19,14 @@ function menu_psp()
 		psp_ctrls()
 	end
 
+	local psp_plugins_callback = function ()
+		pluginsPSP()
+	end
+
 	local menup = {
 		{ text = LANGUAGE["MENU_INSTALL_NPDRMFREE"],		desc = LANGUAGE["NPDRMFREE_DESC"],	funct = npdrm_callback },
 		{ text = LANGUAGE["MENU_INSTALL_REMASTERED_CTRLS"],	desc = LANGUAGE["PSPCTRLS_DESC"],	funct = psp_ctrls_callback },
+		{ text = LANGUAGE["MENU_INSTALL_PLUGINS_PSP"],		desc = LANGUAGE["PLUGINS_DESC"],	funct = psp_plugins_callback },
 	}
 	local scrollpsp = newScroll(menup,#menup)
 

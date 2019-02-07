@@ -9,41 +9,38 @@
 	Collaborators: BaltazaR4 & Wzjk.
 ]]
 
-psp_plugins = {
+pluginsP = {
 
---PSP game.txt
-{ name = "Grand Theft Auto Remastered",	path = "gta_remastered.prx" },
-{ name = "Kingdom Hearts Remastered",	path = "khbbs_remastered.prx" },
-{ name = "Metal Gear Solid Remastered",	path = "mgs_remastered.prx" },
-{ name = "Prince Of Persia Remastered",	path = "pop_remastered.prx" },
-{ name = "Resistance Remastered",		path = "resistance_remastered.prx" },
-{ name = "SplinterCell Remastered",		path = "splintercell_remastered.prx" },
-{ name = "Tomb Raider Remastered",		path = "tombraider_remastered.prx" },
-{ name = "Warriors Remastered",			path = "warriors_remastered.prx" },
+{	showname = "CXMB", name="cxmb.prx", path = "cxmb/", desc = LANGUAGE["CXMB_DESC"], txt = "vsh.txt", config = false },
+
+--Freakler
+{	showname = "Camera Patch Lite", name = "camera_patch_lite.prx",	path = "seplugins/", desc = LANGUAGE["CAMERA_PATCH_DESC"], txt = "game.txt", config = "camera_patch_lite.ini" },
+{	showname = "Lang Swapper", name = "LangSwapper.prx",	path = "seplugins/", desc = LANGUAGE["LANGSWAPPER_DESC"], txt = "game.txt", config = false },
+{	showname = "Category lite", name = "category_lite.prx",	path = "seplugins/", desc = LANGUAGE["CATEGORYLITE_DESC"], txt = "vsh.txt", config = false },
+{	showname = "Kingdom Hearts: Birth By Sleep/Final Mix UNDUB", name = "bbsfmUndub.prx",	path = "seplugins/", desc = LANGUAGE["KHBBS_UNDUB_DESC"], txt = "game.txt", config = false },
 
 }
 
-function insert_psp_plugin(device,obj)
+function add_psp_plugin(device,obj)
 
 	--install plugin
-	files.copy("resources/plugins_psp/controls_psp/"..obj.path, device.."pspemu/seplugins/")
+	files.copy("resources/plugins_psp/"..obj.name, device.."pspemu/"..obj.path)
 
-	if files.exists(device.."pspemu/seplugins/"..obj.path) then
-		if back then back:blit(0,0) end
-			message_wait(obj.name.."\n\n"..LANGUAGE["STRING_INSTALLED"])
-		os.delay(1500)
+	if obj.config then
+		files.copy("resources/plugins_psp/"..obj.config, device.."pspemu/"..obj.path)
 	end
 
+	--add vsh.txt&game.txt
 	local nlinea, cont, _find, file_txt = 0,0,false, {}
 
-	for line in io.lines(device.."pspemu/seplugins/game.txt") do
+	for line in io.lines(device.."pspemu/seplugins/"..obj.txt) do
 		cont += 1
 		table.insert(file_txt,line)
 
 		pathp,status = line:match("(.+) (.+)")
 
 		if pathp then
-			if pathp:lower() == "ms0:/seplugins/"..obj.path then
+			if pathp:lower() == "ms0:/"..obj.path..obj.name then
 				_find = true
 				nlinea = cont
 			end
@@ -52,12 +49,12 @@ function insert_psp_plugin(device,obj)
 	end
 
 	if _find then
-		file_txt[nlinea] = "ms0:/seplugins/"..obj.path.." 1"
+		file_txt[nlinea] = "ms0:/"..obj.path..obj.name.." 1"
 	else
-		table.insert(file_txt, "ms0:/seplugins/"..obj.path.." 1")
+		table.insert(file_txt, "ms0:/"..obj.path..obj.name.." 1")
 	end
 
-	local fp = io.open(device.."pspemu/seplugins/game.txt", "w+")
+	local fp = io.open(device.."pspemu/seplugins/"..obj.txt, "w+")
 	for s,t in pairs(file_txt) do
 		fp:write(string.format('%s\n', tostring(t)))
 	end
@@ -65,20 +62,20 @@ function insert_psp_plugin(device,obj)
 
 end
 
-function psp_ctrls()
+function pluginsPSP()
 
 	local selector,lim,toinstall,x_scr = 1,12,0,5
-	local scroll_psp = newScroll(psp_plugins, #psp_plugins)
+	local scroll_psp = newScroll(pluginsP, #pluginsP)
 
 	for i=1,scroll_psp.maxim do
-		psp_plugins[i].inst = false
+		pluginsP[i].inst = false
 	end
 
 	while true do
 		buttons.read()
 		if back then back:blit(0,0) end
 
-		screen.print(480,18,LANGUAGE["PSPCTRLS_TITLE"],1.2,color.white, 0x0, __ACENTER)
+		screen.print(480,18,LANGUAGE["PLUGINS_PSP_TITLE"],1.2,color.white, 0x0, __ACENTER)
 
 		--Partitions
 		local xRoot = 700
@@ -102,9 +99,9 @@ function psp_ctrls()
 				else draw.fillrect(3,y-4,953,26,color.green:a(105)) end
 			end
 			--draw.fillrect(0,y-4,943,26,color.green:a(105)) end
-			screen.print(35,y, psp_plugins[i].name)
+			screen.print(35,y, pluginsP[i].showname)
 
-			if psp_plugins[i].inst then
+			if pluginsP[i].inst then
 				screen.print(3,y,"-->",1,color.white,color.green)
 			end
 
@@ -120,10 +117,10 @@ function psp_ctrls()
 			draw.fillrect(950, ybar-2 + ((hbar-pos_height)/(scroll_psp.maxim-1))*(scroll_psp.sel-1), 8, pos_height, color.new(0,255,0))
 		end
 
-		if screen.textwidth(LANGUAGE["PSPCTRLS_DESC_ALL"]) > 935 then
-			x_scr = screen.print(x_scr, 400, LANGUAGE["PSPCTRLS_DESC_ALL"],1,color.white,color.orange,__SLEFT,935)
+		if screen.textwidth(pluginsP[scroll_psp.sel].desc) > 935 then
+			x_scr = screen.print(x_scr, 400, pluginsP[scroll_psp.sel].desc,1,color.white,color.orange,__SLEFT,935)
 		else
-			screen.print(480, 400, LANGUAGE["PSPCTRLS_DESC_ALL"],1,color.white,color.orange,__ACENTER)
+			screen.print(480, 400, pluginsP[scroll_psp.sel].desc,1,color.white,color.orange,__ACENTER)
 		end
 
 		if buttonskey2 then buttonskey2:blitsprite(900,448,2) end
@@ -180,62 +177,67 @@ function psp_ctrls()
 
 			if buttons[accept] then
 
+				if not files.exists(PMounts[selector].."pspemu/seplugins/vsh.txt") then
+					files.new(PMounts[selector].."pspemu/seplugins/vsh.txt")
+				end
 				if not files.exists(PMounts[selector].."pspemu/seplugins/game.txt") then
 					files.new(PMounts[selector].."pspemu/seplugins/game.txt")
 				end
 
 				if toinstall <= 1 then
-					if files.exists(PMounts[selector].."pspemu/seplugins/game.txt") then
-						insert_psp_plugin(PMounts[selector], psp_plugins[scroll_psp.sel])
-					end
-
+					add_psp_plugin(PMounts[selector], pluginsP[scroll_psp.sel])
+					if back then back:blit(0,0) end
+						message_wait(pluginsP[scroll_psp.sel].showname.."\n\n"..LANGUAGE["STRING_INSTALLED"])
+					os.delay(750)
 				else
 					for i=1, scroll_psp.maxim do
-						if psp_plugins[i].inst then
-							insert_psp_plugin(PMounts[selector], psp_plugins[i])
+						if pluginsP[i].inst then
+							add_psp_plugin(PMounts[selector], pluginsP[i])
+							if back then back:blit(0,0) end
+								message_wait(pluginsP[i].showname.."\n\n"..LANGUAGE["STRING_INSTALLED"])
+							os.delay(750)
 						end
 					end
-					os.delay(50)
 				end
 
 				for i=1,scroll_psp.maxim do
-					psp_plugins[i].inst = false
+					pluginsP[i].inst = false
 					toinstall = 0
 				end
-
-				if back then back:blit(0,0) end
-					message_wait(LANGUAGE["PSPCTRLS_GAME_UPDATED"])
-				os.delay(1500)
 
 			end--cross
 			
 			--Mark/Unmark
 			if buttons.square then
-				psp_plugins[scroll_psp.sel].inst = not psp_plugins[scroll_psp.sel].inst
-				if psp_plugins[scroll_psp.sel].inst then toinstall+=1 else toinstall-=1 end
+				pluginsP[scroll_psp.sel].inst = not pluginsP[scroll_psp.sel].inst
+				if pluginsP[scroll_psp.sel].inst then toinstall+=1 else toinstall-=1 end
 			end
 
 			--Clean selected
 			if buttons.select then
 				for i=1,scroll_psp.maxim do
-					psp_plugins[i].inst = false
+					pluginsP[i].inst = false
 					toinstall = 0
 				end
 			end
 
 			--Install ALL plugins
 			if buttons.triangle then
+
+				if not files.exists(PMounts[selector].."pspemu/seplugins/vsh.txt") then
+					files.new(PMounts[selector].."pspemu/seplugins/vsh.txt")
+				end
 				if not files.exists(PMounts[selector].."pspemu/seplugins/game.txt") then
 					files.new(PMounts[selector].."pspemu/seplugins/game.txt")
 				end
 
 				for i=1,scroll_psp.maxim do
-					insert_psp_plugin(PMounts[selector], psp_plugins[i])
+					add_psp_plugin(PMounts[selector], pluginsP[i])
+					if back then back:blit(0,0) end
+						message_wait(pluginsP[i].showname.."\n\n"..LANGUAGE["STRING_INSTALLED"])
+					os.delay(750)
 				end
 
-				if back then back:blit(0,0) end
-					message_wait(LANGUAGE["PSPCTRLS_GAME_UPDATED"])
-				os.delay(1500)
 			end
 
 		end
