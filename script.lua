@@ -79,6 +79,7 @@ dofile("scripts/psvita/menu_psvita.lua")
 --Funciones PSP
 dofile("scripts/psp/npdrm.lua")
 dofile("scripts/psp/pspctrls.lua")
+dofile("scripts/psp/pluginspsp.lua")
 dofile("scripts/psp/menu_psp.lua")
 
 --Funciones EXTRAS
