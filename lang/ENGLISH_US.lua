@@ -48,7 +48,8 @@ ENGLISH_US["MENU_CHECK_ONLINEP"] =						"Check for Plugin Updates"
 
 ENGLISH_US["MENU_TITLE_PSP"] =							"PSP (Adrenaline) Plugins"
 ENGLISH_US["MENU_INSTALL_NPDRMFREE"] =					"Install plugin npdrm free from qwikrazor87"
-ENGLISH_US["MENU_INSTALL_REMASTERED_CTRLS"] =			"Install RemasteredControls plugins from TheOfficialFloW"
+ENGLISH_US["MENU_INSTALL_REMASTERED_CTRLS"] =			"Install RemasteredControls Plugins from TheOfficialFloW"
+ENGLISH_US["MENU_INSTALL_PLUGINS_PSP"] =				"PSP Plugins for Adrenaline"
 
 ENGLISH_US["MENU_CONVERTBOOTSPLASH"] =					"Set Custom Boot Splash"
 ENGLISH_US["MENU_CUSTOMWARNING"] =						"Set Custom Warning Message"
@@ -60,13 +61,11 @@ ENGLISH_US["MENU_CUSTOM_CONFIG_DESC"] =					"Allows option customization on the 
 
 ENGLISH_US["MENU_QENCORE"] =							"Install Q-Encore by Yoti"
 ENGLISH_US["MENU_QENCORE_DESC"] =						"Quick h-encore launcher by Yoti (Warning: h-encore must already be installed)"
-
 ENGLISH_US["MENU_QENCORE_ASK"] =						"Should Q-Encore be installed on"
 ENGLISH_US["MENU_INSTALLED_QENCORE"] =					"Q-Encore was installed on"
 ENGLISH_US["MENU_NOT_INSTALLED_QENCORE"] =				"Q-Encore was not installed on"
 ENGLISH_US["MENU_QENCORE_PATCHED"] =					"Q-Encore was patched!"
 ENGLISH_US["MENU_QENCORE_NOT_PATCHED"] =				"Q-Encore was not patched!"
-
 ENGLISH_US["MENU_QENCORE_NOGAME"] =						"H-Encore must be installed to patch with Q-Encore!"
 
 --install sd2vita
@@ -161,7 +160,18 @@ ENGLISH_US["CUSTOMBOOTSPLASH_NOPNG"] =					"Format Compatible PNG"
 ENGLISH_US["PSPCTRLS_TITLE"] =							"Remastered Controls plugins from TheOfficialFloW (Adrenaline)"
 ENGLISH_US["PSPCTRLS_GAME_UPDATED"] =					"game.txt updated"
 ENGLISH_US["PSPCTRLS_DESC"] =							"A collection of dual analog patches for PSP games on Adrenaline"
+ENGLISH_US["PSPCTRLS_DESC_ALL"] =						"Dual Analogs Enabler"
 ENGLISH_US["PSPCTRLS_LR_SWAP"] =						"To swap partitions"
+
+--psp plugins
+ENGLISH_US["PLUGINS_PSP_TITLE"] =						"Available PSP plugins (Adrenaline)"
+ENGLISH_US["PLUGINS_DESC"] =							"Install PSP Plugins for Adrenaline"
+
+ENGLISH_US["CAMERA_PATCH_DESC"] =						"This plugin can add right analog stick support to PSP games on the Adrenaline"
+ENGLISH_US["CXMB_DESC"] =								"CXMB allows users to use custom CTF themes in PSP/THEMES"
+ENGLISH_US["LANGSWAPPER_DESC"] =						"It sets games home menu and the save data utility to the language your PSP is set to on games with different region language"
+ENGLISH_US["CATEGORYLITE_DESC"] =						"Organize all your games, emulators, homebrews, games, into their own folders under the Games Directory"
+ENGLISH_US["KHBBS_UNDUB_DESC"] =						"UNDUB version (Audio in Japanese) for the game Kingdom Hearts: Birth By Sleep/Final Mix"
 
 --plugins online
 ENGLISH_US["UPDATE_WIFI_LOW"] =							"Wifi Low Signal"
