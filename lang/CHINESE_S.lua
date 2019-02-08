@@ -49,6 +49,7 @@ CHINESE_S["MENU_CHECK_ONLINEP"] =						"检查插件更新"
 CHINESE_S["MENU_TITLE_PSP"] =							"PSP(Adrenaline) 插件"
 CHINESE_S["MENU_INSTALL_NPDRMFREE"] =					"安装 npdrm free 插件 (由 qwikrazor87 开发)"
 CHINESE_S["MENU_INSTALL_REMASTERED_CTRLS"] =			"安装 RemasteredControls 插件 (由 TheOfficialFloW 开发)"
+CHINESE_S["MENU_INSTALL_PLUGINS_PSP"] =				"适用于 Adrenaline 的 PSP 插件"
 
 CHINESE_S["MENU_CONVERTBOOTSPLASH"] =					"设置自定义启动画面"
 CHINESE_S["MENU_CUSTOMWARNING"] =						"设置自定义警告消息"
@@ -60,13 +61,11 @@ CHINESE_S["MENU_CUSTOM_CONFIG_DESC"] =					"允许为 PKGj 的 config.txt 进行
 
 CHINESE_S["MENU_QENCORE"] =							"安装 Q-Encore (由 Yoti 开发)"
 CHINESE_S["MENU_QENCORE_DESC"] =						"由 Yoti 开发的快速 h-encore 启动器 (警告: 必须已安装 h-encore)"
-
 CHINESE_S["MENU_QENCORE_ASK"] =						"Q-Encore 是否应被安装到"
 CHINESE_S["MENU_INSTALLED_QENCORE"] =					"Q-Encore 已被安装到"
 CHINESE_S["MENU_NOT_INSTALLED_QENCORE"] =				"Q-Encore 未被安装到"
 CHINESE_S["MENU_QENCORE_PATCHED"] =					"Q-Encore 已修补!"
 CHINESE_S["MENU_QENCORE_NOT_PATCHED"] =				"Q-Encore 未修补!"
-
 CHINESE_S["MENU_QENCORE_NOGAME"] =						"必须安装 H-Encore 才能使用 Q-Encore 进行修补!"
 
 --install sd2vita
@@ -161,7 +160,18 @@ CHINESE_S["CUSTOMBOOTSPLASH_NOPNG"] =					"格式兼容的 PNG"
 CHINESE_S["PSPCTRLS_TITLE"] =							"Remastered Controls 插件 [由 TheOfficialFloW(Adrenaline) 开发]"
 CHINESE_S["PSPCTRLS_GAME_UPDATED"] =					"game.txt 已更新"
 CHINESE_S["PSPCTRLS_DESC"] =							"Adrenaline 上适用于 PSP 游戏的双摇杆补丁合集"
+CHINESE_S["PSPCTRLS_DESC_ALL"] =						"双摇杆启用器"
 CHINESE_S["PSPCTRLS_LR_SWAP"] =						"切换分区"
+
+--psp plugins
+CHINESE_S["PLUGINS_PSP_TITLE"] =						"可供使用的 PSP(Adrenaline) 插件"
+CHINESE_S["PLUGINS_DESC"] =							"为 Adrenaline 安装PSP插件"
+
+CHINESE_S["CAMERA_PATCH_DESC"] =						"这个插件可以为 Adrenaline 上的 PSP 游戏添加右摇杆支持"
+CHINESE_S["CXMB_DESC"] =								"CXMB 允许用户在 PSP/THEMES 中使用自定义 CTF 主题"
+CHINESE_S["LANGSWAPPER_DESC"] =						"此插件用于设置游戏主菜单和存档语言为您的系统语言,适用于具备不同区域语言的游戏"
+CHINESE_S["CATEGORYLITE_DESC"] =						"将所有游戏,模拟器,自制软件,游戏组织到游戏目录下它们自己的文件夹中"
+CHINESE_S["KHBBS_UNDUB_DESC"] =						"王国之心:梦中降生/最终Mix版 游戏的 Undub (日语配音)"
 
 --plugins online
 CHINESE_S["UPDATE_WIFI_LOW"] =							"Wifi 信号较差"
