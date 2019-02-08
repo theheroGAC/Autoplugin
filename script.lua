@@ -25,6 +25,8 @@ buttonskey = image.load("resources/buttons.png",20,20)
 buttonskey2 = image.load("resources/buttons2.png",30,20)
 
 __LANG = os.language()
+if __LANG == "ENGLISH_GB" then __LANG = "TURKISH" end
+
 dofile("scripts/language.lua")
 dofile("scripts/tai.lua")
 dofile("scripts/commons.lua")
