@@ -162,6 +162,16 @@ ITALIAN["PSPCTRLS_GAME_UPDATED"] =						"game.txt aggiornato"
 ITALIAN["PSPCTRLS_DESC"] =								"Una raccolta di patch per far funzionare gli analogici per i giochi PSP su Adrenaline"
 ITALIAN["PSPCTRLS_LR_SWAP"] =							"Per cambiare partizione"
 
+--psp plugins
+ITALIAN["PLUGINS_PSP_TITLE"] =						    "Plugin PSP disponibili (Adrenaline)"
+ITALIAN["PLUGINS_DESC"] =							    "Installa un plugin PSP per Adrenaline"
+
+ITALIAN["CAMERA_PATCH_DESC"] =						    "Questo plugin può aggiungere il supporto dello stick analogico destro per i giochi PSP su Adrenaline"
+ITALIAN["CXMB_DESC"] =								    "CXMB consente agli utenti di utilizzare temi personalizzati CTF in PSP/THEMES"
+ITALIAN["LANGSWAPPER_DESC"] =						    "It sets games home menu and the save data utility to the language your PSP is set to on games with different region language"
+ITALIAN["CATEGORYLITE_DESC"] =						    "Organizza tutti i vostri giochi, emulatori, Homebrew in cartelle sotto la cartella giochi"
+ITALIAN["KHBBS_UNDUB_DESC"] =						    "Versione UNDUB(Audio in giapponese) per il gioco Kingdom Hearts: Birth By Sleep/Final Mix"
+
 --plugins online
 ITALIAN["UPDATE_WIFI_LOW"] =							"Segnale debole della Wifi"
 ITALIAN["UPDATE_WIFI_IS_ON"] =							"Connessione Wifi richiesta!!"
