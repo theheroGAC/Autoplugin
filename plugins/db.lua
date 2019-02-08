@@ -5,7 +5,7 @@ db = {
 --Kernel
 { path = "nonpdrm.skprx",				version = "0001", stringversion = "1.2" },
 { path = "nopsmdrm.skprx",				version = "0001", stringversion = "1.4" },
-{ path = "vitabright.skprx",			version = "0001", stringversion = "0.9" },
+{ path = "vitabright.skprx",			version = "0002", stringversion = "1.0" },
 { path = "noavls.skprx",				version = "0001", stringversion = "0.1" },
 { path = "repatch.skprx",				version = "0001", stringversion = "3.0" },
 { path = "lolicon.skprx",				version = "0001", stringversion = "1.0.1.1" },
