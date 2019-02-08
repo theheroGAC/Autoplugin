@@ -49,6 +49,7 @@ SPANISH["MENU_CHECK_ONLINEP"] =							"Buscar Actualizaciones de Plugins"
 SPANISH["MENU_TITLE_PSP"] =								"Plugins para PSP (Adrenaline)"
 SPANISH["MENU_INSTALL_NPDRMFREE"] =						"Instalar el Plugin NPDRM FREE de qwikrazor87"
 SPANISH["MENU_INSTALL_REMASTERED_CTRLS"] =				"Instalar el Plugin RemasteredControls de TheOfficialFloW"
+SPANISH["MENU_INSTALL_PLUGINS_PSP"] =					"Plugins de PSP para Adrenaline"
 
 SPANISH["MENU_CONVERTBOOTSPLASH"] =           			"Establece una imagen Custom Boot Splash"
 SPANISH["MENU_CUSTOMWARNING"] =           				"Establece un mensaje para Custom Warning Message"
@@ -60,13 +61,11 @@ SPANISH["MENU_CUSTOM_CONFIG_DESC"] =					"Permite personalizar las opciones en c
 
 SPANISH["MENU_QENCORE"] =           					"Instala Q-Encore de Yoti"
 SPANISH["MENU_QENCORE_DESC"] =           				"Lanzador rápido de H-Encore de Yoti (Atención: H-Encore debe estar ya instalado)"
-
 SPANISH["MENU_QENCORE_ASK"] =							"¿Debería Q-Encore ser instalado en"
 SPANISH["MENU_INSTALLED_QENCORE"] =						"Q-Encore ha sido instalado en"
 SPANISH["MENU_NOT_INSTALLED_QENCORE"] =					"Q-Encore no ha sido instalado en"
 SPANISH["MENU_QENCORE_PATCHED"] =						"¡Q-Encore ha sido parchado!"
 SPANISH["MENU_QENCORE_NOT_PATCHED"] =					"¡Q-Encore no ha sido parchado!"
-
 SPANISH["MENU_QENCORE_NOGAME"] =						"¡H-Encore debe estar instalado para ser parchado con Q-Encore!"
 
 --install sd2vita
@@ -161,7 +160,18 @@ SPANISH["CUSTOMBOOTSPLASH_NOPNG"] =						"El formato compatible es PNG"
 SPANISH["PSPCTRLS_TITLE"] =								"Plugin Remastered Controls de TheOfficialFloW (Adrenaline)"
 SPANISH["PSPCTRLS_GAME_UPDATED"] =						"game.txt actualizado"
 SPANISH["PSPCTRLS_DESC"] =								"Colección de parches para Adrenaline que permite usar los dos análogos en determinados juegos de PSP"
+SPANISH["PSPCTRLS_DESC_ALL"] =							"Habilitador de los dos análogos"
 SPANISH["PSPCTRLS_LR_SWAP"] =							"Para cambiar de Partición"
+
+--psp plugins
+SPANISH["PLUGINS_PSP_TITLE"] =							"Plugins de PSP disponibles (Adrenaline)"
+SPANISH["PLUGINS_DESC"] =								"Instala Plugins de PSP para Adrenaline"
+
+SPANISH["CAMERA_PATCH_DESC"] =							"Este plugin añade soporte para el análogo derecho a los juegos de PSP en Adrenaline"
+SPANISH["CXMB_DESC"] =									"CXMB permite usar temas personalizados .CTF en la carpeta PSP/THEMES"
+SPANISH["LANGSWAPPER_DESC"] =							"Establece el Home Menu de los juegos y la herramienta de datos guardados para juegos con lenguaje distinto (de otra región) al lenguaje establecido en tu PSP "
+SPANISH["CATEGORYLITE_DESC"] =							"Organiza todos tus juegos, emuladores, homebrews, en su propia carpeta bajo el Directorio de Juegos"
+SPANISH["KHBBS_UNDUB_DESC"] =							"UNDUB version (Audio en Japonés) para el juego Kingdom Hearts: Birth By Sleep/Final Mix"
 
 --plugins online
 SPANISH["UPDATE_WIFI_LOW"] =							"Señal WiFi débil"
