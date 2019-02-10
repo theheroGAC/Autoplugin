@@ -82,6 +82,8 @@ NanospeedGamer(thank you big friend)
 - SridentPSV/chronoss09/dragtaz for translation in French
 - MrGhidini/d1l4y for translation in portugueseBr
 - GreekMans for translation in Greek
+- ConsoleHax for translation in Dutch
+- Weediee for translation in Polish
 - Kouchan/kood_infothief/Umineko1993 for translation in Japanese
 - Omoinemie/yexun1995 for translation in Chinese
 - taiwan-no1 for translation in Traditional Chinese
