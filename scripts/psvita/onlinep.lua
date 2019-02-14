@@ -52,8 +52,8 @@ function plugins_online()
 	end
 
 	if update then
-		http.getfile(string.format("https://raw.githubusercontent.com/theheroGAC/Autoplugin/master/plugins/plugins.lua"), "scripts/")
-		if files.exists("scripts/plugins.lua") then dofile("scripts/plugins.lua") end
+		http.getfile(string.format("https://raw.githubusercontent.com/theheroGAC/Autoplugin/master/plugins/plugins.lua"), "scripts/psvita")
+		if files.exists("scripts/psvita/plugins.lua") then dofile("scripts/psvita/plugins.lua") end
 		if #plugins > 0 then table.sort(plugins, function (a,b) return string.lower(a.name)<string.lower(b.name) end) end
 	else
 		if back then back:blit(0,0) end
