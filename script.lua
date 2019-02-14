@@ -41,7 +41,7 @@ end
 
 -- Loading font
 files.mkdir("ux0:data/AUTOPLUGIN/font/")
-if __LANG == "CHINESE_T" or __LANG == "CHINESE_S" then
+if __LANG == "CHINESE_T" or __LANG == "CHINESE_S" or __LANG == "TURKISH" then
 	if not files.exists("ux0:data/AUTOPLUGIN/font/font.pgf") then
 		message_wait(CHINESE_FONT_DOWNLOAD)
 		http.getfile("https://raw.githubusercontent.com/theheroGAC/Autoplugin/master/translations/font/font.pgf", "ux0:data/AUTOPLUGIN/font/font.pgf")
