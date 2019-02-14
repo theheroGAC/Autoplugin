@@ -154,7 +154,7 @@ CHINESE_S["CUSTOMBOOTSPLASH_CONVERT"] =				"转换图片"
 CHINESE_S["CUSTOMBOOTSPLASH_IMPORT"] =					"从图库导入图片 (仅支持 PNG)"
 CHINESE_S["CUSTOMBOOTSPLASH__MESSAGE"] =				"请记住启用 Custom Boot Splash 插件"
 CHINESE_S["CUSTOMBOOTSPLASH_NOPNG_FOUND"] =			"ux0:CustomBootsplash 目录为空! "
-CHINESE_S["CUSTOMBOOTSPLASH_NOPNG"] =					"格式兼容的 PNG"
+CHINESE_S["CUSTOMBOOTSPLASH_NOPNG"] =					"只兼容 PNG 格式"
 
 --pspctrls
 CHINESE_S["PSPCTRLS_TITLE"] =							"Remastered Controls 插件 [由 TheOfficialFloW(Adrenaline) 开发]"
