@@ -242,3 +242,5 @@ CHINESE_S["INSTALLP_DESC_ITLSENSO"] =					"将 TLS v1.2 添加到启用 ENSO 的
 CHINESE_S["INSTALLP_DESC_TROPHAX"] =					"PSVITA 通用奖杯解锁器."
 CHINESE_S["INSTALLP_DESC_TURBOPAD"] =					"这个插件允许您为任何按钮启用连发."
 CHINESE_S["INSTALLP_DESC_RESCALER"] =					"这个插件取代了 PSVITA 的原始缩放器,允许以非原生分辨率运行的游戏通过使用着色器过滤来获得图形改进."
+CHINESE_S["INSTALLP_DESC_NETCHECK"] =					"这个插件允许您使用需要登录 PSN 帐号的应用程序."
+
