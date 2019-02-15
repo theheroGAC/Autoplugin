@@ -87,5 +87,6 @@ NanospeedGamer(thank you big friend)
 - Kouchan/kood_infothief/Umineko1993 for translation in Japanese
 - Omoinemie/yexun1995 for translation in Chinese
 - taiwan-no1 for translation in Traditional Chinese
+- sakirasci for translation in Turkish
 - AlbertonRD/Schn1ek3 for translation in German
 - theheroGAC for translation in Italian
