@@ -101,6 +101,8 @@ function plugins_installation(sel)
 					files.extract("resources/plugins/vitacheat.zip","ux0:")
 				elseif plugins[sel].path == "AutoBoot.suprx" and not files.exists("ux0:data/AutoBoot/") then--AutoBoot
 					files.extract("resources/plugins/AutoBoot.zip","ux0:")
+			    elseif plugins[sel].path == "ps4linkcontrols.suprx" and not files.exists("ux0:ps4linkcontrols.txt") then--ps4linkcontrols
+					files.extract("resources/plugins/ps4linkcontrols.zip","ux0:")
 				end
 
 				if back then back:blit(0,0) end

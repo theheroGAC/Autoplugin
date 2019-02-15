@@ -210,6 +210,7 @@ ENGLISH_US["INSTALLP_DESC_CIDSPOOF"] =					"Spoof CID (ConsoleID) on PSVITA(Coul
 ENGLISH_US["INSTALLP_DESC_MAKEPSM"] =					"Modifications to the PSM Developer applications"
 ENGLISH_US["INSTALLP_DESC_REFOOD"] =					"A vita plugin to run programs that do not get decrypted properly."
 ENGLISH_US["INSTALLP_DESC_NOLED"] =					    "noled is a simple plugin to turn off the home button led of PS Vita."
+ENGLISH_US["INSTALLP_DESC_NOSLEEP"] =					"This is just a simple plugin for taihen / enso Vita that disables the sleep timer."
 
 --Boot_config.txt
 ENGLISH_US["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =			"This plugin can display Boot Splash on PS Vita/PSTV at boot. Requires ENSO."
@@ -242,5 +243,8 @@ ENGLISH_US["INSTALLP_DESC_ITLSENSO"] =					"Adds TLS v1.2 to Enso enabled device
 ENGLISH_US["INSTALLP_DESC_TROPHAX"] =					"Universal trophy unlocker for PSVITA."
 ENGLISH_US["INSTALLP_DESC_TURBOPAD"] =					"This plugin allows you to enable RapidFire on whatever button."
 ENGLISH_US["INSTALLP_DESC_RESCALER"] =					"This plugin replaces the original rescaler for PSVITA with a new one allowing games running at non-native resolution to get graphics improvements thanks to filtering with shaders."
-ENGLISH_US["INSTALLP_DESC_NETCHECK"] =					"This plugin allows uses applications that require a PSN login."
+ENGLISH_US["INSTALLP_DESC_INFINITENET"] =			    "taiHEN plugin that prevents games from disabling net features"
+
+--*NPXS10013
+ENGLISH_US["INSTALLP_DESC_PS4LINK"] =			        "taiHEN plugin that allows to force preferred Remote Play button configuration"
 
