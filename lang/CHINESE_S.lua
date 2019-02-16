@@ -210,6 +210,7 @@ CHINESE_S["INSTALLP_DESC_CIDSPOOF"] =					"用于 PSV 伪装 CID (设备ID) (也
 CHINESE_S["INSTALLP_DESC_MAKEPSM"] =					"修改 PSM 开发者程序,使其正常运行"
 CHINESE_S["INSTALLP_DESC_REFOOD"] =					"此插件用于运行无法正确解密的程序."
 CHINESE_S["INSTALLP_DESC_NOLED"] =					    "noled 是一个简单的 Vita 插件,用于关闭 PS 按钮二极管灯光."
+CHINESE_S["INSTALLP_DESC_NOSLEEP"] =					"这是一个简单的适用于 大变革/enso 的插件,用于禁用睡眠定时器."
 
 --Boot_config.txt
 CHINESE_S["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =			"此插件将在 PS Vita/PSTV 启动时显示自定义启动画面. 需要 ENSO."
@@ -242,3 +243,8 @@ CHINESE_S["INSTALLP_DESC_ITLSENSO"] =					"将 TLS v1.2 添加到启用 ENSO 的
 CHINESE_S["INSTALLP_DESC_TROPHAX"] =					"PSVITA 通用奖杯解锁器."
 CHINESE_S["INSTALLP_DESC_TURBOPAD"] =					"这个插件允许您为任何按钮启用连发."
 CHINESE_S["INSTALLP_DESC_RESCALER"] =					"这个插件取代了 PSVITA 的原始缩放器,允许以非原生分辨率运行的游戏通过使用着色器过滤来获得图形改进."
+CHINESE_S["INSTALLP_DESC_INFINITENET"] =			    "大变革插件,用于阻止游戏禁用网络功能"
+
+--*NPXS10013
+CHINESE_S["INSTALLP_DESC_PS4LINK"] =			        "大变革插件,用于强制选择喜欢的远程游戏按键配置方案"
+
