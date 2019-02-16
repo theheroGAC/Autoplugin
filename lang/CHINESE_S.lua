@@ -246,5 +246,5 @@ CHINESE_S["INSTALLP_DESC_RESCALER"] =					"这个插件取代了 PSVITA 的原�
 CHINESE_S["INSTALLP_DESC_INFINITENET"] =			    "大变革插件,用于阻止游戏禁用网络功能"
 
 --*NPXS10013
-CHINESE_S["INSTALLP_DESC_PS4LINK"] =			        "大变革插件,用于强制选择喜欢的远程游戏按键配置方案"
+CHINESE_S["INSTALLP_DESC_PS4LINK"] =			        "大变革插件,用于强制选择喜欢的遥控操作按键配置方案"
 
