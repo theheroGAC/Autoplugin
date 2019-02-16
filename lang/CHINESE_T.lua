@@ -3,7 +3,7 @@ CHINESE_T = {}
 --Translates
 
 CHINESE_T["UPDATER_AVAILABLE"] =           			"現在可更新"
-CHINESE_T["UPDATER_UPDATE"] =               			"是否要更新應用程式?"
+CHINESE_T["UPDATER_UPDATE"] =               			"是否要更新本程式?"
 CHINESE_T["CHINESE_FONT_DOWNLOAD"] =					"正在下載中文字體"
 CHINESE_T["MENU_TRANSLATE"] =							"翻譯Autoplugin"
 CHINESE_T["TRANSLATE_ENGLISH_TITLE"] =					"英語語言翻譯: "
@@ -49,6 +49,7 @@ CHINESE_T["MENU_CHECK_ONLINEP"] =						"外掛程式更新檢查"
 CHINESE_T["MENU_TITLE_PSP"] =							"PSP(Adrenaline)選單"
 CHINESE_T["MENU_INSTALL_NPDRMFREE"] =					"安裝npdrm free外掛程式(由qwikrazor87開發)"
 CHINESE_T["MENU_INSTALL_REMASTERED_CTRLS"] =			"安裝RemasteredControls外掛程式(由TheOfficialFloW開發)"
+CHINESE_T["MENU_INSTALL_PLUGINS_PSP"] =				    "安裝適用於Adrenaline的PSP外掛程式"
 
 CHINESE_T["MENU_CONVERTBOOTSPLASH"] =					"自訂啟動畫面"
 CHINESE_T["MENU_CUSTOMWARNING"] =						"自訂警告訊息"
@@ -60,13 +61,11 @@ CHINESE_T["MENU_CUSTOM_CONFIG_DESC"] =					"允許對PKGJ的config.txt進行選�
 
 CHINESE_T["MENU_QENCORE"] =								"安裝Q-Encore(由Yoti開發)"
 CHINESE_T["MENU_QENCORE_DESC"] =						"由Yoti開發的快速h-encore啟動器(警告:必須已安裝h-encore)"
-
 CHINESE_T["MENU_QENCORE_ASK"] =							"Q-Encore應被安裝至"
 CHINESE_T["MENU_INSTALLED_QENCORE"] =					"Q-Encore已被安裝至"
 CHINESE_T["MENU_NOT_INSTALLED_QENCORE"] =				"Q-Encore未被安裝至"
 CHINESE_T["MENU_QENCORE_PATCHED"] =						"Q-Encore已修補!"
 CHINESE_T["MENU_QENCORE_NOT_PATCHED"] =					"Q-Encore未修補!"
-
 CHINESE_T["MENU_QENCORE_NOGAME"] =						"必須安裝H-Encore才能使用Q-Encore進行修補!"
 
 --install sd2vita
@@ -161,7 +160,18 @@ CHINESE_T["CUSTOMBOOTSPLASH_NOPNG"] =					"格式相容的PNG"
 CHINESE_T["PSPCTRLS_TITLE"] =							"Remastered Controls外掛程式{開發者TheOfficialFloW(Adrenaline)}"
 CHINESE_T["PSPCTRLS_GAME_UPDATED"] =					"game.txt已更新"
 CHINESE_T["PSPCTRLS_DESC"] =							"適用於PSP(Adrenaline)遊戲的雙搖桿修補程式集合"
+CHINESE_T["PSPCTRLS_DESC_ALL"] =						"啓用雙類比搖杆"
 CHINESE_T["PSPCTRLS_LR_SWAP"] =							"交換分區"
+
+--psp plugins
+CHINESE_T["PLUGINS_PSP_TITLE"] =						"可用的PSP外掛程式(Adrenaline)"
+CHINESE_T["PLUGINS_DESC"] =						    	"為Adrenaline安裝PSP外掛程式"
+
+CHINESE_T["CAMERA_PATCH_DESC"] =						"這個插件可以對Adrenaline上的PSP遊戲添加右搖桿支援"
+CHINESE_T["CXMB_DESC"] =								"CXMB允許使用者在PSP/主題中使用自訂CTF主題"
+CHINESE_T["LANGSWAPPER_DESC"] =						    "它能將其它區域語言遊戲的主頁選單和保存數據實用程式設定為您的PSP區域語言"
+CHINESE_T["CATEGORYLITE_DESC"] =						"整理游戲目錄下您的所有遊戲、模擬器、自製軟件到它們自己的資料夾"
+CHINESE_T["KHBBS_UNDUB_DESC"] =						    "遊戲王國之心的UDUB版本（日語音頻）：夢中降生/Final Mix"
 
 --plugins online
 CHINESE_T["UPDATE_WIFI_LOW"] =							"Wi-Fi訊號較差"
@@ -200,6 +210,7 @@ CHINESE_T["INSTALLP_DESC_CIDSPOOF"] =					"用於PSV偽裝CID(設備ID)(也許�
 CHINESE_T["INSTALLP_DESC_MAKEPSM"] =					"修改PSM Dev程式"
 CHINESE_T["INSTALLP_DESC_REFOOD"] =						"用於運行未正確解密的程式"
 CHINESE_T["INSTALLP_DESC_NOLED"] =					    "noled是一個簡單的外掛程式，用於關閉PS Vita的主頁按鈕燈光"
+CHINESE_T["INSTALLP_DESC_NOSLEEP"] =					"這只是一個簡單的taihen/enso Vita外掛程式,用於禁用睡眠計時器"
 
 --Boot_config.txt
 CHINESE_T["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =			"此外掛程式將在PS Vita/PSTV啟動時顯示自訂啟動畫面.需要ENSO"
@@ -231,4 +242,8 @@ CHINESE_T["INSTALLP_DESC_PSMPATCH"] =					"允許您修改PSM遊戲,也可用於
 CHINESE_T["INSTALLP_DESC_ITLSENSO"] =					"將TLS v1.2添加到啟用ENSO的設備(需要應用程式的vpk)"
 CHINESE_T["INSTALLP_DESC_TROPHAX"] =					"PSVITA通用獎杯解鎖器"
 CHINESE_T["INSTALLP_DESC_TURBOPAD"] =					"這個外掛程式允許您在任何按鈕上啟用連發"
-CHINESE_T["INSTALLP_DESC_RESCALER"] =					"這個外掛程式替換了PSVITA的原始縮放器,它允許以非本機解析度運行的遊戲通過使用著色器進行過濾來獲得圖形改進"																																																								
+CHINESE_T["INSTALLP_DESC_RESCALER"] =					"這個外掛程式替換了PSVITA的原始縮放器,它允許以非本機解析度運行的遊戲通過使用著色器進行過濾來獲得圖形改進"
+CHINESE_T["INSTALLP_DESC_INFINITENET"] =			    "taiHEN外掛程式,防止遊戲禁用網路功能"
+
+--*NPXS10013
+CHINESE_T["INSTALLP_DESC_PS4LINK"] =			        "taiHEN外掛程式,允許強制首選的遠端播放按鈕配置"	
