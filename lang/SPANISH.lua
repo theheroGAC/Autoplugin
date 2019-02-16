@@ -210,6 +210,7 @@ SPANISH["INSTALLP_DESC_CIDSPOOF"] =						"Falsifica el CID(ConsoleID) en PS Vita
 SPANISH["INSTALLP_DESC_MAKEPSM"] =						"Modificaciones a las aplicaciones de desarrollo de PSM"
 SPANISH["INSTALLP_DESC_REFOOD"] =						"Un Plugin de Vita para correr programas que no pueden ser desencriptados adecuadamente"
 SPANISH["INSTALLP_DESC_NOLED"] =					    "noled es un plugin simple que permite apagar el led del botón home de la PS Vita."
+SPANISH["INSTALLP_DESC_NOSLEEP"] =						"Es solo un sencillo plugin de Vita para taiHEN / enso que deshabilita el temporizador de suspensión."
 
 --Boot_config.txt
 SPANISH["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =				"Este plugin puede mostrar una Imagen Personalizada en el arranque de PS Vita/PS TV. Requiere Enso"
@@ -242,3 +243,8 @@ SPANISH["INSTALLP_DESC_ITLSENSO"] =						"Añade protocolo TLS v1.2 a los dispos
 SPANISH["INSTALLP_DESC_TROPHAX"] =						"Desbloqueador universal de trofeos de PS Vita"
 SPANISH["INSTALLP_DESC_TURBOPAD"] =						"Este plugin te permite activar RapidFire (Pulsación Rápida) en cualquier botón."
 SPANISH["INSTALLP_DESC_RESCALER"] =						"Este plugin remplaza el rescaler original de PS Vita con uno nuevo, permitiendo a los juegos correr a resoluciones no-nativas para tener mejoras gráficas gracias al filtrado con shaders."
+SPANISH["INSTALLP_DESC_INFINITENET"] =			    	"Plugin de taiHEN que previene que los juegos deshabiliten las funciones de red"
+
+--*NPXS10013
+SPANISH["INSTALLP_DESC_PS4LINK"] =			      		"Plugin de taiHEN que permite forzar la configuración de botones preferida en Juego Remoto (PS4)"
+
