@@ -49,6 +49,7 @@ JAPANESE["MENU_CHECK_ONLINEP"] =				"プラグインの更新確認"
 JAPANESE["MENU_TITLE_PSP"] =					"PSPオプション (Adrenaline)"
 JAPANESE["MENU_INSTALL_NPDRMFREE"] =			"npdrm freeプラグインのインストール (by qwikrazor87)"
 JAPANESE["MENU_INSTALL_REMASTERED_CTRLS"] =		"RemasteredControlsプラグインのインストール （by Theflow）"
+JAPANESE["MENU_INSTALL_PLUGINS_PSP"] =			"アドレナリン用PSPプラグイン"
 
 JAPANESE["MENU_CONVERTBOOTSPLASH"] =			"カスタムブートスプラッシュを設定する"
 JAPANESE["MENU_CUSTOMWARNING"] =				"カスタム警告メッセージを設定する"
@@ -60,13 +61,11 @@ JAPANESE["MENU_CUSTOM_CONFIG_DESC"] =			"PKGjのconfig.txtでオプションの�
 
 JAPANESE["MENU_QENCORE"] =						"Q-Encoreのインストール (by Yoti)"
 JAPANESE["MENU_QENCORE_DESC"] =					"Quick h-Encore Launcher （警告：h-Encoreがインストールされている必要があります）"
-
 JAPANESE["MENU_QENCORE_ASK"] =					"Q-Encoreをインストールする必要があります"
 JAPANESE["MENU_INSTALLED_QENCORE"] =			"Q-Encoreはインストールされています"
 JAPANESE["MENU_NOT_INSTALLED_QENCORE"] =        "Q-Encoreがインストールされていません"
 JAPANESE["MENU_QENCORE_PATCHED"] =              "Q-Encoreがパッチされました！"
 JAPANESE["MENU_QENCORE_NOTPATCHED"] =			"Q-Encoreはパッチされていません！"
-
 JAPANESE["MENU_QENCORE_NOGAME"] =				"Q-Encoreパッチを当てるにはh-Encoreをインストールする必要があります！"
 
 --install sd2vita
@@ -161,7 +160,18 @@ JAPANESE["CUSTOMBOOTSPLASH_NOPNG"] =			"適合フォーマットPNG"
 JAPANESE["PSPCTRLS_TITLE"] =					"RemasteredControlsプラグインのインストール (Adrenaline)"
 JAPANESE["PSPCTRLS_GAME_UPDATED"] =				"game.txtを更新しました"
 JAPANESE["PSPCTRLS_DESC"] =						"Adrenaline上のPSPゲームをPSVitaのデュアルアナログスティックで操作可能にする"
-JAPANESE["PSPCTRLS_LR_SWAP"] =					"L/Rトリガー:パーティションを切り替え"
+JAPANESE["PSPCTRLS_DESC_ALL"] =					"デュアルアナログスティックを有効にする"
+JAPANESE["PSPCTRLS_LR_SWAP"] =					"パーティションを切り替え"
+
+--psp plugins
+JAPANESE["PLUGINS_PSP_TITLE"] =					"利用可能なPSPプラグイン（アドレナリン）"
+JAPANESE["PLUGINS_DESC"] =						"アドレナリン用のPSPプラグインをインストールする"
+
+JAPANESE["CAMERA_PATCH_DESC"] =					"このプラグインはアドレナリンのPSPゲームに正しいアナログスティックサポートを追加することができます"
+JAPANESE["CXMB_DESC"] =							"CXMBによりユーザーはPSP/THEMESでカスタムCTFテーマを使用できます"
+JAPANESE["LANGSWAPPER_DESC"] =					"あなたのPSPが異なる地域言語のゲームに設定される言語にゲームのホームメニューとデータ保存ユーティリティを設定します"
+JAPANESE["CATEGORYLITE_DESC"] =					"すべてのゲーム、エミュレータ、自作、ゲームを、ゲームディレクトリの下の独自のフォルダに整理します"
+JAPANESE["KHBBS_UNDUB_DESC"] =					"キングダムハーツ：バースバイスリープ/ファイナルミックスのためのUNDUB版です"
 
 --plugins online
 JAPANESE["UPDATE_WIFI_LOW"] =					"Wi-Fiの信号が弱いです"
@@ -199,7 +209,8 @@ JAPANESE["INSTALLP_DESC_ANALOGSTICK"] =			"PS Vitaのアナログスティック
 JAPANESE["INSTALLP_DESC_CIDSPOOF"] =			"PS VitaのなりすましCID(PSNからコンソールの禁止を解除する為に使用される可能性があります)"
 JAPANESE["INSTALLP_DESC_MAKEPSM"] =				"PSM Developerアプリケーションへの変更"
 JAPANESE["INSTALLP_DESC_REFOOD"] =				"復号化されていないプログラムを実行するためのPS Vitaプラグイン。"
-ENGLISH_US["INSTALLP_DESC_NOLED"] =				"NOLEDはPS Vitaのホームボタンをオフにするためのシンプルなプラグインです"
+JAPANESE["INSTALLP_DESC_NOLED"] =				"NOLEDはPS Vitaのホームボタンをオフにするためのシンプルなプラグインです"
+JAPANESE["INSTALLP_DESC_NOSLEEP"] =				"これはtaihen/enso用のシンプルなプラグインで、PS Vitaのスリープタイマーを無効にします"
 
 --Boot_config.txt
 JAPANESE["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =	"このプラグインは、起動時にPS Vita／PS TVにBoot Splashを表示させることができます。ENSO必須"
@@ -232,3 +243,7 @@ JAPANESE["INSTALLP_DESC_ITLSENSO"] =			"Enso対応デバイスにTLS v1.2を追�
 JAPANESE["INSTALLP_DESC_TROPHAX"] =				"PS VITA用ユニバーサルトロフィーロックの解除"
 JAPANESE["INSTALLP_DESC_TURBOPAD"] =			"このプラグインを使うと、どのボタンでも連射(速射)を有効にすることができます。"
 JAPANESE["INSTALLP_DESC_RESCALER"] =			"このプラグインはPS VITA用のオリジナルのスケーラを新しいものに置き換え、シェーダを使ったフィルタリングにより、ネイティブではない解像度で実行されているゲームでもグラフィックの向上を実現できます"
+JAPANESE["INSTALLP_DESC_INFINITENET"] =			"ゲームがネット機能を無効にするのを防ぐtaiHENプラグイン"
+
+--*NPXS10013
+JAPANESE["INSTALLP_DESC_PS4LINK"] =			    "好きなリモートプレイボタン設定を強制的に可能にするtaiHENプラグイン"
