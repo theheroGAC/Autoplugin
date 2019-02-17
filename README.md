@@ -80,7 +80,7 @@ NanospeedGamer(thank you big friend)
 # Translator:
 - NanospeedGamer/RY0M43CH1Z3N/gvaldebenit for translation in Spanish
 - SridentPSV/chronoss09/dragtaz for translation in French
-- MrGhidini/d1l4y for translation in portugueseBr
+- MrGhidini/d1l4y/MurreySkull for translation in portugueseBr
 - GreekMans for translation in Greek
 - ConsoleHax for translation in Dutch
 - Weediee for translation in Polish
