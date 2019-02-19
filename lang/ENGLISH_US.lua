@@ -59,6 +59,16 @@ ENGLISH_US["MENU_INSTALLED_CONFIG"] =					"ux0:pkgi/config.txt for PKGJ has been
 
 ENGLISH_US["MENU_CUSTOM_CONFIG_DESC"] =					"Allows option customization on the config.txt for PKGj"
 
+
+ENGLISH_US["MENU_HENCORE2"] =							"Install H-Encore v2 by Flow"
+ENGLISH_US["MENU_HENCORE2_DESC"] =						"Update H-encore v2 by Fow (Warning: h-encore must already be installed)"
+ENGLISH_US["MENU_HENCORE2_ASK"] =						"Should H-Encore v2 be installed on"
+ENGLISH_US["MENU_INSTALLED_HENCORE2"] =					"H-Encore v2 was installed on"
+ENGLISH_US["MENU_NOT_INSTALLED_HENCORE2"] =				"H-Encore v2 was not installed on"
+ENGLISH_US["MENU_HENCORE2_PATCHED"] =					"H-Encore v2 was patched!"
+ENGLISH_US["MENU_HENCORE2_NOT_PATCHED"] =				"H-Encore v2 was not patched!"
+ENGLISH_US["MENU_HENCORE2_NOGAME"] =					"H-Encore must be installed to update H-Encore v2!"
+
 ENGLISH_US["MENU_QENCORE"] =							"Install Q-Encore by Yoti"
 ENGLISH_US["MENU_QENCORE_DESC"] =						"Quick h-encore launcher by Yoti (Warning: h-encore must already be installed)"
 ENGLISH_US["MENU_QENCORE_ASK"] =						"Should Q-Encore be installed on"
