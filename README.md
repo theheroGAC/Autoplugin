@@ -90,3 +90,4 @@ NanospeedGamer(thank you big friend)
 - sakirasci for translation in Turkish
 - AlbertonRD/Schn1ek3 for translation in German
 - theheroGAC for translation in Italian
+- IgrovoeShow for translation in Russian
