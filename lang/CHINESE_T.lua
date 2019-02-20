@@ -59,6 +59,15 @@ CHINESE_T["MENU_INSTALLED_CONFIG"] =					"PKGJ設定檔ux0:pkgi/config.txt已建
 
 CHINESE_T["MENU_CUSTOM_CONFIG_DESC"] =					"允許對PKGJ的config.txt進行選項自訂"
 
+CHINESE_T["MENU_HENCORE2"] =							"安裝H-Encore v2(由Flow開發)"
+CHINESE_T["MENU_HENCORE2_DESC"] =						"更新H-Encore v2(由Flow開發)(警告:必須已安裝h-encore)"
+CHINESE_T["MENU_HENCORE2_ASK"] =						"H-Encore v2應被安裝至"
+CHINESE_T["MENU_INSTALLED_HENCORE2"] =					"H-Encore v2已被安裝至"
+CHINESE_T["MENU_NOT_INSTALLED_HENCORE2"] =				"H-Encore v2未被安裝至"
+CHINESE_T["MENU_HENCORE2_PATCHED"] =					"H-Encore v2已修補!"
+CHINESE_T["MENU_HENCORE2_NOT_PATCHED"] =				"H-Encore v2未修補!"
+CHINESE_T["MENU_HENCORE2_NOGAME"] =					    "必須安裝H-Encore才能使用H-Encore v2進行修補!"
+
 CHINESE_T["MENU_QENCORE"] =								"安裝Q-Encore(由Yoti開發)"
 CHINESE_T["MENU_QENCORE_DESC"] =						"由Yoti開發的快速h-encore啟動器(警告:必須已安裝h-encore)"
 CHINESE_T["MENU_QENCORE_ASK"] =							"Q-Encore應被安裝至"
@@ -246,4 +255,4 @@ CHINESE_T["INSTALLP_DESC_RESCALER"] =					"這個外掛程式替換了PSVITA的�
 CHINESE_T["INSTALLP_DESC_INFINITENET"] =			    "taiHEN外掛程式,防止遊戲禁用網路功能"
 
 --*NPXS10013
-CHINESE_T["INSTALLP_DESC_PS4LINK"] =			        "taiHEN外掛程式,允許強制首選的遠端播放按鈕配置"	
+CHINESE_T["INSTALLP_DESC_PS4LINK"] =			        "taiHEN外掛程式,允許強制選擇PS4遙控游玩按鍵配置"	
