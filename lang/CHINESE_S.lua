@@ -59,6 +59,16 @@ CHINESE_S["MENU_INSTALLED_CONFIG"] =					"PKGj 配置文件 ux0:pkgi/config.txt 
 
 CHINESE_S["MENU_CUSTOM_CONFIG_DESC"] =					"允许为 PKGj 的 config.txt 进行选项自定义"
 
+
+CHINESE_S["MENU_HENCORE2"] =							"安装 H-Encore v2 (由 TheOfficialFloW 开发)"
+CHINESE_S["MENU_HENCORE2_DESC"] =						"升级 TheOfficialFloW 开发的 H-encore v2 (警告: 必须已安装 h-encore)"
+CHINESE_S["MENU_HENCORE2_ASK"] =						"H-Encore v2 是否应被安装到"
+CHINESE_S["MENU_INSTALLED_HENCORE2"] =					"H-Encore v2 已被安装"
+CHINESE_S["MENU_NOT_INSTALLED_HENCORE2"] =				"H-Encore v2 未被安装到"
+CHINESE_S["MENU_HENCORE2_PATCHED"] =					"H-Encore v2 已修补!"
+CHINESE_S["MENU_HENCORE2_NOT_PATCHED"] =				"H-Encore v2 未修补!"
+CHINESE_S["MENU_HENCORE2_NOGAME"] =					"必须安装 H-Encore 才能升级 H-Encore v2!"
+
 CHINESE_S["MENU_QENCORE"] =							"安装 Q-Encore (由 Yoti 开发)"
 CHINESE_S["MENU_QENCORE_DESC"] =						"由 Yoti 开发的快速 h-encore 启动器 (警告: 必须已安装 h-encore)"
 CHINESE_S["MENU_QENCORE_ASK"] =						"Q-Encore 是否应被安装到"
