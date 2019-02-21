@@ -59,8 +59,8 @@ CHINESE_T["MENU_INSTALLED_CONFIG"] =					"PKGJ設定檔ux0:pkgi/config.txt已建
 
 CHINESE_T["MENU_CUSTOM_CONFIG_DESC"] =					"允許對PKGJ的config.txt進行選項自訂"
 
-CHINESE_T["MENU_HENCORE2"] =							"安裝H-Encore v2(由Flow開發)"
-CHINESE_T["MENU_HENCORE2_DESC"] =						"更新H-Encore v2(由Flow開發)(警告:必須已安裝h-encore)"
+CHINESE_T["MENU_HENCORE2"] =							"安裝H-Encore v2(由TheOfficialFloW開發)"
+CHINESE_T["MENU_HENCORE2_DESC"] =						"更新H-Encore v2(由TheOfficialFloW開發)(警告:必須已安裝h-encore)"
 CHINESE_T["MENU_HENCORE2_ASK"] =						"H-Encore v2應被安裝至"
 CHINESE_T["MENU_INSTALLED_HENCORE2"] =					"H-Encore v2已被安裝至"
 CHINESE_T["MENU_NOT_INSTALLED_HENCORE2"] =				"H-Encore v2未被安裝至"
