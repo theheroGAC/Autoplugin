@@ -112,7 +112,7 @@ POLISH["NPDRMFREE_INSTALLED"] =						"npdrm free zainstalowany"
 POLISH["NPDRMFREE_VSH_UPDATED"] =						"vsh.txt poprawiony"
 POLISH["NPDRMFREE_GAME_UPDATED"] =					"game.txt poprawiony"
 POLISH["NPDRMFREE_INSTALL"] =							"Zainstaluj dodatek npdrm free"
-POLISH["NPDRMFREE_DESC"] =							"Dodatek PSP/ePSP aby uruchomic oficjalne NPDRM'y PS1/PSP bez potrzeby poprawnej licencji .rif lub act.dat.
+POLISH["NPDRMFREE_DESC"] =							"Dodatek PSP/ePSP aby uruchomic oficjalne NPDRM'y PS1/PSP bez potrzeby poprawnej licencji .rif lub act.dat."
 
 --customWaning
 POLISH["CUSTOMWARNING_MESSAGE"] =						"Pamietaj aby wlaczyc dodatek Custom Warning"
