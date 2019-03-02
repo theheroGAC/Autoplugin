@@ -59,6 +59,15 @@ JAPANESE["MENU_INSTALLED_CONFIG"] =				"ux0：pkgi/config.txtにインストー�
 
 JAPANESE["MENU_CUSTOM_CONFIG_DESC"] =			"PKGjのconfig.txtでオプションのカスタマイズを許可します"
 
+JAPANESE["MENU_HENCORE2"] =						"H-Encore v2のインストール by TheOfficialFloW"
+JAPANESE["MENU_HENCORE2_DESC"] =				"H-encore v2をアップデートします（警告：h-encoreは既にインストールされている必要があります）"
+JAPANESE["MENU_HENCORE2_ASK"] =					"H-Encore v2をインストールする必要があります"
+JAPANESE["MENU_INSTALLED_HENCORE2"] =			"H-Encore v2がにインストールされました"
+JAPANESE["MENU_NOT_INSTALLED_HENCORE2"] =		"H-Encore v2はにインストールされていませんでした"
+JAPANESE["MENU_HENCORE2_PATCHED"] =				"H-Encore v2が修正されました！"
+JAPANESE["MENU_HENCORE2_NOT_PATCHED"] =			"H-Encore v2は修正されていません！"
+JAPANESE["MENU_HENCORE2_NOGAME"] =				"H-Encore v2をアップデートするには、H-Encore v1をインストールする必要があります"
+
 JAPANESE["MENU_QENCORE"] =						"Q-Encoreのインストール (by Yoti)"
 JAPANESE["MENU_QENCORE_DESC"] =					"Quick h-Encore Launcher （警告：h-Encoreがインストールされている必要があります）"
 JAPANESE["MENU_QENCORE_ASK"] =					"Q-Encoreをインストールする必要があります"
