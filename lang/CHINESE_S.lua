@@ -254,6 +254,7 @@ CHINESE_S["INSTALLP_DESC_TROPHAX"] =					"PSVITA 通用奖杯解锁器."
 CHINESE_S["INSTALLP_DESC_TURBOPAD"] =					"这个插件允许您为任何按钮启用连发."
 CHINESE_S["INSTALLP_DESC_RESCALER"] =					"这个插件取代了 PSVITA 的原始缩放器,允许以非原生分辨率运行的游戏通过使用着色器过滤来获得图形改进."
 CHINESE_S["INSTALLP_DESC_INFINITENET"] =			    "大变革插件,用于阻止游戏禁用网络功能"
+CHINESE_S["INSTALLP_DESC_FREEPSM"] =			        "为零售版 PSM 运行库启用 PSM 内购调试"
 
 --*NPXS10013
 CHINESE_S["INSTALLP_DESC_PS4LINK"] =			        "大变革插件,用于强制选择喜欢的遥控操作按键配置方案"
