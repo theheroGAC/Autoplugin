@@ -253,6 +253,7 @@ CHINESE_T["INSTALLP_DESC_TROPHAX"] =					"PSVITA通用獎杯解鎖器"
 CHINESE_T["INSTALLP_DESC_TURBOPAD"] =					"這個外掛程式允許您在任何按鈕上啟用連發"
 CHINESE_T["INSTALLP_DESC_RESCALER"] =					"這個外掛程式替換了PSVITA的原始縮放器,它允許以非本機解析度運行的遊戲通過使用著色器進行過濾來獲得圖形改進"
 CHINESE_T["INSTALLP_DESC_INFINITENET"] =			    "taiHEN外掛程式,防止遊戲禁用網路功能"
+CHINESE_T["INSTALLP_DESC_FREEPSM"] =			        "允許在零售版PSM運行時調試PSM應用内購"
 
 --*NPXS10013
-CHINESE_T["INSTALLP_DESC_PS4LINK"] =			        "taiHEN外掛程式,允許強制選擇PS4遙控游玩按鍵配置"	
+CHINESE_T["INSTALLP_DESC_PS4LINK"] =			        "taiHEN外掛程式,允許強制選擇PS4遙控游玩按鍵配置"
