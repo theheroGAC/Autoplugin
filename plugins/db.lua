@@ -50,6 +50,11 @@ db = {
 { path = "PSMPatch.suprx",			version = "0001", stringversion = "1.1" },
 { path = "itls.suprx",			version = "0001", stringversion = "2.0" },
 { path = "trophax2.0.suprx",			version = "0001", stringversion = "2.0" },
+{ path = "TurboPad.suprx",			version = "0001", stringversion = "0.3" },
+{ path = "reRescaler.suprx",			version = "0001", stringversion = "1.0" },
+{ path = "InfiniteNet.suprx",			version = "0001", stringversion = "1.0" },
+{ path = "FreePSM.suprx",			version = "0001", stringversion = "1.0" },
+
 
 
 
