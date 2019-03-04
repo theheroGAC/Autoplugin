@@ -46,7 +46,7 @@ plugins = {
 { name = "NoTrophyMsg by TheOfficialFloW (VitaTweaks)", path = "notrophymsg.suprx", section = "main",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_NOTROPHYMSG"], },
 { name = "Custom Warning v2 by TheOfficialFloW (VitaTweaks)", path = "custom_warning.suprx", section = "main",  path2 = false, section2 = false, config = "custom_warning.txt", version = "0001", desc = LANGUAGE["INSTALLP_DESC_CUSTOMWARNING"], },
 
-{ name = "Shellbat by nowrep v0.9", path = "shellbat.suprx", section = "main",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_SHELLBAT"], },
+{ name = "Shellbat by nowrep vr10", path = "shellbat.suprx", section = "main",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_SHELLBAT"], },
 { name = "Shellsecbat by OperationNT414C v0.9", path = "shellsecbat.suprx", section = "main",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_SHELLSECBAT"], },
 { name = "pngshot by xyzz v1.2", path = "pngshot.suprx", section = "main",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_PNGSHOT"], },
 { name = "Vflux by Applelo v0.5", path = "vflux.suprx", section = "main",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_VFLUX"], },
@@ -66,6 +66,7 @@ plugins = {
 { name = "TurboPad by Rinnegatamante v0.3", path = "TurboPad.suprx", section = "ALL",  path2 = "kuio.skprx", section2 = "KERNEL", config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_TURBOPAD"], },
 { name = "reRescaler by Rinnegatamante v1.0", path = "reRescaler.suprx", section = "ALL",  path2 = "ioplus.skprx", section2 = "KERNEL", config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_RESCALER"], },
 { name = "InfiniteNet by Rinnegatamante v1.0", path = "InfiniteNet.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_INFINITENET"], },
+{ name = "FreePSM by SilicaAndPina v1.0", path = "FreePSM.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_FREEPSM"], },
 
 --*NPXS10013
 { name = "vita-ps4linkcontrols r7 by nowrep", path = "ps4linkcontrols.suprx", section = "NPXS10013",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_PS4LINK"], },
