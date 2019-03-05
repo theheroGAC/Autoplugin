@@ -43,6 +43,7 @@ function load_config(path, index)
 
 	tai[index].raw = {}
 	for line in io.lines(path) do
+		if line:byte(#line) == 13 then line = line:sub(1,#line-1) end --Remove CR == 13
 		table.insert(tai[index].raw, line)
 	end
 	--tai[index].path = path
@@ -93,19 +94,18 @@ function tai.parse(index)
 
 			local line = tai[index].raw[i]
 
-			if line:find("*",1) then -- Secction Found.
+			if line:find("*",1,true) then -- Secction Found.
 				id_sect = line:sub(2)
 				--print("Section found %s\n", id_sect)
-				if not tai[index].gameid[id_sect] then tai[index].gameid[id_sect] = {line = {}, prx = {}} end
+				if not tai[index].gameid[id_sect] then tai[index].gameid[id_sect] = { line = {}, prx = {}, section = id_sect } end
 				table.insert(tai[index].gameid[id_sect].line, i)
 				continue
 			end
 
-			if id_sect and not line:find("#",1) then -- Is a path and not a comment.
+			if id_sect and not line:find("#",1,true) then -- Is a path and not a comment.
 				--print("[%s]: %s\n", id_sect, line:lower())
-				if line:find("henkaku.suprx",1) then
-				else
-					table.insert(tai[index].gameid[id_sect].prx, {path=line:lower(), line=i})
+				if not line:find("henkaku.suprx",1,true) then
+					table.insert(tai[index].gameid[id_sect].prx, { path=line:lower(), line=i })
 				end
 			end
 
