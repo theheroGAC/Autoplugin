@@ -253,6 +253,7 @@ SPANISH["INSTALLP_DESC_TROPHAX"] =						"Desbloqueador universal de trofeos de P
 SPANISH["INSTALLP_DESC_TURBOPAD"] =						"Este plugin te permite activar RapidFire (Pulsación Rápida) en cualquier botón."
 SPANISH["INSTALLP_DESC_RESCALER"] =						"Este plugin remplaza el rescaler original de PS Vita con uno nuevo, permitiendo a los juegos correr a resoluciones no-nativas para tener mejoras gráficas gracias al filtrado con shaders."
 SPANISH["INSTALLP_DESC_INFINITENET"] =			    	"Plugin de taiHEN que previene que los juegos deshabiliten las funciones de red"
+SPANISH["INSTALLP_DESC_FREEPSM"] =			     	    "Habilita InAppPurchases (compras en la app) de Debug PSM en las ejecuciones de PSM comerciales. Basicamente, permite desbloquear el contenido con compras de PSM de manera offline y gratuita."
 
 --*NPXS10013
 SPANISH["INSTALLP_DESC_PS4LINK"] =			      		"Plugin de taiHEN que permite forzar la configuración de botones preferida en Juego Remoto (PS4)"
