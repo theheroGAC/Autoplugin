@@ -212,7 +212,8 @@ JAPANESE["INSTALLP_DESC_DSMOTION"] =			"PlayStation TVのDualShockモーショ�
 JAPANESE["INSTALLP_DESC_USBMC"] =				"USBストレージをVitaのメモリーカード(ux0)としてマウントすることができます"
 JAPANESE["INSTALLP_DESC_ANALOGSENHANCER"] =		"この小さなカーネルプラグインにより、ユーザーは、PS Vitaのアナログスティックの操作精度を向上させることができます"
 JAPANESE["INSTALLP_DESC_IOPLUS"] = 				"ユーザランドでより多くのIO操作を可能にするPS Vitaカーネルプラグインです/n元の機能を使用して、ユーザーアプリケーションとプラグインのIO許可を向上させます"
-JAPANESE["INSTALLP_DESC_VITACHEAT"] =			"PS Vitaゲームでチートを使用する"
+JAPANESE["INSTALLP_DESC_VITACHEAT"] =			"PS Vitaのゲームのみでチートを使用する(FW3.65/FW3.68)"
+JAPANESE["INSTALLP_DESC_VITACHEAT2"] =			"PS Vitaのゲームのみでチートを使用する(FW3.60)"
 JAPANESE["INSTALLP_DESC_NOPSMWHITE"] =			"PSMゲームのPS TV向けホワイトリストを無効にする"
 JAPANESE["INSTALLP_DESC_ANALOGSTICK"] =			"PS Vitaのアナログスティックを完全に無効化するプラグイン"
 JAPANESE["INSTALLP_DESC_CIDSPOOF"] =			"PS VitaのなりすましCID(PSNからコンソールの禁止を解除する為に使用される可能性があります)"
@@ -253,6 +254,7 @@ JAPANESE["INSTALLP_DESC_TROPHAX"] =				"PS VITA用ユニバーサルトロフィ
 JAPANESE["INSTALLP_DESC_TURBOPAD"] =			"このプラグインを使うと、どのボタンでも連射(速射)を有効にすることができます。"
 JAPANESE["INSTALLP_DESC_RESCALER"] =			"このプラグインはPS VITA用のオリジナルのスケーラを新しいものに置き換え、シェーダを使ったフィルタリングにより、ネイティブではない解像度で実行されているゲームでもグラフィックの向上を実現できます"
 JAPANESE["INSTALLP_DESC_INFINITENET"] =			"ゲームがネット機能を無効にするのを防ぐtaiHENプラグイン"
+JAPANESE["INSTALLP_DESC_FREEPSM"] =			    "市販のPSMランタイムパッケージでデバッグモードを有効にし、PSMのアプリ内購入を可能にします"
 
 --*NPXS10013
 JAPANESE["INSTALLP_DESC_PS4LINK"] =			    "好きなリモートプレイボタン設定を強制的に可能にするtaiHENプラグイン"
