@@ -99,6 +99,8 @@ function plugins_installation(sel)
 					img2splashbin("resources/boot_splash.png")
 				elseif plugins[sel].path == "vitacheat.skprx" and not files.exists("ux0:vitacheat/db/") then--Vitacheat
 					files.extract("resources/plugins/vitacheat.zip","ux0:")
+				elseif plugins[sel].path == "vitacheat360.skprx" and not files.exists("ux0:vitacheat/db/") then--Vitacheat for 3.60
+					files.extract("resources/plugins/vitacheat.zip","ux0:")
 				elseif plugins[sel].path == "AutoBoot.suprx" and not files.exists("ux0:data/AutoBoot/") then--AutoBoot
 					files.extract("resources/plugins/AutoBoot.zip","ux0:")
 			    elseif plugins[sel].path == "ps4linkcontrols.suprx" and not files.exists("ux0:ps4linkcontrols.txt") then--ps4linkcontrols
