@@ -13,6 +13,9 @@ pluginsP = {
 
 {	showname = "CXMB", name="cxmb.prx", path = "cxmb/", desc = LANGUAGE["CXMB_DESC"], txt = "vsh.txt", config = false },
 
+--Flow
+{	showname = "GTA Native Resolution Patch v0.2", name = "gta_native.prx",	path = "seplugins/", desc = LANGUAGE["GTA_PATCH_DESC"], txt = "game.txt", config = false },
+
 --Freakler
 {	showname = "Camera Patch Lite", name = "camera_patch_lite.prx",	path = "seplugins/", desc = LANGUAGE["CAMERA_PATCH_DESC"], txt = "game.txt", config = "camera_patch_lite.ini" },
 {	showname = "Lang Swapper", name = "LangSwapper.prx",	path = "seplugins/", desc = LANGUAGE["LANGSWAPPER_DESC"], txt = "game.txt", config = false },
