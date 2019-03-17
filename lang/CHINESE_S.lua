@@ -177,6 +177,7 @@ CHINESE_S["PSPCTRLS_LR_SWAP"] =						"切换分区"
 CHINESE_S["PLUGINS_PSP_TITLE"] =						"可供使用的 PSP(Adrenaline) 插件"
 CHINESE_S["PLUGINS_DESC"] =							"为 Adrenaline 安装PSP插件"
 
+CHINESE_S["GTA_PATCH_DESC"] =						    "此插件用于提升游戏内部分辨率到 960*544.支持游戏:罪恶都市传奇 [ULUS10160] (v3.00) 和 自由城故事 [ULUS10041] (v3.00). Adrenaline v6.9 或更新版本 -> 选择 强制禁用高内存布局 选项 (在 恢复菜单 -> 高级 -> 高级配置)."
 CHINESE_S["CAMERA_PATCH_DESC"] =						"这个插件可以为 Adrenaline 上的 PSP 游戏添加右摇杆支持"
 CHINESE_S["CXMB_DESC"] =								"CXMB 允许用户在 PSP/THEMES 中使用自定义 CTF 主题"
 CHINESE_S["LANGSWAPPER_DESC"] =						"此插件用于设置游戏主菜单和存档语言为您的系统语言,适用于具备不同区域语言的游戏"
