@@ -176,6 +176,7 @@ SPANISH["PSPCTRLS_LR_SWAP"] =							"Para cambiar de Partición"
 SPANISH["PLUGINS_PSP_TITLE"] =							"Plugins de PSP disponibles (Adrenaline)"
 SPANISH["PLUGINS_DESC"] =								"Instala Plugins de PSP para Adrenaline"
 
+SPANISH["GTA_PATCH_DESC"] =							    "Este plugin aumenta la resolución interna del juego a una resolución nativa de 960x544. Titulos soportados: Vice City Stories [ULUS10160] (v3.00) y Liberty City Stories [ULUS10041] (v3.00). En Adrenaline v6.9 o superior -> Opción 'Force high memory layout' debe estar deshabilitada (la opción se encuentra en Menu Recovery -> Advanced -> Advanced configuration)."
 SPANISH["CAMERA_PATCH_DESC"] =							"Este plugin añade soporte para el análogo derecho a los juegos de PSP en Adrenaline"
 SPANISH["CXMB_DESC"] =									"CXMB permite usar temas personalizados .CTF en la carpeta PSP/THEMES"
 SPANISH["LANGSWAPPER_DESC"] =							"Establece el Home Menu de los juegos y la herramienta de datos guardados para juegos con lenguaje distinto (de otra región) al lenguaje establecido en tu PSP "
