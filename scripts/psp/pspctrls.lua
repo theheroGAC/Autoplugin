@@ -13,6 +13,7 @@ psp_plugins = {
 
 --PSP game.txt
 { name = "Grand Theft Auto Remastered",	path = "gta_remastered.prx" },
+{ name = "Grand Theft Auto Remastered V2",	path = "gta_remastered_v2.prx" },
 { name = "Kingdom Hearts Remastered",	path = "khbbs_remastered.prx" },
 { name = "Metal Gear Solid Remastered",	path = "mgs_remastered.prx" },
 { name = "Prince Of Persia Remastered",	path = "pop_remastered.prx" },
