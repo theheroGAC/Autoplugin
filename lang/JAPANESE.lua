@@ -176,6 +176,7 @@ JAPANESE["PSPCTRLS_LR_SWAP"] =					"パーティションを切り替え"
 JAPANESE["PLUGINS_PSP_TITLE"] =					"利用可能なPSPプラグイン（アドレナリン）"
 JAPANESE["PLUGINS_DESC"] =						"アドレナリン用のPSPプラグインをインストールする"
 
+JAPANESE["GTA_PATCH_DESC"] =					"Adrenaline v6.9以降が必須です。 尚、日本版のゲームは動作しない可能性があります。 このプラグインはPSPゲームの解像度をPS Vitaの960x544のネイティブ解像度に引き上げます。 サポートされているゲームタイトルは「Grand Theft Auto:Vice City Stories [ULUS10160]（v3.00）」および「Grand Theft Auto:Liberty City Stories [ULUS10041]（v3.00）」です。 設定方法：Recovery menu → Advanced → Advanced configurationにあるForce high memory layoutを無効(disabled)にする。"
 JAPANESE["CAMERA_PATCH_DESC"] =					"このプラグインはアドレナリンのPSPゲームに正しいアナログスティックサポートを追加することができます"
 JAPANESE["CXMB_DESC"] =							"CXMBによりユーザーはPSP/THEMESでカスタムCTFテーマを使用できます"
 JAPANESE["LANGSWAPPER_DESC"] =					"あなたのPSPが異なる地域言語のゲームに設定される言語にゲームのホームメニューとデータ保存ユーティリティを設定します"
