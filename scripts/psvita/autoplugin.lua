@@ -38,6 +38,8 @@ function plugins_installation(sel)
 						install = false
 					end
 				end
+			elseif plugins[sel].path == "vitastick.skprx" and not game.exists("VITASTICK") then
+				game.install("resources/plugins/vitastick.vpk")
 			end
 
 			if install then

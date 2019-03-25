@@ -52,7 +52,7 @@ fnt = font.load("ux0:data/AUTOPLUGIN/font/font.pgf") or font.load("ux0:data/AUTO
 if fnt then	font.setdefault(fnt) end
 
 --Updater
-if check_online() then dofile("git/updater.lua") end
+dofile("git/updater.lua")
 
 --Init load configs
 tai.load()
