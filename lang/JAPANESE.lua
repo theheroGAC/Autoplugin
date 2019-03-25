@@ -207,6 +207,7 @@ JAPANESE["INSTALLP_DESC_DS3VITA"] =				"DualShock3を使用してVitaを操作�
 JAPANESE["INSTALLP_DESC_DS4VITA"] =				"DualShock4を使用してVitaを操作できます"
 JAPANESE["INSTALLP_DESC_UDCDUVC"] =				"UVCデバイスを使用して、USB経由でディスプレイをコンピュータにストリーミングします"
 JAPANESE["INSTALLP_DESC_VIIMOTE"] =				"WiiMoteを使用してVitaを操作する"
+JAPANESE["INSTALLP_DESC_VITASTICK"] =			"PS VitaをUSBゲームコントローラとして使用することができます"
 JAPANESE["INSTALLP_DESC_KUIO"] =				"基本的なI/O操作の場合ユーザーモジュールux0:dataにアクセスできるようにします/n特定のプラグインが必要な場合があります"
 JAPANESE["INSTALLP_DESC_ADRENALINE"] =			"ワンタッチでAdrenalineを動作させることができます"
 JAPANESE["INSTALLP_DESC_DSMOTION"] =			"PlayStation TVのDualShockモーションコントロールのサポート"
