@@ -9,7 +9,7 @@ SPANISH["MENU_TRANSLATE"] =								"Traduce Autoplugin"
 SPANISH["TRANSLATE_ENGLISH_TITLE"] =					"Inglés: "
 SPANISH["TRANSLATE_CURRENT_TITLE"] =					"Actual: "
 SPANISH["TRANSLATE_YOUR_TITLE"] =						"Tuyo: "
-SPANISH["MENU_TRANSLATE_DESC"] =						"¡Ayuda a mejorar Autoplugin traduciendo a tu lenguaje!"
+SPANISH["MENU_TRANSLATE_DESC"] =						"¡Ayuda a mejorar Autoplugin traduciendo a tu idioma!"
 SPANISH["SAVE_TRANSLATIONS"] =							"Guardar traducción"
 SPANISH["EXIT_SAVE_TRANSLATIONS"] =      				"Traducción no guardada. ¿Guardar antes de salir?"
 SPANISH["TRANSLATION_SAVED_1"] =						"Tu traducción fue guardada en:"
@@ -22,7 +22,7 @@ SPANISH["STRING_MISSING_CONFIG"] =						"Falta config.txt"
 SPANISH["STRING_BACK"] =								"Para volver al menu"
 SPANISH["STRING_CLOSE"] =								"Salir de Autoplugin"
 SPANISH["STRING_INSTALLED"] =							"Ha sido instalado"
-SPANISH["STRING_PLEASE_WAIT"] =							"Por favor espera..."
+SPANISH["STRING_PLEASE_WAIT"] =							"Por favor, espera..."
 SPANISH["RESTART_QUESTION"] =							"¿Quieres reiniciar ahora?"
 
 --Options Menus
@@ -37,7 +37,7 @@ SPANISH["INSTALL_PLUGINS_DESC"] =           			"Instala los Plugins más útiles
 SPANISH["UNINSTALL_PLUGINS_DESC"] =           			"Desinstala Plugins de manera fácil y sencilla"
 SPANISH["INSTALL_SD2VITA_DESC"] =           			"Instala el Plugin SD2VITA (StorageMgr de CelesteBlue)"
 SPANISH["CONFIG_SD2VITA_DESC"] =                		"Configura el Plugin SD2VITA (StorageMgr de CelesteBlue)"
-SPANISH["CHECK_ONLINEP_DESC"] =           				"Verifica si hay alguna actualizacion para los Plugins"
+SPANISH["CHECK_ONLINEP_DESC"] =           				"Comprueba si hay alguna actualizacion para los Plugins"
 
 SPANISH["MENU_TITLE_PSVITA"] =           		 		"Plugins de PS Vita"
 SPANISH["MENU_INSTALL_SD2VITA"] =            			"Instalar Plugin SD2VITA"
@@ -64,8 +64,8 @@ SPANISH["MENU_HENCORE2_DESC"] =							"Actualiza a H-Encore v2 de TheOfficialFlo
 SPANISH["MENU_HENCORE2_ASK"] =							"¿Debería H-Encore ser instalado en"
 SPANISH["MENU_INSTALLED_HENCORE2"] =					"H-Encore v2 ha sido instalado en"
 SPANISH["MENU_NOT_INSTALLED_HENCORE2"] =				"H-Encore v2 no ha sido instalado en"
-SPANISH["MENU_HENCORE2_PATCHED"] =						"¡H-Encore v2 ha sido parchado!"
-SPANISH["MENU_HENCORE2_NOT_PATCHED"] =					"¡H-Encore v2 no ha sido parchado!"
+SPANISH["MENU_HENCORE2_PATCHED"] =						"¡H-Encore v2 ha sido parcheado!"
+SPANISH["MENU_HENCORE2_NOT_PATCHED"] =					"¡H-Encore v2 no ha sido parcheado!"
 SPANISH["MENU_HENCORE2_NOGAME"] =						"¡H-Encore debe estar instalado para actualizar a H-Encore v2!"
 
 SPANISH["MENU_QENCORE"] =           					"Instala Q-Encore de Yoti"
@@ -73,9 +73,9 @@ SPANISH["MENU_QENCORE_DESC"] =           				"Lanzador rápido de H-Encore de Yo
 SPANISH["MENU_QENCORE_ASK"] =							"¿Debería Q-Encore ser instalado en"
 SPANISH["MENU_INSTALLED_QENCORE"] =						"Q-Encore ha sido instalado en"
 SPANISH["MENU_NOT_INSTALLED_QENCORE"] =					"Q-Encore no ha sido instalado en"
-SPANISH["MENU_QENCORE_PATCHED"] =						"¡Q-Encore ha sido parchado!"
-SPANISH["MENU_QENCORE_NOT_PATCHED"] =					"¡Q-Encore no ha sido parchado!"
-SPANISH["MENU_QENCORE_NOGAME"] =						"¡H-Encore debe estar instalado para ser parchado con Q-Encore!"
+SPANISH["MENU_QENCORE_PATCHED"] =						"¡Q-Encore ha sido parcheado!"
+SPANISH["MENU_QENCORE_NOT_PATCHED"] =					"¡Q-Encore no ha sido parcheado!"
+SPANISH["MENU_QENCORE_NOGAME"] =						"¡H-Encore debe estar instalado para ser parcheado con Q-Encore!"
 
 --install sd2vita
 SPANISH["MENU_TITLE_SD2VITA"] =							"Instala el plugin Storage Manager para usar una SD2VITA"
@@ -168,8 +168,8 @@ SPANISH["CUSTOMBOOTSPLASH_NOPNG"] =						"El formato compatible es PNG"
 --pspctrls
 SPANISH["PSPCTRLS_TITLE"] =								"Plugin Remastered Controls de TheOfficialFloW (Adrenaline)"
 SPANISH["PSPCTRLS_GAME_UPDATED"] =						"game.txt actualizado"
-SPANISH["PSPCTRLS_DESC"] =								"Colección de parches para Adrenaline que permite usar los dos análogos en determinados juegos de PSP"
-SPANISH["PSPCTRLS_DESC_ALL"] =							"Habilitador de los dos análogos"
+SPANISH["PSPCTRLS_DESC"] =								"Colección de parches para Adrenaline que permite usar los dos analógicos en determinados juegos de PSP"
+SPANISH["PSPCTRLS_DESC_ALL"] =							"Habilitador de los dos analógicos"
 SPANISH["PSPCTRLS_LR_SWAP"] =							"Para cambiar de Partición"
 
 --psp plugins
@@ -177,22 +177,22 @@ SPANISH["PLUGINS_PSP_TITLE"] =							"Plugins de PSP disponibles (Adrenaline)"
 SPANISH["PLUGINS_DESC"] =								"Instala Plugins de PSP para Adrenaline"
 
 SPANISH["GTA_PATCH_DESC"] =							    "Este plugin aumenta la resolución interna del juego a una resolución nativa de 960x544. Titulos soportados: Vice City Stories [ULUS10160] (v3.00) y Liberty City Stories [ULUS10041] (v3.00). En Adrenaline v6.9 o superior -> Opción 'Force high memory layout' debe estar deshabilitada (la opción se encuentra en Menu Recovery -> Advanced -> Advanced configuration)."
-SPANISH["CAMERA_PATCH_DESC"] =							"Este plugin añade soporte para el análogo derecho a los juegos de PSP en Adrenaline"
+SPANISH["CAMERA_PATCH_DESC"] =							"Este plugin añade soporte para el analógico derecho a los juegos de PSP en Adrenaline"
 SPANISH["CXMB_DESC"] =									"CXMB permite usar temas personalizados .CTF en la carpeta PSP/THEMES"
-SPANISH["LANGSWAPPER_DESC"] =							"Establece el Home Menu de los juegos y la herramienta de datos guardados para juegos con lenguaje distinto (de otra región) al lenguaje establecido en tu PSP "
+SPANISH["LANGSWAPPER_DESC"] =							"Establece el Home Menu de los juegos y la herramienta de datos guardados para juegos con idioma distinto (de otra región) al establecido en tu PSP "
 SPANISH["CATEGORYLITE_DESC"] =							"Organiza todos tus juegos, emuladores, homebrews, en su propia carpeta bajo el Directorio de Juegos"
 SPANISH["KHBBS_UNDUB_DESC"] =							"UNDUB version (Audio en Japonés) para el juego Kingdom Hearts: Birth By Sleep/Final Mix"
 
 --plugins online
-SPANISH["UPDATE_WIFI_LOW"] =							"Señal WiFi débil"
+SPANISH["UPDATE_WIFI_LOW"] =							"Señal de WiFi débil"
 SPANISH["UPDATE_WIFI_IS_ON"] =							"Es necesaria una conexión WiFi"
-SPANISH["UPDATE_CHECK_DB"] =							"Revisando Base de Datos"
+SPANISH["UPDATE_CHECK_DB"] =							"Comprobando Base de Datos"
 SPANISH["UPDATE_PLUGIN"] =								"Plugin Actualizado"
 SPANISH["UPDATE_ERROR_DB"] =							"Error al descargar db.lua"
 SPANISH["UPDATE_NO_NEWS"] =								"Todos los plugins están actualizados"
 SPANISH["UPDATE_VITACHEAT_DB"] =						"¿Actualizar Base de Datos de Cheats para Vitacheat?"
 SPANISH["UPDATE_VITACHEAT_DB_WRITE"] =					"¡Se sobreescribiran los archivos!"
-SPANISH["UPDATE_CHECK_VITACHEAT_DB"] =					"Revisando Base de Datos de Vitacheat"
+SPANISH["UPDATE_CHECK_VITACHEAT_DB"] =					"Comprobando Base de Datos de Vitacheat"
 
 --descriptions plugins
 --KERNEL
@@ -217,7 +217,7 @@ SPANISH["INSTALLP_DESC_IOPLUS"] = 						"Este plugin de kernel de la PS Vita per
 SPANISH["INSTALLP_DESC_VITACHEAT"] =					"Usa Cheats (trucos) en juegos de PS Vita. Solo para 3.65/3.68"
 SPANISH["INSTALLP_DESC_VITACHEAT2"] =					"Usa Cheats (trucos) en juegos de PS Vita. Solo para 3.60"
 SPANISH["INSTALLP_DESC_NOPSMWHITE"] =					"Desactiva el bloqueo de juegos de PSM en PlayStation TV"
-SPANISH["INSTALLP_DESC_ANALOGSTICK"] =					"Plugin para desactivar completamente los análogos de la PS Vita"
+SPANISH["INSTALLP_DESC_ANALOGSTICK"] =					"Plugin para desactivar completamente los analógicos de la PS Vita"
 SPANISH["INSTALLP_DESC_CIDSPOOF"] =						"Falsifica el CID(ConsoleID) en PS Vita (Puede ser usado posiblemente para desbanear la consola de PSN)"
 SPANISH["INSTALLP_DESC_MAKEPSM"] =						"Modificaciones a las aplicaciones de desarrollo de PSM"
 SPANISH["INSTALLP_DESC_REFOOD"] =						"Un Plugin de Vita para correr programas que no pueden ser desencriptados adecuadamente"
@@ -228,7 +228,7 @@ SPANISH["INSTALLP_DESC_NOSLEEP"] =						"Es solo un sencillo plugin de Vita para
 SPANISH["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =				"Este plugin puede mostrar una Imagen Personalizada en el arranque de PS Vita/PS TV. Requiere Enso"
 SPANISH["INSTALLP_DESC_CONVERTBOOTSPLASH"] =			"¿Poner tu Imagen Personalizada en el arranque de la PS Vita?"
 SPANISH["INSTALLP_DESC_NOFINDSPLASH"] =					"Coloca la imagen elegida en ux0:CustomBootsplash/\n(Renómbrala como splash.png y con tamaño 960x544)"
-SPANISH["INSTALLP_DESC_SPLASHGH"] =						"El tamaño de la imagen debe de ser: 960 * 544"
+SPANISH["INSTALLP_DESC_SPLASHGH"] =						"El tamaño de la imagen debe ser: 960 * 544"
 SPANISH["INSTALLP_DESC_BOOTSPLASHDONE"] =				"¡boot_splash.bin CREADO!"
 
 --MAIN
@@ -251,11 +251,11 @@ SPANISH["INSTALLP_DESC_FRAMECOUNTER"] =					"Pequeño plugin que sirve como un c
 SPANISH["INSTALLP_DESC_VGI"] =							"Plugin simple para TaiHen que muestra información útil acerca del juego de PS Vita en ejecución"
 SPANISH["INSTALLP_DESC_FUCKPSSE"] =						"Un plugin para desencriptar contenido de PSM"
 SPANISH["INSTALLP_DESC_PSMPATCH"] =						"Permite la modificación (modding) de juegos de PSM, y además puede ser usado para cargar Homebrew de PSM."
-SPANISH["INSTALLP_DESC_ITLSENSO"] =						"Añade protocolo TLS v1.2 a los dispositivos con Enso(requiere instalar el vpk de la aplicación, y requiere además ioplus para dispositivos sin Enso)."
+SPANISH["INSTALLP_DESC_ITLSENSO"] =						"Añade protocolo TLS v1.2 a los dispositivos con Enso (requiere instalar el vpk de la aplicación, y requiere además ioplus para dispositivos sin Enso)."
 SPANISH["INSTALLP_DESC_TROPHAX"] =						"Desbloqueador universal de trofeos de PS Vita"
 SPANISH["INSTALLP_DESC_TURBOPAD"] =						"Este plugin te permite activar RapidFire (Pulsación Rápida) en cualquier botón."
 SPANISH["INSTALLP_DESC_RESCALER"] =						"Este plugin remplaza el rescaler original de PS Vita con uno nuevo, permitiendo a los juegos correr a resoluciones no-nativas para tener mejoras gráficas gracias al filtrado con shaders."
-SPANISH["INSTALLP_DESC_INFINITENET"] =			    	"Plugin de taiHEN que previene que los juegos deshabiliten las funciones de red"
+SPANISH["INSTALLP_DESC_INFINITENET"] =			    	"Plugin de taiHEN que evita que los juegos deshabiliten las funciones de red"
 SPANISH["INSTALLP_DESC_FREEPSM"] =			        	"Habilita InAppPurchases (compras en la app) de Debug PSM en la ejecución de PSM comercial. Basicamente permite desbloquear de manera offline y gratis las compras en app de PSM."
 
 --*NPXS10013
