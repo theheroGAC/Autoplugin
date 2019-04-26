@@ -260,6 +260,7 @@ ENGLISH_US["INSTALLP_DESC_FREEPSM"] =			        "Enables Debug PSM InAppPurchase
 ENGLISH_US["INSTALLP_DESC_MAKEPSM"] =					"Modifications to the PSM Developer applications"
 ENGLISH_US["INSTALLP_DESC_WDNR"] =					    "Rear touchpad disabler for PSVITA."
 ENGLISH_US["INSTALLP_DESC_WDNF"] =					    "Disable front touchscreen."
+ENGLISH_US["INSTALLP_DESC_REMAPSV"] =					"remaPSV is a remap plugin allowing you to remap every single button of your PSVita and to map touch and reartouch zones to extra buttons."
 
 --*NPXS10013
 ENGLISH_US["INSTALLP_DESC_PS4LINK"] =			        "taiHEN plugin that allows to force preferred Remote Play button configuration"
