@@ -22,7 +22,6 @@ db = {
 { path = "noPsmWhitelist.skprx",				version = "0001", stringversion = "1.0" },
 { path = "AnalogStickDisable.skprx",				version = "0001", stringversion = "1.1" },
 { path = "cidSpoof.skprx",				version = "0001", stringversion = "1.0" },
-{ path = "MakePsmGreatAgain.skprx",				version = "0001", stringversion = "1.2" },
 
 --Boot_config.txt
 { path = "custom_boot_splash.skprx",	version = "0001", stringversion = "1.0" },
@@ -35,7 +34,7 @@ db = {
 
 { path = "shellbat.suprx",				version = "0001", stringversion = "0.9" },
 { path = "shellsecbat.suprx",			version = "0001", stringversion = "0.9" },
-{ path = "pngshot.suprx",				version = "0002", stringversion = "1.3" },
+{ path = "pngshot.suprx",				version = "0001", stringversion = "1.3" },
 { path = "vflux.suprx",					version = "0001", stringversion = "0.5" },
 { path = "AutoBoot.suprx",					version = "0001", stringversion = "1.2" },
   
@@ -54,6 +53,7 @@ db = {
 { path = "reRescaler.suprx",			version = "0001", stringversion = "1.0" },
 { path = "InfiniteNet.suprx",			version = "0001", stringversion = "1.0" },
 { path = "FreePSM.suprx",			version = "0001", stringversion = "1.1" },
+{ path = "MakePsmGreatAgain.suprx",				version = "0001", stringversion = "1.4" },
 
 
 
