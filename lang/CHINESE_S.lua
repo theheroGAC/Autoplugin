@@ -220,7 +220,6 @@ CHINESE_S["INSTALLP_DESC_VITACHEAT2"] =					"在 PSVita 游戏里使用金手指
 CHINESE_S["INSTALLP_DESC_NOPSMWHITE"] =				"为 PSTV 禁用 PSM 游戏白名单"
 CHINESE_S["INSTALLP_DESC_ANALOGSTICK"] =				"此插件用于彻底禁用 PSVita 摇杆"
 CHINESE_S["INSTALLP_DESC_CIDSPOOF"] =					"用于 PSV 伪装 CID (设备ID) (也许可以用于解除 PSN 对您设备的封锁)"
-CHINESE_S["INSTALLP_DESC_MAKEPSM"] =					"修改 PSM 开发者程序,使其正常运行"
 CHINESE_S["INSTALLP_DESC_REFOOD"] =					"此插件用于运行无法正确解密的程序."
 CHINESE_S["INSTALLP_DESC_NOLED"] =					    "noled 是一个简单的 Vita 插件,用于关闭 PS 按钮二极管灯光."
 CHINESE_S["INSTALLP_DESC_NOSLEEP"] =					"这是一个简单的适用于 大变革/enso 的插件,用于禁用睡眠定时器."
@@ -258,6 +257,10 @@ CHINESE_S["INSTALLP_DESC_TURBOPAD"] =					"这个插件允许您为任何按钮�
 CHINESE_S["INSTALLP_DESC_RESCALER"] =					"这个插件取代了 PSVITA 的原始缩放器,允许以非原生分辨率运行的游戏通过使用着色器过滤来获得图形改进."
 CHINESE_S["INSTALLP_DESC_INFINITENET"] =			    "大变革插件,用于阻止游戏禁用网络功能"
 CHINESE_S["INSTALLP_DESC_FREEPSM"] =			        "为零售版 PSM 运行库启用 PSM 内购调试"
+CHINESE_S["INSTALLP_DESC_MAKEPSM"] =					"修改 PSM 开发者程序,使其正常运行"
+CHINESE_S["INSTALLP_DESC_WDNR"] =					    "PSVITA 后置触摸板禁用工具."
+CHINESE_S["INSTALLP_DESC_WDNF"] =					    "禁用前置触屏."
+CHINESE_S["INSTALLP_DESC_REMAPSV"] =					"remaPSV 是一个重映射插件,允许您重新映射 PSVita 的每个按钮,并将触屏和后置触摸区域映射为额外的按钮."
 
 --*NPXS10013
 CHINESE_S["INSTALLP_DESC_PS4LINK"] =			        "大变革插件,用于强制选择喜欢的遥控操作按键配置方案"
