@@ -123,8 +123,8 @@ function install()
 	if files.exists(tai[__UR0].path) then
 
 		--Install plugin to tai folder
-		files.copy(path_plugins .. "storagemgr.skprx", "ur0:tai")
-		files.copy(path_plugins .. "storage_config.txt", "ur0:tai")
+		files.copy(path_plugins.."storagemgr.skprx", "ur0:tai")
+		files.copy(path_plugins.."storage_config.txt", "ur0:tai")
 
 		--Insert plugin to Config
 		tai.put(__UR0, "KERNEL", "ur0:tai/storagemgr.skprx", 1)
@@ -206,13 +206,17 @@ function configure()
 		if buttons.down or buttons.analogly > 60 then scrollm:down() end
 
 		if buttons[cancel] then return end
+
 		if buttons.triangle then check_storage_config(devices) end
+
 		if buttons.released.l or buttons.released.left then
 			devices[scrollm.sel].mount = mounts[new_mount(devices[scrollm.sel].mount.index, #mounts, false)]
 		end
+
 		if buttons.released.r or buttons.released.right then
 			devices[scrollm.sel].mount = mounts[new_mount(devices[scrollm.sel].mount.index, #mounts, true)]
 		end
+
 	end
 end
 
@@ -289,13 +293,14 @@ function save_storage_config(devices)
 end
 
 function read_storage_config()
-	if files.exists("ur0:tai/storage_config.txt") then
-		data = {}
-		for line in io.lines("ur0:tai/storage_config.txt") do
-			--data[#data+1]=line
-			table.insert(data,line)
-		end
+
+	if not files.exists("ur0:tai/storage_config.txt") then files.copy(path_plugins.."storage_config.txt", "ur0:tai") end
+
+	local data = {}
+	for line in io.lines("ur0:tai/storage_config.txt") do
+		table.insert(data,line)
 	end
+
 	return data
 end
 
@@ -316,7 +321,8 @@ function parse_mounts(devices, mounts, original)
 end
 
 function sd2vita()
-	if tai.find(__UR0, "KERNEL", "storagemgr.skprx") then
+	if tai[__UR0].exist and tai.find(__UR0, "KERNEL", "storagemgr.skprx") then
+		if not files.exists("ur0:tai/storage_config.txt") then files.copy(path_plugins.."storage_config.txt", "ur0:tai") end
 		configure()
 	else
 		install()

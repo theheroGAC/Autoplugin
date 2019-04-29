@@ -49,11 +49,11 @@ while true do
 
 	screen.print(480,25,LANGUAGE["MENU_TITLE"],1.3,color.green, 0x0, __ACENTER)
 
-	local y = 160
+	local y = 145
 	for i=scrollm.ini, scrollm.lim do
-		if i == scrollm.sel then draw.offsetgradrect(0,y-10,960,32,color.shine:a(55),color.shine:a(105),0x0,0x0,21) end
+		if i == scrollm.sel then draw.offsetgradrect(10,y-12,960-20,40,color.shine:a(75),color.shine:a(135),0x0,0x0,21) end
 		screen.print(480,y,menu[i].text,1.2,color.white, 0x0, __ACENTER)
-		y+=38
+		y+=45
 	end
 
 	screen.flip()
