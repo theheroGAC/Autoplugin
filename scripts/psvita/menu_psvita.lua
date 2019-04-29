@@ -27,9 +27,11 @@ function menu_ps()
 		plugins_online()
 	end
 
-	if tai.find(__UR0, "KERNEL", "storagemgr.skprx") then
-		LANGUAGE["MENU_INSTALL_SD2VITA"] = LANGUAGE["MENU_CONFIGURE_SD2VITA"]
-		LANGUAGE["INSTALL_SD2VITA_DESC"] = LANGUAGE["CONFIG_SD2VITA_DESC"]
+	if tai[__UR0].exist then
+		if tai.find(__UR0, "KERNEL", "storagemgr.skprx") then
+			LANGUAGE["MENU_INSTALL_SD2VITA"] = LANGUAGE["MENU_CONFIGURE_SD2VITA"]
+			LANGUAGE["INSTALL_SD2VITA_DESC"] = LANGUAGE["CONFIG_SD2VITA_DESC"]
+		end
 	end
 
 	local menu_psvita = {

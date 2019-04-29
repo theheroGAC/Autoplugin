@@ -99,10 +99,8 @@ function plugins_installation(sel)
 				if plugins[sel].path == "vsh.suprx" then files.delete("ur0:/data:/vsh/")
 				elseif plugins[sel].path == "custom_boot_splash.skprx" and not files.exists("ur0:tai/boot_splash.bin") then--Custom Boot Splash
 					img2splashbin("resources/boot_splash.png")
-				elseif plugins[sel].path == "vitacheat.skprx" and not files.exists("ux0:vitacheat/db/") then--Vitacheat
-					files.extract("resources/plugins/vitacheat.zip","ux0:")
-				elseif plugins[sel].path == "vitacheat360.skprx" and not files.exists("ux0:vitacheat/db/") then--Vitacheat for 3.60
-					files.extract("resources/plugins/vitacheat.zip","ux0:")
+				elseif plugins[sel].path == "vitacheat.skprx" or plugins[sel].path == "vitacheat360.skprx" then--Vitacheat
+					if not files.exists("ux0:vitacheat/db/") then files.extract("resources/plugins/vitacheat.zip","ux0:") end
 				elseif plugins[sel].path == "AutoBoot.suprx" and not files.exists("ux0:data/AutoBoot/") then--AutoBoot
 					files.extract("resources/plugins/AutoBoot.zip","ux0:")
 			    elseif plugins[sel].path == "ps4linkcontrols.suprx" and not files.exists("ux0:ps4linkcontrols.txt") then--ps4linkcontrols
