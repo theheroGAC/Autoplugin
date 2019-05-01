@@ -219,7 +219,6 @@ SPANISH["INSTALLP_DESC_VITACHEAT2"] =					"Usa Cheats (trucos) en juegos de PS V
 SPANISH["INSTALLP_DESC_NOPSMWHITE"] =					"Desactiva el bloqueo de juegos de PSM en PlayStation TV"
 SPANISH["INSTALLP_DESC_ANALOGSTICK"] =					"Plugin para desactivar completamente los analógicos de la PS Vita"
 SPANISH["INSTALLP_DESC_CIDSPOOF"] =						"Falsifica el CID(ConsoleID) en PS Vita (Puede ser usado posiblemente para desbanear la consola de PSN)"
-SPANISH["INSTALLP_DESC_MAKEPSM"] =						"Modificaciones a las aplicaciones de desarrollo de PSM"
 SPANISH["INSTALLP_DESC_REFOOD"] =						"Un Plugin de Vita para correr programas que no pueden ser desencriptados adecuadamente"
 SPANISH["INSTALLP_DESC_NOLED"] =					    "noled es un plugin simple que permite apagar el led del botón home de la PS Vita."
 SPANISH["INSTALLP_DESC_NOSLEEP"] =						"Es solo un sencillo plugin de Vita para taiHEN / enso que deshabilita el temporizador de suspensión."
@@ -257,6 +256,10 @@ SPANISH["INSTALLP_DESC_TURBOPAD"] =						"Este plugin te permite activar RapidFi
 SPANISH["INSTALLP_DESC_RESCALER"] =						"Este plugin remplaza el rescaler original de PS Vita con uno nuevo, permitiendo a los juegos correr a resoluciones no-nativas para tener mejoras gráficas gracias al filtrado con shaders."
 SPANISH["INSTALLP_DESC_INFINITENET"] =			    	"Plugin de taiHEN que evita que los juegos deshabiliten las funciones de red"
 SPANISH["INSTALLP_DESC_FREEPSM"] =			        	"Habilita InAppPurchases (compras en la app) de Debug PSM en la ejecución de PSM comercial. Basicamente permite desbloquear de manera offline y gratis las compras en app de PSM."
+SPANISH["INSTALLP_DESC_MAKEPSM"] =						"Modificaciones a las aplicaciones de desarrollo de PSM"
+SPANISH["INSTALLP_DESC_WDNR"] =						    "Desactivador del táctil trasero para PS Vita"
+SPANISH["INSTALLP_DESC_WDNF"] =						    "Desactivador de la pantalla táctil (pantalla delantera)"
+SPANISH["INSTALLP_DESC_REMAPSV"] =						"remaPSV es un plugin de remapeo que te permite reasignar cada botón de la PS Vita, además de las zonas de la  pantalla y el táctil trasero  para botones extras"
 
 --*NPXS10013
 SPANISH["INSTALLP_DESC_PS4LINK"] =			      		"Plugin de taiHEN que permite forzar la configuración de botones preferida en Juego Remoto (PS4)"
