@@ -219,7 +219,6 @@ JAPANESE["INSTALLP_DESC_VITACHEAT2"] =			"PS Vitaのゲームのみでチート�
 JAPANESE["INSTALLP_DESC_NOPSMWHITE"] =			"PSMゲームのPS TV向けホワイトリストを無効にする"
 JAPANESE["INSTALLP_DESC_ANALOGSTICK"] =			"PS Vitaのアナログスティックを完全に無効化するプラグイン"
 JAPANESE["INSTALLP_DESC_CIDSPOOF"] =			"PS VitaのなりすましCID(PSNからコンソールの禁止を解除する為に使用される可能性があります)"
-JAPANESE["INSTALLP_DESC_MAKEPSM"] =				"PSM Developerアプリケーションへの変更"
 JAPANESE["INSTALLP_DESC_REFOOD"] =				"復号化されていないプログラムを実行するためのPS Vitaプラグイン。"
 JAPANESE["INSTALLP_DESC_NOLED"] =				"NOLEDはPS Vitaのホームボタンをオフにするためのシンプルなプラグインです"
 JAPANESE["INSTALLP_DESC_NOSLEEP"] =				"これはtaihen/enso用のシンプルなプラグインで、PS Vitaのスリープタイマーを無効にします"
@@ -257,6 +256,10 @@ JAPANESE["INSTALLP_DESC_TURBOPAD"] =			"このプラグインを使うと、ど�
 JAPANESE["INSTALLP_DESC_RESCALER"] =			"このプラグインはPS VITA用のオリジナルのスケーラを新しいものに置き換え、シェーダを使ったフィルタリングにより、ネイティブではない解像度で実行されているゲームでもグラフィックの向上を実現できます"
 JAPANESE["INSTALLP_DESC_INFINITENET"] =			"ゲームがネット機能を無効にするのを防ぐtaiHENプラグイン"
 JAPANESE["INSTALLP_DESC_FREEPSM"] =			    "市販のPSMランタイムパッケージでデバッグモードを有効にし、PSMのアプリ内購入を可能にします"
+JAPANESE["INSTALLP_DESC_MAKEPSM"] =				"PSM Developerアプリケーションへの変更"
+JAPANESE["INSTALLP_DESC_WDNR"] =				"PS Vitaの後面タッチパッドを無効にします。"
+JAPANESE["INSTALLP_DESC_WDNF"] =				"前面タッチパネルを無効にします。"
+JAPANESE["INSTALLP_DESC_REMAPSV"] =				"remaPSVはPS Vitaの個々のボタンやタッチゾーン(前面・背面)に任意のボタン機能を割り当てることを可能にするリマッピングプラグインです。"
 
 --*NPXS10013
 JAPANESE["INSTALLP_DESC_PS4LINK"] =			    "好きなリモートプレイボタン設定を強制的に可能にするtaiHENプラグイン"
