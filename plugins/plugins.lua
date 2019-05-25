@@ -13,7 +13,7 @@
 plugins = {
 
 --Kernel
-{ name = "NoNpDrm by TheOfficialFloW", path = "nonpdrm.skprx", section = "KERNEL", path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_NONPDRM"], },
+{ name = "NoNpDrm by TheOfficialFloW/LMAN v1.4 unofficial", path = "nonpdrm.skprx", section = "KERNEL", path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_NONPDRM"], },
 { name = "NoPsmDrm by frangarcj v1.4", path = "nopsmdrm.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_NOPSMDRM"], },
 { name = "Vitabright by devnoname120 v1.0", path = "vitabright.skprx", section = "KERNEL",  path2 = false, section2 = false, config = "vitabright_lut.txt", version = "0001", desc = LANGUAGE["INSTALLP_DESC_VITABRIGHT"], },
 { name = "NoAVLS by SilicaAndPina", path = "noavls.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_NOAVLS"], },
@@ -37,6 +37,7 @@ plugins = {
 { name = "reF00D by FAPS Team v1.0", path = "reF00D.skprx", section = "KERNEL",  path2 = false, section2 = false, config = "keys.bin", version = "0001", desc = LANGUAGE["INSTALLP_DESC_REFOOD"], },
 { name = "noled by reprep v1.1", path = "noled.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_NOLED"], },
 { name = "nosleep by NamelessGhoul0 v1.1", path = "nosleep.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_NOSLEEP"], },
+{ name = "PSP2-batteryFixer by SKGleba v1.1", path = "bicr.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_BATFIX"], },
 
 --Boot_config.txt
 { name = "Custom Boot Splash by Princess of Sleeping", path = "custom_boot_splash.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_CUSTOMBOOTSPLASH"], },
@@ -71,7 +72,7 @@ plugins = {
 { name = "MakePsmGreatAgain by SilicaAndPina v1.4", path = "MakePsmGreatAgain.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_MAKEPSM"], },
 { name = "WDNR by Rinnegatamante v1.0", path = "WDNR.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_WDNR"], },
 { name = "WDNF by EchoDev & Rinnegatamante v1.0", path = "WDNF.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_WDNF"], },
-{ name = "remaPSV by Rinnegatamante v1.0", path = "remaPSV.suprx", section = "ALL",  path2 = "ioplus.skprx", section2 = "KERNEL", config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_REMAPSV"], },
+{ name = "remaPSV by Rinnegatamante v1.1", path = "remaPSV.suprx", section = "ALL",  path2 = "ioplus.skprx", section2 = "KERNEL", config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_REMAPSV"], },
 
 --*NPXS10013
 { name = "vita-ps4linkcontrols r7 by nowrep", path = "ps4linkcontrols.suprx", section = "NPXS10013",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_PS4LINK"], },
