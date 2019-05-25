@@ -223,6 +223,7 @@ ENGLISH_US["INSTALLP_DESC_CIDSPOOF"] =					"Spoof CID (ConsoleID) on PSVITA(Coul
 ENGLISH_US["INSTALLP_DESC_REFOOD"] =					"A vita plugin to run programs that do not get decrypted properly."
 ENGLISH_US["INSTALLP_DESC_NOLED"] =					    "noled is a simple plugin to turn off the home button led of PS Vita."
 ENGLISH_US["INSTALLP_DESC_NOSLEEP"] =					"This is just a simple plugin for taihen / enso Vita that disables the sleep timer."
+ENGLISH_US["INSTALLP_DESC_BATFIX"] =					"A small kernel plugin for enso that fixes most of PSVita's battery-related problems."
 
 --Boot_config.txt
 ENGLISH_US["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =			"This plugin can display Boot Splash on PS Vita/PSTV at boot. Requires ENSO."
