@@ -11,7 +11,7 @@ db = {
 { path = "lolicon.skprx",				version = "0001", stringversion = "1.0.1.1" },
 { path = "ds3vita.skprx",				version = "0001", stringversion = "0.3" },
 { path = "ds4vita.skprx",				version = "0001", stringversion = "1.2" },
-{ path = "udcd_uvc.skprx",				version = "0001", stringversion = "1.2" },
+{ path = "udcd_uvc.skprx",				version = "0002", stringversion = "1.25" },
 { path = "viimote.skprx",				version = "0001", stringversion = "1.2" },
 --{ path = "kuio.skprx",				version = "0001", stringversion = "1.2" },
 { path = "dsmotion.skprx",				version = "0001", stringversion = "1.2" },
