@@ -184,7 +184,7 @@ JAPANESE["CATEGORYLITE_DESC"] =					"すべてのゲーム、エミュレータ�
 JAPANESE["KHBBS_UNDUB_DESC"] =					"キングダムハーツ：バースバイスリープ/ファイナルミックスのためのUNDUB版です"
 
 --plugins online
-JAPANESE["UPDATE_WIFI_LOW"] =					"Wi-Fiの信号が弱いです"
+JAPANESE["UPDATE_WIFI_LOW"] =					"Wi-Fiの電波が弱いです"
 JAPANESE["UPDATE_WIFI_IS_ON"] =					"Wi-Fiを有効にして下さい"
 JAPANESE["UPDATE_CHECK_DB"] =					"データベースを確認"
 JAPANESE["UPDATE_PLUGINS"] =					"プラグインを更新"
@@ -197,6 +197,7 @@ JAPANESE["UPDATE_CHECK_VITACHEAT_DB"] =			"VitaCheatデータベースの確認"
 --descriptions plugins
 --KERNEL
 JAPANESE["INSTALLP_DESC_NONPDRM"] =				"どのようなPS VitaコンテンツでもDRM保護をバイパスできます"
+JAPANESE["INSTALLP_DESC_NONPDRMU"] =			"PS Vitaのコンテンツに対するDRM保護を回避することができます。（非公式MOD）"
 JAPANESE["INSTALLP_DESC_MINIVITATV"] =			"PS Vitaで最大4人の友人とローカルマルチプレイゲームをプレイするこができます"
 JAPANESE["INSTALLP_DESC_NOPSMDRM"] =			"どのようなPSMのゲームコンテンツでもDRM保護をバイパスできます"
 JAPANESE["INSTALLP_DESC_VITABRIGHT"] =			"このプラグインを使用すると、輝度設定がカスタムガンマテーブルを使用する為、最小値と最大値の幅が広がります"
@@ -206,6 +207,8 @@ JAPANESE["INSTALLP_DESC_LOLICON"] =				"VitaのCPUクロックをオーバーク
 JAPANESE["INSTALLP_DESC_DS3VITA"] =				"DualShock3を使用してVitaを操作できます"
 JAPANESE["INSTALLP_DESC_DS4VITA"] =				"DualShock4を使用してVitaを操作できます"
 JAPANESE["INSTALLP_DESC_UDCDUVC"] =				"UVCデバイスを使用して、USB経由でディスプレイをコンピュータにストリーミングします"
+JAPANESE["INSTALLP_DESC_UDCDUVCO"] =			"お使いのPCにPS Vita（OLED）画面をストリーミングすることができます。（非公式MOD）"
+JAPANESE["INSTALLP_DESC_UDCDUVCL"] =			"お使いのPCにPS Vita（LCD）画面をストリーミングすることができます。（非公式MOD）"
 JAPANESE["INSTALLP_DESC_VIIMOTE"] =				"WiiMoteを使用してVitaを操作する"
 JAPANESE["INSTALLP_DESC_VITASTICK"] =			"PS VitaをUSBゲームコントローラとして使用することができます"
 JAPANESE["INSTALLP_DESC_KUIO"] =				"基本的なI/O操作の場合ユーザーモジュールux0:dataにアクセスできるようにします/n特定のプラグインが必要な場合があります"
@@ -214,14 +217,15 @@ JAPANESE["INSTALLP_DESC_DSMOTION"] =			"PlayStation TVのDualShockモーショ�
 JAPANESE["INSTALLP_DESC_USBMC"] =				"USBストレージをVitaのメモリーカード(ux0)としてマウントすることができます"
 JAPANESE["INSTALLP_DESC_ANALOGSENHANCER"] =		"この小さなカーネルプラグインにより、ユーザーは、PS Vitaのアナログスティックの操作精度を向上させることができます"
 JAPANESE["INSTALLP_DESC_IOPLUS"] = 				"ユーザランドでより多くのIO操作を可能にするPS Vitaカーネルプラグインです/n元の機能を使用して、ユーザーアプリケーションとプラグインのIO許可を向上させます"
-JAPANESE["INSTALLP_DESC_VITACHEAT"] =			"PS Vitaのゲームのみでチートを使用する(FW3.65/FW3.68)"
-JAPANESE["INSTALLP_DESC_VITACHEAT2"] =			"PS Vitaのゲームのみでチートを使用する(FW3.60)"
-JAPANESE["INSTALLP_DESC_NOPSMWHITE"] =			"PSMゲームのPS TV向けホワイトリストを無効にする"
-JAPANESE["INSTALLP_DESC_ANALOGSTICK"] =			"PS Vitaのアナログスティックを完全に無効化するプラグイン"
+JAPANESE["INSTALLP_DESC_VITACHEAT"] =			"PS Vitaのゲームのみでチートを使用します(FW3.65/FW3.68)"
+JAPANESE["INSTALLP_DESC_VITACHEAT2"] =			"PS Vitaのゲームのみでチートを使用します(FW3.60)"
+JAPANESE["INSTALLP_DESC_NOPSMWHITE"] =			"PSMゲームのPS TV向けホワイトリストを無効にします"
+JAPANESE["INSTALLP_DESC_ANALOGSTICK"] =			"PS Vitaのアナログスティックを完全に無効化するプラグインです"
 JAPANESE["INSTALLP_DESC_CIDSPOOF"] =			"PS VitaのなりすましCID(PSNからコンソールの禁止を解除する為に使用される可能性があります)"
-JAPANESE["INSTALLP_DESC_REFOOD"] =				"復号化されていないプログラムを実行するためのPS Vitaプラグイン。"
+JAPANESE["INSTALLP_DESC_REFOOD"] =				"復号化されていないプログラムを実行するためのPS Vitaプラグインです"
 JAPANESE["INSTALLP_DESC_NOLED"] =				"NOLEDはPS Vitaのホームボタンをオフにするためのシンプルなプラグインです"
 JAPANESE["INSTALLP_DESC_NOSLEEP"] =				"これはtaihen/enso用のシンプルなプラグインで、PS Vitaのスリープタイマーを無効にします"
+JAPANESE["INSTALLP_DESC_BATFIX"] =				"PS Vitaのバッテリー関連のほとんどの問題を修正するenso用の小さなカーネルプラグインです"
 
 --Boot_config.txt
 JAPANESE["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =	"このプラグインは、起動時にPS Vita／PS TVにBoot Splashを表示させることができます。ENSO必須"
