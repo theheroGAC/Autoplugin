@@ -1,28 +1,24 @@
-local sd2vita_callback = function ()
-    sd2vita()
+--[[ 
+	Autoinstall plugin
+
+	Licensed by Creative Commons Attribution-ShareAlike 4.0
+	http://creativecommons.org/licenses/by-sa/4.0/
+	
+	Dev: TheHeroeGAC
+	Designed By Gdljjrod & DevDavisNunez.
+	Collaborators: BaltazaR4 & Wzjk.
+]]
+
+local psvita_callback = function ()
+    menu_ps()
 end
 
-local installp_callback = function ()
-    autoplugin()
+local psp_callback = function ()
+	menu_psp()
 end
 
-local uinstallp_callback = function ()
-    pluginsmanager()
-end
-
-local npdrm_callback = function ()
-    npdrm_free()
-end
-
-local config_callback = function ()
-    if back then back:blit(0,0) end
-	files.copy("resources/pkgj/config.txt", "ux0:pkgi")
-	message_wait(LANGUAGE["MENU_INSTALLED_CONFIG"])
-	os.delay(2000)
-end
-
-local psp_ctrls_callback = function ()
-    psp_ctrls()
+local extras_callback = function ()
+	extras()
 end
 
 local exit_callback = function ()
@@ -36,30 +32,28 @@ local exit_callback = function ()
 end
 
 local menu = {
-	{ text = LANGUAGE["MENU_INSTALL_SD2VITA"],			funct = sd2vita_callback },
-	{ text = LANGUAGE["MENU_INSTALL_PLUGINS"],			funct = installp_callback },
-	{ text = LANGUAGE["MENU_UNINSTALL_PLUGINS"],		funct = uinstallp_callback },
-	{ text = LANGUAGE["MENU_INSTALL_CONFIG"],			funct = config_callback },
-	{ text = LANGUAGE["MENU_INSTALL_NPDRMFREE"],		funct = npdrm_callback },
-	{ text = LANGUAGE["MENU_INSTALL_REMASTERED_CTRLS"],	funct = psp_ctrls_callback },
-	{ text = LANGUAGE["MENU_EXIT"],						funct = exit_callback }
+	{ text = LANGUAGE["MENU_PSVITA"],	funct = psvita_callback },
+	{ text = LANGUAGE["MENU_PSP"],		funct = psp_callback },
+	{ text = LANGUAGE["MENU_EXTRAS"],	funct = extras_callback },
+	{ text = LANGUAGE["MENU_EXIT"],		funct = exit_callback }
 }
-local scrollm,sel = newScroll(menu,#menu),1
+local scrollm = newScroll(menu,#menu)
 
 change = false
 buttons.interval(10,10)
 while true do
-	if change then buttons.homepopup(0) else buttons.homepopup(1) end
 	buttons.read()
+	if change then buttons.homepopup(0) else buttons.homepopup(1) end
+
 	if back then back:blit(0,0) end
 
-	screen.print(480,25,"Autoplugin",1.3,color.green, 0x0, __ACENTER)
+	screen.print(480,25,LANGUAGE["MENU_TITLE"],1.3,color.green, 0x0, __ACENTER)
 
 	local y = 145
 	for i=scrollm.ini, scrollm.lim do
-		if i == scrollm.sel then draw.fillrect(0,y-7,960,29,color.green:a(90)) end
+		if i == scrollm.sel then draw.offsetgradrect(10,y-12,960-20,40,color.shine:a(75),color.shine:a(135),0x0,0x0,21) end
 		screen.print(480,y,menu[i].text,1.2,color.white, 0x0, __ACENTER)
-		y+=37
+		y+=45
 	end
 
 	screen.flip()
@@ -68,6 +62,6 @@ while true do
 	if buttons.up or buttons.analogly < -60 then scrollm:up() end
 	if buttons.down or buttons.analogly > 60 then scrollm:down() end
 
-	if buttons.cross then menu[scrollm.sel].funct()	end
+	if buttons[accept] then menu[scrollm.sel].funct() end
 
 end
