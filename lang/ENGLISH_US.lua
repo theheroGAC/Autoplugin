@@ -198,6 +198,7 @@ ENGLISH_US["UPDATE_CHECK_VITACHEAT_DB"] =				"Checking Vitacheat Database"
 --descriptions plugins
 --KERNEL
 ENGLISH_US["INSTALLP_DESC_NONPDRM"] =					"Allows you to bypass DRM protection on any PS Vita content"
+ENGLISH_US["INSTALLP_DESC_NONPDRMU"] =					"Allows you to bypass DRM protection on any PS Vita content(Unofficial MOD)"
 ENGLISH_US["INSTALLP_DESC_MINIVITATV"] =				"Allows you to play local multiplayer games on your PS Vita with up to 4 friends"
 ENGLISH_US["INSTALLP_DESC_NOPSMDRM"] =					"Allows you to bypass DRM protection on PSM game content"
 ENGLISH_US["INSTALLP_DESC_VITABRIGHT"] =				"Enables you to use a custom gamma table, and thus decrease brightness below the minimum, and increase it above the maximum"
@@ -206,7 +207,9 @@ ENGLISH_US["INSTALLP_DESC_REPATCH"] =					"Allows modding of encrypted games (si
 ENGLISH_US["INSTALLP_DESC_LOLICON"] =					"Enables actual overclocking via a small Vita shell ran from kernel"
 ENGLISH_US["INSTALLP_DESC_DS3VITA"] =					"Control your Vita with a DualShock 3"
 ENGLISH_US["INSTALLP_DESC_DS4VITA"] =					"Control your Vita with a DualShock 4"
-ENGLISH_US["INSTALLP_DESC_UDCDUVC"] =					"Enables you to stream your Vita screen to your PC"
+ENGLISH_US["INSTALLP_DESC_UDCDUVC"] =					"Enables you to stream your Vita screen to your PC(OFFICIAL)"
+ENGLISH_US["INSTALLP_DESC_UDCDUVCO"] =					"Enables you to stream your Vita(OLED) screen to your PC(Unofficial MOD)"
+ENGLISH_US["INSTALLP_DESC_UDCDUVCL"] =					"Enables you to stream your Vita(LCD) screen to your PC(Unofficial MOD)"
 ENGLISH_US["INSTALLP_DESC_VIIMOTE"] =					"Control your Vita with a WiiMote"
 ENGLISH_US["INSTALLP_DESC_VITASTICK"] =					"PSVita as a USB game controller"
 ENGLISH_US["INSTALLP_DESC_KUIO"] =						"Allows user modules to access ux0:data for basic I/O operations. May be necessary for certain specific plugins"
