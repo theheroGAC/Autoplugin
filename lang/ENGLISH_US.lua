@@ -208,8 +208,8 @@ ENGLISH_US["INSTALLP_DESC_LOLICON"] =					"Enables actual overclocking via a sma
 ENGLISH_US["INSTALLP_DESC_DS3VITA"] =					"Control your Vita with a DualShock 3"
 ENGLISH_US["INSTALLP_DESC_DS4VITA"] =					"Control your Vita with a DualShock 4"
 ENGLISH_US["INSTALLP_DESC_UDCDUVC"] =					"Enables you to stream your Vita screen to your PC(OFFICIAL)"
-ENGLISH_US["INSTALLP_DESC_UDCDUVCO"] =					"Enables you to stream your Vita(OLED) screen to your PC(Unofficial MOD)"
-ENGLISH_US["INSTALLP_DESC_UDCDUVCL"] =					"Enables you to stream your Vita(LCD) screen to your PC(Unofficial MOD)"
+ENGLISH_US["INSTALLP_DESC_UDCDUVCO"] =					"Enables you to stream your Vita screen to your PC with the screen off. don't do this with the regular xerpi plugin only the lcd and oled one"
+ENGLISH_US["INSTALLP_DESC_UDCDUVCL"] =					"Enables you to stream your Vita screen to your PC with the screen off. don't do this with the regular xerpi plugin only the lcd and oled one"
 ENGLISH_US["INSTALLP_DESC_VIIMOTE"] =					"Control your Vita with a WiiMote"
 ENGLISH_US["INSTALLP_DESC_VITASTICK"] =					"PSVita as a USB game controller"
 ENGLISH_US["INSTALLP_DESC_KUIO"] =						"Allows user modules to access ux0:data for basic I/O operations. May be necessary for certain specific plugins"
@@ -265,6 +265,7 @@ ENGLISH_US["INSTALLP_DESC_MAKEPSM"] =					"Modifications to the PSM Developer ap
 ENGLISH_US["INSTALLP_DESC_WDNR"] =					    "Rear touchpad disabler for PSVITA."
 ENGLISH_US["INSTALLP_DESC_WDNF"] =					    "Disable front touchscreen."
 ENGLISH_US["INSTALLP_DESC_REMAPSV"] =					"remaPSV is a remap plugin allowing you to remap every single button of your PSVita and to map touch and reartouch zones to extra buttons."
+ENGLISH_US["INSTALLP_DESC_FORCELANG"] =					"A taiHEN plugin for overriding an application's language"
 
 --*NPXS10013
 ENGLISH_US["INSTALLP_DESC_PS4LINK"] =			        "taiHEN plugin that allows to force preferred Remote Play button configuration"
