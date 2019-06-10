@@ -207,9 +207,9 @@ CHINESE_S["INSTALLP_DESC_REPATCH"] =					"允许修改加密游戏(类似于 ux0
 CHINESE_S["INSTALLP_DESC_LOLICON"] =					"通过从内核运行的小型 Vita shell 实现实际超频"
 CHINESE_S["INSTALLP_DESC_DS3VITA"] =					"使用 DualShock 3 手柄控制PSV"
 CHINESE_S["INSTALLP_DESC_DS4VITA"] =					"使用 DualShock 4 手柄控制PSV"
-CHINESE_S["INSTALLP_DESC_UDCDUVC"] =					"使你能将 Vita 屏幕流式传输到 PC 上"
-CHINESE_S["INSTALLP_DESC_UDCDUVCO"] =					"使你能将 Vita 屏幕(PSV1000 OLED) 流式传输到 PC 上(非官方 MOD)"
-CHINESE_S["INSTALLP_DESC_UDCDUVCL"] =					"使你能将 Vita 屏幕(PSV2000 LCD) 流式传输到 PC 上(非官方 MOD)"
+CHINESE_S["INSTALLP_DESC_UDCDUVC"] =					"使你能将 Vita 屏显内容流式传输到电脑上(原版)"
+CHINESE_S["INSTALLP_DESC_UDCDUVCO"] =					"使你能在关闭屏幕的情况下将 Vita 屏显内容流式传输到电脑上.不要和原始 xerpi 版插件一起使用,仅允许选用一个."
+CHINESE_S["INSTALLP_DESC_UDCDUVCL"] =					"使你能在关闭屏幕的情况下将 Vita 屏显内容流式传输到电脑上.不要和原始 xerpi 版插件一起使用,仅允许选用一个."
 CHINESE_S["INSTALLP_DESC_VIIMOTE"] =					"使用 WiiMote 控制器控制你的 Vita"
 CHINESE_S["INSTALLP_DESC_VITASTICK"] =					"将 PSVita 作为 USB 游戏控制器"
 CHINESE_S["INSTALLP_DESC_KUIO"] =						"允许用户模块访问 ux0:data 目录进行基本的 I/O 操作.对某些特定插件可能是必需的"
@@ -265,6 +265,7 @@ CHINESE_S["INSTALLP_DESC_MAKEPSM"] =					"修改 PSM 开发者程序,使其正�
 CHINESE_S["INSTALLP_DESC_WDNR"] =					    "PSVITA 后置触摸板禁用工具."
 CHINESE_S["INSTALLP_DESC_WDNF"] =					    "禁用前置触屏."
 CHINESE_S["INSTALLP_DESC_REMAPSV"] =					"remaPSV 是一个重映射插件,允许您重新映射 PSVita 的每个按钮,并将触屏和后置触摸区域映射为额外的按钮."
+CHINESE_S["INSTALLP_DESC_FORCELANG"] =					"用于覆盖应用程序语言设置的大变革插件"
 
 --*NPXS10013
 CHINESE_S["INSTALLP_DESC_PS4LINK"] =			        "大变革插件,用于强制选择喜欢的遥控操作按键配置方案"
