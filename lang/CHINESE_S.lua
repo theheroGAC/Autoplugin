@@ -246,6 +246,7 @@ CHINESE_S["INSTALLP_DESC_PNGSHOT"] =					"pngshot 让截图再次变好 (.PNG �
 CHINESE_S["INSTALLP_DESC_VFLUX"] =						"PSVita 屏幕过滤插件"
 CHINESE_S["INSTALLP_DESC_RESKYPE"] =					"只需一个简单的插件即可在 3.65+ 固件上启用 Skype 程序"
 CHINESE_S["INSTALLP_DESC_AUTOBOOT"] =					"此插件令 ENSO 设备开机后自动运行应用程序.就像 AutoStart 在 PSP 上做的那样"
+CHINESE_S["INSTALLP_DESC_VITACOMPA"] =					"此插件使 PSVita 自制软件和插件开发过程更轻松"
 
 --ALL
 CHINESE_S["INSTALLP_DESC_VSHMENU"] =					"用于 PS VITA 游戏和自制软件的 VSH 菜单插件"
