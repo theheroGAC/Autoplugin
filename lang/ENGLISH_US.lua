@@ -198,6 +198,7 @@ ENGLISH_US["UPDATE_CHECK_VITACHEAT_DB"] =				"Checking Vitacheat Database"
 --descriptions plugins
 --KERNEL
 ENGLISH_US["INSTALLP_DESC_NONPDRM"] =					"Allows you to bypass DRM protection on any PS Vita content"
+ENGLISH_US["INSTALLP_DESC_NONPDRMU"] =					"Allows you to bypass DRM protection on any PS Vita content(Unofficial MOD)"
 ENGLISH_US["INSTALLP_DESC_MINIVITATV"] =				"Allows you to play local multiplayer games on your PS Vita with up to 4 friends"
 ENGLISH_US["INSTALLP_DESC_NOPSMDRM"] =					"Allows you to bypass DRM protection on PSM game content"
 ENGLISH_US["INSTALLP_DESC_VITABRIGHT"] =				"Enables you to use a custom gamma table, and thus decrease brightness below the minimum, and increase it above the maximum"
@@ -206,7 +207,9 @@ ENGLISH_US["INSTALLP_DESC_REPATCH"] =					"Allows modding of encrypted games (si
 ENGLISH_US["INSTALLP_DESC_LOLICON"] =					"Enables actual overclocking via a small Vita shell ran from kernel"
 ENGLISH_US["INSTALLP_DESC_DS3VITA"] =					"Control your Vita with a DualShock 3"
 ENGLISH_US["INSTALLP_DESC_DS4VITA"] =					"Control your Vita with a DualShock 4"
-ENGLISH_US["INSTALLP_DESC_UDCDUVC"] =					"Enables you to stream your Vita screen to your PC"
+ENGLISH_US["INSTALLP_DESC_UDCDUVC"] =					"Enables you to stream your Vita screen to your PC(OFFICIAL)"
+ENGLISH_US["INSTALLP_DESC_UDCDUVCO"] =					"Enables you to stream your Vita screen to your PC with the screen off. don't do this with the regular xerpi plugin only the lcd and oled one"
+ENGLISH_US["INSTALLP_DESC_UDCDUVCL"] =					"Enables you to stream your Vita screen to your PC with the screen off. don't do this with the regular xerpi plugin only the lcd and oled one"
 ENGLISH_US["INSTALLP_DESC_VIIMOTE"] =					"Control your Vita with a WiiMote"
 ENGLISH_US["INSTALLP_DESC_VITASTICK"] =					"PSVita as a USB game controller"
 ENGLISH_US["INSTALLP_DESC_KUIO"] =						"Allows user modules to access ux0:data for basic I/O operations. May be necessary for certain specific plugins"
@@ -223,6 +226,7 @@ ENGLISH_US["INSTALLP_DESC_CIDSPOOF"] =					"Spoof CID (ConsoleID) on PSVITA(Coul
 ENGLISH_US["INSTALLP_DESC_REFOOD"] =					"A vita plugin to run programs that do not get decrypted properly."
 ENGLISH_US["INSTALLP_DESC_NOLED"] =					    "noled is a simple plugin to turn off the home button led of PS Vita."
 ENGLISH_US["INSTALLP_DESC_NOSLEEP"] =					"This is just a simple plugin for taihen / enso Vita that disables the sleep timer."
+ENGLISH_US["INSTALLP_DESC_BATFIX"] =					"A small kernel plugin for enso that fixes most of PSVita's battery-related problems."
 
 --Boot_config.txt
 ENGLISH_US["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =			"This plugin can display Boot Splash on PS Vita/PSTV at boot. Requires ENSO."
@@ -242,6 +246,7 @@ ENGLISH_US["INSTALLP_DESC_PNGSHOT"] =					"pngshot is a plugin to make screensho
 ENGLISH_US["INSTALLP_DESC_VFLUX"] =						"Screen filter plugin for PS Vita"
 ENGLISH_US["INSTALLP_DESC_RESKYPE"] =					"Just a simple plugin to enable the Skype app on 3.65+"
 ENGLISH_US["INSTALLP_DESC_AUTOBOOT"] =					"This plugin simply auto-launch an application right after enso startup like AutoStart used to do on PSP"
+ENGLISH_US["INSTALLP_DESC_VITACOMPA"] =					"Plugin to ease the development of homebrews and plugins on the PS Vita"
 
 --ALL
 ENGLISH_US["INSTALLP_DESC_VSHMENU"] =					"A VSH menu taiHEN plugin for the PS VITA games and homebrews"
@@ -261,6 +266,7 @@ ENGLISH_US["INSTALLP_DESC_MAKEPSM"] =					"Modifications to the PSM Developer ap
 ENGLISH_US["INSTALLP_DESC_WDNR"] =					    "Rear touchpad disabler for PSVITA."
 ENGLISH_US["INSTALLP_DESC_WDNF"] =					    "Disable front touchscreen."
 ENGLISH_US["INSTALLP_DESC_REMAPSV"] =					"remaPSV is a remap plugin allowing you to remap every single button of your PSVita and to map touch and reartouch zones to extra buttons."
+ENGLISH_US["INSTALLP_DESC_FORCELANG"] =					"A taiHEN plugin for overriding an application's language"
 
 --*NPXS10013
 ENGLISH_US["INSTALLP_DESC_PS4LINK"] =			        "taiHEN plugin that allows to force preferred Remote Play button configuration"

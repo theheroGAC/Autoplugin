@@ -1,0 +1,250 @@
+PORTUGUESE_BR = {}
+
+--Translates
+
+PORTUGUESE_BR["UPDATER_AVAILABLE"] =           			"Está disponível agora."
+PORTUGUESE_BR["UPDATER_UPDATE"] =               			"Deseja atualizar a aplicação?"
+PORTUGUESE_BR["CHINESE_FONT_DOWNLOAD"] =					"Baixando Fonte Chinesa"
+PORTUGUESE_BR["MENU_TRANSLATE"] =							"Traduzir o Autoplugin"
+PORTUGUESE_BR["TRANSLATE_ENGLISH_TITLE"] =					"Inglês: "
+PORTUGUESE_BR["TRANSLATE_CURRENT_TITLE"] =					"Atual: "
+PORTUGUESE_BR["TRANSLATE_YOUR_TITLE"] =					"Seus: "
+PORTUGUESE_BR["MENU_TRANSLATE_DESC"] =						"Ajude a melhorar o Autoplugin traduzindo-o para o seu idioma!"
+PORTUGUESE_BR["SAVE_TRANSLATIONS"] =						"Salvar Traduções"
+PORTUGUESE_BR["EXIT_SAVE_TRANSLATIONS"] =      			"A tradução não foi salva. Deseja salvar antes de sair?"
+PORTUGUESE_BR["TRANSLATION_SAVED_1"] =						"Suas traduções foram salvas em:"
+PORTUGUESE_BR["TRANSLATION_SAVED_2"] =						"Faça o upload desse arquivo no GitHub do Autoplugin para que seja aceito."
+PORTUGUESE_BR["NOTHING_TO_TRANSLATE"] =					"Obrigado por participar, mas não há mais traduções a serem feitas por enquanto!"
+PORTUGUESE_BR["STRING_UNSAFE_MODE"] =						"O MODO INSEGURO é necessário para esse homebrew!"
+PORTUGUESE_BR["STRING_PSVITA_RESTART"] =					"Seu PSVita será reiniciado"
+PORTUGUESE_BR["STRING_BACKUP_CONFIGS"] =					"Criando Config_backups.txt"
+PORTUGUESE_BR["STRING_MISSING_CONFIG"] =					"Está faltando o config.txt"
+PORTUGUESE_BR["STRING_BACK"] =								"Voltar ao menu"
+PORTUGUESE_BR["STRING_CLOSE"] =							"Sair do Autoplugin"
+PORTUGUESE_BR["STRING_INSTALLED"] =						"foi instalado"
+PORTUGUESE_BR["STRING_PLEASE_WAIT"] =						"Por favor aguarde..."
+PORTUGUESE_BR["RESTART_QUESTION"] =						"Deseja reiniciar agora?"
+
+--Options Menus
+PORTUGUESE_BR["MENU_TITLE"] =								"Autoplugin"
+PORTUGUESE_BR["MENU_PSVITA"] =								"Plugins para o PSVita"
+PORTUGUESE_BR["MENU_PSP"] =								"Plugins para o PSP (Adrenaline)"
+PORTUGUESE_BR["MENU_EXTRAS"] =								"Adicionais"
+PORTUGUESE_BR["MENU_EXIT"] =								"Sair"
+
+--Desc Options PSVITA
+PORTUGUESE_BR["INSTALL_PLUGINS_DESC"] =					"Instale os Plugins mais úteis da cena do PSVita"
+PORTUGUESE_BR["UNINSTALL_PLUGINS_DESC"] =					"Desinstale plugins de forma fácil e rápida"
+PORTUGUESE_BR["INSTALL_SD2VITA_DESC"] =					"Instalar o Plugin SD2Vita (StorageMgr do CelesteBlue)"
+PORTUGUESE_BR["CONFIG_SD2VITA_DESC"] =						"Configure o Plugin SD2Vita (StorageMgr do CelesteBlue)"
+PORTUGUESE_BR["CHECK_ONLINEP_DESC"] =						"Verifique se existem atualizações de plugins"
+
+PORTUGUESE_BR["MENU_TITLE_PSVITA"] =						"Plugins do PSVita"
+PORTUGUESE_BR["MENU_INSTALL_SD2VITA"] =					"Instalar o Plugin para o SD2Vita"
+PORTUGUESE_BR["MENU_CONFIGURE_SD2VITA"] =					"Plugin de configuração para o SD2Vita"
+PORTUGUESE_BR["MENU_INSTALL_PLUGINS"] =					"Instalar Plugins"
+PORTUGUESE_BR["MENU_UNINSTALL_PLUGINS"] =					"Desinstalar Plugins"
+PORTUGUESE_BR["MENU_CHECK_ONLINEP"] =						"Verificar Atualizações de Plugins"
+
+PORTUGUESE_BR["MENU_TITLE_PSP"] =							"Plugins para o PSP (Adrenaline)"
+PORTUGUESE_BR["MENU_INSTALL_NPDRMFREE"] =					"Instalar o plugin NPDRM Free do Qwikrazor87"
+PORTUGUESE_BR["MENU_INSTALL_REMASTERED_CTRLS"] =			"Instalar os plugins de Controles Remasterizados do TheOfficialFloW"
+PORTUGUESE_BR["MENU_INSTALL_PLUGINS_PSP"] =				"Plugins de PSP para o Adrenaline"
+
+PORTUGUESE_BR["MENU_CONVERTBOOTSPLASH"] =					"Definir Imagem Personalizada de Inicialização"
+PORTUGUESE_BR["MENU_CUSTOMWARNING"] =						"Definir Mensagem de Aviso Personalizada"
+PORTUGUESE_BR["MENU_INSTALL_CONFIG"] =						"Instalar o config.txt para o PKGJ v0.45+"
+PORTUGUESE_BR["MENU_INSTALL_CONFIG_DESC"] =				"Instalar o config.txt para o PKGJ (Requer Wifi)"
+PORTUGUESE_BR["MENU_INSTALLED_CONFIG"] =					"O arquivo ux0:pkgi/config.txt para o PKGJ foi instalado!"
+
+PORTUGUESE_BR["MENU_CUSTOM_CONFIG_DESC"] =					"Permite a configuração das opções no arquivo config.txt para o PKGJ"
+
+PORTUGUESE_BR["MENU_QENCORE"] =							"Instalar o Q-Encore do Yoti"
+PORTUGUESE_BR["MENU_QENCORE_DESC"] =						"Inicializador do Quick H-Encore do Yoti (Aviso: É necessáro que o H-Encore já esteja instalado)"
+PORTUGUESE_BR["MENU_QENCORE_ASK"] =						"O Q-Encore pode ser instalado"
+PORTUGUESE_BR["MENU_INSTALLED_QENCORE"] =					"O Q-Encore foi instalado"
+PORTUGUESE_BR["MENU_NOT_INSTALLED_QENCORE"] =				"O Q-Encore não foi instalado"
+PORTUGUESE_BR["MENU_QENCORE_PATCHED"] =					"O Q-Encore foi aplicado!"
+PORTUGUESE_BR["MENU_QENCORE_NOT_PATCHED"] =				"O Q-Encore não foi aplicado!"
+PORTUGUESE_BR["MENU_QENCORE_NOGAME"] =						"O H-Encore precisa estar instalado para que o Q-Encore seja aplicado!"
+
+--install sd2vita
+PORTUGUESE_BR["MENU_TITLE_SD2VITA"] =						"Instalar o Plugin Gerenciador de Armazenamento para o SD2Vita"
+PORTUGUESE_BR["SD2VITA_CONFIG_TITLE"] =					"Configurar o Plugin Gerenciador de Armazenamento para o SD2Vita"
+PORTUGUESE_BR["SD2VITA_CONFIG_DEVICE"] =					"Dispositivo"
+PORTUGUESE_BR["SD2VITA_CONFIG_MOUNT"] =					"Ponto de Montagem"
+PORTUGUESE_BR["SD2VITA_CONFIG_CHANGE"] =					"Mudar ponto de montagem"
+PORTUGUESE_BR["SD2VITA_CONFIG_CANCEL"] =					"Cancelar"
+PORTUGUESE_BR["SD2VITA_CONFIG_SAVE"] =						"Salvar Configuração Atual"
+PORTUGUESE_BR["SD2VITA_1_WARNING"] =						"Para instalar o Plugin Gerenciador de Armazenamento seu SD2Vita PRECISA estar preparado"
+PORTUGUESE_BR["SD2VITA_2_WARNING"] =						"Se houver um Cartão de memória original ele PRECISA ser removido antes de reiniciar o PSVita!"
+PORTUGUESE_BR["SD2VITA_3_WARNING"] =						"AVISO IMPORTANTE: seu SD2Vita PRECISA de alguns apps já instalados, você pode fazer isso copiando/colando"
+PORTUGUESE_BR["SD2VITA_4_WARNING"] =						"Então copie apenas os apps realmente essenciais do seu cartão original do PSVita para o seu cartão SD."
+PORTUGUESE_BR["SD2VITA_5_WARNING"] =						"Por examplo: H-Encore, Vitashell/ONEMenu, PKGJ, Adrenaline, etc... "
+PORTUGUESE_BR["SD2VITA_GAMECARD_DETECTED"] =				"CARTÃO DE JOGO DETECTADO!"
+PORTUGUESE_BR["SD2VITA_GAMECARD_REMOVED"] =				"Remova antes de instalar"
+PORTUGUESE_BR["SD2VITA_INSTALL"] =							"Prosseguir com a instalação"
+PORTUGUESE_BR["SD2VITA_CANCEL"] =							"Cancelar a instalação"
+PORTUGUESE_BR["SD2VITA_INVALID_CONFIG"] =					"                                 Configuração inválida!\n\nCertifique-se de que todos os pontos de montagem são únicos ou estão definidos como none\n                                e que o ux0 está definido."
+PORTUGUESE_BR["SD2VITA_UPDATED_CONFIG"] =					"Configurações do Gerenciador de Armazenamento atualizadas!"
+PORTUGUESE_BR["MOUNT_NONE_FRIENDLY"] =						"Desmontado"
+PORTUGUESE_BR["MOUNT_UX0_FRIENDLY"] =						"Aplicações da LiveArea"
+PORTUGUESE_BR["MOUNT_XMC0_FRIENDLY"] =						"Inutilizado"
+PORTUGUESE_BR["MOUNT_IMC0_FRIENDLY"] =						"Memória Interna no PSVita 2000/PSTV"
+PORTUGUESE_BR["MOUNT_UMA0_FRIENDLY"] =						"Porta USB"
+PORTUGUESE_BR["MOUNT_GRW0_FRIENDLY"] =						"Cartão de Jogo (Mídia Física)"
+PORTUGUESE_BR["SD2VITA_MCD_FRIENDLY"] =					"Cartão de Memória Oficial"
+PORTUGUESE_BR["SD2VITA_INT_FRIENDLY"] =					"Memória intena no PSVita 2000/PSTV"
+PORTUGUESE_BR["SD2VITA_GCD_FRIENDLY"] =					"SD2VITA"
+PORTUGUESE_BR["SD2VITA_UMA_FRIENDLY"] =					"USB ou PSVSD no PSVita 3G"
+
+--install plugins
+PORTUGUESE_BR["INSTALLP_LIST_PLUGINS"] =					"Lista de plugins prontos para instalar:"
+PORTUGUESE_BR["INSTALLP_MARK"] =							"Marcar/Desmarcar Plugin(s)"
+PORTUGUESE_BR["INSTALLP_CONFIRM"] =						"Instalar Plugin(s)"
+PORTUGUESE_BR["INSTALLP_ALL"] =							"Instalar TODOS os plugins"
+PORTUGUESE_BR["INSTALLP_CLEAN"] =							"Limpar os plugins selecionados"
+PORTUGUESE_BR["INSTALLP_LR_SWAP"] =						"Mudar partição"
+PORTUGUESE_BR["INSTALLP_CUSTOM_PATH"] =					"Instalar na pasta personalizada"
+
+PORTUGUESE_BR["INSTALLP_VITABRIGHT_360"] =					"O Vitabright só funciona nas firmwares 3.60/H-encore 3.68"
+PORTUGUESE_BR["INSTALLP_CWARNING_360_365"] =				"Mensagens de Aviso Pesonalizadas não funcionam nas firmwares 3.67/3.68"
+PORTUGUESE_BR["INSTALLP_QUESTION_SHELLSECBAT"] =			"\n               Plugin shellsecbat detectado!\n\nDeseja instalar o shellbat e desinstalar o shellsecbat ?"
+PORTUGUESE_BR["INSTALLP_QUESTION_SHELLBAT"] =				"\n               Plugin shellbat detectado!\n\nDeseja instalar o shellsecbat e desinstalar o shellbat ?"
+
+PORTUGUESE_BR["INSTALLP_WARNING_REFOOD"] =					"Para que o Plugin Refood funcione corretamente, ele será instalado em ur0:/tai"
+PORTUGUESE_BR["INSTALLP_OSK_TITLE"] =						"Texto para o Aviso Personalizado"
+PORTUGUESE_BR["INSTALLP_OSK_TEXT"] =						"Digite o texto aqui"
+
+--Uninstall plugins
+PORTUGUESE_BR["UNINSTALLP_TITLE"] =						"Gerenciador de Plugins"
+PORTUGUESE_BR["UNINSTALLP_NOCONFIG_FOUND"] =				"Arquivo config.txt não localizado em: "
+PORTUGUESE_BR["UNINSTALLP_PLUGIN"] =						"Desinstalar o plugin"
+PORTUGUESE_BR["UNINSTALLP_LEFTRIGHT_SECTION"] =			"<--/--> Alternar sessão"
+
+--config pkgj
+PORTUGUESE_BR["PKGJ_TITLE"] =								"Opções de configuração para o PKGJ"
+PORTUGUESE_BR["NO_CONFIG_PKGJ"] =							"Não há config.txt instalado"
+PORTUGUESE_BR["YES"] =										"SIM"
+PORTUGUESE_BR["NO"] =										"NÃO"
+PORTUGUESE_BR["PKGJ_UPDATE_CONFIG"] =						"Atualizar Configurações para o PKGJ"
+PORTUGUESE_BR["PKGJ_UPDATING"] =							"Atualizando as configurações para o PKGJ!\n\nFavor aguardar..."
+
+PORTUGUESE_BR["PKGJ_TITLE_INSTALL_PBP"] =					"Instalar jogos do PSP como arquivos EBOOT"
+PORTUGUESE_BR["PKGJ_DESC_INSTALL_PBP"] =					"Pemite a instalação rápida dos jogos (EBOOT.PBP). Você precisará instalar o plugin NPDRM Free do Qwikrazor87s"
+PORTUGUESE_BR["PKGJ_TITLE_CHANGE_LOC"] =					"Alterar partição para o PSP/PSX"
+PORTUGUESE_BR["PKGJ_DESC_CHANGE_LOC"] =					"Instalar jogos do PSP e do PSX em outra partição"
+PORTUGUESE_BR["PKGJ_TITLE_ADD_PSM"] =						"Adicionar Jogos do PSM"
+PORTUGUESE_BR["PKGJ_DESC_ADD_PSM"] =						"Você precisa instalar o Plugin NoPsmDrm"
+
+--npdrm free
+PORTUGUESE_BR["NPDRMFREE_TITLE"] =							"Instalar o plugin NPDRM Free do Qwikrazor87"
+PORTUGUESE_BR["NPDRMFREE_INSTALLED"] =						"NPDRM Free Instalado"
+PORTUGUESE_BR["NPDRMFREE_VSH_UPDATED"] =					"vsh.txt Atualizado"
+PORTUGUESE_BR["NPDRMFREE_GAME_UPDATED"] =					"game.txt Atualizado"
+PORTUGUESE_BR["NPDRMFREE_INSTALL"] =						"Instalar o plugin NPDRM Free"
+PORTUGUESE_BR["NPDRMFREE_DESC"] =							"Plugin de PSP/ePSP para rodar conteúdos NPDRM de PS1/PSP sem necessidade de validação da licensa .rif ou do arquivo act.dat."
+
+--customWarning
+PORTUGUESE_BR["CUSTOMWARNING_MESSAGE"] =					"Lembre-se de ativar o plugin Aviso Personalizado"
+
+--customsplash
+PORTUGUESE_BR["CUSTOMBOOTSPLASH__TITLE"] =					"Imagem Personalizada de Inicialização"
+PORTUGUESE_BR["CUSTOMBOOTSPLASH_CONVERT"] =				"Converter a imagem"
+PORTUGUESE_BR["CUSTOMBOOTSPLASH_IMPORT"] =					"Importar uma imagem da sua galeria (apenas PNG)"
+PORTUGUESE_BR["CUSTOMBOOTSPLASH__MESSAGE"] =				"Lembre-se de habilitar o plugin Imagem de Inicialização Personalizada"
+PORTUGUESE_BR["CUSTOMBOOTSPLASH_NOPNG_FOUND"] =			"ux0:CustomBootsplash VAZIO! "
+PORTUGUESE_BR["CUSTOMBOOTSPLASH_NOPNG"] =					"Formato Compatível com PNG"
+
+--pspctrls
+PORTUGUESE_BR["PSPCTRLS_TITLE"] =							"Plugins de Controles Remasterizados do TheOfficialFloW (Adrenaline)"
+PORTUGUESE_BR["PSPCTRLS_GAME_UPDATED"] =					"game.txt Atualizado"
+PORTUGUESE_BR["PSPCTRLS_DESC"] =							"Coleção de correções de analógicos dos jogos para o PSP no Adrenaline"
+PORTUGUESE_BR["PSPCTRLS_DESC_ALL"] =						"Ativador de Analógicos Duplos"
+PORTUGUESE_BR["PSPCTRLS_LR_SWAP"] =						"Trocar partições"
+
+--psp plugins
+PORTUGUESE_BR["PLUGINS_PSP_TITLE"] =						"Plugins do PSP disponíveis (Adrenaline)"
+PORTUGUESE_BR["PLUGINS_DESC"] =							"Instalar Plugins do PSP para o Adrenaline"
+
+PORTUGUESE_BR["CAMERA_PATCH_DESC"] =						"Esse plugin permite adicionar o suporte ao analógico direito para os jogos do PSP no Adrenaline"
+PORTUGUESE_BR["CXMB_DESC"] =								"O CXMB permite utilizar temas de firmwares personalizadas como temas do PSP"
+PORTUGUESE_BR["LANGSWAPPER_DESC"] =						"Define o menu home e o utilitário de salvamento para a linguagem do PSP em jogos de regiões diferentes"
+PORTUGUESE_BR["CATEGORYLITE_DESC"] =						"Organize todos os seus Jogos, Emuladores e Homebrews em suas próprias pastas no Diretório de Jogos"
+PORTUGUESE_BR["KHBBS_UNDUB_DESC"] =						"Versão não dublada (Audio em Japonês) para o jogo Kingdom Hearts: Birth do Sleep/Final Mix"
+
+--plugins online
+PORTUGUESE_BR["UPDATE_WIFI_LOW"] =							"Sinal de Wifi baixo"
+PORTUGUESE_BR["UPDATE_WIFI_IS_ON"] =						"É necessário acesso à Internet"
+PORTUGUESE_BR["UPDATE_CHECK_DB"] =							"Verificando Base de Dados"
+PORTUGUESE_BR["UPDATE_PLUGIN"] =							"Plugin Atualizado"
+PORTUGUESE_BR["UPDATE_ERROR_DB"] =							"Erro ao baixar db.lua"
+PORTUGUESE_BR["UPDATE_NO_NEWS"] =							"Todos os plugins estão atualizados"
+PORTUGUESE_BR["UPDATE_VITACHEAT_DB"] =						"Atualizar a base da dados e trapaças do Vitacheat?"
+PORTUGUESE_BR["UPDATE_VITACHEAT_DB_WRITE"] =				"Os arquivos serão sobrescritos!"
+PORTUGUESE_BR["UPDATE_CHECK_VITACHEAT_DB"] =				"Verificando a base de dados do Vitacheat"
+
+--descriptions plugins
+--KERNEL
+PORTUGUESE_BR["INSTALLP_DESC_NONPDRM"] =					"Permite ignorar a proteção DRM para qualquer conteúdo do PSVita"
+PORTUGUESE_BR["INSTALLP_DESC_MINIVITATV"] =				"Permite jogar games multi jogador no seu PSVita com até 4 amigos"
+PORTUGUESE_BR["INSTALLP_DESC_NOPSMDRM"] =					"Permite ignorar a proteção DRM em conteúdos de jogos do PSM"
+PORTUGUESE_BR["INSTALLP_DESC_VITABRIGHT"] =				"Permite usar uma tabela de gamma personalizada, podendo diminuir o brilho além do mínimo, e aumentar além o máximo"
+PORTUGUESE_BR["INSTALLP_DESC_NOAVLS"] =					"Desativa o AVLS em sistemas PSVita com AVLS Forçado"
+PORTUGUESE_BR["INSTALLP_DESC_REPATCH"] =					"Permite a modificação de jogos encriptados (similar ao ux0:patch) e libera a atualização dos jogos ignorando os requisitos mínimos de firmware"
+PORTUGUESE_BR["INSTALLP_DESC_LOLICON"] =					"Permite o overclocking através de uma pequena chamada do Vitashell no kernel"
+PORTUGUESE_BR["INSTALLP_DESC_DS3VITA"] =					"Controle seu PSVita com um DualShock 3"
+PORTUGUESE_BR["INSTALLP_DESC_DS4VITA"] =					"Controle seu PSVita com um DualShock 4"
+PORTUGUESE_BR["INSTALLP_DESC_UDCDUVC"] =					"Permite transmitir a tela do PSVita para o PC"
+PORTUGUESE_BR["INSTALLP_DESC_VIIMOTE"] =					"Controle seu PSVita com um WiiMote"
+PORTUGUESE_BR["INSTALLP_DESC_KUIO"] =						"Permite que módulos de usuários acessem o ux0:data para operações básicas de entrada/saída. Pode ser necessário para alguns plugins específicos"
+PORTUGUESE_BR["INSTALLP_DESC_ADRENALINE"] =				"Permite executar o Adrenaline com um único toque"
+PORTUGUESE_BR["INSTALLP_DESC_DSMOTION"] = 					"Suporte ao contole por movimento do DualShock para a PlayStation TV"
+PORTUGUESE_BR["INSTALLP_DESC_USBMC"] = 					"Utilizar Armazenamento USB como cartão de memória do PSVita"
+PORTUGUESE_BR["INSTALLP_DESC_ANALOGSENHANCER"] =			"Esse pequeno plugin de kernel permite aos usuários melhorar sua experiência com os analógicos do PSVita"
+PORTUGUESE_BR["INSTALLP_DESC_IOPLUS"] = 					"Um plugin para o kernel do PSVita que permite mais operações de entrada/saída na interface do usuário"
+PORTUGUESE_BR["INSTALLP_DESC_VITACHEAT"] =					"Use trapaças nos jogos do PSVita"
+PORTUGUESE_BR["INSTALLP_DESC_NOPSMWHITE"] =				"Disativa a lista branca do PSTV para jogos do PSM"
+PORTUGUESE_BR["INSTALLP_DESC_ANALOGSTICK"] =				"Plugin para desligar completamente o controle analógico do PSVita"
+PORTUGUESE_BR["INSTALLP_DESC_CIDSPOOF"] =					"Burlar o CID (ConsoleID) no PSVita (Possivelmente pode remover seu PSVita da lista de banimento da PSN)"
+PORTUGUESE_BR["INSTALLP_DESC_MAKEPSM"] =					"Modificações para as Aplicações de Desnvolvedor do PSM"
+PORTUGUESE_BR["INSTALLP_DESC_REFOOD"] =					"Plugin do PSVita para rodar programas que não foram descriptografados corretamente."
+PORTUGUESE_BR["INSTALLP_DESC_NOLED"] =					    "O noled é um plugin simples para desligar a luz do botão home do PSVita."
+PORTUGUESE_BR["INSTALLP_DESC_NOSLEEP"] =					"Apenas um plugin simples do TaiHEN / Enso para desativar o modo de hibernação."
+
+--Boot_config.txt
+PORTUGUESE_BR["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =			"Esse plugin permite exibir uma Imagem Personalizada de Inicialização no PSVita/PSTV. Requer o Enso."
+PORTUGUESE_BR["INSTALLP_DESC_CONVERTBOOTSPLASH"] =			"Usar a imagem de fundo como imagem de inicialização?"
+PORTUGUESE_BR["INSTALLP_DESC_NOFINDSPLASH"] =				"Copie a imagem que voce quiser em ux0:CustomBootsplash/\n(Renomeada para splash.png e com a resolução de 960x544)"
+PORTUGUESE_BR["INSTALLP_DESC_SPLASHGH"] =					"A imagem deve ter a seguinte resolução: 960 * 544"
+PORTUGUESE_BR["INSTALLP_DESC_BOOTSPLASHDONE"] =			"boot_splash.bin PRONTO !!!"
+
+--MAIN
+PORTUGUESE_BR["INSTALLP_DESC_DENABLER"] =					"Baixe arquivos através do navegador do PSVita"
+PORTUGUESE_BR["INSTALLP_DESC_NOLOCKSCREEN"] =				"Desativa a tela de bloqueio do PSVita"
+PORTUGUESE_BR["INSTALLP_DESC_NOTROPHYMSG"] =				"Desativa a mensagem de troféus ganhos quando você executa alguma aplicação onde os dados salvos são relacionados a uma conta diferente. Útil se você troca de conta constantemente"
+PORTUGUESE_BR["INSTALLP_DESC_CUSTOMWARNING"] =				"Permite definir uma mensagem de aviso personalizada no lugar do aviso de epilepsia quando inicializado com o Enso"
+PORTUGUESE_BR["INSTALLP_DESC_SHELLBAT"] =					"Porcentagem da bateria na barra de status"
+PORTUGUESE_BR["INSTALLP_DESC_SHELLSECBAT"] =				"Porcentagem da bateria na barra de status: fusão dos Plugins ShellBat e LastSeconds"
+PORTUGUESE_BR["INSTALLP_DESC_PNGSHOT"] =					"O pngshot é um plugin para tornar as capturas de tela grandiosas novamente (.PNG)"
+PORTUGUESE_BR["INSTALLP_DESC_VFLUX"] =						"Plugin de filtro de tela para o PSVita"
+PORTUGUESE_BR["INSTALLP_DESC_RESKYPE"] =					"Plugin simples que habilita o aplicativo do Skype em firmwares 3.65+"
+PORTUGUESE_BR["INSTALLP_DESC_AUTOBOOT"] =					"Esse plugin simplesmente auto-executa uma aplicação logo após o carregamento do Enso como o AutoStart do PSP"
+
+--ALL
+PORTUGUESE_BR["INSTALLP_DESC_VSHMENU"] =					"Um plugin do TaiHEN que cria um menu do Vitashell para os jogos e Homebrews do PSVita"
+PORTUGUESE_BR["INSTALLP_DESC_VITAGRAFIX"] =				"Plugin que permite mudar a resolução e a taxa de FPS dos jogos do PSVita"
+PORTUGUESE_BR["INSTALLP_DESC_OVERCLOCK"] =					"Plugin Simples de Overclock para o TaiHEN"
+PORTUGUESE_BR["INSTALLP_DESC_FRAMECOUNTER"] =				"Este é um pequeno plugin que funciona como um medidor de FPS. Ele será exibido no canto superior esquerdo da tela."
+PORTUGUESE_BR["INSTALLP_DESC_VGI"] =						"Plugin simples do TaiHEN que exibe informações útei sobre os jogos do PSVita."
+PORTUGUESE_BR["INSTALLP_DESC_FUCKPSSE"] =					"Plugin para descriptografar jogos PSM"
+PORTUGUESE_BR["INSTALLP_DESC_PSMPATCH"] =					"Permite modificar jogos do PSM, também pode ser usado para carregar Homebrews do PSM"
+PORTUGUESE_BR["INSTALLP_DESC_ITLSENSO"] =					"Adiciona o TLS v1.2 aos dispositivos desbloqueados com o Enso(requer o vpk da aplicação)."
+PORTUGUESE_BR["INSTALLP_DESC_TROPHAX"] =					"Desbloqueio universal de troféus para o PSVita."
+PORTUGUESE_BR["INSTALLP_DESC_TURBOPAD"] =					"Esse plugin permite habilitar o RapidFire em qualquer botão."
+PORTUGUESE_BR["INSTALLP_DESC_RESCALER"] =					"Esse plugin de escala substitui o original do PSVita por um novo pemitindo que jogos rodando em resolução não nativa obtenham melhorias gráficas graças ao filtro de sombras."
+PORTUGUESE_BR["INSTALLP_DESC_INFINITENET"] =			    "Plugin do TaiHEN que evita que os jogos desativem os recursos de rede"
+
+--*NPXS10013
+PORTUGUESE_BR["INSTALLP_DESC_PS4LINK"] =			        "Plugin do TaiHEN que permite forçar a configuração do botão preferencial do Remote Play"
+

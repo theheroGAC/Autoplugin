@@ -8,7 +8,7 @@
 	Designed By DevDavisNunez (https://twitter.com/DevDavisNunez).
 	Date: 12/07/2017 at 06:40 pm
 	
-	Modificada por gdljjrod
+	Modificada por gdljjrod 2019
 ]]
 
 -- Write a file.
@@ -37,14 +37,13 @@ tai = {
 tai_ux0_path = "ux0:tai/config.txt"
 tai_ur0_path = "ur0:tai/config.txt"
 
-
-
 --Internal
 function load_config(path, index)
 	print("Loading taiCfg from %s\n",path)
 
 	tai[index].raw = {}
 	for line in io.lines(path) do
+		if line:byte(#line) == 13 then line = line:sub(1,#line-1) end --Remove CR == 13
 		table.insert(tai[index].raw, line)
 	end
 	--tai[index].path = path
@@ -67,13 +66,13 @@ function tai.load()
 	tai[1].exist,tai[2].exist = false,false
 	tai[1].path,tai[2].path = tai_ux0_path,tai_ur0_path
 
-	if files.exists(tai_ux0_path) then
+	if files.exists(tai_ux0_path) and not files.info(tai_ux0_path).directory then
 		load_config(tai_ux0_path,1)
 		tai[1].exist = true
 	end
 
 	
-	if files.exists(tai_ur0_path) then
+	if files.exists(tai_ur0_path) and not files.info(tai_ur0_path).directory then
 		load_config(tai_ur0_path,2)
 		tai[2].exist = true
 	end
@@ -95,19 +94,18 @@ function tai.parse(index)
 
 			local line = tai[index].raw[i]
 
-			if line:find("*",1) then -- Secction Found.
+			if line:find("*",1,true) then -- Secction Found.
 				id_sect = line:sub(2)
 				--print("Section found %s\n", id_sect)
-				if not tai[index].gameid[id_sect] then tai[index].gameid[id_sect] = {line = {}, prx = {}} end
+				if not tai[index].gameid[id_sect] then tai[index].gameid[id_sect] = { line = {}, prx = {}, section = id_sect } end
 				table.insert(tai[index].gameid[id_sect].line, i)
 				continue
 			end
 
-			if id_sect and not line:find("#",1) then -- Is a path and not a comment.
+			if id_sect and not line:find("#",1,true) then -- Is a path and not a comment.
 				--print("[%s]: %s\n", id_sect, line:lower())
-				if line:find("henkaku.suprx",1) then
-				else
-					table.insert(tai[index].gameid[id_sect].prx, {path=line:lower(), line=i})
+				if not line:find("henkaku.suprx",1,true) then
+					table.insert(tai[index].gameid[id_sect].prx, { path=line:lower(), line=i })
 				end
 			end
 
@@ -118,7 +116,7 @@ end
 
 --[[
 	NIL tai.repair()
-	When executing this function, a massive scan is done in the txt, of scattered GAMEID´s,
+	When executing this function, a massive scan is done in the txt, of scattered GAMEIDï¿½s,
 	concentrating these into a single one, and preserving the first id found in the txt, or if section is void, delete.
 	Useful to repair previous errors in the use of the same.
 ]]
@@ -176,15 +174,15 @@ function tai.delete_sect(index, v) -- Internal use...
 end
 
 --[[
-	NUMBER tai.find(id, path, index)
+	NUMBER tai.find(index, id, path)
 	Search a filename in the list of plugin of the id.
 	return nil in case of error, index in success.
 ]]
-function tai.find(index, id, name)
+function tai.find(index, id, path)
 
 	if not tai[index].gameid[id] then return nil end
 
-	local fname = name or ""		--files.nopath(path)
+	local fname = files.nopath(path)--name or ""
 	fname = fname:lower()
 
 	for i=1, #tai[index].gameid[id].prx do

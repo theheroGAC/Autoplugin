@@ -219,7 +219,6 @@ CHINESE_T["INSTALLP_DESC_VITACHEAT2"] =				    "在PSVita遊戲裡使用秘籍(�
 CHINESE_T["INSTALLP_DESC_NOPSMWHITE"] =					"禁用PSM遊戲的PSTV白名單"
 CHINESE_T["INSTALLP_DESC_ANALOGSTICK"] =				"用於完全禁用PSVita搖桿"
 CHINESE_T["INSTALLP_DESC_CIDSPOOF"] =					"用於PSV偽裝CID(設備ID)(也許可以用於解除PSN對您設備的封鎖)"
-CHINESE_T["INSTALLP_DESC_MAKEPSM"] =					"修改PSM Dev程式"
 CHINESE_T["INSTALLP_DESC_REFOOD"] =						"用於運行未正確解密的程式"
 CHINESE_T["INSTALLP_DESC_NOLED"] =					    "noled是一個簡單的外掛程式，用於關閉PS Vita的主頁按鈕燈光"
 CHINESE_T["INSTALLP_DESC_NOSLEEP"] =					"這只是一個簡單的taihen/enso Vita外掛程式,用於禁用睡眠計時器"
@@ -257,6 +256,10 @@ CHINESE_T["INSTALLP_DESC_TURBOPAD"] =					"這個外掛程式允許您在任何�
 CHINESE_T["INSTALLP_DESC_RESCALER"] =					"這個外掛程式替換了PSVITA的原始縮放器,它允許以非本機解析度運行的遊戲通過使用著色器進行過濾來獲得圖形改進"
 CHINESE_T["INSTALLP_DESC_INFINITENET"] =			    "taiHEN外掛程式,防止遊戲禁用網路功能"
 CHINESE_T["INSTALLP_DESC_FREEPSM"] =			        "允許在零售版PSM運行時調試PSM應用内購"
+CHINESE_T["INSTALLP_DESC_MAKEPSM"] =					"修改PSM Dev程式"
+CHINESE_T["INSTALLP_DESC_WDNR"] =					    "PSVITA的後觸控板禁用程式"
+CHINESE_T["INSTALLP_DESC_WDNF"] =					    "禁用前觸控螢幕"
+CHINESE_T["INSTALLP_DESC_REMAPSV"] =					"remaPSV是一個重映射外掛程式,允許您重新映射PSVita的每一個按鈕,並將觸控螢幕和後觸控板映射到額外的按鈕"
 
 --*NPXS10013
 CHINESE_T["INSTALLP_DESC_PS4LINK"] =			        "taiHEN外掛程式,允許強制選擇PS4遙控游玩按鍵配置"

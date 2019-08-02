@@ -198,6 +198,7 @@ CHINESE_S["UPDATE_CHECK_VITACHEAT_DB"] =				"正在检查 Vitacheat 数据库"
 --descriptions plugins
 --KERNEL
 CHINESE_S["INSTALLP_DESC_NONPDRM"] =					"允许您绕过任何 PS Vita 内容的 DRM 保护机制"
+CHINESE_S["INSTALLP_DESC_NONPDRMU"] =					"允许您绕过任何 PS Vita 内容的 DRM 保护机制(非官方 MOD)"
 CHINESE_S["INSTALLP_DESC_MINIVITATV"] =				"允许你和最多4位朋友在 PSVita 上玩本地多人游戏"
 CHINESE_S["INSTALLP_DESC_NOPSMDRM"] =					"允许你绕过 PSM 游戏的 DRM 保护机制"
 CHINESE_S["INSTALLP_DESC_VITABRIGHT"] =				"使您可以使用自定义伽玛值，从而将亮度降低到最小值以下，或者将其增加到最大值以上"
@@ -206,7 +207,9 @@ CHINESE_S["INSTALLP_DESC_REPATCH"] =					"允许修改加密游戏(类似于 ux0
 CHINESE_S["INSTALLP_DESC_LOLICON"] =					"通过从内核运行的小型 Vita shell 实现实际超频"
 CHINESE_S["INSTALLP_DESC_DS3VITA"] =					"使用 DualShock 3 手柄控制PSV"
 CHINESE_S["INSTALLP_DESC_DS4VITA"] =					"使用 DualShock 4 手柄控制PSV"
-CHINESE_S["INSTALLP_DESC_UDCDUVC"] =					"使你能将 Vita 屏幕流式传输到 PC 上"
+CHINESE_S["INSTALLP_DESC_UDCDUVC"] =					"使你能将 Vita 屏显内容流式传输到电脑上(原版)"
+CHINESE_S["INSTALLP_DESC_UDCDUVCO"] =					"使你能在关闭屏幕的情况下将 Vita 屏显内容流式传输到电脑上.不要和原始 xerpi 版插件一起使用,仅允许选用一个."
+CHINESE_S["INSTALLP_DESC_UDCDUVCL"] =					"使你能在关闭屏幕的情况下将 Vita 屏显内容流式传输到电脑上.不要和原始 xerpi 版插件一起使用,仅允许选用一个."
 CHINESE_S["INSTALLP_DESC_VIIMOTE"] =					"使用 WiiMote 控制器控制你的 Vita"
 CHINESE_S["INSTALLP_DESC_VITASTICK"] =					"将 PSVita 作为 USB 游戏控制器"
 CHINESE_S["INSTALLP_DESC_KUIO"] =						"允许用户模块访问 ux0:data 目录进行基本的 I/O 操作.对某些特定插件可能是必需的"
@@ -223,6 +226,7 @@ CHINESE_S["INSTALLP_DESC_CIDSPOOF"] =					"用于 PSV 伪装 CID (设备ID) (也
 CHINESE_S["INSTALLP_DESC_REFOOD"] =					"此插件用于运行无法正确解密的程序."
 CHINESE_S["INSTALLP_DESC_NOLED"] =					    "noled 是一个简单的 Vita 插件,用于关闭 PS 按钮二极管灯光."
 CHINESE_S["INSTALLP_DESC_NOSLEEP"] =					"这是一个简单的适用于 大变革/enso 的插件,用于禁用睡眠定时器."
+CHINESE_S["INSTALLP_DESC_BATFIX"] =					"用于 enso 固化的小型内核插件,可修复大多数 PSVita 与电池相关的问题."
 
 --Boot_config.txt
 CHINESE_S["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =			"此插件将在 PS Vita/PSTV 启动时显示自定义启动画面. 需要 ENSO."
@@ -242,6 +246,7 @@ CHINESE_S["INSTALLP_DESC_PNGSHOT"] =					"pngshot 让截图再次变好 (.PNG �
 CHINESE_S["INSTALLP_DESC_VFLUX"] =						"PSVita 屏幕过滤插件"
 CHINESE_S["INSTALLP_DESC_RESKYPE"] =					"只需一个简单的插件即可在 3.65+ 固件上启用 Skype 程序"
 CHINESE_S["INSTALLP_DESC_AUTOBOOT"] =					"此插件令 ENSO 设备开机后自动运行应用程序.就像 AutoStart 在 PSP 上做的那样"
+CHINESE_S["INSTALLP_DESC_VITACOMPA"] =					"此插件使 PSVita 自制软件和插件开发过程更轻松"
 
 --ALL
 CHINESE_S["INSTALLP_DESC_VSHMENU"] =					"用于 PS VITA 游戏和自制软件的 VSH 菜单插件"
@@ -261,6 +266,7 @@ CHINESE_S["INSTALLP_DESC_MAKEPSM"] =					"修改 PSM 开发者程序,使其正�
 CHINESE_S["INSTALLP_DESC_WDNR"] =					    "PSVITA 后置触摸板禁用工具."
 CHINESE_S["INSTALLP_DESC_WDNF"] =					    "禁用前置触屏."
 CHINESE_S["INSTALLP_DESC_REMAPSV"] =					"remaPSV 是一个重映射插件,允许您重新映射 PSVita 的每个按钮,并将触屏和后置触摸区域映射为额外的按钮."
+CHINESE_S["INSTALLP_DESC_FORCELANG"] =					"用于覆盖应用程序语言设置的大变革插件"
 
 --*NPXS10013
 CHINESE_S["INSTALLP_DESC_PS4LINK"] =			        "大变革插件,用于强制选择喜欢的遥控操作按键配置方案"

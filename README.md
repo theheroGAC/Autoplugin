@@ -91,3 +91,8 @@ NanospeedGamer(thank you big friend)
 - AlbertonRD/Schn1ek3 for translation in German
 - theheroGAC for translation in Italian
 - IgrovoeShow for translation in Russian
+
+## Donation ##
+In case you want to support the work of the team on the vita, you can always donate for some coffee. Any amount is highly appreciated:
+
+[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?token=6Xp7au41gAWCCqM-0QALjgSpA2FGwbsozYkmp1uG-aNxOpTheSjpckK1b045WOb9C-a0uW&country.x=IT&locale.x=IT)
