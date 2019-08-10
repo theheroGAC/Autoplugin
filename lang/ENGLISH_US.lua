@@ -207,9 +207,9 @@ ENGLISH_US["INSTALLP_DESC_REPATCH"] =					"Allows modding of encrypted games (si
 ENGLISH_US["INSTALLP_DESC_LOLICON"] =					"Enables actual overclocking via a small Vita shell ran from kernel"
 ENGLISH_US["INSTALLP_DESC_DS3VITA"] =					"Control your Vita with a DualShock 3"
 ENGLISH_US["INSTALLP_DESC_DS4VITA"] =					"Control your Vita with a DualShock 4"
-ENGLISH_US["INSTALLP_DESC_UDCDUVC"] =					"Enables you to stream your Vita screen to your PC(OFFICIAL)"
-ENGLISH_US["INSTALLP_DESC_UDCDUVCO"] =					"Enables you to stream your Vita screen to your PC with the screen off. don't do this with the regular xerpi plugin only the lcd and oled one"
-ENGLISH_US["INSTALLP_DESC_UDCDUVCL"] =					"Enables you to stream your Vita screen to your PC with the screen off. don't do this with the regular xerpi plugin only the lcd and oled one"
+ENGLISH_US["INSTALLP_DESC_UDCDUVC"] =					"Enables you to stream your Vita screen to your PC over USB (OFFICIAL)"
+ENGLISH_US["INSTALLP_DESC_UDCDUVCO"] =					"(OLED only) Enables you to stream your Vita screen to your PC over USB with the screen off, which the official plugin is not able to do"
+ENGLISH_US["INSTALLP_DESC_UDCDUVCL"] =					"(LCD only) Enables you to stream your Vita screen to your PC over USB with the screen off, which the official plugin is not able to do"
 ENGLISH_US["INSTALLP_DESC_VIIMOTE"] =					"Control your Vita with a WiiMote"
 ENGLISH_US["INSTALLP_DESC_VITASTICK"] =					"PSVita as a USB game controller"
 ENGLISH_US["INSTALLP_DESC_KUIO"] =						"Allows user modules to access ux0:data for basic I/O operations. May be necessary for certain specific plugins"
@@ -270,4 +270,3 @@ ENGLISH_US["INSTALLP_DESC_FORCELANG"] =					"A taiHEN plugin for overriding an a
 
 --*NPXS10013
 ENGLISH_US["INSTALLP_DESC_PS4LINK"] =			        "taiHEN plugin that allows to force preferred Remote Play button configuration"
-
