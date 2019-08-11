@@ -49,6 +49,7 @@ GERMAN["MENU_CHECK_ONLINEP"] =							"Plugins aktualisieren"
 GERMAN["MENU_TITLE_PSP"] =								  "PSP (Adrenaline) OPTIONEN"
 GERMAN["MENU_INSTALL_NPDRMFREE"] =					"Das Plugin 'npdrm free' (von qwikrazor87) installieren"
 GERMAN["MENU_INSTALL_REMASTERED_CTRLS"] =		"'RemasteredControl' Plugins (von TheOfficialFloW) installieren"
+GERMAN["MENU_INSTALL_PLUGINS_PSP"] =				"PSP Plugins (Adrenaline)"
 
 GERMAN["MENU_CONVERTBOOTSPLASH"] =					"Eigenes 'Boot-Splash' Bild festlegen"
 GERMAN["MENU_CUSTOMWARNING"] =							"Custom Warning Nachricht erstellen"
@@ -58,15 +59,23 @@ GERMAN["MENU_INSTALLED_CONFIG"] =						"ux0:pkgi/config.txt für PKGJ wurde inst
 
 GERMAN["MENU_CUSTOM_CONFIG_DESC"] =	        "Ermöglicht Optionen in der config.txt für PKGj anzupassen"
 
+
+GERMAN["MENU_HENCORE2"] =							"Installiere H-Encore v2 (von TheOfficialFloW)"
+GERMAN["MENU_HENCORE2_DESC"] =						"Auf H-encore v2 updaten (von TheOfficialFloW) (Warnung: H-Encore muss bereits installiert sein)"
+GERMAN["MENU_HENCORE2_ASK"] =						"Soll H-Encore v2 installiert werden auf"
+GERMAN["MENU_INSTALLED_HENCORE2"] =					"H-Encore v2 wurde installiert auf"
+GERMAN["MENU_NOT_INSTALLED_HENCORE2"] =				"H-Encore v2 wurde nicht installiert auf"
+GERMAN["MENU_HENCORE2_PATCHED"] =					"H-Encore v2 wurde gepatcht!"
+GERMAN["MENU_HENCORE2_NOT_PATCHED"] =				"H-Encore v2 wurde nicht gepatcht!"
+GERMAN["MENU_HENCORE2_NOGAME"] =					"H-Encore muss installiert sein um auf H-Encore v2 zu updaten!"
+
 GERMAN["MENU_QENCORE"] =								    "Q-Encore (von Yoti) installieren"
 GERMAN["MENU_QENCORE_DESC"] =							  "Schnellstart für H-Encore (Warnung: H-Encore muss installiert sein)"
-
 GERMAN["MENU_QENCORE_ASK"] =							  "Soll Q-Encore installiert werden auf"
 GERMAN["MENU_INSTALLED_QENCORE"] =					"Q-Encore wurde installiert auf"
 GERMAN["MENU_NOT_INSTALLED_QENCORE"] =			"Q-Encore wurde nicht installiert auf"
 GERMAN["MENU_QENCORE_PATCHED"] =						"Q-Encore wurde gepatched!"
 GERMAN["MENU_QENCORE_NOT_PATCHED"] =				"Q-Encore wurde nicht gepatched!"
-
 GERMAN["MENU_QENCORE_NOGAME"] =							"\n         H-Encore muss installiert sein,\n um mit Q-Encore gepatched zu werden!"
 
 --install sd2vita
@@ -161,7 +170,19 @@ GERMAN["CUSTOMBOOTSPLASH_NOPNG"] =					"Formatiere in das kompatible format PNG"
 GERMAN["PSPCTRLS_TITLE"] =								  "'RemasteredControl' Plugins (von TheOfficialFloW)"
 GERMAN["PSPCTRLS_GAME_UPDATED"] =						"game.txt wurde aktualisiert"
 GERMAN["PSPCTRLS_DESC"] =								    "Eine Sammlung von Dual Analogstick Patches für PSP-Spiele (Adrenaline)"
+GERMAN["PSPCTRLS_DESC_ALL"] =						"Aktiviert Dual Analogstick"
 GERMAN["PSPCTRLS_LR_SWAP"] =							  "Partitionen wechseln"
+
+--psp plugins
+GERMAN["PLUGINS_PSP_TITLE"] =						"Verfügbare PSP plugins (Adrenaline)"
+GERMAN["PLUGINS_DESC"] =							"Installiere PSP Plugins für Adrenaline"
+
+GERMAN["GTA_PATCH_DESC"] =						    "Dieses Plugin erhöht die interne Auflösung des Spiels auf die native Auflösung 960x544. Unterstützte Titel:Vice City Stories [ULUS10160] (v3.00) und Liberty City Stories [ULUS10041] (v3.00). Adrenaline v6.9 oder höher -> Die Option 'Force high memory layout' deaktiviert (in 'Recovery menu' -> 'Advanced' -> 'Advanced configuration')."
+GERMAN["CAMERA_PATCH_DESC"] =						"Dieses Plugin kann für PSP Spiele (Adrenaline) Unterstüzung für den rechten Analog Stick hinzufügen"
+GERMAN["CXMB_DESC"] =								"Mit CXMB können Nutzer eigene CTF Themes in PSP/THEMES verwenden"
+GERMAN["LANGSWAPPER_DESC"] =						"Das Hauptmenu und die Speicherdaten, von Spielen aus anderen Regionen, werden in der PSP Systemsprache angezeigt."
+GERMAN["CATEGORYLITE_DESC"] =						"Ordne all deine Spiele, Emulatoren und Homebrews in eigene Ordner unter dem Spieleverzeichnis."
+GERMAN["KHBBS_UNDUB_DESC"] =						"UNDUB Version (Audio in Japanisch) für das Spiel Kingdom Hearts: Birth By Sleep/Final Mix"
 
 --plugins online
 GERMAN["UPDATE_WIFI_LOW"] =								  "Schlechtes Wifi Signal"
@@ -176,7 +197,8 @@ GERMAN["UPDATE_CHECK_VITACHEAT_DB"] =				"Überprüfung der Vitacheat Datenbank"
 
 --descriptions plugins
 --KERNEL
-GERMAN["INSTALLP_DESC_NONPDRM"] =						"Ermöglicht es, den DRM-Schutz bei allen PS Vita Inhalten zu umgehen"
+GERMAN["INSTALLP_DESC_NONPDRM"] =					"Ermöglicht es, den DRM-Schutz bei allen PS Vita Inhalten zu umgehen"
+GERMAN["INSTALLP_DESC_NONPDRMU"] =					"Ermöglicht es, den DRM-Schutz bei allen PS Vita Inhalten zu umgehen (Unofficial MOD)"
 GERMAN["INSTALLP_DESC_MINIVITATV"] =				"Ermöglicht es, lokale Multiplayer-Spiele auf der PS Vita mit bis zu 4 Freunden zu spielen"
 GERMAN["INSTALLP_DESC_NOPSMDRM"] =					"Ermöglicht es, den DRM-Schutz für PSM-Spielinhalte zu umgehen"
 GERMAN["INSTALLP_DESC_VITABRIGHT"] =				"Ermöglicht es, eine benutzerdefinierte Gamma-Tabelle zu benutzen. Damit kann die Helligkeit über das Maximum, bzw. unter das Minimum eingestellt werden."
@@ -185,21 +207,26 @@ GERMAN["INSTALLP_DESC_REPATCH"] =						"Erlaubt das modifizieren von verschlüss
 GERMAN["INSTALLP_DESC_LOLICON"] =						"Ein kleines Menü auf dem Bildschirm, dass vom Kernel läuft. Erlaubt das echte Übertakten der Vita."
 GERMAN["INSTALLP_DESC_DS3VITA"] =						"Steuere deine PSVita mit einem DualShock 3 Controller"
 GERMAN["INSTALLP_DESC_DS4VITA"] =						"Steuere deine PSVita mit einem DualShock 4 Controller"
-GERMAN["INSTALLP_DESC_UDCDUVC"] =						"Erlaubt es, den PS-Vita Bildschirm auf den PC zu übertragen."
+GERMAN["INSTALLP_DESC_UDCDUVC"] =						"Den PS-Vita Bildschirm über USB auf den PC zu übertragen."
+GERMAN["INSTALLP_DESC_UDCDUVCO"] =					"Nur für die OLED PS Vita (1000). Den PS-Vita Bildschirm über USB auf den PC zu übertragen. Kann Bildschrim an/aus schalten, was das reguläre Plugin nicht kann."
+GERMAN["INSTALLP_DESC_UDCDUVCL"] =					"Nur für die LCD PS Vita (2000). Den PS-Vita Bildschirm über USB auf den PC zu übertragen. Kann Bildschrim an/aus schalten, was das reguläre Plugin nicht kann."
 GERMAN["INSTALLP_DESC_VIIMOTE"] =						"Steuere deine PSVita mit einem WiiMote Controller"
+GERMAN["INSTALLP_DESC_VITASTICK"] =					"Die PSVita als USB Controller benutzen"
 GERMAN["INSTALLP_DESC_KUIO"] =							"Ermöglicht Benutzermodulen den Zugriff auf ux0:data für grundlegende I/O Vorgänge. Kann für bestimmte Plugins erforderlich sein"
 GERMAN["INSTALLP_DESC_ADRENALINE"] =				"Ermöglicht es Adrenaline beim ersten öffnen zu starten."
 GERMAN["INSTALLP_DESC_DSMOTION"] = 					"Unterstützung von DualShock Motion Control für PlayStation TV"
 GERMAN["INSTALLP_DESC_USBMC"] = 						"USB Speicher als PS Vita Speicherkarte nutzen"
 GERMAN["INSTALLP_DESC_ANALOGSENHANCER"] =		"Mit diesem kleinen Kernel-Plugin kann die Erfahrung mit den PSVita Analogsticks verbessert werden."
 GERMAN["INSTALLP_DESC_IOPLUS"] = 						"Ein PSVita Kernel-Plugin, das erweiterte I/O Vorgänge für Benutzermodule erlaubt"
-GERMAN["INSTALLP_DESC_VITACHEAT"] =					"Benutze Cheats in PSVita Spielen"
+GERMAN["INSTALLP_DESC_VITACHEAT"] =					"Benutze Cheats in PSVita Spiele (für 3.65/3.68)"
+GERMAN["INSTALLP_DESC_VITACHEAT2"] =				"Benutze Cheats in PSVita Spiele (für 3.60)"
 GERMAN["INSTALLP_DESC_NOPSMWHITE"] =				"Deaktiviert PSTV Whitelist für PSM Spiele"
 GERMAN["INSTALLP_DESC_ANALOGSTICK"] =				"Ein Plugin um die PS Vita Analogsticks komplett zu deaktivieren"
 GERMAN["INSTALLP_DESC_CIDSPOOF"] =					"Täusche CID (ConsoleID) der PSVITA vor (Könnte möglicherweise dazu verwendet werden um die Konsole vom PSN zu entbannen)"
-GERMAN["INSTALLP_DESC_MAKEPSM"] =						"Modifikationen an den PSM Developer Anwendungen"
 GERMAN["INSTALLP_DESC_REFOOD"] =						"Ein PS-Vita Plugin zum ausführen von Programmen, die nicht richtig entschlüsselt wurden."
 GERMAN["INSTALLP_DESC_NOLED"] =	            "Ein simples Plugin, dass die Led der Hometaste ausschaltet."
+GERMAN["INSTALLP_DESC_NOSLEEP"] =					"Ein simples Plugin, dass den Sleep Timer deaktiviert."
+GERMAN["INSTALLP_DESC_BATFIX"] =					"Ein kleines Kernel Plugin für Enso, das die meisten Akku Probleme der PS Vita behebt."
 
 --Boot_config.txt
 GERMAN["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =	"Dieses Plugin kann das Bootlogo auf der PSVita / PSTV beim Booten durch ein Bild ersetzen. ENSO erforderlich"
@@ -219,6 +246,7 @@ GERMAN["INSTALLP_DESC_PNGSHOT"] =						"Mit pngshot werden Screenshots wieder sc
 GERMAN["INSTALLP_DESC_VFLUX"] =							"Bildschirmfilter für PS Vita"
 GERMAN["INSTALLP_DESC_RESKYPE"] =						"Ein simples Plugin, dass Skype auf 3.65+ aktiviert"
 GERMAN["INSTALLP_DESC_AUTOBOOT"] =					"Dieses Plugin startet eine Anwendung nach dem start von Enso, wie bei AutoStart für PSP"
+GERMAN["INSTALLP_DESC_VITACOMPA"] =					"Ein Plugin, dass die Entwicklung von Homebrews und Plugins auf der PS Vita erleichtert."
 
 --ALL
 GERMAN["INSTALLP_DESC_VSHMENU"] =						"Ein VSH Menü taiHEN Plugin für PS VITA Spiele und Homebrews"
@@ -232,4 +260,13 @@ GERMAN["INSTALLP_DESC_ITLSENSO"] =					"Fügt TLS v1.2 auf Enso installierten Ge
 GERMAN["INSTALLP_DESC_TROPHAX"] =						"Universeller Trophäenentriegeler für PSVITA."
 GERMAN["INSTALLP_DESC_TURBOPAD"] =	        "Mit diesem Plugin ist es möglich, Schnellfeuer für jede Taste zu aktivieren."
 GERMAN["INSTALLP_DESC_RESCALER"] =        	"Dieses Plugin ersetzt den ursprünglichen Rescaler für PSVITA durch einen neuen, der es Spielen mit nicht nativer Auflösung ermöglicht, Grafikverbesserungen durch das Filtern mit Shadern zu erhalten."
+GERMAN["INSTALLP_DESC_INFINITENET"] =			    "Ein taiHEN Plugin, dass das deaktivieren der Netzfunktionen verhindert."
+GERMAN["INSTALLP_DESC_FREEPSM"] =			        "Erlaubt es, PSM InApp Käufe offline zu tätigen."
+GERMAN["INSTALLP_DESC_MAKEPSM"] =						"Modifikationen an den PSM Developer Anwendungen"
+GERMAN["INSTALLP_DESC_WDNR"] =					    "Deaktiviert hinteres Touchpad der PS Vita."
+GERMAN["INSTALLP_DESC_WDNF"] =					    "Deaktiviert vorderes Touchpad der PS Vita."
+GERMAN["INSTALLP_DESC_REMAPSV"] =					"remaPSV ist ein Remap-Plugin, mit dem kann jede einzelne Taste der PSVita neu zugeordnet werden und den Touchpad Zonen zusätzliche Tasten zuordnen."
+GERMAN["INSTALLP_DESC_FORCELANG"] =					"Ein taiHEN Plugin zum Überschreiben der Sprache einer Anwendung."
 
+--*NPXS10013
+GERMAN["INSTALLP_DESC_PS4LINK"] =			        "taiHEN Plugin, mit dem die bevorzugte Tasten Konfiguration für Remote Play erzwungen werden kann."
