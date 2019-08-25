@@ -1,6 +1,6 @@
 JAPANESE = {}
 
---Translates for 3.94
+--Translates for 3.95
 
 JAPANESE["UPDATER_AVAILABLE"] =			"が利用可能になりました"
 JAPANESE["UPDATER_UPDATE"] =			"アプリケーションの更新をしますか?"
@@ -177,7 +177,7 @@ JAPANESE["PSPCTRLS_LR_SWAP"] =			"パーティションを切り替え"
 JAPANESE["PLUGINS_PSP_TITLE"] =			"AdrenalineのPSPプラグインの利用可能一覧"
 JAPANESE["PLUGINS_DESC"] =			"AdrenalineのPSPプラグインを導入"
 
-JAPANESE["GTA_PATCH_DESC"] =			"このプラグインは、ゲームの内部解像度をネイティブ解像度の960 × 544に引き上げます。対応するゲームタイトル: Vice City Stories [ULUS10160] (バージョン 3.00) ・ Liberty City Stories [ULUS10041] (バージョン 3.00) Adrenalineのバージョン6.9以降 設定 → 強制的にハイメモリレイアウトを無効にする( [リカバリ] メニュー → [詳細] → [詳細設定] )"
+JAPANESE["GTA_PATCH_DESC"] =			"このプラグインは、ゲームの内部解像度をネイティブ解像度の 960 × 544 に引き上げます。対応するゲームタイトル: Vice City Stories [ULUS10160] (バージョン 3.00) ・ Liberty City Stories [ULUS10041] (バージョン 3.00) Adrenalineのバージョン6.9以降 設定 → 強制的にハイメモリレイアウトを無効にする( [リカバリ] メニュー → [詳細] → [詳細設定] )"
 JAPANESE["CAMERA_PATCH_DESC"] =			"このプラグインはAdrenalineのPSPゲームにアナログスティックサポートを追加します"
 JAPANESE["CXMB_DESC"] =				"CXMBにより、PSPのテーマでカスタムCTFテーマを使用出来ます"
 JAPANESE["LANGSWAPPER_DESC"] =			"ゲームのホームメニューとデータ保存ユーティリティを、異なる地域言語のゲームでPSPが設定した言語に設定します"
@@ -241,6 +241,7 @@ JAPANESE["INSTALLP_DESC_NOLOCKSCREEN"] =	"PS Vitaのロック画面を無効に�
 JAPANESE["INSTALLP_DESC_NOTROPHYMSG"] =		"セーブデータが別のアカウントにリンクされているアプリケーションを起動する時、トロフィーヒントメッセージを無効にする。アカウントを頻繁に切り替える場合に便利です"
 JAPANESE["INSTALLP_DESC_CUSTOMWARNING"] =	"Ensoで起動する時に公式警告メッセージの代わりにカスタムメッセージを設定出来ます"
 JAPANESE["INSTALLP_DESC_SHELLBAT"] =		"ステータスバーにバッテリー残量を表示します"
+JAPANESE["INSTALLP_DESC_SHELLBATM"] =		"ステータスバーにバッテリ残量とIPアドレスを表示します"
 JAPANESE["INSTALLP_DESC_SHELLSECBAT"] =		"ステータスバーにバッテリー残量と時刻 (時 ・ 分 ・ 秒) を表示します"
 JAPANESE["INSTALLP_DESC_PNGSHOT"] =		"pngshotはスクリーンショットを撮影する為のプラグインです (拡張子: .png)"
 JAPANESE["INSTALLP_DESC_VFLUX"] =		"PS Vitaのスクリーンフィルタープラグイン"
