@@ -241,6 +241,7 @@ ENGLISH_US["INSTALLP_DESC_NOLOCKSCREEN"] =				"Disables the lockscreen found on 
 ENGLISH_US["INSTALLP_DESC_NOTROPHYMSG"] =				"Disables the trophy hint message when you launch application whose savedatas are linked to a different account. Useful if you constantly switch accounts"
 ENGLISH_US["INSTALLP_DESC_CUSTOMWARNING"] =				"Allows you to set a custom warning message instead of the epilepsy warning when you bootup with ENSO"
 ENGLISH_US["INSTALLP_DESC_SHELLBAT"] =					"Battery percent in statusbar"
+ENGLISH_US["INSTALLP_DESC_SHELLBATM"] =					"Battery percent and IP address in statusbar"
 ENGLISH_US["INSTALLP_DESC_SHELLSECBAT"] =				"Battery percent in statusbar: ShellBat and LastSeconds fusion"
 ENGLISH_US["INSTALLP_DESC_PNGSHOT"] =					"pngshot is a plugin to make screenshots great again (.PNG)"
 ENGLISH_US["INSTALLP_DESC_VFLUX"] =						"Screen filter plugin for PS Vita"
