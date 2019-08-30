@@ -272,3 +272,6 @@ CHINESE_S["INSTALLP_DESC_FORCELANG"] =					"用于覆盖应用程序语言设置
 --*NPXS10013
 CHINESE_S["INSTALLP_DESC_PS4LINK"] =			        "大变革插件,用于强制选择喜欢的遥控操作按键配置方案"
 
+--*NPXS10015 AND --*NPXS10016
+CHINESE_S["INSTALLP_DESC_MACSPOOF"] =			        "用于欺骗系统信息中 MAC 地址的插件"
+
