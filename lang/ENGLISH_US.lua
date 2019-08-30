@@ -271,3 +271,7 @@ ENGLISH_US["INSTALLP_DESC_FORCELANG"] =					"A taiHEN plugin for overriding an a
 
 --*NPXS10013
 ENGLISH_US["INSTALLP_DESC_PS4LINK"] =			        "taiHEN plugin that allows to force preferred Remote Play button configuration"
+
+--*NPXS10015 AND --*NPXS10016
+ENGLISH_US["INSTALLP_DESC_MACSPOOF"] =			        "A plugin to spoof your MAC address in the System Information"
+
