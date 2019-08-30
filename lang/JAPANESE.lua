@@ -1,6 +1,6 @@
 JAPANESE = {}
 
---Translates for 3.95
+--Translates for 3.97
 
 JAPANESE["UPDATER_AVAILABLE"] =			"が利用可能になりました"
 JAPANESE["UPDATER_UPDATE"] =			"アプリケーションの更新をしますか?"
@@ -38,28 +38,22 @@ JAPANESE["UNINSTALL_PLUGINS_DESC"] =		"プラグインを簡単に削除する"
 JAPANESE["INSTALL_SD2VITA_DESC"] =		"SD2VITAプラグインの導入 (CelesteBlue氏作StorageMgr)"
 JAPANESE["CONFIG_SD2VITA_DESC"] =		"SD2VITAプラグインの設定 (CelesteBlue氏作StorageMgr)"
 JAPANESE["CHECK_ONLINEP_DESC"] =		"新しく更新されたプラグインの有無を確認します"
-
 JAPANESE["MENU_TITLE_PSVITA"] =			"PS Vitaのプラグイン"
 JAPANESE["MENU_INSTALL_SD2VITA"] =		"SD2VITAプラグインの導入"
 JAPANESE["MENU_CONFIGURE_SD2VITA"] =		"SD2VITAプラグインの設定"
 JAPANESE["MENU_INSTALL_PLUGINS"] =		"プラグインの導入"
 JAPANESE["MENU_UNINSTALL_PLUGINS"] =		"プラグインの削除"
 JAPANESE["MENU_CHECK_ONLINEP"] =		"プラグインの更新の確認"
-
 JAPANESE["MENU_TITLE_PSP"] =			"PSP (Adrenaline) のプラグイン"
 JAPANESE["MENU_INSTALL_NPDRMFREE"] =		"qwikrazor87氏作npdrm freeプラグインの導入"
 JAPANESE["MENU_INSTALL_REMASTERED_CTRLS"] =	"TheOfficialFloW氏作RemasteredControlsプラグインの導入"
 JAPANESE["MENU_INSTALL_PLUGINS_PSP"] =		"AdrenalineのPSPプラグイン"
-
 JAPANESE["MENU_CONVERTBOOTSPLASH"] =		"Custom Boot Splashの設定"
 JAPANESE["MENU_CUSTOMWARNING"] =		"Custom Warning Messageの設定"
 JAPANESE["MENU_INSTALL_CONFIG"] =		"PKGJ v0.45以上向けの config.txt の導入"
 JAPANESE["MENU_INSTALL_CONFIG_DESC"] =		"PKGJ向けの config.txt の導入 (Wi-Fiが必須)"
 JAPANESE["MENU_INSTALLED_CONFIG"] =		"ux0:pkgi/config.txt に導入されました"
-
 JAPANESE["MENU_CUSTOM_CONFIG_DESC"] =		"PKGJの config.txt でのオプションのカスタマイズを許可します"
-
-
 JAPANESE["MENU_HENCORE2"] =			"TheOfficialFloW氏作H-Encore Version2を導入"
 JAPANESE["MENU_HENCORE2_DESC"] =		"TheOfficialFloW氏作H-Encore Version2の更新 (注意: H-Encoreが既に導入されている必要があります)"
 JAPANESE["MENU_HENCORE2_ASK"] =			"次の場所にH-Encore Version2が導入されます。 場所: "
@@ -68,7 +62,6 @@ JAPANESE["MENU_NOT_INSTALLED_HENCORE2"] =	"次の場所にH-Encore Version2が�
 JAPANESE["MENU_HENCORE2_PATCHED"] =		"H-Encore Version2を適用しました"
 JAPANESE["MENU_HENCORE2_NOT_PATCHED"] =		"H-Encore Version2は適用出来ませんでした"
 JAPANESE["MENU_HENCORE2_NOGAME"] =		"H-Encore Version2を更新するには、H-Encoreを導入しておく必要があります"
-
 JAPANESE["MENU_QENCORE"] =			"Yoti氏作Q-Encoreの導入"
 JAPANESE["MENU_QENCORE_DESC"] =			"Yoti氏作Quick H-encore launcher (警告: H-Encoreが既に導入されている必要があります)"
 JAPANESE["MENU_QENCORE_ASK"] =			"Q-Encoreを導入する必要があります"
@@ -116,12 +109,10 @@ JAPANESE["INSTALLP_ALL"] =			"全てのプラグインの導入"
 JAPANESE["INSTALLP_CLEAN"] =			"選択したプラグインの選択解除"
 JAPANESE["INSTALLP_LR_SWAP"] =			"ux0:/ ur0:/ の切り替え"
 JAPANESE["INSTALLP_CUSTOM_PATH"] =		"任意の場所に導入"
-
 JAPANESE["INSTALLP_VITABRIGHT_360"] =		"VitabrightはFW3.60とH-Encore FW3.68専用です"
 JAPANESE["INSTALLP_CWARNING_360_365"] =		"Custom WarningはFW3.67とFW3.68では動作しません"
 JAPANESE["INSTALLP_QUESTION_SHELLSECBAT"] =	"\nshellsecbatプラグインを検出しました\n\nshellsecbatプラグインを削除して、\nshellbatプラグインを導入しますか?"
 JAPANESE["INSTALLP_QUESTION_SHELLBAT"] =	"\nshellbatプラグインを検出しました\n\nshellbatプラグインを削除して、\nshellsecbatプラグインを導入しますか?"
-
 JAPANESE["INSTALLP_WARNING_REFOOD"] =		"ur0:/tai に導入されてreFOODプラグインが正常に動作する様になりました"
 JAPANESE["INSTALLP_OSK_TITLE"] =		"Custom Warningのテキスト"
 JAPANESE["INSTALLP_OSK_TEXT"] =			"テキストをここに入力"
@@ -139,7 +130,6 @@ JAPANESE["YES"] =				"YES"
 JAPANESE["NO"] =				"NO"
 JAPANESE["PKGJ_UPDATE_CONFIG"] =		"PKGJのコンフィグを更新"
 JAPANESE["PKGJ_UPDATING"] =			"PKGJのコンフィグを更新中\n\nお待ち下さい"
-
 JAPANESE["PKGJ_TITLE_INSTALL_PBP"] =		"PSPゲームをEBOOTファイルとして導入"
 JAPANESE["PKGJ_DESC_INSTALL_PBP"] =		"より速くゲーム (EBOOT.PBP) を導入する事が出来ます。qwikrazor87氏作のNpdrm_freeプラグインを導入する必要があります"
 JAPANESE["PKGJ_TITLE_CHANGE_LOC"] =		"PSP / PSXのパーティションの切り替え"
@@ -176,7 +166,6 @@ JAPANESE["PSPCTRLS_LR_SWAP"] =			"パーティションを切り替え"
 --psp plugins
 JAPANESE["PLUGINS_PSP_TITLE"] =			"AdrenalineのPSPプラグインの利用可能一覧"
 JAPANESE["PLUGINS_DESC"] =			"AdrenalineのPSPプラグインを導入"
-
 JAPANESE["GTA_PATCH_DESC"] =			"このプラグインは、ゲームの内部解像度をネイティブ解像度の 960 × 544 に引き上げます。対応するゲームタイトル: Vice City Stories [ULUS10160] (バージョン 3.00) ・ Liberty City Stories [ULUS10041] (バージョン 3.00) Adrenalineのバージョン6.9以降 設定 → 強制的にハイメモリレイアウトを無効にする( [リカバリ] メニュー → [詳細] → [詳細設定] )"
 JAPANESE["CAMERA_PATCH_DESC"] =			"このプラグインはAdrenalineのPSPゲームにアナログスティックサポートを追加します"
 JAPANESE["CXMB_DESC"] =				"CXMBにより、PSPのテーマでカスタムCTFテーマを使用出来ます"
@@ -271,3 +260,6 @@ JAPANESE["INSTALLP_DESC_FORCELANG"] =		"アプリケーションの言語を変�
 
 --*NPXS10013
 JAPANESE["INSTALLP_DESC_PS4LINK"] =		"好みのリモートプレイボタン設定を強制出来るtaiHEN向けのプラグイン"
+
+--*NPXS10015 AND --*NPXS10016
+JAPANESE["INSTALLP_DESC_MACSPOOF"] =		"システム情報のMACアドレスを偽装するプラグイン"
