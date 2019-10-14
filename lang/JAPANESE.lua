@@ -1,9 +1,9 @@
 JAPANESE = {}
 
---Translates for 3.97
+--Japanese translation of Autoplugin version 4.01
 
 JAPANESE["UPDATER_AVAILABLE"] =			"が利用可能になりました"
-JAPANESE["UPDATER_UPDATE"] =			"アプリケーションの更新をしますか?"
+JAPANESE["UPDATER_UPDATE"] =			"アプリケーションの更新をしますか?\n\n"
 JAPANESE["CHINESE_FONT_DOWNLOAD"] =		"中国語フォントのダウンロード"
 JAPANESE["MENU_TRANSLATE"] =			"Autopluginを翻訳"
 JAPANESE["TRANSLATE_ENGLISH_TITLE"] =		"英語: "
@@ -216,6 +216,8 @@ JAPANESE["INSTALLP_DESC_REFOOD"] =		"復号化されていないプログラム�
 JAPANESE["INSTALLP_DESC_NOLED"] =		"noledはPS Vitaのホームボタンを無効にする為のプラグイン"
 JAPANESE["INSTALLP_DESC_NOSLEEP"] =		"スリープタイマーを無効にするtaiHEN・Enso向けのPS Vita用のプラグイン"
 JAPANESE["INSTALLP_DESC_BATFIX"] =		"PS Vitaのバッテリー関連の問題を解決する、Enso向けのカーネルプラグイン"
+JAPANESE["INSTALLP_DESC_VIDEODBG"] =		"ビデオアプリをデバッグモードに変更"
+JAPANESE["INSTALLP_DESC_NOPOWERL"] =		"ScePowerの制限を取り除くPS Vitaカーネルプラグイン"
 
 --Boot_config.txt
 JAPANESE["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =	"このプラグインは、起動時にPS Vita / PS TVにBoot Splashを表示させる事が出来ます (Ensoが必要)"
