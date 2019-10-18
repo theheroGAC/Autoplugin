@@ -227,6 +227,8 @@ CHINESE_S["INSTALLP_DESC_REFOOD"] =					"此插件用于运行无法正确解密
 CHINESE_S["INSTALLP_DESC_NOLED"] =					    "noled 是一个简单的 Vita 插件,用于关闭 PS 按钮二极管灯光."
 CHINESE_S["INSTALLP_DESC_NOSLEEP"] =					"这是一个简单的适用于 大变革/enso 的插件,用于禁用睡眠定时器."
 CHINESE_S["INSTALLP_DESC_BATFIX"] =					"用于 enso 固化的小型内核插件,可修复大多数 PSVita 与电池相关的问题."
+CHINESE_S["INSTALLP_DESC_VIDEODBG"] =					"将视频应用置于调试模式."
+CHINESE_S["INSTALLP_DESC_NOPOWERL"] =					"用于移除 ScePower 施加的一些限制的 PSVita 内核插件."
 
 --Boot_config.txt
 CHINESE_S["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =			"此插件将在 PS Vita/PSTV 启动时显示自定义启动画面. 需要 ENSO."
