@@ -228,7 +228,8 @@ ENGLISH_US["INSTALLP_DESC_NOLED"] =					    "noled is a simple plugin to turn of
 ENGLISH_US["INSTALLP_DESC_NOSLEEP"] =					"This is just a simple plugin for taihen / enso Vita that disables the sleep timer."
 ENGLISH_US["INSTALLP_DESC_BATFIX"] =					"A small kernel plugin for enso that fixes most of PSVita's battery-related problems."
 ENGLISH_US["INSTALLP_DESC_VIDEODBG"] =					"Puts video app into debug mode."
-ENGLISH_US["INSTALLP_DESC_NOPOWERL"] =					"A PSVita kernel plugin that removes some restrictions placed by ScePower.."
+ENGLISH_US["INSTALLP_DESC_NOPOWERL"] =					"A PSVita kernel plugin that removes some restrictions placed by ScePower."
+ENGLISH_US["INSTALLP_DESC_DERIN"] =					    "Vita clocks OSD display."
 
 --Boot_config.txt
 ENGLISH_US["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =			"This plugin can display Boot Splash on PS Vita/PSTV at boot. Requires ENSO."
