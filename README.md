@@ -76,6 +76,7 @@ During the week there will be Nightly versions (here https://github.com/theheroG
 - SKGleba
 - chronoss09
 - Yoti
+- teakhanirons
 # Tester:
 NanospeedGamer(thank you big friend)
 # Translator:
