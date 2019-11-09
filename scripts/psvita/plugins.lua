@@ -41,6 +41,9 @@ plugins = {
 { name = "noled by reprep v1.1", path = "noled.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_NOLED"], },
 { name = "nosleep by NamelessGhoul0 v1.1", path = "nosleep.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_NOSLEEP"], },
 { name = "PSP2-batteryFixer by SKGleba v1.1", path = "bicr.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_BATFIX"], },
+{ name = "VideoDebug by SilicaAndPina v1.0", path = "videoDebug.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_VIDEODBG"], },
+{ name = "NoPowerLimits by Electry v1.1", path = "NoPowerLimits.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_NOPOWERL"], },
+{ name = "DerInClocKS by teakhanirons v1.0", path = "derinclocks.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_DERIN"], },
 
 --Boot_config.txt
 { name = "Custom Boot Splash by Princess of Sleeping", path = "custom_boot_splash.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_CUSTOMBOOTSPLASH"], },
@@ -82,6 +85,9 @@ plugins = {
 
 --*NPXS10013
 { name = "vita-ps4linkcontrols r7 by nowrep", path = "ps4linkcontrols.suprx", section = "NPXS10013",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_PS4LINK"], },
+
+--NPXS10015 and *NPXS10016
+{ name = "vita-macspoofer by Freakler", path = "macspoofer.suprx", section = "NPXS10015",  path2 = "macspoofer.suprx", section2 = "NPXS10016", config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_MACSPOOF"], },
 
 
 
