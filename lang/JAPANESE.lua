@@ -1,6 +1,6 @@
 JAPANESE = {}
 
---Japanese translation of Autoplugin version 4.03
+--Japanese translation of Autoplugin version 4.04
 
 JAPANESE["UPDATER_AVAILABLE"] =			"が利用可能になりました"
 JAPANESE["UPDATER_UPDATE"] =			"アプリケーションの更新をしますか?"
@@ -219,6 +219,7 @@ JAPANESE["INSTALLP_DESC_BATFIX"] =		"PS Vitaのバッテリー関連の問題を
 JAPANESE["INSTALLP_DESC_VIDEODBG"] =		"ビデオアプリをデバッグモードに変更"
 JAPANESE["INSTALLP_DESC_NOPOWERL"] =		"ScePowerの制限を取り除くPS Vitaカーネルプラグイン"
 JAPANESE["INSTALLP_DESC_DERIN"] =		"PS Vitaのクロック情報をディスプレイ上に表示"
+JAPANESE["INSTALLP_DESC_LOLITA"] =		"PS Vitaのクロックを常に最大に設定し、低輝度やWi-Fi無し等の制限を無効にする"
 
 --Boot_config.txt
 JAPANESE["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =	"このプラグインは、起動時にPS Vita / PS TVにBoot Splashを表示させる事が出来ます (Ensoが必要)"
