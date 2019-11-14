@@ -1,6 +1,6 @@
 JAPANESE = {}
 
---Japanese translation of Autoplugin version 4.04
+--Japanese translation of Autoplugin version 4.05
 
 JAPANESE["UPDATER_AVAILABLE"] =			"が利用可能になりました"
 JAPANESE["UPDATER_UPDATE"] =			"アプリケーションの更新をしますか?"
@@ -218,8 +218,9 @@ JAPANESE["INSTALLP_DESC_NOSLEEP"] =		"スリープタイマーを無効にする
 JAPANESE["INSTALLP_DESC_BATFIX"] =		"PS Vitaのバッテリー関連の問題を解決する、Enso向けのカーネルプラグイン"
 JAPANESE["INSTALLP_DESC_VIDEODBG"] =		"ビデオアプリをデバッグモードに変更"
 JAPANESE["INSTALLP_DESC_NOPOWERL"] =		"ScePowerの制限を取り除くPS Vitaカーネルプラグイン"
-JAPANESE["INSTALLP_DESC_DERIN"] =		"PS Vitaのクロック情報をディスプレイ上に表示"
-JAPANESE["INSTALLP_DESC_LOLITA"] =		"PS Vitaのクロックを常に最大に設定し、低輝度やWi-Fi無し等の制限を無効にする"
+JAPANESE["INSTALLP_DESC_DERIN"] =		"PS Vitaのクロック周波数情報をディスプレイ上に表示"
+JAPANESE["INSTALLP_DESC_LOLITA"] =		"PS Vitaのクロック周波数を最大に設定・輝度77%上限撤廃・Wi-Fi制限解除の設定"
+JAPANESE["INSTALLP_DESC_LOLITA4"] =		"PS Vitaのクロック周波数を444MHzに設定・輝度77%上限撤廃・Wi-Fi制限解除の設定"
 
 --Boot_config.txt
 JAPANESE["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =	"このプラグインは、起動時にPS Vita / PS TVにBoot Splashを表示させる事が出来ます (Ensoが必要)"
