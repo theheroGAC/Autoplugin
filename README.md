@@ -38,6 +38,8 @@ This tool allows you to install/uninstall the following plugins with one click(o
 | [reF00D](https://github.com/dots-tb/reF00D) | FAPS Team |
 | [FreePSM](https://bitbucket.org/SilicaAndPina/freepsm/src/master/)  | [SilicaAndPina](https://bitbucket.org/SilicaAndPina/freepsm/src/master/) |
 | [LOLITA 500/444](https://github.com/teakhanirons/lolita500)  | [teakhanirons](https://github.com/teakhanirons) |
+| [NoPowerLimitsVita](https://github.com/Electry/NoPowerLimitsVita)  | [Electry](https://github.com/Electry) |
+| [VGi](https://github.com/Electry/VGi)  | [Electry](https://github.com/Electry) |
 
 # Optional settings
 - Q-Encore by Yoti
