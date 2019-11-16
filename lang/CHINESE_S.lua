@@ -204,6 +204,7 @@ CHINESE_S["INSTALLP_DESC_NOPSMDRM"] =					"允许你绕过 PSM 游戏的 DRM 保
 CHINESE_S["INSTALLP_DESC_VITABRIGHT"] =				"使您可以使用自定义伽玛值，从而将亮度降低到最小值以下，或者将其增加到最大值以上"
 CHINESE_S["INSTALLP_DESC_NOAVLS"] =					"为强制开启 AVLS 的机型禁用该功能"
 CHINESE_S["INSTALLP_DESC_REPATCH"] =					"允许修改加密游戏(类似于 ux0:patch),并允许对游戏打补丁绕过最低固件要求"
+CHINESE_S["INSTALLP_DESC_REPATCH271"] =				"一个 rePATCH 预览版本,解决了 3.0 版本的部分问题"
 CHINESE_S["INSTALLP_DESC_LOLICON"] =					"通过从内核运行的小型 Vita shell 实现实际超频"
 CHINESE_S["INSTALLP_DESC_DS3VITA"] =					"使用 DualShock 3 手柄控制PSV"
 CHINESE_S["INSTALLP_DESC_DS4VITA"] =					"使用 DualShock 4 手柄控制PSV"
@@ -231,6 +232,7 @@ CHINESE_S["INSTALLP_DESC_VIDEODBG"] =					"将视频应用置于调试模式."
 CHINESE_S["INSTALLP_DESC_NOPOWERL"] =					"用于移除 ScePower 施加的一些限制的 PSVita 内核插件."
 CHINESE_S["INSTALLP_DESC_DERIN"] =					    "Vita 频率 OSD 屏显."
 CHINESE_S["INSTALLP_DESC_LOLITA"] =					"将您的 Vita 频率一直设置为最大,并禁用密集型游戏中的限制,例如低亮度和断开 Wi-Fi 连接."
+CHINESE_S["INSTALLP_DESC_LOLITA4"] =					"将您的 Vita 频率一直设置为 444 mhz 并禁用密集型游戏中的限制,例如低亮度和断开 Wi-Fi 连接."
 
 --Boot_config.txt
 CHINESE_S["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =			"此插件将在 PS Vita/PSTV 启动时显示自定义启动画面. 需要 ENSO."
