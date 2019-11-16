@@ -36,7 +36,7 @@ This tool allows you to install/uninstall the following plugins with one click(o
 | [noPsmWhitelist](https://bitbucket.org/SilicaAndPina/nopsmwhitelist) | [SilicaAndPina](https://bitbucket.org/SilicaAndPina/) |
 | [AnalogStickDisable](https://github.com/Hack-Usagi/AnalogStickDisable) | [Hack-Usagi](https://github.com/Hack-Usagi) |
 | [reF00D](https://github.com/dots-tb/reF00D) | FAPS Team |
-| [FreePSM](https://bitbucket.org/SilicaAndPina/freepsm/src/master/) (Adrenaline) | [Electry](https://github.com/Electry/NoPowerLimitsVita) |
+| [FreePSM](https://bitbucket.org/SilicaAndPina/freepsm/src/master/) (Adrenaline) | [SilicaAndPina](https://bitbucket.org/SilicaAndPina/freepsm/src/master/) |
 
 # Optional settings
 - Q-Encore by Yoti
