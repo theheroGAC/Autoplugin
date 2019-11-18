@@ -254,7 +254,7 @@ ENGLISH_US["INSTALLP_DESC_VFLUX"] =						"Screen filter plugin for PS Vita"
 ENGLISH_US["INSTALLP_DESC_RESKYPE"] =					"Just a simple plugin to enable the Skype app on 3.65+"
 ENGLISH_US["INSTALLP_DESC_AUTOBOOT"] =					"This plugin simply auto-launch an application right after enso startup like AutoStart used to do on PSP"
 ENGLISH_US["INSTALLP_DESC_VITACOMPA"] =					"Plugin to ease the development of homebrews and plugins on the PS Vita"
-ENGLISH_US["INSTALLP_DESC_VOLUPROF"] =					"Automatically switch between your preferred speaker and headphone volumes.(ONLY FOR VERSION 3.60,3.65 AND 3.73)"
+ENGLISH_US["INSTALLP_DESC_VOLUPROF"] =					"Automatically switch between your preferred speaker and headphone volumes."
 
 --ALL
 ENGLISH_US["INSTALLP_DESC_VSHMENU"] =					"A VSH menu taiHEN plugin for the PS VITA games and homebrews"
