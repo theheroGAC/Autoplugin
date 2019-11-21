@@ -37,6 +37,7 @@ db = {
 { path = "pngshot.suprx",				version = "0001", stringversion = "1.3" },
 { path = "vflux.suprx",					version = "0001", stringversion = "0.5" },
 { path = "AutoBoot.suprx",					version = "0001", stringversion = "1.2" },
+{ path = "volume_profile.suprx",					version = "0002", stringversion = "1.1.0" },
   
 
 --All
