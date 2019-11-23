@@ -60,24 +60,6 @@ ENGLISH_US["MENU_INSTALLED_CONFIG"] =					"ux0:pkgi/config.txt for PKGJ has been
 ENGLISH_US["MENU_CUSTOM_CONFIG_DESC"] =					"Allows option customization on the config.txt for PKGj"
 
 
-ENGLISH_US["MENU_HENCORE2"] =							"Install H-Encore v2 by TheOfficialFloW"
-ENGLISH_US["MENU_HENCORE2_DESC"] =						"Update H-encore v2 by TheOfficialFloW (Warning: h-encore must already be installed)"
-ENGLISH_US["MENU_HENCORE2_ASK"] =						"Should H-Encore v2 be installed on"
-ENGLISH_US["MENU_INSTALLED_HENCORE2"] =					"H-Encore v2 was installed on"
-ENGLISH_US["MENU_NOT_INSTALLED_HENCORE2"] =				"H-Encore v2 was not installed on"
-ENGLISH_US["MENU_HENCORE2_PATCHED"] =					"H-Encore v2 was patched!"
-ENGLISH_US["MENU_HENCORE2_NOT_PATCHED"] =				"H-Encore v2 was not patched!"
-ENGLISH_US["MENU_HENCORE2_NOGAME"] =					"H-Encore must be installed to update H-Encore v2!"
-
-ENGLISH_US["MENU_QENCORE"] =							"Install Q-Encore by Yoti"
-ENGLISH_US["MENU_QENCORE_DESC"] =						"Quick h-encore launcher by Yoti (Warning: h-encore must already be installed)"
-ENGLISH_US["MENU_QENCORE_ASK"] =						"Should Q-Encore be installed on"
-ENGLISH_US["MENU_INSTALLED_QENCORE"] =					"Q-Encore was installed on"
-ENGLISH_US["MENU_NOT_INSTALLED_QENCORE"] =				"Q-Encore was not installed on"
-ENGLISH_US["MENU_QENCORE_PATCHED"] =					"Q-Encore was patched!"
-ENGLISH_US["MENU_QENCORE_NOT_PATCHED"] =				"Q-Encore was not patched!"
-ENGLISH_US["MENU_QENCORE_NOGAME"] =						"H-Encore must be installed to patch with Q-Encore!"
-
 --install sd2vita
 ENGLISH_US["MENU_TITLE_SD2VITA"] =						"Install Storage Manager plugin for SD2VITA"
 ENGLISH_US["SD2VITA_CONFIG_TITLE"] =					"Configure Storage Manager plugin for SD2VITA"
@@ -275,6 +257,7 @@ ENGLISH_US["INSTALLP_DESC_WDNR"] =					    "Rear touchpad disabler for PSVITA."
 ENGLISH_US["INSTALLP_DESC_WDNF"] =					    "Disable front touchscreen."
 ENGLISH_US["INSTALLP_DESC_REMAPSV"] =					"remaPSV is a remap plugin allowing you to remap every single button of your PSVita and to map touch and reartouch zones to extra buttons."
 ENGLISH_US["INSTALLP_DESC_FORCELANG"] =					"A taiHEN plugin for overriding an application's language"
+ENGLISH_US["INSTALLP_DESC_SHOWINFO"] =					"Simple plugin that shows title_id, stitle and app_ver of the running application."
 
 --*NPXS10013
 ENGLISH_US["INSTALLP_DESC_PS4LINK"] =			        "taiHEN plugin that allows to force preferred Remote Play button configuration"
