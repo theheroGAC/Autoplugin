@@ -65,7 +65,7 @@ plugins = {
 { name = "reSkype by SilicaAndPina v1.0", path = "reSkype.suprx", section = "main",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_RESKYPE"], },
 { name = "Autoboot by Rinnegatamante v1.2 (only for 3.60/3.65)", path = "AutoBoot.suprx", section = "main",  path2 = false, section2 = false, config = false, configpath = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_AUTOBOOT"], },
 { name = "Vitacompanion by devnoname120 v1.00", path = "vitacompanion.suprx", section = "main",  path2 = false, section2 = false, config = false, configpath = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_VITACOMPA"], },
-{ name = "volume_profile by cuevavirus v1.00", path = "volume_profile.suprx", section = "main",  path2 = false, section2 = false, config = false, configpath = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_VOLUPROF"], },
+{ name = "volume_profile by cuevavirus v1.1.0", path = "volume_profile.suprx", section = "main",  path2 = false, section2 = false, config = false, configpath = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_VOLUPROF"], },
 
 --All
 { name = "PSV-VSH MENU by joel16 v3.4", path = "vsh.suprx", section = "ALL",  path2 = "kuio.skprx", section2 = "KERNEL", config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_VSHMENU"], },-- Need kuio.skprx
@@ -86,6 +86,7 @@ plugins = {
 { name = "WDNF by EchoDev & Rinnegatamante v1.0", path = "WDNF.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_WDNF"], },
 { name = "remaPSV by Rinnegatamante v1.1", path = "remaPSV.suprx", section = "ALL",  path2 = "ioplus.skprx", section2 = "KERNEL", config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_REMAPSV"], },
 { name = "forcelang by xdanieldzd v0.2U", path = "forcelang.suprx", section = "ALL",  path2 = "ioplus.skprx", section2 = "KERNEL", config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_FORCELANG"], },
+{ name = "ShowInfo Lite by Yoti v0.1", path = "ShowInfoLite.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_SHOWINFO"], },
 
 --*NPXS10013
 { name = "vita-ps4linkcontrols r7 by nowrep", path = "ps4linkcontrols.suprx", section = "NPXS10013",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_PS4LINK"], },
