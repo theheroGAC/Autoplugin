@@ -8,9 +8,6 @@
 	Designed By Gdljjrod & DevDavisNunez.
 	Collaborators: BaltazaR4 & Wzjk.
 ]]
-
-local hencore_found = false
-local hencore_patched = false
 	
 local convertimgsplash_callback = function ()
 	customimgsplash()
@@ -20,95 +17,6 @@ local config_callback = function ()
 	config_pkgj()
 end
 
-function qencore(path, mount, HEnc2)
-
-	local msg1 = LANGUAGE["MENU_QENCORE_ASK"].." "..mount.." ?"
-	local msg2 = LANGUAGE["MENU_INSTALLED_QENCORE"].." "..mount
-	local msg3 = LANGUAGE["MENU_NOT_INSTALLED_QENCORE"].." "..mount
-	if HEnc2 then
-		msg1 = LANGUAGE["MENU_HENCORE2_ASK"].." "..mount.." ?"
-		msg2 = LANGUAGE["MENU_INSTALLED_HENCORE2"].." "..mount
-		msg3 = LANGUAGE["MENU_NOT_INSTALLED_HENCORE2"].." "..mount
-	end
-
-	if os.message(msg1, 1) == 1 then
-		game.umount()
-			game.mount(path)
-
-				local pathQ = "resources/qencore/sdat.zip"
-					if HEnc2 then pathQ = "resources/qencore/sdat2.zip" end
-
-			if files.extract(pathQ, path) == 1 then
-				hencore_patched, change = true,true
-				if back then back:blit(0,0) end
-					message_wait(msg2)
-				os.delay(1500)
-			else
-				if back then back:blit(0,0) end
-					message_wait(msg3)
-				os.delay(1500)
-			end
-
-		game.umount()
-	end
-end
-
-local qencore_callback = function (FlagQenc2)
-
-	hencore_found = false
-	hencore_patched = false
-
-	local QEpath = "user/00/savedata/PCSG90096"
-
-	if back then back:blit(0,0) end
-	message_wait()
-	os.delay(1000)
-
-	local HEnc2 = false
-	if FlagQenc2 then HEnc2 = true end
-
-	for i=1,#PMounts do
-		if files.exists(PMounts[i]..QEpath) then
-			hencore_found = true
-			if PMounts[i] == "ux0:" then qencore("ux0:user/00/savedata/PCSG90096", PMounts[i], HEnc2)
-			else
-				--Move to ux0:
-				files.rename(PMounts[i].."user/00/savedata/PCSG90096", "PCSG90096G")
-				files.copy(PMounts[i].."user/00/savedata/PCSG90096G", "ux0:user/00/savedata/")
-				files.delete(PMounts[i].."user/00/savedata/PCSG90096G")
-				--Patched!!!
-				qencore("ux0:user/00/savedata/PCSG90096G", PMounts[i], HEnc2)
-				--Restore
-				files.copy("ux0:user/00/savedata/PCSG90096G", PMounts[i].."user/00/savedata")
-				files.delete("ux0:user/00/savedata/PCSG90096G")
-				files.rename(PMounts[i].."user/00/savedata/PCSG90096G", "PCSG90096")
-			end
-		end
-	end
-
-	local msg1 = LANGUAGE["MENU_QENCORE_PATCHED"]
-	local msg2 = LANGUAGE["MENU_QENCORE_NOT_PATCHED"]
-	local msg3 = LANGUAGE["MENU_QENCORE_NOGAME"]
-	if HEnc2 then
-		msg1 = LANGUAGE["MENU_HENCORE2_PATCHED"]
-		msg2 = LANGUAGE["MENU_HENCORE2_NOT_PATCHED"]
-		msg3 = LANGUAGE["MENU_HENCORE2_NOGAME"]
-	end
-
-	if hencore_found then
-		if hencore_patched then
-			if back then back:blit(0,0) end
-			message_wait(msg1.."\n\n"..LANGUAGE["STRING_PSVITA_RESTART"])
-			os.delay(2000)
-			buttons.homepopup(1)
-			power.restart()
-		else
-			os.message(msg2)
-		end
-	else
-		os.message(msg3)
-	end
-end
 
 local customwarning_callback = function ()
 
@@ -146,8 +54,6 @@ end
 function extras()
 
 	local menuext = {
-		{ text = LANGUAGE["MENU_HENCORE2"],			 desc = LANGUAGE["MENU_HENCORE2_DESC"],				funct = qencore_callback, HEnc2 = true },
-		{ text = LANGUAGE["MENU_QENCORE"],			 desc = LANGUAGE["MENU_QENCORE_DESC"],				funct = qencore_callback, HEnc2 = false },
 		{ text = LANGUAGE["PKGJ_TITLE"],	 		 desc = LANGUAGE["MENU_CUSTOM_CONFIG_DESC"],		funct = config_callback },
 		{ text = LANGUAGE["MENU_CONVERTBOOTSPLASH"], desc = LANGUAGE["INSTALLP_DESC_CUSTOMBOOTSPLASH"],	funct = convertimgsplash_callback },
 		{ text = LANGUAGE["MENU_CUSTOMWARNING"],	 desc = LANGUAGE["INSTALLP_DESC_CUSTOMWARNING"],	funct = customwarning_callback },
