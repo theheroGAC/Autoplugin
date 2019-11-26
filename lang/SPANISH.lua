@@ -211,7 +211,7 @@ SPANISH["INSTALLP_DESC_NOSLEEP"] =						"Es solo un sencillo plugin de Vita para
 SPANISH["INSTALLP_DESC_BATFIX"] =						"Un pequeño plugin de kernel para Enso que arregla la mayoría de los problemas de PS Vita relacionados con la batería"
 SPANISH["INSTALLP_DESC_VIDEODBG"] =					    "Permite poner la App oficial de Video en modo Debug (añade funciones nuevas a la app oficial)"
 SPANISH["INSTALLP_DESC_NOPOWERL"] =					    "Plugin de kernel que elimina algunas restricciones impuestas por ScePower (Por ejemplo, poder tener 100% de brillo, uso de camara y WLAN en juegos que no lo permiten"
-SPANISH["INSTALLP_DESC_DERIN"] =					    "Vita clocks OSD display."
+SPANISH["INSTALLP_DESC_DERIN"] =					    "Visualización en pantalla de los relojes (frecuencia de los componentes) de la PS Vita"
 SPANISH["INSTALLP_DESC_LOLITA"] =					    "Ajusta el reloj de la PS Vita (procesador) al máximo todo el tiempo, y desactiva las limitaciones como brillo bajo y no Wi-Fi en juegos con más requerimientos"
 SPANISH["INSTALLP_DESC_LOLITA4"] =					    "Ajusta el reloj de la PS Vita (procesador) a 444mHz al máximo todo el tiempo, y desactiva las limitaciones como brillo bajo y no Wi-Fi en juegos con más requerimientos"
 
