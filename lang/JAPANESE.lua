@@ -1,6 +1,6 @@
 JAPANESE = {}
 
---Japanese translation of Autoplugin version 4.07
+--Japanese translation of Autoplugin version 4.08
 
 JAPANESE["UPDATER_AVAILABLE"] =			"が利用可能になりました"
 JAPANESE["UPDATER_UPDATE"] =			"アプリケーションの更新をしますか?"
@@ -54,22 +54,6 @@ JAPANESE["MENU_INSTALL_CONFIG"] =		"PKGJ v0.45以上向けの config.txt の導�
 JAPANESE["MENU_INSTALL_CONFIG_DESC"] =		"PKGJ向けの config.txt の導入 (Wi-Fiが必須)"
 JAPANESE["MENU_INSTALLED_CONFIG"] =		"ux0:pkgi/config.txt に導入されました"
 JAPANESE["MENU_CUSTOM_CONFIG_DESC"] =		"PKGJの config.txt でのオプションのカスタマイズを許可します"
-JAPANESE["MENU_HENCORE2"] =			"TheOfficialFloW氏作H-Encore Version2を導入"
-JAPANESE["MENU_HENCORE2_DESC"] =		"TheOfficialFloW氏作H-Encore Version2の更新 (注意: H-Encoreが既に導入されている必要があります)"
-JAPANESE["MENU_HENCORE2_ASK"] =			"次の場所にH-Encore Version2が導入されます。 場所: "
-JAPANESE["MENU_INSTALLED_HENCORE2"] =		"次の場所にH-Encore Version2が導入されました。 場所: "
-JAPANESE["MENU_NOT_INSTALLED_HENCORE2"] =	"次の場所にH-Encore Version2が導入出来ませんでした。 場所: "
-JAPANESE["MENU_HENCORE2_PATCHED"] =		"H-Encore Version2を適用しました"
-JAPANESE["MENU_HENCORE2_NOT_PATCHED"] =		"H-Encore Version2は適用出来ませんでした"
-JAPANESE["MENU_HENCORE2_NOGAME"] =		"H-Encore Version2を更新するには、H-Encoreを導入しておく必要があります"
-JAPANESE["MENU_QENCORE"] =			"Yoti氏作Q-Encoreの導入"
-JAPANESE["MENU_QENCORE_DESC"] =			"Yoti氏作Quick H-encore launcher (警告: H-Encoreが既に導入されている必要があります)"
-JAPANESE["MENU_QENCORE_ASK"] =			"Q-Encoreを導入する必要があります"
-JAPANESE["MENU_INSTALLED_QENCORE"] =		"Q-Encoreは導入されました"
-JAPANESE["MENU_NOT_INSTALLED_QENCORE"] =	"Q-Encoreは導入出来ませんでした"
-JAPANESE["MENU_QENCORE_PATCHED"] =		"Q-Encoreのを適用しました"
-JAPANESE["MENU_QENCORE_NOT_PATCHED"] =		"Q-Encoreの適用出来ませんでした"
-JAPANESE["MENU_QENCORE_NOGAME"] =		"Q-Encoreを適用するにはH-Encoreを導入する必要があります"
 
 --install sd2vita
 JAPANESE["MENU_TITLE_SD2VITA"] =		"SD2VITA向けのStorage Managerプラグインを導入"
@@ -264,6 +248,7 @@ JAPANESE["INSTALLP_DESC_WDNR"] =		"PS Vitaの背面タッチパッドを無効"
 JAPANESE["INSTALLP_DESC_WDNF"] =		"前面タッチスクリーンを無効"
 JAPANESE["INSTALLP_DESC_REMAPSV"] =		"remaPSVは、PS Vitaの全てのボタンを再配置や、前面タッチスクリーンと背面タッチパッドに追加ボタンを配置が出来る、再配置プラグイン"
 JAPANESE["INSTALLP_DESC_FORCELANG"] =		"アプリケーションの言語を変更する為のtaiHEN向けのプラグイン"
+JAPANESE["INSTALLP_DESC_SHOWINFO"] =		"実行中のアプリケーションのタイトルID･stitle･アプリケーションバージョンを表示するプラグイン"
 
 --*NPXS10013
 JAPANESE["INSTALLP_DESC_PS4LINK"] =		"好みのリモートプレイボタン設定を強制出来るtaiHEN向けのプラグイン"
