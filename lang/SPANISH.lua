@@ -59,24 +59,6 @@ SPANISH["MENU_INSTALLED_CONFIG"] =           			"¡ux0:pkgi/config.txt para PKGj
 
 SPANISH["MENU_CUSTOM_CONFIG_DESC"] =					"Permite personalizar las opciones en config.txt para PKGj"
 
-SPANISH["MENU_HENCORE2"] =								"Instala H-Encore v2 de TheOfficialFloW"
-SPANISH["MENU_HENCORE2_DESC"] =							"Actualiza a H-Encore v2 de TheOfficialFloW (Advertencia: H-Encore debe estar ya instalado)"
-SPANISH["MENU_HENCORE2_ASK"] =							"¿Debería H-Encore ser instalado en"
-SPANISH["MENU_INSTALLED_HENCORE2"] =					"H-Encore v2 ha sido instalado en"
-SPANISH["MENU_NOT_INSTALLED_HENCORE2"] =				"H-Encore v2 no ha sido instalado en"
-SPANISH["MENU_HENCORE2_PATCHED"] =						"¡H-Encore v2 ha sido parcheado!"
-SPANISH["MENU_HENCORE2_NOT_PATCHED"] =					"¡H-Encore v2 no ha sido parcheado!"
-SPANISH["MENU_HENCORE2_NOGAME"] =						"¡H-Encore debe estar instalado para actualizar a H-Encore v2!"
-
-SPANISH["MENU_QENCORE"] =           					"Instala Q-Encore de Yoti"
-SPANISH["MENU_QENCORE_DESC"] =           				"Lanzador rápido de H-Encore de Yoti (Atención: H-Encore debe estar ya instalado)"
-SPANISH["MENU_QENCORE_ASK"] =							"¿Debería Q-Encore ser instalado en"
-SPANISH["MENU_INSTALLED_QENCORE"] =						"Q-Encore ha sido instalado en"
-SPANISH["MENU_NOT_INSTALLED_QENCORE"] =					"Q-Encore no ha sido instalado en"
-SPANISH["MENU_QENCORE_PATCHED"] =						"¡Q-Encore ha sido parcheado!"
-SPANISH["MENU_QENCORE_NOT_PATCHED"] =					"¡Q-Encore no ha sido parcheado!"
-SPANISH["MENU_QENCORE_NOGAME"] =						"¡H-Encore debe estar instalado para ser parcheado con Q-Encore!"
-
 --install sd2vita
 SPANISH["MENU_TITLE_SD2VITA"] =							"Instala el plugin Storage Manager para usar una SD2VITA"
 SPANISH["SD2VITA_CONFIG_TITLE"] =						"Configura el Plugin Storage Manager para la SD2VITA"
@@ -117,7 +99,7 @@ SPANISH["INSTALLP_LR_SWAP"] =							"Para cambiar entre ux0/ur0"
 SPANISH["INSTALLP_CUSTOM_PATH"] =						"Instalar en ruta personalizada"
 
 SPANISH["INSTALLP_VITABRIGHT_360"] =					"Vitabright SOLO funciona en 3.60/3.68 H-Encore"
-SPANISH["INSTALLP_CWARNING_360_365"] =					"Custom Warning no funciona en 3.67/3.68"
+SPANISH["INSTALLP_CWARNING_360_365"] =					"Custom Warning no funciona en 3.67/3.68+"
 SPANISH["INSTALLP_QUESTION_SHELLSECBAT"] =				"\n               ¡Se detectó el Plugin shellsecbat!\n\n¿Instalar shellbat en su lugar y desinstalar shellsecbat?"
 SPANISH["INSTALLP_QUESTION_SHELLBAT"] =					"\n               ¡Se detectó el Plugin Shellbat!\n\n¿Instalar shellsecbat en su lugar y desinstalar shellbat?"
 
@@ -203,6 +185,7 @@ SPANISH["INSTALLP_DESC_NOPSMDRM"] =						"Permite evitar la protección DRM en e
 SPANISH["INSTALLP_DESC_VITABRIGHT"] =					"Permite usar una tabla de gamma personalizada, y así disminuir el brillo por debajo del mínimo, y aumentarlo por encima del máximo"
 SPANISH["INSTALLP_DESC_NOAVLS"] =						"Permite desactivar permanentemente AVLS en PS Vitas que no pueden desactivarlas (forzado)"
 SPANISH["INSTALLP_DESC_REPATCH"] =						"Permite la modificación (modding) de juegos encriptados (similar a ux0:patch) y permite parchear juegos para sobrepasar el firmware mínimo requerido"
+SPANISH["INSTALLP_DESC_REPATCH271"] =				    "Versión anterior de rePATCH que resuelve algunos problemas con la versión 3.0"
 SPANISH["INSTALLP_DESC_LOLICON"] =						"Permite verdadero overclocking (500mHz) a través de un plugin que corre en el kernel. Usar con cuidado, ya que puede dañar tu PS Vita debido a las consecuencias de usar overclocking"
 SPANISH["INSTALLP_DESC_DS3VITA"] =						"Controla tu PS Vita con un DualShock 3"
 SPANISH["INSTALLP_DESC_DS4VITA"] =						"Controla tu PS Vita con un DualShock 4"
@@ -223,9 +206,14 @@ SPANISH["INSTALLP_DESC_NOPSMWHITE"] =					"Desactiva el bloqueo de juegos de PSM
 SPANISH["INSTALLP_DESC_ANALOGSTICK"] =					"Plugin para desactivar completamente los analógicos de la PS Vita"
 SPANISH["INSTALLP_DESC_CIDSPOOF"] =						"Falsifica el CID(ConsoleID) en PS Vita (Puede ser usado posiblemente para desbanear la consola de PSN)"
 SPANISH["INSTALLP_DESC_REFOOD"] =						"Un Plugin de Vita para correr programas que no pueden ser desencriptados adecuadamente"
-SPANISH["INSTALLP_DESC_NOLED"] =					    "noled es un plugin simple que permite apagar el LED del botón home de la PS Vita"
+SPANISH["INSTALLP_DESC_NOLED"] =					    "noled es un plugin simple que permite apagar el LED del botón Home de la PS Vita"
 SPANISH["INSTALLP_DESC_NOSLEEP"] =						"Es solo un sencillo plugin de Vita para taiHEN/Enso que deshabilita el temporizador de suspensión"
 SPANISH["INSTALLP_DESC_BATFIX"] =						"Un pequeño plugin de kernel para Enso que arregla la mayoría de los problemas de PS Vita relacionados con la batería"
+SPANISH["INSTALLP_DESC_VIDEODBG"] =					    "Permite poner la App oficial de Video en modo Debug (añade funciones nuevas a la app oficial)"
+SPANISH["INSTALLP_DESC_NOPOWERL"] =					    "Plugin de kernel que elimina algunas restricciones impuestas por ScePower (Por ejemplo, poder tener 100% de brillo, uso de camara y WLAN en juegos que no lo permiten"
+SPANISH["INSTALLP_DESC_DERIN"] =					    "Visualización en pantalla de los relojes (frecuencia de los componentes) de la PS Vita"
+SPANISH["INSTALLP_DESC_LOLITA"] =					    "Ajusta el reloj de la PS Vita (procesador) al máximo todo el tiempo, y desactiva las limitaciones como brillo bajo y no Wi-Fi en juegos con más requerimientos"
+SPANISH["INSTALLP_DESC_LOLITA4"] =					    "Ajusta el reloj de la PS Vita (procesador) a 444mHz al máximo todo el tiempo, y desactiva las limitaciones como brillo bajo y no Wi-Fi en juegos con más requerimientos"
 
 --Boot_config.txt
 SPANISH["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =				"Este plugin puede mostrar una Imagen Personalizada en el arranque de PS Vita/PS TV. Requiere Enso"
@@ -240,12 +228,14 @@ SPANISH["INSTALLP_DESC_NOLOCKSCREEN"] =					"Desactiva la pantalla de bloqueo de
 SPANISH["INSTALLP_DESC_NOTROPHYMSG"] =					"Desactiva el mensaje que impide que ganes trofeos cuando inicia una aplicación que esté vinculada a una cuenta diferente. Útil si cambias constantemente de cuenta"
 SPANISH["INSTALLP_DESC_CUSTOMWARNING"] =				"Permite establecer un mensaje de advertencia personalizado en lugar de la advertencia de epilepsia cuando inicia PS Vita. Compatible solo con Enso"
 SPANISH["INSTALLP_DESC_SHELLBAT"] =						"Porcentaje de batería en la barra de estado"
+SPANISH["INSTALLP_DESC_SHELLBATM"] =					"Porcentaje de batería y dirección IP en la barra de estado"
 SPANISH["INSTALLP_DESC_SHELLSECBAT"] =					"Porcentaje de batería y segundos en la barra de estado: Fusión de ShellBat y LastSeconds"
 SPANISH["INSTALLP_DESC_PNGSHOT"] =						"pngshot es un plugin para hacer capturas de pantalla (.PNG). Además permite realizar capturas en juegos que no lo permiten nativamente"
 SPANISH["INSTALLP_DESC_VFLUX"] =						"Filtro de pantalla para PS Vita a traves de un plugin"
-SPANISH["INSTALLP_DESC_RESKYPE"] =						"Un plugin simplr que habilita la app de Skype en 3.65+"
+SPANISH["INSTALLP_DESC_RESKYPE"] =						"Un plugin simple que habilita la app de Skype en 3.65+"
 SPANISH["INSTALLP_DESC_AUTOBOOT"] =						"Este plugin permite que una aplicación se inicie automaticamente luego del inicio de Enso, similar a lo que solía hacer AutoStart en la PSP"
 SPANISH["INSTALLP_DESC_VITACOMPA"] =					"Plugin que facilita el desarrollo de homebrews y plugins en PS Vita"
+SPANISH["INSTALLP_DESC_VOLUPROF"] =			     		"Cambia automáticamente entre perfiles del volumen de los parlantes y el volumen de los audífonos, útil si quieres volumenes distintos al jugar con audífonos y con parlante"
 
 --ALL
 SPANISH["INSTALLP_DESC_VSHMENU"] =						"Un plugin con un menú estilo VHS para los juegos PS Vita y Homebrews"
@@ -266,6 +256,10 @@ SPANISH["INSTALLP_DESC_WDNR"] =						    "Desactivador del táctil trasero para 
 SPANISH["INSTALLP_DESC_WDNF"] =						    "Desactivador de la pantalla táctil (pantalla delantera)"
 SPANISH["INSTALLP_DESC_REMAPSV"] =						"remaPSV es un plugin de remapeo que te permite reasignar cada botón de la PS Vita, además de las zonas de la  pantalla y el táctil trasero  para botones extras"
 SPANISH["INSTALLP_DESC_FORCELANG"] =					"Plugin de taiHEN para cambiar el idioma de una aplicación"
+SPANISH["INSTALLP_DESC_SHOWINFO"] =				    	"Un simple plugin que muestra información como title_id, stitle y app_ver de la aplicación corriendo actualmente"
 
 --*NPXS10013
 SPANISH["INSTALLP_DESC_PS4LINK"] =			      		"Plugin de taiHEN que permite forzar la configuración de botones preferida en Juego Remoto (PS4)"
+
+--*NPXS10015 AND --*NPXS10016
+SPANISH["INSTALLP_DESC_MACSPOOF"] =			            "Plugin que permite falsificar la dirección MAC en el menú de Información de Sistema"
