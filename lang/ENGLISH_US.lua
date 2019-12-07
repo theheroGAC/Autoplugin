@@ -215,6 +215,7 @@ ENGLISH_US["INSTALLP_DESC_NOPOWERL"] =					"A PSVita kernel plugin that removes 
 ENGLISH_US["INSTALLP_DESC_DERIN"] =					    "Vita clocks OSD display."
 ENGLISH_US["INSTALLP_DESC_LOLITA"] =					"Sets your Vita's clocks to maximum all the time and disables limitations like low brightness and no Wi-Fi on intensive games."
 ENGLISH_US["INSTALLP_DESC_LOLITA4"] =					"Sets your Vita's clocks to 444 mhz all the time and disables limitations like low brightness and no Wi-Fi on intensive games."
+ENGLISH_US["INSTALLP_DESC_PSVSHELL"] =					"Yet another overclocking plugin"
 
 --Boot_config.txt
 ENGLISH_US["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =			"This plugin can display Boot Splash on PS Vita/PSTV at boot. Requires ENSO."
@@ -258,10 +259,14 @@ ENGLISH_US["INSTALLP_DESC_WDNF"] =					    "Disable front touchscreen."
 ENGLISH_US["INSTALLP_DESC_REMAPSV"] =					"remaPSV is a remap plugin allowing you to remap every single button of your PSVita and to map touch and reartouch zones to extra buttons."
 ENGLISH_US["INSTALLP_DESC_FORCELANG"] =					"A taiHEN plugin for overriding an application's language"
 ENGLISH_US["INSTALLP_DESC_SHOWINFO"] =					"Simple plugin that shows title_id, stitle and app_ver of the running application."
+ENGLISH_US["INSTALLP_DESC_SHOWINFOFU"] =					"Simple plugin that shows title_id, stitle and app_ver of the running application.(full version)"
 
 --*NPXS10013
 ENGLISH_US["INSTALLP_DESC_PS4LINK"] =			        "taiHEN plugin that allows to force preferred Remote Play button configuration"
 
 --*NPXS10015 AND --*NPXS10016
 ENGLISH_US["INSTALLP_DESC_MACSPOOF"] =			        "A plugin to spoof your MAC address in the System Information"
+
+--*NPXS10036
+ENGLISH_US["INSTALLP_DESC_RESCREENY"] =			        "Vita screenshots will be saved into a folder named after the game."
 
