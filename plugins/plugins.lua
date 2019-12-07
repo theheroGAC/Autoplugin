@@ -31,7 +31,7 @@ plugins = {
 { name = "Adrenaline by TheOfficialFloW (Fix double touch)", path = "adrenaline_kernel.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_ADRENALINE"], },
 { name = "DSMotion by OperationNT414C v1.2", path = "dsmotion.skprx", section = "KERNEL",  path2 = "dsmotion.suprx", section2 = "ALL", config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_DSMOTION"], },
 { name = "usbmc by yifanlu v6 (only for PSTV)", path = "usbmc.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_USBMC"], },
-{ name = "AnalogsEnhancer Mod by Rinnegatamante/Yoti v1.0", path = "AnalogsEnhancer.skprx", section = "KERNEL",  path2 = false, section2 = false, config = "AnaEnCfg.txt", configpath = "ur0:tai/", version = "0001", desc = LANGUAGE["INSTALLP_DESC_ANALOGSENHANCER"], },
+{ name = "AnalogsEnhancer by Rinnegatamante v1.1", path = "AnalogsEnhancer.skprx", section = "KERNEL",  path2 = false, section2 = false, config = "AnaEnCfg.txt", configpath = "ur0:tai/", version = "0001", desc = LANGUAGE["INSTALLP_DESC_ANALOGSENHANCER"], },
 { name = "ioplus by dots-tb v0.1", path = "ioplus.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_IOPLUS"], },
 { name = "Vitacheat Z05 BETA by r0ah FOR 3.65+", path = "vitacheat.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_VITACHEAT"], },
 { name = "Vitacheat Z05 BETA FOR 3.60", path = "vitacheat360.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_VITACHEAT2"], },
@@ -47,6 +47,7 @@ plugins = {
 { name = "DerInClocKS by teakhanirons v1.0", path = "derinclocks.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_DERIN"], },
 { name = "lolita500 by teakhanirons v1.0", path = "lolita500.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_LOLITA"], },
 { name = "lolita444 by teakhanirons v0.5", path = "lolita444.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_LOLITA4"], },
+{ name = "PSVshell by Electry v1.0", path = "PSVshell.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_PSVSHELL"], },
 
 --Boot_config.txt
 { name = "Custom Boot Splash by Princess of Sleeping", path = "custom_boot_splash.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_CUSTOMBOOTSPLASH"], },
@@ -86,7 +87,8 @@ plugins = {
 { name = "WDNF by EchoDev & Rinnegatamante v1.0", path = "WDNF.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_WDNF"], },
 { name = "remaPSV by Rinnegatamante v1.1", path = "remaPSV.suprx", section = "ALL",  path2 = "ioplus.skprx", section2 = "KERNEL", config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_REMAPSV"], },
 { name = "forcelang by xdanieldzd v0.2U", path = "forcelang.suprx", section = "ALL",  path2 = "ioplus.skprx", section2 = "KERNEL", config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_FORCELANG"], },
-{ name = "ShowInfo Lite by Yoti v0.1", path = "ShowInfoLite.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_SHOWINFO"], },
+{ name = "ShowInfo Lite by Yoti v0.2", path = "ShowInfoLite.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_SHOWINFO"], },
+{ name = "ShowInfo Full by Yoti v0.6", path = "ShowInfo.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_SHOWINFOFU"], },
 
 --*NPXS10013
 { name = "vita-ps4linkcontrols r7 by nowrep", path = "ps4linkcontrols.suprx", section = "NPXS10013",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_PS4LINK"], },
@@ -94,6 +96,8 @@ plugins = {
 --NPXS10015 and *NPXS10016
 { name = "vita-macspoofer by Freakler", path = "macspoofer.suprx", section = "NPXS10015",  path2 = "macspoofer.suprx", section2 = "NPXS10016", config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_MACSPOOF"], },
 
+--NPXS10036
+{ name = "reScreeny by dots_tb v1.0", path = "reScreeny.suprx", section = "NPXS10036",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_RESCREENY"], },
 
 
 }
