@@ -35,7 +35,6 @@ plugins = {
 { name = "ioplus by dots-tb v0.1", path = "ioplus.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_IOPLUS"], },
 { name = "Vitacheat Z05 BETA by r0ah FOR 3.65+", path = "vitacheat.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_VITACHEAT"], },
 { name = "Vitacheat Z05 BETA FOR 3.60", path = "vitacheat360.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_VITACHEAT2"], },
-{ name = "NoPSMWhitelist by SilicaAndPina v1.0 (only for PSTV)", path = "noPsmWhitelist.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_NOPSMWHITE"], },
 { name = "AnalogStickDisable by Hack-Usagi v1.2", path = "AnalogStickDisable.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_ANALOGSTICK"], },
 { name = "cidSpoofer by SilicaAndPina v1.0", path = "cidSpoof.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_CIDSPOOF"], },
 { name = "reF00D by FAPS Team v1.0", path = "reF00D.skprx", section = "KERNEL",  path2 = false, section2 = false, config = "keys.bin", version = "0001", desc = LANGUAGE["INSTALLP_DESC_REFOOD"], },
@@ -48,6 +47,7 @@ plugins = {
 { name = "lolita500 by teakhanirons v1.0", path = "lolita500.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_LOLITA"], },
 { name = "lolita444 by teakhanirons v0.5", path = "lolita444.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_LOLITA4"], },
 { name = "PSVshell by Electry v1.0", path = "PSVshell.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_PSVSHELL"], },
+{ name = "0syscall6 by SKGleba v1.1", path = "0syscall6.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_SYSCALL6"], },
 
 --Boot_config.txt
 { name = "Custom Boot Splash by Princess of Sleeping", path = "custom_boot_splash.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_CUSTOMBOOTSPLASH"], },
@@ -67,6 +67,7 @@ plugins = {
 { name = "Autoboot by Rinnegatamante v1.2 (only for 3.60/3.65)", path = "AutoBoot.suprx", section = "main",  path2 = false, section2 = false, config = false, configpath = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_AUTOBOOT"], },
 { name = "Vitacompanion by devnoname120 v1.00", path = "vitacompanion.suprx", section = "main",  path2 = false, section2 = false, config = false, configpath = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_VITACOMPA"], },
 { name = "volume_profile by cuevavirus v2.0.0", path = "jav.suprx", section = "main",  path2 = false, section2 = false, config = false, configpath = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_VOLUPROF"], },
+{ name = "DolcePolce by SilicaAndPina v1.0", path = "DolcePolce.suprx", section = "main",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_DOLCEPOLCE"], },
 
 --All
 { name = "PSV-VSH MENU by joel16 v3.4", path = "vsh.suprx", section = "ALL",  path2 = "kuio.skprx", section2 = "KERNEL", config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_VSHMENU"], },-- Need kuio.skprx
