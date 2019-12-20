@@ -203,7 +203,6 @@ ENGLISH_US["INSTALLP_DESC_ANALOGSENHANCER"] =			"This little kernel plugin allow
 ENGLISH_US["INSTALLP_DESC_IOPLUS"] = 					"A PSVita kernel plugin that allows more IO operations in userland"
 ENGLISH_US["INSTALLP_DESC_VITACHEAT"] =					"Use Cheats On PSVita Games only for 3.65/3.68"
 ENGLISH_US["INSTALLP_DESC_VITACHEAT2"] =				"Use Cheats On PSVita Games only for 3.60"
-ENGLISH_US["INSTALLP_DESC_NOPSMWHITE"] =				"Disables PSTV Whitelist for PSM Games"
 ENGLISH_US["INSTALLP_DESC_ANALOGSTICK"] =				"Plugin to completely disable PSVita's analog stick"
 ENGLISH_US["INSTALLP_DESC_CIDSPOOF"] =					"Spoof CID (ConsoleID) on PSVITA(Could possibly be used to unban your console from PSN)"
 ENGLISH_US["INSTALLP_DESC_REFOOD"] =					"A vita plugin to run programs that do not get decrypted properly."
@@ -216,6 +215,7 @@ ENGLISH_US["INSTALLP_DESC_DERIN"] =					    "Vita clocks OSD display."
 ENGLISH_US["INSTALLP_DESC_LOLITA"] =					"Sets your Vita's clocks to maximum all the time and disables limitations like low brightness and no Wi-Fi on intensive games."
 ENGLISH_US["INSTALLP_DESC_LOLITA4"] =					"Sets your Vita's clocks to 444 mhz all the time and disables limitations like low brightness and no Wi-Fi on intensive games."
 ENGLISH_US["INSTALLP_DESC_PSVSHELL"] =					"Yet another overclocking plugin"
+ENGLISH_US["INSTALLP_DESC_SYSCALL6"] =					"A tool that patches Playstation Vita's lv0's secure_kernel's syscall 6 (SELF/RVK checks)"
 
 --Boot_config.txt
 ENGLISH_US["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =			"This plugin can display Boot Splash on PS Vita/PSTV at boot. Requires ENSO."
@@ -238,6 +238,7 @@ ENGLISH_US["INSTALLP_DESC_RESKYPE"] =					"Just a simple plugin to enable the Sk
 ENGLISH_US["INSTALLP_DESC_AUTOBOOT"] =					"This plugin simply auto-launch an application right after enso startup like AutoStart used to do on PSP"
 ENGLISH_US["INSTALLP_DESC_VITACOMPA"] =					"Plugin to ease the development of homebrews and plugins on the PS Vita"
 ENGLISH_US["INSTALLP_DESC_VOLUPROF"] =					"Automatically switch between your preferred speaker and headphone volumes."
+ENGLISH_US["INSTALLP_DESC_DOLCEPOLCE"] =				"Removes PSTV Blacklist Checks (VITA/PSP/PS1/PSM)"
 
 --ALL
 ENGLISH_US["INSTALLP_DESC_VSHMENU"] =					"A VSH menu taiHEN plugin for the PS VITA games and homebrews"
