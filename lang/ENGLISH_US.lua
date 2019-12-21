@@ -216,6 +216,7 @@ ENGLISH_US["INSTALLP_DESC_LOLITA"] =					"Sets your Vita's clocks to maximum all
 ENGLISH_US["INSTALLP_DESC_LOLITA4"] =					"Sets your Vita's clocks to 444 mhz all the time and disables limitations like low brightness and no Wi-Fi on intensive games."
 ENGLISH_US["INSTALLP_DESC_PSVSHELL"] =					"Yet another overclocking plugin"
 ENGLISH_US["INSTALLP_DESC_SYSCALL6"] =					"A tool that patches Playstation Vita's lv0's secure_kernel's syscall 6 (SELF/RVK checks)"
+ENGLISH_US["INSTALLP_DESC_MONAURAL"] =					"Mono audio and channel balance for Playstation Vita(requires vpk of the application)."
 
 --Boot_config.txt
 ENGLISH_US["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =			"This plugin can display Boot Splash on PS Vita/PSTV at boot. Requires ENSO."
