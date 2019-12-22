@@ -47,9 +47,8 @@ plugins = {
 { name = "lolita500 by teakhanirons v1.0", path = "lolita500.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_LOLITA"], },
 { name = "lolita444 by teakhanirons v0.5", path = "lolita444.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_LOLITA4"], },
 { name = "PSVshell by Electry v1.1", path = "PSVshell.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_PSVSHELL"], },
-{ name = "0syscall6 by SKGleba v1.1", path = "0syscall6.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_SYSCALL6"], },
+{ name = "0syscall6 by SKGleba v1.2", path = "0syscall6.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_SYSCALL6"], },
 { name = "Monaural by cuevavirus v1.0.0", path = "monaural.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_MONAURAL"], },
-{ name = "ITLS-Enso by SKGleba v3.1", path = "itls.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_ITLSENSO"], },
 
 --Boot_config.txt
 { name = "Custom Boot Splash by Princess of Sleeping", path = "custom_boot_splash.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_CUSTOMBOOTSPLASH"], },
