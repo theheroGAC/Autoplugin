@@ -203,7 +203,6 @@ CHINESE_S["INSTALLP_DESC_ANALOGSENHANCER"] =			"这个小巧的内核插件允�
 CHINESE_S["INSTALLP_DESC_IOPLUS"] = 					"此 PSVita 内核插件允许在用户空间中进行更多的IO操作"
 CHINESE_S["INSTALLP_DESC_VITACHEAT"] =					"在 PSVita 游戏里使用金手指,适用于 3.65/3.68 版本系统"
 CHINESE_S["INSTALLP_DESC_VITACHEAT2"] =					"在 PSVita 游戏里使用金手指,适用于 3.60 版本系统"
-CHINESE_S["INSTALLP_DESC_NOPSMWHITE"] =				"为 PSTV 禁用 PSM 游戏白名单"
 CHINESE_S["INSTALLP_DESC_ANALOGSTICK"] =				"此插件用于彻底禁用 PSVita 摇杆"
 CHINESE_S["INSTALLP_DESC_CIDSPOOF"] =					"用于 PSV 伪装 CID (设备ID) (也许可以用于解除 PSN 对您设备的封锁)"
 CHINESE_S["INSTALLP_DESC_REFOOD"] =					"此插件用于运行无法正确解密的程序"
@@ -215,6 +214,9 @@ CHINESE_S["INSTALLP_DESC_NOPOWERL"] =					"用于移除 ScePower 施加的一些
 CHINESE_S["INSTALLP_DESC_DERIN"] =					    "Vita 频率 OSD 屏显"
 CHINESE_S["INSTALLP_DESC_LOLITA"] =					"将您的 Vita 频率一直设置为最大,并禁用密集型游戏中的限制,例如低亮度和断开 Wi-Fi 连接"
 CHINESE_S["INSTALLP_DESC_LOLITA4"] =					"将您的 Vita 频率一直设置为 444 mhz 并禁用密集型游戏中的限制,例如低亮度和断开 Wi-Fi 连接"
+CHINESE_S["INSTALLP_DESC_PSVSHELL"] =					"又一个超频插件"
+CHINESE_S["INSTALLP_DESC_SYSCALL6"] =					"修补PSV执行级别lv0的secure_kernel的系统调用6 (self文件版本检查与废弃检查)"
+CHINESE_S["INSTALLP_DESC_MONAURAL"] =					"Playstation Vita 的单声道音频和声道平衡 (需要安装该程序的 vpk)."
 
 --Boot_config.txt
 CHINESE_S["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =			"此插件将在 PS Vita/PSTV 启动时显示自定义启动画面. 需要 ENSO."
@@ -237,6 +239,7 @@ CHINESE_S["INSTALLP_DESC_RESKYPE"] =					"只需一个简单的插件即可在 3
 CHINESE_S["INSTALLP_DESC_AUTOBOOT"] =					"此插件令 ENSO 设备开机后自动运行应用程序.就像 AutoStart 在 PSP 上做的那样. "
 CHINESE_S["INSTALLP_DESC_VITACOMPA"] =					"此插件使 PSVita 自制软件和插件开发过程更轻松"
 CHINESE_S["INSTALLP_DESC_VOLUPROF"] =					"在您首选的扬声器和耳机音量之间自动切换"
+CHINESE_S["INSTALLP_DESC_DOLCEPOLCE"] =				"移除 PSTV 黑名单验证 (VITA/PSP/PS1/PSM)"
 
 --ALL
 CHINESE_S["INSTALLP_DESC_VSHMENU"] =					"用于 PS VITA 游戏和自制软件的 VSH 菜单插件"
@@ -246,7 +249,6 @@ CHINESE_S["INSTALLP_DESC_FRAMECOUNTER"] =				"这是一个用作刷新率计数�
 CHINESE_S["INSTALLP_DESC_VGI"] =						"一个简单的大变革插件.用于显示 PS Vita 游戏的实用信息"
 CHINESE_S["INSTALLP_DESC_FUCKPSSE"] =					"一个用于解密 PSM 游戏的插件"
 CHINESE_S["INSTALLP_DESC_PSMPATCH"] =					"允许您修改 PSM 游戏,也可用于加载 PSM 自制程序"
-CHINESE_S["INSTALLP_DESC_ITLSENSO"] =					"将 TLS v1.2 添加到启用 ENSO 的设备(需要安装该程序的 vpk)"
 CHINESE_S["INSTALLP_DESC_TROPHAX"] =					"PSVITA 通用奖杯解锁器"
 CHINESE_S["INSTALLP_DESC_TURBOPAD"] =					"这个插件允许您为任何按钮启用连发"
 CHINESE_S["INSTALLP_DESC_RESCALER"] =					"这个插件取代了 PSVITA 的原始缩放器,允许以非原生分辨率运行的游戏通过使用着色器过滤来获得图形改进. "
@@ -258,10 +260,14 @@ CHINESE_S["INSTALLP_DESC_WDNF"] =					    "禁用前置触屏"
 CHINESE_S["INSTALLP_DESC_REMAPSV"] =					"remaPSV 是一个重映射插件,允许您重新映射 PSVita 的每个按钮,并将触屏和后置触摸区域映射为额外的按钮. "
 CHINESE_S["INSTALLP_DESC_FORCELANG"] =					"用于覆盖应用程序语言设置的大变革插件"
 CHINESE_S["INSTALLP_DESC_SHOWINFO"] =					"显示正在运行的应用程序的 title_id, stitle 和 app_ver 信息的简单插件. "
+CHINESE_S["INSTALLP_DESC_SHOWINFOFU"] =					"显示正在运行的应用程序的 title_id, stitle 和 app_ver 信息的简单插件.(完整版)"
 
 --*NPXS10013
 CHINESE_S["INSTALLP_DESC_PS4LINK"] =			        "大变革插件,用于强制选择喜欢的遥控操作按键配置方案. "
 
 --*NPXS10015 AND --*NPXS10016
 CHINESE_S["INSTALLP_DESC_MACSPOOF"] =			        "用于欺骗系统信息中 MAC 地址的插件"
+
+--*NPXS10036
+CHINESE_S["INSTALLP_DESC_RESCREENY"] =			        "Vita 截屏将保存在以游戏命名的文件夹里."
 
