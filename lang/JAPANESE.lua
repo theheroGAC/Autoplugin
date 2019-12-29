@@ -1,6 +1,6 @@
 JAPANESE = {}
 
---Japanese translation of Autoplugin version 4.14
+--Japanese translation of Autoplugin version 4.16
 
 JAPANESE["UPDATER_AVAILABLE"] =			"が利用可能になりました"
 JAPANESE["UPDATER_UPDATE"] =			"アプリケーションの更新をしますか?"
@@ -195,7 +195,12 @@ JAPANESE["INSTALLP_DESC_IOPLUS"] = 		"ユーザランドでより多くのIO操�
 JAPANESE["INSTALLP_DESC_VITACHEAT"] =		"FW3.65・FW3.68向けPS Vitaのゲームでチートを使用"
 JAPANESE["INSTALLP_DESC_VITACHEAT2"] =		"FW3.60向けPS Vitaのゲームでチートを使用"
 JAPANESE["INSTALLP_DESC_ANALOGSTICK"] =		"アナログスティックを無効化するプラグイン"
-JAPANESE["INSTALLP_DESC_CIDSPOOF"] =		"PS VitaのなりすましCID (PSNからコンソールの禁止を解除する為に使用される可能性があります)"
+JAPANESE["INSTALLP_DESC_ANALOGSTICK1"] =		"左アナログスティック操作を右アナログスティックに割り当て"
+JAPANESE["INSTALLP_DESC_ANALOGSTICK2"] =		"右アナログスティック操作を左アナログスティックに割り当て"
+JAPANESE["INSTALLP_DESC_ANALOGSTICK3"] =		"左右のアナログスティックの動作を入れ替え"
+JAPANESE["INSTALLP_DESC_ANALOGSTICK4"] =		"左アナログスティックを無効"
+JAPANESE["INSTALLP_DESC_ANALOGSTICK5"] =		"右アナログスティックを無効"
+JAPANESE["INSTALLP_DESC_CIDSPOOF"] =		"なりすましCID (PSNからコンソールの禁止を解除する為に使用される可能性があります)"
 JAPANESE["INSTALLP_DESC_REFOOD"] =		"復号化されていないプログラムを実行する為のPS Vitaプラグイン"
 JAPANESE["INSTALLP_DESC_NOLED"] =		"ホームボタンを無効にする為のプラグイン"
 JAPANESE["INSTALLP_DESC_NOSLEEP"] =		"スリープタイマーを無効にするtaiHEN・Enso向けのプラグイン"
