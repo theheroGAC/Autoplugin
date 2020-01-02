@@ -245,6 +245,7 @@ ENGLISH_US["INSTALLP_DESC_AUTOBOOT"] =					"This plugin simply auto-launch an ap
 ENGLISH_US["INSTALLP_DESC_VITACOMPA"] =					"Plugin to ease the development of homebrews and plugins on the PS Vita"
 ENGLISH_US["INSTALLP_DESC_VOLUPROF"] =					"Automatically switch between your preferred speaker and headphone volumes."
 ENGLISH_US["INSTALLP_DESC_DOLCEPOLCE"] =				"Removes PSTV Blacklist Checks (VITA/PSP/PS1/PSM)"
+ENGLISH_US["INSTALLP_DESC_LOWMEMMODE"] =				"Launch system applications with enlarged memory game in the background"
 
 --ALL
 ENGLISH_US["INSTALLP_DESC_VSHMENU"] =					"A VSH menu taiHEN plugin for the PS VITA games and homebrews"
