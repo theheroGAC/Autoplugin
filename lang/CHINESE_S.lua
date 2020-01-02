@@ -245,6 +245,7 @@ CHINESE_S["INSTALLP_DESC_AUTOBOOT"] =					"此插件令 ENSO 设备开机后自�
 CHINESE_S["INSTALLP_DESC_VITACOMPA"] =					"此插件使 PSVita 自制软件和插件开发过程更轻松"
 CHINESE_S["INSTALLP_DESC_VOLUPROF"] =					"在您首选的扬声器和耳机音量之间自动切换"
 CHINESE_S["INSTALLP_DESC_DOLCEPOLCE"] =				"移除 PSTV 黑名单验证 (VITA/PSP/PS1/PSM)"
+CHINESE_S["INSTALLP_DESC_LOWMEMMODE"] =				"启动系统程序的同时保持后台运行大内存占用游戏"
 
 --ALL
 CHINESE_S["INSTALLP_DESC_VSHMENU"] =					"用于 PS VITA 游戏和自制软件的 VSH 菜单插件"
