@@ -54,7 +54,7 @@ plugins = {
 { name = "PSVshell by Electry v1.1", path = "PSVshell.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_PSVSHELL"], },
 { name = "0syscall6 by SKGleba v1.2", path = "0syscall6.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_SYSCALL6"], },
 { name = "Monaural by cuevavirus v1.0.0", path = "monaural.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_MONAURAL"], },
-{ name = "Music Premium v1.0.1 by cuevavirus v1.0.0", path = "music_premium.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_MUPREMIUM"], },
+{ name = "Music Premium by cuevavirus v1.0.1", path = "music_premium.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_MUPREMIUM"], },
 
 --Boot_config.txt
 { name = "Custom Boot Splash by Princess of Sleeping", path = "custom_boot_splash.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_CUSTOMBOOTSPLASH"], },
