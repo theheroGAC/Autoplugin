@@ -222,6 +222,7 @@ CHINESE_S["INSTALLP_DESC_LOLITA4"] =					"将您的 Vita 频率一直设置为 4
 CHINESE_S["INSTALLP_DESC_PSVSHELL"] =					"又一个超频插件"
 CHINESE_S["INSTALLP_DESC_SYSCALL6"] =					"修补PSV执行级别lv0的secure_kernel的系统调用6 (self文件版本检查与废弃检查)"
 CHINESE_S["INSTALLP_DESC_MONAURAL"] =					"Playstation Vita 的单声道音频和声道平衡 (需要安装该程序的 vpk)."
+CHINESE_S["INSTALLP_DESC_MUPREMIUM"] =					"为任何游戏或应用程序启用音乐后台播放."
 
 --Boot_config.txt
 CHINESE_S["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =			"此插件将在 PS Vita/PSTV 启动时显示自定义启动画面. 需要 ENSO."
