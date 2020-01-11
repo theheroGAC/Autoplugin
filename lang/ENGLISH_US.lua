@@ -267,7 +267,8 @@ ENGLISH_US["INSTALLP_DESC_WDNF"] =					    "Disable front touchscreen."
 ENGLISH_US["INSTALLP_DESC_REMAPSV"] =					"remaPSV is a remap plugin allowing you to remap every single button of your PSVita and to map touch and reartouch zones to extra buttons."
 ENGLISH_US["INSTALLP_DESC_FORCELANG"] =					"A taiHEN plugin for overriding an application's language"
 ENGLISH_US["INSTALLP_DESC_SHOWINFO"] =					"Simple plugin that shows title_id, stitle and app_ver of the running application."
-ENGLISH_US["INSTALLP_DESC_SHOWINFOFU"] =					"Simple plugin that shows title_id, stitle and app_ver of the running application.(full version)"
+ENGLISH_US["INSTALLP_DESC_SHOWINFOFU"] =				"Simple plugin that shows title_id, stitle and app_ver of the running application.(full version)"
+ENGLISH_US["INSTALLP_DESC_MODALVOL"] =				    "This pack consits of applications to control system audio volume on PS vita in real time without closing games"
 
 --*NPXS10013
 ENGLISH_US["INSTALLP_DESC_PS4LINK"] =			        "taiHEN plugin that allows to force preferred Remote Play button configuration"
