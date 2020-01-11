@@ -40,6 +40,8 @@ function plugins_installation(sel)
 				end
 			elseif plugins[sel].path == "vitastick.skprx" and not game.exists("VITASTICK") then
 				game.install("resources/plugins/vitastick.vpk")
+		    elseif plugins[sel].path == "ModalVol.suprx" and not game.exists("MODALVOLM") then
+				game.install("resources/plugins/VolumeControl.vpk")
 			end
 
 			if install then

@@ -54,7 +54,7 @@ plugins = {
 { name = "PSVshell by Electry v1.1", path = "PSVshell.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_PSVSHELL"], },
 { name = "0syscall6 by SKGleba v1.2", path = "0syscall6.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_SYSCALL6"], },
 { name = "Monaural by cuevavirus v1.0.0", path = "monaural.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_MONAURAL"], },
-{ name = "Music Premium by cuevavirus v1.0.1", path = "music_premium.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_MUPREMIUM"], },
+{ name = "Music Premium by cuevavirus v1.0.3", path = "music_premium.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_MUPREMIUM"], },
 
 --Boot_config.txt
 { name = "Custom Boot Splash by Princess of Sleeping", path = "custom_boot_splash.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_CUSTOMBOOTSPLASH"], },
@@ -97,6 +97,7 @@ plugins = {
 { name = "forcelang by xdanieldzd v0.2U", path = "forcelang.suprx", section = "ALL",  path2 = "ioplus.skprx", section2 = "KERNEL", config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_FORCELANG"], },
 { name = "ShowInfo Lite by Yoti v0.2", path = "ShowInfoLite.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_SHOWINFO"], },
 { name = "ShowInfo Full by Yoti v0.6", path = "ShowInfo.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_SHOWINFOFU"], },
+{ name = "Volume Control Pack by GrapheneCt v1.0", path = "ModalVol.suprx", section = "ALL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_MODALVOL"], },
 
 --*NPXS10013
 { name = "vita-ps4linkcontrols r7 by nowrep", path = "ps4linkcontrols.suprx", section = "NPXS10013",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_PS4LINK"], },
