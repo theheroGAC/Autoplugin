@@ -54,7 +54,7 @@ plugins = {
 { name = "PSVshell by Electry v1.1", path = "PSVshell.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_PSVSHELL"], },
 { name = "0syscall6 by SKGleba v1.2", path = "0syscall6.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_SYSCALL6"], },
 { name = "Monaural by cuevavirus v1.0.0", path = "monaural.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_MONAURAL"], },
-{ name = "Music Premium by cuevavirus v1.0.3", path = "music_premium.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_MUPREMIUM"], },
+{ name = "Music Premium by cuevavirus v1.0.4", path = "music_premium.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_MUPREMIUM"], },
 
 --Boot_config.txt
 { name = "Custom Boot Splash by Princess of Sleeping", path = "custom_boot_splash.skprx", section = "KERNEL",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_CUSTOMBOOTSPLASH"], },
@@ -76,6 +76,9 @@ plugins = {
 { name = "volume_profile by cuevavirus v2.0.0", path = "jav.suprx", section = "main",  path2 = false, section2 = false, config = false, configpath = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_VOLUPROF"], },
 { name = "DolcePolce by SilicaAndPina v1.0", path = "DolcePolce.suprx", section = "main",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_DOLCEPOLCE"], },
 { name = "LowMemMode by GrapheneCt v1.0", path = "LowMemMode.suprx", section = "main",  path2 = false, section2 = false, config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_LOWMEMMODE"], },
+{ name = "Quick Power by cuevavirus v1.0.0", path = "quick_power.suprx", section = "main",  path2 = false, section2 = false, config = false, configpath = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_QUICKPOWER"], },
+{ name = "Quick Volume by cuevavirus v1.1.0", path = "quick_volume.suprx", section = "main",  path2 = false, section2 = false, config = false, configpath = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_QUICKVOLUME"], },
+{ name = "QAscreenshot by GrapheneCt v1.1", path = "QAscreenshot.suprx", section = "main",  path2 = false, section2 = false, config = false, configpath = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_QASCREEN"], },
 
 --All
 { name = "PSV-VSH MENU by joel16 v3.4", path = "vsh.suprx", section = "ALL",  path2 = "kuio.skprx", section2 = "KERNEL", config = false, version = "0001", desc = LANGUAGE["INSTALLP_DESC_VSHMENU"], },-- Need kuio.skprx
