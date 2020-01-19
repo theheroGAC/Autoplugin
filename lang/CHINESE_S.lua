@@ -247,6 +247,9 @@ CHINESE_S["INSTALLP_DESC_VITACOMPA"] =					"此插件使 PSVita 自制软件和�
 CHINESE_S["INSTALLP_DESC_VOLUPROF"] =					"在您首选的扬声器和耳机音量之间自动切换"
 CHINESE_S["INSTALLP_DESC_DOLCEPOLCE"] =				"移除 PSTV 黑名单验证 (VITA/PSP/PS1/PSM)"
 CHINESE_S["INSTALLP_DESC_LOWMEMMODE"] =				"启动系统程序的同时保持后台运行大内存占用游戏"
+CHINESE_S["INSTALLP_DESC_QUICKPOWER"] =				"关机,重启和暂停,均通过快捷菜单操作完成.适用于 PSVita 以及 PSTV.按住 Power Off(关机) 按钮即可重启."
+CHINESE_S["INSTALLP_DESC_QUICKVOLUME"] =				"从 PSVita 快捷菜单更改音量,就像在 PSTV 上那样."
+CHINESE_S["INSTALLP_DESC_QASCREEN"] =				    "适用于 PSVita 的高质量截屏插件.解锁 QA 截屏的本地 SceShell 实现."
 
 --ALL
 CHINESE_S["INSTALLP_DESC_VSHMENU"] =					"用于 PSVita 游戏和自制软件的 VSH 菜单插件"
