@@ -10,23 +10,26 @@ local scr_flip = screen.flip
 function screen.flip()
 	scr_flip()
 	if UPDATE_PORT:available() > 0 then
+		local url = UPDATE_PORT:pop()
 
-		local version = UPDATE_PORT:pop()
-		local major = (version >> 0x18) & 0xFF;
-		local minor = (version >> 0x10) & 0xFF;
+		if not url then return end
+
 		update = image.load("git/updater/update.png")
 
 		if update then update:blit(0,0)
 		elseif back then back:blit(0,0) end
 		screen.flip()
 
-		if os.message("\n"..string.format("    %s v %s", APP_PROJECT, string.format("%X.%02X ",major, minor)..(LANGUAGE["UPDATER_AVAILABLE"]).."\n\n"..(LANGUAGE["UPDATER_UPDATE"])), 1) == 1 then
+		local version = files.nopath(files.nofile(url))
+		version = version:gsub("/","  ")
+		if not version then version = "UNK" end
+
+		if os.message("\n"..string.format("%s v %s", APP_PROJECT, version..(LANGUAGE["UPDATER_AVAILABLE"]).."\n\n"..(LANGUAGE["UPDATER_UPDATE"])), 1) == 1 then
 			buttons.homepopup(0)
 
 			if update then update:blit(0,0)
 			elseif back then back:blit(0,0) end
 
-			local url = string.format("https://github.com/%s/%s/releases/download/%s/%s", APP_REPO, APP_PROJECT, string.format("%X.%02X",major, minor), APP_PROJECT..".vpk")
 			local path = "ux0:data/"..APP_PROJECT..".vpk"
 			local onAppInstallOld = onAppInstall
 			function onAppInstall(step, size_argv, written, file, totalsize, totalwritten)
@@ -48,7 +51,7 @@ function screen.flip()
 				return 1;
 			end
 			local res = http.download(url, path)
-			if res then -- Success!
+			if res and files.exists(path) then -- Success!
 				files.mkdir("ux0:/data/1luapkg")
 				files.copy("eboot.bin","ux0:/data/1luapkg")
 				files.copy("git/updater/script.lua","ux0:/data/1luapkg/")
@@ -56,7 +59,7 @@ function screen.flip()
 				files.copy("git/updater/param.sfo","ux0:/data/1luapkg/sce_sys/")
 				game.installdir("ux0:/data/1luapkg")
 				files.delete("ux0:/data/1luapkg")
-				game.launch(string.format("ONEUPDATE&%s&%s",os.titleid(),path)) -- Goto installer extern!
+				game.launch(string.format("ONEUPDATE&%s&%s", "AUTOPLUG2", path)) -- Goto installer extern!
 			end
 			onAppInstall = onAppInstallOld
 			onNetGetFile = onNetGetFileOld
