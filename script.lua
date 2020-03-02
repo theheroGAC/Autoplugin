@@ -9,6 +9,10 @@
 	Collaborators: BaltazaR4 & Wzjk.
 ]]
 
+if files.exists("ux0:/app/ONEUPDATE") then
+	game.delete("ONEUPDATE") -- Exists delete update app
+end
+
 --Activamos Paleta de Colores Precargados
 color.loadpalette()
 
@@ -52,7 +56,9 @@ fnt = font.load("ux0:data/AUTOPLUGIN/font/font.pgf") or font.load("ux0:data/AUTO
 if fnt then	font.setdefault(fnt) end
 
 --Updater
-dofile("git/updater.lua")
+if not game.exists("AUTOPLUG2") then
+	dofile("git/updater.lua")
+end
 
 --Init load configs
 tai.load()

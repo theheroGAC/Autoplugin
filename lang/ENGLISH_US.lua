@@ -204,6 +204,11 @@ ENGLISH_US["INSTALLP_DESC_IOPLUS"] = 					"A PSVita kernel plugin that allows mo
 ENGLISH_US["INSTALLP_DESC_VITACHEAT"] =					"Use Cheats On PSVita Games only for 3.65/3.68"
 ENGLISH_US["INSTALLP_DESC_VITACHEAT2"] =				"Use Cheats On PSVita Games only for 3.60"
 ENGLISH_US["INSTALLP_DESC_ANALOGSTICK"] =				"Plugin to completely disable PSVita's analog stick"
+ENGLISH_US["INSTALLP_DESC_ANALOGSTICK1"] =				"Assign Vita's left stick operation to right stick"
+ENGLISH_US["INSTALLP_DESC_ANALOGSTICK2"] =				"Assign Vita's Right stick operation to Left stick"
+ENGLISH_US["INSTALLP_DESC_ANALOGSTICK3"] =				"Swap the operation of Vita's left and right analog graphics"
+ENGLISH_US["INSTALLP_DESC_ANALOGSTICK4"] =				"Disable PSVITA left analog stick"
+ENGLISH_US["INSTALLP_DESC_ANALOGSTICK5"] =				"Disable PSVITA Right analog stick"
 ENGLISH_US["INSTALLP_DESC_CIDSPOOF"] =					"Spoof CID (ConsoleID) on PSVITA(Could possibly be used to unban your console from PSN)"
 ENGLISH_US["INSTALLP_DESC_REFOOD"] =					"A vita plugin to run programs that do not get decrypted properly."
 ENGLISH_US["INSTALLP_DESC_NOLED"] =					    "noled is a simple plugin to turn off the home button led of PS Vita."
@@ -216,6 +221,8 @@ ENGLISH_US["INSTALLP_DESC_LOLITA"] =					"Sets your Vita's clocks to maximum all
 ENGLISH_US["INSTALLP_DESC_LOLITA4"] =					"Sets your Vita's clocks to 444 mhz all the time and disables limitations like low brightness and no Wi-Fi on intensive games."
 ENGLISH_US["INSTALLP_DESC_PSVSHELL"] =					"Yet another overclocking plugin"
 ENGLISH_US["INSTALLP_DESC_SYSCALL6"] =					"A tool that patches Playstation Vita's lv0's secure_kernel's syscall 6 (SELF/RVK checks)"
+ENGLISH_US["INSTALLP_DESC_MONAURAL"] =					"Mono audio and channel balance for Playstation Vita(requires vpk of the application)."
+ENGLISH_US["INSTALLP_DESC_MUPREMIUM"] =					"Enable background music play for any game or application."
 
 --Boot_config.txt
 ENGLISH_US["INSTALLP_DESC_CUSTOMBOOTSPLASH"] =			"This plugin can display Boot Splash on PS Vita/PSTV at boot. Requires ENSO."
@@ -239,6 +246,10 @@ ENGLISH_US["INSTALLP_DESC_AUTOBOOT"] =					"This plugin simply auto-launch an ap
 ENGLISH_US["INSTALLP_DESC_VITACOMPA"] =					"Plugin to ease the development of homebrews and plugins on the PS Vita"
 ENGLISH_US["INSTALLP_DESC_VOLUPROF"] =					"Automatically switch between your preferred speaker and headphone volumes."
 ENGLISH_US["INSTALLP_DESC_DOLCEPOLCE"] =				"Removes PSTV Blacklist Checks (VITA/PSP/PS1/PSM)"
+ENGLISH_US["INSTALLP_DESC_LOWMEMMODE"] =				"Launch system applications with enlarged memory game in the background"
+ENGLISH_US["INSTALLP_DESC_QUICKPOWER"] =				"Power off, reboot, and suspend, all from the quick menu. For both Playstation Vita and Playstation TV. Hold the Power Off button to reboot."
+ENGLISH_US["INSTALLP_DESC_QUICKVOLUME"] =				"Change volume from the quick menu on the Playstation Vita, just like on the Playstation TV."
+ENGLISH_US["INSTALLP_DESC_QASCREEN"] =				    "High quality screenshot plugin for PS Vita. Unlocks native QA screenshot SceShell implementation."
 
 --ALL
 ENGLISH_US["INSTALLP_DESC_VSHMENU"] =					"A VSH menu taiHEN plugin for the PS VITA games and homebrews"
@@ -248,7 +259,6 @@ ENGLISH_US["INSTALLP_DESC_FRAMECOUNTER"] =				"This is a little plugin that work
 ENGLISH_US["INSTALLP_DESC_VGI"] =						"A simple taihen plugin that prints useful information about PS Vita games."
 ENGLISH_US["INSTALLP_DESC_FUCKPSSE"] =					"A plugin to decrypt PSM games"
 ENGLISH_US["INSTALLP_DESC_PSMPATCH"] =					"Allows you to modify PSM Games, and also can be used to load PSM Homebrew."
-ENGLISH_US["INSTALLP_DESC_ITLSENSO"] =					"Adds TLS v1.2 to Enso enabled devices for 3.60/3.65(requires vpk of the application)."
 ENGLISH_US["INSTALLP_DESC_TROPHAX"] =					"Universal trophy unlocker for PSVITA."
 ENGLISH_US["INSTALLP_DESC_TURBOPAD"] =					"This plugin allows you to enable RapidFire on whatever button."
 ENGLISH_US["INSTALLP_DESC_RESCALER"] =					"This plugin replaces the original rescaler for PSVITA with a new one allowing games running at non-native resolution to get graphics improvements thanks to filtering with shaders."
@@ -260,7 +270,8 @@ ENGLISH_US["INSTALLP_DESC_WDNF"] =					    "Disable front touchscreen."
 ENGLISH_US["INSTALLP_DESC_REMAPSV"] =					"remaPSV is a remap plugin allowing you to remap every single button of your PSVita and to map touch and reartouch zones to extra buttons."
 ENGLISH_US["INSTALLP_DESC_FORCELANG"] =					"A taiHEN plugin for overriding an application's language"
 ENGLISH_US["INSTALLP_DESC_SHOWINFO"] =					"Simple plugin that shows title_id, stitle and app_ver of the running application."
-ENGLISH_US["INSTALLP_DESC_SHOWINFOFU"] =					"Simple plugin that shows title_id, stitle and app_ver of the running application.(full version)"
+ENGLISH_US["INSTALLP_DESC_SHOWINFOFU"] =				"Simple plugin that shows title_id, stitle and app_ver of the running application.(full version)"
+ENGLISH_US["INSTALLP_DESC_MODALVOL"] =				    "This pack consits of applications to control system audio volume on PS vita in real time without closing games"
 
 --*NPXS10013
 ENGLISH_US["INSTALLP_DESC_PS4LINK"] =			        "taiHEN plugin that allows to force preferred Remote Play button configuration"
